@@ -36,7 +36,7 @@ try {
   const paused = await page.locator('#timeline-month').innerText();
   await page.waitForTimeout(1600);
   await expect(page.locator('#timeline-month')).toHaveText(paused);
-  await expect(page.locator('.geo-totals')).toHaveText(geography);
+  await expect(page.locator('.geo-totals')).toHaveText(geography, { useInnerText: true });
   await page.locator('#geo-source').click();
   await expect(page.getByRole('dialog')).toBeVisible();
   await page.keyboard.press('Escape');
