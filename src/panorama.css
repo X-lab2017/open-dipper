@@ -5,3 +5,12 @@
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
 
 @media(min-width:761px){.left-rail,.right-rail{overflow-y:auto;overflow-x:hidden;pointer-events:auto;scrollbar-width:thin;scrollbar-color:#234353 transparent}}
+
+@media(max-width:760px){
+  .observatory{padding-bottom:20px}
+  #earth{position:absolute;max-height:none}
+  .space-vignette{position:absolute;height:620px;bottom:auto}
+  .left-rail,.right-rail{overflow:visible}
+  .timeline{position:relative;left:auto;right:auto;bottom:auto;width:calc(100% - 28px);margin:14px;height:76px;box-shadow:none}
+  .bottom-attribution{padding-bottom:12px}
+}

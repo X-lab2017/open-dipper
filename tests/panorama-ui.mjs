@@ -13,6 +13,7 @@ try {
   await page.screenshot({ path: 'screenshots/panorama-desktop.png', fullPage: true });
   await page.locator('#map-mode').click();
   await expect(page.locator('#map-mode')).toHaveClass('active');
+  await page.screenshot({ path: 'screenshots/panorama-map-desktop.png', fullPage: true });
   await page.locator('#globe-mode').click();
   await expect(page.locator('#globe-mode')).toHaveClass('active');
   await page.locator('[data-country]').first().click();
@@ -50,6 +51,14 @@ try {
   await page.setViewportSize({ width: 390, height: 844 });
   await expect.poll(() => page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
   await expect(page.locator('#earth')).toBeVisible();
+  await expect(page.locator('.timeline')).toHaveCSS('position', 'relative');
+  await page.locator('.focus-panel').scrollIntoViewIfNeeded();
+  await expect(page.locator('.focus-panel')).toBeVisible();
+  await page.locator('#repo-source').click();
+  await expect(page.getByRole('dialog')).toBeVisible();
+  await page.locator('.modal-close').click();
+  await page.screenshot({ path: 'screenshots/panorama-mobile-cards.png' });
+  await page.evaluate(() => scrollTo(0, 0));
   await page.screenshot({ path: 'screenshots/panorama-mobile.png', fullPage: true });
   await page.locator('#about').click();
   await expect(page.getByRole('dialog')).toBeVisible();
