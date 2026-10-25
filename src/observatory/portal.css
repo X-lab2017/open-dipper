@@ -252,6 +252,7 @@
   .signal-grid{grid-template-columns:1fr}.signal-card{padding:18px}.signal-title h3{font-size:16px}.signal-card>p{font-size:12px}
   .subscription-intro{grid-template-columns:1fr}.brief-teaser{min-height:330px;padding:24px}.brief-teaser h2{font-size:27px}
   .preference-topics{grid-template-columns:1fr 1fr}.preference-topics button{font-size:11px;padding:10px}.preference-panel{padding:22px}
+  .membership-table{min-width:0;table-layout:fixed;font-size:11px}.membership-table th,.membership-table td{padding:12px 5px;overflow-wrap:anywhere}.membership-table th:first-child,.membership-table td:first-child{width:42%}.membership-table th:nth-child(2),.membership-table th:nth-child(3){font-size:15px}
   .membership-section{padding:18px 14px}.membership-section .section-title{flex-wrap:wrap}.section-title h2{font-size:18px}
   .portal-bottom-grid{grid-template-columns:1fr}.portal-box{padding:22px}.portal-box h3{font-size:17px}
   .following-layout{grid-template-columns:1fr}.following-layout .preference-topics{grid-template-columns:1fr 1fr}

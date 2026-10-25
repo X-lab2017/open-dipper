@@ -1,6 +1,6 @@
 # Execution plan: AI and open-source intelligence portal
 
-- Execution state: active
+- Execution state: completed
 - Issue: [#14](https://github.com/X-lab2017/open-dipper/issues/14)
 - Baseline: `90cd5b4`, main; initially clean.
 - Last meaningful update: 2026-10-25
@@ -33,9 +33,9 @@ Read AGENTS, STATUS, DEVELOPMENT, DECISIONS, VISUAL_SYSTEM, ARCHITECTURE and DAT
 | --- | --- | --- |
 | Data boundaries and local state | Node tests | Passed: 10 new intelligence cases; all existing deterministic checks also pass |
 | Build and documentation | typecheck, test, build | Passed locally on Node 24; docs and visual generators current |
-| Navigation, interaction, accessibility and layout | Chromium browser suites + screenshot review | Manual preview: overview, radar, source/demo details, map location, sample brief and local preferences verified. Automated Chromium acceptance runs in CI before deployment. |
-| Production delivery | Actions and deployed Pages | Pending |
+| Navigation, interaction, accessibility and layout | Chromium browser suites + screenshot review | Passed: all four Chromium suites in [CI 40163939827](https://github.com/X-lab2017/open-dipper/actions/runs/40163939827), including 390/768/1280/1920 portal layouts and up to 4K overview checks; manual preview and production screenshots reviewed. |
+| Production delivery | Actions and deployed Pages | Passed: [implementation 4a989df](https://github.com/X-lab2017/open-dipper/commit/4a989dfa91924abb857ea0b6c9ea97ec130a3d06), successful Pages job and [live portal](https://www.x-lab.info/open-dipper/) checked |
 
 ## Resume / follow-up
 
-Framework implementation and documentation are complete. Publish the tested tree without replacing concurrent data snapshots, then record the actual CI/deployment evidence in #14. Follow-up work is split into #15–#19. Existing issues #4–#13 remain open; this delivery does not claim to complete their data/reliability scope.
+Framework implementation, documentation and production deployment are complete. Concurrent bot snapshots were preserved. Follow-up screenshot archival and a mobile table-fit refinement receive their own CI before final handoff; #14 records the latest result. Follow-up work is split into #15–#19. Existing issues #4–#13 remain open; this delivery does not claim to complete their data/reliability scope.

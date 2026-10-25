@@ -61,7 +61,10 @@ try{
     for(const route of ['radar','briefing','following','contribute','ecosystem']){
       await page.goto(`${base}#${route}`);await expect(page.locator('#portal-title')).toBeVisible();
       await expect.poll(()=>page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
-      if(width===390&&route==='briefing')await page.screenshot({path:'screenshots/portal-mobile-subscription.png',fullPage:true});
+      if(width===390&&route==='briefing'){
+        await expect.poll(()=>page.locator('.membership-table-wrap').evaluate(el=>el.scrollWidth<=el.clientWidth)).toBe(true);
+        await page.screenshot({path:'screenshots/portal-mobile-subscription.png',fullPage:true});
+      }
     }
   }
   await page.setViewportSize({width:1440,height:1000});await page.goto(`${base}#radar`);

@@ -7,9 +7,9 @@
 
 [进入观测站](https://www.x-lab.info/open-dipper/) · [路线图](ROADMAP.zh-CN.md) · [提出需求](https://github.com/X-lab2017/open-dipper/issues/new?template=feature_request.yml) · [反馈问题](https://github.com/X-lab2017/open-dipper/issues/new?template=bug_report.yml) · [查看视觉基线](https://www.x-lab.info/open-dipper/design-system.html)
 
-[![OpenDipper 地图视图：地域图层、紧凑导航与生态事件流](docs/assets/open-dipper-map-2026-10-25.png)](https://www.x-lab.info/open-dipper/)
+[![OpenDipper 地图视图：地域图层、紧凑导航与生态事件流](docs/assets/open-dipper-portal-2026-10-25.jpg)](https://www.x-lab.info/open-dipper/)
 
-*此前地图基线 · 2026-10-25 · 中文界面；在线门户现已扩展。数值与模拟标识保留截图当时的状态，不代表实时统计。[查看视觉演进](docs/archive/2026-10-25-visual-evolution.md)。*
+*情报门户 1.1.0 · 2026-10-25 · 中文界面；正式站点地图总览。数值与模拟标识保留截图当时的状态，不代表实时统计。[查看视觉演进](docs/archive/2026-10-25-visual-evolution.md)。*
 
 <!-- section:business -->
 ## 业务视角

@@ -19,6 +19,8 @@
 
 ## 验证证据
 
+情报门户实现：[4a989df](https://github.com/X-lab2017/open-dipper/commit/4a989dfa91924abb857ea0b6c9ea97ec130a3d06)。[CI 与 Pages](https://github.com/X-lab2017/open-dipper/actions/runs/40163939827) 已通过 60 项确定性测试、构建和四套 Chromium 验收（观测站、情报门户、历史全景、分析页）；已在正式站点检查地图默认入口、AI 雷达与情报样刊。后续截图归档及手机方案表细节修订的验证随 [#14](https://github.com/X-lab2017/open-dipper/issues/14) 更新。
+
 地图与大屏基线提交：[3862477](https://github.com/X-lab2017/open-dipper/commit/38624774e7f65907947481082676d67da0aedace)。对应 [Actions 运行](https://github.com/X-lab2017/open-dipper/actions/runs/40152382147) 已通过确定性检查、生产构建、三套 Chromium 验收和 Pages 部署。本轮文档整理的提交与验证见下方知识库 issue；不要把上一轮 CI 当作新改动的验证。
 
 入口：[观测站](https://www.x-lab.info/open-dipper/) · [视觉规范页](https://www.x-lab.info/open-dipper/design-system.html) · [Actions](https://github.com/X-lab2017/open-dipper/actions)
