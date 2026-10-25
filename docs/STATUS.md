@@ -65,3 +65,7 @@
 <!-- issue-index:end -->
 
 接手时先看 issue 的最新状态、关联提交和验收条件。更多背景见 [演进记录](HISTORY.md)、[决策记录](DECISIONS.md) 和 [开发指南](DEVELOPMENT.md)。
+
+## 观测工作台更新（2026-10-25）
+
+六种受众视角、实体图层与八类数据总览已纳入实现；新增组织／仓库标签索引、模型／数据集发布组织地域样本、集中来源入口和实际快照检查反馈。机构位置、数据中心仍待接入。台湾显示与中国范围筛选由共用函数维护。契约见 [OBSERVATION_WORKSPACE.md](OBSERVATION_WORKSPACE.md)，本次 CI、浏览器和部署回执以 [#24](https://github.com/X-lab2017/open-dipper/issues/24) 与 [PR #23](https://github.com/X-lab2017/open-dipper/pull/23) 为准。

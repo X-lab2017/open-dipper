@@ -56,3 +56,10 @@ This file records repository milestones, not published GitHub releases. Applicat
 
 - Established the curated OpenDigger monthly sample, geographic labels, detailed analysis, panorama and Pages validation pipeline.
 - Early execution constraints are preserved in [the historical archive](docs/archive/2026-10-24-prototypes.md); current verification is in [STATUS.md](docs/STATUS.md).
+
+## Observation workspace — 2026-10-25
+
+- Six audience presets, entity-first layer selection and eight-category coverage panel.
+- Pinned organization/repository label indexes and model/dataset publisher-geography samples; facility/location gaps remain explicit.
+- Centralized data/source disclosure, verified snapshot refresh feedback and consistent China/Taiwan display grouping.
+- Scope and validation: [workspace contract](docs/OBSERVATION_WORKSPACE.md), [#24](https://github.com/X-lab2017/open-dipper/issues/24).

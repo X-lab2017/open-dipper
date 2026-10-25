@@ -4,7 +4,7 @@ Scope: [issue #20](https://github.com/X-lab2017/open-dipper/issues/20), [executi
 
 ## Product selection
 
-Four overview facts answer “how large is the observed ecosystem?” One map switches developer stock, developer contribution and project influence. One AI radar chart switches monthly model/dataset additions. Existing OpenDigger project rankings answer project-level changes. Do not add more summary cards merely because more fields exist upstream.
+The initial four overview facts answer “how large is the observed ecosystem?” One map switches developer stock, developer contribution and project influence. One AI radar chart switches monthly model/dataset additions. Existing OpenDigger project rankings answer project-level changes. Do not add more summary cards merely because more fields exist upstream.
 
 | Measure | Source | Observation clock | Scope |
 | --- | --- | --- | --- |
@@ -17,7 +17,7 @@ Four overview facts answer “how large is the observed ecosystem?” One map sw
 
 OpenShare API root: `https://selfoss.open-digger.cn/openshare/overview/`. Public entry: https://open-share.cn/insight/open-world/gosd. Country board periods must not inherit the global trend's year, retrieval date, or another report capture. The source does not disclose cross-platform deduplication; developer counts are not asserted to be unique natural persons. Country sums may differ from the explicit global total; do not invent an unknown remainder. Each metric has its own coverage and denominator. Unlisted values are missing, never zero.
 
-GOSD source: [supply-observation.json](https://github.com/X-lab2017/2026-Global-Open-Source-Development-Report/blob/c51e3441361407b68f10b339d97eff288319b503/preview/content/gosm/supply-observation.json), [methods](https://github.com/X-lab2017/2026-Global-Open-Source-Development-Report/blob/c51e3441361407b68f10b339d97eff288319b503/preview/content/gosm/supply-methods.md). Report commit `c51e3441361407b68f10b339d97eff288319b503`; original report retrieval 2026-10-17. Only the explicitly observed snapshot is used. Scenario CSVs, report demo data, company rankings, spaces/papers and organization-subset geography are deliberately excluded.
+GOSD source: [supply-observation.json](https://github.com/X-lab2017/2026-Global-Open-Source-Development-Report/blob/c51e3441361407b68f10b339d97eff288319b503/preview/content/gosm/supply-observation.json), [methods](https://github.com/X-lab2017/2026-Global-Open-Source-Development-Report/blob/c51e3441361407b68f10b339d97eff288319b503/preview/content/gosm/supply-methods.md). Report commit `c51e3441361407b68f10b339d97eff288319b503`; original report retrieval 2026-10-17. Only the explicitly observed snapshot is used. Scenario CSVs, report demo data, company rankings, spaces/papers are deliberately excluded from this initial evidence adapter. Publisher-subset geography is now handled separately by [the observation workspace](OBSERVATION_WORKSPACE.md), with its own missing-value and clock contract.
 
 ## Versioned data path
 

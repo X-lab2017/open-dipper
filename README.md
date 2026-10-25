@@ -177,3 +177,5 @@ AI agents participated in the October 2026 implementation, visual iterations and
 OpenDipper is independently implemented. Spatial inspiration comes from [world-monitor.com](https://world-monitor.com/); engineering references include the separate [koala73/worldmonitor](https://github.com/koala73/worldmonitor) project. X-lab assets retain their [official provenance](public/brand/provenance.json), and dependencies retain [third-party notices](public/THIRD_PARTY_NOTICES.txt).
 
 **License status:** an application-level LICENSE has not yet been selected. Application code, source data, map geometry and brand assets have distinct rights; public availability does not grant a blanket reuse license. See [rights status](docs/RIGHTS.md) and [decision #6](https://github.com/X-lab2017/open-dipper/issues/6).
+
+Audience presets and entity layers: see the [observation workspace contract](docs/OBSERVATION_WORKSPACE.md) for the eight coverage categories, data scope and pending facility sources.

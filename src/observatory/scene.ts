@@ -1,8 +1,8 @@
 import {canvasPalette,chartColor,metricHues} from '../design/palette';
 import {geoOrthographic,geoMercator,geoEquirectangular,geoPath,geoGraticule10,geoDistance,geoContains} from 'd3-geo';
-import {countryName,compact,type Country,type Event,type Lang} from './model';
+import {countryName,regionGroup,compact,type Country,type Event,type Lang} from './model';
 import {clamp,angleDelta,unitVector,tweenCamera,mercatorY,mercatorLatitude,zoomMapAt,type Camera} from './globe-math';
-export type SceneData={mode:'map'|'globe';countries:Country[];metric:string;events:Event[];features:any[];grid:boolean;heat:boolean;markers:boolean;eventMarkers:boolean;lang:Lang;selected:string;selectedEvent?:string;demo:boolean;light:boolean;texture?:'surface'|'points'};
+export type SceneData={mode:'map'|'globe';countries:Country[];metric:string;colorMetric?:string;events:Event[];features:any[];grid:boolean;heat:boolean;markers:boolean;eventMarkers:boolean;lang:Lang;selected:string;selectedEvent?:string;demo:boolean;light:boolean;texture?:'surface'|'points'};
 type Hit={x:number;y:number;r:number;country?:Country;events?:Event[]};
 type Flight={from:Camera;to:Camera;start:number;duration:number};
 const landCache=new WeakMap<any[],number[][]>();
@@ -52,7 +52,7 @@ export class Scene {
  private draw(now:number){this.raf=requestAnimationFrame(t=>this.draw(t));if(document.hidden||!this.visible||now-this.lastDraw<32)return;this.lastDraw=now;const dt=Math.min(60,now-this.last||33);this.last=now;
   if(this.flight){const f=this.flight,t=(now-f.start)/f.duration,c=tweenCamera(f.from,f.to,t);this.lon=c.lon;this.lat=c.lat;this.zoom=c.zoom;this.pan=c.pan;if(t>=1)this.flight=undefined;}
   else if(!this.points.size){if(this.rotate&&!this.reduced.matches)this.lon+=dt*.002;else if(!this.reduced.matches){if(this.data.mode==='globe'){this.lon+=this.velocity[0];this.lat=clamp(this.lat+this.velocity[1],-80,80);}else{this.pan[0]+=this.velocity[0];this.pan[1]+=this.velocity[1];this.boundPan();}this.velocity=this.velocity.map(v=>Math.abs(v)<.001?0:v*.91);}}
-  const {ctx,w,h,data:d}=this,p=canvasPalette(d.light),globe=d.mode==='globe',cx=w/2,cy=h/2+10,r=this.radius(),metricColor=chartColor(d.metric,d.light),hue=metricHues[d.metric]??250;
+  const {ctx,w,h,data:d}=this,p=canvasPalette(d.light),globe=d.mode==='globe',cx=w/2,cy=h/2+10,r=this.radius(),metricColor=chartColor(d.colorMetric??d.metric,d.light),hue=metricHues[d.colorMetric??d.metric]??250;
   ctx.clearRect(0,0,w,h);ctx.fillStyle=p['map-ocean'];ctx.fillRect(0,0,w,h);this.hits=[];if(!globe){const ocean=ctx.createRadialGradient(w*.5,h*.35,0,w*.5,h*.5,Math.max(w,h)*.7);ocean.addColorStop(0,p['map-sphere']+(d.light?'66':'77'));ocean.addColorStop(1,p['map-ocean']);ctx.fillStyle=ocean;ctx.fillRect(0,0,w,h);}
   if(globe){const glow=ctx.createRadialGradient(cx,cy,r*.6,cx,cy,r*1.7);glow.addColorStop(0,p['map-halo']+'17');glow.addColorStop(.5,p['map-halo']+'0a');glow.addColorStop(1,p['map-halo']+'00');ctx.fillStyle=glow;ctx.fillRect(0,0,w,h);
    // Fixed, decorative stars; never animated or encoded as real observations.
@@ -62,9 +62,10 @@ export class Scene {
   }
   const proj=globe?geoOrthographic().translate([cx,cy]).scale(r).rotate([this.lon,-this.lat]).clipAngle(90):geoMercator().rotate([this.camera().lon,0]).translate([cx,cy+this.pan[1]]).scale(this.mapScale()).clipExtent([[0,0],[w,h]]);this.projection=proj;const path=geoPath(proj,ctx);
   if(globe){ctx.beginPath();path({type:'Sphere'});const ocean=ctx.createRadialGradient(cx-r*.35,cy-r*.4,0,cx,cy,r);ocean.addColorStop(0,p['map-sphere']);ocean.addColorStop(1,p['map-ocean']);ctx.fillStyle=ocean;ctx.fill();ctx.strokeStyle=p['map-halo']+'70';ctx.lineWidth=.8;ctx.stroke();}
+  this.canvas.dataset.selectedGroup=regionGroup(d.selected);
   const metric=(c:Country)=>(c as any)[d.metric] as number|undefined,max=Math.max(1,...d.countries.map(c=>metric(c)??0)),lookup=new Map(d.countries.map(c=>[c.rawCode,c]));
   const land=ctx.createLinearGradient(0,0,w*.6,h);land.addColorStop(0,p['map-land']);land.addColorStop(1,p['map-sphere']);
-  for(const f of d.features){const c=lookup.get(f.properties.rawCode),v=c&&metric(c),q=v==null?0:Math.log1p(v)/Math.log1p(max);ctx.beginPath();path(f);ctx.fillStyle=d.heat&&v!=null?(d.light?`hsl(${hue} 28% ${90-q*36}%)`:`hsl(${hue} ${24+q*14}% ${12+q*18}%)`):(globe?p['map-land']:land);ctx.globalAlpha=d.texture==='points'?.28:1;ctx.fill();ctx.globalAlpha=1;ctx.lineWidth=d.selected===f.properties.rawCode?1.5:.45;ctx.strokeStyle=d.selected===f.properties.rawCode?p['map-selection']:p['map-border'];if(!globe){ctx.shadowColor=p['map-halo'];ctx.shadowBlur=d.selected===f.properties.rawCode?7:1.2;}ctx.stroke();ctx.shadowBlur=0;}
+  for(const f of d.features){const c=lookup.get(f.properties.rawCode),v=c&&metric(c),q=v==null?0:Math.log1p(v)/Math.log1p(max);ctx.beginPath();path(f);ctx.fillStyle=d.heat&&v!=null?(d.light?`hsl(${hue} 28% ${90-q*36}%)`:`hsl(${hue} ${24+q*14}% ${12+q*18}%)`):(globe?p['map-land']:land);ctx.globalAlpha=d.texture==='points'?.28:1;ctx.fill();ctx.globalAlpha=1;ctx.lineWidth=!!d.selected&&regionGroup(d.selected)===regionGroup(f.properties.rawCode)?1.5:.45;ctx.strokeStyle=!!d.selected&&regionGroup(d.selected)===regionGroup(f.properties.rawCode)?p['map-selection']:p['map-border'];if(!globe){ctx.shadowColor=p['map-halo'];ctx.shadowBlur=!!d.selected&&regionGroup(d.selected)===regionGroup(f.properties.rawCode)?7:1.2;}ctx.stroke();ctx.shadowBlur=0;}
   if(d.grid){ctx.beginPath();path(geoGraticule10());ctx.strokeStyle=p['map-grid']+(globe?'80':'66');ctx.lineWidth=.45;ctx.stroke();}
   if(globe){const a=this.lon*Math.PI/180,b=this.lat*Math.PI/180,sa=Math.sin(a),ca=Math.cos(a),sb=Math.sin(b),cb=Math.cos(b),batches=Array.from({length:8},()=>new Path2D());
    for(const v of this.dots){const x=v[0]*ca+v[2]*sa,z0=v[2]*ca-v[0]*sa,y=v[1]*cb-z0*sb,z=v[1]*sb+z0*cb;if(z<.02)continue;const light=clamp(-x*.5+y*.3+z*.8,0,1),size=(d.texture==='points'?1.15:.68)*Math.min(1.7,this.zoom)*(.4+.6*z),idx=Math.floor(light*7);batches[idx].rect(cx+x*r-size/2,cy-y*r-size/2,size,size);}

@@ -101,3 +101,7 @@ Read [AGENTS.md](../AGENTS.md) or [CONTRIBUTING.md](../CONTRIBUTING.md), then th
 ## Optional observed evidence
 
 `data/reference/` and pinned country anchors → `build-evidence.mjs` → `public/data/evidence.json` → validated optional `evidence.ts` → map / overview / `evidence-view.ts` supply chart. This path is manual and reviewed, separate from event collection and monthly organization snapshots. Source failure leaves core observations usable. See [the contract](DATA_EVIDENCE.md).
+
+## Observation workspace
+
+`workspace.ts` registers audience presets and validates the optional `observation.json`; `workspace-view.ts` and `workspace.css` compose the existing visual system. The offline adapter `scripts/build-observation.mjs` derives organization/repository indexes and publisher-geography samples from pinned evidence. Global facts, monthly repositories, publisher geography and event clocks remain separate. See [implementation contract](OBSERVATION_WORKSPACE.md).

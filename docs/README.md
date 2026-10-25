@@ -13,6 +13,7 @@
 | 理解工程协作方式 | [Harness 工作流](HARNESS.md) → [执行计划](plans/README.md) → 验收证据与交接 |
 | 修改布局、地图、地球或组件 | [视觉规范](VISUAL_SYSTEM.md) → [架构](ARCHITECTURE.md) → [设计资源](../design/README.md) |
 | 接入数据与事件 | [契约索引](DATA_CONTRACTS.md) → 对应契约 → [运维](OPERATIONS.md) |
+| 设计全球观测对象与图层 | [观测图层提案](OBSERVATION_LAYERS.md) → [参考类型与图层目录](design/README.md) → [#22](https://github.com/X-lab2017/open-dipper/issues/22)；提案不是已上线能力 |
 | 理解为何这样设计 | [演进记录](HISTORY.md) → [决策记录](DECISIONS.md) |
 | 查看历史界面与首页展示原图 | [视觉演进图档](archive/2026-10-25-visual-evolution.md) → 三个阶段的原始截图 |
 | 清理或移除旧功能 | [维护与清理](MAINTENANCE.md) → 使用位置和兼容性测试 |

@@ -177,3 +177,5 @@ AI Agent 参与了 2026 年 10 月的实现、视觉迭代和文档整理。贡�
 OpenDipper 独立实现。空间体验参考 [world-monitor.com](https://world-monitor.com/)，工程参考包括另一个独立项目 [koala73/worldmonitor](https://github.com/koala73/worldmonitor)。X-lab 素材保留 [官方来源](public/brand/provenance.json)，依赖保留 [第三方声明](public/THIRD_PARTY_NOTICES.txt)。
 
 **许可状态：** 应用代码尚未选定根 LICENSE。应用源码、源数据、地图几何和品牌素材的权利不同，公开可见不等于统一授权。详见 [权利说明](docs/RIGHTS.md) 与 [决策 #6](https://github.com/X-lab2017/open-dipper/issues/6)。
+
+受众视角与实体图层：八类数据总览、数据口径和待接入的设施来源，见[观测工作台契约](docs/OBSERVATION_WORKSPACE.md)。
