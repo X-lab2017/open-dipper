@@ -17,7 +17,7 @@ Version 1 rebuilds the observatory around the **map / globe / wire** product pat
 
 ## Reusable visual baseline
 
-**[Visual system 1.0](https://www.x-lab.info/open-dipper/design-system.html)** applies the official X-lab AI mark, green/blue identity and a charcoal workspace to OpenDipper. Shared tokens drive both CSS and Canvas, with light/dark variants, three metric palettes, six event categories, source badges and persisted density.
+**[Visual system 1.1](https://www.x-lab.info/open-dipper/design-system.html)** preserves the official X-lab AI mark within a restrained midnight-blue workspace. The globe leads the default view, with atmospheric lighting, coast-derived surface points, inertial drag, smooth region navigation, screen-space event clusters and a contextual inspector. Map / Globe / Wire navigation remains unchanged. Shared tokens drive both CSS and Canvas, with light/dark variants, blue / teal / violet metric palettes, six event categories, source badges and persisted density.
 
 - Usage and design decisions: [`docs/VISUAL_SYSTEM.md`](docs/VISUAL_SYSTEM.md)
 - Maintained tokens: [`design/tokens.json`](design/tokens.json)
