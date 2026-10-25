@@ -1,4 +1,4 @@
-# OpenDipper Visual Baseline 1.1
+# OpenDipper Visual Baseline 1.2
 
 维护入口：`design/tokens.json`。完整中文使用规范：`docs/VISUAL_SYSTEM.md`。
 

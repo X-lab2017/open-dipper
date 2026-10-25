@@ -26,3 +26,13 @@ test('camera flights take the short dateline route, including repeated full turn
  const end=tweenCamera(from,to,2);near(angleDelta(end.lon,to.lon),0);near(end.lat,to.lat);near(end.zoom,to.zoom);assert.deepEqual(end.pan,to.pan);
  for(let t=0;t<=1;t+=.05){const c=tweenCamera(from,to,t);assert.ok(c.lon>=179&&c.lon<=181);assert.ok(c.lat>=-30&&c.lat<=70);assert.ok(c.zoom>=1&&c.zoom<=2);}
 });
+
+test('Mercator latitude round-trips and cursor-centred zoom keeps the anchor fixed',async()=>{
+ const {mercatorY,mercatorLatitude,zoomMapAt}=await import('data:text/javascript;base64,'+Buffer.from(js).toString('base64'));
+ for(const lat of [-84,-60,-5,0,18,70,84])near(mercatorLatitude(mercatorY(lat)),lat);
+ assert.ok(Number.isFinite(mercatorY(90)));assert.ok(Number.isFinite(mercatorY(-90)));
+ const center=[440,260],pan=[-130,57],point=[630,170],oldScale=120,newScale=180;
+ const before=[(point[0]-center[0]-pan[0])/oldScale,(center[1]+pan[1]-point[1])/oldScale];
+ const after=zoomMapAt(pan,1,1.5,point,center);
+ near(center[0]+after[0]+newScale*before[0],point[0]);near(center[1]+after[1]-newScale*before[1],point[1]);
+});
