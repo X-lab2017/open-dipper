@@ -21,6 +21,8 @@
 
 ## 验证证据
 
+数据内容接入：[3d75239](https://github.com/X-lab2017/open-dipper/commit/3d75239f569e2e43ecb2843a6ee1118be986c08d)。[CI 与 Pages](https://github.com/X-lab2017/open-dipper/actions/runs/40167099362) 已通过 66 项确定性检查、构建和四套 Chromium 验收；线上已核对四项概览、OpenShare 图层切换、AI 供给数值与固定版本来源链接。发布截图及本轮后续归档检查见 [#20](https://github.com/X-lab2017/open-dipper/issues/20)。
+
 情报门户实现：[4a989df](https://github.com/X-lab2017/open-dipper/commit/4a989dfa91924abb857ea0b6c9ea97ec130a3d06)。[CI 与 Pages](https://github.com/X-lab2017/open-dipper/actions/runs/40163939827) 已通过 60 项确定性测试、构建和四套 Chromium 验收（观测站、情报门户、历史全景、分析页）；已在正式站点检查地图默认入口、AI 雷达与情报样刊。后续截图归档及手机方案表细节修订的验证随 [#14](https://github.com/X-lab2017/open-dipper/issues/14) 更新。
 
 地图与大屏基线提交：[3862477](https://github.com/X-lab2017/open-dipper/commit/38624774e7f65907947481082676d67da0aedace)。对应 [Actions 运行](https://github.com/X-lab2017/open-dipper/actions/runs/40152382147) 已通过确定性检查、生产构建、三套 Chromium 验收和 Pages 部署。本轮文档整理的提交与验证见下方知识库 issue；不要把上一轮 CI 当作新改动的验证。

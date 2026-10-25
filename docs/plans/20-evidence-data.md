@@ -1,6 +1,6 @@
 # Focused observed data — issue #20
 
-- State: active
+- State: completed
 - Task: https://github.com/X-lab2017/open-dipper/issues/20
 - Goal: useful, restrained real content from OpenShare, GOSD and the existing OpenDigger lens.
 
@@ -21,6 +21,6 @@
 
 ## Verification and handoff
 
-Implementation and source extraction complete. Local typecheck, 66 deterministic checks, build and documentation checks passed. Managed preview confirms the four facts, independent periods, metric switching and keyboard-selectable supply values; screenshots retained in docs/assets. Four Chromium suites and Pages remain pending in CI; deployment evidence belongs in issue #20. Do not treat this plan as evidence of successful deployment.
+Implementation and source extraction complete. Local typecheck, 66 deterministic checks, build and documentation checks passed. Managed preview confirms the four facts, independent periods, metric switching and keyboard-selectable supply values; screenshots retained in docs/assets. Implementation [3d75239](https://github.com/X-lab2017/open-dipper/commit/3d75239f569e2e43ecb2843a6ee1118be986c08d) passed all four Chromium suites and Pages deployment in [run 40167099362](https://github.com/X-lab2017/open-dipper/actions/runs/40167099362). The published site was checked for overview facts, default global layer, contribution coverage, dataset chart values and pinned source links. Published screenshots replace the preview images. Final archive verification and any follow-up run are linked in issue #20.
 
 AI-assisted scope: data-source verification, bounded adapter, client validation/UI, tests, documentation and screenshot records. No new dependencies, brand token changes, event approval changes, source repository mutations or paid-service claims.

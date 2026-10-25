@@ -9,7 +9,7 @@
 
 [![OpenDipper map view with geographic layers, compact navigation and an ecosystem event wire](docs/assets/opendipper-observed-overview-2026-10-25.jpg)](https://www.x-lab.info/open-dipper/)
 
-*2026-10-25 · Observed-data preview; source dates and demo events are labelled independently. A version record, not live statistics. [Data scope](docs/DATA_EVIDENCE.md) · [Visual evolution](docs/archive/2026-10-25-visual-evolution.md).*
+*2026-10-25 · Published observed-data view; source dates and demo events are labelled independently. A version record, not live statistics. [Data scope](docs/DATA_EVIDENCE.md) · [Visual evolution](docs/archive/2026-10-25-visual-evolution.md).*
 
 <!-- section:business -->
 ## Business view
