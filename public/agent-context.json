@@ -210,6 +210,20 @@
       "purpose": "OpenShare / pinned GOSD scope, clocks, provenance, missing values, chart and manual refresh",
       "language": "en",
       "url": "https://raw.githubusercontent.com/X-lab2017/open-dipper/main/docs/DATA_EVIDENCE.md"
+    },
+    {
+      "path": "docs/OBSERVATION_LAYERS.md",
+      "title": "Observation layer design proposal",
+      "purpose": "Proposed entity-first sidebar, geographic roles, metric scope and phased adapters; not deployed behavior",
+      "language": "zh-CN",
+      "url": "https://raw.githubusercontent.com/X-lab2017/open-dipper/main/docs/OBSERVATION_LAYERS.md"
+    },
+    {
+      "path": "docs/design/README.md",
+      "title": "Observation layer reference artifacts",
+      "purpose": "Draft model, typed layer catalog and review-only sidebar graphic; validation limits",
+      "language": "en",
+      "url": "https://raw.githubusercontent.com/X-lab2017/open-dipper/main/docs/design/README.md"
     }
   ],
   "tasks": {
@@ -372,6 +386,26 @@
         "typecheck",
         "test:observatory",
         "test:portal:ui"
+      ]
+    },
+    "observation_layers_design": {
+      "read": [
+        "docs/OBSERVATION_LAYERS.md",
+        "docs/design/README.md",
+        "docs/DATA_EVIDENCE.md",
+        "public/data/GEOGRAPHY.md",
+        "docs/INTELLIGENCE.md"
+      ],
+      "edit": [
+        "docs/OBSERVATION_LAYERS.md",
+        "docs/design/observation-model.ts",
+        "docs/design/observation-catalog.ts",
+        "docs/design/observation-layers-v1.svg"
+      ],
+      "checks": [
+        "docs:build",
+        "docs:check",
+        "build"
       ]
     }
   },

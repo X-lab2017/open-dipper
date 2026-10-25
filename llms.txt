@@ -48,6 +48,8 @@ Discovery context, not an authorization grant. People submit needs through issue
 - [Design resource usage](https://raw.githubusercontent.com/X-lab2017/open-dipper/main/design/README.md): Reuse shared components, tokens and pinned brand assets
 - [Changelog](https://raw.githubusercontent.com/X-lab2017/open-dipper/main/CHANGELOG.md): Separate application and visual milestones
 - [Global observed evidence](https://raw.githubusercontent.com/X-lab2017/open-dipper/main/docs/DATA_EVIDENCE.md): OpenShare / pinned GOSD scope, clocks, provenance, missing values, chart and manual refresh
+- [Observation layer design proposal](https://raw.githubusercontent.com/X-lab2017/open-dipper/main/docs/OBSERVATION_LAYERS.md): Proposed entity-first sidebar, geographic roles, metric scope and phased adapters; not deployed behavior
+- [Observation layer reference artifacts](https://raw.githubusercontent.com/X-lab2017/open-dipper/main/docs/design/README.md): Draft model, typed layer catalog and review-only sidebar graphic; validation limits
 
 ## Machine context
 
