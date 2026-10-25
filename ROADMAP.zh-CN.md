@@ -5,6 +5,8 @@
 
 规划基线：**2026-10-25（Asia/Shanghai）**。这是带验收门槛的建议顺序，不是发布日期承诺或已实现功能清单。[当前状态](docs/STATUS.md) 说明已有能力，[统筹 issue #8](https://github.com/X-lab2017/open-dipper/issues/8) 关联后续工作。任务进度以 issue/PR 为准。R1–R3 是规划阶段，不是应用版本，也不是已配置的 GitHub Milestone。
 
+**门户更新：** 应用 1.1.0 已提供 AI 雷达、本机关注、公开订阅方案与样刊框架。收费服务、Agent 研究、投递与更完整证据仍是后续工作。见[契约](docs/INTELLIGENCE.md)、[交付 #14](https://github.com/X-lab2017/open-dipper/issues/14) 和 [#15 来源](https://github.com/X-lab2017/open-dipper/issues/15)、[#16 证据](https://github.com/X-lab2017/open-dipper/issues/16)、[#17 服务](https://github.com/X-lab2017/open-dipper/issues/17)、[#18 编辑](https://github.com/X-lab2017/open-dipper/issues/18)、[#19 首份内容](https://github.com/X-lab2017/open-dipper/issues/19)。既有 R1 门槛仍待完成。
+
 <!-- section:direction -->
 ## 发展方向
 

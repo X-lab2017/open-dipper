@@ -30,3 +30,7 @@
 - **执行计划**：复杂或跨会话工作按 [plans/README.md](plans/README.md) 保存步骤、决定和检查点；不要求普通需求提交者写技术计划，issue 仍是任务状态来源。
 
 更新原则：行为、契约或决策变化时，同一提交更新权威文档；普通采集刷新不需要修改叙述性状态日期。不要提交私人会话、原始鉴权响应或重复的长篇总结。
+
+## AI and open-source intelligence
+
+Read [INTELLIGENCE.md](INTELLIGENCE.md) for the portal routes, shared evidence model, local subscription preview, fixed fixtures and contributor tasks. The [execution plan](plans/intelligence-portal.md) records the 1.1.0 delivery.

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "project": "OpenDipper",
-  "description": "全球开源生态观测站 / Global open-source ecosystem observatory. Monthly OpenDigger metrics, independent geographic aggregates and near-live sourced events; observed and fixed demo data remain separate.",
+  "description": "Global AI and open-source intelligence observatory. Monthly metrics, independent geographic aggregates, sourced events, AI radar, local following and public subscription samples; no paid service or live Agent analysis is claimed.",
   "repository": "https://github.com/X-lab2017/open-dipper",
   "site": "https://www.x-lab.info/open-dipper/",
   "rawBase": "https://raw.githubusercontent.com/X-lab2017/open-dipper/main/",
@@ -93,6 +93,13 @@
       "title": "Architecture",
       "purpose": "Modules, data paths and operational boundaries",
       "url": "https://raw.githubusercontent.com/X-lab2017/open-dipper/main/docs/ARCHITECTURE.md"
+    },
+    {
+      "path": "docs/INTELLIGENCE.md",
+      "title": "Intelligence portal contracts",
+      "purpose": "Product routes, signal evidence, fixed demos, local preferences, sample briefs, paid-service boundaries and follow-up tasks",
+      "language": "en",
+      "url": "https://raw.githubusercontent.com/X-lab2017/open-dipper/main/docs/INTELLIGENCE.md"
     },
     {
       "path": "docs/VISUAL_SYSTEM.md",
@@ -212,7 +219,8 @@
       "checks": [
         "typecheck",
         "test:observatory",
-        "test:observatory:ui"
+        "test:observatory:ui",
+        "test:portal:ui"
       ]
     },
     "map_globe": {
@@ -340,6 +348,24 @@
         "test",
         "build"
       ]
+    },
+    "intelligence": {
+      "read": [
+        "docs/INTELLIGENCE.md",
+        "docs/ARCHITECTURE.md",
+        "docs/VISUAL_SYSTEM.md"
+      ],
+      "edit": [
+        "src/observatory/intelligence.ts",
+        "src/observatory/portal.ts",
+        "src/observatory/portal.css",
+        "public/data/intelligence-demo.json"
+      ],
+      "checks": [
+        "typecheck",
+        "test:observatory",
+        "test:portal:ui"
+      ]
     }
   },
   "routes": [
@@ -416,7 +442,7 @@
     }
   ],
   "versions": {
-    "application": "1.0.0",
+    "application": "1.1.0",
     "visual": "1.2.0"
   }
 }

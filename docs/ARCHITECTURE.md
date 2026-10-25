@@ -1,10 +1,10 @@
-# OpenDipper v1 architecture
+# OpenDipper architecture · application 1.1.0
 
 Maintained baseline: 2026-10-25. Start with [current status](STATUS.md); field-level definitions live in [the contract index](DATA_CONTRACTS.md).
 
 ## Product structure
 
-The main task is to locate a signal, understand its scope and time, and inspect evidence. Map and globe are alternate projections of the same layers. The wire retains worldwide events without forcing coordinates. Analysis panels use independent monthly metrics. Desktop defaults to a one-screen layout; two-screen presentation expands analysis on a second screen while retaining the spatial view and wire on the first. Mobile flows naturally. The map is the initial view, with globe and wire as alternatives.
+The main task is to locate a signal, understand its scope and time, and inspect evidence. Map and globe are alternate projections of the same layers. The wire retains worldwide events without forcing coordinates. Analysis panels use independent monthly metrics. Desktop defaults to a one-screen layout; two-screen presentation expands AI and intelligence discovery on a second screen while retaining the spatial view and wire on the first. Mobile flows naturally. The map is the initial view, with globe and wire as alternatives.
 
 | Surface | Question | Data and interaction |
 | --- | --- | --- |
@@ -15,6 +15,8 @@ The main task is to locate a signal, understand its scope and time, and inspect 
 | Monthly lens | How did this metric change? | Same-platform sample ranking, calendar-month bars, watchlist |
 | Evidence | Can I verify it? | Source URL, metric period, retrieval time, checksum and status |
 | Editorial intake | How does an editor add an event? | Local draft → issue → maintainer approval → feed |
+
+The application now adds AI radar, an ecosystem-analysis surface, browser-local following, a public sample brief and contribution routes. See [the intelligence contract](INTELLIGENCE.md) for exact routes, provenance rules and unimplemented membership/Agent-service boundaries.
 
 ## Data paths
 
@@ -29,7 +31,7 @@ flowchart TD
   MA --> VA
   EI --> VA
   VA --> BUILD[Static build and Pages deployment]
-  BUILD --> UI[Map · Globe · Wire · Monthly lens]
+  BUILD --> UI[Map · Globe · Wire · AI radar · Intelligence]
   DEMO[Separate fixed demo fixtures] --> UI
 ```
 
@@ -39,6 +41,8 @@ Public feeds are fetched in GitHub Actions, normalized into JSON and published w
 
 | Module | Responsibility |
 | --- | --- |
+| `src/observatory/intelligence.ts` | Typed signals, optional fixture validation, explicit AI mapping, local preference normalization, matching and exports |
+| `src/observatory/portal.ts`, `portal.css` | Radar, subscription sample, following, community, overview rail and responsive portal composition |
 | `src/observatory/model.ts` | Contracts, validation, time filters, ranking, missing-value semantics |
 | `src/observatory/scene.ts` | Geographic projection/clipping, choropleth, markers, camera/keyboard |
 | `src/observatory/main.ts` | Product state, panels, dialogs, editor, polling |

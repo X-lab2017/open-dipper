@@ -5,10 +5,12 @@
 
 Planning baseline: **2026-10-25 (Asia/Shanghai)**. This is a proposed sequence with acceptance gates, not a delivery-date commitment or a list of implemented features. [Current status](docs/STATUS.md) describes what exists; [coordination issue #8](https://github.com/X-lab2017/open-dipper/issues/8) links the work. Issue/PR state is authoritative. R1–R3 are planning stages, not application versions or configured GitHub Milestones.
 
+**Portal update:** application 1.1.0 now provides AI radar, local following and a public subscription/sample-brief framework. Paid service, Agent research, delivery and expanded evidence remain future work. See [the contract](docs/INTELLIGENCE.md), [delivery #14](https://github.com/X-lab2017/open-dipper/issues/14) and tasks [#15 sources](https://github.com/X-lab2017/open-dipper/issues/15), [#16 evidence](https://github.com/X-lab2017/open-dipper/issues/16), [#17 services](https://github.com/X-lab2017/open-dipper/issues/17), [#18 editorial](https://github.com/X-lab2017/open-dipper/issues/18), [#19 first content](https://github.com/X-lab2017/open-dipper/issues/19). Existing R1 gates remain open.
+
 <!-- section:direction -->
 ## Direction
 
-Build a trustworthy global open-source observatory that people can use, inspect and improve. Preserve Map / Globe / Wire, the accepted visual baseline and one-screen / two-screen presentation. Extend data quality, reliability and participation around that product.
+Build a trustworthy global AI and open-source intelligence observatory that people can use, inspect and improve. Preserve Map / Globe / Wire, the accepted visual baseline and one-screen / two-screen presentation. Extend data quality, reliability and participation around that product.
 
 | User | Outcome to work toward |
 | --- | --- |

@@ -3,13 +3,13 @@
 
 [English](README.md) | **简体中文**
 
-**全球开源生态观测站。** 通过地图、地球与快讯，探索 OpenDigger 月度指标和半实时开源生态事件。
+**面向研究者与开发者的全球 AI 与开源情报站。** 通过地图、地球、快讯与个人情报空间，探索有来源的事件、AI 研究线索和 OpenDigger 指标。
 
 [进入观测站](https://www.x-lab.info/open-dipper/) · [路线图](ROADMAP.zh-CN.md) · [提出需求](https://github.com/X-lab2017/open-dipper/issues/new?template=feature_request.yml) · [反馈问题](https://github.com/X-lab2017/open-dipper/issues/new?template=bug_report.yml) · [查看视觉基线](https://www.x-lab.info/open-dipper/design-system.html)
 
 [![OpenDipper 地图视图：地域图层、紧凑导航与生态事件流](docs/assets/open-dipper-map-2026-10-25.png)](https://www.x-lab.info/open-dipper/)
 
-*界面快照 · 2026-10-25 · 中文界面。数值与模拟标识保留截图当时的状态，不代表实时统计。[查看视觉演进](docs/archive/2026-10-25-visual-evolution.md)。*
+*此前地图基线 · 2026-10-25 · 中文界面；在线门户现已扩展。数值与模拟标识保留截图当时的状态，不代表实时统计。[查看视觉演进](docs/archive/2026-10-25-visual-evolution.md)。*
 
 <!-- section:business -->
 ## 业务视角
@@ -22,6 +22,10 @@ flowchart TD
   O --> G["空间：地图与地球"]
   O --> T["时间：排行与趋势"]
   O --> W["事件：快讯与来源证据"]
+  O --> R["AI 雷达与个人关注"]
+  R --> V
+  R --> S["公开样刊与订阅预览"]
+  S --> V
   G --> V["研究洞察 · 日常观测 · 大屏演示"]
   T --> V
   W --> V
@@ -85,8 +89,11 @@ OpenDipper 围绕**人的需求、Agent 的执行与可验证的结果**开展�
 ## 探索观测站
 
 - **地图 / 地球 / 快讯**：地域图层、可定位事件、筛选和来源查看。默认进入地图，地球提供大气光照与惯性交互。
+- **AI 雷达**：四类主题、搜索、证据详情与地图定位；真实采集与固定虚构场景清晰区分。
+- **个人情报**：本机主题关注、收藏、项目关联、可阅读的公开样刊与 Markdown 导出。Pro 权益为规划，尚未启用支付、邮件投递或云端账户。
+- **参与共建**：来源、证据、研究与服务工作包通过真实 GitHub 任务开放参与。
 - **月度分析**：同平台排行、十二个月趋势、月份回放与本地关注列表。
-- **演示场景**：一屏总览、两屏分析、全屏、响应式排版、中英文和深浅主题。
+- **演示场景**：一屏总览、两屏 AI 与情报探索、全屏、响应式排版、中英文和深浅主题。
 - **可复用视觉体系**：X-lab 官方素材、共享 CSS/Canvas tokens 和 [可下载视觉基线](https://www.x-lab.info/open-dipper/design-system.html)。
 
 | 数据通道 | 当前范围 | 更新节奏 |
@@ -94,7 +101,7 @@ OpenDipper 围绕**人的需求、Agent 的执行与可验证的结果**开展�
 | OpenDigger 仓库指标 | 20 个精选仓库、4 个平台、6 类指标 | 月度 |
 | 地域聚合 | Microsoft、Apache 和 PyTorch Foundation 标签，各自独立的近一年周期 | 每月获取 |
 | 生态事件 | 部分 GitHub releases、OpenSSF/CNCF RSS 与审核通过的编辑 issue | 目标每 30 分钟采集 |
-| 演示数据 | 13 个虚构定位事件与模拟地域指标 | 固定样例，明确标识 |
+| 演示数据 | 13 个虚构生态事件、8 个 AI 情报场景与模拟地域指标 | 固定样例，明确标识 |
 
 这些是**样本，不是全球总体统计**。缺失值不补零，未知位置不虚构；年度地域聚合不随仓库月度轴变化。浏览器每五分钟检查已部署事件快照，采集目标不代表严格实时保障。定义与限制见 [数据契约](docs/DATA_CONTRACTS.md)。
 
@@ -112,7 +119,8 @@ flowchart TD
   FX["固定模拟样例与地图几何"] --> Q
   Q --> A["将验证后的源快照归档到 Git"]
   A --> P["部署静态产物到 GitHub Pages"]
-  P --> B["浏览器：地图 / 地球 / 快讯与分析"]
+  P --> B["浏览器：观测、AI 雷达与情报"]
+  B --> L["本机关注、偏好与导出"]
 ```
 
 图中展示 main 的发布路径。PR 仅验证，不采集、不归档数据、不部署；定时构建跳过浏览器验收。浏览器读取已发布快照，不包含写入 API 或发布凭据。模块职责与失败行为见 [架构](docs/ARCHITECTURE.md) 和 [运维](docs/OPERATIONS.md)。
@@ -137,6 +145,7 @@ npm run build
 
 | 你想了解什么 | 阅读入口 |
 | --- | --- |
+| 情报框架如何工作？ | [产品、数据与服务边界](docs/INTELLIGENCE.md) · [交付 #14](https://github.com/X-lab2017/open-dipper/issues/14) · [首份内容任务 #19](https://github.com/X-lab2017/open-dipper/issues/19) |
 | 目前做到了什么、验证了什么、还缺什么？ | [当前状态与 issue 索引](docs/STATUS.md) |
 | 如何参与，或把工作交给 Agent？ | [贡献指南](CONTRIBUTING.zh-CN.md) · [Harness 工作流](docs/HARNESS.md) |
 | 知识库在哪里？ | [文档导航](docs/README.md) · [机器上下文](docs/CONTEXT.json) |

@@ -8,6 +8,7 @@
 | `public/data/geography.json` | 标签近一年地域聚合，独立于月度轴 | [地域契约](../public/data/GEOGRAPHY.md)；`fetch-geography.py` | 未知精确起止/分母保留 null；标签可能重叠；不推断流向 |
 | `public/data/countries.geojson` | 制图几何与锚点 | [地域契约](../public/data/GEOGRAPHY.md) | 不是人的位置、仓库总部或贡献量；保留来源标识 |
 | `public/data/events.json` | 来源发布时间与首次采集时间 | [事件契约](EVENTS.md)；`collect-events.py` | 去重、保留窗口、来源健康、审核撤回；未定位事件仍留在快讯 |
+| `public/data/intelligence-demo.json` | 8 个固定双语情报案例，独立样例日期 | [情报契约](INTELLIGENCE.md)；`intelligence.ts` | 全文件验证、缺失可降级；不注入真实流；地图适配仍标 demo |
 | `public/data/demo.json` | 固定日期的虚构场景与模拟地域指标 | `scripts/generate-demo.py` | 不加入定时采集；不代替失败的真实来源；随时间筛选自然过期 |
 
 ## 需要持续保护的语义

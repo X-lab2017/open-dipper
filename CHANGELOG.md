@@ -1,6 +1,14 @@
 # Changelog
 
-This file records repository milestones, not published GitHub releases. Application version (`package.json`: 1.0.0) and visual baseline (`design/tokens.json`: 1.2.0) are independent. Detailed feedback and commits are in [the history](docs/HISTORY.md).
+This file records repository milestones, not published GitHub releases. Application version (`package.json`: 1.1.0) and visual baseline (`design/tokens.json`: 1.2.0) are independent. Detailed feedback and commits are in [the history](docs/HISTORY.md).
+
+## 2026-10-25 · Application 1.1.0 / AI and open-source intelligence framework
+
+- Added product navigation, AI radar, expanded ecosystem analysis, local following, readable public brief and subscription-plan preview.
+- Added explicit AI source mapping and eight fixed fictional signals with evidence gaps; map/wire linking preserves provenance.
+- Expanded the overview map, introduced an AI/brief rail and made the second screen an intelligence discovery surface.
+- Added local topic/cadence preferences, saved signals, Markdown export and real contributor tasks #15–#19. No payment, delivery, cloud identity or autonomous Agent analysis is claimed.
+- Added signal/fixture tests and portal browser acceptance; updated bilingual entry docs and public context. Delivery evidence: [#14](https://github.com/X-lab2017/open-dipper/issues/14).
 
 ## 2026-10-25 · Roadmap and contribution work packages
 

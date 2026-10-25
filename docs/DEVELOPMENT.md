@@ -7,6 +7,7 @@
 | 任务 | 先读 | 主要修改位置 | 有针对性的检查 |
 | --- | --- | --- | --- |
 | 布局、筛选、语言与编辑器 | [视觉规范](VISUAL_SYSTEM.md)、[架构](ARCHITECTURE.md) | `src/observatory/main.ts`、`style.css` | `typecheck`、`test:observatory`、`test:observatory:ui` |
+| AI 雷达、关注、样刊与共建 | [情报契约](INTELLIGENCE.md)、[架构](ARCHITECTURE.md) | `intelligence.ts`、`portal.ts`、`portal.css`、独立演示 JSON | `typecheck`、`test:observatory`、`test:portal:ui` |
 | 地图/地球/相机 | [视觉规范](VISUAL_SYSTEM.md)、[地域契约](../public/data/GEOGRAPHY.md) | `src/observatory/scene.ts`、`globe-math.ts` | `test:observatory`、`test:observatory:ui`；检查日期变更线与极区 |
 | 共享视觉资源 | [设计资源](../design/README.md) | `design/tokens.json`、`src/design/` | `design:build`、`design:check`、`build`；深浅主题浏览器检查 |
 | 月度数据 | [月度契约](../public/data/README.md) | `config/repositories.json`、`scripts/fetch-data.mjs`、`refresh-monthly.mjs` | `test:data`、`test:dom`、`test:observatory` |
@@ -47,13 +48,14 @@ python3 -m http.server 4173 --bind 127.0.0.1 --directory "$OD_QA_ROOT"
 
 ```sh
 npm run test:observatory:ui
+npm run test:portal:ui
 npm run test:panorama:ui
 BASE_URL=http://127.0.0.1:4173/open-dipper/analysis.html npm run test:ui
 ```
 
 检查结束后在终端 A 按 Ctrl-C 停止服务，再移除此次创建的临时目录。观测站 URL 可用 `BASE_URL` 覆盖；全景用 `PANORAMA_URL`；分析页用 `BASE_URL`。测试生成 `screenshots/`，CI 保存七天，截图不进入源码。
 
-浏览器通过并不证明所有视觉问题都不存在。变更布局时还需按 [评审路线](REVIEW.md) 看一屏/两屏、移动端、长标题、空状态、主题和键盘焦点。CI 非定时构建执行三套 Chromium 验收，定时采集只运行确定性检查与构建。
+浏览器通过并不证明所有视觉问题都不存在。变更布局时还需按 [评审路线](REVIEW.md) 看一屏/两屏、移动端、长标题、空状态、主题和键盘焦点。CI 非定时构建执行四套 Chromium 验收，定时采集只运行确定性检查与构建。
 
 ## 新增数据适配器的最小流程
 

@@ -33,3 +33,9 @@
 5. **证据必须进入仓库。** 用户反馈形成可执行验收，Agent 参与实现与验证，交付用提交、CI、契约和 issue 留痕。未验证状态明确标记，不能靠“已完成”的叙述替代检查。
 
 最早的执行记录已原样归档在 [2026-10 原型进度](archive/2026-10-24-prototypes.md)。其中“浏览器无法运行”“尚未部署”等是当时环境结论，已经被后续 CI 与部署证据替代。保留它是为了追溯，不是当前待办。
+
+## 2026-10-25 · AI and open-source intelligence portal
+
+Maintainer direction expanded the public observatory toward researchers and developers: AI radar, personal context, sample intelligence and open contribution. Application 1.1.0 retains the accepted spatial interaction while adding these surfaces, local preferences/export and fixed example evidence. Public methods and sources remain visible; subscription delivery, payments, live Agent research and endorsements are explicitly not implemented. Follow-up tasks #15–#19 separate these gaps from the shipped review framework.
+
+AI-assisted implementation and actual validation are recorded in [delivery #14](https://github.com/X-lab2017/open-dipper/issues/14) and the [versioned plan](plans/intelligence-portal.md). Existing R1 data/reliability tasks remain open.

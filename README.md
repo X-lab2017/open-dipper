@@ -3,13 +3,13 @@
 
 **English** | [简体中文](README.zh-CN.md)
 
-**A global observatory for the open-source ecosystem.** Explore monthly OpenDigger metrics and near-live ecosystem events through a map, globe and news wire.
+**A global AI and open-source intelligence observatory for researchers and developers.** Explore sourced events, AI research signals and OpenDigger metrics through a map, globe, news wire and personal intelligence workspace.
 
 [Open the observatory](https://www.x-lab.info/open-dipper/) · [Roadmap](ROADMAP.md) · [Request a feature](https://github.com/X-lab2017/open-dipper/issues/new?template=feature_request.yml) · [Report a problem](https://github.com/X-lab2017/open-dipper/issues/new?template=bug_report.yml) · [Visual baseline](https://www.x-lab.info/open-dipper/design-system.html)
 
 [![OpenDipper map view with geographic layers, compact navigation and an ecosystem event wire](docs/assets/open-dipper-map-2026-10-25.png)](https://www.x-lab.info/open-dipper/)
 
-*Interface snapshot · 2026-10-25 · Chinese UI. Values and demo labels reflect the captured view, not live statistics. [See the visual evolution](docs/archive/2026-10-25-visual-evolution.md).*
+*Earlier map baseline · 2026-10-25 · Chinese UI; the live portal has since expanded. Values and demo labels reflect the captured view, not live statistics. [See the visual evolution](docs/archive/2026-10-25-visual-evolution.md).*
 
 <!-- section:business -->
 ## Business view
@@ -22,6 +22,10 @@ flowchart TD
   O --> G["Place: map and globe"]
   O --> T["Time: rankings and trends"]
   O --> W["Events: wire and source evidence"]
+  O --> R["AI radar and personal following"]
+  R --> V
+  R --> S["Public brief and subscription preview"]
+  S --> V
   G --> V["Research · monitoring · presentations"]
   T --> V
   W --> V
@@ -85,8 +89,11 @@ Here, the *harness* is the context, tools, constraints and feedback that make en
 ## Explore the observatory
 
 - **Map / Globe / Wire:** geographic layers, located events, filters and source inspection. The map opens by default; the globe adds atmospheric lighting and inertial interaction.
+- **AI radar:** four topics, search, evidence details and linked map locations; collected items and fixed fictional examples stay visibly separate.
+- **Personal intelligence:** local topic following, saved signals, repository links, a readable public sample and Markdown export. Pro benefits are proposals; no payment, email delivery or cloud account is active.
+- **Community:** concrete source, evidence, research and service tasks with public GitHub entry points.
 - **Monthly analysis:** same-platform rankings, twelve-month trends, playback and local watchlists.
-- **Presentation:** one-screen overview, two-screen analysis, fullscreen, responsive layout, English/Chinese and dark/light themes.
+- **Presentation:** one-screen overview, two-screen AI and intelligence discovery, fullscreen, responsive layout, English/Chinese and dark/light themes.
 - **Reusable visual system:** X-lab official assets, shared CSS/Canvas tokens and a [downloadable baseline](https://www.x-lab.info/open-dipper/design-system.html).
 
 | Data channel | Current scope | Cadence |
@@ -94,7 +101,7 @@ Here, the *harness* is the context, tools, constraints and feedback that make en
 | OpenDigger repository metrics | 20 curated repositories, 4 platforms, 6 metrics | Monthly |
 | Geographic aggregates | Microsoft, Apache and PyTorch Foundation labels; independent trailing-year periods | Retrieved monthly |
 | Ecosystem events | Selected GitHub releases, OpenSSF/CNCF RSS and approved editorial issues | Collection target: 30 minutes |
-| Demonstration | 13 fictional located events and synthetic geographic metrics | Fixed fixtures, visibly identified |
+| Demonstration | 13 fictional ecosystem events, 8 AI intelligence scenarios and synthetic geographic metrics | Fixed fixtures, visibly identified |
 
 These are **samples, not worldwide population totals**. Missing values stay missing; unknown locations stay unlocated. Annual geographic aggregates do not move with the repository month slider. The browser checks deployed event snapshots every five minutes; collection targets are not a real-time SLA. Definitions and limitations: [data contracts](docs/DATA_CONTRACTS.md).
 
@@ -112,7 +119,8 @@ flowchart TD
   FX["Fixed demo fixtures and map geometry"] --> Q
   Q --> A["Archive validated source snapshots in Git"]
   A --> P["Deploy static artifacts to GitHub Pages"]
-  P --> B["Browser: map / globe / wire and analysis"]
+  P --> B["Browser: observatory, AI radar and intelligence"]
+  B --> L["Local following, preferences and export"]
 ```
 
 This is the publication path on main. PRs validate without collecting, archiving data or deploying; scheduled builds skip browser acceptance. The browser loads published snapshots and has no write API or publishing token. Module responsibilities and failure behavior: [architecture](docs/ARCHITECTURE.md) and [operations](docs/OPERATIONS.md).
@@ -137,6 +145,7 @@ Task-specific checks and browser setup: [development guide](docs/DEVELOPMENT.md)
 
 | Question | Read |
 | --- | --- |
+| How does the intelligence framework work? | [Product, data and service boundaries](docs/INTELLIGENCE.md) · [Delivery #14](https://github.com/X-lab2017/open-dipper/issues/14) · [First content task #19](https://github.com/X-lab2017/open-dipper/issues/19) |
 | What is available, verified or still missing? | [Current status and issue index](docs/STATUS.md) |
 | How do I contribute or hand work to an agent? | [Contributing](CONTRIBUTING.md) · [Harness workflow](docs/HARNESS.md) |
 | Where is the knowledge base? | [Documentation map](docs/README.md) · [Machine context](docs/CONTEXT.json) |

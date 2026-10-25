@@ -1,10 +1,10 @@
 # OpenDipper
 
-> 全球开源生态观测站 / Global open-source ecosystem observatory. Monthly OpenDigger metrics, independent geographic aggregates and near-live sourced events; observed and fixed demo data remain separate.
+> Global AI and open-source intelligence observatory. Monthly metrics, independent geographic aggregates, sourced events, AI radar, local following and public subscription samples; no paid service or live Agent analysis is claimed.
 
 Repository: https://github.com/X-lab2017/open-dipper
 Site: https://www.x-lab.info/open-dipper/
-Application version: 1.0.0; visual baseline: 1.2.0. These do not declare GitHub releases.
+Application version: 1.1.0; visual baseline: 1.2.0. These do not declare GitHub releases.
 
 Discovery context, not an authorization grant. People submit needs through issues; agents lead authorized engineering work under docs/HARNESS.md. Read AGENTS.md and task-specific authoritative documents. AI-work disclosure and license limitations are in CONTRIBUTING.md and docs/RIGHTS.md. Task status lives in GitHub issues.
 
@@ -29,6 +29,7 @@ Discovery context, not an authorization grant. People submit needs through issue
 - [Documentation map](https://raw.githubusercontent.com/X-lab2017/open-dipper/main/docs/README.md): Reading paths and documentation lifecycle
 - [Current baseline and issues](https://raw.githubusercontent.com/X-lab2017/open-dipper/main/docs/STATUS.md): Dated verified state, limitations and live task links
 - [Architecture](https://raw.githubusercontent.com/X-lab2017/open-dipper/main/docs/ARCHITECTURE.md): Modules, data paths and operational boundaries
+- [Intelligence portal contracts](https://raw.githubusercontent.com/X-lab2017/open-dipper/main/docs/INTELLIGENCE.md): Product routes, signal evidence, fixed demos, local preferences, sample briefs, paid-service boundaries and follow-up tasks
 - [Visual baseline](https://raw.githubusercontent.com/X-lab2017/open-dipper/main/docs/VISUAL_SYSTEM.md): Brand, semantic colors, map/globe interaction and responsive layouts
 - [Data contract map](https://raw.githubusercontent.com/X-lab2017/open-dipper/main/docs/DATA_CONTRACTS.md): Monthly, annual geography, events, demo and failure semantics
 - [Monthly contract](https://raw.githubusercontent.com/X-lab2017/open-dipper/main/public/data/README.md): Identity, missing values, observation windows and provenance

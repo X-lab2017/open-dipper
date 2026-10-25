@@ -69,6 +69,7 @@ jobs:
             sleep 1
           done
           npm run test:observatory:ui
+          npm run test:portal:ui
           npm run test:panorama:ui
           BASE_URL=http://127.0.0.1:4173/open-dipper/analysis.html npm run test:ui
       - name: Save browser QA screenshots

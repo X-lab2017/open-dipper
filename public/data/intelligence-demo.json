@@ -1,0 +1,601 @@
+{
+  "schemaVersion": 1,
+  "fixtureDate": "2026-10-24T15:00:00Z",
+  "signals": [
+    {
+      "id": "intel-demo-01",
+      "topic": "models",
+      "title": {
+        "zh": "开放模型进入小型化阶段，如何比较真正的使用成本？",
+        "en": "Compact open models: what does the real cost look like?"
+      },
+      "summary": {
+        "zh": "虚构的 Aurora-8B 发布场景：演示如何连接模型发布、评测条件、推理成本与开放许可。",
+        "en": "A fictional Aurora-8B release connects model publication, evaluation conditions, inference costs and licensing."
+      },
+      "why": {
+        "zh": "模型参数规模只是起点。应在同一任务、硬件与质量门槛下比较成本，并保留失败样本。",
+        "en": "Parameter count is only a starting point. Compare costs under the same task, hardware and quality threshold, retaining failed runs."
+      },
+      "next": {
+        "zh": "等待模型卡、可复现评测和许可核验；当前不提供能力评分。",
+        "en": "Await a model card, reproducible evaluation and license review. No capability score is asserted."
+      },
+      "publishedAt": "2026-10-24T09:00:00Z",
+      "capturedAt": "2026-10-24T15:00:00Z",
+      "provenance": "demo",
+      "source": "OpenDipper · DEMO",
+      "sourceUrl": "",
+      "location": null,
+      "openness": {
+        "zh": "演示字段 · 许可待核验",
+        "en": "Example field · license unverified"
+      },
+      "tags": [
+        "model-card",
+        "inference",
+        "open-weights"
+      ],
+      "evidence": [
+        {
+          "kind": {
+            "zh": "原始发布",
+            "en": "Original publication"
+          },
+          "status": {
+            "zh": "待接入 · 演示占位",
+            "en": "Pending · example placeholder"
+          },
+          "url": ""
+        },
+        {
+          "kind": {
+            "zh": "代码与版本",
+            "en": "Code & version"
+          },
+          "status": {
+            "zh": "待接入 · 演示占位",
+            "en": "Pending · example placeholder"
+          },
+          "url": ""
+        },
+        {
+          "kind": {
+            "zh": "评测／复现",
+            "en": "Evaluation / reproduction"
+          },
+          "status": {
+            "zh": "待接入 · 演示占位",
+            "en": "Pending · example placeholder"
+          },
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "intel-demo-02",
+      "topic": "agents",
+      "title": {
+        "zh": "Agent 工具调用升级：从版本发布到迁移验证",
+        "en": "Agent tool changes: from release to migration checks"
+      },
+      "summary": {
+        "zh": "虚构的 Meridian Agent 升级场景：演示 API 变化、工具权限与回归用例之间的情报关联。",
+        "en": "A fictional Meridian Agent update connects API changes, tool permissions and regression cases."
+      },
+      "why": {
+        "zh": "版本发布不等于任务成功率提升。迁移前需要重跑真实工作流，并记录耗时、失败与资源消耗。",
+        "en": "A release does not establish a higher task success rate. Re-run representative workflows and record time, failures and resource use."
+      },
+      "next": {
+        "zh": "建立一组固定任务，核对变更日志，保存迁移前后证据。",
+        "en": "Create fixed tasks, inspect the changelog and preserve before-and-after evidence."
+      },
+      "publishedAt": "2026-10-24T08:00:00Z",
+      "capturedAt": "2026-10-24T15:00:00Z",
+      "provenance": "demo",
+      "source": "OpenDipper · DEMO",
+      "sourceUrl": "",
+      "location": {
+        "name": "上海 · 模拟",
+        "nameEn": "Shanghai · simulated",
+        "lon": 121.47,
+        "lat": 31.23,
+        "countryCode": "CHN",
+        "precision": "simulated"
+      },
+      "openness": {
+        "zh": "演示字段 · 许可待核验",
+        "en": "Example field · license unverified"
+      },
+      "tags": [
+        "agent",
+        "tool-use",
+        "migration"
+      ],
+      "evidence": [
+        {
+          "kind": {
+            "zh": "原始发布",
+            "en": "Original publication"
+          },
+          "status": {
+            "zh": "待接入 · 演示占位",
+            "en": "Pending · example placeholder"
+          },
+          "url": ""
+        },
+        {
+          "kind": {
+            "zh": "代码与版本",
+            "en": "Code & version"
+          },
+          "status": {
+            "zh": "待接入 · 演示占位",
+            "en": "Pending · example placeholder"
+          },
+          "url": ""
+        },
+        {
+          "kind": {
+            "zh": "评测／复现",
+            "en": "Evaluation / reproduction"
+          },
+          "status": {
+            "zh": "待接入 · 演示占位",
+            "en": "Pending · example placeholder"
+          },
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "intel-demo-03",
+      "topic": "research",
+      "title": {
+        "zh": "从论文到复现：一条研究结论需要哪些证据？",
+        "en": "From paper to reproduction: what evidence is needed?"
+      },
+      "summary": {
+        "zh": "虚构的多 Agent 协作论文场景：展示论文、代码、实验设置与独立复现四类材料。",
+        "en": "A fictional multi-agent paper demonstrates links between the paper, code, experimental setup and independent reproduction."
+      },
+      "why": {
+        "zh": "关注度无法代替复现。缺失的数据、评价口径和运行条件应直接列出。",
+        "en": "Attention is not reproduction. Missing data, evaluation definitions and runtime conditions should be visible."
+      },
+      "next": {
+        "zh": "补充实验设置与复现记录，再评估结论的适用范围。",
+        "en": "Add experimental conditions and reproduction logs before assessing scope."
+      },
+      "publishedAt": "2026-10-23T14:00:00Z",
+      "capturedAt": "2026-10-24T15:00:00Z",
+      "provenance": "demo",
+      "source": "OpenDipper · DEMO",
+      "sourceUrl": "",
+      "location": {
+        "name": "巴黎 · 模拟",
+        "nameEn": "Paris · simulated",
+        "lon": 2.35,
+        "lat": 48.86,
+        "countryCode": "FRA",
+        "precision": "simulated"
+      },
+      "openness": {
+        "zh": "演示字段 · 许可待核验",
+        "en": "Example field · license unverified"
+      },
+      "tags": [
+        "paper",
+        "reproduction",
+        "evaluation"
+      ],
+      "evidence": [
+        {
+          "kind": {
+            "zh": "原始发布",
+            "en": "Original publication"
+          },
+          "status": {
+            "zh": "待接入 · 演示占位",
+            "en": "Pending · example placeholder"
+          },
+          "url": ""
+        },
+        {
+          "kind": {
+            "zh": "代码与版本",
+            "en": "Code & version"
+          },
+          "status": {
+            "zh": "待接入 · 演示占位",
+            "en": "Pending · example placeholder"
+          },
+          "url": ""
+        },
+        {
+          "kind": {
+            "zh": "评测／复现",
+            "en": "Evaluation / reproduction"
+          },
+          "status": {
+            "zh": "待接入 · 演示占位",
+            "en": "Pending · example placeholder"
+          },
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "intel-demo-04",
+      "topic": "ecosystem",
+      "title": {
+        "zh": "开放资源支持计划：从额度发放到实际成果",
+        "en": "Open resource support: from credits to outcomes"
+      },
+      "summary": {
+        "zh": "虚构的开发者资源支持计划：演示资源申请、实际使用、开源成果与持续参与的观察路径。",
+        "en": "A fictional developer support program illustrates applications, actual usage, open contributions and sustained participation."
+      },
+      "why": {
+        "zh": "领取额度只是起点。需要区分首次使用、完成任务和持续贡献，不将相关性写成资助效果。",
+        "en": "Claiming credits is only a start. Separate first use, completed work and sustained contribution; correlation is not funding impact."
+      },
+      "next": {
+        "zh": "设计透明的申请与成果记录，核验资源和成果的授权范围。",
+        "en": "Design transparent applications and outcome records, checking resource and result permissions."
+      },
+      "publishedAt": "2026-10-23T10:00:00Z",
+      "capturedAt": "2026-10-24T15:00:00Z",
+      "provenance": "demo",
+      "source": "OpenDipper · DEMO",
+      "sourceUrl": "",
+      "location": {
+        "name": "内罗毕 · 模拟",
+        "nameEn": "Nairobi · simulated",
+        "lon": 36.82,
+        "lat": -1.29,
+        "countryCode": "KEN",
+        "precision": "simulated"
+      },
+      "openness": {
+        "zh": "演示字段 · 许可待核验",
+        "en": "Example field · license unverified"
+      },
+      "tags": [
+        "resources",
+        "public-good",
+        "participation"
+      ],
+      "evidence": [
+        {
+          "kind": {
+            "zh": "原始发布",
+            "en": "Original publication"
+          },
+          "status": {
+            "zh": "待接入 · 演示占位",
+            "en": "Pending · example placeholder"
+          },
+          "url": ""
+        },
+        {
+          "kind": {
+            "zh": "代码与版本",
+            "en": "Code & version"
+          },
+          "status": {
+            "zh": "待接入 · 演示占位",
+            "en": "Pending · example placeholder"
+          },
+          "url": ""
+        },
+        {
+          "kind": {
+            "zh": "评测／复现",
+            "en": "Evaluation / reproduction"
+          },
+          "status": {
+            "zh": "待接入 · 演示占位",
+            "en": "Pending · example placeholder"
+          },
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "intel-demo-05",
+      "topic": "models",
+      "title": {
+        "zh": "推理服务价格变化，是否真的降低了每项任务成本？",
+        "en": "Do inference price changes reduce cost per task?"
+      },
+      "summary": {
+        "zh": "虚构的推理服务更新：区分标价、缓存命中、输出长度与成功任务成本。",
+        "en": "A fictional inference update distinguishes list prices, cache hits, output length and cost per successful task."
+      },
+      "why": {
+        "zh": "单个 Token 更便宜，不代表完成同一任务更便宜；要在明确条件下比较。",
+        "en": "Cheaper tokens do not establish cheaper completed tasks. Compare under explicit conditions."
+      },
+      "next": {
+        "zh": "收集同口径账单与任务结果；没有实测时保留未知。",
+        "en": "Collect comparable bills and task outcomes; retain unknowns without measurements."
+      },
+      "publishedAt": "2026-10-22T16:00:00Z",
+      "capturedAt": "2026-10-24T15:00:00Z",
+      "provenance": "demo",
+      "source": "OpenDipper · DEMO",
+      "sourceUrl": "",
+      "location": null,
+      "openness": {
+        "zh": "演示字段 · 许可待核验",
+        "en": "Example field · license unverified"
+      },
+      "tags": [
+        "inference",
+        "cost",
+        "evaluation"
+      ],
+      "evidence": [
+        {
+          "kind": {
+            "zh": "原始发布",
+            "en": "Original publication"
+          },
+          "status": {
+            "zh": "待接入 · 演示占位",
+            "en": "Pending · example placeholder"
+          },
+          "url": ""
+        },
+        {
+          "kind": {
+            "zh": "代码与版本",
+            "en": "Code & version"
+          },
+          "status": {
+            "zh": "待接入 · 演示占位",
+            "en": "Pending · example placeholder"
+          },
+          "url": ""
+        },
+        {
+          "kind": {
+            "zh": "评测／复现",
+            "en": "Evaluation / reproduction"
+          },
+          "status": {
+            "zh": "待接入 · 演示占位",
+            "en": "Pending · example placeholder"
+          },
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "intel-demo-06",
+      "topic": "agents",
+      "title": {
+        "zh": "开源 Agent 的持续维护，如何从发布节奏看得更清楚？",
+        "en": "Reading maintenance signals behind an open agent"
+      },
+      "summary": {
+        "zh": "虚构项目的维护观察场景：联合查看版本、问题响应与月度协作指标。",
+        "en": "A fictional maintenance scenario joins releases, issue response and monthly collaboration metrics."
+      },
+      "why": {
+        "zh": "发布频率与社区健康不是同一指标。需要追踪持续贡献，并说明机器人与样本范围。",
+        "en": "Release frequency and community health are different measures. Track sustained contribution with bot and coverage notes."
+      },
+      "next": {
+        "zh": "关联真实仓库后，再接入 OpenDigger 月度序列；不为虚构项目填充真实指标。",
+        "en": "Connect a verified repository before loading OpenDigger series; never attach observed metrics to a fictional project."
+      },
+      "publishedAt": "2026-10-22T08:00:00Z",
+      "capturedAt": "2026-10-24T15:00:00Z",
+      "provenance": "demo",
+      "source": "OpenDipper · DEMO",
+      "sourceUrl": "",
+      "location": {
+        "name": "旧金山 · 模拟",
+        "nameEn": "San Francisco · simulated",
+        "lon": -122.42,
+        "lat": 37.77,
+        "countryCode": "USA",
+        "precision": "simulated"
+      },
+      "openness": {
+        "zh": "演示字段 · 许可待核验",
+        "en": "Example field · license unverified"
+      },
+      "tags": [
+        "agent",
+        "maintenance",
+        "open-source"
+      ],
+      "evidence": [
+        {
+          "kind": {
+            "zh": "原始发布",
+            "en": "Original publication"
+          },
+          "status": {
+            "zh": "待接入 · 演示占位",
+            "en": "Pending · example placeholder"
+          },
+          "url": ""
+        },
+        {
+          "kind": {
+            "zh": "代码与版本",
+            "en": "Code & version"
+          },
+          "status": {
+            "zh": "待接入 · 演示占位",
+            "en": "Pending · example placeholder"
+          },
+          "url": ""
+        },
+        {
+          "kind": {
+            "zh": "评测／复现",
+            "en": "Evaluation / reproduction"
+          },
+          "status": {
+            "zh": "待接入 · 演示占位",
+            "en": "Pending · example placeholder"
+          },
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "intel-demo-07",
+      "topic": "research",
+      "title": {
+        "zh": "复现失败也值得记录：建立可追溯的研究讨论",
+        "en": "Failed reproduction is evidence worth keeping"
+      },
+      "summary": {
+        "zh": "虚构的复现结果讨论：对照论文设置、代码版本与运行环境，保留不同结论。",
+        "en": "A fictional reproduction discussion compares paper setup, code version and runtime environment, retaining divergent results."
+      },
+      "why": {
+        "zh": "失败可能来自环境差异、遗漏条件或方法问题；讨论需要证据与具体版本。",
+        "en": "Failure may arise from environment differences, missing conditions or methodological issues. Discussion needs evidence and versions."
+      },
+      "next": {
+        "zh": "提交可复现的最小记录，由主题编辑核验后再形成分析。",
+        "en": "Submit a minimal reproducible record for topic-editor review before analysis."
+      },
+      "publishedAt": "2026-10-21T12:00:00Z",
+      "capturedAt": "2026-10-24T15:00:00Z",
+      "provenance": "demo",
+      "source": "OpenDipper · DEMO",
+      "sourceUrl": "",
+      "location": null,
+      "openness": {
+        "zh": "演示字段 · 许可待核验",
+        "en": "Example field · license unverified"
+      },
+      "tags": [
+        "paper",
+        "reproduction",
+        "community"
+      ],
+      "evidence": [
+        {
+          "kind": {
+            "zh": "原始发布",
+            "en": "Original publication"
+          },
+          "status": {
+            "zh": "待接入 · 演示占位",
+            "en": "Pending · example placeholder"
+          },
+          "url": ""
+        },
+        {
+          "kind": {
+            "zh": "代码与版本",
+            "en": "Code & version"
+          },
+          "status": {
+            "zh": "待接入 · 演示占位",
+            "en": "Pending · example placeholder"
+          },
+          "url": ""
+        },
+        {
+          "kind": {
+            "zh": "评测／复现",
+            "en": "Evaluation / reproduction"
+          },
+          "status": {
+            "zh": "待接入 · 演示占位",
+            "en": "Pending · example placeholder"
+          },
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "intel-demo-08",
+      "topic": "ecosystem",
+      "title": {
+        "zh": "许可变更观察：代码、权重与数据分别核验",
+        "en": "License changes: check code, weights and data separately"
+      },
+      "summary": {
+        "zh": "虚构的 AI 项目许可变更：演示不同资产的许可边界、有效版本与证据记录。",
+        "en": "A fictional AI license change demonstrates asset-specific permissions, effective versions and evidence records."
+      },
+      "why": {
+        "zh": "代码公开与权重可下载是不同事实。摘要应引用原文，具体使用条件需核对适用条款。",
+        "en": "Public code and downloadable weights are different facts. Summaries should point to original terms for the applicable version."
+      },
+      "next": {
+        "zh": "补充原始许可、变更日期和资产范围；不自动生成法律结论。",
+        "en": "Add original terms, effective date and asset scope; do not generate legal conclusions."
+      },
+      "publishedAt": "2026-10-21T08:00:00Z",
+      "capturedAt": "2026-10-24T15:00:00Z",
+      "provenance": "demo",
+      "source": "OpenDipper · DEMO",
+      "sourceUrl": "",
+      "location": {
+        "name": "柏林 · 模拟",
+        "nameEn": "Berlin · simulated",
+        "lon": 13.4,
+        "lat": 52.5,
+        "countryCode": "DEU",
+        "precision": "simulated"
+      },
+      "openness": {
+        "zh": "演示字段 · 许可待核验",
+        "en": "Example field · license unverified"
+      },
+      "tags": [
+        "license",
+        "openness",
+        "governance"
+      ],
+      "evidence": [
+        {
+          "kind": {
+            "zh": "原始发布",
+            "en": "Original publication"
+          },
+          "status": {
+            "zh": "待接入 · 演示占位",
+            "en": "Pending · example placeholder"
+          },
+          "url": ""
+        },
+        {
+          "kind": {
+            "zh": "代码与版本",
+            "en": "Code & version"
+          },
+          "status": {
+            "zh": "待接入 · 演示占位",
+            "en": "Pending · example placeholder"
+          },
+          "url": ""
+        },
+        {
+          "kind": {
+            "zh": "评测／复现",
+            "en": "Evaluation / reproduction"
+          },
+          "status": {
+            "zh": "待接入 · 演示占位",
+            "en": "Pending · example placeholder"
+          },
+          "url": ""
+        }
+      ]
+    }
+  ]
+}

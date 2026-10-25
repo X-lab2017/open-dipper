@@ -28,3 +28,13 @@
 浏览器套件见 [DEVELOPMENT.md](DEVELOPMENT.md)，视觉复用契约见 [VISUAL_SYSTEM.md](VISUAL_SYSTEM.md)。自动验收覆盖常用路径，不能替代对新变化的人工视觉检查或完整无障碍审计。
 
 反馈建议记录：**场景 → 观察到的问题 → 期望变化 → 可验收条件**，附屏幕尺寸、语言/主题、布局模式与截图。宏观评审重点仍是产品完整度和信息主次；全球完整覆盖、全面事件源、自动地理解析、多人后台和严格实时保障仍是后续工作。
+
+## Intelligence portal 1.1.0
+
+1. Start with the map and switch globe/wire; use two screens to reach AI selection and sample content.
+2. Open AI radar, filter a topic and search. Turn demos off: no synthetic cards, map events or saved examples should remain.
+3. Open a located demo, inspect missing evidence and jump to the map. Open a collected AI release and verify its original source and repository trend.
+4. Follow topics, save an item, change cadence, reload, and export Markdown. It must be labelled local/cache-based, retain DEMO markers and never claim delivery or payment.
+5. Read the public sample with demo cases on/off. Check Open/Pro is a proposal without a checkout.
+6. Review contribution issue links and absence of invented expert/sponsor identities.
+7. Check all new surfaces in both languages/themes, keyboard dialogs, 390px mobile, 768px tablet and desktop. Existing map sizes remain covered by observatory acceptance.
