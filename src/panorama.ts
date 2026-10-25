@@ -18,7 +18,7 @@ let mode='globe',rotation=-107,tilt=20,zoom=1,autoRotate=true,playing=false,mont
 let canvas:HTMLCanvasElement,ctx:CanvasRenderingContext2D,width=0,height=0,dpr=1,dragging=false,lastX=0,lastY=0,dragDistance=0,lastTime=0,playClock=0,frame=0;
 let hits:{x:number;y:number;r:number;country:Country}[]=[];
 const t=(zh:string,en:string)=>lang==='zh'?zh:en;
-const logo=`<svg viewBox="0 0 72 48"><path d="M7 35 20 28 29 30 38 18 58 8 65 22 44 29 38 18"/><g>${[[7,35],[20,28],[29,30],[38,18],[58,8],[65,22],[44,29]].map(([x,y])=>`<circle cx="${x}" cy="${y}" r="2.5"/>`).join('')}</g></svg>`;
+const logo=`<img src="./brand/opendipper/opendipper-icon-dark.svg" alt="" width="60" height="48"/>`;
 const metricLabels:Record<string,string>={openrank:'OpenRank',activity:'Activity',participants:'Participants',contributors:'Contributors',stars:'New stars',change_requests_accepted:'Accepted changes'};
 const label=()=>lang==='zh'?snapshot.metrics.find(m=>m.id===metric)?.label:metricLabels[metric];
 const layer=()=>geography.layers[activeLayer];

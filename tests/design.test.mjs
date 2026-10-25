@@ -23,3 +23,19 @@ test('both themes expose identical keys and map/chart colors are usable by Canva
  for(const p of Object.values(tokens.themes))for(const v of Object.values(p))assert.match(v,/^#[\da-f]{6}$/i);
  for(const key of ['activity','change_requests_accepted','openrank'])assert.ok(Number.isFinite(tokens.metricHues[key]));
 });
+
+test('OpenDipper identity exports all variants without font or image dependencies',async()=>{
+ const manifest=JSON.parse(await fs.readFile('public/brand/opendipper/manifest.json','utf8'));
+ assert.equal(manifest.assets.length,20);
+ for(const item of manifest.assets){
+  const svg=await fs.readFile(`public/brand/opendipper/${item.file}`,'utf8');
+  assert.match(svg,/<title>开源北斗 · OpenDipper<\/title>/);assert.doesNotMatch(svg,/<(?:text|image|script)\b|https?:\/\/(?!www\.w3\.org)/);
+  assert.equal((svg.match(/<circle\b/g)||[]).length,item.variant==='small'?0:7);
+  assert.ok((await fs.stat(`public/brand/opendipper/${item.file.replace('.svg','@2x.png')}`)).size>500);
+ }
+ for(const file of ['favicon.ico','favicon-16.png','favicon-32.png','apple-touch-icon.png'])assert.ok((await fs.stat(`public/brand/opendipper/${file}`)).size>0);
+});
+test('product favicon and independent identity are used without replacing X-lab assets',async()=>{
+ for(const file of ['index.html','analysis.html','panorama.html','design-system.html'])assert.match(await fs.readFile(file,'utf8'),/brand\/opendipper\/opendipper-small-dark.svg/);
+ const source=await fs.readFile('src/observatory/main.ts','utf8');assert.match(source,/xlabLogo\('compact'\)/);assert.match(source,/openDipperLogo\(state.lang/);
+});

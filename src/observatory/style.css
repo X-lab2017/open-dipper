@@ -66,3 +66,9 @@
 @media(prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important;scroll-behavior:auto!important}}
 
 .trend-summary{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;flex-shrink:0}.trend-summary>div{border-top:1px solid var(--line);padding-top:12px;display:flex;flex-direction:column;gap:6px}.trend-summary span{font-size:10px;color:var(--sub)}.trend-summary b{font:20px var(--od-font-mono);font-weight:400}@media(max-width:600px){.trend-summary{gap:8px}.trend-summary span{font-size:8px}.trend-summary b{font-size:15px}.analytics-screen .trend-body{gap:10px}.analytics-screen .trend-chart{min-height:80px}}
+
+/* Production product lockup follows the approved parent/product relationship. */
+.brand>.opendipper-logo{width:164px;height:47px}.observatory-mark>.opendipper-logo{width:37px;height:30px}.brand-lockup{flex-shrink:0}.brand{display:flex;align-items:center}
+@media(max-width:1200px){.brand>.opendipper-logo{width:142px;height:43px}}
+@media(max-width:600px){.brand>.opendipper-logo{width:123px;height:38px}.brand-lockup{gap:7px}}
+@media(min-width:2400px){.brand>.opendipper-logo{width:204px;height:61px}}

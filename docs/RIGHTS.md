@@ -5,6 +5,7 @@
 | 范围 | 当前记录 | 维护要求 |
 | --- | --- | --- |
 | OpenDipper 应用源码与原创文档 | 目前没有根目录 LICENSE，尚未选择统一应用许可 | 由维护者确认权利与许可，再添加准确文本；不能因公开仓库或项目目标就宣称已有 MIT/Apache 授权 |
+| OpenDipper 产品标志 | 用户批准概念的 AI 辅助矢量化与重新排字；独立品牌资产 | 保留[规范与来源](../public/brand/opendipper/README.md)，不据此授予商标背书或新增统一许可 |
 | X-lab AI 官方标志 | 固定上游 SHA、原始 SVG、品牌 notice | 保留 [NOTICE](../public/brand/NOTICE.md)、[上游声明](../public/brand/UPSTREAM_NOTICE.md)、[provenance](../public/brand/provenance.json)；本仓库不追加品牌授权 |
 | OpenDigger 指标和地理结果 | 原 URL、时间、原始响应哈希与范围说明 | 代码许可不等于所有源平台数据/结果的再分发许可；见 [月度数据说明](../public/data/README.md) |
 | OpenShare 全球统计 | 原值、来源 URL、完整响应哈希和摘录文件哈希 | 保留来源；不追加统一数据许可，见 [证据契约](DATA_EVIDENCE.md) |

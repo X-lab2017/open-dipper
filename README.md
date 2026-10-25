@@ -1,5 +1,11 @@
 <!-- section:overview -->
-# OpenDipper
+# OpenDipper · 开源北斗
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="public/brand/opendipper/opendipper-horizontal-dark.svg">
+  <img src="public/brand/opendipper/opendipper-horizontal-light.svg" width="420" alt="开源北斗 OpenDipper">
+</picture>
+
 
 **English** | [简体中文](README.zh-CN.md)
 
@@ -10,6 +16,8 @@
 [![OpenDipper map view with geographic layers, compact navigation and an ecosystem event wire](docs/assets/opendipper-observed-overview-2026-10-25.jpg)](https://www.x-lab.info/open-dipper/)
 
 *2026-10-25 · Published observed-data view; source dates and demo events are labelled independently. A version record, not live statistics. [Data scope](docs/DATA_EVIDENCE.md) · [Visual evolution](docs/archive/2026-10-25-visual-evolution.md).*
+
+[Reusable brand assets](public/brand/opendipper/README.md) · [Approved design references](docs/assets/brand-reference/README.md)
 
 <!-- section:business -->
 ## Business view

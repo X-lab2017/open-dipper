@@ -1,5 +1,11 @@
 <!-- section:overview -->
-# OpenDipper
+# OpenDipper · 开源北斗
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="public/brand/opendipper/opendipper-horizontal-dark.svg">
+  <img src="public/brand/opendipper/opendipper-horizontal-light.svg" width="420" alt="开源北斗 OpenDipper">
+</picture>
+
 
 [English](README.md) | **简体中文**
 
@@ -10,6 +16,8 @@
 [![OpenDipper 地图视图：地域图层、紧凑导航与生态事件流](docs/assets/opendipper-observed-overview-2026-10-25.jpg)](https://www.x-lab.info/open-dipper/)
 
 *2026-10-25 · 已上线的全球真实数据视图；来源日期与模拟事件分别标识。截图是版本记录，不代表实时统计。[数据口径](docs/DATA_EVIDENCE.md) · [视觉演进](docs/archive/2026-10-25-visual-evolution.md)。*
+
+[可复用品牌资产](public/brand/opendipper/README.md) · [已批准设计参考](docs/assets/brand-reference/README.md)
 
 <!-- section:business -->
 ## 业务视角

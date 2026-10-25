@@ -14,9 +14,9 @@ files = {
     'icons.ts': 'src/design/icons.ts',
     'brand.ts': 'src/design/brand.ts',
 }
-for path in (root / 'public/brand').iterdir():
-    if path.is_file():
-        files['brand/' + path.name] = str(path.relative_to(root))
+for path in (root / 'public/brand').rglob('*'):
+    if path.is_file() and path.suffix != '.zip':
+        files['brand/' + str(path.relative_to(root / 'public/brand'))] = str(path.relative_to(root))
 target = root / 'public/design-system/open-dipper-visual-baseline-v1.zip'
 target.parent.mkdir(parents=True, exist_ok=True)
 with ZipFile(target, 'w', ZIP_DEFLATED) as archive:
@@ -28,3 +28,17 @@ with ZipFile(target, 'w', ZIP_DEFLATED) as archive:
 with ZipFile(target) as archive:
     assert archive.testzip() is None
 print(f'Visual baseline bundle: {len(files)} files, {target.stat().st_size:,} bytes')
+
+# Independent, portable product-identity package (generated, not versioned twice).
+brandroot = root / 'public/brand/opendipper'
+brandtarget = brandroot / 'opendipper-brand-v1.zip'
+with ZipFile(brandtarget, 'w', ZIP_DEFLATED) as archive:
+    for path in sorted(brandroot.iterdir()):
+        if path.is_file() and path.suffix != '.zip':
+            entry = ZipInfo('opendipper-brand-v1/' + path.name, (2026, 10, 25, 0, 0, 0))
+            entry.compress_type = ZIP_DEFLATED
+            entry.external_attr = 0o100644 << 16
+            archive.writestr(entry, path.read_bytes())
+with ZipFile(brandtarget) as archive:
+    assert archive.testzip() is None
+print(f'OpenDipper identity bundle: {brandtarget.stat().st_size:,} bytes')

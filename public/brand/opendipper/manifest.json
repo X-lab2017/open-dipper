@@ -1,0 +1,146 @@
+{
+  "version": "1.0.0",
+  "date": "2026-10-25",
+  "assets": [
+    {
+      "file": "opendipper-icon-dark.svg",
+      "variant": "icon",
+      "theme": "dark",
+      "width": 400,
+      "height": 320
+    },
+    {
+      "file": "opendipper-small-dark.svg",
+      "variant": "small",
+      "theme": "dark",
+      "width": 320,
+      "height": 320
+    },
+    {
+      "file": "opendipper-horizontal-dark.svg",
+      "variant": "horizontal",
+      "theme": "dark",
+      "width": 1040,
+      "height": 320
+    },
+    {
+      "file": "opendipper-english-dark.svg",
+      "variant": "english",
+      "theme": "dark",
+      "width": 1040,
+      "height": 320
+    },
+    {
+      "file": "opendipper-stacked-dark.svg",
+      "variant": "stacked",
+      "theme": "dark",
+      "width": 600,
+      "height": 550
+    },
+    {
+      "file": "opendipper-icon-light.svg",
+      "variant": "icon",
+      "theme": "light",
+      "width": 400,
+      "height": 320
+    },
+    {
+      "file": "opendipper-small-light.svg",
+      "variant": "small",
+      "theme": "light",
+      "width": 320,
+      "height": 320
+    },
+    {
+      "file": "opendipper-horizontal-light.svg",
+      "variant": "horizontal",
+      "theme": "light",
+      "width": 1040,
+      "height": 320
+    },
+    {
+      "file": "opendipper-english-light.svg",
+      "variant": "english",
+      "theme": "light",
+      "width": 1040,
+      "height": 320
+    },
+    {
+      "file": "opendipper-stacked-light.svg",
+      "variant": "stacked",
+      "theme": "light",
+      "width": 600,
+      "height": 550
+    },
+    {
+      "file": "opendipper-icon-black.svg",
+      "variant": "icon",
+      "theme": "black",
+      "width": 400,
+      "height": 320
+    },
+    {
+      "file": "opendipper-small-black.svg",
+      "variant": "small",
+      "theme": "black",
+      "width": 320,
+      "height": 320
+    },
+    {
+      "file": "opendipper-horizontal-black.svg",
+      "variant": "horizontal",
+      "theme": "black",
+      "width": 1040,
+      "height": 320
+    },
+    {
+      "file": "opendipper-english-black.svg",
+      "variant": "english",
+      "theme": "black",
+      "width": 1040,
+      "height": 320
+    },
+    {
+      "file": "opendipper-stacked-black.svg",
+      "variant": "stacked",
+      "theme": "black",
+      "width": 600,
+      "height": 550
+    },
+    {
+      "file": "opendipper-icon-white.svg",
+      "variant": "icon",
+      "theme": "white",
+      "width": 400,
+      "height": 320
+    },
+    {
+      "file": "opendipper-small-white.svg",
+      "variant": "small",
+      "theme": "white",
+      "width": 320,
+      "height": 320
+    },
+    {
+      "file": "opendipper-horizontal-white.svg",
+      "variant": "horizontal",
+      "theme": "white",
+      "width": 1040,
+      "height": 320
+    },
+    {
+      "file": "opendipper-english-white.svg",
+      "variant": "english",
+      "theme": "white",
+      "width": 1040,
+      "height": 320
+    },
+    {
+      "file": "opendipper-stacked-white.svg",
+      "variant": "stacked",
+      "theme": "white",
+      "width": 600,
+      "height": 550
+    }
+  ]
+}

@@ -13,7 +13,7 @@ const esc=(s:unknown)=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&l
 const num=(n:number|undefined)=>n===undefined?'—':new Intl.NumberFormat(lang==='zh'?'zh-CN':'en-US',{maximumFractionDigits:1}).format(n);
 const short=(n:number)=>n>=1000?`${(n/1000).toFixed(n>=10000?0:1)}k`:num(n);
 const label=(id:string)=>lang==='en'?en[id]??id:data.metrics.find(m=>m.id===id)?.label??id;
-const logo=`<svg viewBox="0 0 72 48" aria-hidden="true"><path d="M7 35 20 28 29 30 38 18 58 8 65 22 44 29 38 18" fill="none" stroke="currentColor" stroke-width="1.3" opacity=".6"/>${[[7,35],[20,28],[29,30],[38,18],[58,8],[65,22],[44,29]].map(([x,y],i)=>`<circle cx="${x}" cy="${y}" r="${i===3?3.2:2.2}" fill="currentColor"/>`).join('')}</svg>`;
+const logo=`<img class="legacy-logo-dark" src="./brand/opendipper/opendipper-icon-dark.svg" alt="" width="60" height="48"/><img class="legacy-logo-light" src="./brand/opendipper/opendipper-icon-light.svg" alt="" width="60" height="48"/>`;
 function months(){return [...new Set(data.repositories.flatMap(r=>Object.values(r.metrics).flatMap(s=>s.points.map(p=>p.month))))].sort();}
 function value(r:Repo,id=metric){return r.metrics[id]?.points.find(p=>p.month===month)?.value;}
 function filtered(){return data.repositories.filter(r=>(platform==='all'||r.platform===platform)&&r.path.toLowerCase().includes(query.toLowerCase()));}

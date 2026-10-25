@@ -37,3 +37,7 @@ npm run build        # 包含可下载视觉基线包
 ```
 
 `brand/` 中的 SVG 保持官方原样。读取 `brand/UPSTREAM_NOTICE.md` 与 `brand/NOTICE.md` 了解使用条件；本包不授予额外品牌或商标权利。下载包中的 `VISUAL_SYSTEM.md` 包含所有约定与源代码路径。
+
+## OpenDipper product identity 1.0
+
+[品牌资产与来源](../public/brand/opendipper/README.md)提供双语/英文横版、竖版、标准/小尺寸图标、深浅/黑白 SVG 和透明 PNG。产品品牌与 X-lab 官方资源分目录维护，下载包保留两者各自声明。

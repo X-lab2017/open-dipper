@@ -22,3 +22,6 @@
 .od-stat{font:500 var(--od-font-size-display)/1.1 var(--od-font-mono);letter-spacing:-1.5px;color:var(--od-text);font-variant-numeric:tabular-nums}
 .od-empty{padding:32px 16px;text-align:center;color:var(--od-text-muted);font-size:var(--od-font-size-body);line-height:1.8;border:1px dashed var(--od-border);border-radius:var(--od-radius-panel)}
 @media(prefers-reduced-motion:reduce){.od-button{transition:none}}
+
+/* Independent product identity; no recoloring/filtering of official assets. */
+.opendipper-logo{display:block;max-width:100%;height:auto;object-fit:contain}.opendipper-logo-light{display:none}:root[data-theme=light] .opendipper-logo-dark{display:none}:root[data-theme=light] .opendipper-logo-light{display:block}

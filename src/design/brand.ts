@@ -7,5 +7,11 @@ export function xlabLogo(variant:'compact'|'horizontal'|'favicon'='compact'){
 export function applyAppearance(light:boolean,density='comfortable'){
  const root=document.documentElement;root.dataset.theme=light?'light':'dark';root.dataset.density=density;
  document.querySelector('meta[name="theme-color"]')?.setAttribute('content',canvasPalette(light)['surface-panel']);
- document.querySelector<HTMLLinkElement>('link[rel="icon"]')?.setAttribute('href',`${import.meta.env.BASE_URL}brand/XlabAI_Favicon_Color${light?'Light':'Dark'}.svg`);
+ document.querySelector<HTMLLinkElement>('link[rel="icon"]')?.setAttribute('href',`${import.meta.env.BASE_URL}brand/opendipper/opendipper-small-${light?'light':'dark'}.svg`);
+}
+
+/** OpenDipper product identity; separate from the immutable X-lab parent mark. */
+export function openDipperLogo(variant:'horizontal'|'english'|'icon'='horizontal'){
+ const dimensions=variant==='icon'?'width="400" height="320"':'width="1040" height="320"';
+ return (['dark','light'] as const).map(theme=>`<img class="opendipper-logo opendipper-logo-${theme}" src="${import.meta.env.BASE_URL}brand/opendipper/opendipper-${variant}-${theme}.svg" alt="开源北斗 OpenDipper" ${dimensions}>`).join('');
 }

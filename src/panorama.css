@@ -14,3 +14,5 @@
   .timeline{position:relative;left:auto;right:auto;bottom:auto;width:calc(100% - 28px);margin:14px;height:76px;box-shadow:none}
   .bottom-attribution{padding-bottom:12px}
 }
+
+.identity>img{width:61px;height:46px;object-fit:contain;flex-shrink:0}@media(max-width:600px){.identity>img{width:49px;height:40px}}
