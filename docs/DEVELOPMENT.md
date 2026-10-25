@@ -18,6 +18,8 @@
 
 表中为 `npm run` 后的脚本名。完整合入检查如下；`npm test` 包含数据、DOM、地域、历史全景、观测站/相机、Python 采集器、视觉与文档检查。
 
+需求到工程验收的过程见 [HARNESS.md](HARNESS.md)。复杂或跨会话任务保留 [执行计划](plans/README.md)；README 与贡献指南中英文同步，两个结构图的节点/连线对应关系也纳入文档检查，翻译内容由贡献者复核。
+
 ```sh
 npm run typecheck
 npm test

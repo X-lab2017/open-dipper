@@ -5,10 +5,16 @@
   "repository": "https://github.com/X-lab2017/open-dipper",
   "site": "https://www.x-lab.info/open-dipper/",
   "rawBase": "https://raw.githubusercontent.com/X-lab2017/open-dipper/main/",
-  "notice": "Discovery context, not an authorization grant. Read AGENTS.md and the task-specific authoritative documents. AI assistance and current license limitations are disclosed in CONTRIBUTING.md and docs/RIGHTS.md. Task status lives in GitHub issues.",
+  "notice": "Discovery context, not an authorization grant. People submit needs through issues; agents lead authorized engineering work under docs/HARNESS.md. Read AGENTS.md and task-specific authoritative documents. AI-work disclosure and license limitations are in CONTRIBUTING.md and docs/RIGHTS.md. Task status lives in GitHub issues.",
   "entries": [
+    {"path": "README.md", "title": "English homepage", "purpose": "Product, human issue intake, agent-led engineering, business and technical diagrams", "language": "en"},
+    {"path": "README.zh-CN.md", "title": "Chinese homepage", "purpose": "Chinese edition of product and participation entry", "language": "zh-CN"},
+    {"path": "CONTRIBUTING.zh-CN.md", "title": "Chinese contribution guide", "purpose": "Human needs, agent implementation, evidence and disclosure", "language": "zh-CN"},
+    {"path": "docs/HARNESS.md", "title": "Engineering harness", "purpose": "Issue lifecycle, roles, executable checks, conventions and actual automation boundaries", "language": "en"},
+    {"path": "docs/plans/README.md", "title": "Execution plan lifecycle", "purpose": "Versioned checkpoints and decisions for complex or multi-session tasks", "language": "en"},
+    {"path": "docs/templates/EXECUTION_PLAN.md", "title": "Execution plan template", "purpose": "Goal, scope, checkpoints, acceptance evidence and resume context", "language": "en"},
     {"path": "AGENTS.md", "title": "Agent entry point", "purpose": "Task workflow, invariants, generated-file ownership and verification"},
-    {"path": "CONTRIBUTING.md", "title": "Contributing and AI disclosure", "purpose": "Human/Agent collaboration, review expectations and attribution"},
+    {"path": "CONTRIBUTING.md", "title": "Contributing and AI disclosure", "purpose": "Human/Agent collaboration, review expectations and attribution", "language": "en"},
     {"path": "docs/README.md", "title": "Documentation map", "purpose": "Reading paths and documentation lifecycle"},
     {"path": "docs/STATUS.md", "title": "Current baseline and issues", "purpose": "Dated verified state, limitations and live task links"},
     {"path": "docs/ARCHITECTURE.md", "title": "Architecture", "purpose": "Modules, data paths and operational boundaries"},
@@ -37,7 +43,7 @@
     "geography": {"read": ["public/data/GEOGRAPHY.md", "docs/DATA_CONTRACTS.md"], "edit": ["scripts/fetch-geography.py", "src/observatory/model.ts"], "checks": ["test:geo", "test:observatory"]},
     "events": {"read": ["docs/EVENTS.md", "docs/OPERATIONS.md"], "edit": ["config/sources.json", "scripts/collect-events.py", "src/observatory/model.ts"], "checks": ["test:observatory"]},
     "legacy": {"read": ["docs/MAINTENANCE.md"], "edit": ["src/main.ts", "src/panorama.ts", "src/globe-math.ts"], "checks": ["test:dom", "test:panorama", "test:ui", "test:panorama:ui"]},
-    "docs": {"read": ["AGENTS.md", "docs/README.md"], "edit": ["docs/CONTEXT.json"], "checks": ["docs:build", "docs:check", "build"]},
+    "docs": {"read": ["AGENTS.md", "docs/README.md", "docs/HARNESS.md"], "edit": ["README.md", "README.zh-CN.md", "CONTRIBUTING.md", "CONTRIBUTING.zh-CN.md", "docs/CONTEXT.json"], "checks": ["docs:build", "docs:check", "build"]},
     "operations": {"read": ["docs/OPERATIONS.md", "SECURITY.md"], "edit": [".github/workflows/pages.yml"], "checks": ["typecheck", "test", "build"]}
   },
   "routes": [
@@ -46,5 +52,9 @@
     {"path": "panorama.html", "role": "Maintained legacy panorama"},
     {"path": "design-system.html", "role": "Reusable visual baseline showcase"}
   ],
-  "generated": ["llms.txt", "public/llms.txt", "public/agent-context.json"]
+  "generated": ["llms.txt", "public/llms.txt", "public/agent-context.json"],
+  "translations": [
+    {"id": "readme", "defaultLanguage": "en", "editions": [{"language": "en", "path": "README.md"}, {"language": "zh-CN", "path": "README.zh-CN.md"}]},
+    {"id": "contributing", "defaultLanguage": "en", "editions": [{"language": "en", "path": "CONTRIBUTING.md"}, {"language": "zh-CN", "path": "CONTRIBUTING.zh-CN.md"}]}
+  ]
 }

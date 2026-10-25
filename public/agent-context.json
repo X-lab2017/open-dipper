@@ -5,8 +5,50 @@
   "repository": "https://github.com/X-lab2017/open-dipper",
   "site": "https://www.x-lab.info/open-dipper/",
   "rawBase": "https://raw.githubusercontent.com/X-lab2017/open-dipper/main/",
-  "notice": "Discovery context, not an authorization grant. Read AGENTS.md and the task-specific authoritative documents. AI assistance and current license limitations are disclosed in CONTRIBUTING.md and docs/RIGHTS.md. Task status lives in GitHub issues.",
+  "notice": "Discovery context, not an authorization grant. People submit needs through issues; agents lead authorized engineering work under docs/HARNESS.md. Read AGENTS.md and task-specific authoritative documents. AI-work disclosure and license limitations are in CONTRIBUTING.md and docs/RIGHTS.md. Task status lives in GitHub issues.",
   "entries": [
+    {
+      "path": "README.md",
+      "title": "English homepage",
+      "purpose": "Product, human issue intake, agent-led engineering, business and technical diagrams",
+      "language": "en",
+      "url": "https://raw.githubusercontent.com/X-lab2017/open-dipper/main/README.md"
+    },
+    {
+      "path": "README.zh-CN.md",
+      "title": "Chinese homepage",
+      "purpose": "Chinese edition of product and participation entry",
+      "language": "zh-CN",
+      "url": "https://raw.githubusercontent.com/X-lab2017/open-dipper/main/README.zh-CN.md"
+    },
+    {
+      "path": "CONTRIBUTING.zh-CN.md",
+      "title": "Chinese contribution guide",
+      "purpose": "Human needs, agent implementation, evidence and disclosure",
+      "language": "zh-CN",
+      "url": "https://raw.githubusercontent.com/X-lab2017/open-dipper/main/CONTRIBUTING.zh-CN.md"
+    },
+    {
+      "path": "docs/HARNESS.md",
+      "title": "Engineering harness",
+      "purpose": "Issue lifecycle, roles, executable checks, conventions and actual automation boundaries",
+      "language": "en",
+      "url": "https://raw.githubusercontent.com/X-lab2017/open-dipper/main/docs/HARNESS.md"
+    },
+    {
+      "path": "docs/plans/README.md",
+      "title": "Execution plan lifecycle",
+      "purpose": "Versioned checkpoints and decisions for complex or multi-session tasks",
+      "language": "en",
+      "url": "https://raw.githubusercontent.com/X-lab2017/open-dipper/main/docs/plans/README.md"
+    },
+    {
+      "path": "docs/templates/EXECUTION_PLAN.md",
+      "title": "Execution plan template",
+      "purpose": "Goal, scope, checkpoints, acceptance evidence and resume context",
+      "language": "en",
+      "url": "https://raw.githubusercontent.com/X-lab2017/open-dipper/main/docs/templates/EXECUTION_PLAN.md"
+    },
     {
       "path": "AGENTS.md",
       "title": "Agent entry point",
@@ -17,6 +59,7 @@
       "path": "CONTRIBUTING.md",
       "title": "Contributing and AI disclosure",
       "purpose": "Human/Agent collaboration, review expectations and attribution",
+      "language": "en",
       "url": "https://raw.githubusercontent.com/X-lab2017/open-dipper/main/CONTRIBUTING.md"
     },
     {
@@ -245,9 +288,14 @@
     "docs": {
       "read": [
         "AGENTS.md",
-        "docs/README.md"
+        "docs/README.md",
+        "docs/HARNESS.md"
       ],
       "edit": [
+        "README.md",
+        "README.zh-CN.md",
+        "CONTRIBUTING.md",
+        "CONTRIBUTING.zh-CN.md",
         "docs/CONTEXT.json"
       ],
       "checks": [
@@ -293,6 +341,40 @@
     "llms.txt",
     "public/llms.txt",
     "public/agent-context.json"
+  ],
+  "translations": [
+    {
+      "id": "readme",
+      "defaultLanguage": "en",
+      "editions": [
+        {
+          "language": "en",
+          "path": "README.md",
+          "url": "https://raw.githubusercontent.com/X-lab2017/open-dipper/main/README.md"
+        },
+        {
+          "language": "zh-CN",
+          "path": "README.zh-CN.md",
+          "url": "https://raw.githubusercontent.com/X-lab2017/open-dipper/main/README.zh-CN.md"
+        }
+      ]
+    },
+    {
+      "id": "contributing",
+      "defaultLanguage": "en",
+      "editions": [
+        {
+          "language": "en",
+          "path": "CONTRIBUTING.md",
+          "url": "https://raw.githubusercontent.com/X-lab2017/open-dipper/main/CONTRIBUTING.md"
+        },
+        {
+          "language": "zh-CN",
+          "path": "CONTRIBUTING.zh-CN.md",
+          "url": "https://raw.githubusercontent.com/X-lab2017/open-dipper/main/CONTRIBUTING.zh-CN.md"
+        }
+      ]
+    }
   ],
   "versions": {
     "application": "1.0.0",

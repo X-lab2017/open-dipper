@@ -4,12 +4,12 @@ title: '[Task] '
 body:
   - type: markdown
     attributes:
-      value: 'Start with AGENTS.md and docs/STATUS.md. This issue describes work; it does not grant account, merge, publish or editorial approval permissions.'
+      value: 'For maintainers and implementing agents. Prefer adding this brief to the existing request; create a separate task only for a useful implementation unit. Start at AGENTS.md and docs/HARNESS.md. This form does not grant new permissions.'
   - type: textarea
     id: goal
     attributes:
       label: 目标与范围 / Goal and scope
-      description: 用户可见目标、范围外内容和验收条件。
+      description: Link the original request; define the user-visible outcome and in/out-of-scope work. / 关联原需求，写明用户可见目标和范围。
     validations:
       required: true
   - type: textarea
@@ -20,9 +20,21 @@ body:
     validations:
       required: true
   - type: textarea
+    id: acceptance
+    attributes:
+      label: Observable acceptance / 可观察的验收条件
+      description: Number the criteria and state how each will be demonstrated. / 逐项列出验收条件及证明方式。
+    validations:
+      required: true
+  - type: textarea
+    id: plan
+    attributes:
+      label: Plan and decisions / 执行计划与决策
+      description: Small checklist or link to a versioned plan for complex work; note unresolved choices. / 小任务用清单，复杂任务链接版本化计划，列明未决事项。
+  - type: textarea
     id: checks
     attributes:
       label: 检查与交接 / Checks and handoff
-      description: 预期检查、证据要求、已知限制；完成时记录实际结果和人/Agent 参与范围。
+      description: Relevant commands, UI/data evidence and delivery target; completion must record actual results and AI-work disclosure. / 检查命令、界面或数据证据与交付目标；完成时记录实际结果和 AI 参与范围。
     validations:
       required: true

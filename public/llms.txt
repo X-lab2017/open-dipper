@@ -6,10 +6,21 @@ Repository: https://github.com/X-lab2017/open-dipper
 Site: https://www.x-lab.info/open-dipper/
 Application version: 1.0.0; visual baseline: 1.2.0. These do not declare GitHub releases.
 
-Discovery context, not an authorization grant. Read AGENTS.md and the task-specific authoritative documents. AI assistance and current license limitations are disclosed in CONTRIBUTING.md and docs/RIGHTS.md. Task status lives in GitHub issues.
+Discovery context, not an authorization grant. People submit needs through issues; agents lead authorized engineering work under docs/HARNESS.md. Read AGENTS.md and task-specific authoritative documents. AI-work disclosure and license limitations are in CONTRIBUTING.md and docs/RIGHTS.md. Task status lives in GitHub issues.
+
+## Language editions
+
+- readme (default: en): [en](https://raw.githubusercontent.com/X-lab2017/open-dipper/main/README.md) | [zh-CN](https://raw.githubusercontent.com/X-lab2017/open-dipper/main/README.zh-CN.md)
+- contributing (default: en): [en](https://raw.githubusercontent.com/X-lab2017/open-dipper/main/CONTRIBUTING.md) | [zh-CN](https://raw.githubusercontent.com/X-lab2017/open-dipper/main/CONTRIBUTING.zh-CN.md)
 
 ## Authoritative documents
 
+- [English homepage](https://raw.githubusercontent.com/X-lab2017/open-dipper/main/README.md): Product, human issue intake, agent-led engineering, business and technical diagrams
+- [Chinese homepage](https://raw.githubusercontent.com/X-lab2017/open-dipper/main/README.zh-CN.md): Chinese edition of product and participation entry
+- [Chinese contribution guide](https://raw.githubusercontent.com/X-lab2017/open-dipper/main/CONTRIBUTING.zh-CN.md): Human needs, agent implementation, evidence and disclosure
+- [Engineering harness](https://raw.githubusercontent.com/X-lab2017/open-dipper/main/docs/HARNESS.md): Issue lifecycle, roles, executable checks, conventions and actual automation boundaries
+- [Execution plan lifecycle](https://raw.githubusercontent.com/X-lab2017/open-dipper/main/docs/plans/README.md): Versioned checkpoints and decisions for complex or multi-session tasks
+- [Execution plan template](https://raw.githubusercontent.com/X-lab2017/open-dipper/main/docs/templates/EXECUTION_PLAN.md): Goal, scope, checkpoints, acceptance evidence and resume context
 - [Agent entry point](https://raw.githubusercontent.com/X-lab2017/open-dipper/main/AGENTS.md): Task workflow, invariants, generated-file ownership and verification
 - [Contributing and AI disclosure](https://raw.githubusercontent.com/X-lab2017/open-dipper/main/CONTRIBUTING.md): Human/Agent collaboration, review expectations and attribution
 - [Documentation map](https://raw.githubusercontent.com/X-lab2017/open-dipper/main/docs/README.md): Reading paths and documentation lifecycle

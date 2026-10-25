@@ -4,17 +4,29 @@
 
 说明触发条件、修改后的行为，以及重要兼容/数据/视觉影响。
 
+## 验收映射 / Acceptance evidence
+
+| Issue 验收条件 / Criterion | 实际结果 / Result | 证据 / Evidence |
+| --- | --- | --- |
+| 填写真实条件；不适用时说明 / Use a real criterion | | |
+
+执行计划（复杂或跨会话任务时）/ Execution plan, if applicable:
+
 ## 验证 / Verification
 
 - 实际运行的命令与结果：
 - CI / 浏览器证据（界面变更时包含主题、语言和屏幕尺寸）：
 - 未执行的检查、已知限制及原因：
+- 自检发现及修正 / Self-review findings and fixes:
 
 ## 文档与来源 / Context
 
 - 更新了哪些契约、视觉规范、决策或运维文档？不适用请注明。
 - 是否修改真实快照、模拟数据、来源配置或生成文件？说明原因与生成命令。
 - 是否引入外部代码/素材？记录来源和已核对的适用条款。
+- 是否同时更新中英文入口、图结构和上下文索引？说明不适用项。
+
+合并、发布与后续任务状态 / Merge, deployment and follow-up status: 仅记录已经发生的事实 / Record actual status only.
 
 ## AI 协作披露 / AI assistance
 

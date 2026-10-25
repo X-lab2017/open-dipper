@@ -1,24 +1,31 @@
-name: Proposal / 改进提案
-description: Propose a product, data or architecture change / 产品、数据或架构建议
-title: '[Proposal] '
+name: Feature request / 提出需求
+description: Describe your need; no coding knowledge required / 无需技术背景，描述你的需求即可
+title: '[Request] '
 body:
+  - type: markdown
+    attributes:
+      value: 'English or Chinese is welcome. Tell us the user need; maintainers and agents will work out scope, implementation and checks. / 可用中文或英文，维护者与 Agent 会补充技术拆解和验证方式。'
   - type: textarea
     id: problem
     attributes:
-      label: 场景与问题 / Scenario and problem
+      label: Who needs this, and in what situation? / 谁在什么场景下需要？
+      description: Describe the task or difficulty in your own words. / 用自己的话描述使用场景或遇到的困难。
     validations:
       required: true
   - type: textarea
-    id: scope
+    id: outcome
     attributes:
-      label: 范围与约束 / Scope and constraints
-      description: 说明与当前视觉、数据时间/范围和兼容入口的关系，引用相关决策。
+      label: What result would help? / 希望获得什么结果？
+      description: Focus on what becomes possible or easier; a technical solution is optional. / 说明希望什么变得可行或更容易，无需设计技术方案。
     validations:
       required: true
   - type: textarea
-    id: acceptance
+    id: example
     attributes:
-      label: 验收条件 / Acceptance criteria
-      description: 写可验证的行为和证据；区分本次目标与后续工作。
-    validations:
-      required: true
+      label: Example or a way to judge success (optional) / 例子或判断方式（选填）
+      description: A screenshot, display size or observable result can help. / 可以提供截图、屏幕尺寸或可观察的效果。
+  - type: textarea
+    id: constraints
+    attributes:
+      label: Relevant context (optional) / 补充背景（选填）
+      description: Related issues, timing, data sources or constraints you already know. / 相关 issue、使用时间、数据来源或已知限制；不知道可以留空。

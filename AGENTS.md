@@ -1,14 +1,14 @@
 # Working on OpenDipper
 
-This is the repository entry point for AI coding agents. It is public project context, not permission to publish, access accounts, or override a contributor's instructions. Human contributors start at [CONTRIBUTING.md](CONTRIBUTING.md). 中文任务入口见 [文档导航](docs/README.md)。
+This is the repository entry point for AI coding agents. People provide needs and product direction; agents are the primary engineering collaborators. It is public project context, not permission to publish, access accounts, or override a contributor's instructions. Human contributors start at [CONTRIBUTING.md](CONTRIBUTING.md) or its [Chinese edition](CONTRIBUTING.zh-CN.md). Read [HARNESS.md](docs/HARNESS.md) for the issue-to-delivery lifecycle and actual automation boundaries.
 
 ## Start with the task, not the whole repository
 
 1. Read [current status](docs/STATUS.md) and inspect `git status --short` and the recent log. Preserve unrelated changes and bot-updated snapshots.
 2. Read the relevant row of [the task map](docs/DEVELOPMENT.md). [docs/CONTEXT.json](docs/CONTEXT.json) provides the same entry points for tools. Read referenced source before editing.
-3. For a behavior or architecture change, read the relevant [decision](docs/DECISIONS.md) and data contract. State the concrete goal and acceptance criteria in the issue or PR.
+3. For a behavior or architecture change, read the relevant [decision](docs/DECISIONS.md) and data contract. Translate the human need into scope, observable acceptance and a validation plan in the issue/PR; do not ask requesters to supply engineering internals. Complex or multi-session work uses a [versioned execution plan](docs/plans/README.md).
 4. Implement within the authorized scope, run the relevant checks, and report actual results. A command not run is **not verified**; a successful build is not browser acceptance or deployment.
-5. Update affected authoritative docs in the same change. Use [the handoff template](docs/templates/HANDOFF.md) for unfinished work. Link commits, issues and CI evidence; do not deposit private conversations, credentials or hidden reasoning.
+5. Self-review the diff and acceptance evidence, resolve relevant failures, and update affected authoritative docs in the same change. Keep English/Chinese entry editions aligned. Use [the handoff template](docs/templates/HANDOFF.md) for unfinished work. Link commits, issues and CI evidence; do not deposit private conversations, credentials or hidden reasoning. Turn recurring failures into focused checks or clearer context.
 
 ## Product and data invariants
 

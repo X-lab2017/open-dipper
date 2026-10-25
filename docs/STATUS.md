@@ -8,7 +8,8 @@
 - 视觉基线 **1.2.0**：X-lab 官方标志、共享 CSS/Canvas tokens、默认地图、海陆层次和海岸微光、点阵/轮廓、惯性平移和缩放定位；地球保留光照、大气辉光与惯性操作。
 - 桌面默认一屏总览，可切换两屏演示和全屏；≤1000px 自然滚动。紧凑顶栏和面板减少占用，官方标志与产品字标协调。
 - 中文/英文、深色/浅色、键盘与减少动态效果；保留分析页和历史全景兼容路由。
-- AI 协作入口、公开协作说明、任务上下文索引、文档一致性检查、issue/PR/交接模板已纳入本轮知识库整理。
+- AI 协作入口、公开协作说明、任务上下文索引、文档一致性检查、issue/PR/交接模板已纳入知识库。
+- README 与贡献指南采用英文默认、中文独立入口；业务/技术 Mermaid 图帮助理解产品。按 [Harness 工作流](HARNESS.md) 区分人类需求入口与 Agent 工程执行，加入执行计划、验收映射和双语一致性检查。Agent 目前由协作者启动，未配置自动 issue 调度。
 
 应用 `package.json` 版本为 **1.0.0**；视觉资源 `design/tokens.json` 版本为 **1.2.0**。它们是不同的版本轴，本文没有声明已创建对应 Git tag 或 GitHub Release。
 
@@ -38,6 +39,7 @@
 | 已交付架构记录 | [#1 双时钟数据、地图/地球/快讯与审核发布](https://github.com/X-lab2017/open-dipper/issues/1) |
 | 已交付视觉记录 | [#2 视觉 1.0 → 1.2、参考纠正与演示布局](https://github.com/X-lab2017/open-dipper/issues/2) |
 | 本轮知识库记录与验收 | [#3 AI-friendly 入口、协作披露、索引与清理](https://github.com/X-lab2017/open-dipper/issues/3) |
+| 双语与 Harness 协作记录 | [#7 双语首页、业务/技术图与 Agent 工程闭环](https://github.com/X-lab2017/open-dipper/issues/7) |
 | 后续数据接入 | [#4 OpenDigger 全域与月度地域](https://github.com/X-lab2017/open-dipper/issues/4) |
 | 后续事件能力 | [#5 来源、审核容量与地理证据](https://github.com/X-lab2017/open-dipper/issues/5) |
 | 维护者待决策 | [#6 应用许可与各类资源复用边界](https://github.com/X-lab2017/open-dipper/issues/6) |

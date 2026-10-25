@@ -1,98 +1,152 @@
-# OpenDipper · 全球开源生态观测站
+<!-- section:overview -->
+# OpenDipper
 
-Monthly OpenDigger intelligence and near-live ecosystem events in one geographic workspace.
+**English** | [简体中文](README.zh-CN.md)
 
-**Review site:** https://www.x-lab.info/open-dipper/
+**A global observatory for the open-source ecosystem.** Explore monthly OpenDigger metrics and near-live ecosystem events through a map, globe and news wire.
 
-Version 1 combines **map / globe / wire** with monthly analysis. Spatial interaction draws on [world-monitor.com](https://world-monitor.com/); engineering patterns draw on the separate [koala73/worldmonitor](https://github.com/koala73/worldmonitor) project (worldmonitor.app). OpenDipper is independently implemented; neither project's application source or branding is copied. See [the reference decision](docs/DECISIONS.md).
+[Open the observatory](https://www.x-lab.info/open-dipper/) · [Request a feature](https://github.com/X-lab2017/open-dipper/issues/new?template=feature_request.yml) · [Report a problem](https://github.com/X-lab2017/open-dipper/issues/new?template=bug_report.yml) · [Visual baseline](https://www.x-lab.info/open-dipper/design-system.html)
 
-## 开发者与 Agent 入口 / Start here
+<!-- section:business -->
+## Business view
 
-- **当前能力、验证与待办**：[STATUS.md](docs/STATUS.md)
-- **文档导航**：[docs/README.md](docs/README.md) · **开发贡献**：[CONTRIBUTING.md](CONTRIBUTING.md)
-- **AI Agent 工作指南**：[AGENTS.md](AGENTS.md) · **任务上下文**：[CONTEXT.json](docs/CONTEXT.json)
-- **协作演进与取舍**：[HISTORY.md](docs/HISTORY.md) · [DECISIONS.md](docs/DECISIONS.md) · [CHANGELOG.md](CHANGELOG.md)
-- **公开机器入口**：[llms.txt](https://www.x-lab.info/open-dipper/llms.txt) · [agent-context.json](https://www.x-lab.info/open-dipper/agent-context.json)
+```mermaid
+flowchart TD
+  M["OpenDigger metrics and geography"] --> O["OpenDipper observatory"]
+  E["Published and reviewed ecosystem events"] --> O
+  D["Clearly labeled demo scenarios"] -.-> O
+  O --> G["Place: map and globe"]
+  O --> T["Time: rankings and trends"]
+  O --> W["Events: wire and source evidence"]
+  G --> V["Research · monitoring · presentations"]
+  T --> V
+  W --> V
+  V -.-> I["Issues: needs and feedback"]
+  I -.-> O
+```
 
-本项目欢迎人类开发者和 AI Agent 共同参与，并将仓库作为可追溯的知识库。2026-10 的重构、视觉迭代、实现与文档整理包含 AI 辅助工作；贡献者需披露参与范围和实际验证，维护者负责方向与合并/发布决策。索引帮助发现上下文，不授予操作权限，也不保证所有 Agent 自动读取。详见 [协作公开说明](CONTRIBUTING.md)。
+Observed data and demonstration scenarios remain separate throughout the product. Users explore the evidence and feed new needs back through issues.
 
-**许可状态：** 应用代码尚未选定根 LICENSE；公开可见不代表已授予通用复用许可。代码、OpenDigger 数据、Natural Earth 几何、官方标志和依赖分别记录，见 [RIGHTS.md](docs/RIGHTS.md)。
+<!-- section:collaboration -->
+## Human direction, agent-led engineering
 
-## Product
+We build OpenDipper around **human needs, agent execution and verifiable outcomes**. People shape the product through issues and review the results. Agents are the primary engineering collaborators, working from versioned context to implement, test, document and refine changes. Human code contributions remain welcome.
 
-- Global map and interactive globe, choropleth, metric markers, located event markers, layer switches, drag/zoom/keyboard control and focus mode.
-- Event wire: releases, security/supply chain, governance, policy, community and research. Filter by category, text, publication window, region and priority; inspect original evidence.
-- Monthly repository rankings within one platform and period, twelve-calendar-month trends, month playback and local watchlists.
-- Real data and demo scenarios are independently stored, identified and switchable. Unknown location remains unlocated; no repository headquarters or collaboration links are inferred.
-- Chinese/English, dark/light, responsive layout, accessible controls and source freshness information.
-- Manual event editor: local draft, JSON export and a prepared GitHub issue submission. Maintainers publish through review; no client API tokens.
-
-## Reusable visual baseline
-
-**[Visual system 1.2](https://www.x-lab.info/open-dipper/design-system.html)** preserves the official X-lab AI mark within a restrained midnight-blue workspace. The map is the default view: a Mercator atlas with coastal lighting, coast-derived surface points, inertial pan, cursor-anchored zoom and smooth region navigation. The globe retains atmospheric lighting and inertial rotation; both share event clusters and the inspector. Single-screen overview and two-screen presentation layouts support desktop displays, with a fullscreen control and natural stacking on mobile. Map / Globe / Wire navigation remains unchanged. Shared tokens drive both CSS and Canvas, with light/dark variants, blue / teal / violet metric palettes, six event categories, source badges and persisted density.
-
-- Usage and design decisions: [`docs/VISUAL_SYSTEM.md`](docs/VISUAL_SYSTEM.md)
-- Maintained tokens: [`design/tokens.json`](design/tokens.json)
-- Reusable primitives: [`src/design/components.css`](src/design/components.css)
-- Run `npm run design:build` after editing tokens; `npm run build` produces a downloadable visual resource bundle.
-- Official logo provenance and upstream rights are preserved under `public/brand/`. WorldMonitor design patterns are independently implemented; its source code is not included.
-
-## Connected data
-
-| Channel | Initial scope | Refresh |
+| Participant | Main responsibility | Starting point |
 | --- | --- | --- |
-| OpenDigger repository metrics | 20 curated repositories, 4 platforms, 6 metrics | Monthly; day 8 at 02:07 UTC, or manual workflow input |
-| OpenDigger geography | Microsoft, Apache, PyTorch Foundation labels | Monthly retrieval of independent trailing-year snapshots |
-| GitHub releases | Kubernetes, PyTorch, vLLM, VS Code, Rust, DuckDB | Scheduled every 30 minutes |
-| Official RSS | OpenSSF, CNCF | Scheduled every 30 minutes |
-| Editorial events | Open, currently approved GitHub issues | Scheduled every 30 minutes |
-| Demonstration | 13 fictional located scenarios, synthetic geographic metrics | Fixed fixture; never rebased by the collector |
+| Users and domain experts | Describe the scenario, desired outcome and what would make the result useful | [Submit a need](https://github.com/X-lab2017/open-dipper/issues/new?template=feature_request.yml) |
+| Maintainers | Set priorities and scope, resolve product/data decisions, accept outcomes and govern releases | [Issues](https://github.com/X-lab2017/open-dipper/issues) and [contribution guide](CONTRIBUTING.md) |
+| Engineering agents | Inspect context, plan, implement, verify, self-review and leave an evidence-backed handoff | [AGENTS.md](AGENTS.md) and [engineering workflow](docs/HARNESS.md) |
 
-These are **sample scopes, not worldwide population totals**. Full-coverage data is the next integration step. Activity, OpenRank and accepted change requests are distinct measurements; accepted PRs are an explicit contribution-volume proxy, not a universal contribution score. Missing observations are never zero-filled. Trailing-year geography does not change with the repository month slider.
+<!-- section:needs -->
+## Have a need? Start with an issue
 
-Schedule times are targets, not a real-time SLA. GitHub Actions can delay runs, and public repositories' schedules may be disabled after prolonged inactivity. The page displays actual snapshot and source success timestamps. The browser checks deployed event snapshots every five minutes.
+You do not need to know the code or design a technical solution. Tell us:
 
-## Development
+1. **Your situation:** who is using OpenDipper, and for what task?
+2. **Your desired result:** what should become possible or easier?
+3. **How you would judge it:** a useful example, observable result or screenshot, if available.
 
-Node.js 24 (matches CI) / npm and Python 3 (standard library only for collectors). See [development and browser checks](docs/DEVELOPMENT.md).
+For example: “When presenting on a conference screen, I want the map and news wire to remain readable without scrolling; I can review the result at 1920×1080.” Maintainers and agents turn this into a scoped task and testable acceptance criteria.
+
+Use the [bug form](https://github.com/X-lab2017/open-dipper/issues/new?template=bug_report.yml) for broken behavior. To contribute a sourced ecosystem publication, use the separate [event form](https://github.com/X-lab2017/open-dipper/issues/new?template=ecosystem-event.yml); editorial approval remains a separate process. Issues may be written in English or Chinese.
+
+<!-- section:execution -->
+## Agent engineering workflow
+
+1. **Clarify the task:** link the issue, record the outcome, scope and acceptance criteria. Extend the existing issue; use an [engineering task](https://github.com/X-lab2017/open-dipper/issues/new?template=agent_task.yml) only when a separate implementation unit helps.
+2. **Load the right context:** start at [AGENTS.md](AGENTS.md), then follow the [task index](docs/CONTEXT.json). For complex or multi-session work, keep a versioned [execution plan](docs/plans/README.md).
+3. **Implement and check:** work within the agreed scope; reproduce failures, run relevant checks, inspect the result and fix failures before handoff.
+4. **Deliver evidence:** submit a focused PR with acceptance results, actual test output, visual evidence where relevant, documentation updates and AI-work disclosure.
+5. **Close the loop:** the maintainer reviews outcomes and release readiness. Record the result in the issue and preserve reusable lessons in contracts, tests or docs.
+
+The full lifecycle and completion criteria are in [HARNESS.md](docs/HARNESS.md). Existing authorization determines which actions an agent may perform.
+
+<!-- section:harness -->
+## What the harness provides
+
+Here, the *harness* is the context, tools, constraints and feedback that make engineering work repeatable.
+
+| Layer | Repository mechanism |
+| --- | --- |
+| Context | Short [Agent entry](AGENTS.md), [architecture](docs/ARCHITECTURE.md), [decisions](docs/DECISIONS.md), task-specific reading paths |
+| Constraints | [Data contracts](docs/DATA_CONTRACTS.md), [visual baseline](docs/VISUAL_SYSTEM.md), source provenance and generated-file ownership |
+| Execution | Local development, reproducible commands, [plans](docs/plans/README.md) and [handoffs](docs/templates/HANDOFF.md) |
+| Verification | Type checks, contract/behavior tests, visual resource checks, documentation checks and Chromium acceptance in [CI](.github/workflows/pages.yml) |
+| Feedback | Issue → implementation → evidence → outcome review → updated repository knowledge |
+
+**Current automation:** CI validates changes and publishes eligible main-branch builds. Authorized collaborators currently start agent work; opening an issue does not automatically launch an agent. An always-on issue dispatcher, automatic assignment and autonomous merge are not configured. See [the capability and evidence table](docs/HARNESS.md).
+
+<!-- section:product -->
+## Explore the observatory
+
+- **Map / Globe / Wire:** geographic layers, located events, filters and source inspection. The map opens by default; the globe adds atmospheric lighting and inertial interaction.
+- **Monthly analysis:** same-platform rankings, twelve-month trends, playback and local watchlists.
+- **Presentation:** one-screen overview, two-screen analysis, fullscreen, responsive layout, English/Chinese and dark/light themes.
+- **Reusable visual system:** X-lab official assets, shared CSS/Canvas tokens and a [downloadable baseline](https://www.x-lab.info/open-dipper/design-system.html).
+
+| Data channel | Current scope | Cadence |
+| --- | --- | --- |
+| OpenDigger repository metrics | 20 curated repositories, 4 platforms, 6 metrics | Monthly |
+| Geographic aggregates | Microsoft, Apache and PyTorch Foundation labels; independent trailing-year periods | Retrieved monthly |
+| Ecosystem events | Selected GitHub releases, OpenSSF/CNCF RSS and approved editorial issues | Collection target: 30 minutes |
+| Demonstration | 13 fictional located events and synthetic geographic metrics | Fixed fixtures, visibly identified |
+
+These are **samples, not worldwide population totals**. Missing values stay missing; unknown locations stay unlocated. Annual geographic aggregates do not move with the repository month slider. The browser checks deployed event snapshots every five minutes; collection targets are not a real-time SLA. Definitions and limitations: [data contracts](docs/DATA_CONTRACTS.md).
+
+<!-- section:architecture -->
+## Technical architecture
+
+```mermaid
+flowchart TD
+  OD["OpenDigger CDN"] --> C["Collectors: scripts in GitHub Actions"]
+  FE["GitHub releases and official RSS"] --> C
+  ED["Maintainer-approved event issues"] --> C
+  C --> S["Observed JSON snapshots"]
+  S --> Q["Validation and static build"]
+  UI["TypeScript UI and shared design tokens"] --> Q
+  FX["Fixed demo fixtures and map geometry"] --> Q
+  Q --> A["Archive validated source snapshots in Git"]
+  A --> P["Deploy static artifacts to GitHub Pages"]
+  P --> B["Browser: map / globe / wire and analysis"]
+```
+
+This is the publication path on main. PRs validate without collecting, archiving data or deploying; scheduled builds skip browser acceptance. The browser loads published snapshots and has no write API or publishing token. Module responsibilities and failure behavior: [architecture](docs/ARCHITECTURE.md) and [operations](docs/OPERATIONS.md).
+
+<!-- section:development -->
+## Run locally
+
+Use Node.js 24, npm and Python 3. After dependency installation, bundled snapshots support local development without upstream collection.
 
 ```sh
 npm ci
 npm run dev
+npm run typecheck
 npm test
 npm run build
 ```
 
-`dist/` is the static artifact. Relative assets support the `/open-dipper/` path. The detailed metric workbench is retained at `analysis.html`; the previous globe remains a tested compatibility route at `panorama.html`.
+Task-specific checks and browser setup: [development guide](docs/DEVELOPMENT.md). Scheduled collection, manual event review, failure recovery and deployment: [operations](docs/OPERATIONS.md). Detailed analysis and the previous panorama remain tested compatibility routes.
 
-```sh
-npm run refresh:events
-npm run refresh:monthly
-python3 scripts/fetch-geography.py
-```
+<!-- section:documentation -->
+## Documentation and roadmap
 
-`config/sources.json` controls event adapters. `config/repositories.json` controls the OpenDigger catalog. Do not schedule `generate-demo.py`: fixed demo dates intentionally expire out of time filters.
+| Question | Read |
+| --- | --- |
+| What is available, verified or still missing? | [Current status and issue index](docs/STATUS.md) |
+| How do I contribute or hand work to an agent? | [Contributing](CONTRIBUTING.md) · [Harness workflow](docs/HARNESS.md) |
+| Where is the knowledge base? | [Documentation map](docs/README.md) · [Machine context](docs/CONTEXT.json) |
+| Why did the product evolve this way? | [History](docs/HISTORY.md) · [Decisions](docs/DECISIONS.md) · [Changelog](CHANGELOG.md) |
+| How do I reuse the visual system? | [Visual specification](docs/VISUAL_SYSTEM.md) · [Design resources](design/README.md) |
+| What comes next? | [Full-coverage data #4](https://github.com/X-lab2017/open-dipper/issues/4) · [Event quality #5](https://github.com/X-lab2017/open-dipper/issues/5) · [License decision #6](https://github.com/X-lab2017/open-dipper/issues/6) |
 
-## Ingestion and publishing
+README and contribution guides have English and Chinese editions. Deeper references currently use their maintained source language. Update both entry editions together; structural checks detect section/link drift, while contributors review translation meaning. Discovery endpoints: [llms.txt](https://www.x-lab.info/open-dipper/llms.txt) and [agent-context.json](https://www.x-lab.info/open-dipper/agent-context.json).
 
-`.github/workflows/pages.yml` collects sources, validates data/code, builds and deploys. Validated snapshots are archived in Git on the same run before deployment. A bot-created data commit does not retrigger the workflow. A concurrent external write rejects the normal Git push rather than overwriting it. Pull requests validate without collecting, writing snapshots or deploying.
+<!-- section:transparency -->
+## Transparency and reuse
 
-Every non-scheduled deployment runs Chromium acceptance for the observatory, archived panorama and detailed analysis at the repository subpath. Scheduled runs reuse accepted code and run deterministic checks and the production build. QA screenshots are retained as workflow artifacts for seven days.
+AI agents participated in the October 2026 implementation, visual iterations and documentation. Contributions disclose agent/tool involvement, verification and remaining uncertainty; there is no claim that every line is agent-written or independently human-reviewed. Our operating model adapts [Harness engineering](https://openai.com/index/harness-engineering/) to this repository; [HARNESS.md](docs/HARNESS.md) distinguishes enforced checks from process conventions and future capabilities.
 
-### Editorial events
+OpenDipper is independently implemented. Spatial inspiration comes from [world-monitor.com](https://world-monitor.com/); engineering references include the separate [koala73/worldmonitor](https://github.com/koala73/worldmonitor) project. X-lab assets retain their [official provenance](public/brand/provenance.json), and dependencies retain [third-party notices](public/THIRD_PARTY_NOTICES.txt).
 
-1. Use **录入生态事件 / Submit an event**, or the issue template.
-2. Verify source, time, category and location. No reliable location means `null`.
-3. Apply `event-approved` after review. A maintainer can create that label on first use.
-4. The next collection publishes it. Edits or comments after approval invalidate it; remove and reapply the label to reapprove. Label timestamps are checked; unconfirmed approval fails closed.
-5. Close the issue or remove the label to retract it. During an outage the last successful feed remains marked stale until successful reconciliation.
-
-Records are data, never executable code. The browser does not post issues automatically. `GITHUB_TOKEN` is used only inside Actions and only for the fixed GitHub API origin.
-
-## Architecture
-
-See [architecture](docs/ARCHITECTURE.md), [review walkthrough](docs/REVIEW.md), [data contracts](docs/DATA_CONTRACTS.md), [operations](docs/OPERATIONS.md), and [maintenance / cleanup boundaries](docs/MAINTENANCE.md). Documentation indexes are generated with `npm run docs:build`; `npm run docs:check` checks local file links, task commands and generated mirrors in CI.
-
-## Attribution
-
-OpenDigger provides source metrics. Natural Earth provides public-domain geometry. Existing dependency notices remain in [THIRD_PARTY_NOTICES.txt](public/THIRD_PARTY_NOTICES.txt). Source-data terms and the application's own license remain distinct; this update does not select a new project license.
+**License status:** an application-level LICENSE has not yet been selected. Application code, source data, map geometry and brand assets have distinct rights; public availability does not grant a blanket reuse license. See [rights status](docs/RIGHTS.md) and [decision #6](https://github.com/X-lab2017/open-dipper/issues/6).

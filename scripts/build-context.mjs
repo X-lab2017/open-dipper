@@ -14,6 +14,7 @@ const machine = {
   ...context,
   versions,
   entries: context.entries.map(entry => ({...entry, url: new URL(entry.path, context.rawBase).href})),
+  translations: context.translations.map(group => ({...group, editions: group.editions.map(edition => ({...edition, url: new URL(edition.path, context.rawBase).href}))})),
 };
 const llms = [
   `# ${context.project}`,
@@ -25,6 +26,10 @@ const llms = [
   `Application version: ${versions.application}; visual baseline: ${versions.visual}. These do not declare GitHub releases.`,
   '',
   context.notice,
+  '',
+  '## Language editions',
+  '',
+  ...machine.translations.map(group => `- ${group.id} (default: ${group.defaultLanguage}): ${group.editions.map(edition => `[${edition.language}](${edition.url})`).join(' | ')}`),
   '',
   '## Authoritative documents',
   '',

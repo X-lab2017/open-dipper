@@ -5,8 +5,11 @@
 | 目标 | 阅读顺序 |
 | --- | --- |
 | 了解产品和下一步 | [当前状态](STATUS.md) → [评审路线](REVIEW.md) → 关联 issue |
-| 人类开发者开始贡献 | [贡献指南](../CONTRIBUTING.md) → [开发指南](DEVELOPMENT.md) → 对应源文件 |
+| 了解业务和技术结构 | [英文首页](../README.md) / [中文首页](../README.zh-CN.md) 的两张结构图 → [架构](ARCHITECTURE.md) |
+| 提出需求 | 首页需求入口 → 使用场景与期望结果 → 维护者/Agent 补全工程任务 |
+| 人类开发者开始贡献 | [中文贡献指南](../CONTRIBUTING.zh-CN.md) / [English](../CONTRIBUTING.md) → [开发指南](DEVELOPMENT.md) → 对应源文件 |
 | Agent 接手任务 | [AGENTS.md](../AGENTS.md) → [结构化索引](CONTEXT.json) → 任务对应契约与检查 |
+| 理解工程协作方式 | [Harness 工作流](HARNESS.md) → [执行计划](plans/README.md) → 验收证据与交接 |
 | 修改布局、地图、地球或组件 | [视觉规范](VISUAL_SYSTEM.md) → [架构](ARCHITECTURE.md) → [设计资源](../design/README.md) |
 | 接入数据与事件 | [契约索引](DATA_CONTRACTS.md) → 对应契约 → [运维](OPERATIONS.md) |
 | 理解为何这样设计 | [演进记录](HISTORY.md) → [决策记录](DECISIONS.md) |
@@ -21,5 +24,7 @@
 - **历史与理由**：`HISTORY.md` 及 `DECISIONS.md` 记录里程碑和取舍。旧进度移到 `archive/`，保留当时结论，不当作当前待办。
 - **待办**：GitHub issue 是任务状态来源。完成后关闭并链接提交与验证；文档只提供入口，不维护第二套独立任务状态。
 - **生成索引**：`CONTEXT.json` → `npm run docs:build` → 根与站点 `llms.txt`、站点 `agent-context.json`。`npm run docs:check` 检查镜像、相对文件链接和任务命令；不验证网络链接、Markdown 锚点、引用式链接或外部事实；原样保留的上游品牌 notice 使用上游路径，单独豁免本地链接检查。
+- **多语言入口**：英文 `README.md` 为默认首页，中文在 `README.zh-CN.md`；贡献指南同样分开。`CONTEXT.json.translations` 登记语言对应关系。检查互链、章节 ID、链接目标、代码块和 Mermaid 图结构；翻译含义仍需复核，深入文档暂保留各自维护语言。
+- **执行计划**：复杂或跨会话工作按 [plans/README.md](plans/README.md) 保存步骤、决定和检查点；不要求普通需求提交者写技术计划，issue 仍是任务状态来源。
 
 更新原则：行为、契约或决策变化时，同一提交更新权威文档；普通采集刷新不需要修改叙述性状态日期。不要提交私人会话、原始鉴权响应或重复的长篇总结。

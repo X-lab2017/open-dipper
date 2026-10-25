@@ -2,6 +2,13 @@
 
 This file records repository milestones, not published GitHub releases. Application version (`package.json`: 1.0.0) and visual baseline (`design/tokens.json`: 1.2.0) are independent. Detailed feedback and commits are in [the history](docs/HISTORY.md).
 
+## 2026-10-25 · Bilingual entry and agent-led engineering workflow
+
+- Made English the default README and contribution guide, with separate Chinese editions and reciprocal language switches.
+- Added business and technical architecture diagrams in both README editions, rendered natively as Mermaid on GitHub.
+- Made human issue intake outcome-oriented; documented agent execution, acceptance evidence, planning, self-review and current automation boundaries.
+- Added translation structure/link/example/diagram parity checks and language-aware discovery indexes.
+
 ## 2026-10-25 · Repository knowledge baseline
 
 - Added human/Agent contribution entry points, public AI-assistance disclosure, task context, handoff and GitHub templates.
