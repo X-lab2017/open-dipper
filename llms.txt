@@ -35,6 +35,7 @@ Discovery context, not an authorization grant. People submit needs through issue
 - [Operations](https://raw.githubusercontent.com/X-lab2017/open-dipper/main/docs/OPERATIONS.md): Schedules, deployment, failures, review and rollback
 - [Decisions](https://raw.githubusercontent.com/X-lab2017/open-dipper/main/docs/DECISIONS.md): Reference identity and architectural/product tradeoffs
 - [Collaboration history](https://raw.githubusercontent.com/X-lab2017/open-dipper/main/docs/HISTORY.md): Milestones, feedback and commit evidence
+- [Visual evolution gallery](https://raw.githubusercontent.com/X-lab2017/open-dipper/main/docs/archive/2026-10-25-visual-evolution.md): Maintainer-supplied architecture, brand and map screenshots; dated history, not live statistics
 - [Product review](https://raw.githubusercontent.com/X-lab2017/open-dipper/main/docs/REVIEW.md): Manual acceptance walkthrough and display matrix
 - [Maintenance](https://raw.githubusercontent.com/X-lab2017/open-dipper/main/docs/MAINTENANCE.md): Cleanup inventory, compatibility routes and generated outputs
 - [Rights status](https://raw.githubusercontent.com/X-lab2017/open-dipper/main/docs/RIGHTS.md): Separate application, data, brand and dependency terms

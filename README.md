@@ -7,6 +7,10 @@
 
 [Open the observatory](https://www.x-lab.info/open-dipper/) · [Request a feature](https://github.com/X-lab2017/open-dipper/issues/new?template=feature_request.yml) · [Report a problem](https://github.com/X-lab2017/open-dipper/issues/new?template=bug_report.yml) · [Visual baseline](https://www.x-lab.info/open-dipper/design-system.html)
 
+[![OpenDipper map view with geographic layers, compact navigation and an ecosystem event wire](docs/assets/open-dipper-map-2026-10-25.png)](https://www.x-lab.info/open-dipper/)
+
+*Interface snapshot · 2026-10-25 · Chinese UI. Values and demo labels reflect the captured view, not live statistics. [See the visual evolution](docs/archive/2026-10-25-visual-evolution.md).*
+
 <!-- section:business -->
 ## Business view
 

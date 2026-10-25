@@ -135,6 +135,13 @@
       "url": "https://raw.githubusercontent.com/X-lab2017/open-dipper/main/docs/HISTORY.md"
     },
     {
+      "path": "docs/archive/2026-10-25-visual-evolution.md",
+      "title": "Visual evolution gallery",
+      "purpose": "Maintainer-supplied architecture, brand and map screenshots; dated history, not live statistics",
+      "language": "en",
+      "url": "https://raw.githubusercontent.com/X-lab2017/open-dipper/main/docs/archive/2026-10-25-visual-evolution.md"
+    },
+    {
       "path": "docs/REVIEW.md",
       "title": "Product review",
       "purpose": "Manual acceptance walkthrough and display matrix",

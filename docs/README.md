@@ -13,6 +13,7 @@
 | 修改布局、地图、地球或组件 | [视觉规范](VISUAL_SYSTEM.md) → [架构](ARCHITECTURE.md) → [设计资源](../design/README.md) |
 | 接入数据与事件 | [契约索引](DATA_CONTRACTS.md) → 对应契约 → [运维](OPERATIONS.md) |
 | 理解为何这样设计 | [演进记录](HISTORY.md) → [决策记录](DECISIONS.md) |
+| 查看历史界面与首页展示原图 | [视觉演进图档](archive/2026-10-25-visual-evolution.md) → 三个阶段的原始截图 |
 | 清理或移除旧功能 | [维护与清理](MAINTENANCE.md) → 使用位置和兼容性测试 |
 | 交接或提交 PR | [交接模板](templates/HANDOFF.md) → [PR 模板](../.github/PULL_REQUEST_TEMPLATE.md) |
 | 核对复用条件 | [权利与许可状态](RIGHTS.md) → 各资源原始 notice |

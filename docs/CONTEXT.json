@@ -27,6 +27,7 @@
     {"path": "docs/OPERATIONS.md", "title": "Operations", "purpose": "Schedules, deployment, failures, review and rollback"},
     {"path": "docs/DECISIONS.md", "title": "Decisions", "purpose": "Reference identity and architectural/product tradeoffs"},
     {"path": "docs/HISTORY.md", "title": "Collaboration history", "purpose": "Milestones, feedback and commit evidence"},
+    {"path": "docs/archive/2026-10-25-visual-evolution.md", "title": "Visual evolution gallery", "purpose": "Maintainer-supplied architecture, brand and map screenshots; dated history, not live statistics", "language": "en"},
     {"path": "docs/REVIEW.md", "title": "Product review", "purpose": "Manual acceptance walkthrough and display matrix"},
     {"path": "docs/MAINTENANCE.md", "title": "Maintenance", "purpose": "Cleanup inventory, compatibility routes and generated outputs"},
     {"path": "docs/RIGHTS.md", "title": "Rights status", "purpose": "Separate application, data, brand and dependency terms"},

@@ -2,6 +2,12 @@
 
 This file records repository milestones, not published GitHub releases. Application version (`package.json`: 1.0.0) and visual baseline (`design/tokens.json`: 1.2.0) are independent. Detailed feedback and commits are in [the history](docs/HISTORY.md).
 
+## 2026-10-25 · Product showcase and visual archive
+
+- Added the maintainer-supplied map screenshot to both README editions, linked to the live observatory.
+- Preserved the architecture-review and brand-integration screenshots in a dated visual gallery with provenance and historical context.
+- Distinguished curated documentation images from generated browser QA screenshots in maintenance guidance.
+
 ## 2026-10-25 · Bilingual entry and agent-led engineering workflow
 
 - Made English the default README and contribution guide, with separate Chinese editions and reciprocal language switches.
