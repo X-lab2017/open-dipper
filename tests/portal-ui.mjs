@@ -9,8 +9,25 @@ try{
   await page.goto(base);await expect(page.locator('#earth')).toBeVisible();
   await expect(page.locator('.product-nav')).toContainText('AI 雷达');
   await expect(page.locator('.intelligence-rail')).toContainText('尚未收费');
+  await expect(page.locator('#geo-dataset')).toHaveValue('global');
+  await expect(page.locator('.evidence-headline')).toContainText('2025');await expect(page.locator('.evidence-headline')).toContainText('2026-10-16');
+  await page.locator('[data-atlas-metric="contribution"]').press('Enter');await expect(page.locator('.scope-note')).toContainText('236');
+  await expect(page.locator('[data-atlas-metric="contribution"]')).toBeFocused();
+  await page.locator('[data-atlas-metric="influence"]').click();await expect(page.locator('.scope-note')).toContainText('30 个地域');
+  await page.locator('[data-atlas-metric="developers"]').click();
+  await page.getByRole('button',{name:'来源与范围 ↗',exact:true}).click();
+  await expect(page.getByRole('dialog')).toContainText('统计期间未披露');
+  await page.locator('[data-atlas-country="RE"]').click();await expect(page.getByRole('dialog')).toContainText('没有匹配的地图标注点');
+  await expect(page.locator('.country-stats')).toContainText('—');await page.keyboard.press('Escape');
   await page.getByRole('button',{name:'AI 雷达',exact:true}).click();
   await expect(page).toHaveURL(/#radar$/);
+  await expect(page.locator('[data-supply-month]')).toHaveCount(12);
+  await expect(page.locator('.supply-selection')).toContainText('55,545');
+  await page.locator('[data-supply-metric="datasets"]').press('Enter');await expect(page.locator('.supply-selection')).toContainText('23,811');
+  await page.locator('[data-supply-month="2026-06"]').press('Enter');await expect(page.locator('.supply-selection')).toContainText('49,480');
+  await expect(page.locator('[data-supply-month="2026-06"]')).toBeFocused();
+  await page.locator('[data-evidence="supply"]').click();await expect(page.getByRole('dialog')).toContainText('末月完整性未披露');
+  await expect(page.getByRole('link',{name:'固定版本报告数据 ↗',exact:true})).toHaveAttribute('href',/c51e3441361407b68f10b339d97eff288319b503/);await page.keyboard.press('Escape');
   await expect(page.locator('.signal-card .badge.demo')).toHaveCount(8); // observed count can change during scheduled collection
   await page.getByLabel('显示模拟',{exact:true}).uncheck();
   await expect(page.locator('.signal-card .badge.demo')).toHaveCount(0);
@@ -72,6 +89,11 @@ try{
   await page.route('**/data/intelligence-demo.json',route=>route.fulfill({status:200,contentType:'application/json',body:'{"schemaVersion":1,"signals":[]}'}));
   await page.reload();await expect(page.locator('.portal-page')).toContainText('Demo material is unavailable');await expect(page.locator('.signal-card .badge.demo')).toHaveCount(0);
   await expect(page.locator('.signal-card').first()).toBeVisible();
+  await page.route('**/data/evidence.json',route=>route.fulfill({status:503,body:'unavailable'}));
+  await page.goto(base);await expect(page.locator('#earth')).toBeVisible();await expect(page.locator('#geo-dataset')).toHaveValue('real');
+  await expect(page.locator('.evidence-headline')).toContainText('Global data unavailable');
+  await page.getByRole('button',{name:'AI radar',exact:true}).click();await expect(page.locator('.supply-panel')).toContainText('unavailable');
+  await page.unroute('**/data/evidence.json');
   expect(errors).toEqual([]);
   console.log('Portal navigation, provenance, filters, map links, local preferences, export, sample brief, project linking, themes, mobile and optional-feed failure passed');
 }finally{await browser.close();}

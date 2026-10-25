@@ -97,3 +97,7 @@ At higher volume, move adapters to a worker queue and durable database/object st
 ## Collaboration and change boundaries
 
 Read [AGENTS.md](../AGENTS.md) or [CONTRIBUTING.md](../CONTRIBUTING.md), then the task-specific [development guide](DEVELOPMENT.md). [Decisions](DECISIONS.md) explain reference identity, rendering, time semantics and display modes. [Operations](OPERATIONS.md) owns schedules/rollback; [maintenance](MAINTENANCE.md) owns generated artifacts and compatibility retention. Public discovery endpoints are static indexes, not an API or authorization mechanism.
+
+## Optional observed evidence
+
+`data/reference/` and pinned country anchors → `build-evidence.mjs` → `public/data/evidence.json` → validated optional `evidence.ts` → map / overview / `evidence-view.ts` supply chart. This path is manual and reviewed, separate from event collection and monthly organization snapshots. Source failure leaves core observations usable. See [the contract](DATA_EVIDENCE.md).

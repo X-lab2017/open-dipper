@@ -1,0 +1,5275 @@
+{
+  "schemaVersion": 1,
+  "dataStatus": "observed",
+  "globalDevelopers": {
+    "value": 180145424,
+    "year": "2025",
+    "sourceKey": "developers"
+  },
+  "maps": {
+    "developers": {
+      "source": {
+        "url": "https://selfoss.open-digger.cn/openshare/overview/developers.json",
+        "retrievedAt": "2026-10-25T05:36:01.427201Z",
+        "sha256": "d0f5ee2f59633fc2f826f5774cad754639b9f608cb0621893b058c4a93bbf701",
+        "httpStatus": 200
+      },
+      "title": "Latest Total Developers by Country",
+      "observedPeriod": null,
+      "unknownRegionTotal": null,
+      "rows": [
+        {
+          "code": "US",
+          "rawCode": "USA",
+          "name": "United States",
+          "nameZh": "美国",
+          "value": 30298253,
+          "rank": 1,
+          "longitude": -97.482602,
+          "latitude": 39.538479
+        },
+        {
+          "code": "IN",
+          "rawCode": "IND",
+          "name": "India",
+          "nameZh": "印度",
+          "value": 24576236,
+          "rank": 2,
+          "longitude": 79.358105,
+          "latitude": 22.686852
+        },
+        {
+          "code": "CN",
+          "rawCode": "CHN",
+          "name": "China",
+          "nameZh": "中国",
+          "value": 17623414,
+          "rank": 3,
+          "longitude": 106.337289,
+          "latitude": 32.498178
+        },
+        {
+          "code": "BR",
+          "rawCode": "BRA",
+          "name": "Brazil",
+          "nameZh": "巴西",
+          "value": 7653586,
+          "rank": 4,
+          "longitude": -49.55945,
+          "latitude": -12.098687
+        },
+        {
+          "code": "GB",
+          "rawCode": "GBR",
+          "name": "United Kingdom",
+          "nameZh": "英国",
+          "value": 5220983,
+          "rank": 5,
+          "longitude": -2.116346,
+          "latitude": 54.402739
+        },
+        {
+          "code": "JP",
+          "rawCode": "JPN",
+          "name": "Japan",
+          "nameZh": "日本",
+          "value": 4973908,
+          "rank": 6,
+          "longitude": 138.44217,
+          "latitude": 36.142538
+        },
+        {
+          "code": "ID",
+          "rawCode": "IDN",
+          "name": "Indonesia",
+          "nameZh": "印度尼西亚",
+          "value": 4896524,
+          "rank": 7,
+          "longitude": 101.892949,
+          "latitude": -0.954404
+        },
+        {
+          "code": "DE",
+          "rawCode": "DEU",
+          "name": "Germany",
+          "nameZh": "德国",
+          "value": 4858805,
+          "rank": 8,
+          "longitude": 9.678348,
+          "latitude": 50.961733
+        },
+        {
+          "code": "RU",
+          "rawCode": "RUS",
+          "name": "Russia",
+          "nameZh": "俄罗斯",
+          "value": 4490870,
+          "rank": 9,
+          "longitude": 44.686469,
+          "latitude": 58.249357
+        },
+        {
+          "code": "FR",
+          "rawCode": "FRA",
+          "name": "France",
+          "nameZh": "法国",
+          "value": 3756972,
+          "rank": 10,
+          "longitude": 2.552275,
+          "latitude": 46.696113
+        },
+        {
+          "code": "CA",
+          "rawCode": "CAN",
+          "name": "Canada",
+          "nameZh": "加拿大",
+          "value": 3745470,
+          "rank": 11,
+          "longitude": -101.9107,
+          "latitude": 60.324287
+        },
+        {
+          "code": "KR",
+          "rawCode": "KOR",
+          "name": "Korea",
+          "nameZh": "韩国",
+          "value": 2900539,
+          "rank": 12,
+          "longitude": 128.129504,
+          "latitude": 36.384924
+        },
+        {
+          "code": "VN",
+          "rawCode": "VNM",
+          "name": "Vietnam",
+          "nameZh": "越南",
+          "value": 2760619,
+          "rank": 13,
+          "longitude": 105.387292,
+          "latitude": 21.715416
+        },
+        {
+          "code": "MX",
+          "rawCode": "MEX",
+          "name": "Mexico",
+          "nameZh": "墨西哥",
+          "value": 2637576,
+          "rank": 14,
+          "longitude": -102.289448,
+          "latitude": 23.919988
+        },
+        {
+          "code": "ES",
+          "rawCode": "ESP",
+          "name": "Spain",
+          "nameZh": "西班牙",
+          "value": 2574611,
+          "rank": 15,
+          "longitude": -3.464718,
+          "latitude": 40.090953
+        },
+        {
+          "code": "PH",
+          "rawCode": "PHL",
+          "name": "Philippines",
+          "nameZh": "菲律宾",
+          "value": 2560029,
+          "rank": 16,
+          "longitude": 122.465,
+          "latitude": 11.198
+        },
+        {
+          "code": "TR",
+          "rawCode": "TUR",
+          "name": "Turkey",
+          "nameZh": "土耳其",
+          "value": 2362908,
+          "rank": 17,
+          "longitude": 34.508268,
+          "latitude": 39.345388
+        },
+        {
+          "code": "PK",
+          "rawCode": "PAK",
+          "name": "Pakistan",
+          "nameZh": "巴基斯坦",
+          "value": 2281650,
+          "rank": 18,
+          "longitude": 68.545632,
+          "latitude": 29.328389
+        },
+        {
+          "code": "AU",
+          "rawCode": "AUS",
+          "name": "Australia",
+          "nameZh": "澳大利亚",
+          "value": 2217966,
+          "rank": 19,
+          "longitude": 134.04972,
+          "latitude": -24.129522
+        },
+        {
+          "code": "NL",
+          "rawCode": "NLD",
+          "name": "Netherlands",
+          "nameZh": "荷兰",
+          "value": 2004425,
+          "rank": 20,
+          "longitude": 5.61144,
+          "latitude": 52.422211
+        },
+        {
+          "code": "SG",
+          "rawCode": "SGP",
+          "name": "Singapore",
+          "nameZh": "新加坡",
+          "value": 1944204,
+          "rank": 21,
+          "longitude": 103.816925,
+          "latitude": 1.366587
+        },
+        {
+          "code": "PL",
+          "rawCode": "POL",
+          "name": "Poland",
+          "nameZh": "波兰",
+          "value": 1934464,
+          "rank": 22,
+          "longitude": 19.490468,
+          "latitude": 51.990316
+        },
+        {
+          "code": "IT",
+          "rawCode": "ITA",
+          "name": "Italy",
+          "nameZh": "意大利",
+          "value": 1829959,
+          "rank": 23,
+          "longitude": 11.076907,
+          "latitude": 44.732482
+        },
+        {
+          "code": "BD",
+          "rawCode": "BGD",
+          "name": "Bangladesh",
+          "nameZh": "孟加拉国",
+          "value": 1748240,
+          "rank": 24,
+          "longitude": 89.684963,
+          "latitude": 24.214956
+        },
+        {
+          "code": "NG",
+          "rawCode": "NGA",
+          "name": "Nigeria",
+          "nameZh": "尼日利亚",
+          "value": 1675852,
+          "rank": 25,
+          "longitude": 7.50322,
+          "latitude": 9.439799
+        },
+        {
+          "code": "UA",
+          "rawCode": "UKR",
+          "name": "Ukraine",
+          "nameZh": "乌克兰",
+          "value": 1651906,
+          "rank": 26,
+          "longitude": 32.140865,
+          "latitude": 49.724739
+        },
+        {
+          "code": "CO",
+          "rawCode": "COL",
+          "name": "Colombia",
+          "nameZh": "哥伦比亚",
+          "value": 1536569,
+          "rank": 27,
+          "longitude": -73.174347,
+          "latitude": 3.373111
+        },
+        {
+          "code": "EG",
+          "rawCode": "EGY",
+          "name": "Egypt",
+          "nameZh": "埃及",
+          "value": 1498289,
+          "rank": 28,
+          "longitude": 29.445837,
+          "latitude": 26.186173
+        },
+        {
+          "code": "AR",
+          "rawCode": "ARG",
+          "name": "Argentina",
+          "nameZh": "阿根廷",
+          "value": 1485741,
+          "rank": 29,
+          "longitude": -64.173331,
+          "latitude": -33.501159
+        },
+        {
+          "code": "TH",
+          "rawCode": "THA",
+          "name": "Thailand",
+          "nameZh": "泰国",
+          "value": 1437597,
+          "rank": 30,
+          "longitude": 101.073198,
+          "latitude": 15.45974
+        },
+        {
+          "code": "MY",
+          "rawCode": "MYS",
+          "name": "Malaysia",
+          "nameZh": "马来西亚",
+          "value": 1058378,
+          "rank": 31,
+          "longitude": 113.83708,
+          "latitude": 2.528667
+        },
+        {
+          "code": "ZA",
+          "rawCode": "ZAF",
+          "name": "South Africa",
+          "nameZh": "南非",
+          "value": 962146,
+          "rank": 32,
+          "longitude": 23.665734,
+          "latitude": -29.708776
+        },
+        {
+          "code": "SE",
+          "rawCode": "SWE",
+          "name": "Sweden",
+          "nameZh": "瑞典",
+          "value": 962139,
+          "rank": 33,
+          "longitude": 19.01705,
+          "latitude": 65.85918
+        },
+        {
+          "code": "SA",
+          "rawCode": "SAU",
+          "name": "Saudi Arabia",
+          "nameZh": "沙特阿拉伯",
+          "value": 901427,
+          "rank": 34,
+          "longitude": 44.6996,
+          "latitude": 23.806908
+        },
+        {
+          "code": "IR",
+          "rawCode": "IRN",
+          "name": "Iran",
+          "nameZh": "伊朗",
+          "value": 889642,
+          "rank": 35,
+          "longitude": 54.931495,
+          "latitude": 32.166225
+        },
+        {
+          "code": "IL",
+          "rawCode": "ISR",
+          "name": "Israel",
+          "nameZh": "以色列",
+          "value": 861265,
+          "rank": 36,
+          "longitude": 34.847915,
+          "latitude": 30.911148
+        },
+        {
+          "code": "PE",
+          "rawCode": "PER",
+          "name": "Peru",
+          "nameZh": "秘鲁",
+          "value": 841962,
+          "rank": 37,
+          "longitude": -72.90016,
+          "latitude": -12.976679
+        },
+        {
+          "code": "MA",
+          "rawCode": "MAR",
+          "name": "Morocco",
+          "nameZh": "摩洛哥",
+          "value": 822452,
+          "rank": 38,
+          "longitude": -7.187296,
+          "latitude": 31.650723
+        },
+        {
+          "code": "CL",
+          "rawCode": "CHL",
+          "name": "Chile",
+          "nameZh": "智利",
+          "value": 748236,
+          "rank": 39,
+          "longitude": -72.318871,
+          "latitude": -38.151771
+        },
+        {
+          "code": "RO",
+          "rawCode": "ROU",
+          "name": "Romania",
+          "nameZh": "罗马尼亚",
+          "value": 734669,
+          "rank": 40,
+          "longitude": 24.972624,
+          "latitude": 45.733237
+        },
+        {
+          "code": "CH",
+          "rawCode": "CHE",
+          "name": "Switzerland",
+          "nameZh": "瑞士",
+          "value": 720134,
+          "rank": 41,
+          "longitude": 7.463965,
+          "latitude": 46.719114
+        },
+        {
+          "code": "BE",
+          "rawCode": "BEL",
+          "name": "Belgium",
+          "nameZh": "比利时",
+          "value": 696057,
+          "rank": 42,
+          "longitude": 4.800448,
+          "latitude": 50.785392
+        },
+        {
+          "code": "PT",
+          "rawCode": "PRT",
+          "name": "Portugal",
+          "nameZh": "葡萄牙",
+          "value": 680323,
+          "rank": 43,
+          "longitude": -8.271754,
+          "latitude": 39.606675
+        },
+        {
+          "code": "KE",
+          "rawCode": "KEN",
+          "name": "Kenya",
+          "nameZh": "肯尼亚",
+          "value": 616490,
+          "rank": 44,
+          "longitude": 37.907632,
+          "latitude": 0.549043
+        },
+        {
+          "code": "AE",
+          "rawCode": "ARE",
+          "name": "United Arab Emirates",
+          "nameZh": "阿拉伯联合酋长国",
+          "value": 591961,
+          "rank": 45,
+          "longitude": 54.547256,
+          "latitude": 23.466285
+        },
+        {
+          "code": "AT",
+          "rawCode": "AUT",
+          "name": "Austria",
+          "nameZh": "奥地利",
+          "value": 559921,
+          "rank": 46,
+          "longitude": 14.130515,
+          "latitude": 47.518859
+        },
+        {
+          "code": "CZ",
+          "rawCode": "CZE",
+          "name": "Czech Rep.",
+          "nameZh": "捷克",
+          "value": 556332,
+          "rank": 47,
+          "longitude": 15.377555,
+          "latitude": 49.882364
+        },
+        {
+          "code": "DZ",
+          "rawCode": "DZA",
+          "name": "Algeria",
+          "nameZh": "阿尔及利亚",
+          "value": 532883,
+          "rank": 48,
+          "longitude": 2.808241,
+          "latitude": 27.397406
+        },
+        {
+          "code": "DK",
+          "rawCode": "DNK",
+          "name": "Denmark",
+          "nameZh": "丹麦",
+          "value": 510212,
+          "rank": 49,
+          "longitude": 9.018163,
+          "latitude": 55.966965
+        },
+        {
+          "code": "LK",
+          "rawCode": "LKA",
+          "name": "Sri Lanka",
+          "nameZh": "斯里兰卡",
+          "value": 502346,
+          "rank": 50,
+          "longitude": 80.704823,
+          "latitude": 7.581097
+        },
+        {
+          "code": "FI",
+          "rawCode": "FIN",
+          "name": "Finland",
+          "nameZh": "芬兰",
+          "value": 492059,
+          "rank": 51,
+          "longitude": 27.276449,
+          "latitude": 63.252361
+        },
+        {
+          "code": "NO",
+          "rawCode": "NOR",
+          "name": "Norway",
+          "nameZh": "挪威",
+          "value": 473076,
+          "rank": 52,
+          "longitude": 9.679975,
+          "latitude": 61.357092
+        },
+        {
+          "code": "IE",
+          "rawCode": "IRL",
+          "name": "Ireland",
+          "nameZh": "爱尔兰",
+          "value": 455142,
+          "rank": 53,
+          "longitude": -7.798588,
+          "latitude": 53.078726
+        },
+        {
+          "code": "NP",
+          "rawCode": "NPL",
+          "name": "Nepal",
+          "nameZh": "尼泊尔",
+          "value": 443160,
+          "rank": 54,
+          "longitude": 83.639914,
+          "latitude": 28.297925
+        },
+        {
+          "code": "HU",
+          "rawCode": "HUN",
+          "name": "Hungary",
+          "nameZh": "匈牙利",
+          "value": 435919,
+          "rank": 55,
+          "longitude": 19.447867,
+          "latitude": 47.086841
+        },
+        {
+          "code": "NZ",
+          "rawCode": "NZL",
+          "name": "New Zealand",
+          "nameZh": "新西兰",
+          "value": 414762,
+          "rank": 56,
+          "longitude": 172.787,
+          "latitude": -39.759
+        },
+        {
+          "code": "KZ",
+          "rawCode": "KAZ",
+          "name": "Kazakhstan",
+          "nameZh": "哈萨克斯坦",
+          "value": 413225,
+          "rank": 57,
+          "longitude": 68.685548,
+          "latitude": 49.054149
+        },
+        {
+          "code": "IQ",
+          "rawCode": "IRQ",
+          "name": "Iraq",
+          "nameZh": "伊拉克",
+          "value": 401159,
+          "rank": 58,
+          "longitude": 43.26181,
+          "latitude": 33.09403
+        },
+        {
+          "code": "BY",
+          "rawCode": "BLR",
+          "name": "Belarus",
+          "nameZh": "白俄罗斯",
+          "value": 390305,
+          "rank": 59,
+          "longitude": 28.417701,
+          "latitude": 53.821888
+        },
+        {
+          "code": "TN",
+          "rawCode": "TUN",
+          "name": "Tunisia",
+          "nameZh": "突尼斯",
+          "value": 389842,
+          "rank": 60,
+          "longitude": 9.007881,
+          "latitude": 33.687263
+        },
+        {
+          "code": "EC",
+          "rawCode": "ECU",
+          "name": "Ecuador",
+          "nameZh": "厄瓜多尔",
+          "value": 383385,
+          "rank": 61,
+          "longitude": -78.188375,
+          "latitude": -1.259076
+        },
+        {
+          "code": "GR",
+          "rawCode": "GRC",
+          "name": "Greece",
+          "nameZh": "希腊",
+          "value": 369884,
+          "rank": 62,
+          "longitude": 21.72568,
+          "latitude": 39.492763
+        },
+        {
+          "code": "UZ",
+          "rawCode": "UZB",
+          "name": "Uzbekistan",
+          "nameZh": "乌兹别克斯坦",
+          "value": 349244,
+          "rank": 63,
+          "longitude": 64.005429,
+          "latitude": 41.693603
+        },
+        {
+          "code": "BG",
+          "rawCode": "BGR",
+          "name": "Bulgaria",
+          "nameZh": "保加利亚",
+          "value": 337077,
+          "rank": 64,
+          "longitude": 25.15709,
+          "latitude": 42.508785
+        },
+        {
+          "code": "VE",
+          "rawCode": "VEN",
+          "name": "Venezuela",
+          "nameZh": "委内瑞拉",
+          "value": 313110,
+          "rank": 65,
+          "longitude": -64.599381,
+          "latitude": 7.182476
+        },
+        {
+          "code": "RS",
+          "rawCode": "SRB",
+          "name": "Serbia",
+          "nameZh": "塞尔维亚",
+          "value": 306091,
+          "rank": 66,
+          "longitude": 20.787989,
+          "latitude": 44.189919
+        },
+        {
+          "code": "GH",
+          "rawCode": "GHA",
+          "name": "Ghana",
+          "nameZh": "加纳",
+          "value": 297331,
+          "rank": 67,
+          "longitude": -1.036941,
+          "latitude": 7.717639
+        },
+        {
+          "code": "ET",
+          "rawCode": "ETH",
+          "name": "Ethiopia",
+          "nameZh": "埃塞俄比亚",
+          "value": 227715,
+          "rank": 68,
+          "longitude": 39.0886,
+          "latitude": 8.032795
+        },
+        {
+          "code": "JO",
+          "rawCode": "JOR",
+          "name": "Jordan",
+          "nameZh": "约旦",
+          "value": 219362,
+          "rank": 69,
+          "longitude": 36.375991,
+          "latitude": 30.805025
+        },
+        {
+          "code": "CR",
+          "rawCode": "CRI",
+          "name": "Costa Rica",
+          "nameZh": "哥斯达黎加",
+          "value": 214810,
+          "rank": 70,
+          "longitude": -84.077922,
+          "latitude": 10.0651
+        },
+        {
+          "code": "LT",
+          "rawCode": "LTU",
+          "name": "Lithuania",
+          "nameZh": "立陶宛",
+          "value": 208505,
+          "rank": 71,
+          "longitude": 24.089932,
+          "latitude": 55.103703
+        },
+        {
+          "code": "KH",
+          "rawCode": "KHM",
+          "name": "Cambodia",
+          "nameZh": "柬埔寨",
+          "value": 208188,
+          "rank": 72,
+          "longitude": 104.50487,
+          "latitude": 12.647584
+        },
+        {
+          "code": "BO",
+          "rawCode": "BOL",
+          "name": "Bolivia",
+          "nameZh": "玻利维亚",
+          "value": 204554,
+          "rank": 73,
+          "longitude": -64.593433,
+          "latitude": -16.666015
+        },
+        {
+          "code": "DO",
+          "rawCode": "DOM",
+          "name": "Dominican Rep.",
+          "nameZh": "多米尼加",
+          "value": 196190,
+          "rank": 74,
+          "longitude": -70.653998,
+          "latitude": 19.104137
+        },
+        {
+          "code": "SK",
+          "rawCode": "SVK",
+          "name": "Slovakia",
+          "nameZh": "斯洛伐克",
+          "value": 196050,
+          "rank": 75,
+          "longitude": 19.049868,
+          "latitude": 48.734044
+        },
+        {
+          "code": "GE",
+          "rawCode": "GEO",
+          "name": "Georgia",
+          "nameZh": "格鲁吉亚",
+          "value": 183911,
+          "rank": 76,
+          "longitude": 43.735724,
+          "latitude": 41.870087
+        },
+        {
+          "code": "MM",
+          "rawCode": "MMR",
+          "name": "Myanmar",
+          "nameZh": "缅甸",
+          "value": 182911,
+          "rank": 77,
+          "longitude": 95.804497,
+          "latitude": 21.573855
+        },
+        {
+          "code": "HR",
+          "rawCode": "HRV",
+          "name": "Croatia",
+          "nameZh": "克罗地亚",
+          "value": 179941,
+          "rank": 78,
+          "longitude": 16.37241,
+          "latitude": 45.805799
+        },
+        {
+          "code": "GT",
+          "rawCode": "GTM",
+          "name": "Guatemala",
+          "nameZh": "危地马拉",
+          "value": 178072,
+          "rank": 79,
+          "longitude": -90.497134,
+          "latitude": 14.982133
+        },
+        {
+          "code": "AZ",
+          "rawCode": "AZE",
+          "name": "Azerbaijan",
+          "nameZh": "阿塞拜疆",
+          "value": 176566,
+          "rank": 80,
+          "longitude": 47.210994,
+          "latitude": 40.402387
+        },
+        {
+          "code": "LV",
+          "rawCode": "LVA",
+          "name": "Latvia",
+          "nameZh": "拉脱维亚",
+          "value": 164021,
+          "rank": 81,
+          "longitude": 25.458723,
+          "latitude": 57.066872
+        },
+        {
+          "code": "LB",
+          "rawCode": "LBN",
+          "name": "Lebanon",
+          "nameZh": "黎巴嫩",
+          "value": 152902,
+          "rank": 82,
+          "longitude": 35.992892,
+          "latitude": 34.133368
+        },
+        {
+          "code": "UY",
+          "rawCode": "URY",
+          "name": "Uruguay",
+          "nameZh": "乌拉圭",
+          "value": 149551,
+          "rank": 83,
+          "longitude": -55.966942,
+          "latitude": -32.961127
+        },
+        {
+          "code": "EE",
+          "rawCode": "EST",
+          "name": "Estonia",
+          "nameZh": "爱沙尼亚",
+          "value": 136016,
+          "rank": 84,
+          "longitude": 25.867126,
+          "latitude": 58.724865
+        },
+        {
+          "code": "YE",
+          "rawCode": "YEM",
+          "name": "Yemen",
+          "nameZh": "也门",
+          "value": 133164,
+          "rank": 85,
+          "longitude": 45.874383,
+          "latitude": 15.328226
+        },
+        {
+          "code": "AM",
+          "rawCode": "ARM",
+          "name": "Armenia",
+          "nameZh": "亚美尼亚",
+          "value": 131918,
+          "rank": 86,
+          "longitude": 44.800564,
+          "latitude": 40.459077
+        },
+        {
+          "code": "UG",
+          "rawCode": "UGA",
+          "name": "Uganda",
+          "nameZh": "乌干达",
+          "value": 130626,
+          "rank": 87,
+          "longitude": 32.948555,
+          "latitude": 1.972589
+        },
+        {
+          "code": "CM",
+          "rawCode": "CMR",
+          "name": "Cameroon",
+          "nameZh": "喀麦隆",
+          "value": 125062,
+          "rank": 88,
+          "longitude": 12.473488,
+          "latitude": 4.585041
+        },
+        {
+          "code": "SV",
+          "rawCode": "SLV",
+          "name": "El Salvador",
+          "nameZh": "萨尔瓦多",
+          "value": 124177,
+          "rank": 89,
+          "longitude": -88.890124,
+          "latitude": 13.685371
+        },
+        {
+          "code": "MD",
+          "rawCode": "MDA",
+          "name": "Moldova",
+          "nameZh": "摩尔多瓦",
+          "value": 122400,
+          "rank": 90,
+          "longitude": 28.487904,
+          "latitude": 47.434999
+        },
+        {
+          "code": "KG",
+          "rawCode": "KGZ",
+          "name": "Kyrgyzstan",
+          "nameZh": "吉尔吉斯斯坦",
+          "value": 109802,
+          "rank": 91,
+          "longitude": 74.532637,
+          "latitude": 41.66854
+        },
+        {
+          "code": "SI",
+          "rawCode": "SVN",
+          "name": "Slovenia",
+          "nameZh": "斯洛文尼亚",
+          "value": 109273,
+          "rank": 92,
+          "longitude": 14.915312,
+          "latitude": 46.06076
+        },
+        {
+          "code": "TZ",
+          "rawCode": "TZA",
+          "name": "Tanzania",
+          "nameZh": "坦桑尼亚",
+          "value": 106127,
+          "rank": 93,
+          "longitude": 34.959183,
+          "latitude": -6.051866
+        },
+        {
+          "code": "PS",
+          "rawCode": "PSE",
+          "name": "Palestine",
+          "nameZh": "巴勒斯坦",
+          "value": 103770,
+          "rank": 94,
+          "longitude": 35.291341,
+          "latitude": 32.047431
+        },
+        {
+          "code": "KW",
+          "rawCode": "KWT",
+          "name": "Kuwait",
+          "nameZh": "科威特",
+          "value": 102249,
+          "rank": 95,
+          "longitude": 47.313999,
+          "latitude": 29.413628
+        },
+        {
+          "code": "CI",
+          "rawCode": "CIV",
+          "name": "Côte d'Ivoire",
+          "nameZh": "科特迪瓦",
+          "value": 101040,
+          "rank": 96,
+          "longitude": -5.568618,
+          "latitude": 7.49139
+        },
+        {
+          "code": "QA",
+          "rawCode": "QAT",
+          "name": "Qatar",
+          "nameZh": "卡塔尔",
+          "value": 98357,
+          "rank": 97,
+          "longitude": 51.143509,
+          "latitude": 25.237383
+        },
+        {
+          "code": "AL",
+          "rawCode": "ALB",
+          "name": "Albania",
+          "nameZh": "阿尔巴尼亚",
+          "value": 94816,
+          "rank": 98,
+          "longitude": 20.11384,
+          "latitude": 40.654855
+        },
+        {
+          "code": "BA",
+          "rawCode": "BIH",
+          "name": "Bosnia and Herz.",
+          "nameZh": "波斯尼亚和黑塞哥维那",
+          "value": 93254,
+          "rank": 99,
+          "longitude": 18.06841,
+          "latitude": 44.091051
+        },
+        {
+          "code": "HN",
+          "rawCode": "HND",
+          "name": "Honduras",
+          "nameZh": "洪都拉斯",
+          "value": 93071,
+          "rank": 100,
+          "longitude": -86.887604,
+          "latitude": 14.794801
+        },
+        {
+          "code": "PA",
+          "rawCode": "PAN",
+          "name": "Panama",
+          "nameZh": "巴拿马",
+          "value": 88105,
+          "rank": 101,
+          "longitude": -80.352106,
+          "latitude": 8.72198
+        },
+        {
+          "code": "CY",
+          "rawCode": "CYP",
+          "name": "Cyprus",
+          "nameZh": "塞浦路斯",
+          "value": 86456,
+          "rank": 102,
+          "longitude": 33.084182,
+          "latitude": 34.913329
+        },
+        {
+          "code": "OM",
+          "rawCode": "OMN",
+          "name": "Oman",
+          "nameZh": "阿曼",
+          "value": 85833,
+          "rank": 103,
+          "longitude": 57.336553,
+          "latitude": 22.120427
+        },
+        {
+          "code": "PY",
+          "rawCode": "PRY",
+          "name": "Paraguay",
+          "nameZh": "巴拉圭",
+          "value": 84731,
+          "rank": 104,
+          "longitude": -60.146394,
+          "latitude": -21.674509
+        },
+        {
+          "code": "SN",
+          "rawCode": "SEN",
+          "name": "Senegal",
+          "nameZh": "塞内加尔",
+          "value": 82190,
+          "rank": 105,
+          "longitude": -14.778586,
+          "latitude": 15.138125
+        },
+        {
+          "code": "MN",
+          "rawCode": "MNG",
+          "name": "Mongolia",
+          "nameZh": "蒙古国",
+          "value": 80716,
+          "rank": 106,
+          "longitude": 104.150405,
+          "latitude": 45.997488
+        },
+        {
+          "code": "RW",
+          "rawCode": "RWA",
+          "name": "Rwanda",
+          "nameZh": "卢旺达",
+          "value": 78206,
+          "rank": 107,
+          "longitude": 30.103894,
+          "latitude": -1.897196
+        },
+        {
+          "code": "MK",
+          "rawCode": "MKD",
+          "name": "Macedonia",
+          "nameZh": "北马其顿",
+          "value": 76972,
+          "rank": 108,
+          "longitude": 21.555839,
+          "latitude": 41.558223
+        },
+        {
+          "code": "ZW",
+          "rawCode": "ZWE",
+          "name": "Zimbabwe",
+          "nameZh": "津巴布韦",
+          "value": 75557,
+          "rank": 109,
+          "longitude": 29.925444,
+          "latitude": -18.91164
+        },
+        {
+          "code": "MG",
+          "rawCode": "MDG",
+          "name": "Madagascar",
+          "nameZh": "马达加斯加",
+          "value": 72187,
+          "rank": 110,
+          "longitude": 46.704241,
+          "latitude": -18.628288
+        },
+        {
+          "code": "AO",
+          "rawCode": "AGO",
+          "name": "Angola",
+          "nameZh": "安哥拉",
+          "value": 70305,
+          "rank": 111,
+          "longitude": 17.984249,
+          "latitude": -12.182762
+        },
+        {
+          "code": "PR",
+          "rawCode": "PRI",
+          "name": "Puerto Rico",
+          "nameZh": "波多黎各",
+          "value": 70124,
+          "rank": 112,
+          "longitude": -66.481065,
+          "latitude": 18.234668
+        },
+        {
+          "code": "LY",
+          "rawCode": "LBY",
+          "name": "Libya",
+          "nameZh": "利比亚",
+          "value": 66426,
+          "rank": 113,
+          "longitude": 18.011015,
+          "latitude": 26.638944
+        },
+        {
+          "code": "SO",
+          "rawCode": "SOM",
+          "name": "Somalia",
+          "nameZh": "索马里",
+          "value": 64612,
+          "rank": 114,
+          "longitude": 45.19238,
+          "latitude": 3.568925
+        },
+        {
+          "code": "NI",
+          "rawCode": "NIC",
+          "name": "Nicaragua",
+          "nameZh": "尼加拉瓜",
+          "value": 63669,
+          "rank": 115,
+          "longitude": -85.069347,
+          "latitude": 12.670697
+        },
+        {
+          "code": "SY",
+          "rawCode": "SYR",
+          "name": "Syria",
+          "nameZh": "叙利亚",
+          "value": 59799,
+          "rank": 116,
+          "longitude": 38.277783,
+          "latitude": 35.006636
+        },
+        {
+          "code": "BJ",
+          "rawCode": "BEN",
+          "name": "Benin",
+          "nameZh": "贝宁",
+          "value": 59062,
+          "rank": 117,
+          "longitude": 2.352018,
+          "latitude": 10.324775
+        },
+        {
+          "code": "BH",
+          "rawCode": "BHR",
+          "name": "Bahrain",
+          "nameZh": "巴林",
+          "value": 57359,
+          "rank": 118,
+          "longitude": 50.554816,
+          "latitude": 26.055972
+        },
+        {
+          "code": "LU",
+          "rawCode": "LUX",
+          "name": "Luxembourg",
+          "nameZh": "卢森堡",
+          "value": 57359,
+          "rank": 119,
+          "longitude": 6.07762,
+          "latitude": 49.733732
+        },
+        {
+          "code": "ZM",
+          "rawCode": "ZMB",
+          "name": "Zambia",
+          "nameZh": "赞比亚",
+          "value": 57053,
+          "rank": 120,
+          "longitude": 26.395298,
+          "latitude": -14.660804
+        },
+        {
+          "code": "CD",
+          "rawCode": "COD",
+          "name": "Dem. Rep. Congo",
+          "nameZh": "刚果民主共和国",
+          "value": 56465,
+          "rank": 121,
+          "longitude": 23.458829,
+          "latitude": -1.858167
+        },
+        {
+          "code": "AF",
+          "rawCode": "AFG",
+          "name": "Afghanistan",
+          "nameZh": "阿富汗",
+          "value": 54155,
+          "rank": 122,
+          "longitude": 66.496586,
+          "latitude": 34.164262
+        },
+        {
+          "code": "JM",
+          "rawCode": "JAM",
+          "name": "Jamaica",
+          "nameZh": "牙买加",
+          "value": 53762,
+          "rank": 123,
+          "longitude": -77.318767,
+          "latitude": 18.137124
+        },
+        {
+          "code": "CU",
+          "rawCode": "CUB",
+          "name": "Cuba",
+          "nameZh": "古巴",
+          "value": 49992,
+          "rank": 124,
+          "longitude": -77.975855,
+          "latitude": 21.334024
+        },
+        {
+          "code": "MU",
+          "rawCode": "MUS",
+          "name": "Mauritius",
+          "nameZh": "毛里求斯",
+          "value": 45903,
+          "rank": 125,
+          "longitude": 57.565848,
+          "latitude": -20.299506
+        },
+        {
+          "code": "SD",
+          "rawCode": "SDN",
+          "name": "Sudan",
+          "nameZh": "苏丹",
+          "value": 45023,
+          "rank": 126,
+          "longitude": 29.260657,
+          "latitude": 16.330746
+        },
+        {
+          "code": "MZ",
+          "rawCode": "MOZ",
+          "name": "Mozambique",
+          "nameZh": "莫桑比克",
+          "value": 42814,
+          "rank": 127,
+          "longitude": 37.83789,
+          "latitude": -13.94323
+        },
+        {
+          "code": "MT",
+          "rawCode": "MLT",
+          "name": "Malta",
+          "nameZh": "马耳他",
+          "value": 40546,
+          "rank": 128,
+          "longitude": 14.433005,
+          "latitude": 35.892886
+        },
+        {
+          "code": "IS",
+          "rawCode": "ISL",
+          "name": "Iceland",
+          "nameZh": "冰岛",
+          "value": 39956,
+          "rank": 129,
+          "longitude": -18.673711,
+          "latitude": 64.779286
+        },
+        {
+          "code": "TT",
+          "rawCode": "TTO",
+          "name": "Trinidad and Tobago",
+          "nameZh": "特立尼达和多巴哥",
+          "value": 38880,
+          "rank": 130,
+          "longitude": -60.9184,
+          "latitude": 10.9989
+        },
+        {
+          "code": "LA",
+          "rawCode": "LAO",
+          "name": "Lao PDR",
+          "nameZh": "老挝",
+          "value": 36490,
+          "rank": 131,
+          "longitude": 102.533912,
+          "latitude": 19.431821
+        },
+        {
+          "code": "TG",
+          "rawCode": "TGO",
+          "name": "Togo",
+          "nameZh": "多哥",
+          "value": 35980,
+          "rank": 132,
+          "longitude": 1.058113,
+          "latitude": 8.80722
+        },
+        {
+          "code": "MW",
+          "rawCode": "MWI",
+          "name": "Malawi",
+          "nameZh": "马拉维",
+          "value": 31019,
+          "rank": 133,
+          "longitude": 33.608082,
+          "latitude": -13.386737
+        },
+        {
+          "code": "BF",
+          "rawCode": "BFA",
+          "name": "Burkina Faso",
+          "nameZh": "布基纳法索",
+          "value": 29644,
+          "rank": 134,
+          "longitude": -1.36388,
+          "latitude": 12.673048
+        },
+        {
+          "code": "ME",
+          "rawCode": "MNE",
+          "name": "Montenegro",
+          "nameZh": "黑山",
+          "value": 27514,
+          "rank": 135,
+          "longitude": 19.143727,
+          "latitude": 42.803101
+        },
+        {
+          "code": "BW",
+          "rawCode": "BWA",
+          "name": "Botswana",
+          "nameZh": "博茨瓦纳",
+          "value": 26883,
+          "rank": 136,
+          "longitude": 24.179216,
+          "latitude": -22.102634
+        },
+        {
+          "code": "HT",
+          "rawCode": "HTI",
+          "name": "Haiti",
+          "nameZh": "海地",
+          "value": 26621,
+          "rank": 137,
+          "longitude": -72.224051,
+          "latitude": 19.263784
+        },
+        {
+          "code": "ML",
+          "rawCode": "MLI",
+          "name": "Mali",
+          "nameZh": "马里",
+          "value": 22761,
+          "rank": 138,
+          "longitude": -2.038455,
+          "latitude": 18.692713
+        },
+        {
+          "code": "TJ",
+          "rawCode": "TJK",
+          "name": "Tajikistan",
+          "nameZh": "塔吉克斯坦",
+          "value": 22663,
+          "rank": 139,
+          "longitude": 72.587276,
+          "latitude": 38.199835
+        },
+        {
+          "code": "RE",
+          "rawCode": null,
+          "name": "Réunion",
+          "nameZh": "留尼汪",
+          "value": 22269,
+          "rank": 140,
+          "longitude": null,
+          "latitude": null
+        },
+        {
+          "code": "SC",
+          "rawCode": "SYC",
+          "name": "Seychelles",
+          "nameZh": "塞舌尔",
+          "value": 21288,
+          "rank": 141,
+          "longitude": 55.480175,
+          "latitude": -4.676659
+        },
+        {
+          "code": "MV",
+          "rawCode": "MDV",
+          "name": "Maldives",
+          "nameZh": "马尔代夫",
+          "value": 21032,
+          "rank": 142,
+          "longitude": 73.507554,
+          "latitude": 4.174441
+        },
+        {
+          "code": "NA",
+          "rawCode": "NAM",
+          "name": "Namibia",
+          "nameZh": "纳米比亚",
+          "value": 19761,
+          "rank": 143,
+          "longitude": 17.108166,
+          "latitude": -20.575298
+        },
+        {
+          "code": "BN",
+          "rawCode": "BRN",
+          "name": "Brunei",
+          "nameZh": "文莱",
+          "value": 16465,
+          "rank": 144,
+          "longitude": 114.551943,
+          "latitude": 4.448298
+        },
+        {
+          "code": "CG",
+          "rawCode": "COG",
+          "name": "Congo",
+          "nameZh": "刚果共和国",
+          "value": 15493,
+          "rank": 145,
+          "longitude": 15.9005,
+          "latitude": 0.142331
+        },
+        {
+          "code": "SL",
+          "rawCode": "SLE",
+          "name": "Sierra Leone",
+          "nameZh": "塞拉利昂",
+          "value": 15066,
+          "rank": 146,
+          "longitude": -11.763677,
+          "latitude": 8.617449
+        },
+        {
+          "code": "PG",
+          "rawCode": "PNG",
+          "name": "Papua New Guinea",
+          "nameZh": "巴布亚新几内亚",
+          "value": 14835,
+          "rank": 147,
+          "longitude": 143.910216,
+          "latitude": -5.695285
+        },
+        {
+          "code": "MR",
+          "rawCode": "MRT",
+          "name": "Mauritania",
+          "nameZh": "毛里塔尼亚",
+          "value": 14250,
+          "rank": 148,
+          "longitude": -9.740299,
+          "latitude": 19.587062
+        },
+        {
+          "code": "GA",
+          "rawCode": "GAB",
+          "name": "Gabon",
+          "nameZh": "加蓬",
+          "value": 14202,
+          "rank": 149,
+          "longitude": 11.835939,
+          "latitude": -0.437739
+        },
+        {
+          "code": "GN",
+          "rawCode": "GIN",
+          "name": "Guinea",
+          "nameZh": "几内亚",
+          "value": 13611,
+          "rank": 150,
+          "longitude": -10.016402,
+          "latitude": 10.618516
+        },
+        {
+          "code": "BT",
+          "rawCode": "BTN",
+          "name": "Bhutan",
+          "nameZh": "不丹",
+          "value": 13253,
+          "rank": 151,
+          "longitude": 90.040294,
+          "latitude": 27.536685
+        },
+        {
+          "code": "LR",
+          "rawCode": "LBR",
+          "name": "Liberia",
+          "nameZh": "利比里亚",
+          "value": 10813,
+          "rank": 152,
+          "longitude": -9.460379,
+          "latitude": 6.447177
+        },
+        {
+          "code": "BS",
+          "rawCode": "BHS",
+          "name": "Bahamas",
+          "nameZh": "巴哈马",
+          "value": 10337,
+          "rank": 153,
+          "longitude": -77.146688,
+          "latitude": 26.401789
+        },
+        {
+          "code": "GY",
+          "rawCode": "GUY",
+          "name": "Guyana",
+          "nameZh": "圭亚那",
+          "value": 10103,
+          "rank": 154,
+          "longitude": -58.942643,
+          "latitude": 5.124317
+        },
+        {
+          "code": "BB",
+          "rawCode": "BRB",
+          "name": "Barbados",
+          "nameZh": "巴巴多斯",
+          "value": 9982,
+          "rank": 155,
+          "longitude": -59.568966,
+          "latitude": 13.163709
+        },
+        {
+          "code": "FJ",
+          "rawCode": "FJI",
+          "name": "Fiji",
+          "nameZh": "斐济",
+          "value": 9826,
+          "rank": 156,
+          "longitude": 177.975427,
+          "latitude": -17.826099
+        },
+        {
+          "code": "LS",
+          "rawCode": "LSO",
+          "name": "Lesotho",
+          "nameZh": "莱索托",
+          "value": 9340,
+          "rank": 157,
+          "longitude": 28.246639,
+          "latitude": -29.480158
+        },
+        {
+          "code": "BZ",
+          "rawCode": "BLZ",
+          "name": "Belize",
+          "nameZh": "伯利兹",
+          "value": 8919,
+          "rank": 158,
+          "longitude": -88.712962,
+          "latitude": 17.202068
+        },
+        {
+          "code": "GP",
+          "rawCode": null,
+          "name": "Guadeloupe",
+          "nameZh": "瓜德罗普",
+          "value": 8619,
+          "rank": 159,
+          "longitude": null,
+          "latitude": null
+        },
+        {
+          "code": "TM",
+          "rawCode": "TKM",
+          "name": "Turkmenistan",
+          "nameZh": "土库曼斯坦",
+          "value": 8619,
+          "rank": 160,
+          "longitude": 58.676647,
+          "latitude": 39.855246
+        },
+        {
+          "code": "BI",
+          "rawCode": "BDI",
+          "name": "Burundi",
+          "nameZh": "布隆迪",
+          "value": 8509,
+          "rank": 161,
+          "longitude": 29.917086,
+          "latitude": -3.332836
+        },
+        {
+          "code": "NE",
+          "rawCode": "NER",
+          "name": "Niger",
+          "nameZh": "尼日尔",
+          "value": 8341,
+          "rank": 162,
+          "longitude": 9.504356,
+          "latitude": 17.446195
+        },
+        {
+          "code": "SR",
+          "rawCode": "SUR",
+          "name": "Suriname",
+          "nameZh": "苏里南",
+          "value": 8082,
+          "rank": 163,
+          "longitude": -55.91094,
+          "latitude": 4.143987
+        },
+        {
+          "code": "GM",
+          "rawCode": "GMB",
+          "name": "Gambia",
+          "nameZh": "冈比亚",
+          "value": 7784,
+          "rank": 164,
+          "longitude": -14.998318,
+          "latitude": 13.641721
+        },
+        {
+          "code": "SZ",
+          "rawCode": "SWZ",
+          "name": "eSwatini",
+          "nameZh": "斯威士兰",
+          "value": 7105,
+          "rank": 165,
+          "longitude": 31.467264,
+          "latitude": -26.533676
+        },
+        {
+          "code": "MQ",
+          "rawCode": null,
+          "name": "Martinique",
+          "nameZh": "马提尼克",
+          "value": 6943,
+          "rank": 166,
+          "longitude": null,
+          "latitude": null
+        },
+        {
+          "code": "CV",
+          "rawCode": "CPV",
+          "name": "Cabo Verde",
+          "nameZh": "佛得角",
+          "value": 6832,
+          "rank": 167,
+          "longitude": -23.639434,
+          "latitude": 15.074761
+        },
+        {
+          "code": "AD",
+          "rawCode": "AND",
+          "name": "Andorra",
+          "nameZh": "安道尔",
+          "value": 6593,
+          "rank": 168,
+          "longitude": 1.539409,
+          "latitude": 42.547643
+        },
+        {
+          "code": "SS",
+          "rawCode": "SSD",
+          "name": "S. Sudan",
+          "nameZh": "南苏丹",
+          "value": 6142,
+          "rank": 169,
+          "longitude": 30.390151,
+          "latitude": 7.230477
+        },
+        {
+          "code": "GU",
+          "rawCode": "GUM",
+          "name": "Guam",
+          "nameZh": "关岛",
+          "value": 5679,
+          "rank": 170,
+          "longitude": 144.703614,
+          "latitude": 13.354173
+        },
+        {
+          "code": "PF",
+          "rawCode": "PYF",
+          "name": "Fr. Polynesia",
+          "nameZh": "法属波利尼西亚",
+          "value": 5623,
+          "rank": 171,
+          "longitude": -149.46157,
+          "latitude": -17.628081
+        },
+        {
+          "code": "TD",
+          "rawCode": "TCD",
+          "name": "Chad",
+          "nameZh": "乍得",
+          "value": 5566,
+          "rank": 172,
+          "longitude": 18.645041,
+          "latitude": 15.142959
+        },
+        {
+          "code": "IM",
+          "rawCode": "IMN",
+          "name": "Isle of Man",
+          "nameZh": "马恩岛",
+          "value": 5180,
+          "rank": 173,
+          "longitude": -4.530069,
+          "latitude": 54.220833
+        },
+        {
+          "code": "DJ",
+          "rawCode": "DJI",
+          "name": "Djibouti",
+          "nameZh": "吉布提",
+          "value": 5156,
+          "rank": 174,
+          "longitude": 42.498825,
+          "latitude": 11.976343
+        },
+        {
+          "code": "NC",
+          "rawCode": "NCL",
+          "name": "New Caledonia",
+          "nameZh": "新喀里多尼亚",
+          "value": 4966,
+          "rank": 175,
+          "longitude": 165.084004,
+          "latitude": -21.064697
+        },
+        {
+          "code": "JE",
+          "rawCode": "JEY",
+          "name": "Jersey",
+          "nameZh": "泽西",
+          "value": 4776,
+          "rank": 176,
+          "longitude": -2.090146,
+          "latitude": 49.220808
+        },
+        {
+          "code": "CW",
+          "rawCode": "CUW",
+          "name": "Curaçao",
+          "nameZh": "库拉索",
+          "value": 4590,
+          "rank": 177,
+          "longitude": -68.920578,
+          "latitude": 12.145039
+        },
+        {
+          "code": "KY",
+          "rawCode": "CYM",
+          "name": "Cayman Is.",
+          "nameZh": "开曼群岛",
+          "value": 4020,
+          "rank": 178,
+          "longitude": -81.24055,
+          "latitude": 19.319862
+        },
+        {
+          "code": "LC",
+          "rawCode": "LCA",
+          "name": "Saint Lucia",
+          "nameZh": "圣卢西亚",
+          "value": 3960,
+          "rank": 179,
+          "longitude": -60.980094,
+          "latitude": 13.892371
+        },
+        {
+          "code": "GF",
+          "rawCode": null,
+          "name": "French Guiana",
+          "nameZh": "法属圭亚那",
+          "value": 3600,
+          "rank": 180,
+          "longitude": null,
+          "latitude": null
+        },
+        {
+          "code": "AW",
+          "rawCode": "ABW",
+          "name": "Aruba",
+          "nameZh": "阿鲁巴",
+          "value": 3570,
+          "rank": 181,
+          "longitude": -69.972795,
+          "latitude": 12.5174
+        },
+        {
+          "code": "GD",
+          "rawCode": "GRD",
+          "name": "Grenada",
+          "nameZh": "格林纳达",
+          "value": 3133,
+          "rank": 182,
+          "longitude": -61.680461,
+          "latitude": 12.113156
+        },
+        {
+          "code": "BM",
+          "rawCode": "BMU",
+          "name": "Bermuda",
+          "nameZh": "百慕大",
+          "value": 2996,
+          "rank": 183,
+          "longitude": -64.763573,
+          "latitude": 32.296592
+        },
+        {
+          "code": "TL",
+          "rawCode": "TLS",
+          "name": "Timor-Leste",
+          "nameZh": "东帝汶",
+          "value": 2990,
+          "rank": 184,
+          "longitude": 125.854679,
+          "latitude": -8.803705
+        },
+        {
+          "code": "MC",
+          "rawCode": "MCO",
+          "name": "Monaco",
+          "nameZh": "摩纳哥",
+          "value": 2941,
+          "rank": 185,
+          "longitude": 7.398291,
+          "latitude": 43.739652
+        },
+        {
+          "code": "GI",
+          "rawCode": null,
+          "name": "Gibraltar",
+          "nameZh": "直布罗陀",
+          "value": 2891,
+          "rank": 186,
+          "longitude": null,
+          "latitude": null
+        },
+        {
+          "code": "VI",
+          "rawCode": "VIR",
+          "name": "U.S. Virgin Is.",
+          "nameZh": "美属维尔京群岛",
+          "value": 2710,
+          "rank": 187,
+          "longitude": -64.779172,
+          "latitude": 17.746706
+        },
+        {
+          "code": "LI",
+          "rawCode": "LIE",
+          "name": "Liechtenstein",
+          "nameZh": "列支敦士登",
+          "value": 2688,
+          "rank": 188,
+          "longitude": 9.559439,
+          "latitude": 47.111405
+        },
+        {
+          "code": "GG",
+          "rawCode": "GGY",
+          "name": "Guernsey",
+          "nameZh": "根西",
+          "value": 2477,
+          "rank": 189,
+          "longitude": -2.561736,
+          "latitude": 49.463533
+        },
+        {
+          "code": "AG",
+          "rawCode": "ATG",
+          "name": "Antigua and Barb.",
+          "nameZh": "安提瓜和巴布达",
+          "value": 2351,
+          "rank": 190,
+          "longitude": -61.790612,
+          "latitude": 17.352249
+        },
+        {
+          "code": "FO",
+          "rawCode": "FRO",
+          "name": "Faeroe Is.",
+          "nameZh": "法罗群岛",
+          "value": 2350,
+          "rank": 191,
+          "longitude": -7.058429,
+          "latitude": 62.185604
+        },
+        {
+          "code": "VC",
+          "rawCode": "VCT",
+          "name": "St. Vin. and Gren.",
+          "nameZh": "圣文森特和格林纳丁斯",
+          "value": 2039,
+          "rank": 192,
+          "longitude": -61.3359,
+          "latitude": 13.0879
+        },
+        {
+          "code": "GQ",
+          "rawCode": "GNQ",
+          "name": "Eq. Guinea",
+          "nameZh": "赤道几内亚",
+          "value": 1966,
+          "rank": 193,
+          "longitude": 8.9902,
+          "latitude": 2.333
+        },
+        {
+          "code": "ER",
+          "rawCode": "ERI",
+          "name": "Eritrea",
+          "nameZh": "厄立特里亚",
+          "value": 1680,
+          "rank": 194,
+          "longitude": 38.285566,
+          "latitude": 15.787401
+        },
+        {
+          "code": "AX",
+          "rawCode": "ALA",
+          "name": "Åland",
+          "nameZh": "奥兰",
+          "value": 1673,
+          "rank": 195,
+          "longitude": 19.869671,
+          "latitude": 60.156467
+        },
+        {
+          "code": "DM",
+          "rawCode": "DMA",
+          "name": "Dominica",
+          "nameZh": "多米尼克",
+          "value": 1672,
+          "rank": 196,
+          "longitude": -61.344958,
+          "latitude": 15.458829
+        },
+        {
+          "code": "KN",
+          "rawCode": "KNA",
+          "name": "St. Kitts and Nevis",
+          "nameZh": "圣基茨和尼维斯",
+          "value": 1633,
+          "rank": 197,
+          "longitude": -62.757975,
+          "latitude": 17.336558
+        },
+        {
+          "code": "YT",
+          "rawCode": null,
+          "name": "Mayotte",
+          "nameZh": "马约特",
+          "value": 1588,
+          "rank": 198,
+          "longitude": null,
+          "latitude": null
+        },
+        {
+          "code": "GL",
+          "rawCode": "GRL",
+          "name": "Greenland",
+          "nameZh": "格陵兰",
+          "value": 1545,
+          "rank": 199,
+          "longitude": -39.335251,
+          "latitude": 74.319387
+        },
+        {
+          "code": "SB",
+          "rawCode": "SLB",
+          "name": "Solomon Is.",
+          "nameZh": "所罗门群岛",
+          "value": 1315,
+          "rank": 200,
+          "longitude": 159.170468,
+          "latitude": -8.029548
+        },
+        {
+          "code": "MP",
+          "rawCode": "MNP",
+          "name": "N. Mariana Is.",
+          "nameZh": "北马里亚纳群岛",
+          "value": 1312,
+          "rank": 201,
+          "longitude": 145.734397,
+          "latitude": 15.188188
+        },
+        {
+          "code": "SM",
+          "rawCode": "SMR",
+          "name": "San Marino",
+          "nameZh": "圣马力诺",
+          "value": 1297,
+          "rank": 202,
+          "longitude": 12.441206,
+          "latitude": 43.933916
+        },
+        {
+          "code": "TC",
+          "rawCode": "TCA",
+          "name": "Turks and Caicos Is.",
+          "nameZh": "特克斯和凯科斯群岛",
+          "value": 1238,
+          "rank": 203,
+          "longitude": -71.752704,
+          "latitude": 21.81663
+        },
+        {
+          "code": "GW",
+          "rawCode": "GNB",
+          "name": "Guinea-Bissau",
+          "nameZh": "几内亚比绍",
+          "value": 1216,
+          "rank": 204,
+          "longitude": -14.52413,
+          "latitude": 12.163712
+        },
+        {
+          "code": "VU",
+          "rawCode": "VUT",
+          "name": "Vanuatu",
+          "nameZh": "瓦努阿图",
+          "value": 1201,
+          "rank": 205,
+          "longitude": 166.908762,
+          "latitude": -15.37153
+        },
+        {
+          "code": "SX",
+          "rawCode": "SXM",
+          "name": "Sint Maarten",
+          "nameZh": "荷属圣马丁",
+          "value": 1153,
+          "rank": 206,
+          "longitude": -63.070133,
+          "latitude": 18.04088
+        },
+        {
+          "code": "VG",
+          "rawCode": "VGB",
+          "name": "British Virgin Is.",
+          "nameZh": "英属维尔京群岛",
+          "value": 1071,
+          "rank": 207,
+          "longitude": -64.63661,
+          "latitude": 18.426606
+        },
+        {
+          "code": "KM",
+          "rawCode": "COM",
+          "name": "Comoros",
+          "nameZh": "科摩罗",
+          "value": 1051,
+          "rank": 208,
+          "longitude": 43.318094,
+          "latitude": -11.727683
+        },
+        {
+          "code": "WS",
+          "rawCode": "WSM",
+          "name": "Samoa",
+          "nameZh": "萨摩亚",
+          "value": 893,
+          "rank": 209,
+          "longitude": -172.438241,
+          "latitude": -13.639139
+        },
+        {
+          "code": "AS",
+          "rawCode": "ASM",
+          "name": "American Samoa",
+          "nameZh": "美属萨摩亚",
+          "value": 790,
+          "rank": 210,
+          "longitude": -170.747153,
+          "latitude": -14.32671
+        },
+        {
+          "code": "ST",
+          "rawCode": "STP",
+          "name": "São Tomé and Principe",
+          "nameZh": "圣多美和普林西比",
+          "value": 753,
+          "rank": 211,
+          "longitude": 7.021,
+          "latitude": 0.9709
+        },
+        {
+          "code": "CF",
+          "rawCode": "CAF",
+          "name": "Central African Rep.",
+          "nameZh": "中非共和国",
+          "value": 736,
+          "rank": 212,
+          "longitude": 20.906897,
+          "latitude": 6.989681
+        },
+        {
+          "code": "BQ",
+          "rawCode": null,
+          "name": "Bonaire, Sint Eustatius and Saba",
+          "nameZh": "荷兰加勒比区",
+          "value": 730,
+          "rank": 213,
+          "longitude": null,
+          "latitude": null
+        },
+        {
+          "code": "TO",
+          "rawCode": "TON",
+          "name": "Tonga",
+          "nameZh": "汤加",
+          "value": 697,
+          "rank": 214,
+          "longitude": -175.163014,
+          "latitude": -21.210026
+        },
+        {
+          "code": "AI",
+          "rawCode": "AIA",
+          "name": "Anguilla",
+          "nameZh": "安圭拉",
+          "value": 571,
+          "rank": 215,
+          "longitude": -63.026361,
+          "latitude": 18.242979
+        },
+        {
+          "code": "FM",
+          "rawCode": "FSM",
+          "name": "Micronesia",
+          "nameZh": "密克罗尼西亚联邦",
+          "value": 523,
+          "rank": 216,
+          "longitude": 158.234019,
+          "latitude": 6.887553
+        },
+        {
+          "code": "KI",
+          "rawCode": "KIR",
+          "name": "Kiribati",
+          "nameZh": "基里巴斯",
+          "value": 433,
+          "rank": 217,
+          "longitude": -157.384577,
+          "latitude": 1.820437
+        },
+        {
+          "code": "MF",
+          "rawCode": "MAF",
+          "name": "St-Martin",
+          "nameZh": "法属圣马丁",
+          "value": 381,
+          "rank": 218,
+          "longitude": -63.049399,
+          "latitude": 18.081302
+        },
+        {
+          "code": "PW",
+          "rawCode": "PLW",
+          "name": "Palau",
+          "nameZh": "帕劳",
+          "value": 376,
+          "rank": 219,
+          "longitude": 134.580157,
+          "latitude": 7.518252
+        },
+        {
+          "code": "MH",
+          "rawCode": "MHL",
+          "name": "Marshall Is.",
+          "nameZh": "马绍尔群岛",
+          "value": 310,
+          "rank": 220,
+          "longitude": 171.193609,
+          "latitude": 7.082568
+        },
+        {
+          "code": "CK",
+          "rawCode": "COK",
+          "name": "Cook Is.",
+          "nameZh": "库克群岛",
+          "value": 251,
+          "rank": 221,
+          "longitude": -159.785675,
+          "latitude": -21.215993
+        },
+        {
+          "code": "MS",
+          "rawCode": "MSR",
+          "name": "Montserrat",
+          "nameZh": "蒙特塞拉特",
+          "value": 228,
+          "rank": 222,
+          "longitude": -62.188252,
+          "latitude": 16.73717
+        },
+        {
+          "code": "PM",
+          "rawCode": "SPM",
+          "name": "St. Pierre and Miquelon",
+          "nameZh": "圣皮埃尔和密克隆",
+          "value": 218,
+          "rank": 223,
+          "longitude": -56.332352,
+          "latitude": 47.040344
+        },
+        {
+          "code": "VA",
+          "rawCode": "VAT",
+          "name": "Vatican",
+          "nameZh": "梵蒂冈",
+          "value": 183,
+          "rank": 224,
+          "longitude": 12.453418,
+          "latitude": 41.903323
+        }
+      ]
+    },
+    "contribution": {
+      "source": {
+        "url": "https://selfoss.open-digger.cn/openshare/overview/contribution.json",
+        "retrievedAt": "2026-10-25T05:36:01.427201Z",
+        "sha256": "79a223f2079a9b86c0c2dccc8845f5c164a2e1a4e1cef16c6f62ef62b77ab779",
+        "httpStatus": 200
+      },
+      "title": "Developer OpenRank Contribution by Country",
+      "observedPeriod": null,
+      "unknownRegionTotal": null,
+      "rows": [
+        {
+          "code": "US",
+          "rawCode": "USA",
+          "name": "United States",
+          "nameZh": "美国",
+          "value": 4236888.42,
+          "rank": 1,
+          "longitude": -97.482602,
+          "latitude": 39.538479
+        },
+        {
+          "code": "DE",
+          "rawCode": "DEU",
+          "name": "Germany",
+          "nameZh": "德国",
+          "value": 1551350.84,
+          "rank": 2,
+          "longitude": 9.678348,
+          "latitude": 50.961733
+        },
+        {
+          "code": "CN",
+          "rawCode": "CHN",
+          "name": "China",
+          "nameZh": "中国",
+          "value": 1210375.59,
+          "rank": 3,
+          "longitude": 106.337289,
+          "latitude": 32.498178
+        },
+        {
+          "code": "GB",
+          "rawCode": "GBR",
+          "name": "United Kingdom",
+          "nameZh": "英国",
+          "value": 1085081.35,
+          "rank": 4,
+          "longitude": -2.116346,
+          "latitude": 54.402739
+        },
+        {
+          "code": "IN",
+          "rawCode": "IND",
+          "name": "India",
+          "nameZh": "印度",
+          "value": 898609.13,
+          "rank": 5,
+          "longitude": 79.358105,
+          "latitude": 22.686852
+        },
+        {
+          "code": "FR",
+          "rawCode": "FRA",
+          "name": "France",
+          "nameZh": "法国",
+          "value": 852778.98,
+          "rank": 6,
+          "longitude": 2.552275,
+          "latitude": 46.696113
+        },
+        {
+          "code": "CA",
+          "rawCode": "CAN",
+          "name": "Canada",
+          "nameZh": "加拿大",
+          "value": 743376.75,
+          "rank": 7,
+          "longitude": -101.9107,
+          "latitude": 60.324287
+        },
+        {
+          "code": "BR",
+          "rawCode": "BRA",
+          "name": "Brazil",
+          "nameZh": "巴西",
+          "value": 623932.64,
+          "rank": 8,
+          "longitude": -49.55945,
+          "latitude": -12.098687
+        },
+        {
+          "code": "NL",
+          "rawCode": "NLD",
+          "name": "Netherlands",
+          "nameZh": "荷兰",
+          "value": 489341.32,
+          "rank": 9,
+          "longitude": 5.61144,
+          "latitude": 52.422211
+        },
+        {
+          "code": "JP",
+          "rawCode": "JPN",
+          "name": "Japan",
+          "nameZh": "日本",
+          "value": 463176.99,
+          "rank": 10,
+          "longitude": 138.44217,
+          "latitude": 36.142538
+        },
+        {
+          "code": "AU",
+          "rawCode": "AUS",
+          "name": "Australia",
+          "nameZh": "澳大利亚",
+          "value": 368528.87,
+          "rank": 11,
+          "longitude": 134.04972,
+          "latitude": -24.129522
+        },
+        {
+          "code": "PL",
+          "rawCode": "POL",
+          "name": "Poland",
+          "nameZh": "波兰",
+          "value": 356793.49,
+          "rank": 12,
+          "longitude": 19.490468,
+          "latitude": 51.990316
+        },
+        {
+          "code": "KR",
+          "rawCode": "KOR",
+          "name": "Korea",
+          "nameZh": "韩国",
+          "value": 327642,
+          "rank": 13,
+          "longitude": 128.129504,
+          "latitude": 36.384924
+        },
+        {
+          "code": "CH",
+          "rawCode": "CHE",
+          "name": "Switzerland",
+          "nameZh": "瑞士",
+          "value": 321488.04,
+          "rank": 14,
+          "longitude": 7.463965,
+          "latitude": 46.719114
+        },
+        {
+          "code": "ES",
+          "rawCode": "ESP",
+          "name": "Spain",
+          "nameZh": "西班牙",
+          "value": 317912.37,
+          "rank": 15,
+          "longitude": -3.464718,
+          "latitude": 40.090953
+        },
+        {
+          "code": "RU",
+          "rawCode": "RUS",
+          "name": "Russia",
+          "nameZh": "俄罗斯",
+          "value": 284835.62,
+          "rank": 16,
+          "longitude": 44.686469,
+          "latitude": 58.249357
+        },
+        {
+          "code": "IT",
+          "rawCode": "ITA",
+          "name": "Italy",
+          "nameZh": "意大利",
+          "value": 266050.41,
+          "rank": 17,
+          "longitude": 11.076907,
+          "latitude": 44.732482
+        },
+        {
+          "code": "SE",
+          "rawCode": "SWE",
+          "name": "Sweden",
+          "nameZh": "瑞典",
+          "value": 234269.44,
+          "rank": 18,
+          "longitude": 19.01705,
+          "latitude": 65.85918
+        },
+        {
+          "code": "CZ",
+          "rawCode": "CZE",
+          "name": "Czech Rep.",
+          "nameZh": "捷克",
+          "value": 184941.32,
+          "rank": 19,
+          "longitude": 15.377555,
+          "latitude": 49.882364
+        },
+        {
+          "code": "UA",
+          "rawCode": "UKR",
+          "name": "Ukraine",
+          "nameZh": "乌克兰",
+          "value": 174235.84,
+          "rank": 20,
+          "longitude": 32.140865,
+          "latitude": 49.724739
+        },
+        {
+          "code": "AT",
+          "rawCode": "AUT",
+          "name": "Austria",
+          "nameZh": "奥地利",
+          "value": 167809.27,
+          "rank": 21,
+          "longitude": 14.130515,
+          "latitude": 47.518859
+        },
+        {
+          "code": "NO",
+          "rawCode": "NOR",
+          "name": "Norway",
+          "nameZh": "挪威",
+          "value": 167593.24,
+          "rank": 22,
+          "longitude": 9.679975,
+          "latitude": 61.357092
+        },
+        {
+          "code": "BE",
+          "rawCode": "BEL",
+          "name": "Belgium",
+          "nameZh": "比利时",
+          "value": 155970.59,
+          "rank": 23,
+          "longitude": 4.800448,
+          "latitude": 50.785392
+        },
+        {
+          "code": "ID",
+          "rawCode": "IDN",
+          "name": "Indonesia",
+          "nameZh": "印度尼西亚",
+          "value": 149774.46,
+          "rank": 24,
+          "longitude": 101.892949,
+          "latitude": -0.954404
+        },
+        {
+          "code": "DK",
+          "rawCode": "DNK",
+          "name": "Denmark",
+          "nameZh": "丹麦",
+          "value": 136348.62,
+          "rank": 25,
+          "longitude": 9.018163,
+          "latitude": 55.966965
+        },
+        {
+          "code": "AR",
+          "rawCode": "ARG",
+          "name": "Argentina",
+          "nameZh": "阿根廷",
+          "value": 131758.33,
+          "rank": 26,
+          "longitude": -64.173331,
+          "latitude": -33.501159
+        },
+        {
+          "code": "FI",
+          "rawCode": "FIN",
+          "name": "Finland",
+          "nameZh": "芬兰",
+          "value": 127952.41,
+          "rank": 27,
+          "longitude": 27.276449,
+          "latitude": 63.252361
+        },
+        {
+          "code": "VN",
+          "rawCode": "VNM",
+          "name": "Vietnam",
+          "nameZh": "越南",
+          "value": 124198.11,
+          "rank": 28,
+          "longitude": 105.387292,
+          "latitude": 21.715416
+        },
+        {
+          "code": "PT",
+          "rawCode": "PRT",
+          "name": "Portugal",
+          "nameZh": "葡萄牙",
+          "value": 113972.17,
+          "rank": 29,
+          "longitude": -8.271754,
+          "latitude": 39.606675
+        },
+        {
+          "code": "TR",
+          "rawCode": "TUR",
+          "name": "Turkey",
+          "nameZh": "土耳其",
+          "value": 97287.75,
+          "rank": 30,
+          "longitude": 34.508268,
+          "latitude": 39.345388
+        },
+        {
+          "code": "SG",
+          "rawCode": "SGP",
+          "name": "Singapore",
+          "nameZh": "新加坡",
+          "value": 94709.08,
+          "rank": 31,
+          "longitude": 103.816925,
+          "latitude": 1.366587
+        },
+        {
+          "code": "NG",
+          "rawCode": "NGA",
+          "name": "Nigeria",
+          "nameZh": "尼日利亚",
+          "value": 93867.69,
+          "rank": 32,
+          "longitude": 7.50322,
+          "latitude": 9.439799
+        },
+        {
+          "code": "NZ",
+          "rawCode": "NZL",
+          "name": "New Zealand",
+          "nameZh": "新西兰",
+          "value": 91319.29,
+          "rank": 33,
+          "longitude": 172.787,
+          "latitude": -39.759
+        },
+        {
+          "code": "IL",
+          "rawCode": "ISR",
+          "name": "Israel",
+          "nameZh": "以色列",
+          "value": 84079.64,
+          "rank": 34,
+          "longitude": 34.847915,
+          "latitude": 30.911148
+        },
+        {
+          "code": "MX",
+          "rawCode": "MEX",
+          "name": "Mexico",
+          "nameZh": "墨西哥",
+          "value": 80539.02,
+          "rank": 35,
+          "longitude": -102.289448,
+          "latitude": 23.919988
+        },
+        {
+          "code": "CO",
+          "rawCode": "COL",
+          "name": "Colombia",
+          "nameZh": "哥伦比亚",
+          "value": 80236.09,
+          "rank": 36,
+          "longitude": -73.174347,
+          "latitude": 3.373111
+        },
+        {
+          "code": "BD",
+          "rawCode": "BGD",
+          "name": "Bangladesh",
+          "nameZh": "孟加拉国",
+          "value": 80130.99,
+          "rank": 37,
+          "longitude": 89.684963,
+          "latitude": 24.214956
+        },
+        {
+          "code": "LK",
+          "rawCode": "LKA",
+          "name": "Sri Lanka",
+          "nameZh": "斯里兰卡",
+          "value": 67812.26,
+          "rank": 38,
+          "longitude": 80.704823,
+          "latitude": 7.581097
+        },
+        {
+          "code": "RO",
+          "rawCode": "ROU",
+          "name": "Romania",
+          "nameZh": "罗马尼亚",
+          "value": 65087.81,
+          "rank": 39,
+          "longitude": 24.972624,
+          "latitude": 45.733237
+        },
+        {
+          "code": "HU",
+          "rawCode": "HUN",
+          "name": "Hungary",
+          "nameZh": "匈牙利",
+          "value": 64242.86,
+          "rank": 40,
+          "longitude": 19.447867,
+          "latitude": 47.086841
+        },
+        {
+          "code": "PK",
+          "rawCode": "PAK",
+          "name": "Pakistan",
+          "nameZh": "巴基斯坦",
+          "value": 60630.39,
+          "rank": 41,
+          "longitude": 68.545632,
+          "latitude": 29.328389
+        },
+        {
+          "code": "IE",
+          "rawCode": "IRL",
+          "name": "Ireland",
+          "nameZh": "爱尔兰",
+          "value": 57993.83,
+          "rank": 42,
+          "longitude": -7.798588,
+          "latitude": 53.078726
+        },
+        {
+          "code": "BG",
+          "rawCode": "BGR",
+          "name": "Bulgaria",
+          "nameZh": "保加利亚",
+          "value": 57735.67,
+          "rank": 43,
+          "longitude": 25.15709,
+          "latitude": 42.508785
+        },
+        {
+          "code": "ZA",
+          "rawCode": "ZAF",
+          "name": "South Africa",
+          "nameZh": "南非",
+          "value": 54665.78,
+          "rank": 44,
+          "longitude": 23.665734,
+          "latitude": -29.708776
+        },
+        {
+          "code": "PH",
+          "rawCode": "PHL",
+          "name": "Philippines",
+          "nameZh": "菲律宾",
+          "value": 52289.09,
+          "rank": 45,
+          "longitude": 122.465,
+          "latitude": 11.198
+        },
+        {
+          "code": "EG",
+          "rawCode": "EGY",
+          "name": "Egypt",
+          "nameZh": "埃及",
+          "value": 52208.93,
+          "rank": 46,
+          "longitude": 29.445837,
+          "latitude": 26.186173
+        },
+        {
+          "code": "KE",
+          "rawCode": "KEN",
+          "name": "Kenya",
+          "nameZh": "肯尼亚",
+          "value": 51255.22,
+          "rank": 47,
+          "longitude": 37.907632,
+          "latitude": 0.549043
+        },
+        {
+          "code": "GR",
+          "rawCode": "GRC",
+          "name": "Greece",
+          "nameZh": "希腊",
+          "value": 47210.58,
+          "rank": 48,
+          "longitude": 21.72568,
+          "latitude": 39.492763
+        },
+        {
+          "code": "TH",
+          "rawCode": "THA",
+          "name": "Thailand",
+          "nameZh": "泰国",
+          "value": 43726.99,
+          "rank": 49,
+          "longitude": 101.073198,
+          "latitude": 15.45974
+        },
+        {
+          "code": "RS",
+          "rawCode": "SRB",
+          "name": "Serbia",
+          "nameZh": "塞尔维亚",
+          "value": 41859.38,
+          "rank": 50,
+          "longitude": 20.787989,
+          "latitude": 44.189919
+        },
+        {
+          "code": "IR",
+          "rawCode": "IRN",
+          "name": "Iran",
+          "nameZh": "伊朗",
+          "value": 38451.72,
+          "rank": 51,
+          "longitude": 54.931495,
+          "latitude": 32.166225
+        },
+        {
+          "code": "CL",
+          "rawCode": "CHL",
+          "name": "Chile",
+          "nameZh": "智利",
+          "value": 35301.09,
+          "rank": 52,
+          "longitude": -72.318871,
+          "latitude": -38.151771
+        },
+        {
+          "code": "AE",
+          "rawCode": "ARE",
+          "name": "United Arab Emirates",
+          "nameZh": "阿拉伯联合酋长国",
+          "value": 31824.98,
+          "rank": 53,
+          "longitude": 54.547256,
+          "latitude": 23.466285
+        },
+        {
+          "code": "NP",
+          "rawCode": "NPL",
+          "name": "Nepal",
+          "nameZh": "尼泊尔",
+          "value": 30887.21,
+          "rank": 54,
+          "longitude": 83.639914,
+          "latitude": 28.297925
+        },
+        {
+          "code": "BY",
+          "rawCode": "BLR",
+          "name": "Belarus",
+          "nameZh": "白俄罗斯",
+          "value": 30496.6,
+          "rank": 55,
+          "longitude": 28.417701,
+          "latitude": 53.821888
+        },
+        {
+          "code": "GE",
+          "rawCode": "GEO",
+          "name": "Georgia",
+          "nameZh": "格鲁吉亚",
+          "value": 27859.87,
+          "rank": 56,
+          "longitude": 43.735724,
+          "latitude": 41.870087
+        },
+        {
+          "code": "MY",
+          "rawCode": "MYS",
+          "name": "Malaysia",
+          "nameZh": "马来西亚",
+          "value": 27771.81,
+          "rank": 57,
+          "longitude": 113.83708,
+          "latitude": 2.528667
+        },
+        {
+          "code": "EE",
+          "rawCode": "EST",
+          "name": "Estonia",
+          "nameZh": "爱沙尼亚",
+          "value": 27693.57,
+          "rank": 58,
+          "longitude": 25.867126,
+          "latitude": 58.724865
+        },
+        {
+          "code": "HR",
+          "rawCode": "HRV",
+          "name": "Croatia",
+          "nameZh": "克罗地亚",
+          "value": 27504.51,
+          "rank": 59,
+          "longitude": 16.37241,
+          "latitude": 45.805799
+        },
+        {
+          "code": "PE",
+          "rawCode": "PER",
+          "name": "Peru",
+          "nameZh": "秘鲁",
+          "value": 26092.96,
+          "rank": 60,
+          "longitude": -72.90016,
+          "latitude": -12.976679
+        },
+        {
+          "code": "SK",
+          "rawCode": "SVK",
+          "name": "Slovakia",
+          "nameZh": "斯洛伐克",
+          "value": 25571.84,
+          "rank": 61,
+          "longitude": 19.049868,
+          "latitude": 48.734044
+        },
+        {
+          "code": "LT",
+          "rawCode": "LTU",
+          "name": "Lithuania",
+          "nameZh": "立陶宛",
+          "value": 23224.69,
+          "rank": 62,
+          "longitude": 24.089932,
+          "latitude": 55.103703
+        },
+        {
+          "code": "SI",
+          "rawCode": "SVN",
+          "name": "Slovenia",
+          "nameZh": "斯洛文尼亚",
+          "value": 22509.37,
+          "rank": 63,
+          "longitude": 14.915312,
+          "latitude": 46.06076
+        },
+        {
+          "code": "GH",
+          "rawCode": "GHA",
+          "name": "Ghana",
+          "nameZh": "加纳",
+          "value": 21839.66,
+          "rank": 64,
+          "longitude": -1.036941,
+          "latitude": 7.717639
+        },
+        {
+          "code": "CR",
+          "rawCode": "CRI",
+          "name": "Costa Rica",
+          "nameZh": "哥斯达黎加",
+          "value": 18593.99,
+          "rank": 65,
+          "longitude": -84.077922,
+          "latitude": 10.0651
+        },
+        {
+          "code": "MA",
+          "rawCode": "MAR",
+          "name": "Morocco",
+          "nameZh": "摩洛哥",
+          "value": 17374.23,
+          "rank": 66,
+          "longitude": -7.187296,
+          "latitude": 31.650723
+        },
+        {
+          "code": "AM",
+          "rawCode": "ARM",
+          "name": "Armenia",
+          "nameZh": "亚美尼亚",
+          "value": 16865.73,
+          "rank": 67,
+          "longitude": 44.800564,
+          "latitude": 40.459077
+        },
+        {
+          "code": "KZ",
+          "rawCode": "KAZ",
+          "name": "Kazakhstan",
+          "nameZh": "哈萨克斯坦",
+          "value": 15831.82,
+          "rank": 68,
+          "longitude": 68.685548,
+          "latitude": 49.054149
+        },
+        {
+          "code": "UY",
+          "rawCode": "URY",
+          "name": "Uruguay",
+          "nameZh": "乌拉圭",
+          "value": 15582.42,
+          "rank": 69,
+          "longitude": -55.966942,
+          "latitude": -32.961127
+        },
+        {
+          "code": "VE",
+          "rawCode": "VEN",
+          "name": "Venezuela",
+          "nameZh": "委内瑞拉",
+          "value": 14755.5,
+          "rank": 70,
+          "longitude": -64.599381,
+          "latitude": 7.182476
+        },
+        {
+          "code": "ET",
+          "rawCode": "ETH",
+          "name": "Ethiopia",
+          "nameZh": "埃塞俄比亚",
+          "value": 14743.05,
+          "rank": 71,
+          "longitude": 39.0886,
+          "latitude": 8.032795
+        },
+        {
+          "code": "EC",
+          "rawCode": "ECU",
+          "name": "Ecuador",
+          "nameZh": "厄瓜多尔",
+          "value": 13775.26,
+          "rank": 72,
+          "longitude": -78.188375,
+          "latitude": -1.259076
+        },
+        {
+          "code": "TN",
+          "rawCode": "TUN",
+          "name": "Tunisia",
+          "nameZh": "突尼斯",
+          "value": 13697.21,
+          "rank": 73,
+          "longitude": 9.007881,
+          "latitude": 33.687263
+        },
+        {
+          "code": "UZ",
+          "rawCode": "UZB",
+          "name": "Uzbekistan",
+          "nameZh": "乌兹别克斯坦",
+          "value": 13470.06,
+          "rank": 74,
+          "longitude": 64.005429,
+          "latitude": 41.693603
+        },
+        {
+          "code": "CY",
+          "rawCode": "CYP",
+          "name": "Cyprus",
+          "nameZh": "塞浦路斯",
+          "value": 12487.9,
+          "rank": 75,
+          "longitude": 33.084182,
+          "latitude": 34.913329
+        },
+        {
+          "code": "LV",
+          "rawCode": "LVA",
+          "name": "Latvia",
+          "nameZh": "拉脱维亚",
+          "value": 12152.89,
+          "rank": 76,
+          "longitude": 25.458723,
+          "latitude": 57.066872
+        },
+        {
+          "code": "UG",
+          "rawCode": "UGA",
+          "name": "Uganda",
+          "nameZh": "乌干达",
+          "value": 11745.95,
+          "rank": 77,
+          "longitude": 32.948555,
+          "latitude": 1.972589
+        },
+        {
+          "code": "RW",
+          "rawCode": "RWA",
+          "name": "Rwanda",
+          "nameZh": "卢旺达",
+          "value": 10635.4,
+          "rank": 78,
+          "longitude": 30.103894,
+          "latitude": -1.897196
+        },
+        {
+          "code": "CM",
+          "rawCode": "CMR",
+          "name": "Cameroon",
+          "nameZh": "喀麦隆",
+          "value": 10160.77,
+          "rank": 79,
+          "longitude": 12.473488,
+          "latitude": 4.585041
+        },
+        {
+          "code": "LU",
+          "rawCode": "LUX",
+          "name": "Luxembourg",
+          "nameZh": "卢森堡",
+          "value": 9607.36,
+          "rank": 80,
+          "longitude": 6.07762,
+          "latitude": 49.733732
+        },
+        {
+          "code": "DO",
+          "rawCode": "DOM",
+          "name": "Dominican Rep.",
+          "nameZh": "多米尼加",
+          "value": 9296.32,
+          "rank": 81,
+          "longitude": -70.653998,
+          "latitude": 19.104137
+        },
+        {
+          "code": "DZ",
+          "rawCode": "DZA",
+          "name": "Algeria",
+          "nameZh": "阿尔及利亚",
+          "value": 8123.21,
+          "rank": 82,
+          "longitude": 2.808241,
+          "latitude": 27.397406
+        },
+        {
+          "code": "IS",
+          "rawCode": "ISL",
+          "name": "Iceland",
+          "nameZh": "冰岛",
+          "value": 8015.22,
+          "rank": 83,
+          "longitude": -18.673711,
+          "latitude": 64.779286
+        },
+        {
+          "code": "SA",
+          "rawCode": "SAU",
+          "name": "Saudi Arabia",
+          "nameZh": "沙特阿拉伯",
+          "value": 7874.65,
+          "rank": 84,
+          "longitude": 44.6996,
+          "latitude": 23.806908
+        },
+        {
+          "code": "KH",
+          "rawCode": "KHM",
+          "name": "Cambodia",
+          "nameZh": "柬埔寨",
+          "value": 7036.22,
+          "rank": 85,
+          "longitude": 104.50487,
+          "latitude": 12.647584
+        },
+        {
+          "code": "BO",
+          "rawCode": "BOL",
+          "name": "Bolivia",
+          "nameZh": "玻利维亚",
+          "value": 6740,
+          "rank": 86,
+          "longitude": -64.593433,
+          "latitude": -16.666015
+        },
+        {
+          "code": "BA",
+          "rawCode": "BIH",
+          "name": "Bosnia and Herz.",
+          "nameZh": "波斯尼亚和黑塞哥维那",
+          "value": 6734.82,
+          "rank": 87,
+          "longitude": 18.06841,
+          "latitude": 44.091051
+        },
+        {
+          "code": "MD",
+          "rawCode": "MDA",
+          "name": "Moldova",
+          "nameZh": "摩尔多瓦",
+          "value": 6638.92,
+          "rank": 88,
+          "longitude": 28.487904,
+          "latitude": 47.434999
+        },
+        {
+          "code": "MG",
+          "rawCode": "MDG",
+          "name": "Madagascar",
+          "nameZh": "马达加斯加",
+          "value": 6290.16,
+          "rank": 89,
+          "longitude": 46.704241,
+          "latitude": -18.628288
+        },
+        {
+          "code": "MK",
+          "rawCode": "MKD",
+          "name": "Macedonia",
+          "nameZh": "北马其顿",
+          "value": 6177.16,
+          "rank": 90,
+          "longitude": 21.555839,
+          "latitude": 41.558223
+        },
+        {
+          "code": "MT",
+          "rawCode": "MLT",
+          "name": "Malta",
+          "nameZh": "马耳他",
+          "value": 5262.3,
+          "rank": 91,
+          "longitude": 14.433005,
+          "latitude": 35.892886
+        },
+        {
+          "code": "GT",
+          "rawCode": "GTM",
+          "name": "Guatemala",
+          "nameZh": "危地马拉",
+          "value": 5214.68,
+          "rank": 92,
+          "longitude": -90.497134,
+          "latitude": 14.982133
+        },
+        {
+          "code": "MM",
+          "rawCode": "MMR",
+          "name": "Myanmar",
+          "nameZh": "缅甸",
+          "value": 5191.05,
+          "rank": 93,
+          "longitude": 95.804497,
+          "latitude": 21.573855
+        },
+        {
+          "code": "SV",
+          "rawCode": "SLV",
+          "name": "El Salvador",
+          "nameZh": "萨尔瓦多",
+          "value": 5090.29,
+          "rank": 94,
+          "longitude": -88.890124,
+          "latitude": 13.685371
+        },
+        {
+          "code": "TZ",
+          "rawCode": "TZA",
+          "name": "Tanzania",
+          "nameZh": "坦桑尼亚",
+          "value": 5012.07,
+          "rank": 95,
+          "longitude": 34.959183,
+          "latitude": -6.051866
+        },
+        {
+          "code": "LB",
+          "rawCode": "LBN",
+          "name": "Lebanon",
+          "nameZh": "黎巴嫩",
+          "value": 4944.87,
+          "rank": 96,
+          "longitude": 35.992892,
+          "latitude": 34.133368
+        },
+        {
+          "code": "AZ",
+          "rawCode": "AZE",
+          "name": "Azerbaijan",
+          "nameZh": "阿塞拜疆",
+          "value": 4937.34,
+          "rank": 97,
+          "longitude": 47.210994,
+          "latitude": 40.402387
+        },
+        {
+          "code": "JO",
+          "rawCode": "JOR",
+          "name": "Jordan",
+          "nameZh": "约旦",
+          "value": 4651.44,
+          "rank": 98,
+          "longitude": 36.375991,
+          "latitude": 30.805025
+        },
+        {
+          "code": "ME",
+          "rawCode": "MNE",
+          "name": "Montenegro",
+          "nameZh": "黑山",
+          "value": 4530.2,
+          "rank": 99,
+          "longitude": 19.143727,
+          "latitude": 42.803101
+        },
+        {
+          "code": "PY",
+          "rawCode": "PRY",
+          "name": "Paraguay",
+          "nameZh": "巴拉圭",
+          "value": 4314.2,
+          "rank": 100,
+          "longitude": -60.146394,
+          "latitude": -21.674509
+        },
+        {
+          "code": "KG",
+          "rawCode": "KGZ",
+          "name": "Kyrgyzstan",
+          "nameZh": "吉尔吉斯斯坦",
+          "value": 4247.86,
+          "rank": 101,
+          "longitude": 74.532637,
+          "latitude": 41.66854
+        },
+        {
+          "code": "CU",
+          "rawCode": "CUB",
+          "name": "Cuba",
+          "nameZh": "古巴",
+          "value": 3993.79,
+          "rank": 102,
+          "longitude": -77.975855,
+          "latitude": 21.334024
+        },
+        {
+          "code": "PR",
+          "rawCode": "PRI",
+          "name": "Puerto Rico",
+          "nameZh": "波多黎各",
+          "value": 3545.97,
+          "rank": 103,
+          "longitude": -66.481065,
+          "latitude": 18.234668
+        },
+        {
+          "code": "CD",
+          "rawCode": "COD",
+          "name": "Dem. Rep. Congo",
+          "nameZh": "刚果民主共和国",
+          "value": 3490.46,
+          "rank": 104,
+          "longitude": 23.458829,
+          "latitude": -1.858167
+        },
+        {
+          "code": "IQ",
+          "rawCode": "IRQ",
+          "name": "Iraq",
+          "nameZh": "伊拉克",
+          "value": 2902.74,
+          "rank": 105,
+          "longitude": 43.26181,
+          "latitude": 33.09403
+        },
+        {
+          "code": "NI",
+          "rawCode": "NIC",
+          "name": "Nicaragua",
+          "nameZh": "尼加拉瓜",
+          "value": 2737.44,
+          "rank": 106,
+          "longitude": -85.069347,
+          "latitude": 12.670697
+        },
+        {
+          "code": "PA",
+          "rawCode": "PAN",
+          "name": "Panama",
+          "nameZh": "巴拿马",
+          "value": 2714.39,
+          "rank": 107,
+          "longitude": -80.352106,
+          "latitude": 8.72198
+        },
+        {
+          "code": "AQ",
+          "rawCode": "ATA",
+          "name": "Antarctica",
+          "nameZh": "南极洲",
+          "value": 2704.5,
+          "rank": 108,
+          "longitude": 35.885455,
+          "latitude": -79.843222
+        },
+        {
+          "code": "MU",
+          "rawCode": "MUS",
+          "name": "Mauritius",
+          "nameZh": "毛里求斯",
+          "value": 2586.56,
+          "rank": 109,
+          "longitude": 57.565848,
+          "latitude": -20.299506
+        },
+        {
+          "code": "AO",
+          "rawCode": "AGO",
+          "name": "Angola",
+          "nameZh": "安哥拉",
+          "value": 2473.72,
+          "rank": 110,
+          "longitude": 17.984249,
+          "latitude": -12.182762
+        },
+        {
+          "code": "SN",
+          "rawCode": "SEN",
+          "name": "Senegal",
+          "nameZh": "塞内加尔",
+          "value": 2428.72,
+          "rank": 111,
+          "longitude": -14.778586,
+          "latitude": 15.138125
+        },
+        {
+          "code": "YE",
+          "rawCode": "YEM",
+          "name": "Yemen",
+          "nameZh": "也门",
+          "value": 2220.87,
+          "rank": 112,
+          "longitude": 45.874383,
+          "latitude": 15.328226
+        },
+        {
+          "code": "ZW",
+          "rawCode": "ZWE",
+          "name": "Zimbabwe",
+          "nameZh": "津巴布韦",
+          "value": 2192,
+          "rank": 113,
+          "longitude": 29.925444,
+          "latitude": -18.91164
+        },
+        {
+          "code": "AF",
+          "rawCode": "AFG",
+          "name": "Afghanistan",
+          "nameZh": "阿富汗",
+          "value": 2160.51,
+          "rank": 114,
+          "longitude": 66.496586,
+          "latitude": 34.164262
+        },
+        {
+          "code": "MN",
+          "rawCode": "MNG",
+          "name": "Mongolia",
+          "nameZh": "蒙古国",
+          "value": 2069.34,
+          "rank": 115,
+          "longitude": 104.150405,
+          "latitude": 45.997488
+        },
+        {
+          "code": "HN",
+          "rawCode": "HND",
+          "name": "Honduras",
+          "nameZh": "洪都拉斯",
+          "value": 2009.53,
+          "rank": 116,
+          "longitude": -86.887604,
+          "latitude": 14.794801
+        },
+        {
+          "code": "MW",
+          "rawCode": "MWI",
+          "name": "Malawi",
+          "nameZh": "马拉维",
+          "value": 1891.27,
+          "rank": 117,
+          "longitude": 33.608082,
+          "latitude": -13.386737
+        },
+        {
+          "code": "ZM",
+          "rawCode": "ZMB",
+          "name": "Zambia",
+          "nameZh": "赞比亚",
+          "value": 1861.04,
+          "rank": 118,
+          "longitude": 26.395298,
+          "latitude": -14.660804
+        },
+        {
+          "code": "PS",
+          "rawCode": "PSE",
+          "name": "Palestine",
+          "nameZh": "巴勒斯坦",
+          "value": 1836.01,
+          "rank": 119,
+          "longitude": 35.291341,
+          "latitude": 32.047431
+        },
+        {
+          "code": "CC",
+          "rawCode": null,
+          "name": "Cocos (Keeling) Islands",
+          "nameZh": "科科斯（基林）群岛",
+          "value": 1817.6,
+          "rank": 120,
+          "longitude": null,
+          "latitude": null
+        },
+        {
+          "code": "BJ",
+          "rawCode": "BEN",
+          "name": "Benin",
+          "nameZh": "贝宁",
+          "value": 1804.03,
+          "rank": 121,
+          "longitude": 2.352018,
+          "latitude": 10.324775
+        },
+        {
+          "code": "JM",
+          "rawCode": "JAM",
+          "name": "Jamaica",
+          "nameZh": "牙买加",
+          "value": 1787.42,
+          "rank": 122,
+          "longitude": -77.318767,
+          "latitude": 18.137124
+        },
+        {
+          "code": "MZ",
+          "rawCode": "MOZ",
+          "name": "Mozambique",
+          "nameZh": "莫桑比克",
+          "value": 1764.45,
+          "rank": 123,
+          "longitude": 37.83789,
+          "latitude": -13.94323
+        },
+        {
+          "code": "RE",
+          "rawCode": null,
+          "name": "Réunion",
+          "nameZh": "留尼汪",
+          "value": 1705,
+          "rank": 124,
+          "longitude": null,
+          "latitude": null
+        },
+        {
+          "code": "SY",
+          "rawCode": "SYR",
+          "name": "Syria",
+          "nameZh": "叙利亚",
+          "value": 1700.91,
+          "rank": 125,
+          "longitude": 38.277783,
+          "latitude": 35.006636
+        },
+        {
+          "code": "AL",
+          "rawCode": "ALB",
+          "name": "Albania",
+          "nameZh": "阿尔巴尼亚",
+          "value": 1607.57,
+          "rank": 126,
+          "longitude": 20.11384,
+          "latitude": 40.654855
+        },
+        {
+          "code": "TG",
+          "rawCode": "TGO",
+          "name": "Togo",
+          "nameZh": "多哥",
+          "value": 1604.61,
+          "rank": 127,
+          "longitude": 1.058113,
+          "latitude": 8.80722
+        },
+        {
+          "code": "QA",
+          "rawCode": "QAT",
+          "name": "Qatar",
+          "nameZh": "卡塔尔",
+          "value": 1284.95,
+          "rank": 128,
+          "longitude": 51.143509,
+          "latitude": 25.237383
+        },
+        {
+          "code": "CI",
+          "rawCode": "CIV",
+          "name": "Côte d'Ivoire",
+          "nameZh": "科特迪瓦",
+          "value": 1275.4,
+          "rank": 129,
+          "longitude": -5.568618,
+          "latitude": 7.49139
+        },
+        {
+          "code": "OM",
+          "rawCode": "OMN",
+          "name": "Oman",
+          "nameZh": "阿曼",
+          "value": 1253.14,
+          "rank": 130,
+          "longitude": 57.336553,
+          "latitude": 22.120427
+        },
+        {
+          "code": "PF",
+          "rawCode": "PYF",
+          "name": "Fr. Polynesia",
+          "nameZh": "法属波利尼西亚",
+          "value": 1250.12,
+          "rank": 131,
+          "longitude": -149.46157,
+          "latitude": -17.628081
+        },
+        {
+          "code": "KW",
+          "rawCode": "KWT",
+          "name": "Kuwait",
+          "nameZh": "科威特",
+          "value": 1194.14,
+          "rank": 132,
+          "longitude": 47.313999,
+          "latitude": 29.413628
+        },
+        {
+          "code": "BH",
+          "rawCode": "BHR",
+          "name": "Bahrain",
+          "nameZh": "巴林",
+          "value": 1145.4,
+          "rank": 133,
+          "longitude": 50.554816,
+          "latitude": 26.055972
+        },
+        {
+          "code": "TT",
+          "rawCode": "TTO",
+          "name": "Trinidad and Tobago",
+          "nameZh": "特立尼达和多巴哥",
+          "value": 1101.33,
+          "rank": 134,
+          "longitude": -60.9184,
+          "latitude": 10.9989
+        },
+        {
+          "code": "TJ",
+          "rawCode": "TJK",
+          "name": "Tajikistan",
+          "nameZh": "塔吉克斯坦",
+          "value": 1022.45,
+          "rank": 135,
+          "longitude": 72.587276,
+          "latitude": 38.199835
+        },
+        {
+          "code": "AD",
+          "rawCode": "AND",
+          "name": "Andorra",
+          "nameZh": "安道尔",
+          "value": 965.37,
+          "rank": 136,
+          "longitude": 1.539409,
+          "latitude": 42.547643
+        },
+        {
+          "code": "BF",
+          "rawCode": "BFA",
+          "name": "Burkina Faso",
+          "nameZh": "布基纳法索",
+          "value": 944.81,
+          "rank": 137,
+          "longitude": -1.36388,
+          "latitude": 12.673048
+        },
+        {
+          "code": "MV",
+          "rawCode": "MDV",
+          "name": "Maldives",
+          "nameZh": "马尔代夫",
+          "value": 849.96,
+          "rank": 138,
+          "longitude": 73.507554,
+          "latitude": 4.174441
+        },
+        {
+          "code": "SD",
+          "rawCode": "SDN",
+          "name": "Sudan",
+          "nameZh": "苏丹",
+          "value": 847.54,
+          "rank": 139,
+          "longitude": 29.260657,
+          "latitude": 16.330746
+        },
+        {
+          "code": "SO",
+          "rawCode": "SOM",
+          "name": "Somalia",
+          "nameZh": "索马里",
+          "value": 771.44,
+          "rank": 140,
+          "longitude": 45.19238,
+          "latitude": 3.568925
+        },
+        {
+          "code": "NC",
+          "rawCode": "NCL",
+          "name": "New Caledonia",
+          "nameZh": "新喀里多尼亚",
+          "value": 702.63,
+          "rank": 141,
+          "longitude": 165.084004,
+          "latitude": -21.064697
+        },
+        {
+          "code": "BW",
+          "rawCode": "BWA",
+          "name": "Botswana",
+          "nameZh": "博茨瓦纳",
+          "value": 609.28,
+          "rank": 142,
+          "longitude": 24.179216,
+          "latitude": -22.102634
+        },
+        {
+          "code": "JE",
+          "rawCode": "JEY",
+          "name": "Jersey",
+          "nameZh": "泽西",
+          "value": 598.86,
+          "rank": 143,
+          "longitude": -2.090146,
+          "latitude": 49.220808
+        },
+        {
+          "code": "KY",
+          "rawCode": "CYM",
+          "name": "Cayman Is.",
+          "nameZh": "开曼群岛",
+          "value": 584.37,
+          "rank": 144,
+          "longitude": -81.24055,
+          "latitude": 19.319862
+        },
+        {
+          "code": "ML",
+          "rawCode": "MLI",
+          "name": "Mali",
+          "nameZh": "马里",
+          "value": 583.92,
+          "rank": 145,
+          "longitude": -2.038455,
+          "latitude": 18.692713
+        },
+        {
+          "code": "TM",
+          "rawCode": "TKM",
+          "name": "Turkmenistan",
+          "nameZh": "土库曼斯坦",
+          "value": 575.4,
+          "rank": 146,
+          "longitude": 58.676647,
+          "latitude": 39.855246
+        },
+        {
+          "code": "CV",
+          "rawCode": "CPV",
+          "name": "Cabo Verde",
+          "nameZh": "佛得角",
+          "value": 572.4,
+          "rank": 147,
+          "longitude": -23.639434,
+          "latitude": 15.074761
+        },
+        {
+          "code": "LY",
+          "rawCode": "LBY",
+          "name": "Libya",
+          "nameZh": "利比亚",
+          "value": 570.83,
+          "rank": 148,
+          "longitude": 18.011015,
+          "latitude": 26.638944
+        },
+        {
+          "code": "NA",
+          "rawCode": "NAM",
+          "name": "Namibia",
+          "nameZh": "纳米比亚",
+          "value": 514.5,
+          "rank": 149,
+          "longitude": 17.108166,
+          "latitude": -20.575298
+        },
+        {
+          "code": "KP",
+          "rawCode": "PRK",
+          "name": "Dem. Rep. Korea",
+          "nameZh": "朝鲜",
+          "value": 512.37,
+          "rank": 150,
+          "longitude": 126.444516,
+          "latitude": 39.885252
+        },
+        {
+          "code": "BM",
+          "rawCode": "BMU",
+          "name": "Bermuda",
+          "nameZh": "百慕大",
+          "value": 494.68,
+          "rank": 151,
+          "longitude": -64.763573,
+          "latitude": 32.296592
+        },
+        {
+          "code": "FO",
+          "rawCode": "FRO",
+          "name": "Faeroe Is.",
+          "nameZh": "法罗群岛",
+          "value": 466.17,
+          "rank": 152,
+          "longitude": -7.058429,
+          "latitude": 62.185604
+        },
+        {
+          "code": "LA",
+          "rawCode": "LAO",
+          "name": "Lao PDR",
+          "nameZh": "老挝",
+          "value": 462.54,
+          "rank": 153,
+          "longitude": 102.533912,
+          "latitude": 19.431821
+        },
+        {
+          "code": "GG",
+          "rawCode": "GGY",
+          "name": "Guernsey",
+          "nameZh": "根西",
+          "value": 434.75,
+          "rank": 154,
+          "longitude": -2.561736,
+          "latitude": 49.463533
+        },
+        {
+          "code": "GI",
+          "rawCode": null,
+          "name": "Gibraltar",
+          "nameZh": "直布罗陀",
+          "value": 429.07,
+          "rank": 155,
+          "longitude": null,
+          "latitude": null
+        },
+        {
+          "code": "BS",
+          "rawCode": "BHS",
+          "name": "Bahamas",
+          "nameZh": "巴哈马",
+          "value": 427.3,
+          "rank": 156,
+          "longitude": -77.146688,
+          "latitude": 26.401789
+        },
+        {
+          "code": "MC",
+          "rawCode": "MCO",
+          "name": "Monaco",
+          "nameZh": "摩纳哥",
+          "value": 420.88,
+          "rank": 157,
+          "longitude": 7.398291,
+          "latitude": 43.739652
+        },
+        {
+          "code": "BT",
+          "rawCode": "BTN",
+          "name": "Bhutan",
+          "nameZh": "不丹",
+          "value": 420.1,
+          "rank": 158,
+          "longitude": 90.040294,
+          "latitude": 27.536685
+        },
+        {
+          "code": "IM",
+          "rawCode": "IMN",
+          "name": "Isle of Man",
+          "nameZh": "马恩岛",
+          "value": 414.13,
+          "rank": 159,
+          "longitude": -4.530069,
+          "latitude": 54.220833
+        },
+        {
+          "code": "CW",
+          "rawCode": "CUW",
+          "name": "Curaçao",
+          "nameZh": "库拉索",
+          "value": 403.25,
+          "rank": 160,
+          "longitude": -68.920578,
+          "latitude": 12.145039
+        },
+        {
+          "code": "LI",
+          "rawCode": "LIE",
+          "name": "Liechtenstein",
+          "nameZh": "列支敦士登",
+          "value": 403.15,
+          "rank": 161,
+          "longitude": 9.559439,
+          "latitude": 47.111405
+        },
+        {
+          "code": "BI",
+          "rawCode": "BDI",
+          "name": "Burundi",
+          "nameZh": "布隆迪",
+          "value": 396.14,
+          "rank": 162,
+          "longitude": 29.917086,
+          "latitude": -3.332836
+        },
+        {
+          "code": "FJ",
+          "rawCode": "FJI",
+          "name": "Fiji",
+          "nameZh": "斐济",
+          "value": 392.1,
+          "rank": 163,
+          "longitude": 177.975427,
+          "latitude": -17.826099
+        },
+        {
+          "code": "SR",
+          "rawCode": "SUR",
+          "name": "Suriname",
+          "nameZh": "苏里南",
+          "value": 388.39,
+          "rank": 164,
+          "longitude": -55.91094,
+          "latitude": 4.143987
+        },
+        {
+          "code": "SL",
+          "rawCode": "SLE",
+          "name": "Sierra Leone",
+          "nameZh": "塞拉利昂",
+          "value": 387.55,
+          "rank": 165,
+          "longitude": -11.763677,
+          "latitude": 8.617449
+        },
+        {
+          "code": "HT",
+          "rawCode": "HTI",
+          "name": "Haiti",
+          "nameZh": "海地",
+          "value": 336.38,
+          "rank": 166,
+          "longitude": -72.224051,
+          "latitude": 19.263784
+        },
+        {
+          "code": "CG",
+          "rawCode": "COG",
+          "name": "Congo",
+          "nameZh": "刚果共和国",
+          "value": 328.85,
+          "rank": 167,
+          "longitude": 15.9005,
+          "latitude": 0.142331
+        },
+        {
+          "code": "SJ",
+          "rawCode": null,
+          "name": "Svalbard and Jan Mayen",
+          "nameZh": "斯瓦尔巴和扬马延",
+          "value": 312.19,
+          "rank": 168,
+          "longitude": null,
+          "latitude": null
+        },
+        {
+          "code": "NE",
+          "rawCode": "NER",
+          "name": "Niger",
+          "nameZh": "尼日尔",
+          "value": 310.96,
+          "rank": 169,
+          "longitude": 9.504356,
+          "latitude": 17.446195
+        },
+        {
+          "code": "GL",
+          "rawCode": "GRL",
+          "name": "Greenland",
+          "nameZh": "格陵兰",
+          "value": 309.5,
+          "rank": 170,
+          "longitude": -39.335251,
+          "latitude": 74.319387
+        },
+        {
+          "code": "CX",
+          "rawCode": null,
+          "name": "Christmas Island",
+          "nameZh": "圣诞岛",
+          "value": 292.43,
+          "rank": 171,
+          "longitude": null,
+          "latitude": null
+        },
+        {
+          "code": "MQ",
+          "rawCode": null,
+          "name": "Martinique",
+          "nameZh": "马提尼克",
+          "value": 291.29,
+          "rank": 172,
+          "longitude": null,
+          "latitude": null
+        },
+        {
+          "code": "SC",
+          "rawCode": "SYC",
+          "name": "Seychelles",
+          "nameZh": "塞舌尔",
+          "value": 289.14,
+          "rank": 173,
+          "longitude": 55.480175,
+          "latitude": -4.676659
+        },
+        {
+          "code": "SZ",
+          "rawCode": "SWZ",
+          "name": "eSwatini",
+          "nameZh": "斯威士兰",
+          "value": 287.6,
+          "rank": 174,
+          "longitude": 31.467264,
+          "latitude": -26.533676
+        },
+        {
+          "code": "MR",
+          "rawCode": "MRT",
+          "name": "Mauritania",
+          "nameZh": "毛里塔尼亚",
+          "value": 228.3,
+          "rank": 175,
+          "longitude": -9.740299,
+          "latitude": 19.587062
+        },
+        {
+          "code": "GM",
+          "rawCode": "GMB",
+          "name": "Gambia",
+          "nameZh": "冈比亚",
+          "value": 222.61,
+          "rank": 176,
+          "longitude": -14.998318,
+          "latitude": 13.641721
+        },
+        {
+          "code": "TL",
+          "rawCode": "TLS",
+          "name": "Timor-Leste",
+          "nameZh": "东帝汶",
+          "value": 205.98,
+          "rank": 177,
+          "longitude": 125.854679,
+          "latitude": -8.803705
+        },
+        {
+          "code": "BZ",
+          "rawCode": "BLZ",
+          "name": "Belize",
+          "nameZh": "伯利兹",
+          "value": 192.91,
+          "rank": 178,
+          "longitude": -88.712962,
+          "latitude": 17.202068
+        },
+        {
+          "code": "SM",
+          "rawCode": "SMR",
+          "name": "San Marino",
+          "nameZh": "圣马力诺",
+          "value": 186.72,
+          "rank": 179,
+          "longitude": 12.441206,
+          "latitude": 43.933916
+        },
+        {
+          "code": "BB",
+          "rawCode": "BRB",
+          "name": "Barbados",
+          "nameZh": "巴巴多斯",
+          "value": 178.66,
+          "rank": 180,
+          "longitude": -59.568966,
+          "latitude": 13.163709
+        },
+        {
+          "code": "LS",
+          "rawCode": "LSO",
+          "name": "Lesotho",
+          "nameZh": "莱索托",
+          "value": 162.98,
+          "rank": 181,
+          "longitude": 28.246639,
+          "latitude": -29.480158
+        },
+        {
+          "code": "BN",
+          "rawCode": "BRN",
+          "name": "Brunei",
+          "nameZh": "文莱",
+          "value": 157.17,
+          "rank": 182,
+          "longitude": 114.551943,
+          "latitude": 4.448298
+        },
+        {
+          "code": "SH",
+          "rawCode": "SHN",
+          "name": "Saint Helena",
+          "nameZh": "圣赫勒拿",
+          "value": 155.94,
+          "rank": 183,
+          "longitude": -5.71262,
+          "latitude": -15.950487
+        },
+        {
+          "code": "GY",
+          "rawCode": "GUY",
+          "name": "Guyana",
+          "nameZh": "圭亚那",
+          "value": 151.63,
+          "rank": 184,
+          "longitude": -58.942643,
+          "latitude": 5.124317
+        },
+        {
+          "code": "GN",
+          "rawCode": "GIN",
+          "name": "Guinea",
+          "nameZh": "几内亚",
+          "value": 147.01,
+          "rank": 185,
+          "longitude": -10.016402,
+          "latitude": 10.618516
+        },
+        {
+          "code": "LR",
+          "rawCode": "LBR",
+          "name": "Liberia",
+          "nameZh": "利比里亚",
+          "value": 144.42,
+          "rank": 186,
+          "longitude": -9.460379,
+          "latitude": 6.447177
+        },
+        {
+          "code": "WS",
+          "rawCode": "WSM",
+          "name": "Samoa",
+          "nameZh": "萨摩亚",
+          "value": 136.48,
+          "rank": 187,
+          "longitude": -172.438241,
+          "latitude": -13.639139
+        },
+        {
+          "code": "AX",
+          "rawCode": "ALA",
+          "name": "Åland",
+          "nameZh": "奥兰",
+          "value": 135.71,
+          "rank": 188,
+          "longitude": 19.869671,
+          "latitude": 60.156467
+        },
+        {
+          "code": "PG",
+          "rawCode": "PNG",
+          "name": "Papua New Guinea",
+          "nameZh": "巴布亚新几内亚",
+          "value": 118.66,
+          "rank": 189,
+          "longitude": 143.910216,
+          "latitude": -5.695285
+        },
+        {
+          "code": "TV",
+          "rawCode": "TUV",
+          "name": "Tuvalu",
+          "nameZh": "图瓦卢",
+          "value": 112.56,
+          "rank": 190,
+          "longitude": 179.209587,
+          "latitude": -8.513717
+        },
+        {
+          "code": "SS",
+          "rawCode": "SSD",
+          "name": "S. Sudan",
+          "nameZh": "南苏丹",
+          "value": 103.9,
+          "rank": 191,
+          "longitude": 30.390151,
+          "latitude": 7.230477
+        },
+        {
+          "code": "GA",
+          "rawCode": "GAB",
+          "name": "Gabon",
+          "nameZh": "加蓬",
+          "value": 98.13,
+          "rank": 192,
+          "longitude": 11.835939,
+          "latitude": -0.437739
+        },
+        {
+          "code": "NU",
+          "rawCode": "NIU",
+          "name": "Niue",
+          "nameZh": "纽埃",
+          "value": 93.13,
+          "rank": 193,
+          "longitude": -169.862565,
+          "latitude": -19.045956
+        },
+        {
+          "code": "GP",
+          "rawCode": null,
+          "name": "Guadeloupe",
+          "nameZh": "瓜德罗普",
+          "value": 85.79,
+          "rank": 194,
+          "longitude": null,
+          "latitude": null
+        },
+        {
+          "code": "BV",
+          "rawCode": null,
+          "name": "Bouvet Island",
+          "nameZh": "布韦岛",
+          "value": 82.88,
+          "rank": 195,
+          "longitude": null,
+          "latitude": null
+        },
+        {
+          "code": "SB",
+          "rawCode": "SLB",
+          "name": "Solomon Is.",
+          "nameZh": "所罗门群岛",
+          "value": 82.22,
+          "rank": 196,
+          "longitude": 159.170468,
+          "latitude": -8.029548
+        },
+        {
+          "code": "DJ",
+          "rawCode": "DJI",
+          "name": "Djibouti",
+          "nameZh": "吉布提",
+          "value": 79.73,
+          "rank": 197,
+          "longitude": 42.498825,
+          "latitude": 11.976343
+        },
+        {
+          "code": "LC",
+          "rawCode": "LCA",
+          "name": "Saint Lucia",
+          "nameZh": "圣卢西亚",
+          "value": 79.59,
+          "rank": 198,
+          "longitude": -60.980094,
+          "latitude": 13.892371
+        },
+        {
+          "code": "TO",
+          "rawCode": "TON",
+          "name": "Tonga",
+          "nameZh": "汤加",
+          "value": 77.9,
+          "rank": 199,
+          "longitude": -175.163014,
+          "latitude": -21.210026
+        },
+        {
+          "code": "VC",
+          "rawCode": "VCT",
+          "name": "St. Vin. and Gren.",
+          "nameZh": "圣文森特和格林纳丁斯",
+          "value": 76.4,
+          "rank": 200,
+          "longitude": -61.3359,
+          "latitude": 13.0879
+        },
+        {
+          "code": "TD",
+          "rawCode": "TCD",
+          "name": "Chad",
+          "nameZh": "乍得",
+          "value": 76.02,
+          "rank": 201,
+          "longitude": 18.645041,
+          "latitude": 15.142959
+        },
+        {
+          "code": "SX",
+          "rawCode": "SXM",
+          "name": "Sint Maarten",
+          "nameZh": "荷属圣马丁",
+          "value": 65.72,
+          "rank": 202,
+          "longitude": -63.070133,
+          "latitude": 18.04088
+        },
+        {
+          "code": "VA",
+          "rawCode": "VAT",
+          "name": "Vatican",
+          "nameZh": "梵蒂冈",
+          "value": 48.83,
+          "rank": 203,
+          "longitude": 12.453418,
+          "latitude": 41.903323
+        },
+        {
+          "code": "VU",
+          "rawCode": "VUT",
+          "name": "Vanuatu",
+          "nameZh": "瓦努阿图",
+          "value": 44.97,
+          "rank": 204,
+          "longitude": 166.908762,
+          "latitude": -15.37153
+        },
+        {
+          "code": "PM",
+          "rawCode": "SPM",
+          "name": "St. Pierre and Miquelon",
+          "nameZh": "圣皮埃尔和密克隆",
+          "value": 41.31,
+          "rank": 205,
+          "longitude": -56.332352,
+          "latitude": 47.040344
+        },
+        {
+          "code": "GU",
+          "rawCode": "GUM",
+          "name": "Guam",
+          "nameZh": "关岛",
+          "value": 38.8,
+          "rank": 206,
+          "longitude": 144.703614,
+          "latitude": 13.354173
+        },
+        {
+          "code": "IO",
+          "rawCode": "IOT",
+          "name": "Br. Indian Ocean Ter.",
+          "nameZh": "英属印度洋领地",
+          "value": 36.47,
+          "rank": 207,
+          "longitude": 71.348349,
+          "latitude": -6.190826
+        },
+        {
+          "code": "PW",
+          "rawCode": "PLW",
+          "name": "Palau",
+          "nameZh": "帕劳",
+          "value": 35.94,
+          "rank": 208,
+          "longitude": 134.580157,
+          "latitude": 7.518252
+        },
+        {
+          "code": "GD",
+          "rawCode": "GRD",
+          "name": "Grenada",
+          "nameZh": "格林纳达",
+          "value": 33.15,
+          "rank": 209,
+          "longitude": -61.680461,
+          "latitude": 12.113156
+        },
+        {
+          "code": "FK",
+          "rawCode": "FLK",
+          "name": "Falkland Is.",
+          "nameZh": "福克兰群岛",
+          "value": 31.67,
+          "rank": 210,
+          "longitude": -58.738602,
+          "latitude": -51.608913
+        },
+        {
+          "code": "GQ",
+          "rawCode": "GNQ",
+          "name": "Eq. Guinea",
+          "nameZh": "赤道几内亚",
+          "value": 25.82,
+          "rank": 211,
+          "longitude": 8.9902,
+          "latitude": 2.333
+        },
+        {
+          "code": "VG",
+          "rawCode": "VGB",
+          "name": "British Virgin Is.",
+          "nameZh": "英属维尔京群岛",
+          "value": 25.45,
+          "rank": 212,
+          "longitude": -64.63661,
+          "latitude": 18.426606
+        },
+        {
+          "code": "KN",
+          "rawCode": "KNA",
+          "name": "St. Kitts and Nevis",
+          "nameZh": "圣基茨和尼维斯",
+          "value": 25.25,
+          "rank": 213,
+          "longitude": -62.757975,
+          "latitude": 17.336558
+        },
+        {
+          "code": "CF",
+          "rawCode": "CAF",
+          "name": "Central African Rep.",
+          "nameZh": "中非共和国",
+          "value": 25.02,
+          "rank": 214,
+          "longitude": 20.906897,
+          "latitude": 6.989681
+        },
+        {
+          "code": "TF",
+          "rawCode": "ATF",
+          "name": "Fr. S. Antarctic Lands",
+          "nameZh": "法属南部和南极领地",
+          "value": 24.63,
+          "rank": 215,
+          "longitude": 69.122136,
+          "latitude": -49.303721
+        },
+        {
+          "code": "ER",
+          "rawCode": "ERI",
+          "name": "Eritrea",
+          "nameZh": "厄立特里亚",
+          "value": 24.42,
+          "rank": 216,
+          "longitude": 38.285566,
+          "latitude": 15.787401
+        },
+        {
+          "code": "AW",
+          "rawCode": "ABW",
+          "name": "Aruba",
+          "nameZh": "阿鲁巴",
+          "value": 22.41,
+          "rank": 217,
+          "longitude": -69.972795,
+          "latitude": 12.5174
+        },
+        {
+          "code": "KM",
+          "rawCode": "COM",
+          "name": "Comoros",
+          "nameZh": "科摩罗",
+          "value": 20.78,
+          "rank": 218,
+          "longitude": 43.318094,
+          "latitude": -11.727683
+        },
+        {
+          "code": "GF",
+          "rawCode": null,
+          "name": "French Guiana",
+          "nameZh": "法属圭亚那",
+          "value": 17.56,
+          "rank": 219,
+          "longitude": null,
+          "latitude": null
+        },
+        {
+          "code": "AG",
+          "rawCode": "ATG",
+          "name": "Antigua and Barb.",
+          "nameZh": "安提瓜和巴布达",
+          "value": 16.55,
+          "rank": 220,
+          "longitude": -61.790612,
+          "latitude": 17.352249
+        },
+        {
+          "code": "GS",
+          "rawCode": "SGS",
+          "name": "S. Geo. and the Is.",
+          "nameZh": "南乔治亚和南桑威奇群岛",
+          "value": 14.33,
+          "rank": 221,
+          "longitude": -31.063179,
+          "latitude": -55.683402
+        },
+        {
+          "code": "FM",
+          "rawCode": "FSM",
+          "name": "Micronesia",
+          "nameZh": "密克罗尼西亚联邦",
+          "value": 12.2,
+          "rank": 222,
+          "longitude": 158.234019,
+          "latitude": 6.887553
+        },
+        {
+          "code": "YT",
+          "rawCode": null,
+          "name": "Mayotte",
+          "nameZh": "马约特",
+          "value": 11.08,
+          "rank": 223,
+          "longitude": null,
+          "latitude": null
+        },
+        {
+          "code": "NR",
+          "rawCode": "NRU",
+          "name": "Nauru",
+          "nameZh": "瑙鲁",
+          "value": 9.9,
+          "rank": 224,
+          "longitude": 166.932644,
+          "latitude": -0.520261
+        },
+        {
+          "code": "ST",
+          "rawCode": "STP",
+          "name": "São Tomé and Principe",
+          "nameZh": "圣多美和普林西比",
+          "value": 9.8,
+          "rank": 225,
+          "longitude": 7.021,
+          "latitude": 0.9709
+        },
+        {
+          "code": "TC",
+          "rawCode": "TCA",
+          "name": "Turks and Caicos Is.",
+          "nameZh": "特克斯和凯科斯群岛",
+          "value": 9.23,
+          "rank": 226,
+          "longitude": -71.752704,
+          "latitude": 21.81663
+        },
+        {
+          "code": "DM",
+          "rawCode": "DMA",
+          "name": "Dominica",
+          "nameZh": "多米尼克",
+          "value": 8.33,
+          "rank": 227,
+          "longitude": -61.344958,
+          "latitude": 15.458829
+        },
+        {
+          "code": "WF",
+          "rawCode": "WLF",
+          "name": "Wallis and Futuna Is.",
+          "nameZh": "瓦利斯和富图纳",
+          "value": 8.23,
+          "rank": 228,
+          "longitude": -178.137436,
+          "latitude": -14.286415
+        },
+        {
+          "code": "AS",
+          "rawCode": "ASM",
+          "name": "American Samoa",
+          "nameZh": "美属萨摩亚",
+          "value": 7.64,
+          "rank": 229,
+          "longitude": -170.747153,
+          "latitude": -14.32671
+        },
+        {
+          "code": "AI",
+          "rawCode": "AIA",
+          "name": "Anguilla",
+          "nameZh": "安圭拉",
+          "value": 7.01,
+          "rank": 230,
+          "longitude": -63.026361,
+          "latitude": 18.242979
+        },
+        {
+          "code": "MH",
+          "rawCode": "MHL",
+          "name": "Marshall Is.",
+          "nameZh": "马绍尔群岛",
+          "value": 6.33,
+          "rank": 231,
+          "longitude": 171.193609,
+          "latitude": 7.082568
+        },
+        {
+          "code": "GW",
+          "rawCode": "GNB",
+          "name": "Guinea-Bissau",
+          "nameZh": "几内亚比绍",
+          "value": 4.39,
+          "rank": 232,
+          "longitude": -14.52413,
+          "latitude": 12.163712
+        },
+        {
+          "code": "MP",
+          "rawCode": "MNP",
+          "name": "N. Mariana Is.",
+          "nameZh": "北马里亚纳群岛",
+          "value": 4.32,
+          "rank": 233,
+          "longitude": 145.734397,
+          "latitude": 15.188188
+        },
+        {
+          "code": "CK",
+          "rawCode": "COK",
+          "name": "Cook Is.",
+          "nameZh": "库克群岛",
+          "value": 1.86,
+          "rank": 234,
+          "longitude": -159.785675,
+          "latitude": -21.215993
+        },
+        {
+          "code": "MS",
+          "rawCode": "MSR",
+          "name": "Montserrat",
+          "nameZh": "蒙特塞拉特",
+          "value": 1.42,
+          "rank": 235,
+          "longitude": -62.188252,
+          "latitude": 16.73717
+        },
+        {
+          "code": "KI",
+          "rawCode": "KIR",
+          "name": "Kiribati",
+          "nameZh": "基里巴斯",
+          "value": 1.04,
+          "rank": 236,
+          "longitude": -157.384577,
+          "latitude": 1.820437
+        }
+      ]
+    },
+    "influence": {
+      "source": {
+        "url": "https://selfoss.open-digger.cn/openshare/overview/influence.json",
+        "retrievedAt": "2026-10-25T05:36:01.427201Z",
+        "sha256": "523b4bbfb9b598e5d8154003cecb1a56fce890fff3df42ed63f2761f826882b6",
+        "httpStatus": 200
+      },
+      "title": "Open Source Project OpenRank Influence by Country",
+      "observedPeriod": null,
+      "unknownRegionTotal": null,
+      "rows": [
+        {
+          "code": "US",
+          "rawCode": "USA",
+          "name": "United States",
+          "nameZh": "美国",
+          "value": 1881618.37,
+          "rank": 1,
+          "longitude": -97.482602,
+          "latitude": 39.538479
+        },
+        {
+          "code": "CN",
+          "rawCode": "CHN",
+          "name": "China",
+          "nameZh": "中国",
+          "value": 550811.53,
+          "rank": 2,
+          "longitude": 106.337289,
+          "latitude": 32.498178
+        },
+        {
+          "code": "NL",
+          "rawCode": "NLD",
+          "name": "Netherlands",
+          "nameZh": "荷兰",
+          "value": 72819.71,
+          "rank": 3,
+          "longitude": 5.61144,
+          "latitude": 52.422211
+        },
+        {
+          "code": "DE",
+          "rawCode": "DEU",
+          "name": "Germany",
+          "nameZh": "德国",
+          "value": 39203.13,
+          "rank": 4,
+          "longitude": 9.678348,
+          "latitude": 50.961733
+        },
+        {
+          "code": "GB",
+          "rawCode": "GBR",
+          "name": "United Kingdom",
+          "nameZh": "英国",
+          "value": 28417.95,
+          "rank": 5,
+          "longitude": -2.116346,
+          "latitude": 54.402739
+        },
+        {
+          "code": "CZ",
+          "rawCode": "CZE",
+          "name": "Czech Rep.",
+          "nameZh": "捷克",
+          "value": 20640.51,
+          "rank": 6,
+          "longitude": 15.377555,
+          "latitude": 49.882364
+        },
+        {
+          "code": "CA",
+          "rawCode": "CAN",
+          "name": "Canada",
+          "nameZh": "加拿大",
+          "value": 19509.71,
+          "rank": 7,
+          "longitude": -101.9107,
+          "latitude": 60.324287
+        },
+        {
+          "code": "BE",
+          "rawCode": "BEL",
+          "name": "Belgium",
+          "nameZh": "比利时",
+          "value": 17363.69,
+          "rank": 8,
+          "longitude": 4.800448,
+          "latitude": 50.785392
+        },
+        {
+          "code": "RU",
+          "rawCode": "RUS",
+          "name": "Russia",
+          "nameZh": "俄罗斯",
+          "value": 14712.7,
+          "rank": 9,
+          "longitude": 44.686469,
+          "latitude": 58.249357
+        },
+        {
+          "code": "FR",
+          "rawCode": "FRA",
+          "name": "France",
+          "nameZh": "法国",
+          "value": 12807.71,
+          "rank": 10,
+          "longitude": 2.552275,
+          "latitude": 46.696113
+        },
+        {
+          "code": "JP",
+          "rawCode": "JPN",
+          "name": "Japan",
+          "nameZh": "日本",
+          "value": 11202.2,
+          "rank": 11,
+          "longitude": 138.44217,
+          "latitude": 36.142538
+        },
+        {
+          "code": "IL",
+          "rawCode": "ISR",
+          "name": "Israel",
+          "nameZh": "以色列",
+          "value": 7708.27,
+          "rank": 12,
+          "longitude": 34.847915,
+          "latitude": 30.911148
+        },
+        {
+          "code": "NO",
+          "rawCode": "NOR",
+          "name": "Norway",
+          "nameZh": "挪威",
+          "value": 7568.37,
+          "rank": 13,
+          "longitude": 9.679975,
+          "latitude": 61.357092
+        },
+        {
+          "code": "PT",
+          "rawCode": "PRT",
+          "name": "Portugal",
+          "nameZh": "葡萄牙",
+          "value": 7091.64,
+          "rank": 14,
+          "longitude": -8.271754,
+          "latitude": 39.606675
+        },
+        {
+          "code": "SG",
+          "rawCode": "SGP",
+          "name": "Singapore",
+          "nameZh": "新加坡",
+          "value": 6450.49,
+          "rank": 15,
+          "longitude": 103.816925,
+          "latitude": 1.366587
+        },
+        {
+          "code": "IS",
+          "rawCode": "ISL",
+          "name": "Iceland",
+          "nameZh": "冰岛",
+          "value": 6042.94,
+          "rank": 16,
+          "longitude": -18.673711,
+          "latitude": 64.779286
+        },
+        {
+          "code": "ZA",
+          "rawCode": "ZAF",
+          "name": "South Africa",
+          "nameZh": "南非",
+          "value": 5971.13,
+          "rank": 17,
+          "longitude": 23.665734,
+          "latitude": -29.708776
+        },
+        {
+          "code": "CH",
+          "rawCode": "CHE",
+          "name": "Switzerland",
+          "nameZh": "瑞士",
+          "value": 5291.7,
+          "rank": 18,
+          "longitude": 7.463965,
+          "latitude": 46.719114
+        },
+        {
+          "code": "KR",
+          "rawCode": "KOR",
+          "name": "Korea",
+          "nameZh": "韩国",
+          "value": 4718.89,
+          "rank": 19,
+          "longitude": 128.129504,
+          "latitude": 36.384924
+        },
+        {
+          "code": "BG",
+          "rawCode": "BGR",
+          "name": "Bulgaria",
+          "nameZh": "保加利亚",
+          "value": 4248.44,
+          "rank": 20,
+          "longitude": 25.15709,
+          "latitude": 42.508785
+        },
+        {
+          "code": "IN",
+          "rawCode": "IND",
+          "name": "India",
+          "nameZh": "印度",
+          "value": 4139.81,
+          "rank": 21,
+          "longitude": 79.358105,
+          "latitude": 22.686852
+        },
+        {
+          "code": "SE",
+          "rawCode": "SWE",
+          "name": "Sweden",
+          "nameZh": "瑞典",
+          "value": 3694.13,
+          "rank": 22,
+          "longitude": 19.01705,
+          "latitude": 65.85918
+        },
+        {
+          "code": "EE",
+          "rawCode": "EST",
+          "name": "Estonia",
+          "nameZh": "爱沙尼亚",
+          "value": 3288.7,
+          "rank": 23,
+          "longitude": 25.867126,
+          "latitude": 58.724865
+        },
+        {
+          "code": "UA",
+          "rawCode": "UKR",
+          "name": "Ukraine",
+          "nameZh": "乌克兰",
+          "value": 2280.02,
+          "rank": 24,
+          "longitude": 32.140865,
+          "latitude": 49.724739
+        },
+        {
+          "code": "AU",
+          "rawCode": "AUS",
+          "name": "Australia",
+          "nameZh": "澳大利亚",
+          "value": 1079.34,
+          "rank": 25,
+          "longitude": 134.04972,
+          "latitude": -24.129522
+        },
+        {
+          "code": "FI",
+          "rawCode": "FIN",
+          "name": "Finland",
+          "nameZh": "芬兰",
+          "value": 200.33,
+          "rank": 26,
+          "longitude": 27.276449,
+          "latitude": 63.252361
+        },
+        {
+          "code": "DK",
+          "rawCode": "DNK",
+          "name": "Denmark",
+          "nameZh": "丹麦",
+          "value": 184.68,
+          "rank": 27,
+          "longitude": 9.018163,
+          "latitude": 55.966965
+        },
+        {
+          "code": "BR",
+          "rawCode": "BRA",
+          "name": "Brazil",
+          "nameZh": "巴西",
+          "value": 5.41,
+          "rank": 28,
+          "longitude": -49.55945,
+          "latitude": -12.098687
+        },
+        {
+          "code": "ES",
+          "rawCode": "ESP",
+          "name": "Spain",
+          "nameZh": "西班牙",
+          "value": 5.3,
+          "rank": 29,
+          "longitude": -3.464718,
+          "latitude": 40.090953
+        },
+        {
+          "code": "TR",
+          "rawCode": "TUR",
+          "name": "Turkey",
+          "nameZh": "土耳其",
+          "value": 3.37,
+          "rank": 30,
+          "longitude": 34.508268,
+          "latitude": 39.345388
+        }
+      ]
+    }
+  },
+  "supply": {
+    "asOf": "2026-10-16",
+    "retrievedAt": "2026-10-17T14:46:56.679563+00:00",
+    "models": 3158803,
+    "datasets": 1093040,
+    "monthly": [
+      {
+        "month": "2022-03",
+        "models": 2834,
+        "datasets": 505
+      },
+      {
+        "month": "2022-04",
+        "models": 5520,
+        "datasets": 660
+      },
+      {
+        "month": "2022-05",
+        "models": 7092,
+        "datasets": 908
+      },
+      {
+        "month": "2022-06",
+        "models": 6781,
+        "datasets": 1286
+      },
+      {
+        "month": "2022-07",
+        "models": 6044,
+        "datasets": 1098
+      },
+      {
+        "month": "2022-08",
+        "models": 5553,
+        "datasets": 1001
+      },
+      {
+        "month": "2022-09",
+        "models": 6171,
+        "datasets": 1422
+      },
+      {
+        "month": "2022-10",
+        "models": 7872,
+        "datasets": 2118
+      },
+      {
+        "month": "2022-11",
+        "models": 9548,
+        "datasets": 2024
+      },
+      {
+        "month": "2022-12",
+        "models": 13288,
+        "datasets": 1803
+      },
+      {
+        "month": "2023-01",
+        "models": 14708,
+        "datasets": 2928
+      },
+      {
+        "month": "2023-02",
+        "models": 16311,
+        "datasets": 2850
+      },
+      {
+        "month": "2023-03",
+        "models": 22076,
+        "datasets": 3395
+      },
+      {
+        "month": "2023-04",
+        "models": 22640,
+        "datasets": 5581
+      },
+      {
+        "month": "2023-05",
+        "models": 23411,
+        "datasets": 5493
+      },
+      {
+        "month": "2023-06",
+        "models": 23790,
+        "datasets": 4288
+      },
+      {
+        "month": "2023-07",
+        "models": 29879,
+        "datasets": 4868
+      },
+      {
+        "month": "2023-08",
+        "models": 34778,
+        "datasets": 8738
+      },
+      {
+        "month": "2023-09",
+        "models": 30021,
+        "datasets": 6897
+      },
+      {
+        "month": "2023-10",
+        "models": 31070,
+        "datasets": 8860
+      },
+      {
+        "month": "2023-11",
+        "models": 36290,
+        "datasets": 7311
+      },
+      {
+        "month": "2023-12",
+        "models": 34350,
+        "datasets": 7883
+      },
+      {
+        "month": "2024-01",
+        "models": 37697,
+        "datasets": 11831
+      },
+      {
+        "month": "2024-02",
+        "models": 37798,
+        "datasets": 10559
+      },
+      {
+        "month": "2024-03",
+        "models": 41860,
+        "datasets": 11443
+      },
+      {
+        "month": "2024-04",
+        "models": 48149,
+        "datasets": 12135
+      },
+      {
+        "month": "2024-05",
+        "models": 54557,
+        "datasets": 15186
+      },
+      {
+        "month": "2024-06",
+        "models": 51864,
+        "datasets": 14218
+      },
+      {
+        "month": "2024-07",
+        "models": 55138,
+        "datasets": 14515
+      },
+      {
+        "month": "2024-08",
+        "models": 78429,
+        "datasets": 15694
+      },
+      {
+        "month": "2024-09",
+        "models": 125212,
+        "datasets": 16143
+      },
+      {
+        "month": "2024-10",
+        "models": 64489,
+        "datasets": 16341
+      },
+      {
+        "month": "2024-11",
+        "models": 69689,
+        "datasets": 17151
+      },
+      {
+        "month": "2024-12",
+        "models": 78072,
+        "datasets": 19697
+      },
+      {
+        "month": "2025-01",
+        "models": 100240,
+        "datasets": 20971
+      },
+      {
+        "month": "2025-02",
+        "models": 95227,
+        "datasets": 24292
+      },
+      {
+        "month": "2025-03",
+        "models": 93468,
+        "datasets": 26819
+      },
+      {
+        "month": "2025-04",
+        "models": 100676,
+        "datasets": 27992
+      },
+      {
+        "month": "2025-05",
+        "models": 105161,
+        "datasets": 33808
+      },
+      {
+        "month": "2025-06",
+        "models": 79668,
+        "datasets": 25406
+      },
+      {
+        "month": "2025-07",
+        "models": 73993,
+        "datasets": 26774
+      },
+      {
+        "month": "2025-08",
+        "models": 94801,
+        "datasets": 25513
+      },
+      {
+        "month": "2025-09",
+        "models": 79543,
+        "datasets": 28447
+      },
+      {
+        "month": "2025-10",
+        "models": 95909,
+        "datasets": 27835
+      },
+      {
+        "month": "2025-11",
+        "models": 97590,
+        "datasets": 40342
+      },
+      {
+        "month": "2025-12",
+        "models": 97372,
+        "datasets": 59160
+      },
+      {
+        "month": "2026-01",
+        "models": 124160,
+        "datasets": 74005
+      },
+      {
+        "month": "2026-02",
+        "models": 86006,
+        "datasets": 46803
+      },
+      {
+        "month": "2026-03",
+        "models": 88136,
+        "datasets": 42159
+      },
+      {
+        "month": "2026-04",
+        "models": 95780,
+        "datasets": 46159
+      },
+      {
+        "month": "2026-05",
+        "models": 103013,
+        "datasets": 53678
+      },
+      {
+        "month": "2026-06",
+        "models": 90396,
+        "datasets": 49480
+      },
+      {
+        "month": "2026-07",
+        "models": 55545,
+        "datasets": 23811
+      }
+    ],
+    "latestMonthCompleteness": "unknown",
+    "source": {
+      "repository": "X-lab2017/2026-Global-Open-Source-Development-Report",
+      "commit": "c51e3441361407b68f10b339d97eff288319b503",
+      "path": "preview/content/gosm/supply-observation.json",
+      "gitBlobSha": "0067e4643e62474330bdd01f731ff38aff32e063"
+    },
+    "upstreamSources": [
+      {
+        "key": "overview-summary",
+        "url": "http://47.100.76.186:9529/api/overview/summary/",
+        "retrieved_at": "2026-10-17T14:46:54.727928+00:00",
+        "status": 200,
+        "sha256": "ffda113c65de8bf6c01fdb9afb1acea56a8f3373e881c187489e5ead7154d86a",
+        "bytes": 541,
+        "http_date": "Sat, 17 Oct 2026 14:46:54 GMT",
+        "last_modified": null
+      },
+      {
+        "key": "models-summary",
+        "url": "http://47.100.76.186:9529/api/models/summary/?granularity=monthly",
+        "retrieved_at": "2026-10-17T14:46:54.970939+00:00",
+        "status": 200,
+        "sha256": "a154100796e31d13b0284f222644ab66685223097d657ba6f73f94b1dbbc5d04",
+        "bytes": 237,
+        "http_date": "Sat, 17 Oct 2026 14:46:54 GMT",
+        "last_modified": null
+      },
+      {
+        "key": "datasets-summary",
+        "url": "http://47.100.76.186:9529/api/datasets/summary/?granularity=monthly",
+        "retrieved_at": "2026-10-17T14:47:02.295748+00:00",
+        "status": 200,
+        "sha256": "75e62fbd6c6a08ab6b5c7892634134a1f56455f90e4de4be9e70aaeafd02a37b",
+        "bytes": 236,
+        "http_date": "Sat, 17 Oct 2026 14:47:02 GMT",
+        "last_modified": null
+      }
+    ]
+  },
+  "cartography": {
+    "url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/ca96624a56bd078437bca8184e78163e5039ad19/geojson/ne_50m_admin_0_countries.geojson",
+    "fetchedAt": "2026-10-24T14:27:10.520698Z",
+    "sha256": "3e458fc036ad0a66411f2c1e6cac49c5d7bfb81cb1123bc513b22511a2b7fdeb",
+    "httpStatus": 200
+  },
+  "extracts": {
+    "data/reference/openshare-developers.json": "68a9647bd626381d7eba90bae1a6facc4668422a1075f99aaf590f0c0a6b0e69",
+    "data/reference/openshare-contribution.json": "33b81b4385038297d73ff3b6b7d270f5e38ee933986ed8168513d3779db94b86",
+    "data/reference/openshare-influence.json": "db867cede714861390ec0203467b553305da8e68a7c08149b26ac75674a893b8",
+    "data/reference/gosd-supply.json": "8874d8a271fda72b3f6fd8c9c95386693bce8a780d7bc28183c5a23ce02d30ed",
+    "config/country-anchors.json": "c8a1e7f91ae8df8e600aa8ea537d1b4420fc608d908ff71fe266cb8481fe9f2b"
+  }
+}

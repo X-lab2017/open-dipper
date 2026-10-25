@@ -1,0 +1,302 @@
+{
+  "source": {
+    "url": "https://selfoss.open-digger.cn/openshare/overview/influence.json",
+    "retrievedAt": "2026-10-25T05:36:01.427201Z",
+    "sha256": "523b4bbfb9b598e5d8154003cecb1a56fce890fff3df42ed63f2761f826882b6",
+    "httpStatus": 200
+  },
+  "leaderboard": {
+    "title": "Open Source Project OpenRank Influence by Country",
+    "title_zh": "全球各国开源项目 OpenRank 影响力排行榜",
+    "data": [
+      {
+        "rank": 1,
+        "identifier": ":divisions/US",
+        "name": "United States",
+        "name_zh": "美国",
+        "value": 1881618.37,
+        "change": 120727.12,
+        "code": "US"
+      },
+      {
+        "rank": 2,
+        "identifier": ":divisions/CN",
+        "name": "China",
+        "name_zh": "中国",
+        "value": 550811.53,
+        "change": 93414.44,
+        "code": "CN"
+      },
+      {
+        "rank": 3,
+        "identifier": ":divisions/NL",
+        "name": "Netherlands",
+        "name_zh": "荷兰",
+        "value": 72819.71,
+        "change": 7016.17,
+        "code": "NL"
+      },
+      {
+        "rank": 4,
+        "identifier": ":divisions/DE",
+        "name": "Germany",
+        "name_zh": "德国",
+        "value": 39203.13,
+        "change": 7746.29,
+        "code": "DE"
+      },
+      {
+        "rank": 5,
+        "identifier": ":divisions/GB",
+        "name": "United Kingdom",
+        "name_zh": "英国",
+        "value": 28417.95,
+        "change": 4215.58,
+        "code": "GB"
+      },
+      {
+        "rank": 6,
+        "identifier": ":divisions/CZ",
+        "name": "Czech Rep.",
+        "name_zh": "捷克",
+        "value": 20640.51,
+        "change": 3054.39,
+        "code": "CZ"
+      },
+      {
+        "rank": 7,
+        "identifier": ":divisions/CA",
+        "name": "Canada",
+        "name_zh": "加拿大",
+        "value": 19509.71,
+        "change": 7605.29,
+        "code": "CA"
+      },
+      {
+        "rank": 8,
+        "identifier": ":divisions/BE",
+        "name": "Belgium",
+        "name_zh": "比利时",
+        "value": 17363.69,
+        "change": 3690.23,
+        "code": "BE"
+      },
+      {
+        "rank": 9,
+        "identifier": ":divisions/RU",
+        "name": "Russia",
+        "name_zh": "俄罗斯",
+        "value": 14712.7,
+        "change": 1979.03,
+        "code": "RU"
+      },
+      {
+        "rank": 10,
+        "identifier": ":divisions/FR",
+        "name": "France",
+        "name_zh": "法国",
+        "value": 12807.71,
+        "change": 1841.49,
+        "code": "FR"
+      },
+      {
+        "rank": 11,
+        "identifier": ":divisions/JP",
+        "name": "Japan",
+        "name_zh": "日本",
+        "value": 11202.2,
+        "change": 204.13,
+        "code": "JP"
+      },
+      {
+        "rank": 12,
+        "identifier": ":divisions/IL",
+        "name": "Israel",
+        "name_zh": "以色列",
+        "value": 7708.27,
+        "change": 899.12,
+        "code": "IL"
+      },
+      {
+        "rank": 13,
+        "identifier": ":divisions/NO",
+        "name": "Norway",
+        "name_zh": "挪威",
+        "value": 7568.37,
+        "change": 573.44,
+        "code": "NO"
+      },
+      {
+        "rank": 14,
+        "identifier": ":divisions/PT",
+        "name": "Portugal",
+        "name_zh": "葡萄牙",
+        "value": 7091.64,
+        "change": -5417.11,
+        "code": "PT"
+      },
+      {
+        "rank": 15,
+        "identifier": ":divisions/SG",
+        "name": "Singapore",
+        "name_zh": "新加坡",
+        "value": 6450.49,
+        "change": -186.54,
+        "code": "SG"
+      },
+      {
+        "rank": 16,
+        "identifier": ":divisions/IS",
+        "name": "Iceland",
+        "name_zh": "冰岛",
+        "value": 6042.94,
+        "change": 1268.56,
+        "code": "IS"
+      },
+      {
+        "rank": 17,
+        "identifier": ":divisions/ZA",
+        "name": "South Africa",
+        "name_zh": "南非",
+        "value": 5971.13,
+        "change": -373.17,
+        "code": "ZA"
+      },
+      {
+        "rank": 18,
+        "identifier": ":divisions/CH",
+        "name": "Switzerland",
+        "name_zh": "瑞士",
+        "value": 5291.7,
+        "change": -451.22,
+        "code": "CH"
+      },
+      {
+        "rank": 19,
+        "identifier": ":divisions/KR",
+        "name": "Korea",
+        "name_zh": "韩国",
+        "value": 4718.89,
+        "change": 203.15,
+        "code": "KR"
+      },
+      {
+        "rank": 20,
+        "identifier": ":divisions/BG",
+        "name": "Bulgaria",
+        "name_zh": "保加利亚",
+        "value": 4248.44,
+        "change": 272.53,
+        "code": "BG"
+      },
+      {
+        "rank": 21,
+        "identifier": ":divisions/IN",
+        "name": "India",
+        "name_zh": "印度",
+        "value": 4139.81,
+        "change": -1503.16,
+        "code": "IN"
+      },
+      {
+        "rank": 22,
+        "identifier": ":divisions/SE",
+        "name": "Sweden",
+        "name_zh": "瑞典",
+        "value": 3694.13,
+        "change": -438.83,
+        "code": "SE"
+      },
+      {
+        "rank": 23,
+        "identifier": ":divisions/EE",
+        "name": "Estonia",
+        "name_zh": "爱沙尼亚",
+        "value": 3288.7,
+        "change": 1479.62,
+        "code": "EE"
+      },
+      {
+        "rank": 24,
+        "identifier": ":divisions/UA",
+        "name": "Ukraine",
+        "name_zh": "乌克兰",
+        "value": 2280.02,
+        "change": 510.56,
+        "code": "UA"
+      },
+      {
+        "rank": 25,
+        "identifier": ":divisions/AU",
+        "name": "Australia",
+        "name_zh": "澳大利亚",
+        "value": 1079.34,
+        "change": -72.32,
+        "code": "AU"
+      },
+      {
+        "rank": 26,
+        "identifier": ":divisions/FI",
+        "name": "Finland",
+        "name_zh": "芬兰",
+        "value": 200.33,
+        "change": -55.37,
+        "code": "FI"
+      },
+      {
+        "rank": 27,
+        "identifier": ":divisions/DK",
+        "name": "Denmark",
+        "name_zh": "丹麦",
+        "value": 184.68,
+        "change": 160.52,
+        "code": "DK"
+      },
+      {
+        "rank": 28,
+        "identifier": ":divisions/BR",
+        "name": "Brazil",
+        "name_zh": "巴西",
+        "value": 5.41,
+        "change": 4.04,
+        "code": "BR"
+      },
+      {
+        "rank": 29,
+        "identifier": ":divisions/ES",
+        "name": "Spain",
+        "name_zh": "西班牙",
+        "value": 5.3,
+        "change": -7.7,
+        "code": "ES"
+      },
+      {
+        "rank": 30,
+        "identifier": ":divisions/TR",
+        "name": "Turkey",
+        "name_zh": "土耳其",
+        "value": 3.37,
+        "change": 0.37,
+        "code": "TR"
+      }
+    ]
+  },
+  "trend": {
+    "title": "Global Project OpenRank Influence",
+    "title_zh": "全球开源项目 OpenRank 影响力总量五年趋势",
+    "labels": [
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "values": [
+      1766780.57,
+      2000076.19,
+      2293559.19,
+      2490719.48,
+      2739080.17
+    ]
+  }
+}

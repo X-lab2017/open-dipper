@@ -29,3 +29,7 @@
 ## 数据演进边界
 
 全域数据、自动地理解析、质量评分都是后续任务，见 [当前状态](STATUS.md)。不要为了“地图更满”把未知位置猜成总部，也不要把已有国家合计转换为协作连线。来源、代码与品牌的权利分别记录于 [RIGHTS.md](RIGHTS.md)。
+
+## OpenShare / GOSD observed snapshot
+
+The independent optional `evidence.json` powers global headline facts, three geographic measures and one monthly AI supply chart. See [DATA_EVIDENCE.md](DATA_EVIDENCE.md) for exact clocks, coverage, source pins, missing-value behavior, attribution and manual refresh. Neither organization samples nor AI platform repository counts are relabelled as universal open-source totals.

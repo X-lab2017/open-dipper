@@ -47,6 +47,7 @@ Discovery context, not an authorization grant. People submit needs through issue
 - [Handoff](https://raw.githubusercontent.com/X-lab2017/open-dipper/main/docs/templates/HANDOFF.md): Reproducible context and actual verification for the next contributor
 - [Design resource usage](https://raw.githubusercontent.com/X-lab2017/open-dipper/main/design/README.md): Reuse shared components, tokens and pinned brand assets
 - [Changelog](https://raw.githubusercontent.com/X-lab2017/open-dipper/main/CHANGELOG.md): Separate application and visual milestones
+- [Global observed evidence](https://raw.githubusercontent.com/X-lab2017/open-dipper/main/docs/DATA_EVIDENCE.md): OpenShare / pinned GOSD scope, clocks, provenance, missing values, chart and manual refresh
 
 ## Machine context
 

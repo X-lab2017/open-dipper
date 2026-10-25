@@ -7,15 +7,16 @@
 
 [进入观测站](https://www.x-lab.info/open-dipper/) · [路线图](ROADMAP.zh-CN.md) · [提出需求](https://github.com/X-lab2017/open-dipper/issues/new?template=feature_request.yml) · [反馈问题](https://github.com/X-lab2017/open-dipper/issues/new?template=bug_report.yml) · [查看视觉基线](https://www.x-lab.info/open-dipper/design-system.html)
 
-[![OpenDipper 地图视图：地域图层、紧凑导航与生态事件流](docs/assets/open-dipper-portal-2026-10-25.jpg)](https://www.x-lab.info/open-dipper/)
+[![OpenDipper 地图视图：地域图层、紧凑导航与生态事件流](docs/assets/opendipper-observed-overview-2026-10-25.jpg)](https://www.x-lab.info/open-dipper/)
 
-*情报门户 1.1.0 · 2026-10-25 · 中文界面；正式站点地图总览。数值与模拟标识保留截图当时的状态，不代表实时统计。[查看视觉演进](docs/archive/2026-10-25-visual-evolution.md)。*
+*2026-10-25 · 全球真实数据接入预览；来源日期与模拟事件分别标识。截图是版本记录，不代表实时统计。[数据口径](docs/DATA_EVIDENCE.md) · [视觉演进](docs/archive/2026-10-25-visual-evolution.md)。*
 
 <!-- section:business -->
 ## 业务视角
 
 ```mermaid
 flowchart TD
+  GS["OpenShare 全球分布 / GOSD AI 供给"] --> O
   M["OpenDigger 指标与地域数据"] --> O["OpenDipper 观测站"]
   E["公开发布与审核通过的生态事件"] --> O
   D["明确标识的模拟场景"] -.-> O
@@ -89,7 +90,7 @@ OpenDipper 围绕**人的需求、Agent 的执行与可验证的结果**开展�
 ## 探索观测站
 
 - **地图 / 地球 / 快讯**：地域图层、可定位事件、筛选和来源查看。默认进入地图，地球提供大气光照与惯性交互。
-- **AI 雷达**：四类主题、搜索、证据详情与地图定位；真实采集与固定虚构场景清晰区分。
+- **AI 雷达**：模型／数据集月度新增图、四类主题、搜索、证据详情与地图定位；真实采集与固定虚构场景清晰区分。
 - **个人情报**：本机主题关注、收藏、项目关联、可阅读的公开样刊与 Markdown 导出。Pro 权益为规划，尚未启用支付、邮件投递或云端账户。
 - **参与共建**：来源、证据、研究与服务工作包通过真实 GitHub 任务开放参与。
 - **月度分析**：同平台排行、十二个月趋势、月份回放与本地关注列表。
@@ -98,12 +99,14 @@ OpenDipper 围绕**人的需求、Agent 的执行与可验证的结果**开展�
 
 | 数据通道 | 当前范围 | 更新节奏 |
 | --- | --- | --- |
+| OpenShare 全球分布 | 开发者规模、开发者 OpenRank 贡献、项目 OpenRank 影响 | 总量年序列与地域期间分别标注 |
+| GOSD / OpenGauge AI 供给 | HF 模型仓库与数据集总量、月度新增图 | 固定版本报告快照 |
 | OpenDigger 仓库指标 | 20 个精选仓库、4 个平台、6 类指标 | 月度 |
 | 地域聚合 | Microsoft、Apache 和 PyTorch Foundation 标签，各自独立的近一年周期 | 每月获取 |
 | 生态事件 | 部分 GitHub releases、OpenSSF/CNCF RSS 与审核通过的编辑 issue | 目标每 30 分钟采集 |
 | 演示数据 | 13 个虚构生态事件、8 个 AI 情报场景与模拟地域指标 | 固定样例，明确标识 |
 
-这些是**样本，不是全球总体统计**。缺失值不补零，未知位置不虚构；年度地域聚合不随仓库月度轴变化。浏览器每五分钟检查已部署事件快照，采集目标不代表严格实时保障。定义与限制见 [数据契约](docs/DATA_CONTRACTS.md)。
+**OpenDigger 组织与仓库仍是样本**；OpenShare 明示的全球总量和 GOSD 平台总量使用独立口径，不能混加。[来源、日期与更新规则](docs/DATA_EVIDENCE.md)。缺失值不补零，未知位置不虚构；年度地域聚合不随仓库月度轴变化。浏览器每五分钟检查已部署事件快照，采集目标不代表严格实时保障。定义与限制见 [数据契约](docs/DATA_CONTRACTS.md)。
 
 <!-- section:architecture -->
 ## 技术架构
@@ -114,6 +117,8 @@ flowchart TD
   FE["GitHub releases 与官方 RSS"] --> C
   ED["维护者审核通过的事件 issue"] --> C
   C --> S["真实数据 JSON 快照"]
+  OS["OpenShare / GOSD 固定版本摘录"] --> EA["离线证据适配与校验"]
+  EA --> S
   S --> Q["验证与静态构建"]
   UI["TypeScript 前端与共享设计 tokens"] --> Q
   FX["固定模拟样例与地图几何"] --> Q

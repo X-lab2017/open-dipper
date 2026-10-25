@@ -59,3 +59,7 @@
 **决定**：保留地图／地球／快讯为共同空间视图，新增 AI 雷达、开源生态、情报订阅和共建导航。月度分析进入开源生态，两屏第二屏承载 AI 与样刊；这替代 ADR-006 中第二屏仅展开月度分析的安排。公共信息、明确主题映射与固定模拟条目共用情报详情，保留不同来源和时钟。
 
 **服务边界**：本机关注、偏好与导出可用，公开样刊用于评审；尚未建立付费服务、云端账户或 Agent 研究流水线。不把示例证据、评测、研究者或机构背书写为事实。未来付费全文与权益必须在服务端，不能藏在公开静态包中。见[情报契约](INTELLIGENCE.md)与 [#14](https://github.com/X-lab2017/open-dipper/issues/14)。
+
+## 2026-10-25 — Focused observed evidence, independent source clocks
+
+Issue [#20](https://github.com/X-lab2017/open-dipper/issues/20) adds four sourced facts, three global map measures and one switchable AI supply chart. Preserve the existing scene and OpenDigger project lens. Retain pinned extracts and an offline adapter, not report UI code. Country periods remain unknown; platform totals and monthly additions retain separate timestamps. Optional snapshot failure cannot enable simulated values. See [DATA_EVIDENCE.md](DATA_EVIDENCE.md); this is not completion of monthly geography #9.

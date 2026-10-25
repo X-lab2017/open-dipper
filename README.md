@@ -7,15 +7,16 @@
 
 [Open the observatory](https://www.x-lab.info/open-dipper/) · [Roadmap](ROADMAP.md) · [Request a feature](https://github.com/X-lab2017/open-dipper/issues/new?template=feature_request.yml) · [Report a problem](https://github.com/X-lab2017/open-dipper/issues/new?template=bug_report.yml) · [Visual baseline](https://www.x-lab.info/open-dipper/design-system.html)
 
-[![OpenDipper map view with geographic layers, compact navigation and an ecosystem event wire](docs/assets/open-dipper-portal-2026-10-25.jpg)](https://www.x-lab.info/open-dipper/)
+[![OpenDipper map view with geographic layers, compact navigation and an ecosystem event wire](docs/assets/opendipper-observed-overview-2026-10-25.jpg)](https://www.x-lab.info/open-dipper/)
 
-*Intelligence portal 1.1.0 · 2026-10-25 · Chinese UI; production map overview. Values and demo labels reflect the captured view, not live statistics. [See the visual evolution](docs/archive/2026-10-25-visual-evolution.md).*
+*2026-10-25 · Observed-data preview; source dates and demo events are labelled independently. A version record, not live statistics. [Data scope](docs/DATA_EVIDENCE.md) · [Visual evolution](docs/archive/2026-10-25-visual-evolution.md).*
 
 <!-- section:business -->
 ## Business view
 
 ```mermaid
 flowchart TD
+  GS["OpenShare global distribution / GOSD AI supply"] --> O
   M["OpenDigger metrics and geography"] --> O["OpenDipper observatory"]
   E["Published and reviewed ecosystem events"] --> O
   D["Clearly labeled demo scenarios"] -.-> O
@@ -89,7 +90,7 @@ Here, the *harness* is the context, tools, constraints and feedback that make en
 ## Explore the observatory
 
 - **Map / Globe / Wire:** geographic layers, located events, filters and source inspection. The map opens by default; the globe adds atmospheric lighting and inertial interaction.
-- **AI radar:** four topics, search, evidence details and linked map locations; collected items and fixed fictional examples stay visibly separate.
+- **AI radar:** monthly model/dataset additions, four topics, search, evidence details and linked map locations; collected items and fixed fictional examples stay visibly separate.
 - **Personal intelligence:** local topic following, saved signals, repository links, a readable public sample and Markdown export. Pro benefits are proposals; no payment, email delivery or cloud account is active.
 - **Community:** concrete source, evidence, research and service tasks with public GitHub entry points.
 - **Monthly analysis:** same-platform rankings, twelve-month trends, playback and local watchlists.
@@ -98,12 +99,14 @@ Here, the *harness* is the context, tools, constraints and feedback that make en
 
 | Data channel | Current scope | Cadence |
 | --- | --- | --- |
+| OpenShare global distribution | Developer stock, developer OpenRank contribution, project OpenRank influence | Global annual total and regional periods labelled separately |
+| GOSD / OpenGauge AI supply | HF model/dataset totals and monthly additions chart | Pinned report snapshot |
 | OpenDigger repository metrics | 20 curated repositories, 4 platforms, 6 metrics | Monthly |
 | Geographic aggregates | Microsoft, Apache and PyTorch Foundation labels; independent trailing-year periods | Retrieved monthly |
 | Ecosystem events | Selected GitHub releases, OpenSSF/CNCF RSS and approved editorial issues | Collection target: 30 minutes |
 | Demonstration | 13 fictional ecosystem events, 8 AI intelligence scenarios and synthetic geographic metrics | Fixed fixtures, visibly identified |
 
-These are **samples, not worldwide population totals**. Missing values stay missing; unknown locations stay unlocated. Annual geographic aggregates do not move with the repository month slider. The browser checks deployed event snapshots every five minutes; collection targets are not a real-time SLA. Definitions and limitations: [data contracts](docs/DATA_CONTRACTS.md).
+**OpenDigger organization/repository data remains sampled**; explicit OpenShare global totals and GOSD platform totals have separate scopes and cannot be added together. [Sources, dates and refresh rules](docs/DATA_EVIDENCE.md). Missing values stay missing; unknown locations stay unlocated. Annual geographic aggregates do not move with the repository month slider. The browser checks deployed event snapshots every five minutes; collection targets are not a real-time SLA. Definitions and limitations: [data contracts](docs/DATA_CONTRACTS.md).
 
 <!-- section:architecture -->
 ## Technical architecture
@@ -114,6 +117,8 @@ flowchart TD
   FE["GitHub releases and official RSS"] --> C
   ED["Maintainer-approved event issues"] --> C
   C --> S["Observed JSON snapshots"]
+  OS["OpenShare / pinned GOSD extracts"] --> EA["Offline evidence adapter and checks"]
+  EA --> S
   S --> Q["Validation and static build"]
   UI["TypeScript UI and shared design tokens"] --> Q
   FX["Fixed demo fixtures and map geometry"] --> Q

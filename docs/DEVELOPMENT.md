@@ -11,6 +11,7 @@
 | 地图/地球/相机 | [视觉规范](VISUAL_SYSTEM.md)、[地域契约](../public/data/GEOGRAPHY.md) | `src/observatory/scene.ts`、`globe-math.ts` | `test:observatory`、`test:observatory:ui`；检查日期变更线与极区 |
 | 共享视觉资源 | [设计资源](../design/README.md) | `design/tokens.json`、`src/design/` | `design:build`、`design:check`、`build`；深浅主题浏览器检查 |
 | 月度数据 | [月度契约](../public/data/README.md) | `config/repositories.json`、`scripts/fetch-data.mjs`、`refresh-monthly.mjs` | `test:data`、`test:dom`、`test:observatory` |
+| 全球分布 / AI 供给 | [数据证据契约](DATA_EVIDENCE.md) | `data/reference/`、`build-evidence.mjs`、`evidence.ts`、`evidence-view.ts` | `evidence:build`、`evidence:check`、`typecheck`、`test:portal:ui` |
 | 地域数据 | [地域契约](../public/data/GEOGRAPHY.md) | `scripts/fetch-geography.py`、`src/observatory/model.ts` | `test:geo`、`test:observatory` |
 | 事件来源、审核 | [事件契约](EVENTS.md)、[运维](OPERATIONS.md) | `config/sources.json`、`scripts/collect-events.py`、`model.ts` | `test:observatory`（含 Python 采集器测试） |
 | 分析/历史全景兼容 | [维护边界](MAINTENANCE.md) | `src/main.ts`、`src/panorama.ts`、`src/globe-math.ts` | `test:dom`、`test:panorama` 与对应浏览器套件 |

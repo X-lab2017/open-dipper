@@ -1,0 +1,503 @@
+{
+  "source": {
+    "repository": "X-lab2017/2026-Global-Open-Source-Development-Report",
+    "commit": "c51e3441361407b68f10b339d97eff288319b503",
+    "path": "preview/content/gosm/supply-observation.json",
+    "gitBlobSha": "0067e4643e62474330bdd01f731ff38aff32e063"
+  },
+  "meta": {
+    "title": "OpenGauge model and dataset supply snapshot",
+    "retrievedDate": "2026-10-17",
+    "retrievedAtUTC": "2026-10-17T14:46:56.679563+00:00",
+    "dataStatus": "observed",
+    "containsSimulatedData": false,
+    "platformAsOf": "2026-10-16",
+    "geographyAsOf": "not_documented",
+    "geographyMatchesEarlier20261017Snapshot": true,
+    "sourcePage": "http://47.100.76.186:9529/geography"
+  },
+  "sources": [
+    {
+      "key": "overview-summary",
+      "url": "http://47.100.76.186:9529/api/overview/summary/",
+      "retrieved_at": "2026-10-17T14:46:54.727928+00:00",
+      "status": 200,
+      "sha256": "ffda113c65de8bf6c01fdb9afb1acea56a8f3373e881c187489e5ead7154d86a",
+      "bytes": 541,
+      "http_date": "Sat, 17 Oct 2026 14:46:54 GMT",
+      "last_modified": null
+    },
+    {
+      "key": "models-summary",
+      "url": "http://47.100.76.186:9529/api/models/summary/?granularity=monthly",
+      "retrieved_at": "2026-10-17T14:46:54.970939+00:00",
+      "status": 200,
+      "sha256": "a154100796e31d13b0284f222644ab66685223097d657ba6f73f94b1dbbc5d04",
+      "bytes": 237,
+      "http_date": "Sat, 17 Oct 2026 14:46:54 GMT",
+      "last_modified": null
+    },
+    {
+      "key": "datasets-summary",
+      "url": "http://47.100.76.186:9529/api/datasets/summary/?granularity=monthly",
+      "retrieved_at": "2026-10-17T14:47:02.295748+00:00",
+      "status": 200,
+      "sha256": "75e62fbd6c6a08ab6b5c7892634134a1f56455f90e4de4be9e70aaeafd02a37b",
+      "bytes": 236,
+      "http_date": "Sat, 17 Oct 2026 14:47:02 GMT",
+      "last_modified": null
+    }
+  ],
+  "models": {
+    "summary": {
+      "total": 3158803,
+      "downloads": 76483372899,
+      "last_updated": "2026-10-16"
+    },
+    "monthlyNew": [
+      {
+        "month": "2022-03",
+        "count": 2834
+      },
+      {
+        "month": "2022-04",
+        "count": 5520
+      },
+      {
+        "month": "2022-05",
+        "count": 7092
+      },
+      {
+        "month": "2022-06",
+        "count": 6781
+      },
+      {
+        "month": "2022-07",
+        "count": 6044
+      },
+      {
+        "month": "2022-08",
+        "count": 5553
+      },
+      {
+        "month": "2022-09",
+        "count": 6171
+      },
+      {
+        "month": "2022-10",
+        "count": 7872
+      },
+      {
+        "month": "2022-11",
+        "count": 9548
+      },
+      {
+        "month": "2022-12",
+        "count": 13288
+      },
+      {
+        "month": "2023-01",
+        "count": 14708
+      },
+      {
+        "month": "2023-02",
+        "count": 16311
+      },
+      {
+        "month": "2023-03",
+        "count": 22076
+      },
+      {
+        "month": "2023-04",
+        "count": 22640
+      },
+      {
+        "month": "2023-05",
+        "count": 23411
+      },
+      {
+        "month": "2023-06",
+        "count": 23790
+      },
+      {
+        "month": "2023-07",
+        "count": 29879
+      },
+      {
+        "month": "2023-08",
+        "count": 34778
+      },
+      {
+        "month": "2023-09",
+        "count": 30021
+      },
+      {
+        "month": "2023-10",
+        "count": 31070
+      },
+      {
+        "month": "2023-11",
+        "count": 36290
+      },
+      {
+        "month": "2023-12",
+        "count": 34350
+      },
+      {
+        "month": "2024-01",
+        "count": 37697
+      },
+      {
+        "month": "2024-02",
+        "count": 37798
+      },
+      {
+        "month": "2024-03",
+        "count": 41860
+      },
+      {
+        "month": "2024-04",
+        "count": 48149
+      },
+      {
+        "month": "2024-05",
+        "count": 54557
+      },
+      {
+        "month": "2024-06",
+        "count": 51864
+      },
+      {
+        "month": "2024-07",
+        "count": 55138
+      },
+      {
+        "month": "2024-08",
+        "count": 78429
+      },
+      {
+        "month": "2024-09",
+        "count": 125212
+      },
+      {
+        "month": "2024-10",
+        "count": 64489
+      },
+      {
+        "month": "2024-11",
+        "count": 69689
+      },
+      {
+        "month": "2024-12",
+        "count": 78072
+      },
+      {
+        "month": "2025-01",
+        "count": 100240
+      },
+      {
+        "month": "2025-02",
+        "count": 95227
+      },
+      {
+        "month": "2025-03",
+        "count": 93468
+      },
+      {
+        "month": "2025-04",
+        "count": 100676
+      },
+      {
+        "month": "2025-05",
+        "count": 105161
+      },
+      {
+        "month": "2025-06",
+        "count": 79668
+      },
+      {
+        "month": "2025-07",
+        "count": 73993
+      },
+      {
+        "month": "2025-08",
+        "count": 94801
+      },
+      {
+        "month": "2025-09",
+        "count": 79543
+      },
+      {
+        "month": "2025-10",
+        "count": 95909
+      },
+      {
+        "month": "2025-11",
+        "count": 97590
+      },
+      {
+        "month": "2025-12",
+        "count": 97372
+      },
+      {
+        "month": "2026-01",
+        "count": 124160
+      },
+      {
+        "month": "2026-02",
+        "count": 86006
+      },
+      {
+        "month": "2026-03",
+        "count": 88136
+      },
+      {
+        "month": "2026-04",
+        "count": 95780
+      },
+      {
+        "month": "2026-05",
+        "count": 103013
+      },
+      {
+        "month": "2026-06",
+        "count": 90396
+      },
+      {
+        "month": "2026-07",
+        "count": 55545
+      }
+    ],
+    "monthlyRange": {
+      "start": "2022-03",
+      "end": "2026-07",
+      "latestMonthCompleteness": "not_documented"
+    }
+  },
+  "datasets": {
+    "summary": {
+      "total": 1093040,
+      "downloads": 3922153582,
+      "last_updated": "2026-10-16"
+    },
+    "monthlyNew": [
+      {
+        "month": "2022-03",
+        "count": 505
+      },
+      {
+        "month": "2022-04",
+        "count": 660
+      },
+      {
+        "month": "2022-05",
+        "count": 908
+      },
+      {
+        "month": "2022-06",
+        "count": 1286
+      },
+      {
+        "month": "2022-07",
+        "count": 1098
+      },
+      {
+        "month": "2022-08",
+        "count": 1001
+      },
+      {
+        "month": "2022-09",
+        "count": 1422
+      },
+      {
+        "month": "2022-10",
+        "count": 2118
+      },
+      {
+        "month": "2022-11",
+        "count": 2024
+      },
+      {
+        "month": "2022-12",
+        "count": 1803
+      },
+      {
+        "month": "2023-01",
+        "count": 2928
+      },
+      {
+        "month": "2023-02",
+        "count": 2850
+      },
+      {
+        "month": "2023-03",
+        "count": 3395
+      },
+      {
+        "month": "2023-04",
+        "count": 5581
+      },
+      {
+        "month": "2023-05",
+        "count": 5493
+      },
+      {
+        "month": "2023-06",
+        "count": 4288
+      },
+      {
+        "month": "2023-07",
+        "count": 4868
+      },
+      {
+        "month": "2023-08",
+        "count": 8738
+      },
+      {
+        "month": "2023-09",
+        "count": 6897
+      },
+      {
+        "month": "2023-10",
+        "count": 8860
+      },
+      {
+        "month": "2023-11",
+        "count": 7311
+      },
+      {
+        "month": "2023-12",
+        "count": 7883
+      },
+      {
+        "month": "2024-01",
+        "count": 11831
+      },
+      {
+        "month": "2024-02",
+        "count": 10559
+      },
+      {
+        "month": "2024-03",
+        "count": 11443
+      },
+      {
+        "month": "2024-04",
+        "count": 12135
+      },
+      {
+        "month": "2024-05",
+        "count": 15186
+      },
+      {
+        "month": "2024-06",
+        "count": 14218
+      },
+      {
+        "month": "2024-07",
+        "count": 14515
+      },
+      {
+        "month": "2024-08",
+        "count": 15694
+      },
+      {
+        "month": "2024-09",
+        "count": 16143
+      },
+      {
+        "month": "2024-10",
+        "count": 16341
+      },
+      {
+        "month": "2024-11",
+        "count": 17151
+      },
+      {
+        "month": "2024-12",
+        "count": 19697
+      },
+      {
+        "month": "2025-01",
+        "count": 20971
+      },
+      {
+        "month": "2025-02",
+        "count": 24292
+      },
+      {
+        "month": "2025-03",
+        "count": 26819
+      },
+      {
+        "month": "2025-04",
+        "count": 27992
+      },
+      {
+        "month": "2025-05",
+        "count": 33808
+      },
+      {
+        "month": "2025-06",
+        "count": 25406
+      },
+      {
+        "month": "2025-07",
+        "count": 26774
+      },
+      {
+        "month": "2025-08",
+        "count": 25513
+      },
+      {
+        "month": "2025-09",
+        "count": 28447
+      },
+      {
+        "month": "2025-10",
+        "count": 27835
+      },
+      {
+        "month": "2025-11",
+        "count": 40342
+      },
+      {
+        "month": "2025-12",
+        "count": 59160
+      },
+      {
+        "month": "2026-01",
+        "count": 74005
+      },
+      {
+        "month": "2026-02",
+        "count": 46803
+      },
+      {
+        "month": "2026-03",
+        "count": 42159
+      },
+      {
+        "month": "2026-04",
+        "count": 46159
+      },
+      {
+        "month": "2026-05",
+        "count": 53678
+      },
+      {
+        "month": "2026-06",
+        "count": 49480
+      },
+      {
+        "month": "2026-07",
+        "count": 23811
+      }
+    ],
+    "monthlyRange": {
+      "start": "2022-03",
+      "end": "2026-07",
+      "latestMonthCompleteness": "not_documented"
+    }
+  }
+}

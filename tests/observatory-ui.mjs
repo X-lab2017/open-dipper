@@ -5,7 +5,7 @@ const browser=await chromium.launch({headless:true});
 try{
  const page=await browser.newPage({viewport:{width:1440,height:1000},reducedMotion:'reduce'});const errors=[];page.on('pageerror',e=>errors.push(e.message));
  await page.goto(process.env.BASE_URL||'http://127.0.0.1:4173/open-dipper/');
- await expect(page.locator('#earth')).toBeVisible();await expect(page.locator('.pulse-strip')).toContainText('样本仓库');
+ await expect(page.locator('#earth')).toBeVisible();await expect(page.locator('.pulse-strip')).toContainText('HF 模型仓库');
  await expect.poll(()=>page.locator('#earth').evaluate(c=>c.width>100&&c.height>100)).toBe(true);
  await expect(page.locator('.lab-brand > .xlab-logo-dark')).toBeVisible();await expect(page.locator('.lab-brand > .xlab-logo-dark')).toHaveJSProperty('naturalWidth',981);await expect.poll(()=>page.locator('.lab-brand').evaluate(el=>el.getBoundingClientRect().width)).toBeLessThan(110);
  await page.getByRole('button',{name:'切换界面密度',exact:true}).click();await expect(page.locator('html')).toHaveAttribute('data-density','compact');await page.reload();await expect(page.locator('html')).toHaveAttribute('data-density','compact');await page.getByRole('button',{name:'切换界面密度',exact:true}).click();

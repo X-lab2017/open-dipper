@@ -36,19 +36,19 @@
 .portal-disclosure{display:flex;align-items:center;gap:12px;padding:11px 15px;border:1px solid var(--line);border-radius:5px;font-size:11px;color:var(--sub);margin-bottom:22px;background:var(--panel)}
 .portal-disclosure>.badge{flex-shrink:0;font-size:8px}
 .portal-disclosure label{margin-left:auto;display:flex;align-items:center;gap:6px;white-space:nowrap;cursor:pointer}
-.radar-overview{display:flex;position:relative;align-items:center;gap:32px;min-height:170px;padding:26px 30px;border:1px solid var(--line);background:linear-gradient(105deg,var(--soft),var(--panel) 65%);border-radius:7px;overflow:hidden;margin-bottom:24px}
-.radar-statement{flex:1;max-width:640px;padding-right:15px}
-.radar-statement h2{font-size:21px;font-weight:450;margin:10px 0}
-.radar-statement p{font-size:12px;line-height:1.8;color:var(--sub);max-width:550px}
-.radar-count{display:flex;flex-direction:column;gap:4px;flex-shrink:0;position:relative;z-index:1}
-.radar-count strong{font:34px var(--od-font-mono);font-weight:400;color:var(--accent)}
-.radar-count span{color:var(--sub);font-size:11px}
-.radar-orbit{width:145px;height:145px;position:relative;display:grid;place-items:center;margin-left:auto;color:var(--accent);flex-shrink:0}
-.radar-orbit i{position:absolute;inset:0;border-radius:50%;border:1px solid var(--od-border);background:radial-gradient(ellipse at center,var(--soft),transparent 65%)}
-.radar-orbit i:nth-child(2){inset:20px;border-style:dashed;transform:rotate(20deg)}
-.radar-orbit i:nth-child(3){inset:40px}
-.radar-orbit:after{content:'';position:absolute;inset:0;border-radius:50%;background:conic-gradient(from 140deg,transparent 0 75%,var(--soft) 95%,var(--accent) 100%);opacity:.4}
-.radar-orbit b{font:22px var(--od-font-mono);z-index:1;font-weight:400;letter-spacing:3px}
+
+
+
+
+
+
+
+
+
+
+
+
+
 .topic-bar{display:flex;align-items:center;justify-content:space-between;gap:14px;margin-bottom:16px}
 .topic-bar>div{display:flex;gap:6px;flex-wrap:wrap}
 .topic-bar button{font-size:12px;padding:7px 11px;border-color:transparent;color:var(--sub)}
@@ -216,8 +216,8 @@
 }
 @media(max-width:1250px){
   .topbar .product-nav button{font-size:11px;padding:7px 8px}.top-actions .following-link{font-size:10px}
-  .portal-page{padding:30px 24px 38px}.radar-overview{gap:22px}.radar-orbit{width:100px;height:100px}
-  .radar-statement h2{font-size:19px}.signal-card{padding:17px}.signal-title h3{font-size:14px}.portal-search{min-width:190px}
+  .portal-page{padding:30px 24px 38px}
+  .signal-card{padding:17px}.signal-title h3{font-size:14px}.portal-search{min-width:190px}
   .rail-subscribe strong{font-size:13px}.rail-subscribe .portal-eyebrow{font-size:8px;letter-spacing:.7px}.rail-signal{font-size:10px}
   .rail-subscribe>div{align-items:flex-start;flex-direction:column;gap:3px}.following-layout{grid-template-columns:300px minmax(0,1fr)}
 }
@@ -226,7 +226,7 @@
   .page-overview .main-stage{grid-template-rows:540px auto}.page-overview.layout-two .main-stage{grid-template-rows:620px}
   .intelligence-rail{min-height:125px}.view-switch button{font-size:11px}.contextbar .observatory-mark{display:none}
   .portal-page{padding:26px 22px}.portal-heading{gap:18px}.portal-heading-action{display:none}
-  .radar-orbit{display:none}.radar-overview{gap:24px}.radar-statement{padding:0}
+
   .signal-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.topic-bar{flex-wrap:wrap}.portal-search{width:100%}
   .portal-disclosure{flex-wrap:wrap}.portal-disclosure>span:nth-child(2){flex-basis:100%;order:3}
   .subscription-intro{grid-template-columns:1fr 1fr}.brief-teaser{padding:24px}.brief-teaser>.portal-eyebrow{flex-wrap:wrap}.brief-teaser h2{font-size:25px}
@@ -246,8 +246,8 @@
   .rail-subscribe strong{font-size:16px}.rail-subscribe>div{flex-direction:row;align-items:center}.rail-signal{font-size:12px}.rail-subscribe .portal-eyebrow{font-size:9px}
   .portal-page{padding:25px 16px 30px}.portal-heading h1{font-size:27px;letter-spacing:-.3px}.portal-heading p{font-size:12px}
   .portal-disclosure{padding:11px;font-size:10px;gap:8px}.portal-disclosure .badge{font-size:7px}
-  .radar-overview{padding:20px;flex-wrap:wrap;gap:20px}.radar-statement{flex-basis:100%}.radar-statement h2{font-size:20px}
-  .radar-count strong{font-size:28px}.radar-count span{font-size:10px}.radar-count{flex:1}
+
+
   .topic-bar button{font-size:11px;padding:6px 8px}.results-line{flex-wrap:wrap;gap:5px;font-size:10px}
   .signal-grid{grid-template-columns:1fr}.signal-card{padding:18px}.signal-title h3{font-size:16px}.signal-card>p{font-size:12px}
   .subscription-intro{grid-template-columns:1fr}.brief-teaser{min-height:330px;padding:24px}.brief-teaser h2{font-size:27px}

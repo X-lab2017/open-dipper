@@ -4,6 +4,8 @@
 
 ## 已落地
 
+- 精简真实数据层：OpenShare 全球开发者总量及三种地域分布，GOSD / OpenGauge 的 HF 模型仓库／数据集总量与一张月度新增图；观察时间分开披露。来源、覆盖、手工更新边界见[数据证据契约](DATA_EVIDENCE.md)，本轮验收记录见 [#20](https://github.com/X-lab2017/open-dipper/issues/20)。
+
 - 情报门户框架 **1.1.0**：全球观测、AI 雷达、开源生态、情报订阅、参与共建与本机关注；真实 AI 项目发布通过显式映射进入雷达，8 个固定虚构案例展示分析与证据结构。
 - 首页地图区域扩大，月度排行与趋势移至开源生态；两屏第二屏展示 AI 精选与样刊。主题关注、收藏、频率偏好和 Markdown 导出在本机工作。
 - 公开样刊与 Open/Pro 方案可评审，尚未收费、推送、云端同步或开展真实 Agent 自动研究；未虚构专家／机构背书。范围见[情报框架契约](INTELLIGENCE.md)，本轮验证与部署证据见 [#14](https://github.com/X-lab2017/open-dipper/issues/14)。
@@ -30,7 +32,8 @@
 | 主题 | 当前能力 | 尚未完成 |
 | --- | --- | --- |
 | 月度指标 | 20 个精选仓库、4 平台、6 指标 | 全域覆盖、可比较的全球月度地域聚合 |
-| 真实地域 | Microsoft / Apache / PyTorch Foundation 三个标签的独立近一年分布 | 精确起止、未知国家分母；均不能自行补造 |
+| 全球快照 | OpenShare 224 / 236 / 30 地域三指标；GOSD 模型／数据集供给 | 地域观察期、未知分母及末月完整性未披露；手工更新 |
+| 组织地域 | Microsoft / Apache / PyTorch Foundation 三个标签的独立近一年分布 | 精确起止、未知国家分母；均不能自行补造 |
 | 事件 | GitHub releases、OpenSSF/CNCF RSS、审核 issue | 更完整来源、自动实体/地理解析、来源质量评估 |
 | 演示 | 13 个固定虚构生态事件、8 个情报场景和模拟地域指标 | 不作为真实统计，日期不随部署刷新 |
 | 时效 | 事件目标每 30 分钟采集，前端每 5 分钟检查部署快照 | 无流式推送或硬实时 SLA |
@@ -54,6 +57,7 @@
 | 后续事件能力 | [#5 来源、审核容量与地理证据](https://github.com/X-lab2017/open-dipper/issues/5) |
 | 维护者待决策 | [#6 应用许可与各类资源复用边界](https://github.com/X-lab2017/open-dipper/issues/6) |
 | 情报门户框架与后续工作 | [#14 交付](https://github.com/X-lab2017/open-dipper/issues/14)；#15 来源、#16 证据、#17 服务、#18 编辑、#19 首份材料见[框架契约](INTELLIGENCE.md) |
+| 数据内容接入 | [#20 OpenShare 全球分布与 GOSD AI 供给](https://github.com/X-lab2017/open-dipper/issues/20) |
 <!-- issue-index:end -->
 
 接手时先看 issue 的最新状态、关联提交和验收条件。更多背景见 [演进记录](HISTORY.md)、[决策记录](DECISIONS.md) 和 [开发指南](DEVELOPMENT.md)。

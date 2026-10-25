@@ -5,13 +5,13 @@
   "type": "module",
   "scripts": {
     "dev": "vite --host 0.0.0.0",
-    "build": "npm run docs:check && npm run design:check && npm run design:package && tsc --noEmit && vite build",
+    "build": "node scripts/build-evidence.mjs --check && npm run docs:check && npm run design:check && npm run design:package && tsc --noEmit && vite build",
     "preview": "vite preview --host 0.0.0.0",
     "typecheck": "tsc --noEmit",
     "test:ui": "node tests/ui.mjs",
     "refresh:data": "node scripts/fetch-data.mjs",
     "test:data": "node --test tests/data.test.mjs",
-    "test": "npm run test:data && npm run test:dom && npm run test:geo && npm run test:panorama && npm run test:observatory && npm run design:check && npm run docs:check",
+    "test": "npm run test:data && npm run test:dom && npm run test:geo && npm run test:panorama && npm run test:observatory && npm run design:check && npm run docs:check && npm run evidence:check",
     "test:dom": "node --test tests/dom.test.mjs",
     "test:geo": "node --test tests/geography.test.mjs",
     "test:panorama": "node --test tests/panorama.test.mjs",
@@ -25,7 +25,9 @@
     "design:package": "python3 scripts/package-design.py",
     "docs:build": "node scripts/build-context.mjs",
     "docs:check": "node scripts/build-context.mjs --check && node scripts/check-docs.mjs",
-    "test:portal:ui": "node tests/portal-ui.mjs"
+    "test:portal:ui": "node tests/portal-ui.mjs",
+    "evidence:build": "node scripts/build-evidence.mjs",
+    "evidence:check": "node scripts/build-evidence.mjs --check && node --test tests/evidence.test.mjs"
   },
   "devDependencies": {
     "@playwright/test": "^1.52.0",

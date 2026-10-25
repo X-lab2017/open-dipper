@@ -172,6 +172,12 @@
       "path": "CHANGELOG.md",
       "title": "Changelog",
       "purpose": "Separate application and visual milestones"
+    },
+    {
+      "path": "docs/DATA_EVIDENCE.md",
+      "title": "Global observed evidence",
+      "purpose": "OpenShare / pinned GOSD scope, clocks, provenance, missing values, chart and manual refresh",
+      "language": "en"
     }
   ],
   "tasks": {
