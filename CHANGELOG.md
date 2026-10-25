@@ -2,6 +2,12 @@
 
 This file records repository milestones, not published GitHub releases. Application version (`package.json`: 1.0.0) and visual baseline (`design/tokens.json`: 1.2.0) are independent. Detailed feedback and commits are in [the history](docs/HISTORY.md).
 
+## 2026-10-25 · Roadmap and contribution work packages
+
+- Added English/Chinese roadmaps with proposed stage gates, dependencies and outcome measurements.
+- Scoped monthly geography, loading validation and editorial pagination tasks; opened source-directory and terminology entry tasks.
+- Linked the roadmap and live issues from homepages, contribution guides, issue chooser and Agent context; plans remain distinct from implemented capabilities.
+
 ## 2026-10-25 · Product showcase and visual archive
 
 - Added the maintainer-supplied map screenshot to both README editions, linked to the live observatory.

@@ -9,6 +9,8 @@
   "entries": [
     {"path": "README.md", "title": "English homepage", "purpose": "Product, human issue intake, agent-led engineering, business and technical diagrams", "language": "en"},
     {"path": "README.zh-CN.md", "title": "Chinese homepage", "purpose": "Chinese edition of product and participation entry", "language": "zh-CN"},
+    {"path": "ROADMAP.md", "title": "Roadmap and work packages", "purpose": "Proposed stages, acceptance gates, dependencies and contribution entry; issue state is authoritative", "language": "en"},
+    {"path": "ROADMAP.zh-CN.md", "title": "Chinese roadmap", "purpose": "Chinese edition of proposed stages and scoped participation tasks", "language": "zh-CN"},
     {"path": "CONTRIBUTING.zh-CN.md", "title": "Chinese contribution guide", "purpose": "Human needs, agent implementation, evidence and disclosure", "language": "zh-CN"},
     {"path": "docs/HARNESS.md", "title": "Engineering harness", "purpose": "Issue lifecycle, roles, executable checks, conventions and actual automation boundaries", "language": "en"},
     {"path": "docs/plans/README.md", "title": "Execution plan lifecycle", "purpose": "Versioned checkpoints and decisions for complex or multi-session tasks", "language": "en"},
@@ -44,7 +46,7 @@
     "geography": {"read": ["public/data/GEOGRAPHY.md", "docs/DATA_CONTRACTS.md"], "edit": ["scripts/fetch-geography.py", "src/observatory/model.ts"], "checks": ["test:geo", "test:observatory"]},
     "events": {"read": ["docs/EVENTS.md", "docs/OPERATIONS.md"], "edit": ["config/sources.json", "scripts/collect-events.py", "src/observatory/model.ts"], "checks": ["test:observatory"]},
     "legacy": {"read": ["docs/MAINTENANCE.md"], "edit": ["src/main.ts", "src/panorama.ts", "src/globe-math.ts"], "checks": ["test:dom", "test:panorama", "test:ui", "test:panorama:ui"]},
-    "docs": {"read": ["AGENTS.md", "docs/README.md", "docs/HARNESS.md"], "edit": ["README.md", "README.zh-CN.md", "CONTRIBUTING.md", "CONTRIBUTING.zh-CN.md", "docs/CONTEXT.json"], "checks": ["docs:build", "docs:check", "build"]},
+    "docs": {"read": ["AGENTS.md", "docs/README.md", "docs/HARNESS.md"], "edit": ["README.md", "README.zh-CN.md", "CONTRIBUTING.md", "CONTRIBUTING.zh-CN.md", "ROADMAP.md", "ROADMAP.zh-CN.md", "docs/CONTEXT.json"], "checks": ["docs:build", "docs:check", "build"]},
     "operations": {"read": ["docs/OPERATIONS.md", "SECURITY.md"], "edit": [".github/workflows/pages.yml"], "checks": ["typecheck", "test", "build"]}
   },
   "routes": [
@@ -55,6 +57,7 @@
   ],
   "generated": ["llms.txt", "public/llms.txt", "public/agent-context.json"],
   "translations": [
+    {"id": "roadmap", "defaultLanguage": "en", "editions": [{"language": "en", "path": "ROADMAP.md"}, {"language": "zh-CN", "path": "ROADMAP.zh-CN.md"}]},
     {"id": "readme", "defaultLanguage": "en", "editions": [{"language": "en", "path": "README.md"}, {"language": "zh-CN", "path": "README.zh-CN.md"}]},
     {"id": "contributing", "defaultLanguage": "en", "editions": [{"language": "en", "path": "CONTRIBUTING.md"}, {"language": "zh-CN", "path": "CONTRIBUTING.zh-CN.md"}]}
   ]

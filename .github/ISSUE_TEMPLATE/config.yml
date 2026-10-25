@@ -1,5 +1,8 @@
 blank_issues_enabled: true
 contact_links:
+  - name: 路线图与参与任务 / Roadmap
+    url: https://github.com/X-lab2017/open-dipper/blob/main/ROADMAP.md
+    about: 查看建议阶段、首批工作包与适合新参与者的任务。
   - name: 文档与贡献指南 / Documentation
     url: https://github.com/X-lab2017/open-dipper/blob/main/docs/README.md
     about: 阅读当前状态、任务上下文与验收方法。

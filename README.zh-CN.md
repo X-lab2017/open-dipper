@@ -5,7 +5,7 @@
 
 **全球开源生态观测站。** 通过地图、地球与快讯，探索 OpenDigger 月度指标和半实时开源生态事件。
 
-[进入观测站](https://www.x-lab.info/open-dipper/) · [提出需求](https://github.com/X-lab2017/open-dipper/issues/new?template=feature_request.yml) · [反馈问题](https://github.com/X-lab2017/open-dipper/issues/new?template=bug_report.yml) · [查看视觉基线](https://www.x-lab.info/open-dipper/design-system.html)
+[进入观测站](https://www.x-lab.info/open-dipper/) · [路线图](ROADMAP.zh-CN.md) · [提出需求](https://github.com/X-lab2017/open-dipper/issues/new?template=feature_request.yml) · [反馈问题](https://github.com/X-lab2017/open-dipper/issues/new?template=bug_report.yml) · [查看视觉基线](https://www.x-lab.info/open-dipper/design-system.html)
 
 [![OpenDipper 地图视图：地域图层、紧凑导航与生态事件流](docs/assets/open-dipper-map-2026-10-25.png)](https://www.x-lab.info/open-dipper/)
 
@@ -142,7 +142,8 @@ npm run build
 | 知识库在哪里？ | [文档导航](docs/README.md) · [机器上下文](docs/CONTEXT.json) |
 | 产品为什么演进成现在这样？ | [协作历史](docs/HISTORY.md) · [决策记录](docs/DECISIONS.md) · [变更记录](CHANGELOG.md) |
 | 如何复用视觉体系？ | [视觉规范](docs/VISUAL_SYSTEM.md) · [设计资源](design/README.md) |
-| 下一阶段做什么？ | [全域数据 #4](https://github.com/X-lab2017/open-dipper/issues/4) · [事件质量 #5](https://github.com/X-lab2017/open-dipper/issues/5) · [许可决策 #6](https://github.com/X-lab2017/open-dipper/issues/6) |
+| 下一阶段做什么？ | [分阶段路线图](ROADMAP.zh-CN.md) · [统筹 #8](https://github.com/X-lab2017/open-dipper/issues/8) · [全域数据 #4](https://github.com/X-lab2017/open-dipper/issues/4) · [事件质量 #5](https://github.com/X-lab2017/open-dipper/issues/5) · [许可决策 #6](https://github.com/X-lab2017/open-dipper/issues/6) |
+| 第一次可以贡献什么？ | [来源目录 #12](https://github.com/X-lab2017/open-dipper/issues/12) · [双语术语 #13](https://github.com/X-lab2017/open-dipper/issues/13) — 开始前先看 issue 实时状态 |
 
 README 与贡献指南提供中英文版本，深入参考文档暂保留各自维护语言。入口两种语言在同一变更中更新；自动检查检测章节与链接差异，翻译含义由贡献者复核。机器发现入口：[llms.txt](https://www.x-lab.info/open-dipper/llms.txt) 与 [agent-context.json](https://www.x-lab.info/open-dipper/agent-context.json)。
 

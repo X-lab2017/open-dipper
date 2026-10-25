@@ -4,7 +4,7 @@ This is the repository entry point for AI coding agents. People provide needs an
 
 ## Start with the task, not the whole repository
 
-1. Read [current status](docs/STATUS.md) and inspect `git status --short` and the recent log. Preserve unrelated changes and bot-updated snapshots.
+1. Read [current status](docs/STATUS.md) and inspect `git status --short` and the recent log. Preserve unrelated changes and bot-updated snapshots. For new work, consult the [roadmap](ROADMAP.md) and the live issue; planned capabilities are not implemented facts.
 2. Read the relevant row of [the task map](docs/DEVELOPMENT.md). [docs/CONTEXT.json](docs/CONTEXT.json) provides the same entry points for tools. Read referenced source before editing.
 3. For a behavior or architecture change, read the relevant [decision](docs/DECISIONS.md) and data contract. Translate the human need into scope, observable acceptance and a validation plan in the issue/PR; do not ask requesters to supply engineering internals. Complex or multi-session work uses a [versioned execution plan](docs/plans/README.md).
 4. Implement within the authorized scope, run the relevant checks, and report actual results. A command not run is **not verified**; a successful build is not browser acceptance or deployment.

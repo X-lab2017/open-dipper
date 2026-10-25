@@ -5,6 +5,7 @@
 | 目标 | 阅读顺序 |
 | --- | --- |
 | 了解产品和下一步 | [当前状态](STATUS.md) → [评审路线](REVIEW.md) → 关联 issue |
+| 选择参与任务与理解优先级 | [中文路线图](../ROADMAP.zh-CN.md) / [English](../ROADMAP.md) → [统筹 #8](https://github.com/X-lab2017/open-dipper/issues/8) → 已明确范围的任务 |
 | 了解业务和技术结构 | [英文首页](../README.md) / [中文首页](../README.zh-CN.md) 的两张结构图 → [架构](ARCHITECTURE.md) |
 | 提出需求 | 首页需求入口 → 使用场景与期望结果 → 维护者/Agent 补全工程任务 |
 | 人类开发者开始贡献 | [中文贡献指南](../CONTRIBUTING.zh-CN.md) / [English](../CONTRIBUTING.md) → [开发指南](DEVELOPMENT.md) → 对应源文件 |

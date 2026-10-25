@@ -33,6 +33,8 @@
 
 ## GitHub 记录与后续任务
 
+建议顺序与验收门槛见[中文路线图](../ROADMAP.zh-CN.md) / [English](../ROADMAP.md)：R1 可靠基础与参与入口 → R2 有证据的数据扩展 → R3 分析与复用。它们是计划，尚未实施；首批任务和最新进度由 #8 及关联 issue 维护。
+
 <!-- issue-index:start -->
 | 类型 | 记录 / 任务 |
 | --- | --- |
@@ -40,6 +42,7 @@
 | 已交付视觉记录 | [#2 视觉 1.0 → 1.2、参考纠正与演示布局](https://github.com/X-lab2017/open-dipper/issues/2) |
 | 本轮知识库记录与验收 | [#3 AI-friendly 入口、协作披露、索引与清理](https://github.com/X-lab2017/open-dipper/issues/3) |
 | 双语与 Harness 协作记录 | [#7 双语首页、业务/技术图与 Agent 工程闭环](https://github.com/X-lab2017/open-dipper/issues/7) |
+| 路线与首批参与任务 | [#8 R1–R3 统筹、验收门槛与 #9–#13 工作包](https://github.com/X-lab2017/open-dipper/issues/8) |
 | 后续数据接入 | [#4 OpenDigger 全域与月度地域](https://github.com/X-lab2017/open-dipper/issues/4) |
 | 后续事件能力 | [#5 来源、审核容量与地理证据](https://github.com/X-lab2017/open-dipper/issues/5) |
 | 维护者待决策 | [#6 应用许可与各类资源复用边界](https://github.com/X-lab2017/open-dipper/issues/6) |

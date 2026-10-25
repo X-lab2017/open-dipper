@@ -5,7 +5,7 @@
 
 **A global observatory for the open-source ecosystem.** Explore monthly OpenDigger metrics and near-live ecosystem events through a map, globe and news wire.
 
-[Open the observatory](https://www.x-lab.info/open-dipper/) · [Request a feature](https://github.com/X-lab2017/open-dipper/issues/new?template=feature_request.yml) · [Report a problem](https://github.com/X-lab2017/open-dipper/issues/new?template=bug_report.yml) · [Visual baseline](https://www.x-lab.info/open-dipper/design-system.html)
+[Open the observatory](https://www.x-lab.info/open-dipper/) · [Roadmap](ROADMAP.md) · [Request a feature](https://github.com/X-lab2017/open-dipper/issues/new?template=feature_request.yml) · [Report a problem](https://github.com/X-lab2017/open-dipper/issues/new?template=bug_report.yml) · [Visual baseline](https://www.x-lab.info/open-dipper/design-system.html)
 
 [![OpenDipper map view with geographic layers, compact navigation and an ecosystem event wire](docs/assets/open-dipper-map-2026-10-25.png)](https://www.x-lab.info/open-dipper/)
 
@@ -142,7 +142,8 @@ Task-specific checks and browser setup: [development guide](docs/DEVELOPMENT.md)
 | Where is the knowledge base? | [Documentation map](docs/README.md) · [Machine context](docs/CONTEXT.json) |
 | Why did the product evolve this way? | [History](docs/HISTORY.md) · [Decisions](docs/DECISIONS.md) · [Changelog](CHANGELOG.md) |
 | How do I reuse the visual system? | [Visual specification](docs/VISUAL_SYSTEM.md) · [Design resources](design/README.md) |
-| What comes next? | [Full-coverage data #4](https://github.com/X-lab2017/open-dipper/issues/4) · [Event quality #5](https://github.com/X-lab2017/open-dipper/issues/5) · [License decision #6](https://github.com/X-lab2017/open-dipper/issues/6) |
+| What comes next? | [Phased roadmap](ROADMAP.md) · [Coordination #8](https://github.com/X-lab2017/open-dipper/issues/8) · [Full-coverage data #4](https://github.com/X-lab2017/open-dipper/issues/4) · [Event quality #5](https://github.com/X-lab2017/open-dipper/issues/5) · [License decision #6](https://github.com/X-lab2017/open-dipper/issues/6) |
+| Where can I make a first contribution? | [Source directory #12](https://github.com/X-lab2017/open-dipper/issues/12) · [Bilingual terminology #13](https://github.com/X-lab2017/open-dipper/issues/13) — check the live issue state before starting |
 
 README and contribution guides have English and Chinese editions. Deeper references currently use their maintained source language. Update both entry editions together; structural checks detect section/link drift, while contributors review translation meaning. Discovery endpoints: [llms.txt](https://www.x-lab.info/open-dipper/llms.txt) and [agent-context.json](https://www.x-lab.info/open-dipper/agent-context.json).
 

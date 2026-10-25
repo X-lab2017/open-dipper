@@ -5,6 +5,8 @@
 
 欢迎用户、领域专家、开发者和 AI Agent 共同参与。人主导产品方向，Agent 是主要工程协作者；人类开发者贡献代码也遵循同样的证据与评审标准。先读 [当前状态](docs/STATUS.md)，Agent 还需阅读 [AGENTS.md](AGENTS.md)。
 
+建议阶段与可接手工作见[路线图](ROADMAP.zh-CN.md)。[来源目录 #12](https://github.com/X-lab2017/open-dipper/issues/12) 与[双语术语 #13](https://github.com/X-lab2017/open-dipper/issues/13) 是首批 `good first issue` 任务。开始前检查当前负责人/PR，并留言说明简短范围；维护者提供评审路径，Agent 可在已有授权内协助实施。
+
 <!-- section:requests -->
 ## 带着需求来，无需先写实现方案
 

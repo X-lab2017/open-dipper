@@ -5,6 +5,8 @@
 
 OpenDipper welcomes users, domain experts, developers and AI agents. People lead product direction; agents are the primary engineering collaborators. Human code contributions follow the same evidence and review standards. Start with [current status](docs/STATUS.md); agents also read [AGENTS.md](AGENTS.md).
 
+Find the proposed stages and scoped work in the [roadmap](ROADMAP.md). [Source directory #12](https://github.com/X-lab2017/open-dipper/issues/12) and [bilingual terminology #13](https://github.com/X-lab2017/open-dipper/issues/13) are initial `good first issue` tasks. Check their current owner/PR and leave a short scope note before starting; maintainers provide the review path, while agents may help implement under existing authorization.
+
 <!-- section:requests -->
 ## Bring a need, not an implementation plan
 

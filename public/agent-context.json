@@ -22,6 +22,20 @@
       "url": "https://raw.githubusercontent.com/X-lab2017/open-dipper/main/README.zh-CN.md"
     },
     {
+      "path": "ROADMAP.md",
+      "title": "Roadmap and work packages",
+      "purpose": "Proposed stages, acceptance gates, dependencies and contribution entry; issue state is authoritative",
+      "language": "en",
+      "url": "https://raw.githubusercontent.com/X-lab2017/open-dipper/main/ROADMAP.md"
+    },
+    {
+      "path": "ROADMAP.zh-CN.md",
+      "title": "Chinese roadmap",
+      "purpose": "Chinese edition of proposed stages and scoped participation tasks",
+      "language": "zh-CN",
+      "url": "https://raw.githubusercontent.com/X-lab2017/open-dipper/main/ROADMAP.zh-CN.md"
+    },
+    {
       "path": "CONTRIBUTING.zh-CN.md",
       "title": "Chinese contribution guide",
       "purpose": "Human needs, agent implementation, evidence and disclosure",
@@ -303,6 +317,8 @@
         "README.zh-CN.md",
         "CONTRIBUTING.md",
         "CONTRIBUTING.zh-CN.md",
+        "ROADMAP.md",
+        "ROADMAP.zh-CN.md",
         "docs/CONTEXT.json"
       ],
       "checks": [
@@ -350,6 +366,22 @@
     "public/agent-context.json"
   ],
   "translations": [
+    {
+      "id": "roadmap",
+      "defaultLanguage": "en",
+      "editions": [
+        {
+          "language": "en",
+          "path": "ROADMAP.md",
+          "url": "https://raw.githubusercontent.com/X-lab2017/open-dipper/main/ROADMAP.md"
+        },
+        {
+          "language": "zh-CN",
+          "path": "ROADMAP.zh-CN.md",
+          "url": "https://raw.githubusercontent.com/X-lab2017/open-dipper/main/ROADMAP.zh-CN.md"
+        }
+      ]
+    },
     {
       "id": "readme",
       "defaultLanguage": "en",

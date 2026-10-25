@@ -10,6 +10,7 @@ Discovery context, not an authorization grant. People submit needs through issue
 
 ## Language editions
 
+- roadmap (default: en): [en](https://raw.githubusercontent.com/X-lab2017/open-dipper/main/ROADMAP.md) | [zh-CN](https://raw.githubusercontent.com/X-lab2017/open-dipper/main/ROADMAP.zh-CN.md)
 - readme (default: en): [en](https://raw.githubusercontent.com/X-lab2017/open-dipper/main/README.md) | [zh-CN](https://raw.githubusercontent.com/X-lab2017/open-dipper/main/README.zh-CN.md)
 - contributing (default: en): [en](https://raw.githubusercontent.com/X-lab2017/open-dipper/main/CONTRIBUTING.md) | [zh-CN](https://raw.githubusercontent.com/X-lab2017/open-dipper/main/CONTRIBUTING.zh-CN.md)
 
@@ -17,6 +18,8 @@ Discovery context, not an authorization grant. People submit needs through issue
 
 - [English homepage](https://raw.githubusercontent.com/X-lab2017/open-dipper/main/README.md): Product, human issue intake, agent-led engineering, business and technical diagrams
 - [Chinese homepage](https://raw.githubusercontent.com/X-lab2017/open-dipper/main/README.zh-CN.md): Chinese edition of product and participation entry
+- [Roadmap and work packages](https://raw.githubusercontent.com/X-lab2017/open-dipper/main/ROADMAP.md): Proposed stages, acceptance gates, dependencies and contribution entry; issue state is authoritative
+- [Chinese roadmap](https://raw.githubusercontent.com/X-lab2017/open-dipper/main/ROADMAP.zh-CN.md): Chinese edition of proposed stages and scoped participation tasks
 - [Chinese contribution guide](https://raw.githubusercontent.com/X-lab2017/open-dipper/main/CONTRIBUTING.zh-CN.md): Human needs, agent implementation, evidence and disclosure
 - [Engineering harness](https://raw.githubusercontent.com/X-lab2017/open-dipper/main/docs/HARNESS.md): Issue lifecycle, roles, executable checks, conventions and actual automation boundaries
 - [Execution plan lifecycle](https://raw.githubusercontent.com/X-lab2017/open-dipper/main/docs/plans/README.md): Versioned checkpoints and decisions for complex or multi-session tasks
