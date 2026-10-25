@@ -1,0 +1,102 @@
+[
+  {
+    "platform": "github",
+    "path": "X-lab2017/open-digger",
+    "category": "数据观测"
+  },
+  {
+    "platform": "github",
+    "path": "microsoft/vscode",
+    "category": "开发工具"
+  },
+  {
+    "platform": "github",
+    "path": "kubernetes/kubernetes",
+    "category": "云原生"
+  },
+  {
+    "platform": "github",
+    "path": "apache/spark",
+    "category": "数据基础设施"
+  },
+  {
+    "platform": "github",
+    "path": "apache/superset",
+    "category": "数据可视化"
+  },
+  {
+    "platform": "github",
+    "path": "duckdb/duckdb",
+    "category": "数据基础设施"
+  },
+  {
+    "platform": "github",
+    "path": "ClickHouse/ClickHouse",
+    "category": "数据基础设施"
+  },
+  {
+    "platform": "github",
+    "path": "pytorch/pytorch",
+    "category": "人工智能"
+  },
+  {
+    "platform": "github",
+    "path": "huggingface/transformers",
+    "category": "人工智能"
+  },
+  {
+    "platform": "github",
+    "path": "vllm-project/vllm",
+    "category": "人工智能"
+  },
+  {
+    "platform": "github",
+    "path": "langchain-ai/langchain",
+    "category": "人工智能"
+  },
+  {
+    "platform": "github",
+    "path": "ollama/ollama",
+    "category": "人工智能"
+  },
+  {
+    "platform": "github",
+    "path": "rust-lang/rust",
+    "category": "编程语言"
+  },
+  {
+    "platform": "github",
+    "path": "golang/go",
+    "category": "编程语言"
+  },
+  {
+    "platform": "github",
+    "path": "facebook/react",
+    "category": "Web 开发"
+  },
+  {
+    "platform": "github",
+    "path": "vuejs/core",
+    "category": "Web 开发"
+  },
+  {
+    "platform": "github",
+    "path": "grafana/grafana",
+    "category": "可观测性"
+  },
+  {
+    "platform": "gitlab",
+    "path": "gitlab-org/modelops/applied-ml/code-suggestions/ai-assist",
+    "category": "跨平台样本"
+  },
+  {
+    "platform": "gitee",
+    "path": "openharmony/arkui_ace_engine",
+    "category": "跨平台样本"
+  },
+  {
+    "platform": "atomgit",
+    "path": "openharmony/docs",
+    "category": "跨平台样本"
+  }
+]

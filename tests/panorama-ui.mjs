@@ -6,7 +6,7 @@ try {
   const page = await browser.newPage({ viewport: { width: 1440, height: 1000 }, reducedMotion: 'reduce' });
   const errors = [];
   page.on('pageerror', error => errors.push(error.message));
-  await page.goto(process.env.PANORAMA_URL || 'http://127.0.0.1:4173/open-dipper/');
+  await page.goto(process.env.PANORAMA_URL || 'http://127.0.0.1:4173/open-dipper/panorama.html');
   await expect(page.locator('#earth')).toBeVisible();
   await expect(page.locator('.underbar')).toContainText('非实时');
   await expect.poll(() => page.locator('#earth').evaluate(c => [...c.getContext('2d').getImageData(c.width/2,c.height/2,1,1).data].some(v => v > 0))).toBe(true);

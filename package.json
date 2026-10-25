@@ -1,6 +1,6 @@
 {
   "name": "open-dipper",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "private": true,
   "type": "module",
   "scripts": {
@@ -11,11 +11,15 @@
     "test:ui": "node tests/ui.mjs",
     "refresh:data": "node scripts/fetch-data.mjs",
     "test:data": "node --test tests/data.test.mjs",
-    "test": "npm run test:data && npm run test:dom && npm run test:geo && npm run test:panorama",
+    "test": "npm run test:data && npm run test:dom && npm run test:geo && npm run test:panorama && npm run test:observatory",
     "test:dom": "node --test tests/dom.test.mjs",
     "test:geo": "node --test tests/geography.test.mjs",
     "test:panorama": "node --test tests/panorama.test.mjs",
-    "test:panorama:ui": "node tests/panorama-ui.mjs"
+    "test:panorama:ui": "node tests/panorama-ui.mjs",
+    "test:observatory": "node --test tests/observatory.test.mjs && python3 -m unittest discover -s tests -p test_collectors.py",
+    "test:observatory:ui": "node tests/observatory-ui.mjs",
+    "refresh:events": "python3 scripts/collect-events.py",
+    "refresh:monthly": "node scripts/refresh-monthly.mjs"
   },
   "devDependencies": {
     "@playwright/test": "^1.52.0",

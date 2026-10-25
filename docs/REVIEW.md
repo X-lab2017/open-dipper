@@ -1,23 +1,17 @@
-# OpenDipper 0.2 review walkthrough
+# v1 宏观评审路线
 
-Start on the panoramic homepage. Check globe rotation, map switching, zoom/reset, country selection, label layers and repository playback. Geography remains a static annual aggregate when the monthly timeline moves. Open Analysis for the checks below.
+入口：https://www.x-lab.info/open-dipper/
 
-1. Open the overview. Confirm the banner says sample snapshot, not live. Count 20 repositories across four sample platforms.
-2. Change observation month and metric. A dash means no value for that month; latest metric month may be older than entity metadata.
-3. Select GitLab. Its full nested namespace remains intact; comparison selection is reconciled to the platform.
-4. Change GitLab to new stars and open its evidence: the source was HTTP 404, not a zero count.
-5. Use the comparison controls for up to three repositories and switch between 6, 12 and 24 calendar months. Missing months must remain gaps.
-6. Search for a nonexistent name and inspect the empty state. Search filters the directory and available choices, not already selected comparison series.
-7. Open an evidence drawer. Compare the selected month, metric latest month, meta timestamp and fetch timestamp. Follow the original CDN link if needed.
-8. Visit the Evidence tab. Review scope and metric definitions before interpreting rankings.
-9. Test light/dark mode, language switch, keyboard focus, Escape dismissal and a narrow mobile viewport.
+这一轮先评审产品结构、信息层级与交互完整度。真实数据为 20 个仓库样本、3 个组织地域样本；事件包含自动采集和可关闭的虚构演示。
 
-## Decisions still needed
+1. **全球地图**：观察地域着色、指标节点与事件图层；切换组织样本和指标。
+2. **立体地球**：拖拽、缩放，试用自动旋转和专注地图，检查会议展示效果。
+3. **全球月度指标 · 模拟**：切换活跃度、贡献量、影响力并拖动月份，评审未来全域数据的展示形态。
+4. **事件快讯**：按分类、时间、地区与关键词筛选，打开来源；关闭模拟事件查看纯采集内容。
+5. **项目脉搏与趋势透镜**：切换平台、指标和月份，选择与关注项目，查看数据证据。
+6. **录入生态事件**：生成本地草稿、导出 JSON 或进入 GitHub 审核。审核发布与撤回在下一次采集后生效。
+7. **数据状态**：检查来源、实际成功时间、计划周期与样本边界。
 
-- Which repositories/categories should replace or expand the fixed review sample?
-- Is the overview–comparison–evidence structure suitable for the intended audience?
-- What code license should the maintainer apply?
-- Data redistribution rights need verification before formal publishing or mirroring.
-- Browser/visual acceptance remains pending in a browser environment able to reach the local build.
+建议以“保留 / 加强 / 调整”反馈，优先决定地图和快讯的主次、首屏密度、事件六分类、默认指标及首先接入的全域地域数据。
 
-No accounts, automatic data-refresh schedules, alerts or collaboration graph are included. Geography uses actual aggregate country data, not invented flows. GitHub Pages deployment status must be checked in the repository Actions run.
+后续接数据无需替换产品骨架。尚未声称完成：全球完整覆盖、全面事件源覆盖、自动地理解析、多用户后台、严格实时服务保障。

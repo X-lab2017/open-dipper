@@ -1,0 +1,1125 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-24T23:49:55.425635Z",
+  "retentionDays": 90,
+  "events": [
+    {
+      "id": "758d87a72c9122fd8766",
+      "title": "New OpenSSF Tech Talk: How Upstream Contribution Minimizes Technical Debt & Streamlines CRA Reporting",
+      "summary": "Maintaining private forks of open source software (OSS) comes with a hidden tax, costing organizations an average of 5,160 labor hours per release cycle in maintenance and engineering overhead. Beyond the accumulating technical debt and security risks, passive open source consumption is no longer sustainable under emerging regulatory frameworks like the Cyber Resilience Act (CRA), which imposes strict security and vulnerability management mandate",
+      "category": "security",
+      "severity": "info",
+      "occurredAt": "2026-10-23T19:46:03Z",
+      "collectedAt": "2026-10-24T23:49:43.185455Z",
+      "source": "OpenSSF",
+      "sourceId": "openssf",
+      "sourceUrl": "https://openssf.org/blog/2026/10/23/new-openssf-tech-talk-how-upstream-contribution-minimizes-technical-debt-streamlines-cra-reporting/",
+      "repository": null,
+      "provenance": "automatic",
+      "location": null,
+      "reviewStatus": "source-published",
+      "tags": [
+        "OpenSSF"
+      ]
+    },
+    {
+      "id": "b9392c7f7addad4be81c",
+      "title": "Multi-tenant GPU Kubernetes on simulated hardware with Kamaji and HAMi",
+      "summary": "GPU teams usually face a bad trade-off. Give every team its own Kubernetes cluster and you pay for a control plane per team. Put everyone in one shared cluster and you get weak isolation. Either way,...",
+      "category": "research",
+      "severity": "info",
+      "occurredAt": "2026-10-23T11:30:00Z",
+      "collectedAt": "2026-10-24T23:49:49.344951Z",
+      "source": "CNCF",
+      "sourceId": "cncf",
+      "sourceUrl": "https://www.cncf.io/blog/2026/10/23/multi-tenant-gpu-kubernetes-on-simulated-hardware-with-kamaji-and-hami/",
+      "repository": null,
+      "provenance": "automatic",
+      "location": null,
+      "reviewStatus": "source-published",
+      "tags": [
+        "CNCF"
+      ]
+    },
+    {
+      "id": "95ad7c372ca77a5d1aa8",
+      "title": "VS Code · 1.143.1",
+      "summary": "https://code.visualstudio.com/updates/v1_143",
+      "category": "release",
+      "severity": "info",
+      "occurredAt": "2026-10-22T23:04:14Z",
+      "collectedAt": "2026-10-24T23:49:24.480383Z",
+      "source": "VS Code",
+      "sourceId": "release-vscode",
+      "sourceUrl": "https://github.com/microsoft/vscode/releases/tag/1.143.1",
+      "repository": "microsoft/vscode",
+      "provenance": "automatic",
+      "location": null,
+      "reviewStatus": "source-published",
+      "tags": [
+        "VS Code"
+      ]
+    },
+    {
+      "id": "89b96fd10289f94e9d48",
+      "title": "VS Code · 1.143.0",
+      "summary": "https://code.visualstudio.com/updates/v1_143",
+      "category": "release",
+      "severity": "info",
+      "occurredAt": "2026-10-22T13:00:11Z",
+      "collectedAt": "2026-10-24T23:49:24.480409Z",
+      "source": "VS Code",
+      "sourceId": "release-vscode",
+      "sourceUrl": "https://github.com/microsoft/vscode/releases/tag/1.143.0",
+      "repository": "microsoft/vscode",
+      "provenance": "automatic",
+      "location": null,
+      "reviewStatus": "source-published",
+      "tags": [
+        "VS Code"
+      ]
+    },
+    {
+      "id": "5565264b9a6b69c1b1b8",
+      "title": "Who Checked It? Attestations, Gemara, and CRA Due Diligence",
+      "summary": "Discover how the OpenSSF Gemara project clarifies the complex world of security attestations, streamlines software supply chain evaluations, and helps organizations confidently meet EU Cyber Resilience Act (CRA) due diligence requirements.",
+      "category": "security",
+      "severity": "info",
+      "occurredAt": "2026-10-22T12:10:04Z",
+      "collectedAt": "2026-10-24T23:49:43.185498Z",
+      "source": "OpenSSF",
+      "sourceId": "openssf",
+      "sourceUrl": "https://openssf.org/blog/2026/10/22/who-checked-it-attestations-gemara-and-cra-due-diligence/",
+      "repository": null,
+      "provenance": "automatic",
+      "location": null,
+      "reviewStatus": "source-published",
+      "tags": [
+        "OpenSSF"
+      ]
+    },
+    {
+      "id": "e8a9d37fcc42fb534225",
+      "title": "Filtering and reducing AI agent telemetry with the OpenTelemetry Collector",
+      "summary": "Turn on an AI coding agent’s telemetry and it throws a wall of text at you. It’s expensive to store and what’s worse, you can’t make sense of it. It’s all OpenTelemetry native, though. So you...",
+      "category": "research",
+      "severity": "info",
+      "occurredAt": "2026-10-22T11:00:00Z",
+      "collectedAt": "2026-10-24T23:49:49.345012Z",
+      "source": "CNCF",
+      "sourceId": "cncf",
+      "sourceUrl": "https://www.cncf.io/blog/2026/10/22/filtering-and-reducing-ai-agent-telemetry-with-the-opentelemetry-collector/",
+      "repository": null,
+      "provenance": "automatic",
+      "location": null,
+      "reviewStatus": "source-published",
+      "tags": [
+        "CNCF"
+      ]
+    },
+    {
+      "id": "cd9f558f6a5908f2bc66",
+      "title": "DuckDB · DuckDB v2.0.0 \"Cyanoptera\"",
+      "summary": "This release of DuckDB is named \"Cyanoptera\" after Spatula Cyanoptera, a species of duck found in western North and South America. Please also refer to the announcement blog post: https://duckdb.org/2026/10/21/announcing-duckdb-200.html ## What's Changed * Make `Identifier` a class instead of using string everywhere by @Mytherin in https://github.com/duckdb/duckdb/pull/23161 * Move to tidy-check diff again by @Mytherin in https://github.com/duckd",
+      "category": "release",
+      "severity": "info",
+      "occurredAt": "2026-10-21T12:49:12Z",
+      "collectedAt": "2026-10-24T23:49:36.739800Z",
+      "source": "DuckDB",
+      "sourceId": "release-duckdb",
+      "sourceUrl": "https://github.com/duckdb/duckdb/releases/tag/v2.0.0",
+      "repository": "duckdb/duckdb",
+      "provenance": "automatic",
+      "location": null,
+      "reviewStatus": "source-published",
+      "tags": [
+        "DuckDB"
+      ]
+    },
+    {
+      "id": "e6e372bfdce8d8af5e05",
+      "title": "Before you evaluate an AI SRE, give your existing agent context",
+      "summary": "If you’re evaluating AI SRE products, you probably own most of one already. The coding agent your engineers use, whether that’s Claude Code, Codex or Cursor, can already investigate a Kubernetes cluster. What it usually lacks...",
+      "category": "research",
+      "severity": "info",
+      "occurredAt": "2026-10-21T11:00:00Z",
+      "collectedAt": "2026-10-24T23:49:49.345047Z",
+      "source": "CNCF",
+      "sourceId": "cncf",
+      "sourceUrl": "https://www.cncf.io/blog/2026/10/21/before-you-evaluate-an-ai-sre-give-your-existing-agent-context/",
+      "repository": null,
+      "provenance": "automatic",
+      "location": null,
+      "reviewStatus": "source-published",
+      "tags": [
+        "CNCF"
+      ]
+    },
+    {
+      "id": "a72ec81631f18dd96d86",
+      "title": "New OpenSSF Guide: Finding and Fixing Vulnerabilities Using AI",
+      "summary": "AI has gotten good at finding software vulnerabilities, and attackers are already using it. For example, “AI-enabled adversaries increased attacks by 89% year-over-year” according to the CrowdStrike 2026 Global Threat Report. If you maintain or develop software, it is critical to find and fix vulnerabilities before attackers exploit them.",
+      "category": "security",
+      "severity": "info",
+      "occurredAt": "2026-10-20T20:05:39Z",
+      "collectedAt": "2026-10-24T23:49:43.185534Z",
+      "source": "OpenSSF",
+      "sourceId": "openssf",
+      "sourceUrl": "https://openssf.org/blog/2026/10/20/new-openssf-guide-finding-and-fixing-vulnerabilities-using-ai/",
+      "repository": null,
+      "provenance": "automatic",
+      "location": null,
+      "reviewStatus": "source-published",
+      "tags": [
+        "OpenSSF"
+      ]
+    },
+    {
+      "id": "7f57c06de580388aede9",
+      "title": "What’s in the SOSS? Podcast #76 – S3E28 Invisible Infrastructure, Autonomous Agents, and 10 Years of Cloud Native with CNCF’s Chris Aniszczyk",
+      "summary": "In this episode of What's in the SOSS, host CRob sits down with CNCF CTO Chris Aniszczyk to celebrate a decade of scaling invisible infrastructure. They dive into the evolution of Kubernetes, the cultural friction within AI teams, and how initiatives like the Kubernetes AI Conformance Program are maintaining vendor neutrality.",
+      "category": "security",
+      "severity": "info",
+      "occurredAt": "2026-10-20T16:45:58Z",
+      "collectedAt": "2026-10-24T23:49:43.185566Z",
+      "source": "OpenSSF",
+      "sourceId": "openssf",
+      "sourceUrl": "https://openssf.org/podcast/2026/10/20/whats-in-the-soss-podcast-76-s3e28-invisible-infrastructure-autonomous-agents-and-10-years-of-cloud-native-with-cncfs-chris-aniszczyk/",
+      "repository": null,
+      "provenance": "automatic",
+      "location": null,
+      "reviewStatus": "source-published",
+      "tags": [
+        "OpenSSF"
+      ]
+    },
+    {
+      "id": "a4173f1ac8a601143be8",
+      "title": "How AI workloads are reshaping Kubernetes autoscaling",
+      "summary": "Kubernetes has quietly run much of the world’s containerized software on a division of labor between two control loops that rarely had to talk to each other. The scheduler places each pod on a node that...",
+      "category": "research",
+      "severity": "info",
+      "occurredAt": "2026-10-19T11:00:00Z",
+      "collectedAt": "2026-10-24T23:49:49.345073Z",
+      "source": "CNCF",
+      "sourceId": "cncf",
+      "sourceUrl": "https://www.cncf.io/blog/2026/10/19/how-ai-workloads-are-reshaping-kubernetes-autoscaling/",
+      "repository": null,
+      "provenance": "automatic",
+      "location": null,
+      "reviewStatus": "source-published",
+      "tags": [
+        "CNCF"
+      ]
+    },
+    {
+      "id": "83a753b4160cba93855a",
+      "title": "vLLM · v0.32.0",
+      "summary": "# v0.32.0 ## Highlights This release features 814 commits from 363 contributors (121 new)! * **Structured decisions and generic parsers**: the new `POST /v1/systemone` endpoint answers `choice`, `noul` and `score` questions over a structured state (#59299), is served by default (#60677, #60696), and also runs on `Cloudflare/clef-omni` (#61064), `LiquidAI/d1-3B` (#60676) and DiffusionGemma (#60466). The new `hf` tool and reasoning parser (`--tool-",
+      "category": "release",
+      "severity": "info",
+      "occurredAt": "2026-10-18T06:50:48Z",
+      "collectedAt": "2026-10-24T23:49:18.583012Z",
+      "source": "vLLM",
+      "sourceId": "release-vllm",
+      "sourceUrl": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0",
+      "repository": "vllm-project/vllm",
+      "provenance": "automatic",
+      "location": null,
+      "reviewStatus": "source-published",
+      "tags": [
+        "vLLM"
+      ]
+    },
+    {
+      "id": "60410e2b94e94866de52",
+      "title": "Case Study: GitHub Expands Malware Advisories Across Eight Ecosystems with OpenSSF",
+      "summary": "Learn how GitHub integrated OpenSSF's malicious-package data into its Advisory Database to expand Dependabot malware alerts across eight ecosystems.",
+      "category": "security",
+      "severity": "info",
+      "occurredAt": "2026-10-16T19:06:29Z",
+      "collectedAt": "2026-10-24T23:49:43.185587Z",
+      "source": "OpenSSF",
+      "sourceId": "openssf",
+      "sourceUrl": "https://openssf.org/blog/2026/10/16/case-study-github-expands-malware-advisories-across-eight-ecosystems-with-openssf/",
+      "repository": null,
+      "provenance": "automatic",
+      "location": null,
+      "reviewStatus": "source-published",
+      "tags": [
+        "OpenSSF"
+      ]
+    },
+    {
+      "id": "cc19849b801485f44dea",
+      "title": "Deploying, maintaining, and migrating production n8n on EKS",
+      "summary": "n8n is easy to try and harder to run under production traffic. A single container with SQLite works great for a quick demo. Production is a different story entirely. You need workers, webhook processors, PostgreSQL, Redis,...",
+      "category": "research",
+      "severity": "info",
+      "occurredAt": "2026-10-16T16:39:04Z",
+      "collectedAt": "2026-10-24T23:49:49.345098Z",
+      "source": "CNCF",
+      "sourceId": "cncf",
+      "sourceUrl": "https://www.cncf.io/blog/2026/10/16/deploying-maintaining-and-migrating-production-n8n-on-eks/",
+      "repository": null,
+      "provenance": "automatic",
+      "location": null,
+      "reviewStatus": "source-published",
+      "tags": [
+        "CNCF"
+      ]
+    },
+    {
+      "id": "461db0622f2af4e6f052",
+      "title": "Putting Nepal on the CNCF Golden Kubestronaut map",
+      "summary": "In this blog, I will share my Golden Kubestronaut journey, how I became the first and youngest Golden Kubestronaut from Nepal, what motivated me to pursue this path, and what it actually takes to earn the...",
+      "category": "research",
+      "severity": "info",
+      "occurredAt": "2026-10-16T11:30:00Z",
+      "collectedAt": "2026-10-24T23:49:49.345121Z",
+      "source": "CNCF",
+      "sourceId": "cncf",
+      "sourceUrl": "https://www.cncf.io/blog/2026/10/16/putting-nepal-on-the-cncf-golden-kubestronaut-map/",
+      "repository": null,
+      "provenance": "automatic",
+      "location": null,
+      "reviewStatus": "source-published",
+      "tags": [
+        "CNCF"
+      ]
+    },
+    {
+      "id": "0bbec677483a7374efd2",
+      "title": "Rust · Rust 1.99.1",
+      "summary": "- [library: fix missing symbol `wcslen` on UEFI and embedded targets](https://github.com/rust-lang/rust/issues/163614) - [rustc: fix miscompilation of FFI `bool` return values on x86\\_64](https://github.com/rust-lang/rust/issues/163911) - [rust-lld: add the rpath for `libLLVM` on macOS](https://github.com/rust-lang/rust/issues/163947)",
+      "category": "release",
+      "severity": "info",
+      "occurredAt": "2026-10-16T04:47:44Z",
+      "collectedAt": "2026-10-24T23:49:30.564293Z",
+      "source": "Rust",
+      "sourceId": "release-rust",
+      "sourceUrl": "https://github.com/rust-lang/rust/releases/tag/1.99.1",
+      "repository": "rust-lang/rust",
+      "provenance": "automatic",
+      "location": null,
+      "reviewStatus": "source-published",
+      "tags": [
+        "Rust"
+      ]
+    },
+    {
+      "id": "1aca84a4e8ca68cc5ca7",
+      "title": "Carbon as a first-class signal: Bringing software carbon intensity to OpenTelemetry",
+      "summary": "At Observability Summit Europe 2026 in Prague, I presented a keynote titled Carbon as a First-Class Signal: Designing a Standard for OpenTelemetry. The talk explored how Software Carbon Intensity (SCI) could become part of cloud-native observability...",
+      "category": "research",
+      "severity": "info",
+      "occurredAt": "2026-10-15T22:21:45Z",
+      "collectedAt": "2026-10-24T23:49:49.345145Z",
+      "source": "CNCF",
+      "sourceId": "cncf",
+      "sourceUrl": "https://www.cncf.io/blog/2026/10/15/carbon-as-a-first-class-signal-bringing-software-carbon-intensity-to-opentelemetry/",
+      "repository": null,
+      "provenance": "automatic",
+      "location": null,
+      "reviewStatus": "source-published",
+      "tags": [
+        "CNCF"
+      ]
+    },
+    {
+      "id": "7994a6fc9ae284916e7d",
+      "title": "Extending Kubernetes policy enforcement to runtime security for AI workloads",
+      "summary": "Nirmata created Kyverno and donated it to the CNCF in 2020. Kyverno is now a graduated CNCF project and is widely used for enforcing and automating configuration security and best practices. However, admission control answers one...",
+      "category": "research",
+      "severity": "info",
+      "occurredAt": "2026-10-15T11:00:00Z",
+      "collectedAt": "2026-10-24T23:49:49.345171Z",
+      "source": "CNCF",
+      "sourceId": "cncf",
+      "sourceUrl": "https://www.cncf.io/blog/2026/10/15/extending-kubernetes-policy-enforcement-to-runtime-security-for-ai-workloads/",
+      "repository": null,
+      "provenance": "automatic",
+      "location": null,
+      "reviewStatus": "source-published",
+      "tags": [
+        "CNCF"
+      ]
+    },
+    {
+      "id": "bad2b79533f224af79a4",
+      "title": "VS Code · 1.142.0",
+      "summary": "https://code.visualstudio.com/updates/v1_142",
+      "category": "release",
+      "severity": "info",
+      "occurredAt": "2026-10-14T19:46:12Z",
+      "collectedAt": "2026-10-24T23:49:24.480424Z",
+      "source": "VS Code",
+      "sourceId": "release-vscode",
+      "sourceUrl": "https://github.com/microsoft/vscode/releases/tag/1.142.0",
+      "repository": "microsoft/vscode",
+      "provenance": "automatic",
+      "location": null,
+      "reviewStatus": "source-published",
+      "tags": [
+        "VS Code"
+      ]
+    },
+    {
+      "id": "4755cd0b5b43a7d5ae23",
+      "title": "VS Code · 1.141.2",
+      "summary": "https://code.visualstudio.com/updates/v1_141",
+      "category": "release",
+      "severity": "info",
+      "occurredAt": "2026-10-14T14:32:33Z",
+      "collectedAt": "2026-10-24T23:49:24.480437Z",
+      "source": "VS Code",
+      "sourceId": "release-vscode",
+      "sourceUrl": "https://github.com/microsoft/vscode/releases/tag/1.141.2",
+      "repository": "microsoft/vscode",
+      "provenance": "automatic",
+      "location": null,
+      "reviewStatus": "source-published",
+      "tags": [
+        "VS Code"
+      ]
+    },
+    {
+      "id": "e74b3156482b8b163448",
+      "title": "VS Code · 1.141.1",
+      "summary": "",
+      "category": "release",
+      "severity": "info",
+      "occurredAt": "2026-10-13T21:53:53Z",
+      "collectedAt": "2026-10-24T23:49:24.480449Z",
+      "source": "VS Code",
+      "sourceId": "release-vscode",
+      "sourceUrl": "https://github.com/microsoft/vscode/releases/tag/1.141.1",
+      "repository": "microsoft/vscode",
+      "provenance": "automatic",
+      "location": null,
+      "reviewStatus": "source-published",
+      "tags": [
+        "VS Code"
+      ]
+    },
+    {
+      "id": "7107713994c350197705",
+      "title": "Introducing Privateer: AI-Assisted Security & Compliance Evaluation Framework Joins the OpenSSF Sandbox",
+      "summary": "Discover Privateer, a new plugin-based, AI-assisted security and compliance evaluation framework that has officially joined the OpenSSF Sandbox under the ORBIT Working Group.",
+      "category": "security",
+      "severity": "info",
+      "occurredAt": "2026-10-13T20:53:11Z",
+      "collectedAt": "2026-10-24T23:49:43.185610Z",
+      "source": "OpenSSF",
+      "sourceId": "openssf",
+      "sourceUrl": "https://openssf.org/blog/2026/10/13/introducing-privateer-ai-assisted-security-compliance-evaluation-framework-joins-the-openssf-sandbox/",
+      "repository": null,
+      "provenance": "automatic",
+      "location": null,
+      "reviewStatus": "source-published",
+      "tags": [
+        "OpenSSF"
+      ]
+    },
+    {
+      "id": "ed5ee93fdd2eaacf3b69",
+      "title": "From zero to agent builder: Running kagent on your laptop",
+      "summary": "If you have seen a demo of a no-code agent builder, you know the moment. Someone types one sentence, waits a minute, and there it is: a new agent, running, with tools. It is impressive. For...",
+      "category": "research",
+      "severity": "info",
+      "occurredAt": "2026-10-12T11:30:00Z",
+      "collectedAt": "2026-10-24T23:49:49.345193Z",
+      "source": "CNCF",
+      "sourceId": "cncf",
+      "sourceUrl": "https://www.cncf.io/blog/2026/10/12/from-zero-to-agent-builder-running-kagent-on-your-laptop/",
+      "repository": null,
+      "provenance": "automatic",
+      "location": null,
+      "reviewStatus": "source-published",
+      "tags": [
+        "CNCF"
+      ]
+    },
+    {
+      "id": "c79745186690147bf134",
+      "title": "Join Platform Engineering Day at KubeCon + CloudNativeCon North America 2026",
+      "summary": "As organizations accelerate their adoption of AI and cloud native technologies, platform teams are being asked to solve a growing set of challenges. How can developers access new capabilities such as AI safely and efficiently? How...",
+      "category": "research",
+      "severity": "info",
+      "occurredAt": "2026-10-09T12:00:00Z",
+      "collectedAt": "2026-10-24T23:49:49.345219Z",
+      "source": "CNCF",
+      "sourceId": "cncf",
+      "sourceUrl": "https://www.cncf.io/blog/2026/10/09/join-platform-engineering-day-at-kubecon-cloudnativecon-north-america-2026/",
+      "repository": null,
+      "provenance": "automatic",
+      "location": null,
+      "reviewStatus": "source-published",
+      "tags": [
+        "CNCF"
+      ]
+    },
+    {
+      "id": "b97eb735f6db9ffae486",
+      "title": "VS Code · 1.141.0",
+      "summary": "https://code.visualstudio.com/updates/v1_141",
+      "category": "release",
+      "severity": "info",
+      "occurredAt": "2026-10-07T11:01:16Z",
+      "collectedAt": "2026-10-24T23:49:24.480462Z",
+      "source": "VS Code",
+      "sourceId": "release-vscode",
+      "sourceUrl": "https://github.com/microsoft/vscode/releases/tag/1.141.0",
+      "repository": "microsoft/vscode",
+      "provenance": "automatic",
+      "location": null,
+      "reviewStatus": "source-published",
+      "tags": [
+        "VS Code"
+      ]
+    },
+    {
+      "id": "ec8a080a2598bae92c2c",
+      "title": "What’s in the SOSS? Podcast #75 – S3E27 From Upstream to Downstream: Managing Open Source Risk in a Changing Regulatory Era with Vincent Danen",
+      "summary": "",
+      "category": "security",
+      "severity": "info",
+      "occurredAt": "2026-10-06T15:31:13Z",
+      "collectedAt": "2026-10-24T23:49:43.185633Z",
+      "source": "OpenSSF",
+      "sourceId": "openssf",
+      "sourceUrl": "https://openssf.org/podcast/2026/10/06/whats-in-the-soss-podcast-75-s3e27-from-upstream-to-downstream-managing-open-source-risk-in-a-changing-regulatory-era-with-vincent-danen/",
+      "repository": null,
+      "provenance": "automatic",
+      "location": null,
+      "reviewStatus": "source-published",
+      "tags": [
+        "OpenSSF"
+      ]
+    },
+    {
+      "id": "68262cce1ec3426c1992",
+      "title": "OpenSSF Shares Expanded Membership and New Global Policy Resources During Community Day Europe",
+      "summary": "The OpenSSF announced expanded membership during its Community Day Europe, welcoming four new members: A-Team Systems, Emphere, DACHS IT GMBH, and JetBrains. The Foundation also released significant CRA resources to deepen Cyber Resilience Act (CRA) preparedness. These updates come as regulatory pressure grows and mandatory CRA reporting takes effect, driving the need for clear guidance and systemic collaboration on open source security.",
+      "category": "security",
+      "severity": "info",
+      "occurredAt": "2026-10-06T02:59:49Z",
+      "collectedAt": "2026-10-24T23:49:43.185663Z",
+      "source": "OpenSSF",
+      "sourceId": "openssf",
+      "sourceUrl": "https://openssf.org/press-release/2026/10/06/openssf-shares-expanded-membership-and-new-global-policy-resources-during-community-day-europe/",
+      "repository": null,
+      "provenance": "automatic",
+      "location": null,
+      "reviewStatus": "source-published",
+      "tags": [
+        "OpenSSF"
+      ]
+    },
+    {
+      "id": "9668af85ed2e1acf35b7",
+      "title": "vLLM · v0.31.0",
+      "summary": "# v0.31.0 ## Highlights This release features 717 commits from 307 contributors (96 new)! * **DeepSeek-V4.1-Flash performance**: FlashMLA mega attention with the V4.1 NVFP4 compressed KV cache is now the SM100 default (#56935); DeepGEMM sparse MQA logits for the indexer (#56254) and Mega-Gate fusing the gate GEMM with expert selection (#56266); decoder boundaries fuse the TP all-reduce, mHC input preparation (#57643) and the MoE finalize (#58586)",
+      "category": "release",
+      "severity": "info",
+      "occurredAt": "2026-10-05T06:44:55Z",
+      "collectedAt": "2026-10-24T23:49:18.583988Z",
+      "source": "vLLM",
+      "sourceId": "release-vllm",
+      "sourceUrl": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0",
+      "repository": "vllm-project/vllm",
+      "provenance": "automatic",
+      "location": null,
+      "reviewStatus": "source-published",
+      "tags": [
+        "vLLM"
+      ]
+    },
+    {
+      "id": "39d735d1ac5697402caf",
+      "title": "Rust · Rust 1.99.0",
+      "summary": "## Language - [Add allow-by-default `raw_borrows_via_references` lint that checks for references that decay immediately into raw borrows](https://github.com/rust-lang/rust/pull/138230) - [Extend `unconditional_panic` lint to function calls that panic when the chunks/windows size is zero](https://github.com/rust-lang/rust/pull/153563) - [Stabilize C-variadic function definitions](https://github.com/rust-lang/rust/pull/155697) - [Stabilize the abil",
+      "category": "release",
+      "severity": "info",
+      "occurredAt": "2026-10-01T12:41:12Z",
+      "collectedAt": "2026-10-24T23:49:30.564581Z",
+      "source": "Rust",
+      "sourceId": "release-rust",
+      "sourceUrl": "https://github.com/rust-lang/rust/releases/tag/1.99.0",
+      "repository": "rust-lang/rust",
+      "provenance": "automatic",
+      "location": null,
+      "reviewStatus": "source-published",
+      "tags": [
+        "Rust"
+      ]
+    },
+    {
+      "id": "6237ddde2e4ee96dae44",
+      "title": "VS Code · 1.140.0",
+      "summary": "https://code.visualstudio.com/updates/v1_140",
+      "category": "release",
+      "severity": "info",
+      "occurredAt": "2026-09-30T22:00:22Z",
+      "collectedAt": "2026-10-24T23:49:24.480474Z",
+      "source": "VS Code",
+      "sourceId": "release-vscode",
+      "sourceUrl": "https://github.com/microsoft/vscode/releases/tag/1.140.0",
+      "repository": "microsoft/vscode",
+      "provenance": "automatic",
+      "location": null,
+      "reviewStatus": "source-published",
+      "tags": [
+        "VS Code"
+      ]
+    },
+    {
+      "id": "d29e2fefa09f26e7f29c",
+      "title": "PyTorch · PyTorch 2.14.1 Release",
+      "summary": "This release is meant to fix the following regressions and silent correctness issues: ## Silent correctness fixes - Fix incorrect `torch.linalg.lstsq` solutions on MPS for complex batched underdetermined systems ([#196113](https://github.com/pytorch/pytorch/issues/196113)), fixed by [#196128](https://github.com/pytorch/pytorch/pull/196128) - Fix non-orthogonal `U` and inaccurate small singular values from `torch.linalg.svd` on MPS for rank-defici",
+      "category": "release",
+      "severity": "info",
+      "occurredAt": "2026-09-30T19:14:48Z",
+      "collectedAt": "2026-10-24T23:49:12.526905Z",
+      "source": "PyTorch",
+      "sourceId": "release-pytorch",
+      "sourceUrl": "https://github.com/pytorch/pytorch/releases/tag/v2.14.1",
+      "repository": "pytorch/pytorch",
+      "provenance": "automatic",
+      "location": null,
+      "reviewStatus": "source-published",
+      "tags": [
+        "PyTorch"
+      ]
+    },
+    {
+      "id": "84cb372dd4a64f693768",
+      "title": "OpenSSF Newsletter – September 2026",
+      "summary": "September brings a commitment to sustainable package registries, practical Cyber Resilience Act (CRA) guidance, new community security work, and three conversations on AI, regulation, and dependency risk. Join us in...",
+      "category": "security",
+      "severity": "info",
+      "occurredAt": "2026-09-30T11:25:38Z",
+      "collectedAt": "2026-10-24T23:49:43.185686Z",
+      "source": "OpenSSF",
+      "sourceId": "openssf",
+      "sourceUrl": "https://openssf.org/newsletter/2026/09/30/openssf-newsletter-september-2026/",
+      "repository": null,
+      "provenance": "automatic",
+      "location": null,
+      "reviewStatus": "source-published",
+      "tags": [
+        "OpenSSF"
+      ]
+    },
+    {
+      "id": "42b3e2fbc430310f3ffe",
+      "title": "What’s in the SOSS? Podcast #74 – S3E26 Building the Agentic Future with Angie Jones",
+      "summary": "Discover the future of AI agents with Angie Jones, VP of Developer Experience at the Agentic AI Foundation. Learn about open source standards, MCP, and secure agentic engineering on the OpenSSF podcast.",
+      "category": "security",
+      "severity": "info",
+      "occurredAt": "2026-09-29T14:13:09Z",
+      "collectedAt": "2026-10-24T23:49:43.185707Z",
+      "source": "OpenSSF",
+      "sourceId": "openssf",
+      "sourceUrl": "https://openssf.org/podcast/2026/09/29/whats-in-the-soss-podcast-74-s3e26-building-the-agentic-future-with-angie-jones/",
+      "repository": null,
+      "provenance": "automatic",
+      "location": null,
+      "reviewStatus": "source-published",
+      "tags": [
+        "OpenSSF"
+      ]
+    },
+    {
+      "id": "f14f504a9302d17f3b08",
+      "title": "DuckDB · DuckDB v1.5.6 Bugfix Release",
+      "summary": "This is a bug fix release for various issues discovered after we released v1.5.5 ## What's Changed * Use relative includes in unity build sources for cache reuse by @NiclasHaderer in https://github.com/duckdb/duckdb/pull/23972 * bump vortex by @samansmink in https://github.com/duckdb/duckdb/pull/24089 * [variegata] Remove Julia client in favor of duckdb/DuckDB.jl by @evertlammerts in https://github.com/duckdb/duckdb/pull/24127 * [variegata] Repla",
+      "category": "release",
+      "severity": "info",
+      "occurredAt": "2026-09-28T13:35:11Z",
+      "collectedAt": "2026-10-24T23:49:36.740054Z",
+      "source": "DuckDB",
+      "sourceId": "release-duckdb",
+      "sourceUrl": "https://github.com/duckdb/duckdb/releases/tag/v1.5.6",
+      "repository": "duckdb/duckdb",
+      "provenance": "automatic",
+      "location": null,
+      "reviewStatus": "source-published",
+      "tags": [
+        "DuckDB"
+      ]
+    },
+    {
+      "id": "2206361769f445b5a838",
+      "title": "VS Code · 1.139.1",
+      "summary": "https://code.visualstudio.com/updates/v1_139",
+      "category": "release",
+      "severity": "info",
+      "occurredAt": "2026-09-25T09:58:03Z",
+      "collectedAt": "2026-10-24T23:49:24.480484Z",
+      "source": "VS Code",
+      "sourceId": "release-vscode",
+      "sourceUrl": "https://github.com/microsoft/vscode/releases/tag/1.139.1",
+      "repository": "microsoft/vscode",
+      "provenance": "automatic",
+      "location": null,
+      "reviewStatus": "source-published",
+      "tags": [
+        "VS Code"
+      ]
+    },
+    {
+      "id": "59aea03c3f02ce3c3e68",
+      "title": "Kubernetes · v1.34.12",
+      "summary": "See [kubernetes-announce@](https://groups.google.com/forum/#!forum/kubernetes-announce). Additional binary downloads are linked in the [CHANGELOG](https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.34.md). See the [CHANGELOG](https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.34.md) for more details.",
+      "category": "release",
+      "severity": "info",
+      "occurredAt": "2026-09-23T19:58:45Z",
+      "collectedAt": "2026-10-24T23:49:06.358475Z",
+      "source": "Kubernetes",
+      "sourceId": "release-kubernetes",
+      "sourceUrl": "https://github.com/kubernetes/kubernetes/releases/tag/v1.34.12",
+      "repository": "kubernetes/kubernetes",
+      "provenance": "automatic",
+      "location": null,
+      "reviewStatus": "source-published",
+      "tags": [
+        "Kubernetes"
+      ]
+    },
+    {
+      "id": "f9640e6d41ed8f7acf8e",
+      "title": "Kubernetes · v1.35.9",
+      "summary": "See [kubernetes-announce@](https://groups.google.com/forum/#!forum/kubernetes-announce). Additional binary downloads are linked in the [CHANGELOG](https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.35.md). See the [CHANGELOG](https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.35.md) for more details.",
+      "category": "release",
+      "severity": "info",
+      "occurredAt": "2026-09-23T19:35:01Z",
+      "collectedAt": "2026-10-24T23:49:06.358457Z",
+      "source": "Kubernetes",
+      "sourceId": "release-kubernetes",
+      "sourceUrl": "https://github.com/kubernetes/kubernetes/releases/tag/v1.35.9",
+      "repository": "kubernetes/kubernetes",
+      "provenance": "automatic",
+      "location": null,
+      "reviewStatus": "source-published",
+      "tags": [
+        "Kubernetes"
+      ]
+    },
+    {
+      "id": "ca5f22085e3e87fdc6d7",
+      "title": "Kubernetes · v1.37.1",
+      "summary": "See [kubernetes-announce@](https://groups.google.com/forum/#!forum/kubernetes-announce). Additional binary downloads are linked in the [CHANGELOG](https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.37.md). See the [CHANGELOG](https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.37.md) for more details.",
+      "category": "release",
+      "severity": "info",
+      "occurredAt": "2026-09-23T19:13:17Z",
+      "collectedAt": "2026-10-24T23:49:06.358390Z",
+      "source": "Kubernetes",
+      "sourceId": "release-kubernetes",
+      "sourceUrl": "https://github.com/kubernetes/kubernetes/releases/tag/v1.37.1",
+      "repository": "kubernetes/kubernetes",
+      "provenance": "automatic",
+      "location": null,
+      "reviewStatus": "source-published",
+      "tags": [
+        "Kubernetes"
+      ]
+    },
+    {
+      "id": "3abbcb6ca22e67c744d6",
+      "title": "Kubernetes · v1.36.5",
+      "summary": "See [kubernetes-announce@](https://groups.google.com/forum/#!forum/kubernetes-announce). Additional binary downloads are linked in the [CHANGELOG](https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.36.md). See the [CHANGELOG](https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.36.md) for more details.",
+      "category": "release",
+      "severity": "info",
+      "occurredAt": "2026-09-23T18:58:18Z",
+      "collectedAt": "2026-10-24T23:49:06.358434Z",
+      "source": "Kubernetes",
+      "sourceId": "release-kubernetes",
+      "sourceUrl": "https://github.com/kubernetes/kubernetes/releases/tag/v1.36.5",
+      "repository": "kubernetes/kubernetes",
+      "provenance": "automatic",
+      "location": null,
+      "reviewStatus": "source-published",
+      "tags": [
+        "Kubernetes"
+      ]
+    },
+    {
+      "id": "38fca20518f215563645",
+      "title": "VS Code · 1.139.0",
+      "summary": "https://code.visualstudio.com/updates/v1_139",
+      "category": "release",
+      "severity": "info",
+      "occurredAt": "2026-09-23T10:32:34Z",
+      "collectedAt": "2026-10-24T23:49:24.480494Z",
+      "source": "VS Code",
+      "sourceId": "release-vscode",
+      "sourceUrl": "https://github.com/microsoft/vscode/releases/tag/1.139.0",
+      "repository": "microsoft/vscode",
+      "provenance": "automatic",
+      "location": null,
+      "reviewStatus": "source-published",
+      "tags": [
+        "VS Code"
+      ]
+    },
+    {
+      "id": "3762ff1d2e3077743459",
+      "title": "vLLM · v0.30.0",
+      "summary": "# v0.30.0 ## Highlights This release features 762 commits from 315 contributors (104 new)! * **New models**: DeepSeek-V4.1-Flash (#56214, #56228, #56208) with the whole KV stored in MXFP8 through the FlashMLA V4.1 record on SM100 (#56893), DeepGEMM Mega-mHC (#56962), and async Engram prefetch with Engram DP sharding (#56512); DeepSeek-V4-Flash-Vision-Exp (#54566), also on ROCm (#55107) and with LoRA (#55897); GLM-5.3-Flash (#53906) with EPLB (#55",
+      "category": "release",
+      "severity": "info",
+      "occurredAt": "2026-09-22T05:20:54Z",
+      "collectedAt": "2026-10-24T23:49:18.585025Z",
+      "source": "vLLM",
+      "sourceId": "release-vllm",
+      "sourceUrl": "https://github.com/vllm-project/vllm/releases/tag/v0.30.0",
+      "repository": "vllm-project/vllm",
+      "provenance": "automatic",
+      "location": null,
+      "reviewStatus": "source-published",
+      "tags": [
+        "vLLM"
+      ]
+    },
+    {
+      "id": "c1036bbcbba51b57db11",
+      "title": "VS Code · 1.138.0",
+      "summary": "https://code.visualstudio.com/updates/v1_138",
+      "category": "release",
+      "severity": "info",
+      "occurredAt": "2026-09-16T07:14:47Z",
+      "collectedAt": "2026-10-24T23:49:24.480506Z",
+      "source": "VS Code",
+      "sourceId": "release-vscode",
+      "sourceUrl": "https://github.com/microsoft/vscode/releases/tag/1.138.0",
+      "repository": "microsoft/vscode",
+      "provenance": "automatic",
+      "location": null,
+      "reviewStatus": "source-published",
+      "tags": [
+        "VS Code"
+      ]
+    },
+    {
+      "id": "448701fe99745f6407d1",
+      "title": "vLLM · v0.29.0",
+      "summary": "# v0.29.0 ## Highlights This release features 594 commits from 277 contributors (91 new)! * **Model Runner V2 is now the default for all models** (#53183), completing the rollout that began with pooling models (#48290). MRV2 also gained CUDA graph memory profiling for KV cache auto-sizing (#53306), batch-sharded sampling that cuts per-step logits memory by 1/TP (#50465), prompt embeds (#42963), `extract_hidden_states` speculation (#49811), padded",
+      "category": "release",
+      "severity": "info",
+      "occurredAt": "2026-09-09T08:54:49Z",
+      "collectedAt": "2026-10-24T23:49:18.585750Z",
+      "source": "vLLM",
+      "sourceId": "release-vllm",
+      "sourceUrl": "https://github.com/vllm-project/vllm/releases/tag/v0.29.0",
+      "repository": "vllm-project/vllm",
+      "provenance": "automatic",
+      "location": null,
+      "reviewStatus": "source-published",
+      "tags": [
+        "vLLM"
+      ]
+    },
+    {
+      "id": "0ffd5079bcaa48aa3f84",
+      "title": "Rust · Rust 1.98.1",
+      "summary": "- [rustc: fix miscompilation in generating vtables](https://github.com/rust-lang/rust/issues/161441)",
+      "category": "release",
+      "severity": "info",
+      "occurredAt": "2026-09-03T13:14:07Z",
+      "collectedAt": "2026-10-24T23:49:30.564604Z",
+      "source": "Rust",
+      "sourceId": "release-rust",
+      "sourceUrl": "https://github.com/rust-lang/rust/releases/tag/1.98.1",
+      "repository": "rust-lang/rust",
+      "provenance": "automatic",
+      "location": null,
+      "reviewStatus": "source-published",
+      "tags": [
+        "Rust"
+      ]
+    },
+    {
+      "id": "5f01f9b067b5d990ca1d",
+      "title": "PyTorch · PyTorch 2.14.0 Release",
+      "summary": "# PyTorch 2.14.0 Release Notes - [Highlights](#highlights) - [Backwards Incompatible Changes](#backwards-incompatible-changes) - [Deprecations](#deprecations) - [New Features](#new-features) - [Improvements](#improvements) - [Bug fixes](#bug-fixes) - [Performance](#performance) - [Documentation](#documentation) - [Security](#security) - [Developers](#developers) # Highlights NVGEMM brings CuTeDSL-generated CUTLASS kernels to Inductor, with epilog",
+      "category": "release",
+      "severity": "info",
+      "occurredAt": "2026-09-02T17:40:10Z",
+      "collectedAt": "2026-10-24T23:49:12.529723Z",
+      "source": "PyTorch",
+      "sourceId": "release-pytorch",
+      "sourceUrl": "https://github.com/pytorch/pytorch/releases/tag/v2.14.0",
+      "repository": "pytorch/pytorch",
+      "provenance": "automatic",
+      "location": null,
+      "reviewStatus": "source-published",
+      "tags": [
+        "PyTorch"
+      ]
+    },
+    {
+      "id": "4e23143d1b9354333dcb",
+      "title": "Kubernetes · v1.37.0",
+      "summary": "See [kubernetes-announce@](https://groups.google.com/forum/#!forum/kubernetes-announce). Additional binary downloads are linked in the [CHANGELOG](https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.37.md). See the [CHANGELOG](https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.37.md) for more details.",
+      "category": "release",
+      "severity": "info",
+      "occurredAt": "2026-08-26T16:29:12Z",
+      "collectedAt": "2026-10-24T23:49:06.358504Z",
+      "source": "Kubernetes",
+      "sourceId": "release-kubernetes",
+      "sourceUrl": "https://github.com/kubernetes/kubernetes/releases/tag/v1.37.0",
+      "repository": "kubernetes/kubernetes",
+      "provenance": "automatic",
+      "location": null,
+      "reviewStatus": "source-published",
+      "tags": [
+        "Kubernetes"
+      ]
+    },
+    {
+      "id": "99ece13e787f34878e1a",
+      "title": "vLLM · v0.28.0",
+      "summary": "# v0.28.0 ## Highlights This release features 584 commits from 270 contributors (76 new)! * **Kimi-K3 performance push**: a major optimization effort for Kimi-K3 across the stack — Decode Context Parallel (DCP) support (#50484), fused FlashKDA decode and prefill kernels (#50654, #51311, #52458), SiTU activation support for MegaMoE (#50510), GEMM-RS for sequence parallelism (#52079), combined all-gathers with 1.5~3x kernel-level speedup (#51070), ",
+      "category": "release",
+      "severity": "info",
+      "occurredAt": "2026-08-26T09:46:30Z",
+      "collectedAt": "2026-10-24T23:49:18.586486Z",
+      "source": "vLLM",
+      "sourceId": "release-vllm",
+      "sourceUrl": "https://github.com/vllm-project/vllm/releases/tag/v0.28.0",
+      "repository": "vllm-project/vllm",
+      "provenance": "automatic",
+      "location": null,
+      "reviewStatus": "source-published",
+      "tags": [
+        "vLLM"
+      ]
+    },
+    {
+      "id": "cd9331288233ad1b570a",
+      "title": "Kubernetes · v1.35.8",
+      "summary": "See [kubernetes-announce@](https://groups.google.com/forum/#!forum/kubernetes-announce). Additional binary downloads are linked in the [CHANGELOG](https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.35.md). See the [CHANGELOG](https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.35.md) for more details.",
+      "category": "release",
+      "severity": "info",
+      "occurredAt": "2026-08-20T18:59:55Z",
+      "collectedAt": "2026-10-24T23:49:06.358536Z",
+      "source": "Kubernetes",
+      "sourceId": "release-kubernetes",
+      "sourceUrl": "https://github.com/kubernetes/kubernetes/releases/tag/v1.35.8",
+      "repository": "kubernetes/kubernetes",
+      "provenance": "automatic",
+      "location": null,
+      "reviewStatus": "source-published",
+      "tags": [
+        "Kubernetes"
+      ]
+    },
+    {
+      "id": "40e7666ffa3f14ecb333",
+      "title": "Kubernetes · v1.34.11",
+      "summary": "See [kubernetes-announce@](https://groups.google.com/forum/#!forum/kubernetes-announce). Additional binary downloads are linked in the [CHANGELOG](https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.34.md). See the [CHANGELOG](https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.34.md) for more details.",
+      "category": "release",
+      "severity": "info",
+      "occurredAt": "2026-08-20T18:45:38Z",
+      "collectedAt": "2026-10-24T23:49:06.358563Z",
+      "source": "Kubernetes",
+      "sourceId": "release-kubernetes",
+      "sourceUrl": "https://github.com/kubernetes/kubernetes/releases/tag/v1.34.11",
+      "repository": "kubernetes/kubernetes",
+      "provenance": "automatic",
+      "location": null,
+      "reviewStatus": "source-published",
+      "tags": [
+        "Kubernetes"
+      ]
+    },
+    {
+      "id": "714dec12c50a061fc565",
+      "title": "Rust · Rust 1.98.0",
+      "summary": "## Language - [Allow shortening lifetime of `&mut` when unsize-coercing, even in an invariant position.](https://github.com/rust-lang/rust/pull/149219) For example, you can now coerce a `Cell ` to a `Cell `. Such shortenings were already previously allowed when coercing a `&mut` to a `&`, or coercing a `&` to a `&`. - [Add deny-by-default `invalid_runtime_symbol_definitions` lint and warn-by-default `suspicious_runtime_symbol_definitions` lint](h",
+      "category": "release",
+      "severity": "info",
+      "occurredAt": "2026-08-20T18:05:33Z",
+      "collectedAt": "2026-10-24T23:49:30.564775Z",
+      "source": "Rust",
+      "sourceId": "release-rust",
+      "sourceUrl": "https://github.com/rust-lang/rust/releases/tag/1.98.0",
+      "repository": "rust-lang/rust",
+      "provenance": "automatic",
+      "location": null,
+      "reviewStatus": "source-published",
+      "tags": [
+        "Rust"
+      ]
+    },
+    {
+      "id": "a09bfd2b533d257586b3",
+      "title": "Kubernetes · v1.36.4",
+      "summary": "See [kubernetes-announce@](https://groups.google.com/forum/#!forum/kubernetes-announce). Additional binary downloads are linked in the [CHANGELOG](https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.36.md). See the [CHANGELOG](https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.36.md) for more details.",
+      "category": "release",
+      "severity": "info",
+      "occurredAt": "2026-08-20T11:48:16Z",
+      "collectedAt": "2026-10-24T23:49:06.358520Z",
+      "source": "Kubernetes",
+      "sourceId": "release-kubernetes",
+      "sourceUrl": "https://github.com/kubernetes/kubernetes/releases/tag/v1.36.4",
+      "repository": "kubernetes/kubernetes",
+      "provenance": "automatic",
+      "location": null,
+      "reviewStatus": "source-published",
+      "tags": [
+        "Kubernetes"
+      ]
+    },
+    {
+      "id": "79fa413a464f8b759667",
+      "title": "vLLM · v0.27.1",
+      "summary": "This is a patch release on top of v0.27.0. - Support quantized DSpark Markov heads (#50424)",
+      "category": "release",
+      "severity": "info",
+      "occurredAt": "2026-08-11T10:47:49Z",
+      "collectedAt": "2026-10-24T23:49:18.586518Z",
+      "source": "vLLM",
+      "sourceId": "release-vllm",
+      "sourceUrl": "https://github.com/vllm-project/vllm/releases/tag/v0.27.1",
+      "repository": "vllm-project/vllm",
+      "provenance": "automatic",
+      "location": null,
+      "reviewStatus": "source-published",
+      "tags": [
+        "vLLM"
+      ]
+    },
+    {
+      "id": "dbf531300b29212a0707",
+      "title": "vLLM · v0.27.0",
+      "summary": "# vLLM v0.27.0 Release Notes ## Highlights This release features 561 commits from 242 contributors (64 new)! * **Kimi K3 support** with a full stack landing in one release: core model files and kernels (#50089, #50000), Python (#50093) and Rust (#50104) frontends, AttnRes kernels (#50090), DeepGEMM support (#50458), compressed-tensors quantized checkpoints (#50500), DSpark AR fusion (#50242), and an option to shard the shared expert instead of re",
+      "category": "release",
+      "severity": "info",
+      "occurredAt": "2026-08-10T21:18:11Z",
+      "collectedAt": "2026-10-24T23:49:18.587161Z",
+      "source": "vLLM",
+      "sourceId": "release-vllm",
+      "sourceUrl": "https://github.com/vllm-project/vllm/releases/tag/v0.27.0",
+      "repository": "vllm-project/vllm",
+      "provenance": "automatic",
+      "location": null,
+      "reviewStatus": "source-published",
+      "tags": [
+        "vLLM"
+      ]
+    },
+    {
+      "id": "b811cc97eff4aae9d6ca",
+      "title": "vLLM · v0.26.0",
+      "summary": "# vLLM v0.26.0 Release Notes ## Highlights This release features 411 commits from 212 contributors (61 new)! * **New Inkling model family** with a full support stack: base modeling (#48799), piecewise CUDA graph support (#48822), Hopper FA4 relative attention (#48858), MTP=1 speculative decoding (#48869), LoRA (#48884), and standard ModelOpt NVFP4 quantization (#48990). * **DeepSeek-V4 performance push** across vendors: a specialized routing kern",
+      "category": "release",
+      "severity": "info",
+      "occurredAt": "2026-07-27T01:06:58Z",
+      "collectedAt": "2026-10-24T23:49:18.587801Z",
+      "source": "vLLM",
+      "sourceId": "release-vllm",
+      "sourceUrl": "https://github.com/vllm-project/vllm/releases/tag/v0.26.0",
+      "repository": "vllm-project/vllm",
+      "provenance": "automatic",
+      "location": null,
+      "reviewStatus": "source-published",
+      "tags": [
+        "vLLM"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "release-kubernetes",
+      "name": "Kubernetes",
+      "url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=10",
+      "kind": "github-releases",
+      "lastAttempt": "2026-10-24T23:49:01.197370Z",
+      "lastSuccess": "2026-10-24T23:49:06.358575Z",
+      "count": 8,
+      "status": "ok"
+    },
+    {
+      "id": "release-pytorch",
+      "name": "PyTorch",
+      "url": "https://api.github.com/repos/pytorch/pytorch/releases?per_page=10",
+      "kind": "github-releases",
+      "lastAttempt": "2026-10-24T23:49:06.508739Z",
+      "lastSuccess": "2026-10-24T23:49:12.540999Z",
+      "count": 10,
+      "status": "ok"
+    },
+    {
+      "id": "release-vllm",
+      "name": "vLLM",
+      "url": "https://api.github.com/repos/vllm-project/vllm/releases?per_page=10",
+      "kind": "github-releases",
+      "lastAttempt": "2026-10-24T23:49:12.691181Z",
+      "lastSuccess": "2026-10-24T23:49:18.588513Z",
+      "count": 10,
+      "status": "ok"
+    },
+    {
+      "id": "release-vscode",
+      "name": "VS Code",
+      "url": "https://api.github.com/repos/microsoft/vscode/releases?per_page=10",
+      "kind": "github-releases",
+      "lastAttempt": "2026-10-24T23:49:18.738662Z",
+      "lastSuccess": "2026-10-24T23:49:24.480518Z",
+      "count": 10,
+      "status": "ok"
+    },
+    {
+      "id": "release-rust",
+      "name": "Rust",
+      "url": "https://api.github.com/repos/rust-lang/rust/releases?per_page=10",
+      "kind": "github-releases",
+      "lastAttempt": "2026-10-24T23:49:24.630658Z",
+      "lastSuccess": "2026-10-24T23:49:30.565321Z",
+      "count": 10,
+      "status": "ok"
+    },
+    {
+      "id": "release-duckdb",
+      "name": "DuckDB",
+      "url": "https://api.github.com/repos/duckdb/duckdb/releases?per_page=10",
+      "kind": "github-releases",
+      "lastAttempt": "2026-10-24T23:49:30.715508Z",
+      "lastSuccess": "2026-10-24T23:49:36.743535Z",
+      "count": 10,
+      "status": "ok"
+    },
+    {
+      "id": "openssf",
+      "name": "OpenSSF",
+      "url": "https://openssf.org/feed/",
+      "kind": "rss",
+      "lastAttempt": "2026-10-24T23:49:36.893681Z",
+      "lastSuccess": "2026-10-24T23:49:43.185750Z",
+      "count": 10,
+      "status": "ok"
+    },
+    {
+      "id": "cncf",
+      "name": "CNCF",
+      "url": "https://www.cncf.io/feed/",
+      "kind": "rss",
+      "lastAttempt": "2026-10-24T23:49:43.335890Z",
+      "lastSuccess": "2026-10-24T23:49:49.345448Z",
+      "count": 10,
+      "status": "ok"
+    },
+    {
+      "id": "manual",
+      "name": "OpenDipper 编辑录入",
+      "url": "https://api.github.com/repos/X-lab2017/open-dipper/issues?labels=event-approved&state=open&per_page=100",
+      "kind": "github-issues",
+      "lastAttempt": "2026-10-24T23:49:49.495592Z",
+      "lastSuccess": "2026-10-24T23:49:55.275211Z",
+      "count": 0,
+      "status": "ok"
+    }
+  ]
+}

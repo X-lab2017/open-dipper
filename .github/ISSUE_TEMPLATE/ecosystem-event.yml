@@ -1,0 +1,26 @@
+name: Ecosystem event / 生态事件
+description: Submit a sourced event for editorial review / 提交有来源的生态事件
+title: '[Event] '
+body:
+  - type: markdown
+    attributes:
+      value: 'Use the event editor on the observatory to generate JSON, or fill it below. Maintainers publish by applying event-approved after checking the original source. Close or remove the label to retract.'
+  - type: textarea
+    id: record
+    attributes:
+      label: Event record
+      description: JSON only. Leave location as null without a verified event location. Times must include a timezone.
+      render: json
+      value: |
+        {
+          "title": "",
+          "summary": "",
+          "category": "community",
+          "severity": "info",
+          "occurredAt": "2026-10-25T00:00:00Z",
+          "source": "",
+          "sourceUrl": "https://",
+          "location": null
+        }
+    validations:
+      required: true

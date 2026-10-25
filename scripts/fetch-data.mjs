@@ -1,6 +1,6 @@
 /** Self-authored read-only OpenDigger snapshot builder. Node 20+, no dependencies. */
 import {createHash} from 'node:crypto';
-import {mkdir,writeFile} from 'node:fs/promises';
+import {mkdir,writeFile,readFile} from 'node:fs/promises';
 import {fileURLToPath} from 'node:url';
 const base='https://oss.open-digger.cn';
 const docs='https://open-digger.cn/docs/user_docs/metrics/metrics_usage_guide';
@@ -12,20 +12,7 @@ export const metrics=[
  ['stars','新增 Star','当月 Star 事件数，不是仓库累计 Star 数。'],
  ['change_requests_accepted','合并变更请求','当月被接受的变更请求（GitHub PR 等），不是代码提交数。']
 ].map(([id,label,definition])=>({id,label,definition,definitionUrl:docs}));
-export const selected=[
- ['github','X-lab2017/open-digger','数据观测'],['github','microsoft/vscode','开发工具'],
- ['github','kubernetes/kubernetes','云原生'],['github','apache/spark','数据基础设施'],
- ['github','apache/superset','数据可视化'],['github','duckdb/duckdb','数据基础设施'],
- ['github','ClickHouse/ClickHouse','数据基础设施'],['github','pytorch/pytorch','人工智能'],
- ['github','huggingface/transformers','人工智能'],['github','vllm-project/vllm','人工智能'],
- ['github','langchain-ai/langchain','人工智能'],['github','ollama/ollama','人工智能'],
- ['github','rust-lang/rust','编程语言'],['github','golang/go','编程语言'],
- ['github','facebook/react','Web 开发'],['github','vuejs/core','Web 开发'],
- ['github','grafana/grafana','可观测性'],
- ['gitlab','gitlab-org/modelops/applied-ml/code-suggestions/ai-assist','跨平台样本'],
- ['gitee','openharmony/arkui_ace_engine','跨平台样本'],
- ['atomgit','openharmony/docs','跨平台样本']
-].map(([platform,path,category])=>({platform,path,category}));
+export const selected=JSON.parse(await readFile(new URL('../config/repositories.json',import.meta.url),'utf8'));
 export function sourceUrl(platform,path,file){
  return `${base}/${platform}/${path.split('/').map(encodeURIComponent).join('/')}/${file}.json`;
 }
@@ -76,10 +63,10 @@ async function main(){
   process.stderr.write(`${repo.platform}/${repo.path} ${metric}: ${result.status}\n`);
   await new Promise(r=>setTimeout(r,150));
  }}));
- const snapshot={schemaVersion:1,fetchedAt:new Date().toISOString(),startedAt,selection:{type:'fixed_curated_sample',size:20,intent:'17 个 GitHub 跨生态项目与 GitLab、Gitee、AtomGit 各 1 个数据合同验证样本。非随机、非全球代表性清单；不合并跨平台排名。',platformCounts:{github:17,gitlab:1,gitee:1,atomgit:1},windowMonths:24},metrics,repositories:repos,limitations:['月度静态指标，不是实时事件流。','metaUpdatedAt 是导出时间，不代表各指标的最新数据月份。','缺失月、404、请求失败与显式 0 分开；不推断缺失原因。','只保留每个指标最近有效月份起向前 24 个日历月的实际点。','公开数据独立许可与再分发条款仍待核定；源码许可不自动适用于数据。'],source:{provider:'OpenDigger',baseUrl:base,documentationUrl:docs,upstreamSourceCommit:'5c2ffc4f5b3dd37ebcb20514c7abfee6853bd830',productionVersionVerified:false}};
+ const snapshot={schemaVersion:1,fetchedAt:new Date().toISOString(),startedAt,selection:{type:'fixed_curated_sample',size:selected.length,intent:'17 个 GitHub 跨生态项目与 GitLab、Gitee、AtomGit 各 1 个数据合同验证样本。非随机、非全球代表性清单；不合并跨平台排名。',platformCounts:Object.fromEntries([...new Set(selected.map(r=>r.platform))].map(p=>[p,selected.filter(r=>r.platform===p).length])),windowMonths:24},metrics,repositories:repos,limitations:['月度静态指标，不是实时事件流。','metaUpdatedAt 是导出时间，不代表各指标的最新数据月份。','缺失月、404、请求失败与显式 0 分开；不推断缺失原因。','只保留每个指标最近有效月份起向前 24 个日历月的实际点。','公开数据独立许可与再分发条款仍待核定；源码许可不自动适用于数据。'],source:{provider:'OpenDigger',baseUrl:base,documentationUrl:docs,upstreamSourceCommit:'5c2ffc4f5b3dd37ebcb20514c7abfee6853bd830',productionVersionVerified:false}};
  const destination=new URL('../public/data/snapshot.json',import.meta.url);
  await mkdir(new URL('../public/data/',import.meta.url),{recursive:true});
  await writeFile(destination,JSON.stringify(snapshot,null,2)+'\n');
- console.log(`Wrote ${fileURLToPath(destination)}; ${repos.filter(r=>r.identity.status==='resolved').length}/20 identities resolved.`);
+ console.log(`Wrote ${fileURLToPath(destination)}; ${repos.filter(r=>r.identity.status==='resolved').length}/${selected.length} identities resolved.`);
 }
 if(process.argv[1]&&fileURLToPath(import.meta.url)===fileURLToPath(new URL(`file://${process.argv[1]}`)))await main();

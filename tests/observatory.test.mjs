@@ -1,0 +1,16 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import fs from 'node:fs/promises';
+import ts from 'typescript';
+const source=await fs.readFile(new URL('../src/observatory/model.ts',import.meta.url),'utf8');
+const js=ts.transpileModule(source,{compilerOptions:{target:ts.ScriptTarget.ES2022,module:ts.ModuleKind.ES2022}}).outputText;
+const {filterEvents,validateEvent,monthsUntil,change,rank,safeUrl,countryName}=await import('data:text/javascript;base64,'+Buffer.from(js).toString('base64'));
+const read=async name=>JSON.parse(await fs.readFile(new URL('../public/data/'+name,import.meta.url),'utf8'));
+const feed=await read('events.json'),demo=await read('demo.json');
+const filters={demo:false,category:'all',query:'',days:0,region:'',severity:'all'};
+test('all event records match the frontend contract and real/demo datasets are disjoint',()=>{for(const e of [...feed.events,...demo.events])assert.ok(validateEvent(e),e.id);assert.ok(feed.events.every(e=>e.provenance!=='demo'));assert.ok(demo.events.every(e=>e.provenance==='demo'&&e.reviewStatus==='demo'));const ids=[...feed.events,...demo.events].map(e=>e.id);assert.equal(new Set(ids).size,ids.length);});
+test('demo-off removes all simulated events even during category, text and regional search',()=>{const events=[...feed.events,...demo.events];assert.ok(filterEvents(events,filters).every(e=>e.provenance!=='demo'));assert.equal(filterEvents(demo.events,{...filters,category:'community',query:'社区',region:'DEU'}).length,0);assert.equal(filterEvents(demo.events,{...filters,demo:true,region:'DEU'}).length,1);});
+test('event time windows reject future and older records using actual publication time',()=>{const e={...demo.events[0],provenance:'automatic'},now=Date.parse(e.occurredAt);assert.equal(filterEvents([e],{...filters,days:1},now-1).length,0);assert.equal(filterEvents([e],{...filters,days:1},now+864e5+1).length,0);assert.equal(filterEvents([e],{...filters,days:1},now).length,1);});
+test('monthly comparison retains gaps and does not divide by zero or compare non-adjacent months',()=>{const r={platform:'github',metrics:{activity:{points:[{month:'2025-12',value:4},{month:'2026-02',value:8},{month:'2026-03',value:0},{month:'2026-04',value:2}]}}};assert.equal(change(r,'activity','2026-02'),null);assert.equal(change(r,'activity','2026-04'),null);assert.equal(change(r,'activity','2026-03'),-100);assert.deepEqual(monthsUntil('2026-01',2),['2025-12','2026-01']);assert.equal(rank([r,{...r,platform:'gitee'}],'github','activity','2026-02').length,1);});
+test('untrusted URL and malformed event payloads cannot become executable content',()=>{assert.equal(safeUrl('javascript:alert(1)'),'#');assert.equal(safeUrl('data:text/html,hello'),'#');assert.equal(validateEvent({...demo.events[0],category:'not-a-category'}),false);assert.equal(validateEvent({...demo.events[0],location:{lon:181,lat:0}}),false);assert.equal(validateEvent({...demo.events[0],tags:[{}]}),false);});
+test('Taiwan is consistently labelled within China without mutating source identifiers',()=>{const c={rawCode:'TWN',country:'Taiwan'};assert.equal(countryName(c,'zh'),'中国台湾');assert.equal(countryName(c,'en'),'Taiwan, China');assert.equal(c.rawCode,'TWN');});

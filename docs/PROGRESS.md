@@ -1,3 +1,13 @@
+# v1 architecture review · 2026-10-25
+
+- Rebuilt the main product around map, globe and event wire views, preserving the prior panorama and analysis routes.
+- Added typed contracts, configurable adapters, release/RSS collectors, reviewed editorial intake and separate demo fixtures.
+- Added 30-minute event / monthly OpenDigger schedules, snapshot archival, last-good retention and source health.
+- Added event/filter/provenance tests and new-product browser acceptance including draft generation and mobile overflow.
+- Local typecheck, build and deterministic suites pass. Deployment and browser acceptance must be confirmed by the associated GitHub Actions run; this file does not claim deployment before that result.
+
+---
+
 # OpenDipper build record
 
 Build history for review prototypes 0.1.0 and 0.2.0. Earlier sections describe the scope at their recorded time.

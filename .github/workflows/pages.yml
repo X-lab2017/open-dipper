@@ -1,4 +1,4 @@
-name: Validate and deploy GitHub Pages
+name: Validate, collect and deploy observatory
 
 on:
   push:
@@ -6,31 +6,58 @@ on:
   pull_request:
     branches: [main]
   workflow_dispatch:
+    inputs:
+      refresh_monthly:
+        description: Refresh OpenDigger monthly metrics and geography
+        type: boolean
+        default: false
+  schedule:
+    - cron: '17,47 * * * *'
+    - cron: '7 2 8 * *'
 
 permissions:
   contents: read
 
 concurrency:
-  group: pages-${{ github.ref }}
+  group: observatory-${{ github.event_name == 'pull_request' && github.ref || 'production' }}
   cancel-in-progress: false
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: read
     steps:
       - uses: actions/checkout@v7
-        with:
-          persist-credentials: false
       - uses: actions/setup-node@v7
         with:
           node-version: '24'
           package-manager-cache: false
       - run: npm ci
+      - name: Collect events (bounded, cached on failure)
+        if: github.event_name != 'pull_request'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: npm run refresh:events
+      - name: Refresh monthly OpenDigger snapshots
+        if: github.event.schedule == '7 2 8 * *' || inputs.refresh_monthly == true
+        run: |
+          npm run refresh:monthly
+          cp public/data/geography.json /tmp/od-geography.json
+          cp public/data/countries.geojson /tmp/od-countries.geojson
+          if ! python3 scripts/fetch-geography.py; then
+            cp /tmp/od-geography.json public/data/geography.json
+            cp /tmp/od-countries.geojson public/data/countries.geojson
+            echo 'Geography refresh failed; previous successful snapshot retained.'
+          fi
       - run: npm run typecheck
       - run: npm test
       - run: npm run build
       - run: npx playwright install --with-deps chromium
+        if: github.event_name != 'schedule'
       - name: Browser acceptance at repository subpath
+        if: github.event_name != 'schedule'
         run: |
           mkdir -p /tmp/open-dipper-pages/open-dipper
           cp -R dist/. /tmp/open-dipper-pages/open-dipper/
@@ -41,16 +68,27 @@ jobs:
             curl --fail --silent http://127.0.0.1:4173/open-dipper/ > /dev/null && break
             sleep 1
           done
+          npm run test:observatory:ui
           npm run test:panorama:ui
           BASE_URL=http://127.0.0.1:4173/open-dipper/analysis.html npm run test:ui
       - name: Save browser QA screenshots
-        if: always()
+        if: always() && github.event_name != 'schedule'
         uses: actions/upload-artifact@v7
         with:
           name: browser-qa-${{ github.sha }}
           path: screenshots/
           if-no-files-found: ignore
           retention-days: 7
+      - name: Archive validated source snapshots
+        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add public/data/events.json public/data/snapshot.json public/data/geography.json public/data/countries.geojson
+          if ! git diff --cached --quiet; then
+            git commit -m 'data: refresh observatory snapshots'
+            git push origin HEAD:main
+          fi
       - uses: actions/upload-pages-artifact@v3
         if: github.event_name != 'pull_request'
         with:
