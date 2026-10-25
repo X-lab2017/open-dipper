@@ -1,0 +1,23 @@
+name: Bug / 问题反馈
+description: Report reproducible behavior, layout or data problems / 提交可复现问题
+title: '[Bug] '
+body:
+  - type: textarea
+    id: behavior
+    attributes:
+      label: 预期与实际行为 / Expected and actual behavior
+      description: 涉及数据请附来源和观察期，不要粘贴凭据或私人信息。
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: 复现步骤 / Reproduction
+      description: 包括页面地址、筛选/模式、语言、主题、浏览器、屏幕尺寸、提交或部署时间。
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 证据与检查 / Evidence and checks
+      description: 可提供截图、来源 URL、报错或 CI 链接；区分已确认事实和猜测。

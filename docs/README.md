@@ -1,0 +1,25 @@
+# 文档导航 / Documentation
+
+这里承载当前约定、演进理由与协作上下文。新参与者不需要重读聊天记录，也不需要一次性读取全部文件。
+
+| 目标 | 阅读顺序 |
+| --- | --- |
+| 了解产品和下一步 | [当前状态](STATUS.md) → [评审路线](REVIEW.md) → 关联 issue |
+| 人类开发者开始贡献 | [贡献指南](../CONTRIBUTING.md) → [开发指南](DEVELOPMENT.md) → 对应源文件 |
+| Agent 接手任务 | [AGENTS.md](../AGENTS.md) → [结构化索引](CONTEXT.json) → 任务对应契约与检查 |
+| 修改布局、地图、地球或组件 | [视觉规范](VISUAL_SYSTEM.md) → [架构](ARCHITECTURE.md) → [设计资源](../design/README.md) |
+| 接入数据与事件 | [契约索引](DATA_CONTRACTS.md) → 对应契约 → [运维](OPERATIONS.md) |
+| 理解为何这样设计 | [演进记录](HISTORY.md) → [决策记录](DECISIONS.md) |
+| 清理或移除旧功能 | [维护与清理](MAINTENANCE.md) → 使用位置和兼容性测试 |
+| 交接或提交 PR | [交接模板](templates/HANDOFF.md) → [PR 模板](../.github/PULL_REQUEST_TEMPLATE.md) |
+| 核对复用条件 | [权利与许可状态](RIGHTS.md) → 各资源原始 notice |
+
+## 文档如何保持可信
+
+- **当前事实**：`STATUS.md` 记录有日期的产品基线和已验证证据；动态来源状态以运行中的 JSON 和 Actions 为准。
+- **规范与契约**：视觉规范、数据契约和 AGENTS 分别维护各自主题。源代码与测试验证实现；若不一致，在同一 PR 修正，不能用文档覆盖实际失败。
+- **历史与理由**：`HISTORY.md` 及 `DECISIONS.md` 记录里程碑和取舍。旧进度移到 `archive/`，保留当时结论，不当作当前待办。
+- **待办**：GitHub issue 是任务状态来源。完成后关闭并链接提交与验证；文档只提供入口，不维护第二套独立任务状态。
+- **生成索引**：`CONTEXT.json` → `npm run docs:build` → 根与站点 `llms.txt`、站点 `agent-context.json`。`npm run docs:check` 检查镜像、相对文件链接和任务命令；不验证网络链接、Markdown 锚点、引用式链接或外部事实；原样保留的上游品牌 notice 使用上游路径，单独豁免本地链接检查。
+
+更新原则：行为、契约或决策变化时，同一提交更新权威文档；普通采集刷新不需要修改叙述性状态日期。不要提交私人会话、原始鉴权响应或重复的长篇总结。

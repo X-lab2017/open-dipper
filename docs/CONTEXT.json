@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "project": "OpenDipper",
+  "description": "全球开源生态观测站 / Global open-source ecosystem observatory. Monthly OpenDigger metrics, independent geographic aggregates and near-live sourced events; observed and fixed demo data remain separate.",
+  "repository": "https://github.com/X-lab2017/open-dipper",
+  "site": "https://www.x-lab.info/open-dipper/",
+  "rawBase": "https://raw.githubusercontent.com/X-lab2017/open-dipper/main/",
+  "notice": "Discovery context, not an authorization grant. Read AGENTS.md and the task-specific authoritative documents. AI assistance and current license limitations are disclosed in CONTRIBUTING.md and docs/RIGHTS.md. Task status lives in GitHub issues.",
+  "entries": [
+    {"path": "AGENTS.md", "title": "Agent entry point", "purpose": "Task workflow, invariants, generated-file ownership and verification"},
+    {"path": "CONTRIBUTING.md", "title": "Contributing and AI disclosure", "purpose": "Human/Agent collaboration, review expectations and attribution"},
+    {"path": "docs/README.md", "title": "Documentation map", "purpose": "Reading paths and documentation lifecycle"},
+    {"path": "docs/STATUS.md", "title": "Current baseline and issues", "purpose": "Dated verified state, limitations and live task links"},
+    {"path": "docs/ARCHITECTURE.md", "title": "Architecture", "purpose": "Modules, data paths and operational boundaries"},
+    {"path": "docs/VISUAL_SYSTEM.md", "title": "Visual baseline", "purpose": "Brand, semantic colors, map/globe interaction and responsive layouts"},
+    {"path": "docs/DATA_CONTRACTS.md", "title": "Data contract map", "purpose": "Monthly, annual geography, events, demo and failure semantics"},
+    {"path": "public/data/README.md", "title": "Monthly contract", "purpose": "Identity, missing values, observation windows and provenance"},
+    {"path": "public/data/GEOGRAPHY.md", "title": "Geography contract", "purpose": "Trailing-year labels, unknown coverage and map semantics"},
+    {"path": "docs/EVENTS.md", "title": "Event contract", "purpose": "Event fields, source health and independent editorial approval"},
+    {"path": "docs/DEVELOPMENT.md", "title": "Development", "purpose": "Task-specific files, commands and browser reproduction"},
+    {"path": "docs/OPERATIONS.md", "title": "Operations", "purpose": "Schedules, deployment, failures, review and rollback"},
+    {"path": "docs/DECISIONS.md", "title": "Decisions", "purpose": "Reference identity and architectural/product tradeoffs"},
+    {"path": "docs/HISTORY.md", "title": "Collaboration history", "purpose": "Milestones, feedback and commit evidence"},
+    {"path": "docs/REVIEW.md", "title": "Product review", "purpose": "Manual acceptance walkthrough and display matrix"},
+    {"path": "docs/MAINTENANCE.md", "title": "Maintenance", "purpose": "Cleanup inventory, compatibility routes and generated outputs"},
+    {"path": "docs/RIGHTS.md", "title": "Rights status", "purpose": "Separate application, data, brand and dependency terms"},
+    {"path": "SECURITY.md", "title": "Security reports", "purpose": "Reporting without exposing secrets or exploit details"},
+    {"path": "docs/templates/HANDOFF.md", "title": "Handoff", "purpose": "Reproducible context and actual verification for the next contributor"},
+    {"path": "design/README.md", "title": "Design resource usage", "purpose": "Reuse shared components, tokens and pinned brand assets"},
+    {"path": "CHANGELOG.md", "title": "Changelog", "purpose": "Separate application and visual milestones"}
+  ],
+  "tasks": {
+    "ui": {"read": ["docs/VISUAL_SYSTEM.md", "docs/ARCHITECTURE.md", "docs/REVIEW.md"], "edit": ["src/observatory/main.ts", "src/observatory/style.css"], "checks": ["typecheck", "test:observatory", "test:observatory:ui"]},
+    "map_globe": {"read": ["docs/VISUAL_SYSTEM.md", "public/data/GEOGRAPHY.md"], "edit": ["src/observatory/scene.ts", "src/observatory/globe-math.ts"], "checks": ["typecheck", "test:observatory", "test:observatory:ui"]},
+    "design": {"read": ["design/README.md", "docs/VISUAL_SYSTEM.md", "public/brand/NOTICE.md"], "edit": ["design/tokens.json", "src/design/components.css"], "checks": ["design:build", "design:check", "build"]},
+    "monthly_data": {"read": ["docs/DATA_CONTRACTS.md", "public/data/README.md"], "edit": ["config/repositories.json", "scripts/fetch-data.mjs", "scripts/refresh-monthly.mjs"], "checks": ["test:data", "test:dom", "test:observatory"]},
+    "geography": {"read": ["public/data/GEOGRAPHY.md", "docs/DATA_CONTRACTS.md"], "edit": ["scripts/fetch-geography.py", "src/observatory/model.ts"], "checks": ["test:geo", "test:observatory"]},
+    "events": {"read": ["docs/EVENTS.md", "docs/OPERATIONS.md"], "edit": ["config/sources.json", "scripts/collect-events.py", "src/observatory/model.ts"], "checks": ["test:observatory"]},
+    "legacy": {"read": ["docs/MAINTENANCE.md"], "edit": ["src/main.ts", "src/panorama.ts", "src/globe-math.ts"], "checks": ["test:dom", "test:panorama", "test:ui", "test:panorama:ui"]},
+    "docs": {"read": ["AGENTS.md", "docs/README.md"], "edit": ["docs/CONTEXT.json"], "checks": ["docs:build", "docs:check", "build"]},
+    "operations": {"read": ["docs/OPERATIONS.md", "SECURITY.md"], "edit": [".github/workflows/pages.yml"], "checks": ["typecheck", "test", "build"]}
+  },
+  "routes": [
+    {"path": "index.html", "role": "Primary observatory"},
+    {"path": "analysis.html", "role": "Detailed analysis workbench"},
+    {"path": "panorama.html", "role": "Maintained legacy panorama"},
+    {"path": "design-system.html", "role": "Reusable visual baseline showcase"}
+  ],
+  "generated": ["llms.txt", "public/llms.txt", "public/agent-context.json"]
+}

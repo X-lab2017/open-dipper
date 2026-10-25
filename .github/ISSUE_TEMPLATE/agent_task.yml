@@ -1,0 +1,28 @@
+name: Agent task / 人机协作任务
+description: A bounded task with context, checks and handoff / 有边界、上下文与验收的任务
+title: '[Task] '
+body:
+  - type: markdown
+    attributes:
+      value: 'Start with AGENTS.md and docs/STATUS.md. This issue describes work; it does not grant account, merge, publish or editorial approval permissions.'
+  - type: textarea
+    id: goal
+    attributes:
+      label: 目标与范围 / Goal and scope
+      description: 用户可见目标、范围外内容和验收条件。
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: 最小上下文 / Minimum context
+      description: 基准提交、相关 issue、决策、契约和主要文件；不要贴私人聊天全文。
+    validations:
+      required: true
+  - type: textarea
+    id: checks
+    attributes:
+      label: 检查与交接 / Checks and handoff
+      description: 预期检查、证据要求、已知限制；完成时记录实际结果和人/Agent 参与范围。
+    validations:
+      required: true

@@ -6,7 +6,7 @@ This is a small, fixed, curated evaluation sample, not a global leaderboard, ran
 
 Source: OpenDigger public CDN, https://oss.open-digger.cn/ . Metric usage documentation: https://open-digger.cn/docs/user_docs/metrics/metrics_usage_guide . The reviewed exporter implementation is https://github.com/X-lab2017/open-digger/blob/5c2ffc4f5b3dd37ebcb20514c7abfee6853bd830/src/cron/tasks/monthlyExport.ts ; that commit is a research reference, not a verified production version.
 
-Run `node scripts/fetch-data.mjs` from the repository root using Node 20 or newer. The self-authored refresh script makes only public JSON GET requests: 20 entities × (6 metrics + metadata), with a maximum concurrency of 4, 150 ms between each worker's requests, and 20 second request timeouts. There are no retries, credentials, writes to upstream, third-party dependencies, or bulk CSV downloads. It replaces the review snapshot including observed failures; keep the version-controlled prior snapshot if a refresh is unsuitable. No network is required to run the bundled UI or tests.
+The project uses Node.js 24, matching CI. Prefer `npm run refresh:monthly` for routine refreshes with last-good retention. The lower-level `node scripts/fetch-data.mjs` is a direct diagnostic exporter; its behavior is described below. The self-authored refresh script makes only public JSON GET requests: 20 entities × (6 metrics + metadata), with a maximum concurrency of 4, 150 ms between each worker's requests, and 20 second request timeouts. There are no retries, credentials, writes to upstream, third-party dependencies, or bulk CSV downloads. It replaces the review snapshot including observed failures; keep the version-controlled prior snapshot if a refresh is unsuitable. No network is required to run the bundled UI or tests.
 
 Run `node --test tests/data.test.mjs` for deterministic synthetic contract tests and bundled-snapshot integrity tests.
 
@@ -23,7 +23,9 @@ Run `node --test tests/data.test.mjs` for deterministic synthetic contract tests
 - Provenance: exact source URL, fetchedAt, HTTP status, SHA-256 of successful raw JSON UTF-8 body, and Last-Modified where available. Hashes refer to original full responses, not the normalized display window. No raw response archive is bundled.
 - metaUpdatedAt is an ISO timestamp of the metadata export, not an observation watermark. It must never replace latestMonth or imply complete upstream ingestion.
 
-## Observed coverage, 2026-10-24
+## Historical observed coverage, 2026-10-24
+
+This paragraph records the initial review only. Current series and timestamps are in `snapshot.json`; automated refreshes can change them. See [current product scope](../../docs/STATUS.md).
 
 All 20 entity metadata responses resolved IDs. Of 120 metric requests, 115 produced usable monthly series, four returned valid JSON without monthly observations (facebook/react participants, contributors, stars, accepted change requests), and GitLab stars returned HTTP 404. `not_exported` means no public JSON at that URL, not a nonexistent project or a zero value.
 

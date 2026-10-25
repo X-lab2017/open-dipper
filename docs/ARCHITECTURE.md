@@ -1,8 +1,10 @@
 # OpenDipper v1 architecture
 
+Maintained baseline: 2026-10-25. Start with [current status](STATUS.md); field-level definitions live in [the contract index](DATA_CONTRACTS.md).
+
 ## Product structure
 
-The main task is to locate a signal, understand its scope and time, and inspect evidence. Map and globe are alternate projections of the same layers. The wire retains worldwide events without forcing coordinates. Lower analysis panels use independent monthly metrics.
+The main task is to locate a signal, understand its scope and time, and inspect evidence. Map and globe are alternate projections of the same layers. The wire retains worldwide events without forcing coordinates. Analysis panels use independent monthly metrics. Desktop defaults to a one-screen layout; two-screen presentation expands analysis on a second screen while retaining the spatial view and wire on the first. Mobile flows naturally. The map is the initial view, with globe and wire as alternatives.
 
 | Surface | Question | Data and interaction |
 | --- | --- | --- |
@@ -22,7 +24,9 @@ flowchart TD
   GH[GitHub releases] --> EI[Event adapters]
   RSS[Official RSS feeds] --> EI
   ED[Editor draft and GitHub review] --> EI
-  MA --> VA[Validation and versioned snapshots]
+  GEO[Independent trailing-year geography] --> GA[Geographic adapter]
+  GA --> VA[Validation and versioned snapshots]
+  MA --> VA
   EI --> VA
   VA --> BUILD[Static build and Pages deployment]
   BUILD --> UI[Map · Globe · Wire · Monthly lens]
@@ -38,13 +42,18 @@ Public feeds are fetched in GitHub Actions, normalized into JSON and published w
 | `src/observatory/model.ts` | Contracts, validation, time filters, ranking, missing-value semantics |
 | `src/observatory/scene.ts` | Geographic projection/clipping, choropleth, markers, camera/keyboard |
 | `src/observatory/main.ts` | Product state, panels, dialogs, editor, polling |
-| `src/observatory/style.css` | Tokens, responsive layout, reduced motion |
+| `src/observatory/style.css` | Product layout, one/two screens, responsive behavior, reduced motion |
+| `src/observatory/globe-math.ts` | Camera tween/inertia helpers and Mercator coordinate/zoom math |
+| `design/tokens.json`, `src/design/` | Shared semantic tokens, generated CSS/Canvas palette, components and showcase |
+| `src/main.ts`, `src/panorama.ts` | Tested analysis and previous panorama compatibility routes |
 | `scripts/fetch-data.mjs` | Configurable monthly repository adapter and provenance |
 | `scripts/refresh-monthly.mjs` | Last-good retention after transient upstream failures |
 | `scripts/fetch-geography.py` | Geographic label aggregates, known anchors, geometry |
 | `scripts/collect-events.py` | Release/RSS/editorial adapters, stable IDs, retention, source health |
 | `config/` | Repository catalog and approved endpoints |
 | `public/data/` | Versioned observed snapshots and separate synthetic fixtures |
+| `docs/CONTEXT.json`, `scripts/build-context.mjs` | Human/Agent discovery index and generated public mirrors |
+| `scripts/check-docs.mjs` | Offline local-link and context recipe validation |
 
 ## Temporal model
 
@@ -80,3 +89,7 @@ At higher volume, move adapters to a worker queue and durable database/object st
 - Markers represent region anchors or documented event locations, never individual tracking. No collaboration arcs are inferred from unrelated totals.
 - Watchlists/drafts are browser-local, not a multi-user backend.
 - Git provides history and rollback; `panorama.html` and `analysis.html` retain previous interfaces.
+
+## Collaboration and change boundaries
+
+Read [AGENTS.md](../AGENTS.md) or [CONTRIBUTING.md](../CONTRIBUTING.md), then the task-specific [development guide](DEVELOPMENT.md). [Decisions](DECISIONS.md) explain reference identity, rendering, time semantics and display modes. [Operations](OPERATIONS.md) owns schedules/rollback; [maintenance](MAINTENANCE.md) owns generated artifacts and compatibility retention. Public discovery endpoints are static indexes, not an API or authorization mechanism.

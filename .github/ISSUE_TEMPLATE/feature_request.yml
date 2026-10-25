@@ -1,0 +1,24 @@
+name: Proposal / 改进提案
+description: Propose a product, data or architecture change / 产品、数据或架构建议
+title: '[Proposal] '
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: 场景与问题 / Scenario and problem
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: 范围与约束 / Scope and constraints
+      description: 说明与当前视觉、数据时间/范围和兼容入口的关系，引用相关决策。
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: 验收条件 / Acceptance criteria
+      description: 写可验证的行为和证据；区分本次目标与后续工作。
+    validations:
+      required: true

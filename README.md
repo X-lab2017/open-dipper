@@ -4,7 +4,19 @@ Monthly OpenDigger intelligence and near-live ecosystem events in one geographic
 
 **Review site:** https://www.x-lab.info/open-dipper/
 
-Version 1 rebuilds the observatory around the **map / globe / wire** product pattern, informed by World Monitor's interaction layout. The implementation is independent; no World Monitor source code or branding is copied.
+Version 1 combines **map / globe / wire** with monthly analysis. Spatial interaction draws on [world-monitor.com](https://world-monitor.com/); engineering patterns draw on the separate [koala73/worldmonitor](https://github.com/koala73/worldmonitor) project (worldmonitor.app). OpenDipper is independently implemented; neither project's application source or branding is copied. See [the reference decision](docs/DECISIONS.md).
+
+## 开发者与 Agent 入口 / Start here
+
+- **当前能力、验证与待办**：[STATUS.md](docs/STATUS.md)
+- **文档导航**：[docs/README.md](docs/README.md) · **开发贡献**：[CONTRIBUTING.md](CONTRIBUTING.md)
+- **AI Agent 工作指南**：[AGENTS.md](AGENTS.md) · **任务上下文**：[CONTEXT.json](docs/CONTEXT.json)
+- **协作演进与取舍**：[HISTORY.md](docs/HISTORY.md) · [DECISIONS.md](docs/DECISIONS.md) · [CHANGELOG.md](CHANGELOG.md)
+- **公开机器入口**：[llms.txt](https://www.x-lab.info/open-dipper/llms.txt) · [agent-context.json](https://www.x-lab.info/open-dipper/agent-context.json)
+
+本项目欢迎人类开发者和 AI Agent 共同参与，并将仓库作为可追溯的知识库。2026-10 的重构、视觉迭代、实现与文档整理包含 AI 辅助工作；贡献者需披露参与范围和实际验证，维护者负责方向与合并/发布决策。索引帮助发现上下文，不授予操作权限，也不保证所有 Agent 自动读取。详见 [协作公开说明](CONTRIBUTING.md)。
+
+**许可状态：** 应用代码尚未选定根 LICENSE；公开可见不代表已授予通用复用许可。代码、OpenDigger 数据、Natural Earth 几何、官方标志和依赖分别记录，见 [RIGHTS.md](docs/RIGHTS.md)。
 
 ## Product
 
@@ -42,7 +54,7 @@ Schedule times are targets, not a real-time SLA. GitHub Actions can delay runs, 
 
 ## Development
 
-Node.js 22+ / npm and Python 3 (standard library only for collectors).
+Node.js 24 (matches CI) / npm and Python 3 (standard library only for collectors). See [development and browser checks](docs/DEVELOPMENT.md).
 
 ```sh
 npm ci
@@ -51,7 +63,7 @@ npm test
 npm run build
 ```
 
-`dist/` is the static artifact. Relative assets support the `/open-dipper/` path. The detailed metric workbench is retained at `analysis.html`; the previous globe is archived at `panorama.html`.
+`dist/` is the static artifact. Relative assets support the `/open-dipper/` path. The detailed metric workbench is retained at `analysis.html`; the previous globe remains a tested compatibility route at `panorama.html`.
 
 ```sh
 npm run refresh:events
@@ -79,7 +91,7 @@ Records are data, never executable code. The browser does not post issues automa
 
 ## Architecture
 
-See [architecture](docs/ARCHITECTURE.md), [review walkthrough](docs/REVIEW.md), [event contract](docs/EVENTS.md), [monthly contract](public/data/README.md), [geography semantics](public/data/GEOGRAPHY.md), and [progress](docs/PROGRESS.md).
+See [architecture](docs/ARCHITECTURE.md), [review walkthrough](docs/REVIEW.md), [data contracts](docs/DATA_CONTRACTS.md), [operations](docs/OPERATIONS.md), and [maintenance / cleanup boundaries](docs/MAINTENANCE.md). Documentation indexes are generated with `npm run docs:build`; `npm run docs:check` checks local file links, task commands and generated mirrors in CI.
 
 ## Attribution
 
