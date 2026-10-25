@@ -1,0 +1,24 @@
+/* Shared production primitives. Pair with tokens.css. */
+.od-button{display:inline-flex;align-items:center;justify-content:center;gap:var(--od-space-2);min-height:34px;padding:7px 12px;border:1px solid var(--od-border);border-radius:var(--od-radius-control);background:var(--od-surface-panel);color:var(--od-text);font:500 var(--od-font-size-sm)/1.4 var(--od-font-body);cursor:pointer;text-decoration:none;transition:background var(--od-motion-fast),border-color var(--od-motion-fast)}
+.od-button:hover{border-color:var(--od-accent);background:var(--od-accent-soft)}
+.od-button.primary{background:var(--od-brand-green);border-color:var(--od-brand-green);color:var(--od-text-inverse)}
+.od-button[disabled]{opacity:.5;cursor:not-allowed}
+.od-button:focus-visible,.od-input:focus-visible{outline:var(--od-focus-width) solid var(--od-focus);outline-offset:3px}
+.od-input{border:1px solid var(--od-border);background:var(--od-surface-input);color:var(--od-text);border-radius:var(--od-radius-control);padding:8px 12px;font:var(--od-font-size-body)/1.5 var(--od-font-body)}
+.od-panel,.panel{background:var(--od-surface-panel);border:1px solid var(--od-border-subtle);border-radius:var(--od-radius-panel);overflow:hidden;min-width:0}
+.od-panel-head,.panel-head{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:44px;padding:0 16px;border-bottom:1px solid var(--od-border-subtle)}
+.od-panel-head h2,.panel-head h2{font:600 var(--od-font-size-sm)/1.5 var(--od-font-body);letter-spacing:.05em;margin:0}
+.od-panel-body{padding:var(--od-space-4)}
+.od-badge,.badge{display:inline-flex;align-items:center;gap:5px;border:1px solid var(--od-border);border-radius:3px;padding:3px 6px;font:500 10px/1.3 var(--od-font-mono);color:var(--od-info);background:var(--od-info-soft);white-space:nowrap}
+.od-badge.demo,.badge.demo{color:var(--od-warning);background:var(--od-warning-soft);border:1px dashed var(--od-warning)}
+.od-badge.manual,.badge.manual{color:var(--od-manual);background:var(--od-manual-soft);border-color:var(--od-manual)}
+.od-badge.critical{color:var(--od-critical);background:var(--od-critical-soft);border-color:var(--od-critical)}
+.od-badge.positive{color:var(--od-positive);background:var(--od-accent-soft);border-color:var(--od-positive)}
+.od-badge.muted{color:var(--od-text-muted);background:var(--od-surface-raised);border-color:var(--od-border)}
+.od-icon{width:16px;height:16px;display:inline-block;vertical-align:middle;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round;flex-shrink:0}
+.xlab-logo{display:block;object-fit:contain;max-width:100%;height:auto}.xlab-logo-light{display:none}:root[data-theme=light] .xlab-logo-dark{display:none}:root[data-theme=light] .xlab-logo-light{display:block}
+.od-mono{font-family:var(--od-font-mono);font-variant-numeric:tabular-nums}.od-muted{color:var(--od-text-muted)}
+.od-divider{height:1px;background:var(--od-border-subtle);border:0;margin:var(--od-space-4) 0}
+.od-stat{font:500 var(--od-font-size-display)/1.1 var(--od-font-mono);letter-spacing:-1.5px;color:var(--od-text);font-variant-numeric:tabular-nums}
+.od-empty{padding:32px 16px;text-align:center;color:var(--od-text-muted);font-size:var(--od-font-size-body);line-height:1.8;border:1px dashed var(--od-border);border-radius:var(--od-radius-panel)}
+@media(prefers-reduced-motion:reduce){.od-button{transition:none}}

@@ -5,13 +5,13 @@
   "type": "module",
   "scripts": {
     "dev": "vite --host 0.0.0.0",
-    "build": "tsc --noEmit && vite build",
+    "build": "npm run design:check && npm run design:package && tsc --noEmit && vite build",
     "preview": "vite preview --host 0.0.0.0",
     "typecheck": "tsc --noEmit",
     "test:ui": "node tests/ui.mjs",
     "refresh:data": "node scripts/fetch-data.mjs",
     "test:data": "node --test tests/data.test.mjs",
-    "test": "npm run test:data && npm run test:dom && npm run test:geo && npm run test:panorama && npm run test:observatory",
+    "test": "npm run test:data && npm run test:dom && npm run test:geo && npm run test:panorama && npm run test:observatory && npm run design:check",
     "test:dom": "node --test tests/dom.test.mjs",
     "test:geo": "node --test tests/geography.test.mjs",
     "test:panorama": "node --test tests/panorama.test.mjs",
@@ -19,7 +19,10 @@
     "test:observatory": "node --test tests/observatory.test.mjs && python3 -m unittest discover -s tests -p test_collectors.py",
     "test:observatory:ui": "node tests/observatory-ui.mjs",
     "refresh:events": "python3 scripts/collect-events.py",
-    "refresh:monthly": "node scripts/refresh-monthly.mjs"
+    "refresh:monthly": "node scripts/refresh-monthly.mjs",
+    "design:build": "node scripts/build-design.mjs",
+    "design:check": "node scripts/build-design.mjs --check && node --test tests/design.test.mjs",
+    "design:package": "python3 scripts/package-design.py"
   },
   "devDependencies": {
     "@playwright/test": "^1.52.0",

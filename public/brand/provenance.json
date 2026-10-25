@@ -1,0 +1,36 @@
+{
+  "repository": "https://github.com/X-lab2017/xlab-ai-brand",
+  "ref": "373d61f0d6e334f0b85af0dd5d8ef9b9095bcc37",
+  "assets": [
+    {
+      "file": "XlabAI_WordmarkCompact_ColorDark.svg",
+      "path": "site/assets/XlabAI_WordmarkCompact_ColorDark.svg",
+      "gitBlobSha": "9eb10c2610c5bdbd91bc23808f5bf718a560cd6f"
+    },
+    {
+      "file": "XlabAI_WordmarkCompact_ColorLight.svg",
+      "path": "site/assets/XlabAI_WordmarkCompact_ColorLight.svg",
+      "gitBlobSha": "a48f6b56fbf9ced0b1495564e7534d241f732396"
+    },
+    {
+      "file": "XlabAI_Horizontal_ColorDark.svg",
+      "path": "site/assets/XlabAI_Horizontal_ColorDark.svg",
+      "gitBlobSha": "2c65f5560381acb5097eef0a4ecc00e52af73942"
+    },
+    {
+      "file": "XlabAI_Horizontal_ColorLight.svg",
+      "path": "site/assets/XlabAI_Horizontal_ColorLight.svg",
+      "gitBlobSha": "6dfad15e07a4f935311b28896f6472fc4a941563"
+    },
+    {
+      "file": "XlabAI_Favicon_ColorDark.svg",
+      "path": "brand/Xlab_AI_Logo_System_v1.0/04_应用图标/XlabAI_Favicon_ColorDark.svg",
+      "gitBlobSha": "052966af06f14cf9624469a812806b5eba74e32d"
+    },
+    {
+      "file": "XlabAI_Favicon_ColorLight.svg",
+      "path": "brand/Xlab_AI_Logo_System_v1.0/04_应用图标/XlabAI_Favicon_ColorLight.svg",
+      "gitBlobSha": "dfe59b5f877541c3a94180cd889d51ff55fe1372"
+    }
+  ]
+}

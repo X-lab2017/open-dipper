@@ -15,6 +15,16 @@ Version 1 rebuilds the observatory around the **map / globe / wire** product pat
 - Chinese/English, dark/light, responsive layout, accessible controls and source freshness information.
 - Manual event editor: local draft, JSON export and a prepared GitHub issue submission. Maintainers publish through review; no client API tokens.
 
+## Reusable visual baseline
+
+**[Visual system 1.0](https://www.x-lab.info/open-dipper/design-system.html)** applies the official X-lab AI mark, green/blue identity and a charcoal workspace to OpenDipper. Shared tokens drive both CSS and Canvas, with light/dark variants, three metric palettes, six event categories, source badges and persisted density.
+
+- Usage and design decisions: [`docs/VISUAL_SYSTEM.md`](docs/VISUAL_SYSTEM.md)
+- Maintained tokens: [`design/tokens.json`](design/tokens.json)
+- Reusable primitives: [`src/design/components.css`](src/design/components.css)
+- Run `npm run design:build` after editing tokens; `npm run build` produces a downloadable visual resource bundle.
+- Official logo provenance and upstream rights are preserved under `public/brand/`. WorldMonitor design patterns are independently implemented; its source code is not included.
+
 ## Connected data
 
 | Channel | Initial scope | Refresh |

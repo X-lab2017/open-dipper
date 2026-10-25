@@ -11,9 +11,9 @@ export type Repo = {key:string;platform:string;path:string;category:string;metri
 export type Snapshot = {fetchedAt:string;repositories:Repo[];metrics:{id:string;label:string;definition:string}[]};
 export type Data = {snapshot:Snapshot;geography:{fetchedAt:string;layers:Layer[]};features:any[];feed:Feed;demo:{generatedAt:string;events:Event[];countries:Country[]};feedError?:boolean};
 export const categories:Record<Category,{zh:string;en:string;color:string;icon:string}> = {
- release:{zh:'版本发布',en:'Releases',color:'#4edbc2',icon:'◈'},security:{zh:'安全与供应链',en:'Security',color:'#ff7789',icon:'△'},
- foundation:{zh:'基金会与治理',en:'Governance',color:'#a89cfa',icon:'◇'},policy:{zh:'政策与公共',en:'Policy',color:'#eebd6c',icon:'▤'},
- community:{zh:'社区与活动',en:'Community',color:'#64b7ff',icon:'◎'},research:{zh:'研究与洞察',en:'Research',color:'#c6ce80',icon:'⌁'}
+ release:{zh:'版本发布',en:'Releases',color:'var(--od-event-release)',icon:'◈'},security:{zh:'安全与供应链',en:'Security',color:'var(--od-event-security)',icon:'△'},
+ foundation:{zh:'基金会与治理',en:'Governance',color:'var(--od-event-foundation)',icon:'◇'},policy:{zh:'政策与公共',en:'Policy',color:'var(--od-event-policy)',icon:'▤'},
+ community:{zh:'社区与活动',en:'Community',color:'var(--od-event-community)',icon:'◎'},research:{zh:'研究与洞察',en:'Research',color:'var(--od-event-research)',icon:'⌁'}
 };
 export const metricNames:Record<Metric,[string,string]> = {openrank:['影响力 · OpenRank','Influence · OpenRank'],activity:['活跃度 · Activity','Activity'],change_requests_accepted:['贡献量 · 合并 PR','Contribution · Merged PRs'],participants:['参与者','Participants'],contributors:['贡献者','Contributors'],stars:['新增 Star','New stars']};
 export const esc=(s:unknown)=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]!));
