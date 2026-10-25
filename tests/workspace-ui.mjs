@@ -18,14 +18,14 @@ try {
  }
  await page.locator('#viewpoint').selectOption('researcher');
  await page.getByRole('button',{name:'⌕ 定位地域',exact:true}).click();await page.getByLabel('地域名称或代码').fill('USA');await page.locator('[data-locate-country=USA]').click();
- await page.getByRole('button',{name:'查看详情与来源 ↗',exact:true}).click();await expect(page.getByRole('dialog')).toContainText('46,314');await expect(page.getByRole('dialog')).toContainText('统计期未披露');await page.keyboard.press('Escape');
+ await page.getByRole('button',{name:'地域详情与事件 ↗',exact:true}).click();await expect(page.getByRole('dialog')).toContainText('46,314');await expect(page.getByRole('dialog')).toContainText('统计期未披露');await page.keyboard.press('Escape');
  await page.locator('[data-object=dataset]').click();await expect(page.locator('#viewpoint')).toHaveValue('custom');await expect(page.locator('.map-heading')).toContainText('数据集');
  await page.locator('#publisher-metric').selectOption('downloads');await expect(page.locator('#publisher-metric')).toHaveValue('downloads');
  await page.locator('[data-object=facility]').click();await expect(page.locator('.layer-unavailable')).toContainText('位置数据待接入');
- await page.locator('[data-object=organization]').click();await page.getByRole('button',{name:'⌕ 定位地域',exact:true}).click();await page.getByLabel('地域名称或代码').fill('TWN');await page.locator('[data-locate-country=TWN]').click();
- await expect(page.locator('.scene-inspector')).toContainText('中国台湾');await expect(page.locator('#earth')).toHaveAttribute('data-selected-group','CHN');
+ await page.locator('#viewpoint').selectOption('global');await page.getByRole('button',{name:'⌕ 定位地域',exact:true}).click();await page.getByLabel('地域名称或代码').fill('CHN');await page.locator('[data-locate-country=CHN]').click();
+ await expect(page.locator('.scene-inspector')).toContainText('中国');await expect(page.locator('#earth')).toHaveAttribute('data-selected-group','CHN');
  await page.locator('#event-days').selectOption('0');await page.locator('#region').selectOption('CHN');await expect(page.locator('.event-feed')).toContainText('中国台湾');
- await page.getByRole('button',{name:'EN',exact:true}).click();await page.getByRole('button',{name:'⌕ Locate a region',exact:true}).click();await page.getByLabel('Region name or code').fill('TWN');await page.locator('[data-locate-country=TWN]').click();await expect(page.locator('.scene-inspector')).toContainText('Taiwan, China');
+ await page.locator('.event-feed .event-card').filter({hasText:'中国台湾开源社区交流'}).click();await expect(page.locator('.scene-inspector')).toContainText('中国台湾');await page.getByRole('button',{name:'EN',exact:true}).click();await expect(page.locator('.scene-inspector')).toContainText('Taiwan, China');
  await page.locator('#viewpoint').selectOption('global');
  // A failed fetch preserves the observed count; a new snapshot is shown once, including with an open dialog.
  const feed=JSON.parse(await readFile('public/data/events.json','utf8'));const previous=await page.locator('[data-stat=events]').innerText();
