@@ -1,0 +1,1186 @@
+{
+  "source": {
+    "repository": "X-lab2017/2026-Global-Open-Source-Development-Report",
+    "commit": "c51e3441361407b68f10b339d97eff288319b503",
+    "path": "preview/content/gosm/supply-observation.json",
+    "gitBlobSha": "0067e4643e62474330bdd01f731ff38aff32e063",
+    "url": "https://github.com/X-lab2017/2026-Global-Open-Source-Development-Report/blob/c51e3441361407b68f10b339d97eff288319b503/preview/content/gosm/supply-observation.json"
+  },
+  "meta": {
+    "title": "OpenGauge model and dataset supply snapshot",
+    "retrievedDate": "2026-10-17",
+    "retrievedAtUTC": "2026-10-17T14:46:56.679563+00:00",
+    "dataStatus": "observed",
+    "containsSimulatedData": false,
+    "platformAsOf": "2026-10-16",
+    "geographyAsOf": "not_documented",
+    "geographyMatchesEarlier20261017Snapshot": true,
+    "sourcePage": "http://47.100.76.186:9529/geography"
+  },
+  "assets": {
+    "models": {
+      "summary": {
+        "countries": 63,
+        "divisions": 187,
+        "organizations": 826,
+        "models": 73088,
+        "downloads": 61047162170,
+        "likes": 1773643,
+        "mappedCountries": 52,
+        "activeProviders": 820,
+        "mappedDivisions": 134
+      },
+      "countries": [
+        {
+          "code": "US",
+          "name": "United States",
+          "name_zh": "美国",
+          "organizations": 350,
+          "value": 46314,
+          "downloads": 45029316719,
+          "coverageStatus": "observed_organizations"
+        },
+        {
+          "code": "CN",
+          "name": "China",
+          "name_zh": "中国",
+          "organizations": 147,
+          "value": 6093,
+          "downloads": 7831721004,
+          "coverageStatus": "observed_organizations"
+        },
+        {
+          "code": "FR",
+          "name": "France",
+          "name_zh": "法国",
+          "organizations": 26,
+          "value": 3186,
+          "downloads": 2881413344,
+          "coverageStatus": "observed_organizations"
+        },
+        {
+          "code": "DE",
+          "name": "Germany",
+          "name_zh": "德国",
+          "organizations": 35,
+          "value": 2433,
+          "downloads": 1615021575,
+          "coverageStatus": "observed_organizations"
+        },
+        {
+          "code": "FI",
+          "name": "Finland",
+          "name_zh": "芬兰",
+          "organizations": 3,
+          "value": 1750,
+          "downloads": 469326494,
+          "coverageStatus": "observed_organizations"
+        },
+        {
+          "code": "GB",
+          "name": "United Kingdom",
+          "name_zh": "英国",
+          "organizations": 19,
+          "value": 1471,
+          "downloads": 1195956822,
+          "coverageStatus": "observed_organizations"
+        },
+        {
+          "code": "KR",
+          "name": "Korea",
+          "name_zh": "韩国",
+          "organizations": 35,
+          "value": 1335,
+          "downloads": 177174199,
+          "coverageStatus": "observed_organizations"
+        },
+        {
+          "code": "JP",
+          "name": "Japan",
+          "name_zh": "日本",
+          "organizations": 27,
+          "value": 1250,
+          "downloads": 329380471,
+          "coverageStatus": "observed_organizations"
+        },
+        {
+          "code": "SG",
+          "name": "Singapore",
+          "name_zh": "新加坡",
+          "organizations": 22,
+          "value": 1142,
+          "downloads": 204945160,
+          "coverageStatus": "observed_organizations"
+        },
+        {
+          "code": "CA",
+          "name": "Canada",
+          "name_zh": "加拿大",
+          "organizations": 15,
+          "value": 1113,
+          "downloads": 55688946,
+          "coverageStatus": "observed_organizations"
+        },
+        {
+          "code": "ES",
+          "name": "Spain",
+          "name_zh": "西班牙",
+          "organizations": 14,
+          "value": 877,
+          "downloads": 50329488,
+          "coverageStatus": "observed_organizations"
+        },
+        {
+          "code": "BR",
+          "name": "Brazil",
+          "name_zh": "巴西",
+          "organizations": 5,
+          "value": 794,
+          "downloads": 64659727,
+          "coverageStatus": "observed_organizations"
+        },
+        {
+          "code": "IN",
+          "name": "India",
+          "name_zh": "印度",
+          "organizations": 15,
+          "value": 657,
+          "downloads": 48024020,
+          "coverageStatus": "observed_organizations"
+        },
+        {
+          "code": "AE",
+          "name": "United Arab Emirates",
+          "name_zh": "阿拉伯联合酋长国",
+          "organizations": 7,
+          "value": 449,
+          "downloads": 142055473,
+          "coverageStatus": "observed_organizations"
+        },
+        {
+          "code": "IE",
+          "name": "Ireland",
+          "name_zh": "爱尔兰",
+          "organizations": 1,
+          "value": 423,
+          "downloads": 580399,
+          "coverageStatus": "observed_organizations"
+        },
+        {
+          "code": "TH",
+          "name": "Thailand",
+          "name_zh": "泰国",
+          "organizations": 3,
+          "value": 306,
+          "downloads": 32458099,
+          "coverageStatus": "observed_organizations"
+        },
+        {
+          "code": "RU",
+          "name": "Russia",
+          "name_zh": "俄罗斯",
+          "organizations": 11,
+          "value": 291,
+          "downloads": 69240379,
+          "coverageStatus": "observed_organizations"
+        },
+        {
+          "code": "IL",
+          "name": "Israel",
+          "name_zh": "以色列",
+          "organizations": 7,
+          "value": 284,
+          "downloads": 75028006,
+          "coverageStatus": "observed_organizations"
+        },
+        {
+          "code": "MY",
+          "name": "Malaysia",
+          "name_zh": "马来西亚",
+          "organizations": 1,
+          "value": 278,
+          "downloads": 15655794,
+          "coverageStatus": "observed_organizations"
+        },
+        {
+          "code": "NO",
+          "name": "Norway",
+          "name_zh": "挪威",
+          "organizations": 2,
+          "value": 268,
+          "downloads": 38773828,
+          "coverageStatus": "observed_organizations"
+        },
+        {
+          "code": "PL",
+          "name": "Poland",
+          "name_zh": "波兰",
+          "organizations": 7,
+          "value": 224,
+          "downloads": 32708553,
+          "coverageStatus": "observed_organizations"
+        },
+        {
+          "code": "AT",
+          "name": "Austria",
+          "name_zh": "奥地利",
+          "organizations": 4,
+          "value": 216,
+          "downloads": 19056179,
+          "coverageStatus": "observed_organizations"
+        },
+        {
+          "code": "CL",
+          "name": "Chile",
+          "name_zh": "智利",
+          "organizations": 1,
+          "value": 199,
+          "downloads": 22093374,
+          "coverageStatus": "observed_organizations"
+        },
+        {
+          "code": "VN",
+          "name": "Vietnam",
+          "name_zh": "越南",
+          "organizations": 7,
+          "value": 161,
+          "downloads": 64494920,
+          "coverageStatus": "observed_organizations"
+        },
+        {
+          "code": "EE",
+          "name": "Estonia",
+          "name_zh": "爱沙尼亚",
+          "organizations": 2,
+          "value": 140,
+          "downloads": 4585006,
+          "coverageStatus": "observed_organizations"
+        },
+        {
+          "code": "SE",
+          "name": "Sweden",
+          "name_zh": "瑞典",
+          "organizations": 4,
+          "value": 139,
+          "downloads": 78446490,
+          "coverageStatus": "observed_organizations"
+        },
+        {
+          "code": "ID",
+          "name": "Indonesia",
+          "name_zh": "印度尼西亚",
+          "organizations": 4,
+          "value": 128,
+          "downloads": 22272655,
+          "coverageStatus": "observed_organizations"
+        },
+        {
+          "code": "IT",
+          "name": "Italy",
+          "name_zh": "意大利",
+          "organizations": 7,
+          "value": 127,
+          "downloads": 104468189,
+          "coverageStatus": "observed_organizations"
+        },
+        {
+          "code": "NL",
+          "name": "Netherlands",
+          "name_zh": "荷兰",
+          "organizations": 7,
+          "value": 114,
+          "downloads": 142229568,
+          "coverageStatus": "observed_organizations"
+        },
+        {
+          "code": "CH",
+          "name": "Switzerland",
+          "name_zh": "瑞士",
+          "organizations": 6,
+          "value": 98,
+          "downloads": 45405619,
+          "coverageStatus": "observed_organizations"
+        },
+        {
+          "code": "SA",
+          "name": "Saudi Arabia",
+          "name_zh": "沙特阿拉伯",
+          "organizations": 2,
+          "value": 79,
+          "downloads": 795936,
+          "coverageStatus": "observed_organizations"
+        },
+        {
+          "code": "TR",
+          "name": "Turkey",
+          "name_zh": "土耳其",
+          "organizations": 2,
+          "value": 77,
+          "downloads": 1396772,
+          "coverageStatus": "observed_organizations"
+        },
+        {
+          "code": "BG",
+          "name": "Bulgaria",
+          "name_zh": "保加利亚",
+          "organizations": 1,
+          "value": 71,
+          "downloads": 564822,
+          "coverageStatus": "observed_organizations"
+        },
+        {
+          "code": "DK",
+          "name": "Denmark",
+          "name_zh": "丹麦",
+          "organizations": 1,
+          "value": 70,
+          "downloads": 7825688,
+          "coverageStatus": "observed_organizations"
+        },
+        {
+          "code": "BE",
+          "name": "Belgium",
+          "name_zh": "比利时",
+          "organizations": 4,
+          "value": 69,
+          "downloads": 11640083,
+          "coverageStatus": "observed_organizations"
+        },
+        {
+          "code": "CZ",
+          "name": "Czech Rep.",
+          "name_zh": "捷克",
+          "organizations": 4,
+          "value": 64,
+          "downloads": 5479585,
+          "coverageStatus": "observed_organizations"
+        },
+        {
+          "code": "GR",
+          "name": "Greece",
+          "name_zh": "希腊",
+          "organizations": 1,
+          "value": 55,
+          "downloads": 201066,
+          "coverageStatus": "observed_organizations"
+        },
+        {
+          "code": "HU",
+          "name": "Hungary",
+          "name_zh": "匈牙利",
+          "organizations": 2,
+          "value": 52,
+          "downloads": 9871530,
+          "coverageStatus": "observed_organizations"
+        },
+        {
+          "code": "QA",
+          "name": "Qatar",
+          "name_zh": "卡塔尔",
+          "organizations": 1,
+          "value": 39,
+          "downloads": 9957172,
+          "coverageStatus": "observed_organizations"
+        },
+        {
+          "code": "RO",
+          "name": "Romania",
+          "name_zh": "罗马尼亚",
+          "organizations": 1,
+          "value": 38,
+          "downloads": 1922576,
+          "coverageStatus": "observed_organizations"
+        },
+        {
+          "code": "IR",
+          "name": "Iran",
+          "name_zh": "伊朗",
+          "organizations": 2,
+          "value": 36,
+          "downloads": 13074901,
+          "coverageStatus": "observed_organizations"
+        },
+        {
+          "code": "LT",
+          "name": "Lithuania",
+          "name_zh": "立陶宛",
+          "organizations": 1,
+          "value": 32,
+          "downloads": 956178,
+          "coverageStatus": "observed_organizations"
+        },
+        {
+          "code": "SI",
+          "name": "Slovenia",
+          "name_zh": "斯洛文尼亚",
+          "organizations": 1,
+          "value": 28,
+          "downloads": 12883636,
+          "coverageStatus": "observed_organizations"
+        },
+        {
+          "code": "PT",
+          "name": "Portugal",
+          "name_zh": "葡萄牙",
+          "organizations": 1,
+          "value": 21,
+          "downloads": 2094853,
+          "coverageStatus": "observed_organizations"
+        },
+        {
+          "code": "BD",
+          "name": "Bangladesh",
+          "name_zh": "孟加拉国",
+          "organizations": 1,
+          "value": 20,
+          "downloads": 16890990,
+          "coverageStatus": "observed_organizations"
+        },
+        {
+          "code": "IS",
+          "name": "Iceland",
+          "name_zh": "冰岛",
+          "organizations": 1,
+          "value": 17,
+          "downloads": 1218184,
+          "coverageStatus": "observed_organizations"
+        },
+        {
+          "code": "LB",
+          "name": "Lebanon",
+          "name_zh": "黎巴嫩",
+          "organizations": 1,
+          "value": 15,
+          "downloads": 23866476,
+          "coverageStatus": "observed_organizations"
+        },
+        {
+          "code": "BY",
+          "name": "Belarus",
+          "name_zh": "白俄罗斯",
+          "organizations": 1,
+          "value": 15,
+          "downloads": 9878513,
+          "coverageStatus": "observed_organizations"
+        },
+        {
+          "code": "NG",
+          "name": "Nigeria",
+          "name_zh": "尼日利亚",
+          "organizations": 1,
+          "value": 12,
+          "downloads": 270572,
+          "coverageStatus": "observed_organizations"
+        },
+        {
+          "code": "AM",
+          "name": "Armenia",
+          "name_zh": "亚美尼亚",
+          "organizations": 1,
+          "value": 9,
+          "downloads": 7262252,
+          "coverageStatus": "observed_organizations"
+        },
+        {
+          "code": "AU",
+          "name": "Australia",
+          "name_zh": "澳大利亚",
+          "organizations": 1,
+          "value": 7,
+          "downloads": 46568365,
+          "coverageStatus": "observed_organizations"
+        },
+        {
+          "code": "SC",
+          "name": "Seychelles",
+          "name_zh": "塞舌尔",
+          "organizations": 1,
+          "value": 2,
+          "downloads": 31520,
+          "coverageStatus": "observed_organizations"
+        },
+        {
+          "code": "AR",
+          "name": "Argentina",
+          "name_zh": "阿根廷",
+          "organizations": 0,
+          "value": 0,
+          "downloads": 0,
+          "coverageStatus": "no_mapped_organization"
+        },
+        {
+          "code": "EG",
+          "name": "Egypt",
+          "name_zh": "埃及",
+          "organizations": 0,
+          "value": 0,
+          "downloads": 0,
+          "coverageStatus": "no_mapped_organization"
+        },
+        {
+          "code": "PK",
+          "name": "Pakistan",
+          "name_zh": "巴基斯坦",
+          "organizations": 0,
+          "value": 0,
+          "downloads": 0,
+          "coverageStatus": "no_mapped_organization"
+        },
+        {
+          "code": "KE",
+          "name": "Kenya",
+          "name_zh": "肯尼亚",
+          "organizations": 0,
+          "value": 0,
+          "downloads": 0,
+          "coverageStatus": "no_mapped_organization"
+        },
+        {
+          "code": "TZ",
+          "name": "Tanzania",
+          "name_zh": "坦桑尼亚",
+          "organizations": 0,
+          "value": 0,
+          "downloads": 0,
+          "coverageStatus": "no_mapped_organization"
+        },
+        {
+          "code": "UA",
+          "name": "Ukraine",
+          "name_zh": "乌克兰",
+          "organizations": 0,
+          "value": 0,
+          "downloads": 0,
+          "coverageStatus": "no_mapped_organization"
+        },
+        {
+          "code": "ZA",
+          "name": "South Africa",
+          "name_zh": "南非",
+          "organizations": 0,
+          "value": 0,
+          "downloads": 0,
+          "coverageStatus": "no_mapped_organization"
+        },
+        {
+          "code": "NP",
+          "name": "Nepal",
+          "name_zh": "尼泊尔",
+          "organizations": 0,
+          "value": 0,
+          "downloads": 0,
+          "coverageStatus": "no_mapped_organization"
+        },
+        {
+          "code": "MX",
+          "name": "Mexico",
+          "name_zh": "墨西哥",
+          "organizations": 0,
+          "value": 0,
+          "downloads": 0,
+          "coverageStatus": "no_mapped_organization"
+        },
+        {
+          "code": "CO",
+          "name": "Colombia",
+          "name_zh": "哥伦比亚",
+          "organizations": 0,
+          "value": 0,
+          "downloads": 0,
+          "coverageStatus": "no_mapped_organization"
+        },
+        {
+          "code": "CY",
+          "name": "Cyprus",
+          "name_zh": "塞浦路斯",
+          "organizations": 0,
+          "value": 0,
+          "downloads": 0,
+          "coverageStatus": "no_mapped_organization"
+        }
+      ]
+    },
+    "datasets": {
+      "summary": {
+        "countries": 63,
+        "divisions": 187,
+        "organizations": 826,
+        "datasets": 12502,
+        "downloads": 828031338,
+        "likes": 174030,
+        "mappedCountries": 52,
+        "activeProviders": 570,
+        "mappedDivisions": 134
+      },
+      "countries": [
+        {
+          "code": "US",
+          "name": "United States",
+          "name_zh": "美国",
+          "organizations": 350,
+          "value": 5938,
+          "downloads": 682366703,
+          "coverageStatus": "observed_organizations"
+        },
+        {
+          "code": "CN",
+          "name": "China",
+          "name_zh": "中国",
+          "organizations": 147,
+          "value": 1354,
+          "downloads": 39802908,
+          "coverageStatus": "observed_organizations"
+        },
+        {
+          "code": "DE",
+          "name": "Germany",
+          "name_zh": "德国",
+          "organizations": 35,
+          "value": 961,
+          "downloads": 9438883,
+          "coverageStatus": "observed_organizations"
+        },
+        {
+          "code": "FR",
+          "name": "France",
+          "name_zh": "法国",
+          "organizations": 26,
+          "value": 775,
+          "downloads": 14886631,
+          "coverageStatus": "observed_organizations"
+        },
+        {
+          "code": "IE",
+          "name": "Ireland",
+          "name_zh": "爱尔兰",
+          "organizations": 1,
+          "value": 283,
+          "downloads": 273328,
+          "coverageStatus": "observed_organizations"
+        },
+        {
+          "code": "JP",
+          "name": "Japan",
+          "name_zh": "日本",
+          "organizations": 27,
+          "value": 256,
+          "downloads": 3567112,
+          "coverageStatus": "observed_organizations"
+        },
+        {
+          "code": "ES",
+          "name": "Spain",
+          "name_zh": "西班牙",
+          "organizations": 14,
+          "value": 251,
+          "downloads": 1055864,
+          "coverageStatus": "observed_organizations"
+        },
+        {
+          "code": "CA",
+          "name": "Canada",
+          "name_zh": "加拿大",
+          "organizations": 15,
+          "value": 249,
+          "downloads": 7990752,
+          "coverageStatus": "observed_organizations"
+        },
+        {
+          "code": "SG",
+          "name": "Singapore",
+          "name_zh": "新加坡",
+          "organizations": 22,
+          "value": 246,
+          "downloads": 5463568,
+          "coverageStatus": "observed_organizations"
+        },
+        {
+          "code": "RU",
+          "name": "Russia",
+          "name_zh": "俄罗斯",
+          "organizations": 11,
+          "value": 242,
+          "downloads": 748193,
+          "coverageStatus": "observed_organizations"
+        },
+        {
+          "code": "MY",
+          "name": "Malaysia",
+          "name_zh": "马来西亚",
+          "organizations": 1,
+          "value": 206,
+          "downloads": 704717,
+          "coverageStatus": "observed_organizations"
+        },
+        {
+          "code": "KR",
+          "name": "Korea",
+          "name_zh": "韩国",
+          "organizations": 35,
+          "value": 158,
+          "downloads": 2568755,
+          "coverageStatus": "observed_organizations"
+        },
+        {
+          "code": "GB",
+          "name": "United Kingdom",
+          "name_zh": "英国",
+          "organizations": 19,
+          "value": 156,
+          "downloads": 16851656,
+          "coverageStatus": "observed_organizations"
+        },
+        {
+          "code": "AE",
+          "name": "United Arab Emirates",
+          "name_zh": "阿拉伯联合酋长国",
+          "organizations": 7,
+          "value": 128,
+          "downloads": 8650437,
+          "coverageStatus": "observed_organizations"
+        },
+        {
+          "code": "BR",
+          "name": "Brazil",
+          "name_zh": "巴西",
+          "organizations": 5,
+          "value": 121,
+          "downloads": 250784,
+          "coverageStatus": "observed_organizations"
+        },
+        {
+          "code": "IN",
+          "name": "India",
+          "name_zh": "印度",
+          "organizations": 15,
+          "value": 119,
+          "downloads": 2788446,
+          "coverageStatus": "observed_organizations"
+        },
+        {
+          "code": "TH",
+          "name": "Thailand",
+          "name_zh": "泰国",
+          "organizations": 3,
+          "value": 118,
+          "downloads": 475199,
+          "coverageStatus": "observed_organizations"
+        },
+        {
+          "code": "FI",
+          "name": "Finland",
+          "name_zh": "芬兰",
+          "organizations": 3,
+          "value": 107,
+          "downloads": 15354029,
+          "coverageStatus": "observed_organizations"
+        },
+        {
+          "code": "IT",
+          "name": "Italy",
+          "name_zh": "意大利",
+          "organizations": 7,
+          "value": 93,
+          "downloads": 681766,
+          "coverageStatus": "observed_organizations"
+        },
+        {
+          "code": "BG",
+          "name": "Bulgaria",
+          "name_zh": "保加利亚",
+          "organizations": 1,
+          "value": 71,
+          "downloads": 418474,
+          "coverageStatus": "observed_organizations"
+        },
+        {
+          "code": "BE",
+          "name": "Belgium",
+          "name_zh": "比利时",
+          "organizations": 4,
+          "value": 69,
+          "downloads": 1756178,
+          "coverageStatus": "observed_organizations"
+        },
+        {
+          "code": "QA",
+          "name": "Qatar",
+          "name_zh": "卡塔尔",
+          "organizations": 1,
+          "value": 66,
+          "downloads": 297424,
+          "coverageStatus": "observed_organizations"
+        },
+        {
+          "code": "IL",
+          "name": "Israel",
+          "name_zh": "以色列",
+          "organizations": 7,
+          "value": 65,
+          "downloads": 3919882,
+          "coverageStatus": "observed_organizations"
+        },
+        {
+          "code": "EE",
+          "name": "Estonia",
+          "name_zh": "爱沙尼亚",
+          "organizations": 2,
+          "value": 64,
+          "downloads": 147973,
+          "coverageStatus": "observed_organizations"
+        },
+        {
+          "code": "NO",
+          "name": "Norway",
+          "name_zh": "挪威",
+          "organizations": 2,
+          "value": 53,
+          "downloads": 238617,
+          "coverageStatus": "observed_organizations"
+        },
+        {
+          "code": "CH",
+          "name": "Switzerland",
+          "name_zh": "瑞士",
+          "organizations": 6,
+          "value": 52,
+          "downloads": 437665,
+          "coverageStatus": "observed_organizations"
+        },
+        {
+          "code": "GR",
+          "name": "Greece",
+          "name_zh": "希腊",
+          "organizations": 1,
+          "value": 52,
+          "downloads": 340361,
+          "coverageStatus": "observed_organizations"
+        },
+        {
+          "code": "VN",
+          "name": "Vietnam",
+          "name_zh": "越南",
+          "organizations": 7,
+          "value": 34,
+          "downloads": 535789,
+          "coverageStatus": "observed_organizations"
+        },
+        {
+          "code": "DK",
+          "name": "Denmark",
+          "name_zh": "丹麦",
+          "organizations": 1,
+          "value": 29,
+          "downloads": 1513037,
+          "coverageStatus": "observed_organizations"
+        },
+        {
+          "code": "NL",
+          "name": "Netherlands",
+          "name_zh": "荷兰",
+          "organizations": 7,
+          "value": 27,
+          "downloads": 666762,
+          "coverageStatus": "observed_organizations"
+        },
+        {
+          "code": "PL",
+          "name": "Poland",
+          "name_zh": "波兰",
+          "organizations": 7,
+          "value": 21,
+          "downloads": 777884,
+          "coverageStatus": "observed_organizations"
+        },
+        {
+          "code": "SI",
+          "name": "Slovenia",
+          "name_zh": "斯洛文尼亚",
+          "organizations": 1,
+          "value": 21,
+          "downloads": 278632,
+          "coverageStatus": "observed_organizations"
+        },
+        {
+          "code": "HU",
+          "name": "Hungary",
+          "name_zh": "匈牙利",
+          "organizations": 2,
+          "value": 15,
+          "downloads": 72323,
+          "coverageStatus": "observed_organizations"
+        },
+        {
+          "code": "TR",
+          "name": "Turkey",
+          "name_zh": "土耳其",
+          "organizations": 2,
+          "value": 15,
+          "downloads": 53318,
+          "coverageStatus": "observed_organizations"
+        },
+        {
+          "code": "RO",
+          "name": "Romania",
+          "name_zh": "罗马尼亚",
+          "organizations": 1,
+          "value": 15,
+          "downloads": 28195,
+          "coverageStatus": "observed_organizations"
+        },
+        {
+          "code": "SA",
+          "name": "Saudi Arabia",
+          "name_zh": "沙特阿拉伯",
+          "organizations": 2,
+          "value": 13,
+          "downloads": 45663,
+          "coverageStatus": "observed_organizations"
+        },
+        {
+          "code": "BD",
+          "name": "Bangladesh",
+          "name_zh": "孟加拉国",
+          "organizations": 1,
+          "value": 11,
+          "downloads": 2107393,
+          "coverageStatus": "observed_organizations"
+        },
+        {
+          "code": "CZ",
+          "name": "Czech Rep.",
+          "name_zh": "捷克",
+          "organizations": 4,
+          "value": 10,
+          "downloads": 18819,
+          "coverageStatus": "observed_organizations"
+        },
+        {
+          "code": "SE",
+          "name": "Sweden",
+          "name_zh": "瑞典",
+          "organizations": 4,
+          "value": 9,
+          "downloads": 322891,
+          "coverageStatus": "observed_organizations"
+        },
+        {
+          "code": "ID",
+          "name": "Indonesia",
+          "name_zh": "印度尼西亚",
+          "organizations": 4,
+          "value": 7,
+          "downloads": 12913,
+          "coverageStatus": "observed_organizations"
+        },
+        {
+          "code": "IS",
+          "name": "Iceland",
+          "name_zh": "冰岛",
+          "organizations": 1,
+          "value": 7,
+          "downloads": 34012,
+          "coverageStatus": "observed_organizations"
+        },
+        {
+          "code": "IR",
+          "name": "Iran",
+          "name_zh": "伊朗",
+          "organizations": 2,
+          "value": 6,
+          "downloads": 35200,
+          "coverageStatus": "observed_organizations"
+        },
+        {
+          "code": "AT",
+          "name": "Austria",
+          "name_zh": "奥地利",
+          "organizations": 4,
+          "value": 4,
+          "downloads": 7692,
+          "coverageStatus": "observed_organizations"
+        },
+        {
+          "code": "PT",
+          "name": "Portugal",
+          "name_zh": "葡萄牙",
+          "organizations": 1,
+          "value": 4,
+          "downloads": 40647,
+          "coverageStatus": "observed_organizations"
+        },
+        {
+          "code": "SC",
+          "name": "Seychelles",
+          "name_zh": "塞舌尔",
+          "organizations": 1,
+          "value": 1,
+          "downloads": 3863,
+          "coverageStatus": "observed_organizations"
+        },
+        {
+          "code": "AU",
+          "name": "Australia",
+          "name_zh": "澳大利亚",
+          "organizations": 1,
+          "value": 0,
+          "downloads": 0,
+          "coverageStatus": "observed_organizations"
+        },
+        {
+          "code": "AM",
+          "name": "Armenia",
+          "name_zh": "亚美尼亚",
+          "organizations": 1,
+          "value": 0,
+          "downloads": 0,
+          "coverageStatus": "observed_organizations"
+        },
+        {
+          "code": "LT",
+          "name": "Lithuania",
+          "name_zh": "立陶宛",
+          "organizations": 1,
+          "value": 0,
+          "downloads": 0,
+          "coverageStatus": "observed_organizations"
+        },
+        {
+          "code": "BY",
+          "name": "Belarus",
+          "name_zh": "白俄罗斯",
+          "organizations": 1,
+          "value": 0,
+          "downloads": 0,
+          "coverageStatus": "observed_organizations"
+        },
+        {
+          "code": "NG",
+          "name": "Nigeria",
+          "name_zh": "尼日利亚",
+          "organizations": 1,
+          "value": 0,
+          "downloads": 0,
+          "coverageStatus": "observed_organizations"
+        },
+        {
+          "code": "LB",
+          "name": "Lebanon",
+          "name_zh": "黎巴嫩",
+          "organizations": 1,
+          "value": 0,
+          "downloads": 0,
+          "coverageStatus": "observed_organizations"
+        },
+        {
+          "code": "CL",
+          "name": "Chile",
+          "name_zh": "智利",
+          "organizations": 1,
+          "value": 0,
+          "downloads": 0,
+          "coverageStatus": "observed_organizations"
+        },
+        {
+          "code": "NP",
+          "name": "Nepal",
+          "name_zh": "尼泊尔",
+          "organizations": 0,
+          "value": 0,
+          "downloads": 0,
+          "coverageStatus": "no_mapped_organization"
+        },
+        {
+          "code": "EG",
+          "name": "Egypt",
+          "name_zh": "埃及",
+          "organizations": 0,
+          "value": 0,
+          "downloads": 0,
+          "coverageStatus": "no_mapped_organization"
+        },
+        {
+          "code": "PK",
+          "name": "Pakistan",
+          "name_zh": "巴基斯坦",
+          "organizations": 0,
+          "value": 0,
+          "downloads": 0,
+          "coverageStatus": "no_mapped_organization"
+        },
+        {
+          "code": "CY",
+          "name": "Cyprus",
+          "name_zh": "塞浦路斯",
+          "organizations": 0,
+          "value": 0,
+          "downloads": 0,
+          "coverageStatus": "no_mapped_organization"
+        },
+        {
+          "code": "KE",
+          "name": "Kenya",
+          "name_zh": "肯尼亚",
+          "organizations": 0,
+          "value": 0,
+          "downloads": 0,
+          "coverageStatus": "no_mapped_organization"
+        },
+        {
+          "code": "ZA",
+          "name": "South Africa",
+          "name_zh": "南非",
+          "organizations": 0,
+          "value": 0,
+          "downloads": 0,
+          "coverageStatus": "no_mapped_organization"
+        },
+        {
+          "code": "AR",
+          "name": "Argentina",
+          "name_zh": "阿根廷",
+          "organizations": 0,
+          "value": 0,
+          "downloads": 0,
+          "coverageStatus": "no_mapped_organization"
+        },
+        {
+          "code": "MX",
+          "name": "Mexico",
+          "name_zh": "墨西哥",
+          "organizations": 0,
+          "value": 0,
+          "downloads": 0,
+          "coverageStatus": "no_mapped_organization"
+        },
+        {
+          "code": "UA",
+          "name": "Ukraine",
+          "name_zh": "乌克兰",
+          "organizations": 0,
+          "value": 0,
+          "downloads": 0,
+          "coverageStatus": "no_mapped_organization"
+        },
+        {
+          "code": "CO",
+          "name": "Colombia",
+          "name_zh": "哥伦比亚",
+          "organizations": 0,
+          "value": 0,
+          "downloads": 0,
+          "coverageStatus": "no_mapped_organization"
+        },
+        {
+          "code": "TZ",
+          "name": "Tanzania",
+          "name_zh": "坦桑尼亚",
+          "organizations": 0,
+          "value": 0,
+          "downloads": 0,
+          "coverageStatus": "no_mapped_organization"
+        }
+      ]
+    }
+  }
+}

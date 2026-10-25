@@ -66,3 +66,7 @@ BASE_URL=http://127.0.0.1:4173/open-dipper/analysis.html npm run test:ui
 ## 完成与交接
 
 检查 `git diff --check` 和最终 diff；确认没有凭据、意外数据刷新或生成缓存。提交说明描述最终行为，关联 issue。若还有缺口，记录复现方法、具体文件、最近通过检查和下一步，使用 [HANDOFF.md](templates/HANDOFF.md)。
+
+## Observation workspace
+
+Read [OBSERVATION_WORKSPACE.md](OBSERVATION_WORKSPACE.md) before changing audience presets, entity layers or coverage. Run `npm run observation:build` after editing pinned references and `npm run observation:check` to validate. `tests/workspace-ui.mjs` is included in `test:observatory:ui` and covers presets, missing sources, China scope and refresh recovery.

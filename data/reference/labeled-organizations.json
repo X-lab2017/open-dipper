@@ -1,0 +1,4593 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "repository": "X-lab2017/open-digger",
+    "commit": "5c2ffc4f5b3dd37ebcb20514c7abfee6853bd830",
+    "url": "https://github.com/X-lab2017/open-digger/tree/5c2ffc4f5b3dd37ebcb20514c7abfee6853bd830/labeled_data"
+  },
+  "scope": "Typed organization labels and explicit repository IDs; referenced org inventories are not expanded, legal entities are not deduplicated, labels can be nested. Not a global census.",
+  "scannedFiles": 5777,
+  "manifestSha256": "1ef86c32035ce4dce4a206b6595d9865cc90d1d840973ed02a5e116528f85c64",
+  "labels": [
+    {
+      "id": ":agencies/moj_uk",
+      "name": "Ministry of Justice, UK",
+      "nameZh": "英国司法部",
+      "type": "Agency-0",
+      "group": "public",
+      "path": "labeled_data/agencies/moj_uk/index.yml",
+      "sha256": "2ac295f737c9f833ccc772f031d027f2e31b5af79728137b8e609aa8a3f50c68"
+    },
+    {
+      "id": ":agencies/nsa",
+      "name": "National Security Agency, US",
+      "nameZh": "美国国家安全局",
+      "type": "Agency-0",
+      "group": "public",
+      "path": "labeled_data/agencies/nsa/index.yml",
+      "sha256": "f6715943b1bae7095b4737e73daa301e8e3c5551dc86b85087e7263805c27fb5"
+    },
+    {
+      "id": ":agencies/us_va",
+      "name": "Department of Veterans Affairs, US",
+      "nameZh": "美国退伍军人事务部",
+      "type": "Agency-0",
+      "group": "public",
+      "path": "labeled_data/agencies/us_va/index.yml",
+      "sha256": "39b8946dccecfbf6474057d461f264e89994a3e7ac5bfc59ebb0116ed434228d"
+    },
+    {
+      "id": ":communities/agentgateway",
+      "name": "Agentgateway",
+      "nameZh": "Agentgateway",
+      "type": "Community",
+      "group": "community",
+      "path": "labeled_data/communities/agentgateway/index.yml",
+      "sha256": "ee401d8d1b0d8e67f57cd3eb093d342233ed5c65e287644eec8a6d42b90df0fd"
+    },
+    {
+      "id": ":communities/ecnu-oss101-2023-spring",
+      "name": "ecnu-oss101-2023-spring",
+      "nameZh": "ecnu-oss101-2023-spring",
+      "type": "Community",
+      "group": "community",
+      "path": "labeled_data/communities/ecnu-oss101-2023-spring/index.yml",
+      "sha256": "4c9c3450da8dc00ea1366db2b3deaa2e7070be6ee288b83cccdc21ed1c4c373f"
+    },
+    {
+      "id": ":communities/ecnu-oss101-2024-spring",
+      "name": "ecnu-oss101-2023-spring",
+      "nameZh": "ecnu-oss101-2023-spring",
+      "type": "Community",
+      "group": "community",
+      "path": "labeled_data/communities/ecnu-oss101-2024-spring/index.yml",
+      "sha256": "c34ebcce6026c9d3fed0e7af9fbb586e1284f7e0a480c6fc6c9ab096888d9761"
+    },
+    {
+      "id": ":communities/esengine",
+      "name": "ESEngine",
+      "nameZh": "ESEngine",
+      "type": "Community",
+      "group": "community",
+      "path": "labeled_data/communities/esengine/index.yml",
+      "sha256": "0a37b77a41fddca4f951f30512635279e7f7a34481b5e94e70da1f254b4bb586"
+    },
+    {
+      "id": ":communities/hackclub",
+      "name": "Hack Club",
+      "nameZh": "Hack Club",
+      "type": "Community",
+      "group": "community",
+      "path": "labeled_data/communities/hackclub/index.yml",
+      "sha256": "827b7f80919d873ef8771a5638f33c074198e41c3f54988a879262c8297c5a29"
+    },
+    {
+      "id": ":communities/herdr",
+      "name": "Herdr",
+      "nameZh": "Herdr",
+      "type": "Community",
+      "group": "community",
+      "path": "labeled_data/communities/herdr/index.yml",
+      "sha256": "3d51c872a060e734fa3c0a14405d4ac0ccff69f37321f1b2b381023a361f34a5"
+    },
+    {
+      "id": ":communities/kaiyuanshe",
+      "name": "Kaiyuanshe",
+      "nameZh": "Kaiyuanshe",
+      "type": "Community",
+      "group": "community",
+      "path": "labeled_data/communities/kaiyuanshe/index.yml",
+      "sha256": "700b3db9c698197200a0f1ec52a92bcc978a9a7e9d3f3caca5723aa0d4bc41d7"
+    },
+    {
+      "id": ":communities/llm_d",
+      "name": "llm-d",
+      "nameZh": "llm-d",
+      "type": "Community",
+      "group": "community",
+      "path": "labeled_data/communities/llm_d/index.yml",
+      "sha256": "c25654e59d67a98028a070d5931e4e106213245500a291ae9e188e301dccc592"
+    },
+    {
+      "id": ":communities/lmcache",
+      "name": "LMCache",
+      "nameZh": "LMCache",
+      "type": "Community",
+      "group": "community",
+      "path": "labeled_data/communities/lmcache/index.yml",
+      "sha256": "439be9d8bab67683b9553993680bafd8a4c2569cb7145083f51d7519ec20e2b4"
+    },
+    {
+      "id": ":communities/mulan",
+      "name": "Mulan",
+      "nameZh": "木兰开源社区",
+      "type": "Community",
+      "group": "community",
+      "path": "labeled_data/communities/mulan/index.yml",
+      "sha256": "c3b8205301e5dcfa1dcd6194469e7e3af37724a6ac9d9f6200ce80bbaf214942"
+    },
+    {
+      "id": ":communities/omniroute",
+      "name": "OmniRoute",
+      "nameZh": "OmniRoute",
+      "type": "Community",
+      "group": "community",
+      "path": "labeled_data/communities/omniroute/index.yml",
+      "sha256": "f7d9b79cb41ea7094ee53ce5b38fe85f074a9dfc6a1155e56dd8e9e3669b41bb"
+    },
+    {
+      "id": ":communities/openbuild",
+      "name": "OpenBuild",
+      "nameZh": "OpenBuild",
+      "type": "Community",
+      "group": "community",
+      "path": "labeled_data/communities/openbuild/index.yml",
+      "sha256": "e368c91dd171baf57e7f8bf8f9348b286ce636c9684a00cb9952683d43cc3004"
+    },
+    {
+      "id": ":communities/openmmlab",
+      "name": "OpenMMLab",
+      "nameZh": "OpenMMLab",
+      "type": "Community",
+      "group": "community",
+      "path": "labeled_data/communities/openmmlab/index.yml",
+      "sha256": "b819054c8be6eedfcb09a4949c0635acb52048202b80b7ba7891048311c7d7cc"
+    },
+    {
+      "id": ":communities/xlab",
+      "name": "X-lab",
+      "nameZh": "X-lab",
+      "type": "Community",
+      "group": "community",
+      "path": "labeled_data/communities/xlab/index.yml",
+      "sha256": "9733eb9ab34df8fd4725fd9878fa6c27fe375e4c3a441297fd748adcb7224408"
+    },
+    {
+      "id": ":companies/2mui",
+      "name": "2mui",
+      "nameZh": "2mui",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/2mui/index.yml",
+      "sha256": "182673bd817d851e4b8fcdbc56fd028a828049785b8250b707b4e5a59708fde9"
+    },
+    {
+      "id": ":companies/360",
+      "name": 360,
+      "nameZh": "奇虎360",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/360/index.yml",
+      "sha256": "01f8347dc5c2e4d841f14a8fb2c6ed39881794944da46145dfe973d22505dffa"
+    },
+    {
+      "id": ":companies/3drobotics",
+      "name": "3DRobotics",
+      "nameZh": "3DRobotics",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/3drobotics/index.yml",
+      "sha256": "893ec52d107b5df9a17e672daa2412cc395bda8ae3dd2f339feff76724375fe9"
+    },
+    {
+      "id": ":companies/650_industries",
+      "name": "650 Industries",
+      "nameZh": "650 Industries",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/650_industries/index.yml",
+      "sha256": "aae55689f4a0d61580009c2b795c2843bc59782aa5de15ec346d3bf14cc58cb1"
+    },
+    {
+      "id": ":companies/acquia",
+      "name": "Acquia",
+      "nameZh": "Acquia",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/acquia/index.yml",
+      "sha256": "28cb425f258e6cdbdd9c9bc9c76f5ec387fbb731d0940bf1aa20c5859318c8e9"
+    },
+    {
+      "id": ":companies/activepieces",
+      "name": "Activepieces",
+      "nameZh": "Activepieces",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/activepieces/index.yml",
+      "sha256": "f2dcb304e1dde914bd4a00011a63042554ffc1c8ce19f5c088bf438c8e079107"
+    },
+    {
+      "id": ":companies/adobe",
+      "name": "Adobe",
+      "nameZh": "Adobe",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/adobe/index.yml",
+      "sha256": "2bc73bd842fc92883e750dea48418ddb3d6831b39781c444bc246062d8b0e2a4"
+    },
+    {
+      "id": ":companies/agno",
+      "name": "Agno",
+      "nameZh": "Agno",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/agno/index.yml",
+      "sha256": "70a17bafaef995b7ae1476a398ff9af72c45eca0dce980a0b8e1b14b5fa14c0b"
+    },
+    {
+      "id": ":companies/agora",
+      "name": "Agora",
+      "nameZh": "声网",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/agora/index.yml",
+      "sha256": "da1f081da9e9391372438fe9970832881d3fef6cbf13f2c900a6d4a5d1ccbba5"
+    },
+    {
+      "id": ":companies/airbnb",
+      "name": "Airbnb",
+      "nameZh": "Airbnb",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/airbnb/index.yml",
+      "sha256": "f8714ae3bc55dc5ffa4002822aa1319df1263872f502e31c932060d49e247a38"
+    },
+    {
+      "id": ":companies/airbyte",
+      "name": "Airbyte",
+      "nameZh": "Airbyte",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/airbyte/index.yml",
+      "sha256": "2d5da2f099009d83f2e8d699fa726942efd88d65d63e359c1ee3987cd3ab66dd"
+    },
+    {
+      "id": ":companies/alauda",
+      "name": "Alauda",
+      "nameZh": "灵雀云",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/alauda/index.yml",
+      "sha256": "c2f6b6deb16e04a5e568708bdc1b6d831ede1142c1224b120c857b58acaa218e"
+    },
+    {
+      "id": ":companies/alfresco",
+      "name": "Alfresco",
+      "nameZh": "Alfresco",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/alfresco/index.yml",
+      "sha256": "16615b51bf49ff532fbff0f51a4a8c7a087a504fa7dca24521e1aa355fb02d39"
+    },
+    {
+      "id": ":companies/alibaba",
+      "name": "Alibaba",
+      "nameZh": "阿里巴巴",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/alibaba/index.yml",
+      "sha256": "239e28b1354bffe569030fb375f7ffd418fffe3d94b3d377e1d8061c2493643d"
+    },
+    {
+      "id": ":companies/all_hands_ai",
+      "name": "All Hands AI",
+      "nameZh": "All Hands AI",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/all_hands_ai/index.yml",
+      "sha256": "ecbd9b5cddda42d1b8447ddd000bd6e3decee2741d15490cd334ae40755a0078"
+    },
+    {
+      "id": ":companies/alluxio",
+      "name": "Alluxio",
+      "nameZh": "Alluxio",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/alluxio/index.yml",
+      "sha256": "312bb3e1c84a46f852f440fdaa412735c18d051635fa33d1e8de2957bc34c85f"
+    },
+    {
+      "id": ":companies/amazon",
+      "name": "Amazon",
+      "nameZh": "亚马逊",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/amazon/index.yml",
+      "sha256": "c12ea00802fbf00ac5732723da12384cd3d1ee14bae3f7708702c877b1f63c6b"
+    },
+    {
+      "id": ":companies/ambassadorlabs",
+      "name": "Ambassador Labs",
+      "nameZh": "Ambassador Labs",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/ambassadorlabs/index.yml",
+      "sha256": "ee174c69a2e157c6c39e279316ead01aea28b085390885dfa23f59a4f284c268"
+    },
+    {
+      "id": ":companies/anaconda",
+      "name": "Anaconda",
+      "nameZh": "Anaconda",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/anaconda/index.yml",
+      "sha256": "a9f26f96057143e35bac8f875fe8121c48cf0b0974e0641fa1bddd2480b4fa29"
+    },
+    {
+      "id": ":companies/anomaly",
+      "name": "Anomaly",
+      "nameZh": "Anomaly",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/anomaly/index.yml",
+      "sha256": "9225de30494f1baa4c8cfad7df518ba97557ce9fcf12550de554ecc920f6b5b1"
+    },
+    {
+      "id": ":companies/antgroup",
+      "name": "Ant group",
+      "nameZh": "蚂蚁集团",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/antgroup/index.yml",
+      "sha256": "903eea9d89ec3de38658723e32209597970dcb448250c27df608358fa76cb0dd"
+    },
+    {
+      "id": ":companies/anthropic",
+      "name": "Anthropic",
+      "nameZh": "Anthropic",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/anthropic/index.yml",
+      "sha256": "7495a4c863c1ec0408a6bbc2d12b11d9253b1efcfada6a2c655a8866a95d1f57"
+    },
+    {
+      "id": ":companies/anysphere",
+      "name": "Anysphere",
+      "nameZh": "Anysphere",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/anysphere/index.yml",
+      "sha256": "e3afbfe732d47dfc904ee63b5d74495b3c9deeb297c1ec50f40c2cd9b7ff9ef7"
+    },
+    {
+      "id": ":companies/apecloud",
+      "name": "ApeCloud",
+      "nameZh": "云猿生",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/apecloud/index.yml",
+      "sha256": "c84977cdb3a0997fa27d546b9b82282cebf944d2ceac2f9a242eec9ea0a72673"
+    },
+    {
+      "id": ":companies/api7",
+      "name": "API7",
+      "nameZh": "API7",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/api7/index.yml",
+      "sha256": "045ca08739a9725c5c2ef61c1f883e7cc78d8140500cbdf76c22a4a3ca9bae6b"
+    },
+    {
+      "id": ":companies/apple",
+      "name": "Apple",
+      "nameZh": "苹果",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/apple/index.yml",
+      "sha256": "4109304def7d45bb17a86a752d02d3f0c426da12c8771029d04f5b55ad4691bc"
+    },
+    {
+      "id": ":companies/appsmith",
+      "name": "Appsmith",
+      "nameZh": "Appsmith",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/appsmith/index.yml",
+      "sha256": "6f4059e574eb09a683c6a1bd75d9c567646cf7ab78640f76bcbf2c593f767333"
+    },
+    {
+      "id": ":companies/arize",
+      "name": "Arize AI",
+      "nameZh": "Arize AI",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/arize/index.yml",
+      "sha256": "17a510fe06c1bbcf350f1562baa41a4a70ffe7c41a7a4a703de89280787a63a8"
+    },
+    {
+      "id": ":companies/armo",
+      "name": "ARMO",
+      "nameZh": "ARMO",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/armo/index.yml",
+      "sha256": "2dae7b4bf44d8806f60c1b7dbd39d3915a54e38bf93d77c2a4545def3608607d"
+    },
+    {
+      "id": ":companies/artelnics",
+      "name": "Artelnics",
+      "nameZh": "Artelnics",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/artelnics/index.yml",
+      "sha256": "9fc14d06e6251ed9b14bc4f2da0f1fd0b8157fa0b4cb4ce5766c68d8eb76c992"
+    },
+    {
+      "id": ":companies/astral",
+      "name": "Astral",
+      "nameZh": "Astral",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/astral/index.yml",
+      "sha256": "1f64b98174ed7ee72536c6782a3f44d3816b418e053cf4f45ecc8cf339daec6d"
+    },
+    {
+      "id": ":companies/baidu",
+      "name": "Baidu",
+      "nameZh": "百度",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/baidu/index.yml",
+      "sha256": "8205d0a8f09ed24f5bdbecb6ed20201dd1b7879e5fa6734789b44d580e26b040"
+    },
+    {
+      "id": ":companies/bentoml",
+      "name": "BentoML",
+      "nameZh": "BentoML",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/bentoml/index.yml",
+      "sha256": "f7bd120cfb020954383a17deceb94f05e6a85e7974ff2e7afabe118a739f9577"
+    },
+    {
+      "id": ":companies/berriai",
+      "name": "BerriAI",
+      "nameZh": "BerriAI",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/berriai/index.yml",
+      "sha256": "1aa5d0bd1933704dffd231ded1120d2a8914372e9cbbf7a4e9f012aeef0262c7"
+    },
+    {
+      "id": ":companies/bilibili",
+      "name": "Bilibili",
+      "nameZh": "哔哩哔哩",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/bilibili/index.yml",
+      "sha256": "e6cb46b88faf53d4a0b5613f5b1e5ad5077e19b383d36faa7b81a355efdb065b"
+    },
+    {
+      "id": ":companies/bitland",
+      "name": "Bitland",
+      "nameZh": "Bitland",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/bitland/index.yml",
+      "sha256": "bde9ccb4d903665dc3541dceb4cbef67b42c05b565ed1a423f39a6ac8f698de1"
+    },
+    {
+      "id": ":companies/bitwarden",
+      "name": "Bitwarden",
+      "nameZh": "Bitwarden",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/bitwarden/index.yml",
+      "sha256": "f12377284c37417924dfb8d72da761064e2a504efe7041196cb02c2c88e26b43"
+    },
+    {
+      "id": ":companies/black_forest_labs",
+      "name": "Black Forest Labs",
+      "nameZh": "Black Forest Labs",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/black_forest_labs/index.yml",
+      "sha256": "dd2a291f9b0fc649bfbda01ce97e5f73cab229a7b6d3173f8af07d0c19815056"
+    },
+    {
+      "id": ":companies/block",
+      "name": "Block",
+      "nameZh": "Block",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/block/index.yml",
+      "sha256": "0e2be49f78601a2bf190605586cb2b002711c8e228bd3a3d5c2780d4fb11fcfe"
+    },
+    {
+      "id": ":companies/bloomberg",
+      "name": "Bloomberg",
+      "nameZh": "彭博",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/bloomberg/index.yml",
+      "sha256": "c8fdef215255f3dd7d8207d5c8f9969d98e687bced455524adc0a5df5ed91774"
+    },
+    {
+      "id": ":companies/blue_spire",
+      "name": "Blue Spire",
+      "nameZh": "Blue Spire",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/blue_spire/index.yml",
+      "sha256": "d8319a698b0d08f4f86de364f7d7c19d04246c26b428713ef3ee89ff1b6461ee"
+    },
+    {
+      "id": ":companies/bluesky",
+      "name": "Bluesky",
+      "nameZh": "Bluesky",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/bluesky/index.yml",
+      "sha256": "f928329576efc12686eaf17102659c6c7f28ffbe5b45386648a49eef4cc67a14"
+    },
+    {
+      "id": ":companies/brave",
+      "name": "Brave",
+      "nameZh": "Brave",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/brave/index.yml",
+      "sha256": "6ce56616b79577425d1630dbf57548dde360b5ddf2593e6e459901091a94edb8"
+    },
+    {
+      "id": ":companies/browser_use",
+      "name": "Browser Use",
+      "nameZh": "Browser Use",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/browser_use/index.yml",
+      "sha256": "539e0d68f6c097989259722b86b3f39fda55c7b075ff8caffd2335bc71d87c33"
+    },
+    {
+      "id": ":companies/buoyant",
+      "name": "Buoyant",
+      "nameZh": "Buoyant",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/buoyant/index.yml",
+      "sha256": "20d7d6d443151810d03cd98304447de37396542d1f18bc38adf9e980b0e79336"
+    },
+    {
+      "id": ":companies/bytebase",
+      "name": "Bytebase",
+      "nameZh": "Bytebase",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/bytebase/index.yml",
+      "sha256": "b79772756e7bfba92f9bf5955c1ed75ee1fccf51faa3adf1fe31ec094807d58e"
+    },
+    {
+      "id": ":companies/bytedance",
+      "name": "ByteDance",
+      "nameZh": "字节跳动",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/bytedance/index.yml",
+      "sha256": "71a27a80bbfe93dc208d7058c99c0527465dc70cf46d957a8cfa7f527e983af7"
+    },
+    {
+      "id": ":companies/cal.com",
+      "name": "Cal.com",
+      "nameZh": "Cal.com",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/cal.com/index.yml",
+      "sha256": "90910ea9f538cee623b0ecff277372ea79007706ad32436c251f7345d768fddf"
+    },
+    {
+      "id": ":companies/camel_ai",
+      "name": "CAMEL-AI",
+      "nameZh": "CAMEL-AI",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/camel_ai/index.yml",
+      "sha256": "9d4e5f4421cd064b705628b9e8b6634408717ac5c1c212926d81f2101ac1484e"
+    },
+    {
+      "id": ":companies/camunda",
+      "name": "Camunda",
+      "nameZh": "Camunda",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/camunda/index.yml",
+      "sha256": "e2c8859c3b6ea0e8655c26a5764190e6190b67e9f84accce0b34997289d343ec"
+    },
+    {
+      "id": ":companies/canner",
+      "name": "Canner",
+      "nameZh": "易开科技",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/canner/index.yml",
+      "sha256": "9432fc36d1829ed93b79457dcfee465cf5a09f9dc48641906bf1b1caffb31c17"
+    },
+    {
+      "id": ":companies/capitalone",
+      "name": "Capital One",
+      "nameZh": "Capital One",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/capitalone/index.yml",
+      "sha256": "ad50e0cabbf3b1604a151c5ed098884626b499edec142ffeb5bb4929a26b6706"
+    },
+    {
+      "id": ":companies/carbit",
+      "name": "Carbit",
+      "nameZh": "Carbit",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/carbit/index.yml",
+      "sha256": "0b71c6f4b81b5def5123f70e67e36d1ad07649aca8daf478687b4f368696dca5"
+    },
+    {
+      "id": ":companies/cenboomh",
+      "name": "Cenboomh",
+      "nameZh": "Cenboomh",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/cenboomh/index.yml",
+      "sha256": "95597b43de6bae6562cf482e3e73593082492b563908566896c9c7f3e27a48b1"
+    },
+    {
+      "id": ":companies/chaitin",
+      "name": "Chaitin",
+      "nameZh": "北京长亭科技有限公司",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/chaitin/index.yml",
+      "sha256": "ee58230f3994b5fb520b7e73a89122119e54e467ec074f4c56c5ec5e238d3df7"
+    },
+    {
+      "id": ":companies/chatopera",
+      "name": "Chatopera",
+      "nameZh": "Chatopera",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/chatopera/index.yml",
+      "sha256": "8158b7cc4290323cfebafdcf98a2fe80951f3f01c06de1a079a0b8084c24d9ad"
+    },
+    {
+      "id": ":companies/chroma",
+      "name": "Chroma",
+      "nameZh": "Chroma",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/chroma/index.yml",
+      "sha256": "8f179ab82b0514339f840c5ed4ced9d7b8bc4c6c7e8524e0ea16ba7f4f11b9dc"
+    },
+    {
+      "id": ":companies/citrix",
+      "name": "Citrix Systems",
+      "nameZh": "Citrix Systems",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/citrix/index.yml",
+      "sha256": "bcb6b8e1f8726c343903fcc07d6b5938dfc44f4fb95b0f549a438912d1b74ec3"
+    },
+    {
+      "id": ":companies/cline",
+      "name": "Cline",
+      "nameZh": "Cline",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/cline/index.yml",
+      "sha256": "ba78a6f123b923d1ff0d8c5e907c724d32caa29a062a79018e91bed9fba2e6a8"
+    },
+    {
+      "id": ":companies/clockwork",
+      "name": "Clockwork Laboratories",
+      "nameZh": "Clockwork Laboratories",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/clockwork/index.yml",
+      "sha256": "e912798825ecb50d291eacfe8a0c76fdf3a25336bb0923cb569b9c5a68062fb3"
+    },
+    {
+      "id": ":companies/cloudbees",
+      "name": "Cloudbees",
+      "nameZh": "Cloudbees",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/cloudbees/index.yml",
+      "sha256": "0c01f0229edc646d61e1f94db3e26abc7d52d0eb193aa653bfe82d55c5ea1c8b"
+    },
+    {
+      "id": ":companies/cloudera",
+      "name": "Cloudera",
+      "nameZh": "Cloudera",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/cloudera/index.yml",
+      "sha256": "10d216631bcecfdcb714d11ff98e0f95f03478f5c19bf7667b5d843d6265baaa"
+    },
+    {
+      "id": ":companies/cloudflare",
+      "name": "Cloudflare",
+      "nameZh": "Cloudflare",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/cloudflare/index.yml",
+      "sha256": "7ec96e13d2236a0b81fdf5a863e76ea8f1eb6bedf0e6344c8691252a8b183892"
+    },
+    {
+      "id": ":companies/cloudwise",
+      "name": "Cloud Wise",
+      "nameZh": "云智慧",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/cloudwise/index.yml",
+      "sha256": "a460a75961c2793c48b35cb9f4b52c13449ec953bcd309f973963b7de66829df"
+    },
+    {
+      "id": ":companies/cnblogs",
+      "name": "CNBlogs",
+      "nameZh": "杭州语源科技有限公司",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/cnblogs/index.yml",
+      "sha256": "2103954b01dbea1a5ddd400e7b50d7fb13ffcfdefd41c8172aceba881a2f1363"
+    },
+    {
+      "id": ":companies/cnet_networks",
+      "name": "CNET Networks",
+      "nameZh": "CNET Networks",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/cnet_networks/index.yml",
+      "sha256": "be9d2935dad40e69be947c4fce83e448cb6fef4ea74a20572a739193697cebe4"
+    },
+    {
+      "id": ":companies/cockroachlabs",
+      "name": "Cockroach Labs",
+      "nameZh": "Cockroach Labs",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/cockroachlabs/index.yml",
+      "sha256": "9f712ac814c1a37f5be5effeaf74de80c2b43873d4b9a883b4fdff7ed29fb8ee"
+    },
+    {
+      "id": ":companies/coder",
+      "name": "Coder",
+      "nameZh": "Coder",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/coder/index.yml",
+      "sha256": "30434679ddf7fb364e8b41125092a8ec3f405f8a68a0c72700dcf557fa29b8a3"
+    },
+    {
+      "id": ":companies/cognee",
+      "name": "Cognee",
+      "nameZh": "Cognee",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/cognee/index.yml",
+      "sha256": "f354b48de6f331e3022b06d9899c2d466308509f6fc6fc122a84a38c31897551"
+    },
+    {
+      "id": ":companies/collate",
+      "name": "Collate",
+      "nameZh": "Collate",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/collate/index.yml",
+      "sha256": "42e9115f60414a12d429dc226c3b2cf75e2ddd9e2a77c8e0962fb5a2cd56c927"
+    },
+    {
+      "id": ":companies/comet_ml",
+      "name": "Comet ML",
+      "nameZh": "Comet ML",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/comet_ml/index.yml",
+      "sha256": "70453b4805f13991cd0bac1e3a29d83203e12d4cae4c5a208c61cb5a09d645f5"
+    },
+    {
+      "id": ":companies/composio",
+      "name": "Composio",
+      "nameZh": "Composio",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/composio/index.yml",
+      "sha256": "d81317893365eae32ba061b1706d2b343439e4107c36cb9f839951242cca7f54"
+    },
+    {
+      "id": ":companies/confluent",
+      "name": "Confluent",
+      "nameZh": "Confluent",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/confluent/index.yml",
+      "sha256": "f818b4c7ea02fd1d26b5bca7fe5a6b1871c18c4877fd3690220399ddb0b4d560"
+    },
+    {
+      "id": ":companies/consensys",
+      "name": "ConsenSys",
+      "nameZh": "ConsenSys",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/consensys/index.yml",
+      "sha256": "b3c431f5d5486064e6a472c181df87d39188e781297f8bfd25507fc120f385f9"
+    },
+    {
+      "id": ":companies/continue",
+      "name": "Continue",
+      "nameZh": "Continue",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/continue/index.yml",
+      "sha256": "f212cf2426afcfd955df286ad85945838832b2b8d2809ad5b0d13352109a9497"
+    },
+    {
+      "id": ":companies/copilotkit",
+      "name": "CopilotKit",
+      "nameZh": "CopilotKit",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/copilotkit/index.yml",
+      "sha256": "8dd13f7c46122d2820588e1ccdba8e1ef9db74d0f70837171dd5b4fea12f58b0"
+    },
+    {
+      "id": ":companies/coreweave",
+      "name": "CoreWeave",
+      "nameZh": "CoreWeave",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/coreweave/index.yml",
+      "sha256": "d3306fd4d641175e247213134e07fa7f3224a97df2f800920d412420af6cb687"
+    },
+    {
+      "id": ":companies/cosmonic",
+      "name": "Cosmonic",
+      "nameZh": "Cosmonic",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/cosmonic/index.yml",
+      "sha256": "9db2352288b18d6d60dfcfc0e08598c0b90e56a640d0a8836a6a2ed94cd1b4eb"
+    },
+    {
+      "id": ":companies/couchbase",
+      "name": "Couchbase",
+      "nameZh": "Couchbase",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/couchbase/index.yml",
+      "sha256": "b2bbb07a846b979376023f1247fe8c50d78de7d218b83bd2c206ded3c653d30e"
+    },
+    {
+      "id": ":companies/cqzww",
+      "name": "Cqzww",
+      "nameZh": "Cqzww",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/cqzww/index.yml",
+      "sha256": "666c33227faefb1c0cc1d57a264818712c73a894641e0477013119446a932f45"
+    },
+    {
+      "id": ":companies/cratedb",
+      "name": "CrateDB",
+      "nameZh": "CrateDB",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/cratedb/index.yml",
+      "sha256": "d25c87027f40584a52294abca54c92116bc73b0f232b853d57c5b3ab4c417968"
+    },
+    {
+      "id": ":companies/crewai",
+      "name": "CrewAI",
+      "nameZh": "CrewAI",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/crewai/index.yml",
+      "sha256": "23a050128faceeb0ce1e929b025f372f753aa8fcceb76279a2a4c405a0001223"
+    },
+    {
+      "id": ":companies/ctrip",
+      "name": "CTrip",
+      "nameZh": "携程",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/ctrip/index.yml",
+      "sha256": "d3c8b0dd2642290b86ee76aefdca671b12f4890351fffb1b503399eb4d099501"
+    },
+    {
+      "id": ":companies/cube_dev",
+      "name": "Cube Dev",
+      "nameZh": "Cube Dev",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/cube_dev/index.yml",
+      "sha256": "78c3d57517c24677aaa9e5ad5ab5fb0a78d4a22dbb422161b12fdc3c1eb258fb"
+    },
+    {
+      "id": ":companies/cvat_ai",
+      "name": "CVAT.ai",
+      "nameZh": "CVAT.ai",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/cvat_ai/index.yml",
+      "sha256": "2a277fdda270c0f72f4f47098697a8fd6934cfff9721ab48788884fd7b33de83"
+    },
+    {
+      "id": ":companies/cyberark",
+      "name": "CyberArk",
+      "nameZh": "CyberArk",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/cyberark/index.yml",
+      "sha256": "92264625282507f0673dc5444bc757bcd222dc82e11e693d4a4bcf8303297b8c"
+    },
+    {
+      "id": ":companies/dagger",
+      "name": "Dagger",
+      "nameZh": "Dagger",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/dagger/index.yml",
+      "sha256": "780c9ff32c40f62a8c1786e9a86a2a76bc2cd2edf7e242d72187e73e51365be7"
+    },
+    {
+      "id": ":companies/dagster_labs",
+      "name": "Dagster Labs",
+      "nameZh": "Dagster Labs",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/dagster_labs/index.yml",
+      "sha256": "03df5efabeb0d277965671aa306163cbca35474b1442e40d814429c471f6dc13"
+    },
+    {
+      "id": ":companies/daily",
+      "name": "Daily",
+      "nameZh": "Daily",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/daily/index.yml",
+      "sha256": "8f643dfcc44f8bf1e4566e2be6a6f0cbda80666bdbcca981fe20a6fe5082fe7b"
+    },
+    {
+      "id": ":companies/daocloud",
+      "name": "DaoCloud",
+      "nameZh": "道客云",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/daocloud/index.yml",
+      "sha256": "343ace7c9c4562c6e6c742a453b97f1032e54f3a5e7347fa84f256d71c2a4445"
+    },
+    {
+      "id": ":companies/data_chain",
+      "name": "DataChain",
+      "nameZh": "DataChain",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/data_chain/index.yml",
+      "sha256": "d23b853a9d7a56792f5097496cef866a5bf0539d6b03498505c0c3c09581f7c7"
+    },
+    {
+      "id": ":companies/databend",
+      "name": "Databend Labs",
+      "nameZh": "Databend Labs",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/databend/index.yml",
+      "sha256": "d9f46d9a586dcfece7dba03efc736b1d1656c2addfc833eda2331d4298bd5f39"
+    },
+    {
+      "id": ":companies/databricks",
+      "name": "Databricks",
+      "nameZh": "Databricks",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/databricks/index.yml",
+      "sha256": "a00062baa2a77fc960120857062e25d2c72da80f4631d91fcbc40b00dc97c6fd"
+    },
+    {
+      "id": ":companies/datacanvas",
+      "name": "DataCanvas",
+      "nameZh": "数据画布",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/datacanvas/index.yml",
+      "sha256": "fe46a899698d674b8206fd7cecf24d1624fa37cd2554b7c283adc9b5cface148"
+    },
+    {
+      "id": ":companies/datadog",
+      "name": "DataDog",
+      "nameZh": "DataDog",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/datadog/index.yml",
+      "sha256": "2b0b43ba95e89a6e82a32605d7bcad54fd16a67bbdf2e0cd095b0116d066dcf6"
+    },
+    {
+      "id": ":companies/datafuse",
+      "name": "Datafuse Labs",
+      "nameZh": "Datafuse",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/datafuse/index.yml",
+      "sha256": "de4ad5d274ec93603ce1f732e63b981da126739b23946af475b260a1220bce59"
+    },
+    {
+      "id": ":companies/datastax",
+      "name": "DataStax",
+      "nameZh": "DataStax",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/datastax/index.yml",
+      "sha256": "b4de66c2ac18cac2f998e7686c711ef08bd90400403a1c5da6e6b17bafa68307"
+    },
+    {
+      "id": ":companies/datastrato",
+      "name": "Datastrato",
+      "nameZh": "Datastrato",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/datastrato/index.yml",
+      "sha256": "e6a301dfa772be3a964bdbd9278596e999d74c042957988ffe6d4ec4aa67ad14"
+    },
+    {
+      "id": ":companies/datavane",
+      "name": "Datavane",
+      "nameZh": "杭州晴朗网络科技有限公司",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/datavane/index.yml",
+      "sha256": "ef9860c616deeebbb27f6bebf61fb7a57b44d70410edca2d8eaaae2d745edd09"
+    },
+    {
+      "id": ":companies/datawhale",
+      "name": "DataWhale",
+      "nameZh": "科鲸",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/datawhale/index.yml",
+      "sha256": "b76bfc32fb19e60a1d1eeac89d3910e1c73139cacc4f7c3f54a3c7ba7dccbc12"
+    },
+    {
+      "id": ":companies/daytona",
+      "name": "Daytona",
+      "nameZh": "Daytona",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/daytona/index.yml",
+      "sha256": "3e3a4810a17f74c3fe84b31e7d5878b02827f01d450780df5a7c629ee3b4829b"
+    },
+    {
+      "id": ":companies/dcloud",
+      "name": "DCloud",
+      "nameZh": "DCloud",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/dcloud/index.yml",
+      "sha256": "968a1398b4da230bcaa5a56027d7c01b8fe7bc3cc133d0582185b729620454a2"
+    },
+    {
+      "id": ":companies/deepin",
+      "name": "Deepin",
+      "nameZh": "深度",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/deepin/index.yml",
+      "sha256": "7dfca2818affad58f66027d7bd7406c022bf15965ce33d16b2a79402c995f394"
+    },
+    {
+      "id": ":companies/deepmind",
+      "name": "Deepmind",
+      "nameZh": "Deepmind",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/deepmind/index.yml",
+      "sha256": "c2345d1c6a742de51051526cb6a1239ed54ca3c0d217ade6839e12c67ca88b0e"
+    },
+    {
+      "id": ":companies/deepseek",
+      "name": "DeepSeek",
+      "nameZh": "深度求索",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/deepseek/index.yml",
+      "sha256": "2247632ea932dce7040574f74f740c940ae48912f614b1be2ab529a8c11062d7"
+    },
+    {
+      "id": ":companies/defense_unicorns",
+      "name": "Defense Unicorns",
+      "nameZh": "Defense Unicorns",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/defense_unicorns/index.yml",
+      "sha256": "1d80f3c2cae079dc342e1ec6c46b722c64f058fd3b57f7bbf6ceee78715fc600"
+    },
+    {
+      "id": ":companies/deno",
+      "name": "Deno",
+      "nameZh": "Deno",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/deno/index.yml",
+      "sha256": "3a0cc01f42aed7f002a0660bcc4de8321678e3325bb28b91d411b54038a023e0"
+    },
+    {
+      "id": ":companies/didi",
+      "name": "Didi",
+      "nameZh": "滴滴",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/didi/index.yml",
+      "sha256": "9315017f03fcfb01de1234b71ed11909b7de86e5b909ec611048dfb591c6dc8b"
+    },
+    {
+      "id": ":companies/dify_ai",
+      "name": "Dify AI",
+      "nameZh": "Dify AI",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/dify_ai/index.yml",
+      "sha256": "407c7227d29827f530c14399058d5f29bf7203c0bef67bbc63636609fd91b278"
+    },
+    {
+      "id": ":companies/dio",
+      "name": "Dio Academia",
+      "nameZh": "Dio Academia",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/dio/index.yml",
+      "sha256": "d6ff8a79a7314cd97939e9b58b930961308f9d15eff7619f2960c780961f5135"
+    },
+    {
+      "id": ":companies/docker",
+      "name": "Docker",
+      "nameZh": "Docker",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/docker/index.yml",
+      "sha256": "89df29e22b17d11e0ea6e1074340f164e08e18b6630df11c928f1f5991d0a23e"
+    },
+    {
+      "id": ":companies/dodoedu",
+      "name": "DodoEdu",
+      "nameZh": "DodoEdu",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/dodoedu/index.yml",
+      "sha256": "4a94be04a67595a11735f798f3cd18eee9447b07a9eb06e5c89ae123b9072c2c"
+    },
+    {
+      "id": ":companies/douban",
+      "name": "Douban",
+      "nameZh": "豆瓣",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/douban/index.yml",
+      "sha256": "070e0a42d8ab2360d565540642e6dbf46c7dddba1fb4d1e0b106204725dcb5e4"
+    },
+    {
+      "id": ":companies/douyu",
+      "name": "Douyu",
+      "nameZh": "Douyu",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/douyu/index.yml",
+      "sha256": "b50fff6ccbb5511dce0fd195b33f700c23f4c1f5b7016fe940d11f0ed66aa29e"
+    },
+    {
+      "id": ":companies/dragonflydb",
+      "name": "DragonflyDB",
+      "nameZh": "DragonflyDB",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/dragonflydb/index.yml",
+      "sha256": "484f929e95c8dc215a5bf793a7bd95ec0fe926e2a879a10a6fca57a254d6afe5"
+    },
+    {
+      "id": ":companies/dreamnum",
+      "name": "DreamNum",
+      "nameZh": "上海梦数科技有限公司",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/dreamnum/index.yml",
+      "sha256": "099ab2e19cdb5d6bd88e2be87169bdd75358fef51a46b8fa8ec8ab830f45e9a9"
+    },
+    {
+      "id": ":companies/dtstack",
+      "name": "DTStack",
+      "nameZh": "杭州玳数科技有限公司",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/dtstack/index.yml",
+      "sha256": "aa59bec011e41c717ae0377c67ff26a6f958c6cf64edfa49b3715aff1ef61432"
+    },
+    {
+      "id": ":companies/duckdb",
+      "name": "DuckDB Labs",
+      "nameZh": "DuckDB Labs",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/duckdb/index.yml",
+      "sha256": "b6e13bd5606ab18f4ea0bc17ad33cc4c3a0daab2e3c4e3fbfe6dec1aea550de7"
+    },
+    {
+      "id": ":companies/dynatrace",
+      "name": "Dynatrace",
+      "nameZh": "Dynatrace",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/dynatrace/index.yml",
+      "sha256": "6b516e7878a105e71498b2f8187042aecd15f6b8f5afc5c29a01891e0b019503"
+    },
+    {
+      "id": ":companies/e_ray",
+      "name": "e-Ray",
+      "nameZh": "e-Ray",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/e_ray/index.yml",
+      "sha256": "8a0d5c640dfef44d832bc5984f32a3a903698adbc9264aa1f2f25df43319af56"
+    },
+    {
+      "id": ":companies/easycorp",
+      "name": "EasyCorp",
+      "nameZh": "EasyCorp",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/easycorp/index.yml",
+      "sha256": "27711393e39f083c161bb297f52e1625ed806ddeb76f6f86e139ced1e628124e"
+    },
+    {
+      "id": ":companies/elastic",
+      "name": "Elastic",
+      "nameZh": "Elastic",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/elastic/index.yml",
+      "sha256": "30cb1b31c0dfdbb16bae324051212ddaaeb12fa72dac0e3577bf7f3fac8f4d3b"
+    },
+    {
+      "id": ":companies/emq",
+      "name": "EMQ",
+      "nameZh": "映云科技",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/emq/index.yml",
+      "sha256": "d7f6fee0ea854005d637d836c9e7896d860e9e74afb385ad7dce553e57535dec"
+    },
+    {
+      "id": ":companies/enterprisedb",
+      "name": "EnterpriseDB",
+      "nameZh": "EnterpriseDB",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/enterprisedb/index.yml",
+      "sha256": "4cd6c97f6c8fd4f5bcb228a242c94cacc30929b8c65f4b5f7e1a346dc4527183"
+    },
+    {
+      "id": ":companies/espressif",
+      "name": "ESPRESSIF",
+      "nameZh": "乐鑫科技",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/espressif/index.yml",
+      "sha256": "cae6a951953d505ce9654ace11e9e482af95b4ba53c9480d8353bdfc366fd113"
+    },
+    {
+      "id": ":companies/expensify",
+      "name": "Expensify",
+      "nameZh": "Expensify",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/expensify/index.yml",
+      "sha256": "6ba1911e35ca8b381b25ce83654ad443c8a540b5f1cf586859743647e8cbe91c"
+    },
+    {
+      "id": ":companies/explosionai",
+      "name": "Explosion AI",
+      "nameZh": "Explosion AI",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/explosionai/index.yml",
+      "sha256": "d4a7a90fc6a1fef0fa5b00309a5f26c7b67d070f542e4fc294e67b046835f4fc"
+    },
+    {
+      "id": ":companies/fastly",
+      "name": "Fastly",
+      "nameZh": "Fastly",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/fastly/index.yml",
+      "sha256": "4c807ebd8d1c4374733d40033a2c378f3ec998f66ea87be58609055aeda48464"
+    },
+    {
+      "id": ":companies/firecrawl",
+      "name": "Firecrawl",
+      "nameZh": "Firecrawl",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/firecrawl/index.yml",
+      "sha256": "e68f1a7304c8f7d5f94239ac4fb84f9e6af3a7b817fb9dad2224bcb8184b4f00"
+    },
+    {
+      "id": ":companies/fit2cloud",
+      "name": "Fit2Cloud",
+      "nameZh": "飞致云",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/fit2cloud/index.yml",
+      "sha256": "7418d0391fecf8cf5c67a82027e950e62f759f43d94f9b8d13d8a338e3af3876"
+    },
+    {
+      "id": ":companies/fivetran",
+      "name": "Fivetran",
+      "nameZh": "Fivetran",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/fivetran/index.yml",
+      "sha256": "12c661096d3bb873df7b48e0fcc8c92efbbe9dba693fdf5cbb7fe59f9677d364"
+    },
+    {
+      "id": ":companies/flant",
+      "name": "Flant",
+      "nameZh": "Flant",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/flant/index.yml",
+      "sha256": "20dbf6b163225f575bd453d112f2f876b1edbaebe398c7b2b3debc829fd2d92c"
+    },
+    {
+      "id": ":companies/fmsoft",
+      "name": "FM Soft",
+      "nameZh": "FM Soft",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/fmsoft/index.yml",
+      "sha256": "df5facba971ce7d15809a2d49b57ee20d36fc922f708141369794c09a4f349c0"
+    },
+    {
+      "id": ":companies/forgerock",
+      "name": "ForgeRock",
+      "nameZh": "ForgeRock",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/forgerock/index.yml",
+      "sha256": "a613e4f13ca880a8c447929b406514249a34430b01ab9d7087f147d8f64e8522"
+    },
+    {
+      "id": ":companies/formbricks",
+      "name": "Formbricks",
+      "nameZh": "Formbricks",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/formbricks/index.yml",
+      "sha256": "d90b2b0b65677d7a65affe625d60731a7a51290ebb48fcf47b9f0de48ad3ae30"
+    },
+    {
+      "id": ":companies/foundationagents",
+      "name": "FoundationAgents",
+      "nameZh": "FoundationAgents",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/foundationagents/index.yml",
+      "sha256": "57146f5a4f20194f25ec86e2ce1ed7a1057ff5125102087ca2eafbcea12e945d"
+    },
+    {
+      "id": ":companies/fuzhi",
+      "name": "Shendu Fuzhi",
+      "nameZh": "复志",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/fuzhi/index.yml",
+      "sha256": "1491960503248c5cb8ef4ec69ad971174f79a641851b447382db2d6f87f871a7"
+    },
+    {
+      "id": ":companies/gaas",
+      "name": "GAAS",
+      "nameZh": "GaaS",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/gaas/index.yml",
+      "sha256": "4cb9192581fffd459639d178977711b345c041dd32623a081011859be554f162"
+    },
+    {
+      "id": ":companies/galaxy_future",
+      "name": "Galaxy Future",
+      "nameZh": "银河未来",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/galaxy_future/index.yml",
+      "sha256": "7c35c303372ffbf9e3de6c24f20e25b5c8838b03309d7adcf3f775a31f907148"
+    },
+    {
+      "id": ":companies/ggml.ai",
+      "name": "GGML.ai",
+      "nameZh": "GGML.ai",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/ggml.ai/index.yml",
+      "sha256": "c2f98c04c49cbdc558dac49f9a09f59407c365a950abb1bb2cce939030ba2d69"
+    },
+    {
+      "id": ":companies/github",
+      "name": "GitHub",
+      "nameZh": "GitHub",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/github/index.yml",
+      "sha256": "1c4cce9135090430306b5632936684beb7637770ba35984d200bd9b05126cdfe"
+    },
+    {
+      "id": ":companies/gitlab_cn",
+      "name": "GitLab.cn",
+      "nameZh": "GitLab.cn",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/gitlab_cn/index.yml",
+      "sha256": "190dd30532f3e6400f7d2479f8e368198f74ce1b43c6457ddbd2dbdbfd7e24c0"
+    },
+    {
+      "id": ":companies/goodrain",
+      "name": "Goodrain",
+      "nameZh": "好雨云",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/goodrain/index.yml",
+      "sha256": "226c1f98ddd5d8ae7b1228c1bc4c54e859f984869862cb514b028e017d573973"
+    },
+    {
+      "id": ":companies/google",
+      "name": "Google",
+      "nameZh": "谷歌",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/google/index.yml",
+      "sha256": "6b9817fa389b9ccb576d83abad8994f34f994f7c7b5889a119b8d776081743b6"
+    },
+    {
+      "id": ":companies/gpustack",
+      "name": "GPUStack.ai",
+      "nameZh": "数澈软件",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/gpustack/index.yml",
+      "sha256": "6012494a4cc12a679e81bfbb6d71515b8d3fcfa4fce614fc7bdbe0622cb45b94"
+    },
+    {
+      "id": ":companies/grafana",
+      "name": "Grafana Labs",
+      "nameZh": "Grafana Labs",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/grafana/index.yml",
+      "sha256": "0e32b1f1ef293a28ff944b4f6d162c5e1286d182b29621efab9a6a1dc40ea626"
+    },
+    {
+      "id": ":companies/gravitational",
+      "name": "Gravitational",
+      "nameZh": "Gravitational",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/gravitational/index.yml",
+      "sha256": "b1030475eeeb364da0c70443b88258575271722ce99217082b1e39e577fdeb5f"
+    },
+    {
+      "id": ":companies/greatdb",
+      "name": "GreateDB",
+      "nameZh": "GreatDB",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/greatdb/index.yml",
+      "sha256": "aaf94db6c08782c02f5b73e349deebd141493257b7627dad35ad3c741479a440"
+    },
+    {
+      "id": ":companies/greptime",
+      "name": "Greptime",
+      "nameZh": "Greptime",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/greptime/index.yml",
+      "sha256": "cfa852b0f240b4e83013e40f3d2f577b4e703ed737ec14e1239933d5d249cbf3"
+    },
+    {
+      "id": ":companies/gridgain",
+      "name": "GridGain Systems",
+      "nameZh": "GridGain Systems",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/gridgain/index.yml",
+      "sha256": "17c9ab54fae1d47f0bab39a918bda78e08eae8b5ceed170a339b1f56636918d3"
+    },
+    {
+      "id": ":companies/guardrails",
+      "name": "Guardrails AI",
+      "nameZh": "Guardrails AI",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/guardrails/index.yml",
+      "sha256": "e5de62d9c50838ac1d8b958ff07a99571e31368606dc036bacd52d5fe22f1a6f"
+    },
+    {
+      "id": ":companies/guojusoft",
+      "name": "Guojusoft",
+      "nameZh": "国炬软件",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/guojusoft/index.yml",
+      "sha256": "e75c7e715ade7b39c23cf0704680b0c8b82071a8f78bf63e36bc250095c2d798"
+    },
+    {
+      "id": ":companies/h2oai",
+      "name": "H2O AI",
+      "nameZh": "H2O AI",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/h2oai/index.yml",
+      "sha256": "e1e3569944a27a009304a96c2492002d1f5019511ed95ce06620d9655aee4a85"
+    },
+    {
+      "id": ":companies/harness",
+      "name": "Harness",
+      "nameZh": "Harness",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/harness/index.yml",
+      "sha256": "e547e87b19d31f68d2420e2990c7e8169263b413f43f3e5a8634203c80c27fee"
+    },
+    {
+      "id": ":companies/hashicorp",
+      "name": "HashiCorp",
+      "nameZh": "HashiCorp",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/hashicorp/index.yml",
+      "sha256": "c30bf5b492f19ca60b3ceea9a1d756e53bee3f2df2d6968f5a125686fadda265"
+    },
+    {
+      "id": ":companies/headroomlabs",
+      "name": "Headroom Labs",
+      "nameZh": "Headroom Labs",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/headroomlabs/index.yml",
+      "sha256": "94038e36fef0f71de1d77b6f330498c3814cab8a944420e52132c0eb44087b3d"
+    },
+    {
+      "id": ":companies/heartex",
+      "name": "Heartex",
+      "nameZh": "Heartex",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/heartex/index.yml",
+      "sha256": "c6946fe4f25d37edbc5fd5dd982281a8f90198f7b667dea2e4575f51e7972725"
+    },
+    {
+      "id": ":companies/hedera",
+      "name": "Hedera Hashgraph",
+      "nameZh": "Hedera Hashgraph",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/hedera/index.yml",
+      "sha256": "ec8dcbd96ae6d9480d213e2a0550b375c876d0dae81069af81e5cacaf7d934a3"
+    },
+    {
+      "id": ":companies/hpc_ai",
+      "name": "HPC-AI",
+      "nameZh": "HPC-AI",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/hpc_ai/index.yml",
+      "sha256": "104d7b3a4f02e324f1be231fee1362e43d804d5e2705019608e9bddc9e2adc56"
+    },
+    {
+      "id": ":companies/huanjiyun",
+      "name": "Huanjiyun",
+      "nameZh": "环际云",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/huanjiyun/index.yml",
+      "sha256": "894b451985fa70734f64123dee271f8f014fe71c59149fdfbb17998a8c92825e"
+    },
+    {
+      "id": ":companies/huawei",
+      "name": "Huawei",
+      "nameZh": "华为",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/huawei/index.yml",
+      "sha256": "e33f4fde75dc4882bb6fe68b0db3ceeaaed9762c3c681c6c8374778b07a07852"
+    },
+    {
+      "id": ":companies/huggingface",
+      "name": "Hugging Face",
+      "nameZh": "Hugging Face",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/huggingface/index.yml",
+      "sha256": "42987f4b8869450074e2b135845a1e15b9d6e1917d59a502f4228152ac461bd8"
+    },
+    {
+      "id": ":companies/huindata",
+      "name": "Huindata",
+      "nameZh": "Huindata",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/huindata/index.yml",
+      "sha256": "d69c2244681094480d3fe2e271b0fae200bbfeaf2a53c9178ae8f86797b2d1c0"
+    },
+    {
+      "id": ":companies/hundsun",
+      "name": "Hundsun",
+      "nameZh": "恒生电子",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/hundsun/index.yml",
+      "sha256": "0165fedb295b54c7c0a3f29a264d45b0f4f36ccf50fa7d9152d47c43e413fcf8"
+    },
+    {
+      "id": ":companies/ibm",
+      "name": "IBM",
+      "nameZh": "IBM",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/ibm/index.yml",
+      "sha256": "1c47791bc43fa39cc69cc068364983560429a6a2e6771ed34c4a60e1f03738f7"
+    },
+    {
+      "id": ":companies/iflytek",
+      "name": "iFLYTEK",
+      "nameZh": "科大讯飞",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/iflytek/index.yml",
+      "sha256": "b2dac2dd26fff7d7e7ecb78ff61d4c021b77dd046b05a8bb2d937526023ee68f"
+    },
+    {
+      "id": ":companies/imply",
+      "name": "Imply",
+      "nameZh": "Imply",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/imply/index.yml",
+      "sha256": "bd56a174fcd73f17fa5bf7473086bdf49367e5cf414df912d222c864f703b6b0"
+    },
+    {
+      "id": ":companies/improbable",
+      "name": "Improbable",
+      "nameZh": "Improbable",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/improbable/index.yml",
+      "sha256": "72d68cc782f949856ee1b0302202019ee079cf296921945fb1c2fc2138f525c9"
+    },
+    {
+      "id": ":companies/infiniflow",
+      "name": "Infinity Flow",
+      "nameZh": "Infinity Flow",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/infiniflow/index.yml",
+      "sha256": "143b6c91239ef78d49f45f8497048c349573b4bd5b4ac990c989394930625cd8"
+    },
+    {
+      "id": ":companies/influxdata",
+      "name": "InfluxData",
+      "nameZh": "InfluxData",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/influxdata/index.yml",
+      "sha256": "02f2265f105dc508f9f9c364ff5c4c0b704c64246558f9a6ca58e9fc26078225"
+    },
+    {
+      "id": ":companies/inspur",
+      "name": "Inspur",
+      "nameZh": "浪潮",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/inspur/index.yml",
+      "sha256": "b8c644d9ecf9e6c120064bd1a65d9b8432b3b66326f7391b3c13fd267fdd8e1d"
+    },
+    {
+      "id": ":companies/instructure",
+      "name": "Instructure",
+      "nameZh": "Instructure",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/instructure/index.yml",
+      "sha256": "054f8134bc5dc96bd2dc51aaf910720d5a61c1ec2fdf152a13ede768f9170c34"
+    },
+    {
+      "id": ":companies/intel",
+      "name": "Intel",
+      "nameZh": "英特尔",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/intel/index.yml",
+      "sha256": "0024a6581a063fecb2869f8245319b7d502b2ebc6cf3bf6128e668ef861f9359"
+    },
+    {
+      "id": ":companies/intuit",
+      "name": "Intuit",
+      "nameZh": "Intuit",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/intuit/index.yml",
+      "sha256": "538cb0bbebb2ac0f1c97937703304117a15bf4cf62f78852a7431ab78f0be766"
+    },
+    {
+      "id": ":companies/iotex",
+      "name": "IoTeX Network",
+      "nameZh": "IoTeX Network",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/iotex/index.yml",
+      "sha256": "04a261903117c4843fc6ab0b6ff97f85939803e69d74ac720059ff5a86a0c30e"
+    },
+    {
+      "id": ":companies/iqiyi",
+      "name": "iQiyi",
+      "nameZh": "爱奇艺",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/iqiyi/index.yml",
+      "sha256": "615d78dd197b7e4f352b4c4c44b24ae14e1ba567175c96544e285f73c061d9d0"
+    },
+    {
+      "id": ":companies/isovalent",
+      "name": "Isovalent",
+      "nameZh": "Isovalent",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/isovalent/index.yml",
+      "sha256": "92421f12c9ddb697448e8ae51029273b0eef34354846c40b78940cc08cbc3491"
+    },
+    {
+      "id": ":companies/jd",
+      "name": "JD",
+      "nameZh": "京东",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/jd/index.yml",
+      "sha256": "560e631ec7a94a1ab14925383ddd57d95c0eb6a99da2903535c89e36ccfd9f32"
+    },
+    {
+      "id": ":companies/jetbrains",
+      "name": "JetBrains",
+      "nameZh": "JetBrains",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/jetbrains/index.yml",
+      "sha256": "13baad20998d53a8356adadeb212e622a8568016b7b4094c15c7a6197d402722"
+    },
+    {
+      "id": ":companies/jfrog",
+      "name": "JFrog",
+      "nameZh": "JFrog",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/jfrog/index.yml",
+      "sha256": "5b4cc2546cf53821e161b46f3925b7aba151d28f16f860dcb57a1cd07f66cfc8"
+    },
+    {
+      "id": ":companies/jina_ai",
+      "name": "Jina AI",
+      "nameZh": "Jina AI",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/jina_ai/index.yml",
+      "sha256": "01890605f2b7f34ebadb57fa2e4479a3d7cedbe77f862e1466a35513d69d8566"
+    },
+    {
+      "id": ":companies/juejin",
+      "name": "Juejin",
+      "nameZh": "掘金",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/juejin/index.yml",
+      "sha256": "949559f234a8f6118299b18f5256e17f818b4043ee0ea6394e3c978ec80918d0"
+    },
+    {
+      "id": ":companies/juicedata",
+      "name": "JuiceData",
+      "nameZh": "果汁数据",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/juicedata/index.yml",
+      "sha256": "7ebd8eab913e70aaad79600f28a835565c908e07311c60eee5a601e4b2c49659"
+    },
+    {
+      "id": ":companies/kaltura",
+      "name": "Kaltura",
+      "nameZh": "Kaltura",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/kaltura/index.yml",
+      "sha256": "1edbd8204c70c4d5af659dc812a850757226d57d657dc816130346cf2abcc4e4"
+    },
+    {
+      "id": ":companies/kestra",
+      "name": "Kestra",
+      "nameZh": "Kestra",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/kestra/index.yml",
+      "sha256": "f95c324a19c9a287b98a5ade582c7de0b0147839533fca8ea790cf4627d2b68e"
+    },
+    {
+      "id": ":companies/kilo",
+      "name": "Kilo Code",
+      "nameZh": "Kilo Code",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/kilo/index.yml",
+      "sha256": "7c983d9a216934a5f5f118b5dc62c60960019ed86beccfbaea36f703e6ab4269"
+    },
+    {
+      "id": ":companies/koderover",
+      "name": "KodeRover",
+      "nameZh": "KodeRover",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/koderover/index.yml",
+      "sha256": "8d7fd14a0a79a96d1ff1943ce9c6acde44bebab8e2d5003a29e38f40982ddcf9"
+    },
+    {
+      "id": ":companies/kong",
+      "name": "Kong",
+      "nameZh": "Kong",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/kong/index.yml",
+      "sha256": "2bb0144d92bffd73519a0a22d67250bba96200a9ea7e90463aba85af1aa640e3"
+    },
+    {
+      "id": ":companies/kongyun",
+      "name": "Kongyun",
+      "nameZh": "Kongyun",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/kongyun/index.yml",
+      "sha256": "025afcbf7efc7414e3965177f7401a3e019e4fbb2e21046cfe92890d39e344e0"
+    },
+    {
+      "id": ":companies/kubecost",
+      "name": "Kubecost",
+      "nameZh": "Kubecost",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/kubecost/index.yml",
+      "sha256": "8be4620b7824fce87c51568ef0484d68445719cd218000085e8aa0d7ae6a858a"
+    },
+    {
+      "id": ":companies/kyligence",
+      "name": "Kyligence",
+      "nameZh": "Kyligence",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/kyligence/index.yml",
+      "sha256": "01b1e1918115401ff9eb7d9d8eaf88dcefc61336a005c7bff3ebb166262382b2"
+    },
+    {
+      "id": ":companies/lago",
+      "name": "Lago",
+      "nameZh": "Lago",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/lago/index.yml",
+      "sha256": "5c6139c4e3f4dfe8c57ef7236a799acb8625fd9e8db45c84ab7f961f056e1b47"
+    },
+    {
+      "id": ":companies/lancedb",
+      "name": "LanceDB",
+      "nameZh": "LanceDB",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/lancedb/index.yml",
+      "sha256": "bfa0da0b95e32ee76deb61759165d66f89ef5985b6ea6e35487e98c39da435c4"
+    },
+    {
+      "id": ":companies/langchain",
+      "name": "LangChain",
+      "nameZh": "LangChain",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/langchain/index.yml",
+      "sha256": "144c4d06b79612ef0237fac0778e11810a7cf5c6ead5d48220ee6b53bf017c6a"
+    },
+    {
+      "id": ":companies/langfuse",
+      "name": "Langfuse",
+      "nameZh": "Langfuse",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/langfuse/index.yml",
+      "sha256": "441cc532f2b6306a7dbb7383bf6bf6f71000bd186f2ae02baf2ac35c86e93663"
+    },
+    {
+      "id": ":companies/laravel",
+      "name": "Laravel Holdings",
+      "nameZh": "Laravel Holdings",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/laravel/index.yml",
+      "sha256": "708cb31cb0a0edb5867d3a3cb01cbdc62832c6d017316b32f2e9f8664a7ed991"
+    },
+    {
+      "id": ":companies/leetcode",
+      "name": "Leetcode",
+      "nameZh": "Leetcode",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/leetcode/index.yml",
+      "sha256": "187116c6eee369f1497a8f881c517d3abceda276c8e312f0fddfb37143d112aa"
+    },
+    {
+      "id": ":companies/liferay",
+      "name": "Liferay",
+      "nameZh": "Liferay",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/liferay/index.yml",
+      "sha256": "74d3dea8cd7ea6a8bea48c59eb8ebc98455391cf75dfb0135c070ce4a2a26304"
+    },
+    {
+      "id": ":companies/linkedin",
+      "name": "LinkedIn",
+      "nameZh": "LinkedIn",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/linkedin/index.yml",
+      "sha256": "dbb0185353f6635cb6076d5051c76f15925d06505dedd4bd8316f35bc703e43e"
+    },
+    {
+      "id": ":companies/linux_china",
+      "name": "Linux China",
+      "nameZh": "Linux中国",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/linux_china/index.yml",
+      "sha256": "b003a8ebd37315cb19528fabef0703f2ffd21a422865bbec063eb60ff1f800ce"
+    },
+    {
+      "id": ":companies/livekit",
+      "name": "LiveKit",
+      "nameZh": "LiveKit",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/livekit/index.yml",
+      "sha256": "a80b3c19b1587185724bfbdb716ccd68efa6c8b8d9e99174b18a35a252e80f55"
+    },
+    {
+      "id": ":companies/llama_corp",
+      "name": "Llama Corp",
+      "nameZh": "Llama Corp",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/llama_corp/index.yml",
+      "sha256": "7697e33f1f4cc6dd3859f1e1e0badacd362e5854b2011cee4707f8d83f058346"
+    },
+    {
+      "id": ":companies/llamaindex",
+      "name": "LlamaIndex",
+      "nameZh": "LlamaIndex",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/llamaindex/index.yml",
+      "sha256": "8affeebe8e426b5426b98239d689b9cdb3455e689076df83939747d788c50c00"
+    },
+    {
+      "id": ":companies/lmsys",
+      "name": "LMSYS",
+      "nameZh": "LMSYS",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/lmsys/index.yml",
+      "sha256": "46c1dd1af9622c75ba1d4e540f3a1e9040f8540dcd9389345930a8655b9b7db4"
+    },
+    {
+      "id": ":companies/lobehub",
+      "name": "LobeHub",
+      "nameZh": "LobeHub",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/lobehub/index.yml",
+      "sha256": "65b6f7ab086680a8cc5b81223559f1f090e3049c2857d94c917d9483fe2d1afb"
+    },
+    {
+      "id": ":companies/longboat",
+      "name": "Longboat",
+      "nameZh": "长船",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/longboat/index.yml",
+      "sha256": "748b3d046e8c008de1d45ace63c006680779c4d50fe05b2a26780fbc93adbbf9"
+    },
+    {
+      "id": ":companies/longbridge",
+      "name": "LongBridge",
+      "nameZh": "LongBridge",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/longbridge/index.yml",
+      "sha256": "99c83ecbe4768eba6f986e6ac45ae6854ca47ee2ea550071b80b9f4dcd5e2a8e"
+    },
+    {
+      "id": ":companies/lyft",
+      "name": "Lyft",
+      "nameZh": "Lyft",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/lyft/index.yml",
+      "sha256": "eb1b00029df22b26fa980f5227222b38a6947e81e6cf2a1ba0c549140f4d8b85"
+    },
+    {
+      "id": ":companies/magento",
+      "name": "Magento",
+      "nameZh": "Magento",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/magento/index.yml",
+      "sha256": "365c0c5ceeef3da3f26801f6139452166ba2e2480cb52188b386f3e22e18cf86"
+    },
+    {
+      "id": ":companies/mapbox",
+      "name": "Mapbox",
+      "nameZh": "Mapbox",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/mapbox/index.yml",
+      "sha256": "31b737668e2ed13537148503351a36d877dd5b8e5de290522b1314806cbf3f59"
+    },
+    {
+      "id": ":companies/mariadb",
+      "name": "MariaDB",
+      "nameZh": "MariaDB",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/mariadb/index.yml",
+      "sha256": "9eeaf7223f5a2d8155b07ad9105e29aef1587fe9d9dc40e1b7d3279b485f16fc"
+    },
+    {
+      "id": ":companies/mastra",
+      "name": "Mastra",
+      "nameZh": "Mastra",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/mastra/index.yml",
+      "sha256": "ab64cdb1bd5edbf90c0079b7999c400b564b9f24ceaa642986f34c93cd1d11ee"
+    },
+    {
+      "id": ":companies/material_ui_sas",
+      "name": "Material-UI SAS",
+      "nameZh": "Material-UI SAS",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/material_ui_sas/index.yml",
+      "sha256": "d27201fab6eec373d4d60f3e8955083d2b5a3773ffe9d5d8992908a0ff614e86"
+    },
+    {
+      "id": ":companies/matra_datavision",
+      "name": "Matra Datavision",
+      "nameZh": "Matra Datavision",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/matra_datavision/index.yml",
+      "sha256": "27cee948c8a7a514ba96d1e707fd000f9a62b8b630122cd3692f010f3228e19a"
+    },
+    {
+      "id": ":companies/matrix_origin",
+      "name": "Matrix Origin",
+      "nameZh": "矩阵起源",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/matrix_origin/index.yml",
+      "sha256": "302c314e67d9fc6b6e1d6b0b31be78ed625fd2dd9aaa10f4c0005c3c9f8ce3a6"
+    },
+    {
+      "id": ":companies/mattermost",
+      "name": "Mattermost",
+      "nameZh": "Mattermost",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/mattermost/index.yml",
+      "sha256": "01606b6cae3304a91036f6611943f6ab3fd192119daf13867e7373c4ee91bd5c"
+    },
+    {
+      "id": ":companies/mckinsey",
+      "name": "McKinsey & Company",
+      "nameZh": "McKinsey & Company",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/mckinsey/index.yml",
+      "sha256": "4b9289dd5f6c4991d16a0939eb2de85d6134fbc272b0a74eca78804b9866622a"
+    },
+    {
+      "id": ":companies/megvii",
+      "name": "Megvii",
+      "nameZh": "旷视科技",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/megvii/index.yml",
+      "sha256": "30bada3b7759dd6db278d7d8698a8ab5a68b6248aa0cb164fd53860dfc74bd3c"
+    },
+    {
+      "id": ":companies/meituan",
+      "name": "Meituan",
+      "nameZh": "美团",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/meituan/index.yml",
+      "sha256": "80cc8cc0988c5d0bc8456e9e1e35dcb07d18b4d418cd9877cb25779004a94773"
+    },
+    {
+      "id": ":companies/mem0",
+      "name": "Mem0",
+      "nameZh": "Mem0",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/mem0/index.yml",
+      "sha256": "4c2cf2bd7648c5cc3a39e3ec914e789a239ab4bd6f715840157b08d9d31e9eb5"
+    },
+    {
+      "id": ":companies/merico",
+      "name": "Merico",
+      "nameZh": "Merico",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/merico/index.yml",
+      "sha256": "26345b9b2b974af8017fc0e912663f5e866f86c03aa659d61a8aa9092a004b33"
+    },
+    {
+      "id": ":companies/mermaid",
+      "name": "Mermaid Chart",
+      "nameZh": "Mermaid Chart",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/mermaid/index.yml",
+      "sha256": "f86620b273ec12981df95570957a41a0ceb34f4a06e8a4d73602b445b7a38b16"
+    },
+    {
+      "id": ":companies/meta",
+      "name": "Meta",
+      "nameZh": "Meta",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/meta/index.yml",
+      "sha256": "e98fc4c745ce401b43cd5238c7af6cf9478d5ffe6a51540676d2d0377b6b782f"
+    },
+    {
+      "id": ":companies/metabase",
+      "name": "Metabase",
+      "nameZh": "Metabase",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/metabase/index.yml",
+      "sha256": "4c2feac2158ba9425289a22f20f7f943ee30134664ef3a9d6e9d2a3e747d094c"
+    },
+    {
+      "id": ":companies/microsoft",
+      "name": "Microsoft",
+      "nameZh": "微软",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/microsoft/index.yml",
+      "sha256": "1e1f9b43c70d84cc923ac8a9076984b93e1368dbd00db33a1c218ffa135d559f"
+    },
+    {
+      "id": ":companies/mifos",
+      "name": "Mifos Initiative",
+      "nameZh": "Mifos Initiative",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/mifos/index.yml",
+      "sha256": "b6fad1eea35e3ddb63a8c9bbc42c9a066256c1b517b7008f2febbf00ab36285e"
+    },
+    {
+      "id": ":companies/mindverse",
+      "name": "Mindverse",
+      "nameZh": "Mindverse",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/mindverse/index.yml",
+      "sha256": "4178dc4fcb2aea979035fdb4996d3ca59cf63516452f181a7c2ab1f7ff13a5f6"
+    },
+    {
+      "id": ":companies/mintplex_labs",
+      "name": "Mintplex Labs",
+      "nameZh": "Mintplex Labs",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/mintplex_labs/index.yml",
+      "sha256": "dd9da29429af6a6fd2aabb233eef6e5fcb191055421f21d97f1a0851dbcc88f6"
+    },
+    {
+      "id": ":companies/modelbest",
+      "name": "ModelBest",
+      "nameZh": "面壁智能",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/modelbest/index.yml",
+      "sha256": "5c9a3f0bc68422bad0ef3bba13bd3bd9335507d45ba0c26af37058e9171fc4cf"
+    },
+    {
+      "id": ":companies/modular",
+      "name": "Modular",
+      "nameZh": "Modular",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/modular/index.yml",
+      "sha256": "f0c9643eebf679fbc76b2e9274115b09c29de7bfbd9aaf73130df4f3e818a2f1"
+    },
+    {
+      "id": ":companies/mongodb",
+      "name": "MongoDB",
+      "nameZh": "MongoDB",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/mongodb/index.yml",
+      "sha256": "ef505b70f94411467a8e964b7f625127e8faafc7dd27c1ab2e8c6201ea24696e"
+    },
+    {
+      "id": ":companies/moonshot",
+      "name": "Moonshot AI",
+      "nameZh": "Moonshot AI",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/moonshot/index.yml",
+      "sha256": "b3a1bf1a30148efcbb8421b91f7b499f66197146dc4b561a2bd1bc5b466b4fd0"
+    },
+    {
+      "id": ":companies/morequick",
+      "name": "Morequick",
+      "nameZh": "Morequick",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/morequick/index.yml",
+      "sha256": "1a9ce98f2e54baadf0fafe22360125081a376781867ae8ab5107297d53d7214c"
+    },
+    {
+      "id": ":companies/moving_tech_innovations",
+      "name": "Moving Tech Innovations",
+      "nameZh": "Moving Tech Innovations",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/moving_tech_innovations/index.yml",
+      "sha256": "292c9be279548abe63b14d72f081145e7c49703a1dec3ea30dc64da990b9d5a0"
+    },
+    {
+      "id": ":companies/mozilla",
+      "name": "Mozilla",
+      "nameZh": "Mozilla",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/mozilla/index.yml",
+      "sha256": "3af8d4ddc92855bb04919eedf1f359b945608d4cd8c4dc4e882011a6c91f2e6f"
+    },
+    {
+      "id": ":companies/mulesoft",
+      "name": "Mulesoft",
+      "nameZh": "Mulesoft",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/mulesoft/index.yml",
+      "sha256": "e45d1651f98238d843bc480beecde8cc86f6cb5c99834418e434004cefec3a9c"
+    },
+    {
+      "id": ":companies/mycroftai",
+      "name": "MycroftAI",
+      "nameZh": "MycroftAI",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/mycroftai/index.yml",
+      "sha256": "6bcda220ae97a2f5ec516a5fee02c9632737afc66d0e6036d6094b233103697a"
+    },
+    {
+      "id": ":companies/myshell",
+      "name": "MyShell",
+      "nameZh": "MyShell",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/myshell/index.yml",
+      "sha256": "3530cdbbeca5b85712df17ecf8719183eb41e24cdf0e97c6a173687d21c76aed"
+    },
+    {
+      "id": ":companies/mysten_labs",
+      "name": "Mysten Labs",
+      "nameZh": "Mysten Labs",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/mysten_labs/index.yml",
+      "sha256": "c6fb4cf6ba63066930f66a7be46f2f34e083c7f2e28a64c0b242e4c4313f770f"
+    },
+    {
+      "id": ":companies/n8n",
+      "name": "n8n",
+      "nameZh": "n8n",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/n8n/index.yml",
+      "sha256": "3be69fee08e556aa25a1935a6bc8e290ae5aa245305464a7f0647d25b1e2c454"
+    },
+    {
+      "id": ":companies/nabucasa",
+      "name": "Nabu Casa Inc.",
+      "nameZh": "Nabu Casa Inc.",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/nabucasa/index.yml",
+      "sha256": "a46e969cda58d7feb39c4276407726c866bf7d5ec9eec1e25bd6042596eb0dfc"
+    },
+    {
+      "id": ":companies/naddod",
+      "name": "Naddod",
+      "nameZh": "Naddod",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/naddod/index.yml",
+      "sha256": "ae7e3090bf51fdda986256a72acd0b160d57a6c22ef0721508c52e1e70db537d"
+    },
+    {
+      "id": ":companies/nammayatri",
+      "name": "Namma Yatri",
+      "nameZh": "Namma Yatri",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/nammayatri/index.yml",
+      "sha256": "438ad482c30a42e23028cdd72345a7315085095673f15d401d5e146f3adf0d2f"
+    },
+    {
+      "id": ":companies/nasinet",
+      "name": "Nasinet",
+      "nameZh": "Nasinet",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/nasinet/index.yml",
+      "sha256": "1cb17e9616c2d08a5cd45f646f10af58f464340ffbf8cab7d0b3fc54a65a9cb2"
+    },
+    {
+      "id": ":companies/naver",
+      "name": "Naver",
+      "nameZh": "Naver",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/naver/index.yml",
+      "sha256": "87dbda3fbf7fa94b54f3d5508e93d5e8203b28d6c837a37f30221482cd8688c8"
+    },
+    {
+      "id": ":companies/neo4j",
+      "name": "Neo4j",
+      "nameZh": "Neo4j",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/neo4j/index.yml",
+      "sha256": "eb53d9e8f06e182a16b98b40577c59bfd54a4ca2d4c9697b2d0823b6c2ee46cd"
+    },
+    {
+      "id": ":companies/netease",
+      "name": "Netease",
+      "nameZh": "网易",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/netease/index.yml",
+      "sha256": "d265233c80937ee847bafcead9df9fdeae4eb7cd327aef4cab16434222f38f0c"
+    },
+    {
+      "id": ":companies/netflix",
+      "name": "Netflix",
+      "nameZh": "Netflix",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/netflix/index.yml",
+      "sha256": "3b6a60fb3b3f25e1bca379aa5708ed0362bb38081866e25d93282c54d4ec4c3e"
+    },
+    {
+      "id": ":companies/netlify",
+      "name": "Netlify",
+      "nameZh": "Netlify",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/netlify/index.yml",
+      "sha256": "5d49caaa184c43d4232f8dc149538d7ecc05903b47f7d0739ebbe64b00c7f8c3"
+    },
+    {
+      "id": ":companies/nevamind_ai",
+      "name": "NevaMind AI",
+      "nameZh": "NevaMind AI",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/nevamind_ai/index.yml",
+      "sha256": "7ccc95cbb0c474fc4eb5903d0ed6e3e26e993f72be56a2a2a2a8b79d078b9a76"
+    },
+    {
+      "id": ":companies/newrelic",
+      "name": "New Relic",
+      "nameZh": "New Relic",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/newrelic/index.yml",
+      "sha256": "58243525bbe49ef5ddbc251ff47a3fcbb5c3242f5c5ee710fdfb7683f51c16bb"
+    },
+    {
+      "id": ":companies/nextcloud",
+      "name": "NextCloud",
+      "nameZh": "NextCloud",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/nextcloud/index.yml",
+      "sha256": "96df39d55bc86f9df18075fa2eb1ee8f7d285ae24000d59a0163ba750051b332"
+    },
+    {
+      "id": ":companies/nicira",
+      "name": "Nicira",
+      "nameZh": "Nicira",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/nicira/index.yml",
+      "sha256": "d6ebd75a6af30485f42199082a4f29442297eebb6125fb49e55599417200ef75"
+    },
+    {
+      "id": ":companies/nirmata",
+      "name": "Nirmata",
+      "nameZh": "Nirmata",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/nirmata/index.yml",
+      "sha256": "33a412023f1d92f75236e5a0b9c7c026e0b4e24009e4c83a6cf9cba0ffa7b9d8"
+    },
+    {
+      "id": ":companies/noear",
+      "name": "Noear",
+      "nameZh": "杭州无耳科技有限公司",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/noear/index.yml",
+      "sha256": "59bd3de4d3c2f2fd20ed8451c743d1d487a13621178c8e834834ba701a4f4f62"
+    },
+    {
+      "id": ":companies/nokia",
+      "name": "Nokia",
+      "nameZh": "Nokia",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/nokia/index.yml",
+      "sha256": "b792d7dbed845664d7e6d155194b414335ea6603d2a847faa7b17da39a0b7374"
+    },
+    {
+      "id": ":companies/nomic",
+      "name": "Nomic",
+      "nameZh": "Nomic",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/nomic/index.yml",
+      "sha256": "2d4ff77216c7d38c326644191b7f311ed9d556dbf0816361a4512233e605a77a"
+    },
+    {
+      "id": ":companies/nordcraft",
+      "name": "Nordcraft",
+      "nameZh": "Nordcraft",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/nordcraft/index.yml",
+      "sha256": "309c4e55e5e70fcf7e197c47f2ba3fd4c5cabf7b8ac59ca5904a91fc21879e49"
+    },
+    {
+      "id": ":companies/nordic_semiconductor",
+      "name": "Nordic Semiconductor",
+      "nameZh": "Nordic Semiconductor",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/nordic_semiconductor/index.yml",
+      "sha256": "3eb2f8b4f9eaca31bbee7180cb1c89c7ecc00edd2771fb1818c145d3595127a8"
+    },
+    {
+      "id": ":companies/nousresearch",
+      "name": "Nous Research",
+      "nameZh": "Nous Research",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/nousresearch/index.yml",
+      "sha256": "8dfb4969271e091e24ac35014367054061e95f451d497dce219054cbd341f592"
+    },
+    {
+      "id": ":companies/novell",
+      "name": "Novell",
+      "nameZh": "Novell",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/novell/index.yml",
+      "sha256": "5dee69ab3cde8819fc2dd3794a8ebaa19bd8d95fb06847d96208063692ddc91e"
+    },
+    {
+      "id": ":companies/nrwl",
+      "name": "Nrwl",
+      "nameZh": "Nrwl",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/nrwl/index.yml",
+      "sha256": "dbbab83a23cdb1e41a96fb2dab31d0c81ac0d03d7117ae41788ca2797249752b"
+    },
+    {
+      "id": ":companies/nvidia",
+      "name": "NVIDIA",
+      "nameZh": "英伟达",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/nvidia/index.yml",
+      "sha256": "c1fc44cfc59ecdc8519de0a53cc0c218144ac199eca8a9657a7ae75058413f5b"
+    },
+    {
+      "id": ":companies/odoo",
+      "name": "Odoo",
+      "nameZh": "Odoo",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/odoo/index.yml",
+      "sha256": "99f647ccd8243beb2d49ca4f30d5a1b5bb3517ef13ea53aaf32c7a6f9d46ea81"
+    },
+    {
+      "id": ":companies/okta",
+      "name": "Okta",
+      "nameZh": "Okta",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/okta/index.yml",
+      "sha256": "b3c76ef379b528a2f5c50a4d9dc8b7fe9f301366dd7d056b28726a394ea4e84d"
+    },
+    {
+      "id": ":companies/ollama",
+      "name": "Ollama",
+      "nameZh": "Ollama",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/ollama/index.yml",
+      "sha256": "41f9e492e97c1966a9a209217fc53327bf9c40e5c80fa84eaac1343675c49c2d"
+    },
+    {
+      "id": ":companies/oneflow",
+      "name": "Oneflow",
+      "nameZh": "一流科技",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/oneflow/index.yml",
+      "sha256": "87ba077073df56296bed815e1e5534229c2bb7b6c2391490054226033b074b62"
+    },
+    {
+      "id": ":companies/openai",
+      "name": "OpenAI",
+      "nameZh": "OpenAI",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/openai/index.yml",
+      "sha256": "de9c0f1f4f7c4e223235734f6b07cf023fa1d990f1116069d127ac3fc74d86bf"
+    },
+    {
+      "id": ":companies/opencsg",
+      "name": "OpenCSG",
+      "nameZh": "开放传神",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/opencsg/index.yml",
+      "sha256": "5a101708e701cbca2f5cc767f05bd4e8edb8cbe3df64e814c6618250dd6d742d"
+    },
+    {
+      "id": ":companies/openkylin",
+      "name": "openKylin",
+      "nameZh": "开放麒麟",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/openkylin/index.yml",
+      "sha256": "ddd46ad9cf49d3d2b73245b84b757d5ba92333c93d104e47564c2cfeb1c6fb57"
+    },
+    {
+      "id": ":companies/openmeter",
+      "name": "OpenMeter",
+      "nameZh": "OpenMeter",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/openmeter/index.yml",
+      "sha256": "5d60a7ba7396893d7b934616969357919830a00c32568d17174fda89ff7c14ab"
+    },
+    {
+      "id": ":companies/openmind",
+      "name": "OpenMind",
+      "nameZh": "OpenMind",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/openmind/index.yml",
+      "sha256": "a349e18f4e048fea1f5262f8a6e42294d9f89fca22ae42898052039b8a4242de"
+    },
+    {
+      "id": ":companies/openpipe",
+      "name": "OpenPipe",
+      "nameZh": "OpenPipe",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/openpipe/index.yml",
+      "sha256": "236fd1520780e33073c5d05c9b72552696a70c009a137adf275eebf74ff9873c"
+    },
+    {
+      "id": ":companies/openresty",
+      "name": "OpenResty",
+      "nameZh": "OpenResty",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/openresty/index.yml",
+      "sha256": "af15f6fb1c2ffbf769c140fb0b30d616bafdde16f6abef53968fb2a23c33e82e"
+    },
+    {
+      "id": ":companies/opera",
+      "name": "Opera",
+      "nameZh": "Opera",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/opera/index.yml",
+      "sha256": "8578402c152f2ec3430ec62c4a88fa93f9eaafe9f47db0999041c5f6773f3ad7"
+    },
+    {
+      "id": ":companies/oracle",
+      "name": "Oracle",
+      "nameZh": "甲骨文",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/oracle/index.yml",
+      "sha256": "3cc21dafde6f02211b69167aad94026a5e3bffdc260b57a9caa66bccc36d73ce"
+    },
+    {
+      "id": ":companies/ottermind",
+      "name": "OtterMind",
+      "nameZh": "爱獭科技（杭州）有限公司",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/ottermind/index.yml",
+      "sha256": "3728ef23c8fde86b87bf2575fc2750beb025c51aba28fafb4c6e0bcb8d0365a6"
+    },
+    {
+      "id": ":companies/oushu",
+      "name": "Oushu",
+      "nameZh": "偶数科技",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/oushu/index.yml",
+      "sha256": "f334dca3b26fb2de07b6ac395a4787260cfc0e20764b347e90ef9c59c84b1622"
+    },
+    {
+      "id": ":companies/paloaltonetworks",
+      "name": "Palo Auto Networks",
+      "nameZh": "Palo Auto Networks",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/paloaltonetworks/index.yml",
+      "sha256": "853045dad20754d7cc9f16157c7c2fe24b34eec4f87fa83b5338eefe14d549bf"
+    },
+    {
+      "id": ":companies/paradigm",
+      "name": "Paradigm",
+      "nameZh": "Paradigm",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/paradigm/index.yml",
+      "sha256": "69a6fbdbce7a7bd270b2836bfafd471fef8c1e8e8691052987d5b7e69aab7d73"
+    },
+    {
+      "id": ":companies/parseable",
+      "name": "Parseable",
+      "nameZh": "Parseable",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/parseable/index.yml",
+      "sha256": "99d9bc9273e345e0b9257e41f03608b1a43fb269efba463ae32ead1c2dc11451"
+    },
+    {
+      "id": ":companies/paypal",
+      "name": "PayPal",
+      "nameZh": "PayPal",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/paypal/index.yml",
+      "sha256": "098fd28368aaf6bde4cbd8d80cb0e0831829f7fa5f90e772f051b1bd5ae86ba4"
+    },
+    {
+      "id": ":companies/pentaho",
+      "name": "Pentaho",
+      "nameZh": "Pentaho",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/pentaho/index.yml",
+      "sha256": "b4ec4a249f89a7af8c77dca8b3a03fbcb0cbf79ac49c8c521f272954efa83fe0"
+    },
+    {
+      "id": ":companies/pingcap",
+      "name": "PingCAP",
+      "nameZh": "PingCAP",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/pingcap/index.yml",
+      "sha256": "be4e184a77903eabe4235793452303f299379390ccb18c01994c4d815780969c"
+    },
+    {
+      "id": ":companies/pingdotgg",
+      "name": "Ping.gg",
+      "nameZh": "Ping.gg",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/pingdotgg/index.yml",
+      "sha256": "eef9ca8837429804a08c9a45f7ec7e919bdae523f29c1944fcceece9f1fff6a1"
+    },
+    {
+      "id": ":companies/pivotal",
+      "name": "Pivotal",
+      "nameZh": "Pivotal",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/pivotal/index.yml",
+      "sha256": "557fd268a7307b7a0eeda93c1d5ebf04ad43bbcdf04c63d3cc246623b230e91d"
+    },
+    {
+      "id": ":companies/polars",
+      "name": "Polars",
+      "nameZh": "Polars",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/polars/index.yml",
+      "sha256": "9831abbbdcb7590b8e6043abd771b7024843f2edc359e2f961f351f7371f5e87"
+    },
+    {
+      "id": ":companies/polarsignals",
+      "name": "Polar Signals",
+      "nameZh": "Polar Signals",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/polarsignals/index.yml",
+      "sha256": "ca0daddd1ab6d946ac512be7d39214cd868680189fe890b9c11e87f5a4053bcf"
+    },
+    {
+      "id": ":companies/postman",
+      "name": "Postman",
+      "nameZh": "Postman",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/postman/index.yml",
+      "sha256": "5b92416aafe8c8ee2b1d9f83d10034d6a3a5d5bfd3e40ce11232aa0889d66369"
+    },
+    {
+      "id": ":companies/prefect",
+      "name": "Prefect",
+      "nameZh": "Prefect",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/prefect/index.yml",
+      "sha256": "0e88f4054468638cb920d17b39dca3ddb7acae5c9fa4d6f88286f5eca1c36cde"
+    },
+    {
+      "id": ":companies/primihub",
+      "name": "Primitiv Hub",
+      "nameZh": "PrimiHub",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/primihub/index.yml",
+      "sha256": "c35c8e3c9b8a14c8972d9983d6a23399674386a03a8ed7cfc32cdf2f69866e64"
+    },
+    {
+      "id": ":companies/promptfoo",
+      "name": "Promptfoo",
+      "nameZh": "Promptfoo",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/promptfoo/index.yml",
+      "sha256": "f754aa2cfb57717d123d877093a28ced39da1bbd6c3bad10692f7f5ac8847b97"
+    },
+    {
+      "id": ":companies/puppet_labs",
+      "name": "Puppet Labs",
+      "nameZh": "Puppet Labs",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/puppet_labs/index.yml",
+      "sha256": "2a448d23a5b133f2bae0a53c015746e00fffde246cc86ac233108559d61eba5d"
+    },
+    {
+      "id": ":companies/pydantic",
+      "name": "Pydantic",
+      "nameZh": "Pydantic",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/pydantic/index.yml",
+      "sha256": "d84e90f4ac81fe14417d402ae68becf076cf924b28d7bf2d82e75aa50f19be63"
+    },
+    {
+      "id": ":companies/pythagora",
+      "name": "Pythagora",
+      "nameZh": "Pythagora",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/pythagora/index.yml",
+      "sha256": "6cda6f702453d48d9ed8f46a95f31ae5cd53a07d9a0d032d1fdfa69de180f7d4"
+    },
+    {
+      "id": ":companies/qdrant",
+      "name": "Qdrant",
+      "nameZh": "Qdrant",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/qdrant/index.yml",
+      "sha256": "5925deb5b2dcc2b1881a8b25044e31e97b6fdbdcf9f6812f1f7fd7c0f8e206e7"
+    },
+    {
+      "id": ":companies/qingcloud",
+      "name": "QingCloud",
+      "nameZh": "青云",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/qingcloud/index.yml",
+      "sha256": "06fcc24ece6efdaf68985cdffba0c2fdc039330b346161a77da02ea523beba0c"
+    },
+    {
+      "id": ":companies/qiniu",
+      "name": "Qiniu",
+      "nameZh": "七牛云",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/qiniu/index.yml",
+      "sha256": "a4c3833a48fdc87ba6ff44ff2662256b8d87e0c1d6895b521ef55c70a5b90363"
+    },
+    {
+      "id": ":companies/qodo",
+      "name": "Qodo",
+      "nameZh": "Qodo",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/qodo/index.yml",
+      "sha256": "a3c62f8a66139c7d05dddd303e492def7b7ea6f91fcbcb2977c35201cb0f25ef"
+    },
+    {
+      "id": ":companies/quantum",
+      "name": "Quantum",
+      "nameZh": "Quantum",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/quantum/index.yml",
+      "sha256": "fc92ba499a4092483ffeccfa1d34d97645bffa4973ef281a15c0354cc814af43"
+    },
+    {
+      "id": ":companies/questdb",
+      "name": "QuestDB",
+      "nameZh": "QuestDB",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/questdb/index.yml",
+      "sha256": "c654258d69b5f33054be4b503c662af67fb7298e7683210fd66a5777281992d6"
+    },
+    {
+      "id": ":companies/qunar",
+      "name": "Qunar",
+      "nameZh": "去哪儿",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/qunar/index.yml",
+      "sha256": "80af517f837eea5bee0fee333f3efed2d74abcc76aa80ad2564a49e09b8d8cdd"
+    },
+    {
+      "id": ":companies/rancher",
+      "name": "Rancher Labs",
+      "nameZh": "Rancher Labs",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/rancher/index.yml",
+      "sha256": "71a3f4956fc7a45fbecce4efc8c818ae5a028ef076e2e238ef1de0d8546b9d9b"
+    },
+    {
+      "id": ":companies/rapid7",
+      "name": "Rapid7",
+      "nameZh": "Rapid7",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/rapid7/index.yml",
+      "sha256": "0cd250df808450d5bfd64e1fd5ccf64bb05a7062c84b0cc4c5397dc6eadd8ea4"
+    },
+    {
+      "id": ":companies/rare",
+      "name": "RaRe Technologies",
+      "nameZh": "RaRe Technologies",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/rare/index.yml",
+      "sha256": "baa02cc6b9bb9df49452e36a7b72ca2f3ae3586224b1b1d2d04e6352608ab264"
+    },
+    {
+      "id": ":companies/ravendb",
+      "name": "RavenDB",
+      "nameZh": "RavenDB",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/ravendb/index.yml",
+      "sha256": "2ae85e359b839175c90f0f9b0169714835657f9ae774b5778291985bb235fb89"
+    },
+    {
+      "id": ":companies/raycast",
+      "name": "Raycast",
+      "nameZh": "Raycast",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/raycast/index.yml",
+      "sha256": "5369fe7a9daab76a3a0368753199da2355456b21cc96d700aa2bfbb994f46301"
+    },
+    {
+      "id": ":companies/redhat",
+      "name": "RedHat",
+      "nameZh": "红帽",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/redhat/index.yml",
+      "sha256": "313df1d7fce394264d4b1045a7d5f49c49206842dd399669c6bfede436a421a8"
+    },
+    {
+      "id": ":companies/redis",
+      "name": "Redis Labs",
+      "nameZh": "Redis Labs",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/redis/index.yml",
+      "sha256": "b6288c6e0cd7a67f9b6e8d96c009183981d81399653f24d3422c9183f434eee1"
+    },
+    {
+      "id": ":companies/restate",
+      "name": "Restate",
+      "nameZh": "Restate",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/restate/index.yml",
+      "sha256": "737393f2d906c42d052c2ced87c850f4d0156caad99d3f3369d1d32601cf0361"
+    },
+    {
+      "id": ":companies/risingwavelabs",
+      "name": "RisingWave Labs",
+      "nameZh": "RisingWave Labs",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/risingwavelabs/index.yml",
+      "sha256": "d850bb03290f21098c44c741e641c28761e931ccafab744d7555e9365d8c4627"
+    },
+    {
+      "id": ":companies/rtthread",
+      "name": "RT-Thread",
+      "nameZh": "上海睿赛德电子科技有限公司",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/rtthread/index.yml",
+      "sha256": "83ab9aa2ffc1dcb6cca216235d9c84ea2cdb1fcd1f60a325f868aa1de78609bb"
+    },
+    {
+      "id": ":companies/salesforce",
+      "name": "Salesforce",
+      "nameZh": "Salesforce",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/salesforce/index.yml",
+      "sha256": "5d0be6d1b795b754705439b7fb01376e186ecda63620d8c8a5adce17687051bf"
+    },
+    {
+      "id": ":companies/samsung",
+      "name": "Samsung",
+      "nameZh": "Samsung",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/samsung/index.yml",
+      "sha256": "562dd64d469e6d1bef9054f6589dba891fddca971fbc4bc5a0bf9beb910f5841"
+    },
+    {
+      "id": ":companies/scylladb",
+      "name": "ScyllaDB",
+      "nameZh": "ScyllaDB",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/scylladb/index.yml",
+      "sha256": "34b08683d0697a895adb3435626f21ac257b660732d36b2a407e2cd00142a9b0"
+    },
+    {
+      "id": ":companies/seeed",
+      "name": "Seeed",
+      "nameZh": "矽递科技",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/seeed/index.yml",
+      "sha256": "e191498e1067ee481360dc3dd7ff4723da9779b79e6456284fcfe5f7fdf4f32c"
+    },
+    {
+      "id": ":companies/segment",
+      "name": "Segment",
+      "nameZh": "Segment",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/segment/index.yml",
+      "sha256": "e27f8ead5c3e96cc6681a8a09e5db88eb14566b66d13543109c496c0ef93ef97"
+    },
+    {
+      "id": ":companies/segmentfault",
+      "name": "Segment Fault",
+      "nameZh": "思否",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/segmentfault/index.yml",
+      "sha256": "268afade3516d1dcc51bc8995942f702e3d74c7160a5e49d4bbc5edcfc957696"
+    },
+    {
+      "id": ":companies/selectdb",
+      "name": "SelectDB",
+      "nameZh": "SelectDB",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/selectdb/index.yml",
+      "sha256": "c1bb62a671140a7f57774db1f7fdf8a526c831d588a3c84e0926cd682b4af27e"
+    },
+    {
+      "id": ":companies/sensetime",
+      "name": "SenseTime",
+      "nameZh": "商汤科技",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/sensetime/index.yml",
+      "sha256": "f7497957b2718e1ceed5c6da1d7b223fb57ad01bb5ec80bdb92adee2f379735b"
+    },
+    {
+      "id": ":companies/sensiolabs",
+      "name": "SensioLabs",
+      "nameZh": "SensioLabs",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/sensiolabs/index.yml",
+      "sha256": "347536ab601fc453326dcb631f932cbf96004e8380454751fd1c0748c8f69741"
+    },
+    {
+      "id": ":companies/sequoiadb",
+      "name": "SequoiaDB",
+      "nameZh": "巨杉数据库",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/sequoiadb/index.yml",
+      "sha256": "268c298c9615b9677c7c721057e43e494447f2f72960147533b06b6599e67801"
+    },
+    {
+      "id": ":companies/siliconflow",
+      "name": "SiliconFlow",
+      "nameZh": "硅基流动",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/siliconflow/index.yml",
+      "sha256": "051410d413b342d0a21aab534ef1f473a317b7f8759ceffe550de1b6b583d622"
+    },
+    {
+      "id": ":companies/sipeed",
+      "name": "Sipeed",
+      "nameZh": "矽速科技",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/sipeed/index.yml",
+      "sha256": "7bda764df94bf7cb65ce62a8f011f516dccf71dd471fc36ef2f0fd245248050a"
+    },
+    {
+      "id": ":companies/siyuan_note",
+      "name": "SiYuan Note",
+      "nameZh": "SiYuan Note",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/siyuan_note/index.yml",
+      "sha256": "67936dc70ec8fe5900a4517cd3307e63956ed5fb9b2d057a1e42e99dd8a10639"
+    },
+    {
+      "id": ":companies/snowflake",
+      "name": "Snowflake",
+      "nameZh": "Snowflake",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/snowflake/index.yml",
+      "sha256": "be4ea0b048a51475106a52b093d8ab4a314c6930fb10b0645e92b7b15102778c"
+    },
+    {
+      "id": ":companies/solo_io",
+      "name": "Solo.io",
+      "nameZh": "Solo.io",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/solo_io/index.yml",
+      "sha256": "ba280758f5e3f9941bca655a14b5289425e0b6a9e65168b681e49c2eb6838617"
+    },
+    {
+      "id": ":companies/soundcloud",
+      "name": "SoundCloud",
+      "nameZh": "SoundCloud",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/soundcloud/index.yml",
+      "sha256": "72fe12298dd8beee9f1a827ddda0d0f4dfa30b4c659ab0345c48a1b4189017b0"
+    },
+    {
+      "id": ":companies/sourcefire",
+      "name": "Sourcefire",
+      "nameZh": "Sourcefire",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/sourcefire/index.yml",
+      "sha256": "39675609ee5956b5abab3490b7d5bd5bafc8eb0dff77146d619667729c6abd54"
+    },
+    {
+      "id": ":companies/sphereex",
+      "name": "SphereEx",
+      "nameZh": "SphereEx",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/sphereex/index.yml",
+      "sha256": "cc1e29fce1424430f97d1e6a4f7ef488e3fe6facf5aec870024c04fb281b7a16"
+    },
+    {
+      "id": ":companies/spotify",
+      "name": "Spotify",
+      "nameZh": "Spotify",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/spotify/index.yml",
+      "sha256": "d8eddad6b96c3074e670986e85310c4e41a0f29ab75866f03e826f3aa480c025"
+    },
+    {
+      "id": ":companies/stablyai",
+      "name": "Stably AI",
+      "nameZh": "Stably AI",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/stablyai/index.yml",
+      "sha256": "5dde26d1f435061e5c6ed1a4c6b60c13314104d4048e2c4bd3d137a6390c8638"
+    },
+    {
+      "id": ":companies/stackblitz",
+      "name": "StackBlitz",
+      "nameZh": "StackBlitz",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/stackblitz/index.yml",
+      "sha256": "0615546546d53ec47152d83960413ef883ed17775fa1989f2316c2ba380788c3"
+    },
+    {
+      "id": ":companies/stacklok",
+      "name": "Stacklok",
+      "nameZh": "Stacklok",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/stacklok/index.yml",
+      "sha256": "33c3bbf9c1444f0f75190cfd97e44e7875e60b9ba09fbbb158ecd4222fe43e24"
+    },
+    {
+      "id": ":companies/starrocks",
+      "name": "StarRocks",
+      "nameZh": "StarRocks",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/starrocks/index.yml",
+      "sha256": "5a6d7a94817e1eb1e67e236cb9dbbef196fbf085c99d49500d0166a14540d952"
+    },
+    {
+      "id": ":companies/stoneatom",
+      "name": "StoneAtom",
+      "nameZh": "石原子",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/stoneatom/index.yml",
+      "sha256": "8b602f5bca7deaec61dbdb9870c8e10feb1ccf435cf33d2fcee5e518ca94b919"
+    },
+    {
+      "id": ":companies/streamnative",
+      "name": "StreamNative",
+      "nameZh": "原流数据",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/streamnative/index.yml",
+      "sha256": "3e8be116f6572a77de8d0049ae6771caa14e8459b0f210cf1bff537a46875acd"
+    },
+    {
+      "id": ":companies/styra",
+      "name": "Styra",
+      "nameZh": "Styra",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/styra/index.yml",
+      "sha256": "fb90bd8634301ac6b8a1eecdcd50f8b27b0571ed27ac3f9c769ce840195322ae"
+    },
+    {
+      "id": ":companies/supabase",
+      "name": "Supabase",
+      "nameZh": "Supabase",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/supabase/index.yml",
+      "sha256": "afe699fd228007dd5abc874d3add3aa9b66d7f9810855c47e42d8af0c447cf41"
+    },
+    {
+      "id": ":companies/supermemory",
+      "name": "Supermemory",
+      "nameZh": "Supermemory",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/supermemory/index.yml",
+      "sha256": "64b16b2fda5da953ec3f2af2494278cf1a98c083b047a5ec25a0c3d5ddfe16c2"
+    },
+    {
+      "id": ":companies/surrealdb",
+      "name": "SurrealDB",
+      "nameZh": "SurrealDB",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/surrealdb/index.yml",
+      "sha256": "70332bf4f60130b862d5c57b7217193fb42d32e2fee98d022f0ebcf6387d67c5"
+    },
+    {
+      "id": ":companies/sxxfuture",
+      "name": "Sxxfuture",
+      "nameZh": "Sxxfuture",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/sxxfuture/index.yml",
+      "sha256": "3cfabeb2ea03c90a2cdfef341ccacff3fe9c8026862864e8a7f13b5b32a2d7cc"
+    },
+    {
+      "id": ":companies/synadia",
+      "name": "Synadia",
+      "nameZh": "Synadia",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/synadia/index.yml",
+      "sha256": "6c324d4341a79a49b828bc7f0d21d88fc8c8682806fc8ebe4735b50387aa791f"
+    },
+    {
+      "id": ":companies/sysdig",
+      "name": "Sysdig",
+      "nameZh": "Sysdig",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/sysdig/index.yml",
+      "sha256": "1e8a8ba1767b80b34cc428d1cc85f061e9d174e74015007f024dcb5cac0bfae1"
+    },
+    {
+      "id": ":companies/tabbyml",
+      "name": "TabbyML",
+      "nameZh": "TabbyML",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/tabbyml/index.yml",
+      "sha256": "81d5942b375ccb582153def739ff5d4b9c539edf2572005c88b7fc1dfabbd066"
+    },
+    {
+      "id": ":companies/taichi",
+      "name": "Taichi",
+      "nameZh": "太极",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/taichi/index.yml",
+      "sha256": "07d9a0e49f0d7c39f54192c1ecbdbf21842d984de78213ede009fca557d378e0"
+    },
+    {
+      "id": ":companies/tailscale",
+      "name": "Tailscale",
+      "nameZh": "Tailscale",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/tailscale/index.yml",
+      "sha256": "612583918a9b6b5fbcee96df0bd85f1a9976d4a3bdf2dc647597579fd6e5751b"
+    },
+    {
+      "id": ":companies/talend",
+      "name": "Talend",
+      "nameZh": "Talend",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/talend/index.yml",
+      "sha256": "7f06118262b89dbbab03417f09cd91b74f853521ffde4ab30d50d7699e22e983"
+    },
+    {
+      "id": ":companies/taos",
+      "name": "TAOS Data",
+      "nameZh": "涛思数据",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/taos/index.yml",
+      "sha256": "4f4c4499be5a143f0cbfb168e8ebb8e3f63fd38bc95ae3e7fa30b17644e6816a"
+    },
+    {
+      "id": ":companies/tencent",
+      "name": "Tencent",
+      "nameZh": "腾讯",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/tencent/index.yml",
+      "sha256": "fcb4ff6599b7a6c1ab68657ebc0d8392327a602f388cf965b550f61ed2352de6"
+    },
+    {
+      "id": ":companies/tenstorrent",
+      "name": "Tenstorrent",
+      "nameZh": "Tenstorrent",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/tenstorrent/index.yml",
+      "sha256": "d80512a58645b20ed798906e1070a2c1d067ff2a9b68e7b912d4e99bd760f7fd"
+    },
+    {
+      "id": ":companies/terminus",
+      "name": "Terminus",
+      "nameZh": "Terminus",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/terminus/index.yml",
+      "sha256": "ef52bbea10443cf29f8ec6f32c8b4a6c6e8e56cba909fd5eaa975f50431e1eab"
+    },
+    {
+      "id": ":companies/tetrate",
+      "name": "Tetrate",
+      "nameZh": "Tetrate",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/tetrate/index.yml",
+      "sha256": "0e1f0e9bf5188ad033702c15cce00437efa82a7d941ac9f20e28f6ee6b92952b"
+    },
+    {
+      "id": ":companies/thinkphp",
+      "name": "ThinkPHP",
+      "nameZh": "ThinkPHP",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/thinkphp/index.yml",
+      "sha256": "98d337734c782609bac5359259bc444af96c4b8c87e9864bf38100dda8312b44"
+    },
+    {
+      "id": ":companies/tier4",
+      "name": "TIER IV",
+      "nameZh": "TIER IV",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/tier4/index.yml",
+      "sha256": "0abeaea9e814542f0db0dba443b848f5de14b987f3fd106de21c0f2fbd6e553f"
+    },
+    {
+      "id": ":companies/tigerdata",
+      "name": "Tiger Data",
+      "nameZh": "Tiger Data",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/tigerdata/index.yml",
+      "sha256": "b0b7b16b08976df1947bc5bf7b6625a70c1861b9e02ca9032b721b15aaa6ddd9"
+    },
+    {
+      "id": ":companies/timecho",
+      "name": "Timecho",
+      "nameZh": "天谋科技",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/timecho/index.yml",
+      "sha256": "5f0ae62a1229b097a494b8b533ffc1917f446c950ebd31bd03d0bce85b0db99f"
+    },
+    {
+      "id": ":companies/tooljet",
+      "name": "ToolJet Solutions",
+      "nameZh": "ToolJet Solutions",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/tooljet/index.yml",
+      "sha256": "12744feb1ed066d4232497899bcd4a07a492428e6c9dd7931e76be398a3231dc"
+    },
+    {
+      "id": ":companies/treasure_data",
+      "name": "Treasure Data",
+      "nameZh": "Treasure Data",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/treasure_data/index.yml",
+      "sha256": "2ae983ba552f2e7cb9c513a4ea4ca941add9008f07cfb3fdb39604359c51ee33"
+    },
+    {
+      "id": ":companies/trycua",
+      "name": "Cua",
+      "nameZh": "Cua",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/trycua/index.yml",
+      "sha256": "6fa14706850d977da0ab90e4eaedec2c3be9eb28a072f40744e5b3c1d1349123"
+    },
+    {
+      "id": ":companies/tuya",
+      "name": "Tuya",
+      "nameZh": "杭州涂鸦信息技术有限公司",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/tuya/index.yml",
+      "sha256": "a4fdc66d38919f44b4193167f0fab4dec6aecf7d866635af58330ed57a0ee8cd"
+    },
+    {
+      "id": ":companies/tw_iot",
+      "name": "Tw-iot",
+      "nameZh": "Tw-iot",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/tw_iot/index.yml",
+      "sha256": "43420442825adeee43d8a9562e28bb5b6583b1a021a518abe2e641349851f1f1"
+    },
+    {
+      "id": ":companies/twitter",
+      "name": "Twitter",
+      "nameZh": "Twitter",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/twitter/index.yml",
+      "sha256": "03d74597c4489bc5e50cabc6384e6a0f5d6b30c4d7506ccc3e6612e22db2c159"
+    },
+    {
+      "id": ":companies/uber",
+      "name": "Uber",
+      "nameZh": "优步",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/uber/index.yml",
+      "sha256": "42743b59d01256b47c9d47895cfbeac89d93f7d5c47b3b6ae23a0752881d6cc9"
+    },
+    {
+      "id": ":companies/ubicloud",
+      "name": "Ubicloud",
+      "nameZh": "Ubicloud",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/ubicloud/index.yml",
+      "sha256": "bc411be2a04a47fd6c4e11666f8b24b3a56c4ad4bb8e7264a498952f910e6851"
+    },
+    {
+      "id": ":companies/unkeyed",
+      "name": "Unkeyed",
+      "nameZh": "Unkeyed",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/unkeyed/index.yml",
+      "sha256": "4103fb0b2d7fb361f506e7dc9013df2b3ff12008b2f5d2b3febac539a2477608"
+    },
+    {
+      "id": ":companies/unsloth_ai",
+      "name": "Unsloth AI",
+      "nameZh": "Unsloth AI",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/unsloth_ai/index.yml",
+      "sha256": "fd276d5a01691d5afa42e39b5740167fb3375e49edd4dcf01020c876aeaf0d0a"
+    },
+    {
+      "id": ":companies/unstructured",
+      "name": "Unstructured",
+      "nameZh": "Unstructured",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/unstructured/index.yml",
+      "sha256": "10c7e0ef2b2832121639e147681fdd281bbe359441aff80ad91422db5ec3c2e8"
+    },
+    {
+      "id": ":companies/upbound",
+      "name": "Upbound",
+      "nameZh": "Upbound",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/upbound/index.yml",
+      "sha256": "13f909993088e90319a418850ece7bdffce432b020b554a9361a208f8f967a50"
+    },
+    {
+      "id": ":companies/upstash",
+      "name": "Upstash",
+      "nameZh": "Upstash",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/upstash/index.yml",
+      "sha256": "1c09d776fb678c0fd8e994c396f8f9296c8446ab9710f77f3be1d6b46a9db730"
+    },
+    {
+      "id": ":companies/valve",
+      "name": "Valve",
+      "nameZh": "Valve",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/valve/index.yml",
+      "sha256": "e738526aa73135eabb3d08b1c71fa1824c578d996844df3ef69d9cca27b3aa9a"
+    },
+    {
+      "id": ":companies/varnish",
+      "name": "Varnish",
+      "nameZh": "Varnish",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/varnish/index.yml",
+      "sha256": "b423d7c9685bf59abd693cbef9e96863fea48156cde5635d56dcec33e69894b2"
+    },
+    {
+      "id": ":companies/vectorize_io",
+      "name": "Vectorize",
+      "nameZh": "Vectorize",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/vectorize_io/index.yml",
+      "sha256": "197f678d492535f152cceec235f898c9a7fede9f8b54d7fe2b7e8f12739cffe8"
+    },
+    {
+      "id": ":companies/vercel",
+      "name": "Vercel",
+      "nameZh": "Vercel",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/vercel/index.yml",
+      "sha256": "f4ddc69244b1293e2a0a91d41dbe4aec3c9954ee7379cf33592a17fa75be883e"
+    },
+    {
+      "id": ":companies/vesoft",
+      "name": "Vesoft",
+      "nameZh": "悦数科技",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/vesoft/index.yml",
+      "sha256": "d76476b06dd1fa80608e63e5d9b4eddc598f5af8b109bc7fb725dab3092ab3e6"
+    },
+    {
+      "id": ":companies/vespa",
+      "name": "Vespa",
+      "nameZh": "Vespa",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/vespa/index.yml",
+      "sha256": "e4342ec5e3833580b3a7491c5ba7aa2daddf9fc90c2cd60a0e3e77be86c6b81c"
+    },
+    {
+      "id": ":companies/victoriametrics",
+      "name": "VictoriaMetrics",
+      "nameZh": "VictoriaMetrics",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/victoriametrics/index.yml",
+      "sha256": "840bd56f8b14b38b5e527fc93cd41c80caa0eec22fa288aa5e0dadb2a655d2b1"
+    },
+    {
+      "id": ":companies/vipshop",
+      "name": "Vipshop",
+      "nameZh": "唯品会",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/vipshop/index.yml",
+      "sha256": "35ebda6e986de357e7dd4df74393072cb1cebd697cccd236bca1dec32af82e86"
+    },
+    {
+      "id": ":companies/vk",
+      "name": "VK",
+      "nameZh": "VK",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/vk/index.yml",
+      "sha256": "b9c7515ea8596e53fc274e768032951240ea90235b7433b0b4740db961ec5475"
+    },
+    {
+      "id": ":companies/vmware",
+      "name": "VMWare",
+      "nameZh": "VMWare",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/vmware/index.yml",
+      "sha256": "a6c38906f8e9da1364b242a0144908ec92164d27bae04377894e201470dbde90"
+    },
+    {
+      "id": ":companies/warp",
+      "name": "Warp",
+      "nameZh": "Warp",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/warp/index.yml",
+      "sha256": "6e5ab738435ea5de41d6ee853989ae31554889791ff8e8e14e4735c52a1bd901"
+    },
+    {
+      "id": ":companies/weaveworks",
+      "name": "Weaveworks",
+      "nameZh": "Weaveworks",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/weaveworks/index.yml",
+      "sha256": "03284aeb9965656c6b96073626480e03ad385dc48103ccd314fe0b968c23477d"
+    },
+    {
+      "id": ":companies/weaviate",
+      "name": "Weaviate",
+      "nameZh": "Weaviate",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/weaviate/index.yml",
+      "sha256": "45672dbcb2f9b728ef607e316e3129c14608fe007c1c7a6cff827add0870716c"
+    },
+    {
+      "id": ":companies/webank",
+      "name": "WeBank",
+      "nameZh": "微众银行",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/webank/index.yml",
+      "sha256": "c7d4ed8ee95e36a6559c62ba98ec638ffc5657826239d2eb84b7033b9bb9357b"
+    },
+    {
+      "id": ":companies/weisolution",
+      "name": "Weisolution",
+      "nameZh": "Weisolution",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/weisolution/index.yml",
+      "sha256": "83d3f82d2a70db2aa37d027c122be030aef1b5e412f58d8380f8b4c1b3a15ca4"
+    },
+    {
+      "id": ":companies/whaleops",
+      "name": "WhaleOps",
+      "nameZh": "WhaleOps",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/whaleops/index.yml",
+      "sha256": "d6a186aeb9e96dc0ecc94a5d2a1836bc0813d22e0350fb3f22cba2d0cf6103c3"
+    },
+    {
+      "id": ":companies/woo",
+      "name": "Woo",
+      "nameZh": "Woo",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/woo/index.yml",
+      "sha256": "de7640a13531acc93f4de5302c222f54a7f1bba6146ef509ca806c1db8955af9"
+    },
+    {
+      "id": ":companies/wordpress",
+      "name": "WordPress",
+      "nameZh": "WordPress",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/wordpress/index.yml",
+      "sha256": "2c909f8d3f64960b084aeb1f8b6282754a92d645e8ca5967556edc68c95e84fd"
+    },
+    {
+      "id": ":companies/workday",
+      "name": "Workday",
+      "nameZh": "Workday",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/workday/index.yml",
+      "sha256": "238d70a060e45116a2b58f98d21d87fb7834ff51232c19532483f1d6aa4106d7"
+    },
+    {
+      "id": ":companies/wutos",
+      "name": "Wutos",
+      "nameZh": "Wutos",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/wutos/index.yml",
+      "sha256": "089a07fc4f28a57027f6b38779c009f13ccbe79fbb31ddf72bc960d112e421e7"
+    },
+    {
+      "id": ":companies/xiaomi",
+      "name": "Xiaomi",
+      "nameZh": "小米",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/xiaomi/index.yml",
+      "sha256": "121f2fde3a8b7b76e0dc8f2e2a52db240339337099b9655250180510cf475ddb"
+    },
+    {
+      "id": ":companies/xorbits",
+      "name": "Xorbits AI",
+      "nameZh": "Xorbits AI",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/xorbits/index.yml",
+      "sha256": "42175dfc7e5f64a8030fc16f68071e368589f96f4435eb9ae77e45264098adf7"
+    },
+    {
+      "id": ":companies/yahoo",
+      "name": "Yahoo",
+      "nameZh": "Yahoo",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/yahoo/index.yml",
+      "sha256": "d572eed5c980206b6dfd72a8415bec8ab5982a39d83ad73175f1621dd8f7240d"
+    },
+    {
+      "id": ":companies/yandex",
+      "name": "Yandex",
+      "nameZh": "Yandex",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/yandex/index.yml",
+      "sha256": "c09cbf61f8e2d045da04146a21f8cbc6001320c7da1c06e123da706d12365995"
+    },
+    {
+      "id": ":companies/ygsoft",
+      "name": "Nasinet",
+      "nameZh": "Nasinet",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/ygsoft/index.yml",
+      "sha256": "b20bcb7e785a52c9f5c4ec461ecf4f2bce6d4ffd7010734cf9619bbe2410953c"
+    },
+    {
+      "id": ":companies/youzan",
+      "name": "Youzan",
+      "nameZh": "有赞",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/youzan/index.yml",
+      "sha256": "23bc20c160a37fe0de131d7dab4be39eb2b0ab818fce2cee286f6dd0a0507061"
+    },
+    {
+      "id": ":companies/yugabyte",
+      "name": "Yugabyte",
+      "nameZh": "Yugabyte",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/yugabyte/index.yml",
+      "sha256": "5cb457f14daec4d59b9a7c2c5203a41afce0191e8f24019836a74ef4f5fed143"
+    },
+    {
+      "id": ":companies/yunion",
+      "name": "Yunion",
+      "nameZh": "云联",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/yunion/index.yml",
+      "sha256": "73417ed0c8b16e1d80161861d5f7495ccbd7c77862682cd915b311c8465e6af0"
+    },
+    {
+      "id": ":companies/zalando",
+      "name": "Zalando",
+      "nameZh": "Zalando",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/zalando/index.yml",
+      "sha256": "35fb87d5816cefdaa33ecbb479b8043ddf656e1fc88e160b3e2dc3232835293f"
+    },
+    {
+      "id": ":companies/zama",
+      "name": "Zama",
+      "nameZh": "Zama",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/zama/index.yml",
+      "sha256": "7082d92f4dcc1324d443351bb9c1fd15fd676e5aec1b3222afc95e18499eb190"
+    },
+    {
+      "id": ":companies/zed",
+      "name": "Zed Industry",
+      "nameZh": "Zed Industry",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/zed/index.yml",
+      "sha256": "62c32a4483bd2e7c236fde10a2465a6fdf93834de25a54625a9c9ed4d42170ae"
+    },
+    {
+      "id": ":companies/zilliz",
+      "name": "Zilliz",
+      "nameZh": "赜睿信息科技",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/zilliz/index.yml",
+      "sha256": "63b8028a633ddca16cd4c422ef239eb97f8d3118f00d2866cb7fb3030b44e167"
+    },
+    {
+      "id": ":companies/zipstack",
+      "name": "Zipstack",
+      "nameZh": "Zipstack",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/zipstack/index.yml",
+      "sha256": "cc325fc31a2affc6415585132291b095ed826583943274a09195ecb9387c0fe4"
+    },
+    {
+      "id": ":companies/zstack",
+      "name": "ZStack",
+      "nameZh": "云轴科技",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/zstack/index.yml",
+      "sha256": "8008c0476cde3b83f312dfc984e8bf4306d2f08815db342c90a8628012c06c62"
+    },
+    {
+      "id": ":companies/zte",
+      "name": "ZTE",
+      "nameZh": "ZTE",
+      "type": "Company",
+      "group": "company",
+      "path": "labeled_data/companies/zte/index.yml",
+      "sha256": "e6ef280046550353a2b9707370e5742b3cb6cfd57b1154a0d8570e5875e76bde"
+    },
+    {
+      "id": ":foundations/anoma",
+      "name": "Anoma Foundation",
+      "nameZh": "Anoma Foundation",
+      "type": "Foundation",
+      "group": "foundation",
+      "path": "labeled_data/foundations/anoma/index.yml",
+      "sha256": "5c1e87cf2a3d6aad44820f81804c0d2a44234ddc6413060582cd40aa6dac9b40"
+    },
+    {
+      "id": ":foundations/apache",
+      "name": "Apache Software Foundation",
+      "nameZh": "Apache 软件基金会",
+      "type": "Foundation",
+      "group": "foundation",
+      "path": "labeled_data/foundations/apache/index.yml",
+      "sha256": "b40e7435565d9b4b6d3a5eab91e8142fd0dde9703d1071c41fca504e5aa5ba22"
+    },
+    {
+      "id": ":foundations/bevy",
+      "name": "Bevy Foundation",
+      "nameZh": "Bevy Foundation",
+      "type": "Foundation",
+      "group": "foundation",
+      "path": "labeled_data/foundations/bevy/index.yml",
+      "sha256": "8f5bbec025d5a20376b1ccdfd214da418cfe686d257072298f290414b2edb484"
+    },
+    {
+      "id": ":foundations/csa_iot",
+      "name": "Connectivity Standards Alliance",
+      "nameZh": "Connectivity Standards Alliance",
+      "type": "Foundation",
+      "group": "foundation",
+      "path": "labeled_data/foundations/csa_iot/index.yml",
+      "sha256": "c191adb67e212fe1ef553b1b3abd37f60500bcf32a179e2b0bc132aadaf8bab5"
+    },
+    {
+      "id": ":foundations/duckdb",
+      "name": "DuckDB Foundation",
+      "nameZh": "DuckDB Foundation",
+      "type": "Foundation",
+      "group": "foundation",
+      "path": "labeled_data/foundations/duckdb/index.yml",
+      "sha256": "b9cbdb942c1b3dc4e8ae8f6e5b63a4bb1cb251d20e77232e0448d8dfe617f449"
+    },
+    {
+      "id": ":foundations/eclipse",
+      "name": "Eclipse Foundation",
+      "nameZh": "Eclipse Foundation",
+      "type": "Foundation",
+      "group": "foundation",
+      "path": "labeled_data/foundations/eclipse.yml",
+      "sha256": "d61b9a8ee0af9a4b5f8e14d5743e03f2d3fadfacd99c97c569f1f0817f398ad4"
+    },
+    {
+      "id": ":foundations/farama",
+      "name": "farama",
+      "nameZh": "farama",
+      "type": "Foundation",
+      "group": "foundation",
+      "path": "labeled_data/foundations/farama/index.yml",
+      "sha256": "a3aa4be420b851e21440bda78ae5d04d5768567423be91c7292eb12d910ce792"
+    },
+    {
+      "id": ":foundations/free_ebook",
+      "name": "Free EBook Foundation",
+      "nameZh": "Free EBook Foundation",
+      "type": "Foundation",
+      "group": "foundation",
+      "path": "labeled_data/foundations/free_ebook/index.yml",
+      "sha256": "d244dcf677c731c073bc70948b2f124049394a858a8d3780ad7a1b8d46fa8048"
+    },
+    {
+      "id": ":foundations/gentoo",
+      "name": "Gentoo Foundation",
+      "nameZh": "Gentoo Foundation",
+      "type": "Foundation",
+      "group": "foundation",
+      "path": "labeled_data/foundations/gentoo/index.yml",
+      "sha256": "fb9166675f275c5afb42f5abb940ed4480b95937af3e2e3e3ec45114881303eb"
+    },
+    {
+      "id": ":foundations/girlscript",
+      "name": "GirlScript Foundation",
+      "nameZh": "GirlScript Foundation",
+      "type": "Foundation",
+      "group": "foundation",
+      "path": "labeled_data/foundations/girlscript/index.yml",
+      "sha256": "5da193b702f858f04f707e14cf6a1bfd0af56fc4b7e142a61dbcc00eea8fdaf7"
+    },
+    {
+      "id": ":foundations/godot",
+      "name": "Godot Foundation",
+      "nameZh": "Godot Foundation",
+      "type": "Foundation",
+      "group": "foundation",
+      "path": "labeled_data/foundations/godot/index.yml",
+      "sha256": "d68dfd9b49d72a475e6a88eae0369c38596705e122380099fc1400bbc18874b9"
+    },
+    {
+      "id": ":foundations/linux_foundation/aaif",
+      "name": "Agentic AI Foundation (AAIF)",
+      "nameZh": "智能体人工智能基金会（AAIF）",
+      "type": "Foundation",
+      "group": "foundation",
+      "path": "labeled_data/foundations/linux_foundation/aaif/index.yml",
+      "sha256": "17e843f83a4156eda00017be677507c8fd045e40920aafc0ab9f9cdef1999fc9"
+    },
+    {
+      "id": ":foundations/linux_foundation/cncf",
+      "name": "Cloud Native Computing Foundation (CNCF)",
+      "nameZh": "云原生计算基金会",
+      "type": "Foundation",
+      "group": "foundation",
+      "path": "labeled_data/foundations/linux_foundation/cncf/index.yml",
+      "sha256": "9f8336a25bfdbdd9bcf3bdcf5b32c7658a39c85efa152436d635ac27de1f1dd3"
+    },
+    {
+      "id": ":foundations/linux_foundation/finops",
+      "name": "FinOps Foundation",
+      "nameZh": "FinOps Foundation",
+      "type": "Foundation",
+      "group": "foundation",
+      "path": "labeled_data/foundations/linux_foundation/finops.yml",
+      "sha256": "3ff908e2e2eac9173a320a83d04da33bc8c8abdbaec1025a780c4d2f724196bb"
+    },
+    {
+      "id": ":foundations/linux_foundation/hyperledger",
+      "name": "Hyperledger Foundation",
+      "nameZh": "Hyperledger Foundation",
+      "type": "Foundation",
+      "group": "foundation",
+      "path": "labeled_data/foundations/linux_foundation/hyperledger/index.yml",
+      "sha256": "5a573d64996a893df9a78f89f22e9b05a8559c940b9a57c443fe8f34274847fa"
+    },
+    {
+      "id": ":foundations/linux_foundation",
+      "name": "Linux Foundation",
+      "nameZh": "Linux 基金会",
+      "type": "Foundation",
+      "group": "foundation",
+      "path": "labeled_data/foundations/linux_foundation/index.yml",
+      "sha256": "d9c60b5e19742f03ffc45e4711f231cbc5678e827325babd582024b27bfd4959"
+    },
+    {
+      "id": ":foundations/linux_foundation/lfai",
+      "name": "LF AI & Data Foundation",
+      "nameZh": "LF AI & Data Foundation",
+      "type": "Foundation",
+      "group": "foundation",
+      "path": "labeled_data/foundations/linux_foundation/lfai/index.yml",
+      "sha256": "c728fe2ded7e6dde41e67f194bd1eca9025c34a7b8c4c96f2e1af5de0517fe4a"
+    },
+    {
+      "id": ":foundations/linux_foundation/lfed",
+      "name": "LF Edge Foundation",
+      "nameZh": "LF Edge Foundation",
+      "type": "Foundation",
+      "group": "foundation",
+      "path": "labeled_data/foundations/linux_foundation/lfed/index.yml",
+      "sha256": "bc7734e360482d27d5f56fc4db707019b54dc11fc27ecb853eead53dd61a3bbc"
+    },
+    {
+      "id": ":foundations/linux_foundation/lfne",
+      "name": "LF Networking Foundation",
+      "nameZh": "LF Networking Foundation",
+      "type": "Foundation",
+      "group": "foundation",
+      "path": "labeled_data/foundations/linux_foundation/lfne.yml",
+      "sha256": "9f88af3a696add2dff897db3157979481763d293723eaa22417ebcff9da77c63"
+    },
+    {
+      "id": ":foundations/linux_foundation/o3d",
+      "name": "Open 3D Foundation",
+      "nameZh": "Open 3D Foundation",
+      "type": "Foundation",
+      "group": "foundation",
+      "path": "labeled_data/foundations/linux_foundation/o3d.yml",
+      "sha256": "a6f2d0dfb3cdd4072c765651f2ccf8ba12140bfdbbf3f6911d6d31efa3db9a39"
+    },
+    {
+      "id": ":foundations/linux_foundation/openjs",
+      "name": "OpenJS Foundation",
+      "nameZh": "OpenJS Foundation",
+      "type": "Foundation",
+      "group": "foundation",
+      "path": "labeled_data/foundations/linux_foundation/openjs/index.yml",
+      "sha256": "c9010427a210e76104e3f91dace9b363ac6c45d55dc43868a061a2ac05e0b719"
+    },
+    {
+      "id": ":foundations/linux_foundation/openssf",
+      "name": "OpenSSF Foundation",
+      "nameZh": "OpenSSF Foundation",
+      "type": "Foundation",
+      "group": "foundation",
+      "path": "labeled_data/foundations/linux_foundation/openssf.yml",
+      "sha256": "fa4c04dac4052c471461b17ab0fbe1f2506ecac8fc50b0fd64d48941b502bb98"
+    },
+    {
+      "id": ":foundations/linux_foundation/presto",
+      "name": "Presto Foundation",
+      "nameZh": "Presto Foundation",
+      "type": "Foundation",
+      "group": "foundation",
+      "path": "labeled_data/foundations/linux_foundation/presto.yml",
+      "sha256": "1377b8a4840c79893c4311240a85ba3a0d4a39543654fe1ce658b1e7f996b482"
+    },
+    {
+      "id": ":foundations/linux_foundation/pytorch",
+      "name": "PyTorch Foundation",
+      "nameZh": "PyTorch Foundation",
+      "type": "Foundation",
+      "group": "foundation",
+      "path": "labeled_data/foundations/linux_foundation/pytorch.yml",
+      "sha256": "0cf9ce6122d85a63a212173f8d59117c742a75a8f7f6a7da667806047da93398"
+    },
+    {
+      "id": ":foundations/linux_foundation/riscv",
+      "name": "RICSV Foundation",
+      "nameZh": "RICSV Foundation",
+      "type": "Foundation",
+      "group": "foundation",
+      "path": "labeled_data/foundations/linux_foundation/riscv.yml",
+      "sha256": "f233910bbfc7ea72b2241a781b665fb696e7ea226a5346de8a27bf0f28589da2"
+    },
+    {
+      "id": ":foundations/nixos",
+      "name": "Stichting NixOS Foundation",
+      "nameZh": "Stichting NixOS Foundation",
+      "type": "Foundation",
+      "group": "foundation",
+      "path": "labeled_data/foundations/nixos/index.yml",
+      "sha256": "286085080b5618e95321142c9766c84a30b07c54bde6136f81ca441fb3c55fa8"
+    },
+    {
+      "id": ":foundations/openatom",
+      "name": "OpenAtom Foundation",
+      "nameZh": "开放原子开源基金会",
+      "type": "Foundation",
+      "group": "foundation",
+      "path": "labeled_data/foundations/openatom/index.yml",
+      "sha256": "d212950e7beff9c4a317746194b40f1d9105f163798ca1a2106b3594374df0dc"
+    },
+    {
+      "id": ":foundations/openinfra",
+      "name": "OpenInfra Foundation",
+      "nameZh": "OpenInfra Foundation",
+      "type": "Foundation",
+      "group": "foundation",
+      "path": "labeled_data/foundations/openinfra.yml",
+      "sha256": "87b80f789e91e8c9b1c6efb5066351868bda23d0ed08c2b3443294ff81afeb90"
+    },
+    {
+      "id": ":foundations/php",
+      "name": "PHP Foundation",
+      "nameZh": "PHP 基金会",
+      "type": "Foundation",
+      "group": "foundation",
+      "path": "labeled_data/foundations/php/index.yml",
+      "sha256": "4bc193fed406e5a9f189816297df9ff936fd680d1bf77c20c9706551f05ec316"
+    },
+    {
+      "id": ":foundations/python",
+      "name": "Python Software Foundation",
+      "nameZh": "Python 软件基金会",
+      "type": "Foundation",
+      "group": "foundation",
+      "path": "labeled_data/foundations/python/index.yml",
+      "sha256": "54ce1b8d94c5a2bc8e502a72d19373c55699761cf3d6d74f21cc917db261b20c"
+    },
+    {
+      "id": ":foundations/ruby",
+      "name": "Ruby Foundation",
+      "nameZh": "Ruby 基金会",
+      "type": "Foundation",
+      "group": "foundation",
+      "path": "labeled_data/foundations/ruby/index.yml",
+      "sha256": "d4844192bb4e8e392c7039fb10e282e2eda508d2721ec275ada0a0267fd18e52"
+    },
+    {
+      "id": ":foundations/rust",
+      "name": "Rust Foundation",
+      "nameZh": "Rust 基金会",
+      "type": "Foundation",
+      "group": "foundation",
+      "path": "labeled_data/foundations/rust/index.yml",
+      "sha256": "73844a6988e6ac54f9f6a6ee2d7470362647474fdf712e3f9e6b48f187d29580"
+    },
+    {
+      "id": ":foundations/trino",
+      "name": "Trino Foundation",
+      "nameZh": "Trino Foundation",
+      "type": "Foundation",
+      "group": "foundation",
+      "path": "labeled_data/foundations/trino/index.yml",
+      "sha256": "e5d4ae54afdcd86857fade22ca9053ce01fb55d29355fa9f83e82c7e1c340964"
+    },
+    {
+      "id": ":foundations/zig",
+      "name": "Zig Software Foundation",
+      "nameZh": "Zig 软件基金会",
+      "type": "Foundation",
+      "group": "foundation",
+      "path": "labeled_data/foundations/zig/index.yml",
+      "sha256": "ece2ee745c516b0868813a5b1849532c90d78b0b7b7da1e1f92798fbea118867"
+    },
+    {
+      "id": ":institutions/baai",
+      "name": "Beijing Academy of Artificial Intelligence",
+      "nameZh": "智源研究院",
+      "type": "Institution-0",
+      "group": "research",
+      "path": "labeled_data/institutions/baai/index.yml",
+      "sha256": "7a7eb4a6bca96ff379e55ac4ce5b288af0880b7c6632b7ede5008c284290133e"
+    },
+    {
+      "id": ":institutions/bell_labs",
+      "name": "Nokia Bell Labs",
+      "nameZh": "Nokia Bell Labs",
+      "type": "Institution-0",
+      "group": "research",
+      "path": "labeled_data/institutions/bell_labs/index.yml",
+      "sha256": "8dfc1c9237a37ecf23a2d90926aa958783fadec0c30a831915747a9504bef075"
+    },
+    {
+      "id": ":institutions/cas",
+      "name": "Chinese Academy of Sciences",
+      "nameZh": "中国科学院",
+      "type": "Institution-0",
+      "group": "research",
+      "path": "labeled_data/institutions/cas/index.yml",
+      "sha256": "78f06c7479054b4eb8fa96bad3a9311827a0f747785ffc5302c0d2fc29d290d6"
+    },
+    {
+      "id": ":institutions/cern",
+      "name": "CERN",
+      "nameZh": "CERN",
+      "type": "Institution-0",
+      "group": "research",
+      "path": "labeled_data/institutions/cern/index.yml",
+      "sha256": "49c5a7e207490e2697fe33d3842cee6c0c6d99a698aac7b894116fddfb040f3e"
+    },
+    {
+      "id": ":institutions/idea",
+      "name": "IDEA",
+      "nameZh": "粤港澳大湾区数字经济研究院",
+      "type": "Institution-0",
+      "group": "research",
+      "path": "labeled_data/institutions/idea/index.yml",
+      "sha256": "568c39798a876327ea0cc972c8d20f9f21c5a58b25f64d2873a933f5443874a0"
+    },
+    {
+      "id": ":institutions/sh_ai_lab",
+      "name": "Shanghai Artificial Intelligence Laboratory",
+      "nameZh": "上海人工智能实验室",
+      "type": "Institution-0",
+      "group": "research",
+      "path": "labeled_data/institutions/sh_ai_lab/index.yml",
+      "sha256": "ed27dc89f6fdc73a9894d0952464ad54f2a35d94b6ab48deecd9a1ed51ade77b"
+    },
+    {
+      "id": ":institutions/sh_ai_lab/internlm",
+      "name": "InternLM",
+      "nameZh": "书生大模型",
+      "type": "Institution-1",
+      "group": "research",
+      "path": "labeled_data/institutions/sh_ai_lab/internlm/index.yml",
+      "sha256": "c3bd39fd9ff38c1d8045b68e8f323849384e9577741f4763972af763a113901c"
+    },
+    {
+      "id": ":universities/cug/geohazard",
+      "name": "Geohazard CUG",
+      "nameZh": "Geohazard CUG",
+      "type": "Community",
+      "group": "community",
+      "path": "labeled_data/universities/cug/geohazard.yml",
+      "sha256": "63b39fbe5ebec69d7cfeeb59cdbbf34806b1785e0bf7f9a7de6ec924e55a465b"
+    },
+    {
+      "id": ":universities/cug/hydro",
+      "name": "CUG Hydro",
+      "nameZh": "CUG Hydro",
+      "type": "Community",
+      "group": "community",
+      "path": "labeled_data/universities/cug/hydro.yml",
+      "sha256": "73ee924add43d010112dcd149c3eec72880418f02ccd1414a7e865ad8db71c14"
+    },
+    {
+      "id": ":universities/cug",
+      "name": "China University of Geosciences",
+      "nameZh": "中国地质大学（武汉）",
+      "type": "University-0",
+      "group": "research",
+      "path": "labeled_data/universities/cug/index.yml",
+      "sha256": "d18a740a16d31f274160167c449b7c66f74a016839f0f95175f7ba5ec0f9c916"
+    },
+    {
+      "id": ":universities/hku",
+      "name": "The University of Hong Kong",
+      "nameZh": "香港大学",
+      "type": "University-0",
+      "group": "research",
+      "path": "labeled_data/universities/hku/index.yml",
+      "sha256": "f93374d7a84ca2d71a47685b4b59f53e28f2b00af8f318997039ad3156ec89eb"
+    },
+    {
+      "id": ":universities/hubu",
+      "name": "Hubei University",
+      "nameZh": "湖北大学",
+      "type": "University-0",
+      "group": "research",
+      "path": "labeled_data/universities/hubu/index.yml",
+      "sha256": "2f1a84147b2ddf1a826825914a5fa6c1fbde624a997e979e2ad2562f5380c760"
+    },
+    {
+      "id": ":universities/hubu/os",
+      "name": "Wuhei University Open Source",
+      "nameZh": "Wuhei University Open Source",
+      "type": "Community",
+      "group": "community",
+      "path": "labeled_data/universities/hubu/os.yml",
+      "sha256": "e2bd7a31a4cd5e38a2659011e6d4096080ce81ed1454f85fd0aebd1a829bc5b0"
+    },
+    {
+      "id": ":universities/hust/ai",
+      "name": "HUST AI Lab",
+      "nameZh": "HUST AI Lab",
+      "type": "Community",
+      "group": "community",
+      "path": "labeled_data/universities/hust/ai.yml",
+      "sha256": "bd60719d96eefd21a869d7aa6737cf74ff8869c690e027e4bfb911263c5a97cd"
+    },
+    {
+      "id": ":universities/hust",
+      "name": "Huazhong University of Science and Technology",
+      "nameZh": "华中科技大学",
+      "type": "University-0",
+      "group": "research",
+      "path": "labeled_data/universities/hust/index.yml",
+      "sha256": "10884eb06df9e385ad2f86235c881ce69e5f576b920e1bea7237f2f6873e2409"
+    },
+    {
+      "id": ":universities/hust/jhl",
+      "name": "John Hopcroft Lab at HUST",
+      "nameZh": "John Hopcroft Lab at HUST",
+      "type": "Community",
+      "group": "community",
+      "path": "labeled_data/universities/hust/jhl.yml",
+      "sha256": "1bf264ba88f76467530a79dde0ace888fcaa107acf211777091280b22a5ba5be"
+    },
+    {
+      "id": ":universities/hust/langya",
+      "name": "LANGYA HUST",
+      "nameZh": "LANGYA HUST",
+      "type": "Community",
+      "group": "community",
+      "path": "labeled_data/universities/hust/langya.yml",
+      "sha256": "6c5ece33208a252e689f7e90c84c11f3dc92891c5cc8a8a771c9e87ba18c06bb"
+    },
+    {
+      "id": ":universities/hust/latex",
+      "name": "HUST LaTex User Group",
+      "nameZh": "HUST LaTex User Group",
+      "type": "Community",
+      "group": "community",
+      "path": "labeled_data/universities/hust/latex.yml",
+      "sha256": "4fe1aa3356056dddd2edd10b2d4e8077533137d47d850014696f589992e5643e"
+    },
+    {
+      "id": ":universities/hust/monkey",
+      "name": "HUST Monkey Model",
+      "nameZh": "HUST Monkey Model",
+      "type": "Community",
+      "group": "community",
+      "path": "labeled_data/universities/hust/monkey.yml",
+      "sha256": "f619219cd691ff00afa69d477dcf2d8fc3e7f189234693f72c9195431ae28c47"
+    },
+    {
+      "id": ":universities/hust/ninglab",
+      "name": "HUST NingLab",
+      "nameZh": "HUST NingLab",
+      "type": "Community",
+      "group": "community",
+      "path": "labeled_data/universities/hust/ninglab.yml",
+      "sha256": "6af6649f6752cf1733c21e22b6e5c1e97cdad336ed2a1e02f241a6d27f9ba51e"
+    },
+    {
+      "id": ":universities/hust/oac",
+      "name": "HUST Open Atom Club",
+      "nameZh": "HUST Open Atom Club",
+      "type": "Community",
+      "group": "community",
+      "path": "labeled_data/universities/hust/oac.yml",
+      "sha256": "419ff5d2939b3707a4f8fe8f916041da32f8d8d4d513b02ce3267a9bd17e078e"
+    },
+    {
+      "id": ":universities/hust/os",
+      "name": "HUST OS Team",
+      "nameZh": "HUST OS Team",
+      "type": "Community",
+      "group": "community",
+      "path": "labeled_data/universities/hust/os.yml",
+      "sha256": "42f952db8f3972ac7e76e965b13f5e7e1bfa534fbcb773e9d6e9372dd41efc61"
+    },
+    {
+      "id": ":universities/hust/seclab",
+      "name": "HUST Security Lab",
+      "nameZh": "HUST Security Lab",
+      "type": "Community",
+      "group": "community",
+      "path": "labeled_data/universities/hust/seclab.yml",
+      "sha256": "b2227c8d543d036178c3f15b8961db339e00b2472e355090b6b9dde4bbfce175"
+    },
+    {
+      "id": ":universities/hust/smart",
+      "name": "HUST Smart Lab",
+      "nameZh": "HUST Smart Lab",
+      "type": "Community",
+      "group": "community",
+      "path": "labeled_data/universities/hust/smart.yml",
+      "sha256": "28fc9cd75e914cb75f8ac40304a767e8f33a20d091a0697824582fcf286fbff0"
+    },
+    {
+      "id": ":universities/hust/vl",
+      "name": "HUST Vison Lab",
+      "nameZh": "HUST Vison Lab",
+      "type": "Community",
+      "group": "community",
+      "path": "labeled_data/universities/hust/vl.yml",
+      "sha256": "fcd6db79e325908a8f8e0386694e91964a8882d9e583de1cdbce65c8d42e985b"
+    },
+    {
+      "id": ":universities/illinois",
+      "name": "University of Illinois Urbana-Champaign",
+      "nameZh": "伊利诺伊大学厄巴纳-香槟分校",
+      "type": "University-0",
+      "group": "research",
+      "path": "labeled_data/universities/illinois/index.yml",
+      "sha256": "b9726c0249a3746fab0efcfec1d4ec8f571f97ff4dcc741fe4fd56bd07ab002d"
+    },
+    {
+      "id": ":universities/mit",
+      "name": "The Massachusetts Institute of Technology",
+      "nameZh": "麻省理工学院",
+      "type": "University-0",
+      "group": "research",
+      "path": "labeled_data/universities/mit/index.yml",
+      "sha256": "f6ec9c0154867cc66d1c81a0095365af862004d929ce3f8ebc586206cbb41c80"
+    },
+    {
+      "id": ":universities/nyu",
+      "name": "New York University",
+      "nameZh": "纽约大学",
+      "type": "University-0",
+      "group": "research",
+      "path": "labeled_data/universities/nyu/index.yml",
+      "sha256": "48f3eb82eced285f5a02f839f23f40cb9a071c12e139578abc71f1b96ab68908"
+    },
+    {
+      "id": ":universities/pku",
+      "name": "Peking University",
+      "nameZh": "北京大学",
+      "type": "University-0",
+      "group": "research",
+      "path": "labeled_data/universities/pku/index.yml",
+      "sha256": "f5657b8b40f64d8c204612d5867feb2dc1b22353f22227cdd419b4284103cfdc"
+    },
+    {
+      "id": ":universities/princeton/dao_ai_lab",
+      "name": "Prof. Tri Dao AI Lab",
+      "nameZh": "Prof. Tri Dao AI Lab",
+      "type": "University-1",
+      "group": "research",
+      "path": "labeled_data/universities/princeton/dao_ai_lab/index.yml",
+      "sha256": "ed9b03ae42dc5f78bdc7a8c5a591f6e520cc5fd17ae6da05d6e15da9cd8f27bc"
+    },
+    {
+      "id": ":universities/princeton",
+      "name": "Princeton University",
+      "nameZh": "普林斯顿大学",
+      "type": "University-0",
+      "group": "research",
+      "path": "labeled_data/universities/princeton/index.yml",
+      "sha256": "7ed022e101fb45773babf33d271da5d0d0f8051a977b98bf9f46947f9187efa9"
+    },
+    {
+      "id": ":universities/puc_rio",
+      "name": "Pontifical Catholic University of Rio de Janeiro",
+      "nameZh": "里约热内卢天主教大学",
+      "type": "University-0",
+      "group": "research",
+      "path": "labeled_data/universities/puc_rio/index.yml",
+      "sha256": "415a46e0cdb9c1b6721b2804aab82dee1eaad4471157aa195700051f148e4ab9"
+    },
+    {
+      "id": ":universities/thu",
+      "name": "Tsinghua University",
+      "nameZh": "清华大学",
+      "type": "University-0",
+      "group": "research",
+      "path": "labeled_data/universities/thu/index.yml",
+      "sha256": "a8d63089f3a778ce86d796ea9bdfe25d07cf807958c6392cb816ea2857218613"
+    },
+    {
+      "id": ":universities/thu/kvcache",
+      "name": "KVCache.AI",
+      "nameZh": "KVCache.AI",
+      "type": "Institution-1",
+      "group": "research",
+      "path": "labeled_data/universities/thu/kvcache/index.yml",
+      "sha256": "bbb755a5d30ba1953835c57fba6b61ce394c5f905896ba54070fbe51e59f94bb"
+    },
+    {
+      "id": ":universities/uc_berkeley",
+      "name": "University of California Berkeley",
+      "nameZh": "加州大学伯克利分校",
+      "type": "University-0",
+      "group": "research",
+      "path": "labeled_data/universities/uc_berkeley/index.yml",
+      "sha256": "d56d8e7b3140835f99a9f63d082e1665c06199bb5501c52191760c1f75769a5e"
+    },
+    {
+      "id": ":universities/ucsd",
+      "name": "University of California San Diego",
+      "nameZh": "加州大学圣地亚哥分校",
+      "type": "University-0",
+      "group": "research",
+      "path": "labeled_data/universities/ucsd/index.yml",
+      "sha256": "51da977b0afc66834b5de72b7feda27db5f670cef39ee041ba93bbffa14a28d6"
+    },
+    {
+      "id": ":universities/uw",
+      "name": "University of Washington",
+      "nameZh": "华盛顿大学",
+      "type": "University-0",
+      "group": "research",
+      "path": "labeled_data/universities/uw/index.yml",
+      "sha256": "c776437fe996870eb46ce44f85ed9e8a4d6b1f4e24a8bf67fee7988e4989a21a"
+    },
+    {
+      "id": ":universities/whu/coding_open",
+      "name": "WHU Coding And Open",
+      "nameZh": "WHU Coding And Open",
+      "type": "Community",
+      "group": "community",
+      "path": "labeled_data/universities/whu/coding_open.yml",
+      "sha256": "b69865239735473c60e11737e2d92f4aea83794126cdf53a376bac3a618e9fd0"
+    },
+    {
+      "id": ":universities/whu/ft",
+      "name": "WHU FT Center",
+      "nameZh": "WHU FT Center",
+      "type": "Community",
+      "group": "community",
+      "path": "labeled_data/universities/whu/ft.yml",
+      "sha256": "c303569998865b1ce1aa4781059f94e368ed532bd7fbf4fb4f5f115b235f77f8"
+    },
+    {
+      "id": ":universities/whu/great",
+      "name": "WHU GREAT TEAM",
+      "nameZh": "WHU GREAT TEAM",
+      "type": "Community",
+      "group": "community",
+      "path": "labeled_data/universities/whu/great.yml",
+      "sha256": "408aa27189d206d62e7fcee561ec92ad8005f3c6b8ef40beb404dc48d92d5355"
+    },
+    {
+      "id": ":universities/whu/i2nav",
+      "name": "WHU i2Nav",
+      "nameZh": "WHU i2Nav",
+      "type": "Community",
+      "group": "community",
+      "path": "labeled_data/universities/whu/i2nav.yml",
+      "sha256": "914979d4a0a4b00bcace758c856da0e1ed58163822a65a51703cabbe63fd38cc"
+    },
+    {
+      "id": ":universities/whu",
+      "name": "Wuhan University",
+      "nameZh": "武汉大学",
+      "type": "University-0",
+      "group": "research",
+      "path": "labeled_data/universities/whu/index.yml",
+      "sha256": "4eff7b7ed008e5e967292171fa6d4c0aa5164712b2b3a19221b21dc3e9a1aae0"
+    },
+    {
+      "id": ":universities/whu/insar",
+      "name": "WHU WISE TEAM",
+      "nameZh": "WHU WISE TEAM",
+      "type": "Community",
+      "group": "community",
+      "path": "labeled_data/universities/whu/insar.yml",
+      "sha256": "8b77675aae543d8bade0ea3ebb9f04615fb41072daa5e40e6d4a9ddf74bbcb9b"
+    },
+    {
+      "id": ":universities/whu/ir",
+      "name": "WHU IR TEAM",
+      "nameZh": "WHU IR TEAM",
+      "type": "Community",
+      "group": "community",
+      "path": "labeled_data/universities/whu/ir.yml",
+      "sha256": "1e22feb0be0c0884240aa3a1c40bce8468e46b528b1db390c6a50e26c717de4f"
+    },
+    {
+      "id": ":universities/whu/luojianet",
+      "name": "WHU LuojiaNet",
+      "nameZh": "WHU LuojiaNet",
+      "type": "Community",
+      "group": "community",
+      "path": "labeled_data/universities/whu/luojianet.yml",
+      "sha256": "402d305029258c4ec91743157d185434d7232ce19d12e087880c966b9e8dd599"
+    },
+    {
+      "id": ":universities/whu/msc",
+      "name": "WHU MSC",
+      "nameZh": "WHU MSC",
+      "type": "Community",
+      "group": "community",
+      "path": "labeled_data/universities/whu/msc.yml",
+      "sha256": "606b1489bef313844fa5cfd39b6f9af2ee6cfafa456903766c428c952f2a3113"
+    },
+    {
+      "id": ":universities/whu/nlpwm",
+      "name": "WHU NLP WM Lab",
+      "nameZh": "WHU NLP WM Lab",
+      "type": "Community",
+      "group": "community",
+      "path": "labeled_data/universities/whu/nlpwm.yml",
+      "sha256": "f301e51a737c2a4f369b709bf345c33808aba3699e2ec65ba0573c60d6f76b4f"
+    },
+    {
+      "id": ":universities/whu/openwhu",
+      "name": "OpenWHU",
+      "nameZh": "OpenWHU",
+      "type": "Community",
+      "group": "community",
+      "path": "labeled_data/universities/whu/openwhu.yml",
+      "sha256": "04dca3757dae58c31337981512da77214674ebbee2959dab9ab60f53d50c377c"
+    },
+    {
+      "id": ":universities/whu/rsiecd",
+      "name": "WHU RSIECD",
+      "nameZh": "WHU RSIECD",
+      "type": "Community",
+      "group": "community",
+      "path": "labeled_data/universities/whu/rsiecd.yml",
+      "sha256": "12e9b18a4cc3714c58b4b1f3a676ed5a9fb09dac3c59ad54f33d375c2d7876b9"
+    },
+    {
+      "id": ":universities/whu/spatial_dis_lab",
+      "name": "WHU Spatial DI&S Lab",
+      "nameZh": "WHU Spatial DI&S Lab",
+      "type": "Community",
+      "group": "community",
+      "path": "labeled_data/universities/whu/spatial_dis_lab.yml",
+      "sha256": "55f68b2b6e2b26f0cebc42250afe79fe77f60459fa03f27fcf22d25cdd523827"
+    },
+    {
+      "id": ":universities/whu/tug",
+      "name": "WHU Tex User Group",
+      "nameZh": "WHU Tex User Group",
+      "type": "Community",
+      "group": "community",
+      "path": "labeled_data/universities/whu/tug.yml",
+      "sha256": "76c62f83ffc75e1b101d8d75d9ec8d7479f23683036844dd96f83319c7edbe76"
+    },
+    {
+      "id": ":universities/whu/usi3dv",
+      "name": "WHU USI3DV",
+      "nameZh": "WHU USI3DV",
+      "type": "Community",
+      "group": "community",
+      "path": "labeled_data/universities/whu/usi3dv.yml",
+      "sha256": "5b478b5d1291189840806ce88d2c9504729d2243a316b2980efad48a0886a76b"
+    }
+  ],
+  "repositories": {
+    "count": 13019,
+    "byPlatform": {
+      "GitHub": 13017,
+      "Gitee": 2
+    },
+    "identitySetSha256": "424a88f856382a3575eaca8270a7dc17c8a49059c06327afa96aeba20f2d4595"
+  }
+}

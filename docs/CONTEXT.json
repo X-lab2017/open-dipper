@@ -190,6 +190,12 @@
       "title": "Observation layer reference artifacts",
       "purpose": "Draft model, typed layer catalog and review-only sidebar graphic; validation limits",
       "language": "en"
+    },
+    {
+      "path": "docs/OBSERVATION_WORKSPACE.md",
+      "title": "Observation workspace implementation",
+      "purpose": "Audience presets, entity maps, coverage scopes, refresh and China display grouping",
+      "language": "zh-CN"
     }
   ],
   "tasks": {
@@ -372,6 +378,25 @@
         "docs:build",
         "docs:check",
         "build"
+      ]
+    },
+    "observation_workspace": {
+      "read": [
+        "docs/OBSERVATION_WORKSPACE.md",
+        "docs/DATA_EVIDENCE.md",
+        "docs/VISUAL_SYSTEM.md"
+      ],
+      "edit": [
+        "src/observatory/workspace.ts",
+        "src/observatory/workspace-view.ts",
+        "src/observatory/workspace.css",
+        "scripts/build-observation.mjs"
+      ],
+      "checks": [
+        "typecheck",
+        "observation:check",
+        "test:observatory:ui",
+        "test:portal:ui"
       ]
     }
   },

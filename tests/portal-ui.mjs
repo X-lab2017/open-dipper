@@ -10,11 +10,11 @@ try{
   await expect(page.locator('.product-nav')).toContainText('AI 雷达');
   await expect(page.locator('.intelligence-rail')).toContainText('尚未收费');
   await expect(page.locator('#geo-dataset')).toHaveValue('global');
-  await expect(page.locator('.evidence-headline')).toContainText('2025');await expect(page.locator('.evidence-headline')).toContainText('2026-10-16');
-  await page.locator('[data-atlas-metric="contribution"]').press('Enter');await expect(page.locator('.scope-note')).toContainText('236');
-  await expect(page.locator('[data-atlas-metric="contribution"]')).toBeFocused();
-  await page.locator('[data-atlas-metric="influence"]').click();await expect(page.locator('.scope-note')).toContainText('30 个地域');
-  await page.locator('[data-atlas-metric="developers"]').click();
+  await expect(page.locator('.coverage-panel')).toContainText('2025');await expect(page.locator('.coverage-panel')).toContainText('2026-10-16');
+  await page.locator('[data-layer-id="contribution"]').press('Enter');await expect(page.locator('.scope-note')).toContainText('开发者贡献');
+  await expect(page.locator('[data-layer-id="contribution"]')).toBeFocused();
+  await page.locator('[data-object="project"]').click();await page.locator('[data-layer-id="influence"]').click();await expect(page.locator('.scope-note')).toContainText('项目归属');
+  await page.locator('[data-object="developer"]').click();await page.locator('[data-layer-id="developers"]').click();
   await page.getByRole('button',{name:'来源与范围 ↗',exact:true}).click();
   await expect(page.getByRole('dialog')).toContainText('统计期间未披露');
   await page.locator('[data-atlas-country="RE"]').click();await expect(page.getByRole('dialog')).toContainText('没有匹配的地图标注点');
@@ -91,8 +91,8 @@ try{
   await page.reload();await expect(page.locator('.portal-page')).toContainText('Demo material is unavailable');await expect(page.locator('.signal-card .badge.demo')).toHaveCount(0);
   await expect(page.locator('.signal-card').first()).toBeVisible();
   await page.route('**/data/evidence.json',route=>route.fulfill({status:503,body:'unavailable'}));
-  await page.goto(base);await expect(page.locator('#earth')).toBeVisible();await expect(page.locator('#geo-dataset')).toHaveValue('real');
-  await expect(page.locator('.evidence-headline')).toContainText('Global data unavailable');
+  await page.goto(base);await expect(page.locator('#earth')).toBeVisible();await expect(page.locator('.layer-unavailable')).toBeVisible();
+  await expect(page.locator('[data-stat=developers]')).toHaveText('—');
   await page.getByRole('button',{name:'AI radar',exact:true}).click();await expect(page.locator('.supply-panel')).toContainText('unavailable');
   await page.unroute('**/data/evidence.json');
   expect(errors).toEqual([]);

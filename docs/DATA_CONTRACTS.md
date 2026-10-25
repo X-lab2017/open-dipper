@@ -33,3 +33,7 @@
 ## OpenShare / GOSD observed snapshot
 
 The independent optional `evidence.json` powers global headline facts, three geographic measures and one monthly AI supply chart. See [DATA_EVIDENCE.md](DATA_EVIDENCE.md) for exact clocks, coverage, source pins, missing-value behavior, attribution and manual refresh. Neither organization samples nor AI platform repository counts are relabelled as universal open-source totals.
+
+## Optional observation workspace snapshot
+
+`public/data/observation.json` is built offline from pinned label-index and GOSD publisher-geography evidence. Counts, overlap, period and missing-value rules are specified in [OBSERVATION_WORKSPACE.md](OBSERVATION_WORKSPACE.md). This is independent of monthly metrics and event collection. `observation:check` is included in `npm test`; unavailable optional data does not become demo or zero.
