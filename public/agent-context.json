@@ -259,6 +259,13 @@
       "purpose": "Dual-network exploration, task discovery, shortlist comparison, recorded paths, evidence reports, scope and integration boundaries",
       "language": "en",
       "url": "https://raw.githubusercontent.com/X-lab2017/open-dipper/main/docs/OPEN_GALAXY.md"
+    },
+    {
+      "path": "docs/source-packs/vector-retrieval-2026-10-26.md",
+      "title": "Proposed vector-retrieval source pack",
+      "purpose": "Three primary publication records with exact date precision, pinned licenses and unknown geography; editorial proposal, not approved data",
+      "language": "en/zh-CN",
+      "url": "https://raw.githubusercontent.com/X-lab2017/open-dipper/main/docs/source-packs/vector-retrieval-2026-10-26.md"
     }
   ],
   "tasks": {

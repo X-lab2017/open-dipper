@@ -55,6 +55,7 @@ Discovery context, not an authorization grant. People submit needs through issue
 - [Accepted baseline index](https://raw.githubusercontent.com/X-lab2017/open-dipper/main/design/baselines/README.md): Current map/radar reference and immutable historical atlas record
 - [Accepted observatory and radar baseline](https://raw.githubusercontent.com/X-lab2017/open-dipper/main/design/baselines/observatory-radar-1.3.2.md): Pinned 1.3.2 source, release evidence, shared visual/interaction rules and reuse boundaries
 - [Open Galaxy ecosystem contract](https://raw.githubusercontent.com/X-lab2017/open-dipper/main/docs/OPEN_GALAXY.md): Dual-network exploration, task discovery, shortlist comparison, recorded paths, evidence reports, scope and integration boundaries
+- [Proposed vector-retrieval source pack](https://raw.githubusercontent.com/X-lab2017/open-dipper/main/docs/source-packs/vector-retrieval-2026-10-26.md): Three primary publication records with exact date precision, pinned licenses and unknown geography; editorial proposal, not approved data
 
 ## Machine context
 

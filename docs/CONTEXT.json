@@ -220,6 +220,12 @@
       "title": "Open Galaxy ecosystem contract",
       "purpose": "Dual-network exploration, task discovery, shortlist comparison, recorded paths, evidence reports, scope and integration boundaries",
       "language": "en"
+    },
+    {
+      "path": "docs/source-packs/vector-retrieval-2026-10-26.md",
+      "title": "Proposed vector-retrieval source pack",
+      "purpose": "Three primary publication records with exact date precision, pinned licenses and unknown geography; editorial proposal, not approved data",
+      "language": "en/zh-CN"
     }
   ],
   "tasks": {

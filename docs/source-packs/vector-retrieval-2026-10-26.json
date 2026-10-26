@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "topic": "Open-source vector-retrieval building blocks: PostgreSQL, SQLite and a dedicated service",
+  "status": "editorial_proposal",
+  "maintainerApproved": false,
+  "observedAt": "2026-10-26T11:19:34.136Z",
+  "issue": "https://github.com/X-lab2017/open-dipper/issues/19",
+  "sources": [
+    {
+      "id": "pgvector",
+      "project": "pgvector",
+      "projectUrl": "https://github.com/pgvector/pgvector",
+      "version": "v0.8.7",
+      "commit": "f37c13f68b57d2c3472b2214fbcff699d6d34876",
+      "publication": {
+        "value": "2026-10-01",
+        "precision": "day",
+        "source": "https://github.com/pgvector/pgvector/blob/f37c13f68b57d2c3472b2214fbcff699d6d34876/CHANGELOG.md",
+        "kind": "dated_changelog"
+      },
+      "observedAt": "2026-10-26T11:19:34.007Z",
+      "license": {
+        "label": "PostgreSQL License",
+        "url": "https://github.com/pgvector/pgvector/blob/f37c13f68b57d2c3472b2214fbcff699d6d34876/LICENSE",
+        "fileSha256": "6bba9ebeb73e27477463b05e5ef1bf303bccbddb3db9bbc95905d351604d6a87",
+        "scope": "Pinned software license file; not a blanket license for release prose, hosted services, data or trademarks."
+      },
+      "geography": null,
+      "summary": "The dated 0.8.7 changelog reports fixes for an IVFFlat index-build buffer overflow and the avg aggregate when no rows match.",
+      "usefulness": "A useful maintenance source for an editor tracking PostgreSQL-based vector retrieval; it does not establish retrieval quality or production adoption."
+    },
+    {
+      "id": "sqlite-vec",
+      "project": "sqlite-vec",
+      "projectUrl": "https://github.com/asg017/sqlite-vec",
+      "version": "v0.1.9",
+      "commit": "e9f598abfa0c06b328d8fe5da9c3760cce74be10",
+      "publication": {
+        "value": "2026-03-31T08:00:23Z",
+        "precision": "second",
+        "source": "https://github.com/asg017/sqlite-vec/releases/tag/v0.1.9",
+        "kind": "github_release_published_at"
+      },
+      "observedAt": "2026-10-26T11:19:34.045Z",
+      "license": {
+        "label": "MIT license file checked",
+        "url": "https://github.com/asg017/sqlite-vec/blob/e9f598abfa0c06b328d8fe5da9c3760cce74be10/LICENSE-MIT",
+        "fileSha256": "6ce72bbe12d975bd5286e5ab0a064c069693300c47bccbc57bec18485f1621ea",
+        "scope": "Pinned software license file; not a blanket license for release prose, hosted services, data or trademarks."
+      },
+      "geography": null,
+      "summary": "The v0.1.9 release reports a correction for DELETE on vec0 tables with long text metadata columns.",
+      "usefulness": "A concrete local-database maintenance item for a SQLite vector-search topic; cross-platform or workload performance still needs independent testing.",
+      "releaseEvidence": {
+        "id": 303570081,
+        "apiUrl": "https://api.github.com/repos/asg017/sqlite-vec/releases/303570081",
+        "bodySha256": "eb98fa0f2102f52d0de8e04109b2652c3842a2ea1f8fb640ca98daadb8d56c46",
+        "bodyEncoding": "UTF-8 of the GitHub API body field, without normalization",
+        "observedAt": "2026-10-26T11:19:34.045Z",
+        "mutability": "Release descriptions are editable; this fingerprint identifies the captured text, not an immutable upstream body."
+      }
+    },
+    {
+      "id": "qdrant",
+      "project": "Qdrant",
+      "projectUrl": "https://github.com/qdrant/qdrant",
+      "version": "v1.20.0",
+      "commit": "222b2e44ab1c3f17e8246396ead6558e45041df7",
+      "publication": {
+        "value": "2026-10-22T14:14:12Z",
+        "precision": "second",
+        "source": "https://github.com/qdrant/qdrant/releases/tag/v1.20.0",
+        "kind": "github_release_published_at"
+      },
+      "observedAt": "2026-10-26T11:19:34.136Z",
+      "license": {
+        "label": "Apache-2.0 license file checked",
+        "url": "https://github.com/qdrant/qdrant/blob/222b2e44ab1c3f17e8246396ead6558e45041df7/LICENSE",
+        "fileSha256": "210b508429e913d9de5301f90508bc2cbf5b2281de5b45e607c04d58f0f3bd8f",
+        "scope": "Pinned software license file; not a blanket license for release prose, hosted services, data or trademarks."
+      },
+      "geography": null,
+      "summary": "The v1.20.0 announcement includes BM25 scoring on the full-text payload index and turbo8/turbo16 vector datatypes.",
+      "usefulness": "An example of combined text/vector retrieval feature development; the release announcement is evidence of an upstream claim, not an independent benchmark.",
+      "releaseEvidence": {
+        "id": 420809873,
+        "apiUrl": "https://api.github.com/repos/qdrant/qdrant/releases/420809873",
+        "bodySha256": "9a28623c98c07138b60c53e4371f55fcfd5d72a06f0715874441c8f0a81ddf8e",
+        "bodyEncoding": "UTF-8 of the GitHub API body field, without normalization",
+        "observedAt": "2026-10-26T11:19:34.136Z",
+        "mutability": "Release descriptions are editable; this fingerprint identifies the captured text, not an immutable upstream body."
+      }
+    }
+  ],
+  "limits": [
+    "Not a benchmark, adoption ranking, endorsement or deployment report.",
+    "Publication times and retrieval times have different meanings. A date without a time stays day-precision.",
+    "All geography is unknown; no headquarters or personal location is inferred.",
+    "No production snapshot, simulated fixture or event approval is changed."
+  ]
+}
