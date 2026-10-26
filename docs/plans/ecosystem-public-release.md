@@ -63,3 +63,7 @@ The publication owner should finish the visual changes, record actual validation
 ### Execution-environment boundary
 
 Local Chromium browser checks could not start: the Playwright browser download returned an invalid archive, and installed Chromium was blocked by the execution sandbox IPC socket restriction. The requested environment escalation itself failed during sandbox setup; no protected account login was attempted. The existing GitHub browser CI remains a required release gate. The browser test now saves and reads all three downloaded reports, asserts their identity and source observation periods, and retains them with dark/light/mobile screenshots in the existing browser-QA artifact. It also checks actual moving, paused and live-reduced-motion canvas frames.
+
+### First PR browser run and correction
+
+[Run 40323570918](https://github.com/X-lab2017/open-dipper/actions/runs/40323570918), head `6aa9943b3d52cb0cf77fa7c6a28701433ad9bda8`, passed deterministic checks, build, map/radar browser regressions and actual motion controls, then failed on the first galaxy result click. The search input emits `change` on blur before the result click; the overbroad change handler rebuilt the pointer target and lost the click. The handler now limits changes to its owned filter controls, while search remains handled by its existing input debounce. The unchanged real mouse-click acceptance now also checks that search-change preserves the result DOM identity, repeated selection and module return. Export receipt was not reached in this failed run.

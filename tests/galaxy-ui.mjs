@@ -3,7 +3,7 @@ import {mkdir,readFile} from 'node:fs/promises';
 await mkdir('screenshots/research-exports',{recursive:true});
 const browser=await chromium.launch({headless:true});
 try{
- const page=await browser.newPage({viewport:{width:1440,height:900},reducedMotion:'reduce'}),errors=[];page.on('pageerror',e=>errors.push(e.message));
+ const page=await browser.newPage({viewport:{width:1440,height:900},reducedMotion:'reduce'}),errors=[];page.on('pageerror',e=>{errors.push(e.message);console.error('GALAXY PAGE ERROR:',e.message)});
  await page.goto((process.env.BASE_URL||'http://127.0.0.1:4173/open-dipper/')+'#ecosystem');
  await expect(page.locator('#galaxy-canvas')).toHaveAttribute('data-nodes','43771',{timeout:30000});
  await expect(page.locator('#galaxy-canvas')).toHaveAttribute('data-edges','125955');
@@ -20,6 +20,13 @@ try{
  const reducedFrame=await fx.evaluate(c=>c.toDataURL());await page.waitForTimeout(180);expect(await fx.evaluate(c=>c.toDataURL())).toBe(reducedFrame);
 
  await page.locator('#galaxy-search').fill('pytorch/pytorch');await expect(page.locator('#galaxy-result-list button')).toHaveCount(1);
+ // Search blur emits change before click; it must not replace the pointer target.
+ const firstResult=await page.locator('#galaxy-result-list button').elementHandle();
+ await page.locator('#galaxy-search').dispatchEvent('change');expect(await firstResult.evaluate(el=>el.isConnected)).toBe(true);
+ await page.locator('#galaxy-result-list button').click();
+ await page.screenshot({path:'screenshots/galaxy-after-selection.png',fullPage:true});
+ console.log('Selection diagnostics',await page.evaluate(()=>({hash:location.hash,root:document.querySelector('.galaxy-page')?.className,result:document.querySelector('#galaxy-result-list button')?.outerHTML,profile:document.querySelector('#galaxy-inspector')?.innerHTML.slice(0,500)})),errors);
+ await expect(page.locator('.galaxy-profile h2')).toHaveText('pytorch');
  await page.locator('#galaxy-result-list button').click();await expect(page.locator('.galaxy-profile h2')).toHaveText('pytorch');
  await expect(page.locator('.galaxy-neighbors')).toContainText('vllm');await expect(page.locator('#galaxy-canvas')).toHaveAttribute('data-nodes','43771');
  await page.locator('[data-galaxy-action=shortlist]').click();
@@ -50,6 +57,8 @@ try{
  await page.setViewportSize({width:390,height:844});expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1)).toBe(true);
  await page.screenshot({path:'screenshots/galaxy-mobile.png',fullPage:true});
  await page.locator('.product-nav [data-page=radar]').click();await expect(page.locator('.radar-chart')).toBeVisible();
+ await page.locator('.product-nav [data-page=overview]').click();await expect(page.locator('#earth')).toBeVisible();
+ await page.locator('.product-nav [data-page=ecosystem]').click();await expect(page.locator('#galaxy-canvas')).toHaveAttribute('data-nodes','43771');
  await page.locator('.product-nav [data-page=overview]').click();await expect(page.locator('#earth')).toBeVisible();expect(errors).toEqual([]);
  console.log('Galaxy snapshots, search context, relationships, expansion, themes, tour, language, mobile and module navigation passed');
 }finally{await browser.close();}
