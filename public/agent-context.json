@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "project": "OpenDipper",
-  "description": "Global AI and open-source intelligence observatory. Monthly metrics, independent geographic aggregates, sourced events, AI radar, local following and public subscription samples; no paid service or live Agent analysis is claimed.",
+  "description": "Global AI and open-source intelligence observatory. Geographic observation, sourced events, task-oriented AI radar, Open Galaxy relationship exploration and evidence reports, local following and public subscription samples; no paid service or live Agent analysis is claimed.",
   "repository": "https://github.com/X-lab2017/open-dipper",
   "site": "https://www.x-lab.info/open-dipper/",
   "rawBase": "https://raw.githubusercontent.com/X-lab2017/open-dipper/main/",
-  "notice": "Discovery context, not an authorization grant. People submit needs through issues; agents lead authorized engineering work under docs/HARNESS.md. Read AGENTS.md and task-specific authoritative documents. AI-work disclosure and license limitations are in CONTRIBUTING.md and docs/RIGHTS.md. Task status lives in GitHub issues. Current UI entry is src/atlas.ts; AI radar lives in src/radar/. Read archived proposals and completed plans only for a specific historical question.",
+  "notice": "Discovery context, not an authorization grant. People submit needs through issues; agents lead authorized engineering work under docs/HARNESS.md. Read AGENTS.md and task-specific authoritative documents. AI-work disclosure and license limitations are in CONTRIBUTING.md and docs/RIGHTS.md. Task status lives in GitHub issues. Current UI entry is src/atlas.ts; AI radar lives in src/radar/ and Open Galaxy in src/galaxy/. Completed release records are evidence, not running tasks. Read archived proposals and completed plans only for a specific historical question.",
   "entries": [
     {
       "path": "README.md",
@@ -254,6 +254,13 @@
       "url": "https://raw.githubusercontent.com/X-lab2017/open-dipper/main/design/baselines/observatory-radar-1.3.2.md"
     },
     {
+      "path": "docs/OPEN_GALAXY.md",
+      "title": "Open Galaxy ecosystem contract",
+      "purpose": "Dual-network exploration, task discovery, shortlist comparison, recorded paths, evidence reports, scope and integration boundaries",
+      "language": "en",
+      "url": "https://raw.githubusercontent.com/X-lab2017/open-dipper/main/docs/OPEN_GALAXY.md"
+    },
+    {
       "path": "docs/source-packs/vector-retrieval-2026-10-26.md",
       "title": "Proposed vector-retrieval source pack",
       "purpose": "Three primary publication records with exact date precision, pinned licenses and unknown geography; editorial proposal, not approved data",
@@ -493,6 +500,27 @@
         "typecheck",
         "test:observatory:ui"
       ]
+    },
+    "ecosystem_galaxy": {
+      "read": [
+        "docs/OPEN_GALAXY.md",
+        "public/data/galaxy/README.md"
+      ],
+      "edit": [
+        "src/galaxy/model.ts",
+        "src/galaxy/scene.ts",
+        "src/galaxy/view.ts",
+        "src/galaxy/galaxy.css",
+        "scripts/import-galaxy.py",
+        "src/galaxy/discovery.ts",
+        "src/galaxy/report.ts",
+        "src/galaxy/research.css"
+      ],
+      "checks": [
+        "galaxy:check",
+        "typecheck",
+        "test:portal:ui"
+      ]
     }
   },
   "routes": [
@@ -575,7 +603,7 @@
     "implementationCommit": "6544f48ccaab9a43a7c56069c487f620ec83723e"
   },
   "versions": {
-    "application": "1.3.2",
+    "application": "1.5.1",
     "visual": "1.3.0"
   }
 }

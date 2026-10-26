@@ -19,3 +19,7 @@
 ## AI 雷达来源增补（2026-10-26）
 
 `data/reference/radar/source-extract.json` 仅保留少量实体标识、事实指标、来源日期与指纹。用途描述为 AI 辅助整理，采用建议在独立演示文件中。Agentic AI Landscape 的固定提交未找到全仓 LICENSE，不推定整库再分发许可；未复制其长篇说明、应用源码或图件。GOSD 统计摘录署名 X-lab2017 / GOSD / OpenGauge；HF 官方 API 的许可字段是上游元数据，不授予额外权利。扩大数据再分发前继续在许可任务中核对。Thoughtworks 与 Zalando 仅为产品形态参考，本雷达的 SVG/CSS/交互独立实现。
+
+## 开源星系来源增补（2026-10-26）
+
+维护者指定使用 `YaoYao-Pig/OG-And-HG-2026` 的图数据。本次固定提交 `7f69f2fbd27860f1f207be197dfe0597216d7b0d`，保留节点身份、坐标、关系和原始快照时间，新增紧凑格式与指纹验证；未复制其应用源码。该提交未发现根 LICENSE，不把公开可访问视作统一再分发授权。原始数据平台、模型和项目各自的权利边界仍适用，扩大再分发前由维护者继续核对。来源、转换与限制见 [数据说明](../public/data/galaxy/README.md)；独立实现和交互契约见 [OPEN_GALAXY](OPEN_GALAXY.md)。

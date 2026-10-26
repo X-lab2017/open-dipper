@@ -50,7 +50,15 @@
       },
       "geography": null,
       "summary": "The v0.1.9 release reports a correction for DELETE on vec0 tables with long text metadata columns.",
-      "usefulness": "A concrete local-database maintenance item for a SQLite vector-search topic; cross-platform or workload performance still needs independent testing."
+      "usefulness": "A concrete local-database maintenance item for a SQLite vector-search topic; cross-platform or workload performance still needs independent testing.",
+      "releaseEvidence": {
+        "id": 303570081,
+        "apiUrl": "https://api.github.com/repos/asg017/sqlite-vec/releases/303570081",
+        "bodySha256": "eb98fa0f2102f52d0de8e04109b2652c3842a2ea1f8fb640ca98daadb8d56c46",
+        "bodyEncoding": "UTF-8 of the GitHub API body field, without normalization",
+        "observedAt": "2026-10-26T11:19:34.045Z",
+        "mutability": "Release descriptions are editable; this fingerprint identifies the captured text, not an immutable upstream body."
+      }
     },
     {
       "id": "qdrant",
@@ -73,7 +81,15 @@
       },
       "geography": null,
       "summary": "The v1.20.0 announcement includes BM25 scoring on the full-text payload index and turbo8/turbo16 vector datatypes.",
-      "usefulness": "An example of combined text/vector retrieval feature development; the release announcement is evidence of an upstream claim, not an independent benchmark."
+      "usefulness": "An example of combined text/vector retrieval feature development; the release announcement is evidence of an upstream claim, not an independent benchmark.",
+      "releaseEvidence": {
+        "id": 420809873,
+        "apiUrl": "https://api.github.com/repos/qdrant/qdrant/releases/420809873",
+        "bodySha256": "9a28623c98c07138b60c53e4371f55fcfd5d72a06f0715874441c8f0a81ddf8e",
+        "bodyEncoding": "UTF-8 of the GitHub API body field, without normalization",
+        "observedAt": "2026-10-26T11:19:34.136Z",
+        "mutability": "Release descriptions are editable; this fingerprint identifies the captured text, not an immutable upstream body."
+      }
     }
   ],
   "limits": [

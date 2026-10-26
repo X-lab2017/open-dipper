@@ -11,12 +11,15 @@ Update the plan at meaningful checkpoints, before a session handoff, or when sco
 See [the lifecycle](../HARNESS.md), [development checks](../DEVELOPMENT.md) and [handoff template](../templates/HANDOFF.md).
 
 
-## Current handoff and completed records
+## Completed records
 
-Read a plan only for the task it describes. Product work starts from the current module contract, not an unfinished step copied from historical review.
+Read a plan only for the task it describes. Product work starts from the current module contract, not an unfinished step copied from historical review. The releases below are completed; remaining data and service work belongs to the live issues linked from [status](../STATUS.md), not a request to resume these plans.
 
 | Plan | Disposition |
 | --- | --- |
+| [Galaxy public release 1.5.1](ecosystem-public-release.md) | Completed; PR #33 merged, production CI and Pages succeeded on 2026-10-26 |
+| [Galaxy research 1.5.0](ecosystem-research-v2.md) | Completed private review; task discovery, paths, shortlist and evidence reports |
+| [Initial galaxy 1.4.0](ecosystem-galaxy.md) | Completed private review; source snapshots and first network implementation |
 | [Repository/community baseline #30](30-community-baseline.md) | Completed; merged by PR #31, CI/Pages and cleanup receipts in issue #30 |
 | [Radar finishing 1.3.2](ai-radar-finish-v3.md) | Completed and published; current accepted radar behavior |
 | [Radar density 1.3.1](ai-radar-density-v2.md) | Completed; retained as the density/numbering decision record |

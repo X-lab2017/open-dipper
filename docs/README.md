@@ -10,6 +10,7 @@
 | Agent 接手实现 | [AGENTS.md](../AGENTS.md) → [当前状态](STATUS.md) → [任务索引](CONTEXT.json) → [开发检查](DEVELOPMENT.md) |
 | 修改全球观测 | [当前 Atlas 契约](ATLAS_WORKSPACE.md) → `src/atlas.ts` / `src/layers.ts` / 相关测试 |
 | 修改 AI 雷达 | [当前雷达契约](AI_RADAR.md) → `src/radar/` / 固定来源摘录 / 相关测试 |
+| 修改开源星系 | [星系契约](OPEN_GALAXY.md) → `src/galaxy/` / [图数据来源](../public/data/galaxy/README.md) |
 | 开发下一模块或复用视觉 | [基线索引](../design/baselines/README.md) → [模块模板](templates/OBSERVATORY_MODULE.md) → [视觉规范](VISUAL_SYSTEM.md) |
 | 接入数据或事件 | [数据契约索引](DATA_CONTRACTS.md) → [来源证据](DATA_EVIDENCE.md) / [事件契约](EVENTS.md) → [运维](OPERATIONS.md) |
 | 理解工程结构与协作 | [架构](ARCHITECTURE.md) → [Harness](HARNESS.md) → [PR 模板](../.github/PULL_REQUEST_TEMPLATE.md) |
@@ -26,11 +27,11 @@
 ## 哪份内容是权威来源
 
 - **当前事实**：`STATUS.md` 是有日期的摘要，运行契约、源代码和测试解释当前行为。数据新鲜度看快照，任务状态看 GitHub issue。
-- **规范**：`ATLAS_WORKSPACE.md`、`AI_RADAR.md`、数据契约、视觉规范和 `AGENTS.md` 各自负责一个主题。出现不一致时检查实现并同一 PR 修复。
+- **规范**：`ATLAS_WORKSPACE.md`、`AI_RADAR.md`、`OPEN_GALAXY.md`、数据契约、视觉规范和 `AGENTS.md` 各自负责一个主题。出现不一致时检查实现并同一 PR 修复。
 - **固定基线**：`design/baselines/` 保留已接受实现的提交与指纹；它不是不断变化的全站数据快照。
 - **历史**：`HISTORY.md` 记录反馈、决定和交付；`archive/` 保存被后续版本替代的方案。短导航文件保留旧链接，旧方案不属于当前需求。
 - **执行计划**：复杂/跨会话任务保留计划；完成后保留验收，不加入无关任务的默认阅读路径。
 - **机器索引**：编辑 `CONTEXT.json`，运行 `npm run docs:build` 生成根/站点 `llms.txt` 与 `agent-context.json`。只按任务读取，不把整库当系统指令。
 - **双语入口**：README、贡献指南、路线图同时更新两版。`docs:check` 检查结构、互链、代码块、图结构、任务路径与本地链接；不验证翻译含义、外部事实或网络链接。
 
-本轮文档整理记录在 [#30](https://github.com/X-lab2017/open-dipper/issues/30)。行为变化时同步更新契约、索引与验证；普通数据采集不需要改叙述日期。不要公开私人聊天或复制多份长期待办。
+文档整理沿革见 [维护记录](MAINTENANCE.md)。行为变化时同步更新契约、索引与验证；普通数据采集不需要改叙述日期。不要公开私人聊天或复制多份长期待办。

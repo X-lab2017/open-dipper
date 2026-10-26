@@ -1,6 +1,6 @@
 # AI radar implementation contract
 
-Application **1.3.2**, 2026-10-26. Route: `#radar`. Maintainer-approved implementation of [proposal #26](https://github.com/X-lab2017/open-dipper/issues/26); publication receipts belong in that issue and the [execution plan](plans/ai-radar-implementation.md). The accepted [atlas baseline](../design/baselines/atlas-1.3.0.md) remains the composition reference.
+Application **1.3.2**, 2026-10-26. Route: `#radar`. Maintainer-approved implementation of [proposal #26](https://github.com/X-lab2017/open-dipper/issues/26); publication receipts belong in that issue and the [completed finishing record](plans/ai-radar-finish-v3.md). The accepted [map/radar baseline](../design/baselines/observatory-radar-1.3.2.md) is the composition reference.
 
 ## User outcome and scope
 
@@ -53,17 +53,9 @@ Source and reuse boundaries: [RIGHTS.md](RIGHTS.md). Agentic AI Landscape facts 
 - Required release gates: `npm run typecheck`, `npm test`, `npm run build`, CI browser acceptance and actual Pages deployment. Successful compilation alone is not publication.
 
 
-## Published review record
+## Earlier reviews
 
-[PR #27](https://github.com/X-lab2017/open-dipper/pull/27) and [CI / Pages 40268988631](https://github.com/X-lab2017/open-dipper/actions/runs/40268988631) delivered the original 1.3.0 review. The 1.3.1 density revision is tracked in [its execution plan](plans/ai-radar-density-v2.md) and issue #26. The image below was captured from the public `#radar` route on 2026-10-26. It shows sourced snapshots and separately labelled illustrative advice, not current statistics. It was captured by Codex through the managed browser and is retained as a deliberate product-review record rather than disposable CI output.
-
-![AI radar review: software lens with sourced evidence and separate demo guidance](assets/opendipper-ai-radar-review-20261026.jpg)
-
-## Dense radar review — 1.3.1
-
-Managed-browser capture of the published route on 2026-10-26, after [PR #28](https://github.com/X-lab2017/open-dipper/pull/28) and successful [CI / Pages 40272283896](https://github.com/X-lab2017/open-dipper/actions/runs/40272283896). Both lenses contain 80 numbered targets; quadrant focus enlarges 20 targets. This screen is a product-review record with separately marked simulated guidance. Source identities and observations are real snapshots.
-
-![AI radar 1.3.1: 80 visible numbered software targets and selected evidence](assets/opendipper-ai-radar-density-20261026.jpg)
+The [1.3.0 implementation](plans/ai-radar-implementation.md) and [1.3.1 density revision](plans/ai-radar-density-v2.md) retain their original screenshots and verification. They are historical records; the current contract above and 1.3.2 evidence below govern new work.
 
 ## Finishing review — 1.3.2
 

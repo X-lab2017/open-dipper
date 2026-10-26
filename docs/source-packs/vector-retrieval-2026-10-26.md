@@ -23,6 +23,7 @@ An editor preparing an AI/open-source briefing needs a small, checkable set of o
 ### sqlite-vec v0.1.9
 
 - Primary record / 原始来源: [official release](https://github.com/asg017/sqlite-vec/releases/tag/v0.1.9).
+- Captured release evidence / 发布记录指纹: GitHub Release ID `303570081`; [API record](https://api.github.com/repos/asg017/sqlite-vec/releases/303570081); body SHA-256 `eb98fa0f2102f52d0de8e04109b2652c3842a2ea1f8fb640ca98daadb8d56c46`, captured **2026-10-26T11:19:34.045Z**. The hash uses the API `body` string encoded as UTF-8 without normalization; release text can change.
 - Published / 发布: **2026-03-31T08:00:23Z** (UTC, second precision).
 - Project / 项目: [sqlite-vec](https://github.com/asg017/sqlite-vec); pinned release commit: `e9f598abfa0c06b328d8fe5da9c3760cce74be10`.
 - Software rights / 软件许可: [MIT license file checked](https://github.com/asg017/sqlite-vec/blob/e9f598abfa0c06b328d8fe5da9c3760cce74be10/LICENSE-MIT); file SHA-256: `6ce72bbe12d975bd5286e5ab0a064c069693300c47bccbc57bec18485f1621ea`.
@@ -33,6 +34,7 @@ An editor preparing an AI/open-source briefing needs a small, checkable set of o
 ### Qdrant v1.20.0
 
 - Primary record / 原始来源: [official release](https://github.com/qdrant/qdrant/releases/tag/v1.20.0).
+- Captured release evidence / 发布记录指纹: GitHub Release ID `420809873`; [API record](https://api.github.com/repos/qdrant/qdrant/releases/420809873); body SHA-256 `9a28623c98c07138b60c53e4371f55fcfd5d72a06f0715874441c8f0a81ddf8e`, captured **2026-10-26T11:19:34.136Z**. The hash uses the API `body` string encoded as UTF-8 without normalization; release text can change.
 - Published / 发布: **2026-10-22T14:14:12Z** (UTC, second precision).
 - Project / 项目: [Qdrant](https://github.com/qdrant/qdrant); pinned release commit: `222b2e44ab1c3f17e8246396ead6558e45041df7`.
 - Software rights / 软件许可: [Apache-2.0 license file checked](https://github.com/qdrant/qdrant/blob/222b2e44ab1c3f17e8246396ead6558e45041df7/LICENSE); file SHA-256: `210b508429e913d9de5301f90508bc2cbf5b2281de5b45e607c04d58f0f3bd8f`.
