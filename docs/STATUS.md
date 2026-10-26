@@ -2,13 +2,17 @@
 
 基线日期：**2026-10-26**。本页描述该次整理时的状态；实际数据新鲜度看部署快照，任务最新状态看关联 issue。
 
-## 当前整合版本
+## 当前评审实现：应用 1.3.0
+
+2026-10-26，经维护者批准实现任务式 AI 雷达：两个视角、12 个软件、12 个模型版本、6 个数据集，支持筛选、证据、多标签详情、同类对比、试用导出和本机关注；圈层与建议是独立、可关闭的固定演示。产品品牌资产更新为 **1.1.0**，增加字标留白并更新 SVG/PNG/ICO，X-lab 原始资产保持不变。见 [雷达契约](AI_RADAR.md) 和 [执行计划](plans/ai-radar-implementation.md)。本次的实际 CI / Pages 回执记录于 [#26](https://github.com/X-lab2017/open-dipper/issues/26)，不沿用旧版验收。
+
+## 已接受的地图整合基线
 
 应用 **1.2.0**、视觉 **1.3.0** 已通过 [PR #25](https://github.com/X-lab2017/open-dipper/pull/25) 合入并正式上线；[CI 与 Pages 40261622875](https://github.com/X-lab2017/open-dipper/actions/runs/40261622875) 已通过全部确定性与浏览器验收、自动采集和部署。主入口为 `src/atlas.ts`：六类十八层、可取消的单选组、面积气泡与实体圆点叠加、当前观察多标签、前十排行、紧凑概览与生态脉动。默认地图 10° E / 36° N，深浅主题与地球联动；新闻保留采集快照，模拟增长不进入实测统计。旧分析与全景路线、采集和审核流水线保持兼容。
 
 本节优先于下方历史版本的布局与样本规模说明。当前契约见 [ATLAS_WORKSPACE.md](ATLAS_WORKSPACE.md)，合入和部署检查见 [发布计划](plans/atlas-release-v9.md)。下方验证回执均为各自历史版本，不能作为此次版本验收。
 
-本版本已按维护者确认记录为[可复用基线](../design/baselines/atlas-1.3.0.md)，包含固定提交、源文件指纹和[模块模板](templates/OBSERVATORY_MODULE.md)。下一模块 [AI 雷达设计提案](design/AI_RADAR_PROPOSAL.md) 与深浅色静态示意由 [#26](https://github.com/X-lab2017/open-dipper/issues/26) 评审；**尚未实现新的雷达页面、候选数据接入或付费服务**。
+本版本已按维护者确认记录为[可复用基线](../design/baselines/atlas-1.3.0.md)，包含固定提交、源文件指纹和[模块模板](templates/OBSERVATORY_MODULE.md)。[AI 雷达设计提案](design/AI_RADAR_PROPOSAL.md) 已获批准并形成上述评审实现；付费服务、通知投递与独立采用评审尚未开通。
 
 ## 已落地
 
@@ -50,7 +54,7 @@
 | 演示 | 13 个固定虚构生态事件、8 个情报场景和模拟地域指标 | 不作为真实统计，日期不随部署刷新 |
 | 时效 | 事件目标每 30 分钟采集，前端每 5 分钟检查部署快照 | 无流式推送或硬实时 SLA |
 | 协作 | GitHub 审核、本地项目／主题关注、收藏与草稿 | 无共享账户后台、云端草稿或多人实时编辑 |
-| 情报服务 | 显式 AI 项目索引、固定案例、公开样刊与本机导出 | Agent 分析、实体证据、审阅团队、支付／权益和通知投递尚未实现 |
+| 情报服务 | 30 个雷达候选、来源证据、固定建议演示、同类对比、公开样刊与本机导出 | 自动研究、独立评审、支付／权益和通知投递尚未实现 |
 | 许可 | 保留第三方/品牌来源与 notice | 应用代码根 LICENSE 和数据复用条款待维护者确认 |
 
 ## GitHub 记录与后续任务
@@ -70,7 +74,7 @@
 | 维护者待决策 | [#6 应用许可与各类资源复用边界](https://github.com/X-lab2017/open-dipper/issues/6) |
 | 情报门户框架与后续工作 | [#14 交付](https://github.com/X-lab2017/open-dipper/issues/14)；#15 来源、#16 证据、#17 服务、#18 编辑、#19 首份材料见[框架契约](INTELLIGENCE.md) |
 | 数据内容接入 | [#20 OpenShare 全球分布与 GOSD AI 供给](https://github.com/X-lab2017/open-dipper/issues/20) |
-| AI 雷达设计评审 | [#26 两个视角、任务式选型、证据圈层与可持续服务](https://github.com/X-lab2017/open-dipper/issues/26)；提案阶段 |
+| AI 雷达设计评审 | [#26 两个视角、任务式选型、证据圈层与可持续服务](https://github.com/X-lab2017/open-dipper/issues/26)；当前实现与发布回执 |
 <!-- issue-index:end -->
 
 接手时先看 issue 的最新状态、关联提交和验收条件。更多背景见 [演进记录](HISTORY.md)、[决策记录](DECISIONS.md) 和 [开发指南](DEVELOPMENT.md)。

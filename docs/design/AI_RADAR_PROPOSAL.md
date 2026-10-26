@@ -1,8 +1,8 @@
 # AI 雷达：发现变化，辅助选型
 
-**状态：方案待评审，尚未实现。** 日期：2026-10-26；[评审 issue #26](https://github.com/X-lab2017/open-dipper/issues/26)。本文不改变当前 `#radar` 页面、线上数据、订阅服务或推荐结论。当前运行事实见 [INTELLIGENCE.md](../INTELLIGENCE.md)。视觉复用 [Atlas 1.3.0 基线](../../design/baselines/atlas-1.3.0.md)，设计按 [模块模板](../templates/OBSERVATORY_MODULE.md) 组织。
+**状态：方案已批准；首个评审实现见应用 1.3.0。** 日期：2026-10-26；[评审 issue #26](https://github.com/X-lab2017/open-dipper/issues/26)。下文保留设计意图，当前能力与模拟边界以 [AI_RADAR.md](../AI_RADAR.md) 为准。维护者随后授权填充真实数据与明确标注的模拟建议，当前圈层不代表独立采用评审。视觉复用 [Atlas 1.3.0 基线](../../design/baselines/atlas-1.3.0.md)，设计按 [模块模板](../templates/OBSERVATORY_MODULE.md) 组织。
 
-English summary: a proposed task-oriented AI radar with two lenses—Agent & AI engineering, and Models & data. Source observations, editorial judgments and changes remain separate. Public discovery supports optional future personal intelligence services. Maintainer review precedes frontend implementation.
+English summary: the maintainer approved a first review implementation of the task-oriented radar. Two lenses cover Agent engineering and models/data. Source facts, illustrative judgments and changes remain separate. The original proposal below records design intent; the implementation contract specifies current scope and service boundaries.
 
 ## 1. 用户得到什么
 
@@ -144,7 +144,7 @@ English summary: a proposed task-oriented AI radar with two lenses—Agent & AI 
 
 - [Thoughtworks Technology Radar](https://www.thoughtworks.com/radar) / [FAQ](https://www.thoughtworks.com/radar/faq)：分类、建议圈层、实践评审和版本变化。
 - [Zalando tech-radar README](https://github.com/zalando/tech-radar/blob/master/README.md)：可配置的 SVG/D3 雷达与 MIT 声明；本轮仅设计参考。
-- [Agentic AI Landscape 固定 CSV](https://github.com/antgroup/agentic-ai-landscape/blob/e330d75ea4ca314bc81f6868df63425c8acca5e3/data/agentic-ai-projects.csv)，blob `681604011cda10506a66419e03d36261dd0e909e`。数量为逐行解析结果，筛选 `landscape_action in {keep, add}`。该提交根目录未发现覆盖全仓的 LICENSE；未来复制/再分发数据前需维护者核对可用条款。本轮未复制其数据或图件入库。
+- [Agentic AI Landscape 固定 CSV](https://github.com/antgroup/agentic-ai-landscape/blob/e330d75ea4ca314bc81f6868df63425c8acca5e3/data/agentic-ai-projects.csv)，blob `681604011cda10506a66419e03d36261dd0e909e`。数量为逐行解析结果，筛选 `landscape_action in {keep, add}`。该提交根目录未发现覆盖全仓的 LICENSE；未来复制/再分发数据前需维护者核对可用条款。提案阶段未复制其数据或图件；后续实现仅摘录少量事实指标与标识，未复制图件或长篇文本，见当前实现契约与来源摘录。
 - GOSD 固定提交 [c51e344](https://github.com/X-lab2017/2026-Global-Open-Source-Development-Report/tree/c51e3441361407b68f10b339d97eff288319b503)：[4.1 Agentic AI](https://github.com/X-lab2017/2026-Global-Open-Source-Development-Report/tree/c51e3441361407b68f10b339d97eff288319b503/chapters/chapter4)、[模型候选 CSV](https://github.com/X-lab2017/2026-Global-Open-Source-Development-Report/blob/c51e3441361407b68f10b339d97eff288319b503/data/processed/chapter4/fig-4-2-1_model_landscape_recent_downloads.csv)、[第五章说明](https://github.com/X-lab2017/2026-Global-Open-Source-Development-Report/tree/c51e3441361407b68f10b339d97eff288319b503/chapters/chapter5)。来源 X-lab2017 / GOSD；本页为摘要与设计映射，保留原统计范围和窗口。
 - 原网页入口：[第四章](https://www.x-lab.info/2026-Global-Open-Source-Development-Report/2026/zh/chapters/04/#ch04-s01)、[第五章](https://www.x-lab.info/2026-Global-Open-Source-Development-Report/2026/zh/chapters/05/)。网页内容较大，本次通过相应仓库的固定文本/CSV 核对，未将不可读取页面当作验证成功。
 

@@ -255,10 +255,17 @@
     },
     {
       "path": "docs/design/AI_RADAR_PROPOSAL.md",
-      "title": "AI radar proposal (pending review)",
-      "purpose": "Task-oriented Agent engineering and model/data discovery, editorial rings, evidence and staged service model; not implemented",
+      "title": "AI radar approved proposal",
+      "purpose": "Original design intent; see AI_RADAR.md for current implemented scope",
       "language": "zh-CN",
       "url": "https://raw.githubusercontent.com/X-lab2017/open-dipper/main/docs/design/AI_RADAR_PROPOSAL.md"
+    },
+    {
+      "path": "docs/AI_RADAR.md",
+      "title": "AI radar implementation",
+      "purpose": "Two lenses, sourced catalog, separate demo guidance, comparisons, local following, export, clocks and contribution workflow",
+      "language": "en",
+      "url": "https://raw.githubusercontent.com/X-lab2017/open-dipper/main/docs/AI_RADAR.md"
     }
   ],
   "tasks": {
@@ -503,6 +510,27 @@
         "docs:build",
         "docs:check"
       ]
+    },
+    "ai_radar": {
+      "read": [
+        "docs/AI_RADAR.md",
+        "docs/design/AI_RADAR_PROPOSAL.md",
+        "docs/VISUAL_SYSTEM.md"
+      ],
+      "edit": [
+        "src/radar/model.ts",
+        "src/radar/view.ts",
+        "src/radar/radar.css",
+        "scripts/build-radar.mjs",
+        "data/reference/radar/source-extract.json"
+      ],
+      "checks": [
+        "radar:build",
+        "radar:check",
+        "typecheck",
+        "test:portal:ui",
+        "build"
+      ]
     }
   },
   "routes": [
@@ -579,7 +607,7 @@
     }
   ],
   "versions": {
-    "application": "1.2.0",
+    "application": "1.3.0",
     "visual": "1.3.0"
   }
 }

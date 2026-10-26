@@ -1,6 +1,14 @@
 # Changelog
 
-This file records repository milestones, not published GitHub releases. Application version (`package.json`: 1.1.0) and visual baseline (`design/tokens.json`: 1.2.0) are independent. Detailed feedback and commits are in [the history](docs/HISTORY.md).
+This file records repository milestones, not published GitHub releases. Application version (`package.json`: 1.3.0) and visual baseline (`design/tokens.json`: 1.3.0) are independent. Detailed feedback and commits are in [the history](docs/HISTORY.md).
+
+## 2026-10-26 · Application 1.3.0 / AI radar review and brand 1.1.0
+
+- Added task-oriented software and model/data radar lenses, 30 sourced candidates, evidence inspection, same-kind comparison, trial checklist/export and browser-local following.
+- Kept illustrative rings and action guidance in a separate fixed demo file with a visible switch; sourced metric periods and unknown values remain intact. No paid service or independent adoption verdict is claimed.
+- Added one/two-screen presentation, equal circular marks with stable placement, keyboard access, theme/language support, overlay return and graceful optional-data failure.
+- Increased bilingual wordmark spacing and introduced the spacious single-line navigation lockup; regenerated reusable SVG/PNG/ICO variants at existing paths, preserving icon geometry and X-lab artwork.
+- Added deterministic radar checks, browser acceptance and current developer/Agent contracts. Publication evidence: [#26](https://github.com/X-lab2017/open-dipper/issues/26).
 
 ## 2026-10-25 · Application 1.1.0 / AI and open-source intelligence framework
 

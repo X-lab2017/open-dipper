@@ -2,17 +2,17 @@
 
 Application baseline **1.1.0**, 2026-10-25. Delivery: [#14](https://github.com/X-lab2017/open-dipper/issues/14). This is a public review framework, not a launch of paid subscriptions or an autonomous research service.
 
-The [AI radar design proposal](design/AI_RADAR_PROPOSAL.md), dated 2026-10-26 and tracked in [#26](https://github.com/X-lab2017/open-dipper/issues/26), proposes the next radar experience. It is pending review; the route and service facts below still describe the current implementation.
+The application 1.3.0 radar now has a dedicated [implementation contract](AI_RADAR.md). It supersedes the former radar route described in the 1.1.0 delivery; other portal services retain their boundaries below.
 
 ## Product and routes
 
 | Route fragment | Implemented experience |
 | --- | --- |
 | `#overview` (default without a fragment) | Map / globe / wire, geography layers, sourced events and a compact AI/sample-brief rail |
-| `#radar` | Four topic filters, search, collected AI project releases and eight labelled fictional examples |
+| `#radar` | Two task-oriented lenses, 30 sourced candidates, separately simulated rings, evidence, comparison, local watch and trial export |
 | `#ecosystem` | Same-platform, same-month OpenDigger rankings, 12-month trend, metric evidence and project stars |
 | `#briefing` | Public sample brief, proposed Open/Pro comparison, local topic/cadence preferences and Markdown export |
-| `#following` | Union of selected topics, saved signals and exactly linked watched repositories |
+| `#following` | Locally followed radar candidates, plus selected topics, saved signals and exactly linked watched repositories |
 | `#contribute` | Research and support participation, actual issue links, no invented contributor or sponsor roster |
 
 Top-level product navigation is distinct from the Map / Globe / Wire view switch. One-screen desktop overview keeps the map dominant. Two-screen presentation adds AI selection, sample brief and an ecosystem-analysis entry on its second screen. Phones use natural document flow. Existing `analysis.html` and `panorama.html` remain compatible.

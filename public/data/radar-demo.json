@@ -1,0 +1,1027 @@
+{
+  "schemaVersion": 1,
+  "fixtureDate": "2026-10-26T00:00:00Z",
+  "provenance": "demo",
+  "assessments": [
+    {
+      "entityId": "github:965415649",
+      "ring": "trial",
+      "why": {
+        "zh": "把一个真实缺陷拆成可验证的小任务，比较补丁质量与人工接管次数。",
+        "en": "Break a real defect into a verifiable task; compare patches and manual interventions."
+      },
+      "fit": {
+        "zh": "小范围修复、测试补充与代码审查",
+        "en": "Small fixes, tests and code review"
+      },
+      "caution": {
+        "zh": "仓库权限、可执行命令和变更回滚",
+        "en": "Repository permissions, executable commands and rollback"
+      },
+      "steps": [
+        {
+          "zh": "固定仓库 commit、运行环境和模型配置，在隔离环境创建试验。",
+          "en": "Pin the repository commit, environment and model configuration in an isolated trial."
+        },
+        {
+          "zh": "准备 5 个熟悉的任务，事先写下成功标准、允许的操作和退出条件。",
+          "en": "Prepare five familiar tasks with success criteria, allowed operations and stopping conditions."
+        },
+        {
+          "zh": "记录结果、人工修正次数、耗时与资源消耗；核对变更后再采用。",
+          "en": "Record outcomes, manual corrections, time and resource use; inspect changes before adoption."
+        }
+      ],
+      "change": {
+        "zh": "Codex：试用清单等待验证",
+        "en": "Codex: trial checklist ready to verify"
+      }
+    },
+    {
+      "entityId": "github:968197216",
+      "ring": "trial",
+      "why": {
+        "zh": "复用同一组编码任务，观察工具协作方式与上下文管理。",
+        "en": "Reuse the same coding tasks to examine tool interaction and context management."
+      },
+      "fit": {
+        "zh": "终端工作流与代码辅助",
+        "en": "Terminal workflows and coding assistance"
+      },
+      "caution": {
+        "zh": "凭据范围、模型配置和操作确认",
+        "en": "Credential scope, model configuration and action confirmation"
+      },
+      "steps": [
+        {
+          "zh": "固定仓库 commit、运行环境和模型配置，在隔离环境创建试验。",
+          "en": "Pin the repository commit, environment and model configuration in an isolated trial."
+        },
+        {
+          "zh": "准备 5 个熟悉的任务，事先写下成功标准、允许的操作和退出条件。",
+          "en": "Prepare five familiar tasks with success criteria, allowed operations and stopping conditions."
+        },
+        {
+          "zh": "记录结果、人工修正次数、耗时与资源消耗；核对变更后再采用。",
+          "en": "Record outcomes, manual corrections, time and resource use; inspect changes before adoption."
+        }
+      ],
+      "change": {
+        "zh": "Gemini CLI：试用清单等待验证",
+        "en": "Gemini CLI: trial checklist ready to verify"
+      }
+    },
+    {
+      "entityId": "github:626805178",
+      "ring": "adopt",
+      "why": {
+        "zh": "用一条可视化流程把检索、模型和人工检查连接起来。",
+        "en": "Connect retrieval, models and human checks in a visual workflow."
+      },
+      "fit": {
+        "zh": "知识问答原型与流程验证",
+        "en": "Knowledge QA prototypes and workflow trials"
+      },
+      "caution": {
+        "zh": "插件权限、数据外发和实际许可",
+        "en": "Plugin permissions, data egress and actual license terms"
+      },
+      "steps": [
+        {
+          "zh": "固定仓库 commit、运行环境和模型配置，在隔离环境创建试验。",
+          "en": "Pin the repository commit, environment and model configuration in an isolated trial."
+        },
+        {
+          "zh": "准备 5 个熟悉的任务，事先写下成功标准、允许的操作和退出条件。",
+          "en": "Prepare five familiar tasks with success criteria, allowed operations and stopping conditions."
+        },
+        {
+          "zh": "记录结果、人工修正次数、耗时与资源消耗；核对变更后再采用。",
+          "en": "Record outcomes, manual corrections, time and resource use; inspect changes before adoption."
+        }
+      ],
+      "change": {
+        "zh": "Dify：试用清单等待验证",
+        "en": "Dify: trial checklist ready to verify"
+      }
+    },
+    {
+      "entityId": "github:552661142",
+      "ring": "adopt",
+      "why": {
+        "zh": "从单一检索任务开始，逐步加入工具，并保留每步输入与输出。",
+        "en": "Start with one retrieval task, then add tools while recording each input and output."
+      },
+      "fit": {
+        "zh": "检索增强与工具编排",
+        "en": "Retrieval augmentation and tool orchestration"
+      },
+      "caution": {
+        "zh": "版本兼容、失败恢复和可观测性",
+        "en": "Version compatibility, failure recovery and observability"
+      },
+      "steps": [
+        {
+          "zh": "固定仓库 commit、运行环境和模型配置，在隔离环境创建试验。",
+          "en": "Pin the repository commit, environment and model configuration in an isolated trial."
+        },
+        {
+          "zh": "准备 5 个熟悉的任务，事先写下成功标准、允许的操作和退出条件。",
+          "en": "Prepare five familiar tasks with success criteria, allowed operations and stopping conditions."
+        },
+        {
+          "zh": "记录结果、人工修正次数、耗时与资源消耗；核对变更后再采用。",
+          "en": "Record outcomes, manual corrections, time and resource use; inspect changes before adoption."
+        }
+      ],
+      "change": {
+        "zh": "LangChain：试用清单等待验证",
+        "en": "LangChain: trial checklist ready to verify"
+      }
+    },
+    {
+      "entityId": "github:818331198",
+      "ring": "trial",
+      "why": {
+        "zh": "先固定结构化结果与错误样例，比较接口约束是否让验证更容易。",
+        "en": "Pin structured outputs and error cases to test whether interface constraints simplify validation."
+      },
+      "fit": {
+        "zh": "结构化输出与类型约束任务",
+        "en": "Structured-output and typed-interface tasks"
+      },
+      "caution": {
+        "zh": "模型支持范围、验证失败与重试成本",
+        "en": "Model support, validation failures and retry costs"
+      },
+      "steps": [
+        {
+          "zh": "固定仓库 commit、运行环境和模型配置，在隔离环境创建试验。",
+          "en": "Pin the repository commit, environment and model configuration in an isolated trial."
+        },
+        {
+          "zh": "准备 5 个熟悉的任务，事先写下成功标准、允许的操作和退出条件。",
+          "en": "Prepare five familiar tasks with success criteria, allowed operations and stopping conditions."
+        },
+        {
+          "zh": "记录结果、人工修正次数、耗时与资源消耗；核对变更后再采用。",
+          "en": "Record outcomes, manual corrections, time and resource use; inspect changes before adoption."
+        }
+      ],
+      "change": {
+        "zh": "Pydantic AI：试用清单等待验证",
+        "en": "Pydantic AI: trial checklist ready to verify"
+      }
+    },
+    {
+      "entityId": "github:958830659",
+      "ring": "assess",
+      "why": {
+        "zh": "用一个明确角色的 Agent 原型，验证工具边界与调用链路。",
+        "en": "Prototype an agent with a defined role and test its tool boundaries and call chain."
+      },
+      "fit": {
+        "zh": "Python Agent 原型",
+        "en": "Python agent prototypes"
+      },
+      "caution": {
+        "zh": "框架接口变化与所需服务依赖",
+        "en": "Interface changes and required service dependencies"
+      },
+      "steps": [
+        {
+          "zh": "固定仓库 commit、运行环境和模型配置，在隔离环境创建试验。",
+          "en": "Pin the repository commit, environment and model configuration in an isolated trial."
+        },
+        {
+          "zh": "准备 5 个熟悉的任务，事先写下成功标准、允许的操作和退出条件。",
+          "en": "Prepare five familiar tasks with success criteria, allowed operations and stopping conditions."
+        },
+        {
+          "zh": "记录结果、人工修正次数、耗时与资源消耗；核对变更后再采用。",
+          "en": "Record outcomes, manual corrections, time and resource use; inspect changes before adoption."
+        }
+      ],
+      "change": {
+        "zh": "Google ADK：试用清单等待验证",
+        "en": "Google ADK: trial checklist ready to verify"
+      }
+    },
+    {
+      "entityId": "github:890668799",
+      "ring": "trial",
+      "why": {
+        "zh": "选择一个只读数据连接，先验证授权、结果格式与错误处理。",
+        "en": "Try a read-only data connection first, checking authorization, output format and errors."
+      },
+      "fit": {
+        "zh": "Agent 工具与资料连接",
+        "en": "Agent tools and information connections"
+      },
+      "caution": {
+        "zh": "服务来源、最小权限与提示注入",
+        "en": "Server provenance, least privilege and prompt injection"
+      },
+      "steps": [
+        {
+          "zh": "固定仓库 commit、运行环境和模型配置，在隔离环境创建试验。",
+          "en": "Pin the repository commit, environment and model configuration in an isolated trial."
+        },
+        {
+          "zh": "准备 5 个熟悉的任务，事先写下成功标准、允许的操作和退出条件。",
+          "en": "Prepare five familiar tasks with success criteria, allowed operations and stopping conditions."
+        },
+        {
+          "zh": "记录结果、人工修正次数、耗时与资源消耗；核对变更后再采用。",
+          "en": "Record outcomes, manual corrections, time and resource use; inspect changes before adoption."
+        }
+      ],
+      "change": {
+        "zh": "MCP Servers：试用清单等待验证",
+        "en": "MCP Servers: trial checklist ready to verify"
+      }
+    },
+    {
+      "entityId": "github:881458615",
+      "ring": "assess",
+      "why": {
+        "zh": "从一个不涉及支付或提交的网页任务开始，记录页面变化与失败条件。",
+        "en": "Start with a web task without purchases or submissions; record page changes and failure conditions."
+      },
+      "fit": {
+        "zh": "网页资料收集与流程演练",
+        "en": "Web research and workflow rehearsals"
+      },
+      "caution": {
+        "zh": "网站规则、账号边界与误操作",
+        "en": "Site rules, account boundaries and unintended actions"
+      },
+      "steps": [
+        {
+          "zh": "固定仓库 commit、运行环境和模型配置，在隔离环境创建试验。",
+          "en": "Pin the repository commit, environment and model configuration in an isolated trial."
+        },
+        {
+          "zh": "准备 5 个熟悉的任务，事先写下成功标准、允许的操作和退出条件。",
+          "en": "Prepare five familiar tasks with success criteria, allowed operations and stopping conditions."
+        },
+        {
+          "zh": "记录结果、人工修正次数、耗时与资源消耗；核对变更后再采用。",
+          "en": "Record outcomes, manual corrections, time and resource use; inspect changes before adoption."
+        }
+      ],
+      "change": {
+        "zh": "Browser Use：试用清单等待验证",
+        "en": "Browser Use: trial checklist ready to verify"
+      }
+    },
+    {
+      "entityId": "github:753490180",
+      "ring": "trial",
+      "why": {
+        "zh": "把执行环境与宿主数据隔离，用同一任务核对启动成本和清理过程。",
+        "en": "Isolate execution from host data and examine startup costs and cleanup with the same task."
+      },
+      "fit": {
+        "zh": "代码执行和开发沙箱",
+        "en": "Code execution and development sandboxes"
+      },
+      "caution": {
+        "zh": "网络出口、资源限制与凭据清理",
+        "en": "Network egress, resource limits and credential cleanup"
+      },
+      "steps": [
+        {
+          "zh": "固定仓库 commit、运行环境和模型配置，在隔离环境创建试验。",
+          "en": "Pin the repository commit, environment and model configuration in an isolated trial."
+        },
+        {
+          "zh": "准备 5 个熟悉的任务，事先写下成功标准、允许的操作和退出条件。",
+          "en": "Prepare five familiar tasks with success criteria, allowed operations and stopping conditions."
+        },
+        {
+          "zh": "记录结果、人工修正次数、耗时与资源消耗；核对变更后再采用。",
+          "en": "Record outcomes, manual corrections, time and resource use; inspect changes before adoption."
+        }
+      ],
+      "change": {
+        "zh": "Daytona：试用清单等待验证",
+        "en": "Daytona: trial checklist ready to verify"
+      }
+    },
+    {
+      "entityId": "github:599547518",
+      "ring": "adopt",
+      "why": {
+        "zh": "在固定硬件和请求集合上测试吞吐、延迟与显存，记录完整配置。",
+        "en": "Measure throughput, latency and memory on fixed hardware and requests; keep the full configuration."
+      },
+      "fit": {
+        "zh": "自托管推理服务实验",
+        "en": "Self-hosted inference experiments"
+      },
+      "caution": {
+        "zh": "模型兼容、量化格式与硬件条件",
+        "en": "Model compatibility, quantization format and hardware"
+      },
+      "steps": [
+        {
+          "zh": "固定仓库 commit、运行环境和模型配置，在隔离环境创建试验。",
+          "en": "Pin the repository commit, environment and model configuration in an isolated trial."
+        },
+        {
+          "zh": "准备 5 个熟悉的任务，事先写下成功标准、允许的操作和退出条件。",
+          "en": "Prepare five familiar tasks with success criteria, allowed operations and stopping conditions."
+        },
+        {
+          "zh": "记录结果、人工修正次数、耗时与资源消耗；核对变更后再采用。",
+          "en": "Record outcomes, manual corrections, time and resource use; inspect changes before adoption."
+        }
+      ],
+      "change": {
+        "zh": "vLLM：试用清单等待验证",
+        "en": "vLLM: trial checklist ready to verify"
+      }
+    },
+    {
+      "entityId": "github:646410686",
+      "ring": "trial",
+      "why": {
+        "zh": "以小规模、许可明确的数据集建立可重复的微调实验。",
+        "en": "Build a reproducible fine-tuning experiment with a small, clearly licensed dataset."
+      },
+      "fit": {
+        "zh": "微调与参数实验",
+        "en": "Fine-tuning and parameter experiments"
+      },
+      "caution": {
+        "zh": "数据许可、训练开销与评测泄漏",
+        "en": "Data permissions, training cost and evaluation leakage"
+      },
+      "steps": [
+        {
+          "zh": "固定仓库 commit、运行环境和模型配置，在隔离环境创建试验。",
+          "en": "Pin the repository commit, environment and model configuration in an isolated trial."
+        },
+        {
+          "zh": "准备 5 个熟悉的任务，事先写下成功标准、允许的操作和退出条件。",
+          "en": "Prepare five familiar tasks with success criteria, allowed operations and stopping conditions."
+        },
+        {
+          "zh": "记录结果、人工修正次数、耗时与资源消耗；核对变更后再采用。",
+          "en": "Record outcomes, manual corrections, time and resource use; inspect changes before adoption."
+        }
+      ],
+      "change": {
+        "zh": "LlamaFactory：试用清单等待验证",
+        "en": "LlamaFactory: trial checklist ready to verify"
+      }
+    },
+    {
+      "entityId": "github:642497346",
+      "ring": "trial",
+      "why": {
+        "zh": "从已有应用接入少量脱敏轨迹，检查失败原因能否被复现。",
+        "en": "Use a small set of redacted application traces to check whether failures can be reproduced."
+      },
+      "fit": {
+        "zh": "调用链路观察与评测记录",
+        "en": "Tracing and evaluation records"
+      },
+      "caution": {
+        "zh": "敏感数据、采样规则与许可条件",
+        "en": "Sensitive data, sampling rules and license conditions"
+      },
+      "steps": [
+        {
+          "zh": "固定仓库 commit、运行环境和模型配置，在隔离环境创建试验。",
+          "en": "Pin the repository commit, environment and model configuration in an isolated trial."
+        },
+        {
+          "zh": "准备 5 个熟悉的任务，事先写下成功标准、允许的操作和退出条件。",
+          "en": "Prepare five familiar tasks with success criteria, allowed operations and stopping conditions."
+        },
+        {
+          "zh": "记录结果、人工修正次数、耗时与资源消耗；核对变更后再采用。",
+          "en": "Record outcomes, manual corrections, time and resource use; inspect changes before adoption."
+        }
+      ],
+      "change": {
+        "zh": "Langfuse：试用清单等待验证",
+        "en": "Langfuse: trial checklist ready to verify"
+      }
+    },
+    {
+      "entityId": "hf-model:Qwen/Qwen3-0.6B",
+      "ring": "trial",
+      "why": {
+        "zh": "将这个具体发布版本加入候选，用你的任务、硬件和评分规则验证适配性。",
+        "en": "Add this published version to a shortlist and verify its fit using your own tasks, hardware and evaluation rules."
+      },
+      "fit": {
+        "zh": "轻量文本生成候选",
+        "en": "Compact text-generation candidate"
+      },
+      "caution": {
+        "zh": "权重格式、显存需求、任务能力与实际许可",
+        "en": "Weight format, memory needs, task performance and actual license terms"
+      },
+      "steps": [
+        {
+          "zh": "锁定模型 revision 与具体权重格式，核对官方模型卡和许可。",
+          "en": "Pin the model revision and weight format, then inspect the official model card and license."
+        },
+        {
+          "zh": "在你的硬件上先跑最小样例，记录显存、上下文设置和生成参数。",
+          "en": "Run a minimal example on your hardware, recording memory, context settings and generation parameters."
+        },
+        {
+          "zh": "使用固定且不重叠的任务集，与另一候选按同一配置比较结果和成本。",
+          "en": "Use a fixed non-overlapping task set and compare outcomes and cost with another candidate under the same configuration."
+        }
+      ],
+      "change": {
+        "zh": "Qwen3 · 0.6B：场景对比任务待验证",
+        "en": "Qwen3 · 0.6B: scenario comparison awaits verification"
+      }
+    },
+    {
+      "entityId": "hf-model:Qwen/Qwen3-8B",
+      "ring": "adopt",
+      "why": {
+        "zh": "将这个具体发布版本加入候选，用你的任务、硬件和评分规则验证适配性。",
+        "en": "Add this published version to a shortlist and verify its fit using your own tasks, hardware and evaluation rules."
+      },
+      "fit": {
+        "zh": "通用文本生成候选",
+        "en": "General text-generation candidate"
+      },
+      "caution": {
+        "zh": "权重格式、显存需求、任务能力与实际许可",
+        "en": "Weight format, memory needs, task performance and actual license terms"
+      },
+      "steps": [
+        {
+          "zh": "锁定模型 revision 与具体权重格式，核对官方模型卡和许可。",
+          "en": "Pin the model revision and weight format, then inspect the official model card and license."
+        },
+        {
+          "zh": "在你的硬件上先跑最小样例，记录显存、上下文设置和生成参数。",
+          "en": "Run a minimal example on your hardware, recording memory, context settings and generation parameters."
+        },
+        {
+          "zh": "使用固定且不重叠的任务集，与另一候选按同一配置比较结果和成本。",
+          "en": "Use a fixed non-overlapping task set and compare outcomes and cost with another candidate under the same configuration."
+        }
+      ],
+      "change": {
+        "zh": "Qwen3 · 8B：场景对比任务待验证",
+        "en": "Qwen3 · 8B: scenario comparison awaits verification"
+      }
+    },
+    {
+      "entityId": "hf-model:unsloth/Qwen3-Coder-30B-A3B-Instruct-GGUF",
+      "ring": "trial",
+      "why": {
+        "zh": "将这个具体发布版本加入候选，用你的任务、硬件和评分规则验证适配性。",
+        "en": "Add this published version to a shortlist and verify its fit using your own tasks, hardware and evaluation rules."
+      },
+      "fit": {
+        "zh": "编码模型的 GGUF 发布版本",
+        "en": "A GGUF distribution of a coding model"
+      },
+      "caution": {
+        "zh": "权重格式、显存需求、任务能力与实际许可",
+        "en": "Weight format, memory needs, task performance and actual license terms"
+      },
+      "steps": [
+        {
+          "zh": "锁定模型 revision 与具体权重格式，核对官方模型卡和许可。",
+          "en": "Pin the model revision and weight format, then inspect the official model card and license."
+        },
+        {
+          "zh": "在你的硬件上先跑最小样例，记录显存、上下文设置和生成参数。",
+          "en": "Run a minimal example on your hardware, recording memory, context settings and generation parameters."
+        },
+        {
+          "zh": "使用固定且不重叠的任务集，与另一候选按同一配置比较结果和成本。",
+          "en": "Use a fixed non-overlapping task set and compare outcomes and cost with another candidate under the same configuration."
+        }
+      ],
+      "change": {
+        "zh": "Qwen3 Coder：场景对比任务待验证",
+        "en": "Qwen3 Coder: scenario comparison awaits verification"
+      }
+    },
+    {
+      "entityId": "hf-model:Qwen/Qwen3-VL-8B-Instruct",
+      "ring": "assess",
+      "why": {
+        "zh": "将这个具体发布版本加入候选，用你的任务、硬件和评分规则验证适配性。",
+        "en": "Add this published version to a shortlist and verify its fit using your own tasks, hardware and evaluation rules."
+      },
+      "fit": {
+        "zh": "图文理解模型候选",
+        "en": "Vision-language model candidate"
+      },
+      "caution": {
+        "zh": "权重格式、显存需求、任务能力与实际许可",
+        "en": "Weight format, memory needs, task performance and actual license terms"
+      },
+      "steps": [
+        {
+          "zh": "锁定模型 revision 与具体权重格式，核对官方模型卡和许可。",
+          "en": "Pin the model revision and weight format, then inspect the official model card and license."
+        },
+        {
+          "zh": "在你的硬件上先跑最小样例，记录显存、上下文设置和生成参数。",
+          "en": "Run a minimal example on your hardware, recording memory, context settings and generation parameters."
+        },
+        {
+          "zh": "使用固定且不重叠的任务集，与另一候选按同一配置比较结果和成本。",
+          "en": "Use a fixed non-overlapping task set and compare outcomes and cost with another candidate under the same configuration."
+        }
+      ],
+      "change": {
+        "zh": "Qwen3 VL · 8B：场景对比任务待验证",
+        "en": "Qwen3 VL · 8B: scenario comparison awaits verification"
+      }
+    },
+    {
+      "entityId": "hf-model:Qwen/Qwen3.5-9B",
+      "ring": "trial",
+      "why": {
+        "zh": "将这个具体发布版本加入候选，用你的任务、硬件和评分规则验证适配性。",
+        "en": "Add this published version to a shortlist and verify its fit using your own tasks, hardware and evaluation rules."
+      },
+      "fit": {
+        "zh": "多模态模型候选",
+        "en": "Multimodal model candidate"
+      },
+      "caution": {
+        "zh": "权重格式、显存需求、任务能力与实际许可",
+        "en": "Weight format, memory needs, task performance and actual license terms"
+      },
+      "steps": [
+        {
+          "zh": "锁定模型 revision 与具体权重格式，核对官方模型卡和许可。",
+          "en": "Pin the model revision and weight format, then inspect the official model card and license."
+        },
+        {
+          "zh": "在你的硬件上先跑最小样例，记录显存、上下文设置和生成参数。",
+          "en": "Run a minimal example on your hardware, recording memory, context settings and generation parameters."
+        },
+        {
+          "zh": "使用固定且不重叠的任务集，与另一候选按同一配置比较结果和成本。",
+          "en": "Use a fixed non-overlapping task set and compare outcomes and cost with another candidate under the same configuration."
+        }
+      ],
+      "change": {
+        "zh": "Qwen3.5 · 9B：场景对比任务待验证",
+        "en": "Qwen3.5 · 9B: scenario comparison awaits verification"
+      }
+    },
+    {
+      "entityId": "hf-model:sentence-transformers/all-MiniLM-L6-v2",
+      "ring": "adopt",
+      "why": {
+        "zh": "将这个具体发布版本加入候选，用你的任务、硬件和评分规则验证适配性。",
+        "en": "Add this published version to a shortlist and verify its fit using your own tasks, hardware and evaluation rules."
+      },
+      "fit": {
+        "zh": "文本向量与语义检索",
+        "en": "Text embeddings and semantic retrieval"
+      },
+      "caution": {
+        "zh": "权重格式、显存需求、任务能力与实际许可",
+        "en": "Weight format, memory needs, task performance and actual license terms"
+      },
+      "steps": [
+        {
+          "zh": "锁定模型 revision 与具体权重格式，核对官方模型卡和许可。",
+          "en": "Pin the model revision and weight format, then inspect the official model card and license."
+        },
+        {
+          "zh": "在你的硬件上先跑最小样例，记录显存、上下文设置和生成参数。",
+          "en": "Run a minimal example on your hardware, recording memory, context settings and generation parameters."
+        },
+        {
+          "zh": "使用固定且不重叠的任务集，与另一候选按同一配置比较结果和成本。",
+          "en": "Use a fixed non-overlapping task set and compare outcomes and cost with another candidate under the same configuration."
+        }
+      ],
+      "change": {
+        "zh": "MiniLM · L6 v2：场景对比任务待验证",
+        "en": "MiniLM · L6 v2: scenario comparison awaits verification"
+      }
+    },
+    {
+      "entityId": "hf-model:BAAI/bge-m3",
+      "ring": "trial",
+      "why": {
+        "zh": "将这个具体发布版本加入候选，用你的任务、硬件和评分规则验证适配性。",
+        "en": "Add this published version to a shortlist and verify its fit using your own tasks, hardware and evaluation rules."
+      },
+      "fit": {
+        "zh": "多语言文本表示与检索",
+        "en": "Multilingual text representations and retrieval"
+      },
+      "caution": {
+        "zh": "权重格式、显存需求、任务能力与实际许可",
+        "en": "Weight format, memory needs, task performance and actual license terms"
+      },
+      "steps": [
+        {
+          "zh": "锁定模型 revision 与具体权重格式，核对官方模型卡和许可。",
+          "en": "Pin the model revision and weight format, then inspect the official model card and license."
+        },
+        {
+          "zh": "在你的硬件上先跑最小样例，记录显存、上下文设置和生成参数。",
+          "en": "Run a minimal example on your hardware, recording memory, context settings and generation parameters."
+        },
+        {
+          "zh": "使用固定且不重叠的任务集，与另一候选按同一配置比较结果和成本。",
+          "en": "Use a fixed non-overlapping task set and compare outcomes and cost with another candidate under the same configuration."
+        }
+      ],
+      "change": {
+        "zh": "BGE M3：场景对比任务待验证",
+        "en": "BGE M3: scenario comparison awaits verification"
+      }
+    },
+    {
+      "entityId": "hf-model:openai/clip-vit-base-patch32",
+      "ring": "adopt",
+      "why": {
+        "zh": "将这个具体发布版本加入候选，用你的任务、硬件和评分规则验证适配性。",
+        "en": "Add this published version to a shortlist and verify its fit using your own tasks, hardware and evaluation rules."
+      },
+      "fit": {
+        "zh": "图文表示模型",
+        "en": "Image-text representation model"
+      },
+      "caution": {
+        "zh": "权重格式、显存需求、任务能力与实际许可",
+        "en": "Weight format, memory needs, task performance and actual license terms"
+      },
+      "steps": [
+        {
+          "zh": "锁定模型 revision 与具体权重格式，核对官方模型卡和许可。",
+          "en": "Pin the model revision and weight format, then inspect the official model card and license."
+        },
+        {
+          "zh": "在你的硬件上先跑最小样例，记录显存、上下文设置和生成参数。",
+          "en": "Run a minimal example on your hardware, recording memory, context settings and generation parameters."
+        },
+        {
+          "zh": "使用固定且不重叠的任务集，与另一候选按同一配置比较结果和成本。",
+          "en": "Use a fixed non-overlapping task set and compare outcomes and cost with another candidate under the same configuration."
+        }
+      ],
+      "change": {
+        "zh": "CLIP · ViT-B/32：场景对比任务待验证",
+        "en": "CLIP · ViT-B/32: scenario comparison awaits verification"
+      }
+    },
+    {
+      "entityId": "hf-model:hexgrad/Kokoro-82M",
+      "ring": "trial",
+      "why": {
+        "zh": "将这个具体发布版本加入候选，用你的任务、硬件和评分规则验证适配性。",
+        "en": "Add this published version to a shortlist and verify its fit using your own tasks, hardware and evaluation rules."
+      },
+      "fit": {
+        "zh": "语音生成模型",
+        "en": "Speech-generation model"
+      },
+      "caution": {
+        "zh": "权重格式、显存需求、任务能力与实际许可",
+        "en": "Weight format, memory needs, task performance and actual license terms"
+      },
+      "steps": [
+        {
+          "zh": "锁定模型 revision 与具体权重格式，核对官方模型卡和许可。",
+          "en": "Pin the model revision and weight format, then inspect the official model card and license."
+        },
+        {
+          "zh": "在你的硬件上先跑最小样例，记录显存、上下文设置和生成参数。",
+          "en": "Run a minimal example on your hardware, recording memory, context settings and generation parameters."
+        },
+        {
+          "zh": "使用固定且不重叠的任务集，与另一候选按同一配置比较结果和成本。",
+          "en": "Use a fixed non-overlapping task set and compare outcomes and cost with another candidate under the same configuration."
+        }
+      ],
+      "change": {
+        "zh": "Kokoro · 82M：场景对比任务待验证",
+        "en": "Kokoro · 82M: scenario comparison awaits verification"
+      }
+    },
+    {
+      "entityId": "hf-model:openai/whisper-large-v3-turbo",
+      "ring": "assess",
+      "why": {
+        "zh": "将这个具体发布版本加入候选，用你的任务、硬件和评分规则验证适配性。",
+        "en": "Add this published version to a shortlist and verify its fit using your own tasks, hardware and evaluation rules."
+      },
+      "fit": {
+        "zh": "语音识别与转写",
+        "en": "Speech recognition and transcription"
+      },
+      "caution": {
+        "zh": "权重格式、显存需求、任务能力与实际许可",
+        "en": "Weight format, memory needs, task performance and actual license terms"
+      },
+      "steps": [
+        {
+          "zh": "锁定模型 revision 与具体权重格式，核对官方模型卡和许可。",
+          "en": "Pin the model revision and weight format, then inspect the official model card and license."
+        },
+        {
+          "zh": "在你的硬件上先跑最小样例，记录显存、上下文设置和生成参数。",
+          "en": "Run a minimal example on your hardware, recording memory, context settings and generation parameters."
+        },
+        {
+          "zh": "使用固定且不重叠的任务集，与另一候选按同一配置比较结果和成本。",
+          "en": "Use a fixed non-overlapping task set and compare outcomes and cost with another candidate under the same configuration."
+        }
+      ],
+      "change": {
+        "zh": "Whisper · v3 turbo：场景对比任务待验证",
+        "en": "Whisper · v3 turbo: scenario comparison awaits verification"
+      }
+    },
+    {
+      "entityId": "hf-model:openvla/openvla-7b",
+      "ring": "trial",
+      "why": {
+        "zh": "将这个具体发布版本加入候选，用你的任务、硬件和评分规则验证适配性。",
+        "en": "Add this published version to a shortlist and verify its fit using your own tasks, hardware and evaluation rules."
+      },
+      "fit": {
+        "zh": "视觉语言动作研究模型",
+        "en": "Vision-language-action research model"
+      },
+      "caution": {
+        "zh": "权重格式、显存需求、任务能力与实际许可",
+        "en": "Weight format, memory needs, task performance and actual license terms"
+      },
+      "steps": [
+        {
+          "zh": "锁定模型 revision 与具体权重格式，核对官方模型卡和许可。",
+          "en": "Pin the model revision and weight format, then inspect the official model card and license."
+        },
+        {
+          "zh": "在你的硬件上先跑最小样例，记录显存、上下文设置和生成参数。",
+          "en": "Run a minimal example on your hardware, recording memory, context settings and generation parameters."
+        },
+        {
+          "zh": "使用固定且不重叠的任务集，与另一候选按同一配置比较结果和成本。",
+          "en": "Use a fixed non-overlapping task set and compare outcomes and cost with another candidate under the same configuration."
+        }
+      ],
+      "change": {
+        "zh": "OpenVLA · 7B：场景对比任务待验证",
+        "en": "OpenVLA · 7B: scenario comparison awaits verification"
+      }
+    },
+    {
+      "entityId": "hf-model:lerobot/smolvla_base",
+      "ring": "adopt",
+      "why": {
+        "zh": "将这个具体发布版本加入候选，用你的任务、硬件和评分规则验证适配性。",
+        "en": "Add this published version to a shortlist and verify its fit using your own tasks, hardware and evaluation rules."
+      },
+      "fit": {
+        "zh": "机器人动作模型研究",
+        "en": "Robotics action-model research"
+      },
+      "caution": {
+        "zh": "权重格式、显存需求、任务能力与实际许可",
+        "en": "Weight format, memory needs, task performance and actual license terms"
+      },
+      "steps": [
+        {
+          "zh": "锁定模型 revision 与具体权重格式，核对官方模型卡和许可。",
+          "en": "Pin the model revision and weight format, then inspect the official model card and license."
+        },
+        {
+          "zh": "在你的硬件上先跑最小样例，记录显存、上下文设置和生成参数。",
+          "en": "Run a minimal example on your hardware, recording memory, context settings and generation parameters."
+        },
+        {
+          "zh": "使用固定且不重叠的任务集，与另一候选按同一配置比较结果和成本。",
+          "en": "Use a fixed non-overlapping task set and compare outcomes and cost with another candidate under the same configuration."
+        }
+      ],
+      "change": {
+        "zh": "SmolVLA · base：场景对比任务待验证",
+        "en": "SmolVLA · base: scenario comparison awaits verification"
+      }
+    },
+    {
+      "entityId": "hf-dataset:SWE-bench/SWE-bench_Verified",
+      "ring": "trial",
+      "why": {
+        "zh": "把数据用途与验证目标对应起来，先检查样本和复用条件，再纳入实验。",
+        "en": "Match the dataset to a verification goal. Inspect samples and reuse conditions before adding it to an experiment."
+      },
+      "fit": {
+        "zh": "代码问题修复评测",
+        "en": "Code-issue resolution evaluation"
+      },
+      "caution": {
+        "zh": "版本与 split、许可范围、重复数据和评测污染",
+        "en": "Version and split, license scope, duplication and evaluation contamination"
+      },
+      "steps": [
+        {
+          "zh": "固定数据 revision、配置与 split，确认样本单位、许可和用途限制。",
+          "en": "Pin the data revision, configuration and split; confirm units, license and use restrictions."
+        },
+        {
+          "zh": "抽查样本、去重与质量，保留训练集和测试集的边界。",
+          "en": "Inspect samples, duplication and quality while preserving train/test boundaries."
+        },
+        {
+          "zh": "记录清洗、筛选和评测步骤；提交可复现的记录与发现的缺口。",
+          "en": "Record cleaning, filtering and evaluation steps; contribute reproducible records and identified gaps."
+        }
+      ],
+      "change": {
+        "zh": "SWE-bench：样本与复现任务待共建",
+        "en": "SWE-bench: contribute sample checks and reproductions"
+      }
+    },
+    {
+      "entityId": "hf-dataset:HuggingFaceFW/fineweb",
+      "ring": "assess",
+      "why": {
+        "zh": "把数据用途与验证目标对应起来，先检查样本和复用条件，再纳入实验。",
+        "en": "Match the dataset to a verification goal. Inspect samples and reuse conditions before adding it to an experiment."
+      },
+      "fit": {
+        "zh": "网页预训练语料",
+        "en": "Web pretraining corpus"
+      },
+      "caution": {
+        "zh": "版本与 split、许可范围、重复数据和评测污染",
+        "en": "Version and split, license scope, duplication and evaluation contamination"
+      },
+      "steps": [
+        {
+          "zh": "固定数据 revision、配置与 split，确认样本单位、许可和用途限制。",
+          "en": "Pin the data revision, configuration and split; confirm units, license and use restrictions."
+        },
+        {
+          "zh": "抽查样本、去重与质量，保留训练集和测试集的边界。",
+          "en": "Inspect samples, duplication and quality while preserving train/test boundaries."
+        },
+        {
+          "zh": "记录清洗、筛选和评测步骤；提交可复现的记录与发现的缺口。",
+          "en": "Record cleaning, filtering and evaluation steps; contribute reproducible records and identified gaps."
+        }
+      ],
+      "change": {
+        "zh": "FineWeb：样本与复现任务待共建",
+        "en": "FineWeb: contribute sample checks and reproductions"
+      }
+    },
+    {
+      "entityId": "hf-dataset:allenai/c4",
+      "ring": "adopt",
+      "why": {
+        "zh": "把数据用途与验证目标对应起来，先检查样本和复用条件，再纳入实验。",
+        "en": "Match the dataset to a verification goal. Inspect samples and reuse conditions before adding it to an experiment."
+      },
+      "fit": {
+        "zh": "清洗后的网页语料",
+        "en": "Cleaned web corpus"
+      },
+      "caution": {
+        "zh": "版本与 split、许可范围、重复数据和评测污染",
+        "en": "Version and split, license scope, duplication and evaluation contamination"
+      },
+      "steps": [
+        {
+          "zh": "固定数据 revision、配置与 split，确认样本单位、许可和用途限制。",
+          "en": "Pin the data revision, configuration and split; confirm units, license and use restrictions."
+        },
+        {
+          "zh": "抽查样本、去重与质量，保留训练集和测试集的边界。",
+          "en": "Inspect samples, duplication and quality while preserving train/test boundaries."
+        },
+        {
+          "zh": "记录清洗、筛选和评测步骤；提交可复现的记录与发现的缺口。",
+          "en": "Record cleaning, filtering and evaluation steps; contribute reproducible records and identified gaps."
+        }
+      ],
+      "change": {
+        "zh": "C4：样本与复现任务待共建",
+        "en": "C4: contribute sample checks and reproductions"
+      }
+    },
+    {
+      "entityId": "hf-dataset:sentence-transformers/all-nli",
+      "ring": "trial",
+      "why": {
+        "zh": "把数据用途与验证目标对应起来，先检查样本和复用条件，再纳入实验。",
+        "en": "Match the dataset to a verification goal. Inspect samples and reuse conditions before adding it to an experiment."
+      },
+      "fit": {
+        "zh": "句子关系与表示学习数据",
+        "en": "Sentence-relation and representation-learning data"
+      },
+      "caution": {
+        "zh": "版本与 split、许可范围、重复数据和评测污染",
+        "en": "Version and split, license scope, duplication and evaluation contamination"
+      },
+      "steps": [
+        {
+          "zh": "固定数据 revision、配置与 split，确认样本单位、许可和用途限制。",
+          "en": "Pin the data revision, configuration and split; confirm units, license and use restrictions."
+        },
+        {
+          "zh": "抽查样本、去重与质量，保留训练集和测试集的边界。",
+          "en": "Inspect samples, duplication and quality while preserving train/test boundaries."
+        },
+        {
+          "zh": "记录清洗、筛选和评测步骤；提交可复现的记录与发现的缺口。",
+          "en": "Record cleaning, filtering and evaluation steps; contribute reproducible records and identified gaps."
+        }
+      ],
+      "change": {
+        "zh": "AllNLI：样本与复现任务待共建",
+        "en": "AllNLI: contribute sample checks and reproductions"
+      }
+    },
+    {
+      "entityId": "hf-dataset:OpenAssistant/oasst1",
+      "ring": "assess",
+      "why": {
+        "zh": "把数据用途与验证目标对应起来，先检查样本和复用条件，再纳入实验。",
+        "en": "Match the dataset to a verification goal. Inspect samples and reuse conditions before adding it to an experiment."
+      },
+      "fit": {
+        "zh": "多语言对话与人类反馈资料",
+        "en": "Multilingual conversations and human-feedback data"
+      },
+      "caution": {
+        "zh": "版本与 split、许可范围、重复数据和评测污染",
+        "en": "Version and split, license scope, duplication and evaluation contamination"
+      },
+      "steps": [
+        {
+          "zh": "固定数据 revision、配置与 split，确认样本单位、许可和用途限制。",
+          "en": "Pin the data revision, configuration and split; confirm units, license and use restrictions."
+        },
+        {
+          "zh": "抽查样本、去重与质量，保留训练集和测试集的边界。",
+          "en": "Inspect samples, duplication and quality while preserving train/test boundaries."
+        },
+        {
+          "zh": "记录清洗、筛选和评测步骤；提交可复现的记录与发现的缺口。",
+          "en": "Record cleaning, filtering and evaluation steps; contribute reproducible records and identified gaps."
+        }
+      ],
+      "change": {
+        "zh": "OASST1：样本与复现任务待共建",
+        "en": "OASST1: contribute sample checks and reproductions"
+      }
+    },
+    {
+      "entityId": "hf-dataset:allenai/ai2_arc",
+      "ring": "trial",
+      "why": {
+        "zh": "把数据用途与验证目标对应起来，先检查样本和复用条件，再纳入实验。",
+        "en": "Match the dataset to a verification goal. Inspect samples and reuse conditions before adding it to an experiment."
+      },
+      "fit": {
+        "zh": "科学问答与推理评测",
+        "en": "Science question-answering and reasoning evaluation"
+      },
+      "caution": {
+        "zh": "版本与 split、许可范围、重复数据和评测污染",
+        "en": "Version and split, license scope, duplication and evaluation contamination"
+      },
+      "steps": [
+        {
+          "zh": "固定数据 revision、配置与 split，确认样本单位、许可和用途限制。",
+          "en": "Pin the data revision, configuration and split; confirm units, license and use restrictions."
+        },
+        {
+          "zh": "抽查样本、去重与质量，保留训练集和测试集的边界。",
+          "en": "Inspect samples, duplication and quality while preserving train/test boundaries."
+        },
+        {
+          "zh": "记录清洗、筛选和评测步骤；提交可复现的记录与发现的缺口。",
+          "en": "Record cleaning, filtering and evaluation steps; contribute reproducible records and identified gaps."
+        }
+      ],
+      "change": {
+        "zh": "AI2 ARC：样本与复现任务待共建",
+        "en": "AI2 ARC: contribute sample checks and reproductions"
+      }
+    }
+  ]
+}
