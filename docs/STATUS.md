@@ -2,6 +2,8 @@
 
 基线日期：**2026-10-26**。维护者已接受应用 **1.3.2** 的地图与 AI 雷达体验；视觉 tokens **1.3.0**，产品品牌 **1.1.0**。这三个版本轴独立，不代表新建 Git tag 或 GitHub Release。实时任务状态看 issue，数据新鲜度看来源快照。
 
+新增 **1.5.1 开源星系**：在 1.5.0 研究评审基础上增强深浅主题动态效果，保留双星系、任务发现、候选对照、记录关系路径与可导出研究报告。1.3.2 地图/雷达的已接受基线及指纹保持不变；本轮发布与实际验收见 [发布记录](plans/ecosystem-public-release.md)，此前私有评审见 [研究记录](plans/ecosystem-research-v2.md)。
+
 ## 当前能做什么
 
 | 模块 | 已实现 | 权威入口 |
@@ -9,7 +11,8 @@
 | 全球观测 | 默认地图、地球、快讯；六类十八层，面/气泡/圆点叠加；当前观察标签、排行榜、紧凑概览与脉动 | [Atlas 契约](ATLAS_WORKSPACE.md) |
 | AI 雷达 | 80 软件 + 60 模型 + 20 数据集；双视角各 80 个编号目标；任务筛选、分区聚焦、来源证据、同类对比、试用导出、本机关注 | [雷达契约](AI_RADAR.md) |
 | 统一展示 | 双语品牌、明暗模式、一/两屏；地图全屏、雷达展开及返回；移动端自然流、键盘和减少动态效果 | [复用基线](../design/baselines/observatory-radar-1.3.2.md) |
-| 生态与情报框架 | 月度样本排行、公开样刊、关注和本机导出、事件提交流程 | [情报契约](INTELLIGENCE.md) |
+| 开源生态 | 19,771 个代码仓库 + 24,000 个模型/数据集/应用节点；记录与推断分离；任务搜索、3 项清单、3 跳内路径、月度证据与报告导出 | [星系契约](OPEN_GALAXY.md) |
+| 情报框架 | 公开样刊、关注和本机导出、事件提交流程 | [情报契约](INTELLIGENCE.md) |
 | 数据与发布 | 固定版本来源摘录、OpenDigger 月度样本、官方事件采集与独立人工审核，静态快照与 Pages | [数据契约](DATA_CONTRACTS.md) · [运维](OPERATIONS.md) |
 | 仓库协作 | 双语入口、需求/缺陷/纠错/体验/事件表单、Agent 上下文、PR 验收与交接 | [贡献指南](../CONTRIBUTING.zh-CN.md) · [Harness](HARNESS.md) |
 
@@ -18,6 +21,8 @@
 [PR #29](https://github.com/X-lab2017/open-dipper/pull/29) 合入提交 `6544f48ccaab9a43a7c56069c487f620ec83723e`；[PR CI](https://github.com/X-lab2017/open-dipper/actions/runs/40275718242) 与[生产 CI / Pages](https://github.com/X-lab2017/open-dipper/actions/runs/40275957548) 的构建和浏览器验收通过，部署成功。2026-10-26 正式站点核对 80 个目标、单一指南/来源入口、展开选择和返回。详细回执见 [收尾计划](plans/ai-radar-finish-v3.md) 与 [#26](https://github.com/X-lab2017/open-dipper/issues/26)。
 
 本轮仓库与社区整理已由 [PR #31](https://github.com/X-lab2017/open-dipper/pull/31) 合入，不改产品行为；本轮独立的 [CI / Pages 40278908179](https://github.com/X-lab2017/open-dipper/actions/runs/40278908179) 构建、浏览器回归和部署通过。详细验收与清理回执在 [#30](https://github.com/X-lab2017/open-dipper/issues/30)。过去版本、截图与取舍统一从 [HISTORY.md](HISTORY.md) 查阅。
+
+开源星系 1.5.1 的 [PR #33](https://github.com/X-lab2017/open-dipper/pull/33) 浏览器验收已通过：[CI 40327243123](https://github.com/X-lab2017/open-dipper/actions/runs/40327243123)，产品提交 `ae0883a1cccf1ffbd6c3a4945467a18500cb45f9`。实际验证搜索与重复选择、关系/报告、三格式文件实收、明暗/移动布局、减少动态效果及地图/雷达往返。最终合入与 Pages 生产回执以 PR #33 的检查和发布评论为准；不把 CI 截图或代理验收等同维护者接受新的视觉基线。
 
 ## 仍需共同完成
 

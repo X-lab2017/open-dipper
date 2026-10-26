@@ -17,6 +17,9 @@ Read a plan only for the task it describes. Product work starts from the current
 
 | Plan | Disposition |
 | --- | --- |
+| [Galaxy public release 1.5.1](ecosystem-public-release.md) | Active release validation; brighter paired themes, three-module homepage and incremental Pages integration |
+| [Galaxy research 1.5.0](ecosystem-research-v2.md) | Completed private review; task discovery, paths, shortlist and evidence reports |
+| [Initial galaxy 1.4.0](ecosystem-galaxy.md) | Completed private review; source snapshots and first network implementation |
 | [Repository/community baseline #30](30-community-baseline.md) | Completed; merged by PR #31, CI/Pages and cleanup receipts in issue #30 |
 | [Radar finishing 1.3.2](ai-radar-finish-v3.md) | Completed and published; current accepted radar behavior |
 | [Radar density 1.3.1](ai-radar-density-v2.md) | Completed; retained as the density/numbering decision record |
