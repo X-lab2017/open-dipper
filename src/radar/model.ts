@@ -9,7 +9,7 @@ export type Source = {id:string;name:string;url:string;retrievedAt:string;observ
 export type Catalog = {schemaVersion:1;assembledAt:string;sources:Source[];entities:Entity[]};
 export type Assessment = {entityId:string;ring:Ring;why:Copy;fit:Copy;caution:Copy;steps:Copy[];change:Copy};
 export type Demo = {schemaVersion:1;fixtureDate:string;provenance:'demo';assessments:Assessment[]};
-export type RadarState = {lens:Lens;scenario:Scenario;view:'radar'|'list';query:string;categories:number[];ring:'all'|Ring;kind:'all'|Kind;selected:string;tabs:string[];compare:string[];watched:string[];demo:boolean;guideHidden:boolean;onlyWatched:boolean;paused:boolean;sector:number|null};
+export type RadarState = {lens:Lens;scenario:Scenario;view:'radar'|'list';query:string;categories:number[];ring:'all'|Ring;kind:'all'|Kind;selected:string;tabs:string[];compare:string[];watched:string[];demo:boolean;onlyWatched:boolean;paused:boolean;sector:number|null;expanded:boolean};
 export const ringOrder:Ring[]=['adopt','trial','assess'];
 export const ringNames:Record<Ring,Copy>={adopt:{zh:'采用参考',en:'Adoption reference'},trial:{zh:'建议试用',en:'Worth a trial'},assess:{zh:'持续观察',en:'Keep watching'}};
 export const kindNames:Record<Kind,Copy>={software:{zh:'软件项目',en:'Software'},model:{zh:'模型版本',en:'Model'},dataset:{zh:'数据集',en:'Dataset'}};
@@ -36,7 +36,7 @@ export function validateDemo(x:any,catalog:Catalog):x is Demo{
 }
 export function freshState(raw?:unknown):RadarState{
  const x=raw&&typeof raw==='object'?raw as any:{};
- return {lens:x.lens==='assets'?'assets':'software',scenario:Object.hasOwn(scenarios,x.scenario??'')?x.scenario:'all',view:x.view==='list'?'list':'radar',query:'',categories:[0,1,2,3],ring:'all',kind:'all',selected:typeof x.selected==='string'?x.selected:'',tabs:[],compare:[],watched:Array.isArray(x.watched)?[...new Set(x.watched.filter(idOK))].slice(0,200) as string[]:[],demo:x.demo!==false,guideHidden:x.guideHidden===true,onlyWatched:false,paused:x.paused===true,sector:null};
+ return {lens:x.lens==='assets'?'assets':'software',scenario:Object.hasOwn(scenarios,x.scenario??'')?x.scenario:'all',view:x.view==='list'?'list':'radar',query:'',categories:[0,1,2,3],ring:'all',kind:'all',selected:typeof x.selected==='string'?x.selected:'',tabs:[],compare:[],watched:Array.isArray(x.watched)?[...new Set(x.watched.filter(idOK))].slice(0,200) as string[]:[],demo:x.demo!==false,onlyWatched:false,paused:x.paused===true,sector:null,expanded:false};
 }
 export function filteredEntities(catalog:Catalog,state:RadarState,demo:Demo|null):Entity[]{
  const q=state.query.trim().toLocaleLowerCase();

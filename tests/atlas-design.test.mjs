@@ -25,3 +25,10 @@ test('every layer has paired text and marker colors for both themes',()=>{
  assert.equal(Object.keys(tokens.layerTones).length,18);
  for(const [layer,tones] of Object.entries(tokens.layerTones))for(const mode of ['dark','light'])assert.ok(contrast(tones[mode],tokens.themes[mode]['surface-panel'])>=4.5,`${mode} ${layer}`);
 });
+
+test('radar categories and numbered targets retain text contrast in both themes',()=>{
+ for(const [mode,p] of Object.entries(tokens.themes))for(const key of ['chart-activity','chart-contribution','event-community','event-foundation']){
+  assert.ok(contrast(p[key],p['surface-panel'])>=4.5,`${mode} ${key} label`);
+  assert.ok(contrast(p[key],p['text-inverse'])>=4.5,`${mode} ${key} target number`);
+ }
+});
