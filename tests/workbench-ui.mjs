@@ -53,12 +53,14 @@ try {
       for(const [width,height] of [[1280,720],[1024,768],[390,844]]) {
         await page.setViewportSize({width,height});
         await expect(earth).toBeVisible();
+        await expect(earth).not.toHaveAttribute('data-camera',/NaN|Infinity/);
         await expect.poll(()=>page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
         const title=page.locator('.workspace-heading h1');
         expect(await title.evaluate(e=>parseFloat(getComputedStyle(e).fontSize))).toBeGreaterThanOrEqual(21);
         expect(await page.locator('.map-measure').evaluate(e=>parseFloat(getComputedStyle(e).fontSize))).toBeGreaterThanOrEqual(16);
         await page.screenshot({path:`screenshots/workbench-${light?'light':'dark'}-${lang}-${width}.png`,fullPage:true});
         if(width===390) {
+          const camera=await earth.getAttribute('data-camera');
           await page.locator('[data-mobile=layers]').click();
           await expect(page.locator('.left-panel')).toBeVisible();
           await expect(earth).toBeHidden();
@@ -66,6 +68,8 @@ try {
           await expect(page.locator('.right-panel')).toBeVisible();
           await expect(page.locator('.left-panel')).toBeHidden();
           await page.locator('[data-mobile=map]').click();
+          await expect(earth).toHaveAttribute('data-camera',camera);
+          await expect(earth).not.toHaveAttribute('data-camera',/NaN|Infinity/);
         }
       }
       if(lang==='en')await page.locator('#language-toggle').click();

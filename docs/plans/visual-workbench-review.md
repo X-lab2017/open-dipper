@@ -1,6 +1,6 @@
 # Visual workbench upgrade — private review
 
-- Execution state: completed (private review delivery; maintainer acceptance pending)
+- Execution state: active (final screenshot review found a mobile camera lifecycle defect)
 - Baseline: `6cb118b6896c044b0cdd510f7a09ee869ba8b998`
 - Branch: `design/observatory-review-v2`
 - Authorization: implement a systematic interface/visualization upgrade and provide an isolated review; do not merge or deploy GitHub Pages.
@@ -62,3 +62,7 @@ Await maintainer visual review. Apply feedback on this branch and update the sam
 - Visual QA corrected compressed rank rows, old mobile title overrides and unnecessary topbar wrapping. The first CI failure was an ambiguous test locator after adding a second source entry; the test now targets the primary control explicitly.
 
 Limitations: physical touch devices and a complete assistive-technology audit are not covered. This private review serves a fixed build/snapshot; the existing scheduled collector continues independently on the production repository. Maintainer design acceptance and public release remain pending.
+
+## Final screenshot follow-up
+
+Reviewing the successful CI screenshots revealed a blank canvas after mobile map/layers/overview toggles: ResizeObserver processed a hidden zero-size map, causing division by zero in the saved camera. The resize handler now ignores hidden dimensions, and the browser matrix asserts finite, unchanged camera coordinates after each round trip. This follow-up requires a new successful CI and replacement private version before delivery.
