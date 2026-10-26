@@ -67,7 +67,7 @@ Managed-browser capture of the published route on 2026-10-26, after [PR #28](htt
 
 ## Finishing review — 1.3.2
 
-The accepted dense radar remains the baseline. The [finishing plan](plans/ai-radar-finish-v3.md) records theme contrast, concise guidance, common observatory controls and expanded-view interaction fixes. Number and label contrast is checked for all four categories in both themes. Data snapshots and brand artwork are unchanged. Release receipts belong in issue #26.
+The accepted dense radar remains the baseline. The [finishing plan](plans/ai-radar-finish-v3.md) records theme contrast, concise guidance, common observatory controls and expanded-view interaction fixes. Number and label contrast is checked for all four categories in both themes. Data snapshots and brand artwork are unchanged. [PR #29](https://github.com/X-lab2017/open-dipper/pull/29) delivered application 1.3.2; [production CI / Pages 40275957548](https://github.com/X-lab2017/open-dipper/actions/runs/40275957548) passed build, browser acceptance and deployment. The published route was checked on 2026-10-26 for 80 targets, concise entry points, retained expanded selection and return. See the finishing plan and issue #26 for the complete receipt.
 
 ### Theme review captures
 
