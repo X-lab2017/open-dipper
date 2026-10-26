@@ -10,7 +10,8 @@ try {
   const earth=page.locator('#earth');
   await expect(earth).toHaveAttribute('data-fill-metric','developers');
   await expect(page.locator('#perspective')).toHaveValue('overview');
-  await expect(page.locator('[data-layer]:checked')).toHaveCount(5);
+  // Collapsed tree groups unmount their checkboxes; inspector tabs represent every active layer.
+  await expect(page.locator('.inspector-tabs [role=tab]')).toHaveText(['活跃开发者','模型资产','企业','标杆项目','算力设施']);
   await expect(earth).toHaveAttribute('data-bubble-layer','models');
   await expect(page.locator('#observation-panel')).toContainText('标杆项目');
   await expect(page.locator('.scope-stats b')).toHaveText(['5','3','11']);
