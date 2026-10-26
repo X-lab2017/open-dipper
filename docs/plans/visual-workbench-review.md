@@ -1,6 +1,6 @@
 # Visual workbench upgrade — private review
 
-- Execution state: active (final screenshot review found a mobile camera lifecycle defect)
+- Execution state: completed (private review delivered; maintainer acceptance pending)
 - Baseline: `6cb118b6896c044b0cdd510f7a09ee869ba8b998`
 - Branch: `design/observatory-review-v2`
 - Authorization: implement a systematic interface/visualization upgrade and provide an isolated review; do not merge or deploy GitHub Pages.
@@ -53,11 +53,11 @@ Await maintainer visual review. Apply feedback on this branch and update the sam
 ## Delivered evidence
 
 - Draft review: https://github.com/X-lab2017/open-dipper/pull/37
-- Application commit: `74cf06fb61b913028f65a6b350ecb182ef65531d`.
-- Full successful CI: https://github.com/X-lab2017/open-dipper/actions/runs/40405128447 — typecheck, deterministic checks, build, Atlas/workspace/workbench, portal/radar/galaxy, panorama and analysis browser suites all passed. The Pages deploy job was skipped.
-- QA artifact: `browser-qa-83dddfa25ece1e3988c25f178dce9e18fab1c4ad` (7-day GitHub retention). Includes the 12-case Atlas theme/language/width matrix and existing module/export evidence.
-- Private review: https://opendipper-workbench-review-20261026.token4all.chatgpt.site — owner-only deployment succeeded on 2026-10-26. Browser access correctly shows the ChatGPT sign-in gate when signed out.
-- Private Site source commit: `74be3bc13a813d1868f3e83b097024a2d742aa93`, generated from the application commit above. Its asset bytes match the validated build; review packaging only adds noindex and omits Pages CNAME.
+- Application commit: `53c46569b705db1b842b5e7d6394f4763c61001e`.
+- Full successful CI: https://github.com/X-lab2017/open-dipper/actions/runs/40406912236 — typecheck, deterministic checks, build, Atlas/workspace/workbench, portal/radar/galaxy, panorama and analysis browser suites all passed. The Pages deploy job was skipped.
+- QA artifact: `browser-qa-12f813e2a11016c76afa17b608ac5c2cc3bb7611` (7-day GitHub retention). Includes the 12-case Atlas theme/language/width matrix and existing module/export evidence.
+- Private review: https://opendipper-workbench-review-20261026.token4all.chatgpt.site — owner-only deployment succeeded on 2026-10-26 at 21:46 UTC. Browser access correctly shows the ChatGPT sign-in gate when signed out.
+- Private Site source commit: `5f1e482e849d03c3317fae3500aabc1ffe5076c6`, generated from the application commit above. Its asset bytes match the validated build; review packaging only adds noindex and omits Pages CNAME.
 - Local checks: `npm run typecheck`, `npm test`, `npm run build`, `git diff --check` passed. No data refresh, dependency addition, brand replacement or production workflow edit.
 - Visual QA corrected compressed rank rows, old mobile title overrides and unnecessary topbar wrapping. The first CI failure was an ambiguous test locator after adding a second source entry; the test now targets the primary control explicitly.
 
@@ -65,4 +65,4 @@ Limitations: physical touch devices and a complete assistive-technology audit ar
 
 ## Final screenshot follow-up
 
-Reviewing the successful CI screenshots revealed a blank canvas after mobile map/layers/overview toggles: ResizeObserver processed a hidden zero-size map, causing division by zero in the saved camera. The resize handler now ignores hidden dimensions, and the browser matrix asserts finite, unchanged camera coordinates after each round trip. This follow-up requires a new successful CI and replacement private version before delivery.
+Reviewing the successful CI screenshots revealed a blank canvas after mobile map/layers/overview toggles: ResizeObserver processed a hidden zero-size map, causing division by zero in the saved camera. The resize handler now ignores hidden dimensions, and the browser matrix asserts finite, unchanged camera coordinates after each round trip. The follow-up passed full CI, including the new camera assertions, and mobile light/English screenshots show the map restored. The private build was replaced with the final verified application. Tablet scope/news alignment was refined; intrinsic news height is retained so both news and event tabs remain visible.
