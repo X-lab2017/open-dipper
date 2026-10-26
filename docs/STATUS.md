@@ -17,7 +17,7 @@
 
 [PR #29](https://github.com/X-lab2017/open-dipper/pull/29) 合入提交 `6544f48ccaab9a43a7c56069c487f620ec83723e`；[PR CI](https://github.com/X-lab2017/open-dipper/actions/runs/40275718242) 与[生产 CI / Pages](https://github.com/X-lab2017/open-dipper/actions/runs/40275957548) 的构建和浏览器验收通过，部署成功。2026-10-26 正式站点核对 80 个目标、单一指南/来源入口、展开选择和返回。详细回执见 [收尾计划](plans/ai-radar-finish-v3.md) 与 [#26](https://github.com/X-lab2017/open-dipper/issues/26)。
 
-本轮仓库与社区整理不改产品行为；独立验收和交付在 [#30](https://github.com/X-lab2017/open-dipper/issues/30)。不能把上面的产品 CI 当成本轮文档变更的验证。过去版本、截图与取舍统一从 [HISTORY.md](HISTORY.md) 查阅。
+本轮仓库与社区整理已由 [PR #31](https://github.com/X-lab2017/open-dipper/pull/31) 合入，不改产品行为；本轮独立的 [CI / Pages 40278908179](https://github.com/X-lab2017/open-dipper/actions/runs/40278908179) 构建、浏览器回归和部署通过。详细验收与清理回执在 [#30](https://github.com/X-lab2017/open-dipper/issues/30)。过去版本、截图与取舍统一从 [HISTORY.md](HISTORY.md) 查阅。
 
 ## 仍需共同完成
 

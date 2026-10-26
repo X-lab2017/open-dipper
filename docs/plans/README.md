@@ -17,7 +17,7 @@ Read a plan only for the task it describes. Product work starts from the current
 
 | Plan | Disposition |
 | --- | --- |
-| [Repository/community baseline #30](30-community-baseline.md) | Current maintenance work; live completion state and PR in issue #30 |
+| [Repository/community baseline #30](30-community-baseline.md) | Completed; merged by PR #31, CI/Pages and cleanup receipts in issue #30 |
 | [Radar finishing 1.3.2](ai-radar-finish-v3.md) | Completed and published; current accepted radar behavior |
 | [Radar density 1.3.1](ai-radar-density-v2.md) | Completed; retained as the density/numbering decision record |
 | [Radar implementation 1.3.0](ai-radar-implementation.md) | Completed; original data/interaction delivery |

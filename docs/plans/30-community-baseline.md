@@ -1,7 +1,7 @@
 # Repository and community baseline
 
 - Issue: [#30](https://github.com/X-lab2017/open-dipper/issues/30)
-- Execution state: active (local work verified; PR/CI publication pending)
+- Execution state: completed (merged; CI and Pages verified)
 - Started: 2026-10-26
 - Base: `391112e` (preserve scheduled data snapshots)
 - Scope: repository experience, accepted 1.3.2 baseline, current context, historical separation, contribution intake and recoverable cleanup. No product runtime, observed data or license change.
@@ -26,4 +26,14 @@ Local work complete. `npm test`, `npm run build`, `npm run docs:check` and `git 
 
 Self-review found current `src/atlas.ts` startup still requires twelve snapshots, despite older documents claiming independent optional degradation. Corrected the affected contracts and linked existing #10 rather than changing runtime or claiming that reliability work complete. Removed draft files have no runtime/build/test consumers; pinned recovery links remain.
 
-PR/CI/merge receipts will be recorded in issue #30. This is repository work, with no application behavior or source-data change. AI assistance: Codex inspects, edits, validates and publishes under the maintainer's authorization; no independent review or automatic issue dispatcher is claimed.
+PR/CI/merge receipts are recorded below and in issue #30. This is repository work, with no application behavior or source-data change. AI assistance: Codex inspects, edits, validates and publishes under the maintainer's authorization; no independent review or automatic issue dispatcher is claimed.
+
+
+## Delivery receipt
+
+- [PR #31](https://github.com/X-lab2017/open-dipper/pull/31) merged as `ea256bb655c279af47a25e915a4cc61ca1fb789f`.
+- [PR CI 40278723236](https://github.com/X-lab2017/open-dipper/actions/runs/40278723236): build and browser regression passed; deployment correctly skipped for PRs.
+- [Production CI / Pages 40278908179](https://github.com/X-lab2017/open-dipper/actions/runs/40278908179): build, browser regression and deployment succeeded, publishing the updated generated context and resource package.
+- Main-branch README was read back with the new 1.3.2/experience-feedback entry. Generated public context points to the accepted baseline and production task paths. No runtime, observed-data, brand or workflow change was included in this PR.
+- Issue #26 is closed as an accepted product baseline; #8, #10 and #22 now distinguish completed visual work from remaining implementation/data scope. Historical draft links in #26 point to a fixed pre-cleanup commit.
+- First-contribution tasks #12, #13 and #19 remain open and are linked from the contribution guide. No new owner, deadline, service commitment or license grant was invented.
