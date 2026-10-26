@@ -63,3 +63,7 @@
 ## 2026-10-25 — Focused observed evidence, independent source clocks
 
 Issue [#20](https://github.com/X-lab2017/open-dipper/issues/20) adds four sourced facts, three global map measures and one switchable AI supply chart. Preserve the existing scene and OpenDigger project lens. Retain pinned extracts and an offline adapter, not report UI code. Country periods remain unknown; platform totals and monthly additions retain separate timestamps. Optional snapshot failure cannot enable simulated values. See [DATA_EVIDENCE.md](DATA_EVIDENCE.md); this is not completion of monthly geography #9.
+
+## 2026-10-26 — Promote the multilayer review workspace
+
+Use `src/atlas.ts` as the production entry while preserving analysis/panorama routes and collection contracts. Separate area fills, proportional regional bubbles and circular located entities; optional exclusive developer/asset groups coexist with additive point layers. Global totals stay fixed; inspection tabs separate unlike measures. One token registry drives both themes, Canvas and legends. Default north-up map center 10° E / 36° N balances the US and China without a geographic rotation or a Pacific-only view. See [contract](ATLAS_WORKSPACE.md) and [release validation](plans/atlas-release-v9.md).

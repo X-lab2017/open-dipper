@@ -1,0 +1,2172 @@
+{
+  "source": {
+    "url": "https://www.x-lab.info/2026-Global-Open-Source-Development-Report/2026/zh/chapters/02/#ch02-s01",
+    "element": "vmap-data",
+    "retrievedAt": "2026-10-25T11:45:12.383357+00:00",
+    "sha256": "b0b56aefa65dae43f901200eab5c5c7ce14e40a7154cff4fdaf5d616737e83af",
+    "attribution": "GOSD 2026 / OpenDigger / OpenShare · CC BY 4.0"
+  },
+  "period": {
+    "start": "2025-07-01",
+    "end_exclusive": "2026-07-01",
+    "time_dimension": "report_year",
+    "report_year": 2026,
+    "label": "2025 年 7 月 1 日至 2026 年 6 月 30 日"
+  },
+  "scope": "GitHub · 2026报告年度",
+  "globalActive": 28903652,
+  "globalTotal": 193896100,
+  "rows": [
+    {
+      "code": "US",
+      "rawCode": "USA",
+      "name": "United States",
+      "nameZh": "美国",
+      "value": 4941448,
+      "longitude": -97.482602,
+      "latitude": 39.538479
+    },
+    {
+      "code": "IN",
+      "rawCode": "IND",
+      "name": "India",
+      "nameZh": "印度",
+      "value": 2850885,
+      "longitude": 79.358105,
+      "latitude": 22.686852
+    },
+    {
+      "code": "CN",
+      "rawCode": "CHN",
+      "name": "China",
+      "nameZh": "中国",
+      "value": 2504825,
+      "longitude": 106.337289,
+      "latitude": 32.498178
+    },
+    {
+      "code": "BR",
+      "rawCode": "BRA",
+      "name": "Brazil",
+      "nameZh": "巴西",
+      "value": 1934525,
+      "longitude": -49.55945,
+      "latitude": -12.098687
+    },
+    {
+      "code": "DE",
+      "rawCode": "DEU",
+      "name": "Germany",
+      "nameZh": "德国",
+      "value": 1419047,
+      "longitude": 9.678348,
+      "latitude": 50.961733
+    },
+    {
+      "code": "GB",
+      "rawCode": "GBR",
+      "name": "United Kingdom",
+      "nameZh": "英国",
+      "value": 1133680,
+      "longitude": -2.116346,
+      "latitude": 54.402739
+    },
+    {
+      "code": "CA",
+      "rawCode": "CAN",
+      "name": "Canada",
+      "nameZh": "加拿大",
+      "value": 906203,
+      "longitude": -101.9107,
+      "latitude": 60.324287
+    },
+    {
+      "code": "FR",
+      "rawCode": "FRA",
+      "name": "France",
+      "nameZh": "法国",
+      "value": 875050,
+      "longitude": 2.552275,
+      "latitude": 46.696113
+    },
+    {
+      "code": "RU",
+      "rawCode": "RUS",
+      "name": "Russia",
+      "nameZh": "俄罗斯",
+      "value": 618058,
+      "longitude": 44.686469,
+      "latitude": 58.249357
+    },
+    {
+      "code": "JP",
+      "rawCode": "JPN",
+      "name": "Japan",
+      "nameZh": "日本",
+      "value": 490263,
+      "longitude": 138.44217,
+      "latitude": 36.142538
+    },
+    {
+      "code": "KR",
+      "rawCode": "KOR",
+      "name": "Korea",
+      "nameZh": "韩国",
+      "value": 486973,
+      "longitude": 128.129504,
+      "latitude": 36.384924
+    },
+    {
+      "code": "ID",
+      "rawCode": "IDN",
+      "name": "Indonesia",
+      "nameZh": "印度尼西亚",
+      "value": 486685,
+      "longitude": 101.892949,
+      "latitude": -0.954404
+    },
+    {
+      "code": "PL",
+      "rawCode": "POL",
+      "name": "Poland",
+      "nameZh": "波兰",
+      "value": 457197,
+      "longitude": 19.490468,
+      "latitude": 51.990316
+    },
+    {
+      "code": "AU",
+      "rawCode": "AUS",
+      "name": "Australia",
+      "nameZh": "澳大利亚",
+      "value": 457013,
+      "longitude": 134.04972,
+      "latitude": -24.129522
+    },
+    {
+      "code": "NL",
+      "rawCode": "NLD",
+      "name": "Netherlands",
+      "nameZh": "荷兰",
+      "value": 451941,
+      "longitude": 5.61144,
+      "latitude": 52.422211
+    },
+    {
+      "code": "ES",
+      "rawCode": "ESP",
+      "name": "Spain",
+      "nameZh": "西班牙",
+      "value": 450107,
+      "longitude": -3.464718,
+      "latitude": 40.090953
+    },
+    {
+      "code": "IT",
+      "rawCode": "ITA",
+      "name": "Italy",
+      "nameZh": "意大利",
+      "value": 365784,
+      "longitude": 11.076907,
+      "latitude": 44.732482
+    },
+    {
+      "code": "TR",
+      "rawCode": "TUR",
+      "name": "Turkey",
+      "nameZh": "土耳其",
+      "value": 349008,
+      "longitude": 34.508268,
+      "latitude": 39.345388
+    },
+    {
+      "code": "AR",
+      "rawCode": "ARG",
+      "name": "Argentina",
+      "nameZh": "阿根廷",
+      "value": 321329,
+      "longitude": -64.173331,
+      "latitude": -33.501159
+    },
+    {
+      "code": "UA",
+      "rawCode": "UKR",
+      "name": "Ukraine",
+      "nameZh": "乌克兰",
+      "value": 321119,
+      "longitude": 32.140865,
+      "latitude": 49.724739
+    },
+    {
+      "code": "VN",
+      "rawCode": "VNM",
+      "name": "Vietnam",
+      "nameZh": "越南",
+      "value": 308092,
+      "longitude": 105.387292,
+      "latitude": 21.715416
+    },
+    {
+      "code": "SE",
+      "rawCode": "SWE",
+      "name": "Sweden",
+      "nameZh": "瑞典",
+      "value": 289521,
+      "longitude": 19.01705,
+      "latitude": 65.85918
+    },
+    {
+      "code": "BD",
+      "rawCode": "BGD",
+      "name": "Bangladesh",
+      "nameZh": "孟加拉国",
+      "value": 277830,
+      "longitude": 89.684963,
+      "latitude": 24.214956
+    },
+    {
+      "code": "PK",
+      "rawCode": "PAK",
+      "name": "Pakistan",
+      "nameZh": "巴基斯坦",
+      "value": 258460,
+      "longitude": 68.545632,
+      "latitude": 29.328389
+    },
+    {
+      "code": "CH",
+      "rawCode": "CHE",
+      "name": "Switzerland",
+      "nameZh": "瑞士",
+      "value": 251147,
+      "longitude": 7.463965,
+      "latitude": 46.719114
+    },
+    {
+      "code": "MX",
+      "rawCode": "MEX",
+      "name": "Mexico",
+      "nameZh": "墨西哥",
+      "value": 246573,
+      "longitude": -102.289448,
+      "latitude": 23.919988
+    },
+    {
+      "code": "NG",
+      "rawCode": "NGA",
+      "name": "Nigeria",
+      "nameZh": "尼日利亚",
+      "value": 240282,
+      "longitude": 7.50322,
+      "latitude": 9.439799
+    },
+    {
+      "code": "CO",
+      "rawCode": "COL",
+      "name": "Colombia",
+      "nameZh": "哥伦比亚",
+      "value": 236508,
+      "longitude": -73.174347,
+      "latitude": 3.373111
+    },
+    {
+      "code": "PT",
+      "rawCode": "PRT",
+      "name": "Portugal",
+      "nameZh": "葡萄牙",
+      "value": 185434,
+      "longitude": -8.271754,
+      "latitude": 39.606675
+    },
+    {
+      "code": "EG",
+      "rawCode": "EGY",
+      "name": "Egypt",
+      "nameZh": "埃及",
+      "value": 174019,
+      "longitude": 29.445837,
+      "latitude": 26.186173
+    },
+    {
+      "code": "NO",
+      "rawCode": "NOR",
+      "name": "Norway",
+      "nameZh": "挪威",
+      "value": 156169,
+      "longitude": 9.679975,
+      "latitude": 61.357092
+    },
+    {
+      "code": "BE",
+      "rawCode": "BEL",
+      "name": "Belgium",
+      "nameZh": "比利时",
+      "value": 155370,
+      "longitude": 4.800448,
+      "latitude": 50.785392
+    },
+    {
+      "code": "SG",
+      "rawCode": "SGP",
+      "name": "Singapore",
+      "nameZh": "新加坡",
+      "value": 151648,
+      "longitude": 103.816925,
+      "latitude": 1.366587
+    },
+    {
+      "code": "DK",
+      "rawCode": "DNK",
+      "name": "Denmark",
+      "nameZh": "丹麦",
+      "value": 147978,
+      "longitude": 9.018163,
+      "latitude": 55.966965
+    },
+    {
+      "code": "CZ",
+      "rawCode": "CZE",
+      "name": "Czech Rep.",
+      "nameZh": "捷克",
+      "value": 147493,
+      "longitude": 15.377555,
+      "latitude": 49.882364
+    },
+    {
+      "code": "AT",
+      "rawCode": "AUT",
+      "name": "Austria",
+      "nameZh": "奥地利",
+      "value": 146484,
+      "longitude": 14.130515,
+      "latitude": 47.518859
+    },
+    {
+      "code": "IR",
+      "rawCode": "IRN",
+      "name": "Iran",
+      "nameZh": "伊朗",
+      "value": 136969,
+      "longitude": 54.931495,
+      "latitude": 32.166225
+    },
+    {
+      "code": "FI",
+      "rawCode": "FIN",
+      "name": "Finland",
+      "nameZh": "芬兰",
+      "value": 136799,
+      "longitude": 27.276449,
+      "latitude": 63.252361
+    },
+    {
+      "code": "LK",
+      "rawCode": "LKA",
+      "name": "Sri Lanka",
+      "nameZh": "斯里兰卡",
+      "value": 129079,
+      "longitude": 80.704823,
+      "latitude": 7.581097
+    },
+    {
+      "code": "KE",
+      "rawCode": "KEN",
+      "name": "Kenya",
+      "nameZh": "肯尼亚",
+      "value": 128280,
+      "longitude": 37.907632,
+      "latitude": 0.549043
+    },
+    {
+      "code": "PH",
+      "rawCode": "PHL",
+      "name": "Philippines",
+      "nameZh": "菲律宾",
+      "value": 127467,
+      "longitude": 122.465,
+      "latitude": 11.198
+    },
+    {
+      "code": "ZA",
+      "rawCode": "ZAF",
+      "name": "South Africa",
+      "nameZh": "南非",
+      "value": 116904,
+      "longitude": 23.665734,
+      "latitude": -29.708776
+    },
+    {
+      "code": "RO",
+      "rawCode": "ROU",
+      "name": "Romania",
+      "nameZh": "罗马尼亚",
+      "value": 113352,
+      "longitude": 24.972624,
+      "latitude": 45.733237
+    },
+    {
+      "code": "IL",
+      "rawCode": "ISR",
+      "name": "Israel",
+      "nameZh": "以色列",
+      "value": 111268,
+      "longitude": 34.847915,
+      "latitude": 30.911148
+    },
+    {
+      "code": "CL",
+      "rawCode": "CHL",
+      "name": "Chile",
+      "nameZh": "智利",
+      "value": 106000,
+      "longitude": -72.318871,
+      "latitude": -38.151771
+    },
+    {
+      "code": "NZ",
+      "rawCode": "NZL",
+      "name": "New Zealand",
+      "nameZh": "新西兰",
+      "value": 104820,
+      "longitude": 172.787,
+      "latitude": -39.759
+    },
+    {
+      "code": "TH",
+      "rawCode": "THA",
+      "name": "Thailand",
+      "nameZh": "泰国",
+      "value": 104689,
+      "longitude": 101.073198,
+      "latitude": 15.45974
+    },
+    {
+      "code": "GR",
+      "rawCode": "GRC",
+      "name": "Greece",
+      "nameZh": "希腊",
+      "value": 87848,
+      "longitude": 21.72568,
+      "latitude": 39.492763
+    },
+    {
+      "code": "PE",
+      "rawCode": "PER",
+      "name": "Peru",
+      "nameZh": "秘鲁",
+      "value": 85935,
+      "longitude": -72.90016,
+      "latitude": -12.976679
+    },
+    {
+      "code": "HU",
+      "rawCode": "HUN",
+      "name": "Hungary",
+      "nameZh": "匈牙利",
+      "value": 84729,
+      "longitude": 19.447867,
+      "latitude": 47.086841
+    },
+    {
+      "code": "NP",
+      "rawCode": "NPL",
+      "name": "Nepal",
+      "nameZh": "尼泊尔",
+      "value": 83812,
+      "longitude": 83.639914,
+      "latitude": 28.297925
+    },
+    {
+      "code": "BG",
+      "rawCode": "BGR",
+      "name": "Bulgaria",
+      "nameZh": "保加利亚",
+      "value": 74087,
+      "longitude": 25.15709,
+      "latitude": 42.508785
+    },
+    {
+      "code": "MY",
+      "rawCode": "MYS",
+      "name": "Malaysia",
+      "nameZh": "马来西亚",
+      "value": 73524,
+      "longitude": 113.83708,
+      "latitude": 2.528667
+    },
+    {
+      "code": "IE",
+      "rawCode": "IRL",
+      "name": "Ireland",
+      "nameZh": "爱尔兰",
+      "value": 73406,
+      "longitude": -7.798588,
+      "latitude": 53.078726
+    },
+    {
+      "code": "RS",
+      "rawCode": "SRB",
+      "name": "Serbia",
+      "nameZh": "塞尔维亚",
+      "value": 68242,
+      "longitude": 20.787989,
+      "latitude": 44.189919
+    },
+    {
+      "code": "BY",
+      "rawCode": "BLR",
+      "name": "Belarus",
+      "nameZh": "白俄罗斯",
+      "value": 65935,
+      "longitude": 28.417701,
+      "latitude": 53.821888
+    },
+    {
+      "code": "AE",
+      "rawCode": "ARE",
+      "name": "United Arab Emirates",
+      "nameZh": "阿拉伯联合酋长国",
+      "value": 65464,
+      "longitude": 54.547256,
+      "latitude": 23.466285
+    },
+    {
+      "code": "MA",
+      "rawCode": "MAR",
+      "name": "Morocco",
+      "nameZh": "摩洛哥",
+      "value": 62790,
+      "longitude": -7.187296,
+      "latitude": 31.650723
+    },
+    {
+      "code": "UZ",
+      "rawCode": "UZB",
+      "name": "Uzbekistan",
+      "nameZh": "乌兹别克斯坦",
+      "value": 48976,
+      "longitude": 64.005429,
+      "latitude": 41.693603
+    },
+    {
+      "code": "GH",
+      "rawCode": "GHA",
+      "name": "Ghana",
+      "nameZh": "加纳",
+      "value": 48688,
+      "longitude": -1.036941,
+      "latitude": 7.717639
+    },
+    {
+      "code": "KZ",
+      "rawCode": "KAZ",
+      "name": "Kazakhstan",
+      "nameZh": "哈萨克斯坦",
+      "value": 44887,
+      "longitude": 68.685548,
+      "latitude": 49.054149
+    },
+    {
+      "code": "GE",
+      "rawCode": "GEO",
+      "name": "Georgia",
+      "nameZh": "格鲁吉亚",
+      "value": 41794,
+      "longitude": 43.735724,
+      "latitude": 41.870087
+    },
+    {
+      "code": "VE",
+      "rawCode": "VEN",
+      "name": "Venezuela",
+      "nameZh": "委内瑞拉",
+      "value": 41126,
+      "longitude": -64.599381,
+      "latitude": 7.182476
+    },
+    {
+      "code": "TN",
+      "rawCode": "TUN",
+      "name": "Tunisia",
+      "nameZh": "突尼斯",
+      "value": 39173,
+      "longitude": 9.007881,
+      "latitude": 33.687263
+    },
+    {
+      "code": "HR",
+      "rawCode": "HRV",
+      "name": "Croatia",
+      "nameZh": "克罗地亚",
+      "value": 39003,
+      "longitude": 16.37241,
+      "latitude": 45.805799
+    },
+    {
+      "code": "ET",
+      "rawCode": "ETH",
+      "name": "Ethiopia",
+      "nameZh": "埃塞俄比亚",
+      "value": 38584,
+      "longitude": 39.0886,
+      "latitude": 8.032795
+    },
+    {
+      "code": "LT",
+      "rawCode": "LTU",
+      "name": "Lithuania",
+      "nameZh": "立陶宛",
+      "value": 38400,
+      "longitude": 24.089932,
+      "latitude": 55.103703
+    },
+    {
+      "code": "SK",
+      "rawCode": "SVK",
+      "name": "Slovakia",
+      "nameZh": "斯洛伐克",
+      "value": 38217,
+      "longitude": 19.049868,
+      "latitude": 48.734044
+    },
+    {
+      "code": "EC",
+      "rawCode": "ECU",
+      "name": "Ecuador",
+      "nameZh": "厄瓜多尔",
+      "value": 37692,
+      "longitude": -78.188375,
+      "latitude": -1.259076
+    },
+    {
+      "code": "EE",
+      "rawCode": "EST",
+      "name": "Estonia",
+      "nameZh": "爱沙尼亚",
+      "value": 36591,
+      "longitude": 25.867126,
+      "latitude": 58.724865
+    },
+    {
+      "code": "SA",
+      "rawCode": "SAU",
+      "name": "Saudi Arabia",
+      "nameZh": "沙特阿拉伯",
+      "value": 35517,
+      "longitude": 44.6996,
+      "latitude": 23.806908
+    },
+    {
+      "code": "UY",
+      "rawCode": "URY",
+      "name": "Uruguay",
+      "nameZh": "乌拉圭",
+      "value": 33498,
+      "longitude": -55.966942,
+      "latitude": -32.961127
+    },
+    {
+      "code": "CR",
+      "rawCode": "CRI",
+      "name": "Costa Rica",
+      "nameZh": "哥斯达黎加",
+      "value": 32424,
+      "longitude": -84.077922,
+      "latitude": 10.0651
+    },
+    {
+      "code": "DZ",
+      "rawCode": "DZA",
+      "name": "Algeria",
+      "nameZh": "阿尔及利亚",
+      "value": 28794,
+      "longitude": 2.808241,
+      "latitude": 27.397406
+    },
+    {
+      "code": "SI",
+      "rawCode": "SVN",
+      "name": "Slovenia",
+      "nameZh": "斯洛文尼亚",
+      "value": 26434,
+      "longitude": 14.915312,
+      "latitude": 46.06076
+    },
+    {
+      "code": "AM",
+      "rawCode": "ARM",
+      "name": "Armenia",
+      "nameZh": "亚美尼亚",
+      "value": 25071,
+      "longitude": 44.800564,
+      "latitude": 40.459077
+    },
+    {
+      "code": "LV",
+      "rawCode": "LVA",
+      "name": "Latvia",
+      "nameZh": "拉脱维亚",
+      "value": 24416,
+      "longitude": 25.458723,
+      "latitude": 57.066872
+    },
+    {
+      "code": "UG",
+      "rawCode": "UGA",
+      "name": "Uganda",
+      "nameZh": "乌干达",
+      "value": 23512,
+      "longitude": 32.948555,
+      "latitude": 1.972589
+    },
+    {
+      "code": "DO",
+      "rawCode": "DOM",
+      "name": "Dominican Rep.",
+      "nameZh": "多米尼加",
+      "value": 23407,
+      "longitude": -70.653998,
+      "latitude": 19.104137
+    },
+    {
+      "code": "AZ",
+      "rawCode": "AZE",
+      "name": "Azerbaijan",
+      "nameZh": "阿塞拜疆",
+      "value": 21808,
+      "longitude": 47.210994,
+      "latitude": 40.402387
+    },
+    {
+      "code": "RW",
+      "rawCode": "RWA",
+      "name": "Rwanda",
+      "nameZh": "卢旺达",
+      "value": 20642,
+      "longitude": 30.103894,
+      "latitude": -1.897196
+    },
+    {
+      "code": "GT",
+      "rawCode": "GTM",
+      "name": "Guatemala",
+      "nameZh": "危地马拉",
+      "value": 20026,
+      "longitude": -90.497134,
+      "latitude": 14.982133
+    },
+    {
+      "code": "CY",
+      "rawCode": "CYP",
+      "name": "Cyprus",
+      "nameZh": "塞浦路斯",
+      "value": 18859,
+      "longitude": 33.084182,
+      "latitude": 34.913329
+    },
+    {
+      "code": "CM",
+      "rawCode": "CMR",
+      "name": "Cameroon",
+      "nameZh": "喀麦隆",
+      "value": 17981,
+      "longitude": 12.473488,
+      "latitude": 4.585041
+    },
+    {
+      "code": "BO",
+      "rawCode": "BOL",
+      "name": "Bolivia",
+      "nameZh": "玻利维亚",
+      "value": 17234,
+      "longitude": -64.593433,
+      "latitude": -16.666015
+    },
+    {
+      "code": "SV",
+      "rawCode": "SLV",
+      "name": "El Salvador",
+      "nameZh": "萨尔瓦多",
+      "value": 16540,
+      "longitude": -88.890124,
+      "latitude": 13.685371
+    },
+    {
+      "code": "MM",
+      "rawCode": "MMR",
+      "name": "Myanmar",
+      "nameZh": "缅甸",
+      "value": 15793,
+      "longitude": 95.804497,
+      "latitude": 21.573855
+    },
+    {
+      "code": "BA",
+      "rawCode": "BIH",
+      "name": "Bosnia and Herz.",
+      "nameZh": "波斯尼亚和黑塞哥维那",
+      "value": 14954,
+      "longitude": 18.06841,
+      "latitude": 44.091051
+    },
+    {
+      "code": "LU",
+      "rawCode": "LUX",
+      "name": "Luxembourg",
+      "nameZh": "卢森堡",
+      "value": 14403,
+      "longitude": 6.07762,
+      "latitude": 49.733732
+    },
+    {
+      "code": "KH",
+      "rawCode": "KHM",
+      "name": "Cambodia",
+      "nameZh": "柬埔寨",
+      "value": 13879,
+      "longitude": 104.50487,
+      "latitude": 12.647584
+    },
+    {
+      "code": "MD",
+      "rawCode": "MDA",
+      "name": "Moldova",
+      "nameZh": "摩尔多瓦",
+      "value": 13394,
+      "longitude": 28.487904,
+      "latitude": 47.434999
+    },
+    {
+      "code": "LB",
+      "rawCode": "LBN",
+      "name": "Lebanon",
+      "nameZh": "黎巴嫩",
+      "value": 13250,
+      "longitude": 35.992892,
+      "latitude": 34.133368
+    },
+    {
+      "code": "IQ",
+      "rawCode": "IRQ",
+      "name": "Iraq",
+      "nameZh": "伊拉克",
+      "value": 12922,
+      "longitude": 43.26181,
+      "latitude": 33.09403
+    },
+    {
+      "code": "KG",
+      "rawCode": "KGZ",
+      "name": "Kyrgyzstan",
+      "nameZh": "吉尔吉斯斯坦",
+      "value": 12529,
+      "longitude": 74.532637,
+      "latitude": 41.66854
+    },
+    {
+      "code": "TZ",
+      "rawCode": "TZA",
+      "name": "Tanzania",
+      "nameZh": "坦桑尼亚",
+      "value": 12280,
+      "longitude": 34.959183,
+      "latitude": -6.051866
+    },
+    {
+      "code": "JO",
+      "rawCode": "JOR",
+      "name": "Jordan",
+      "nameZh": "约旦",
+      "value": 11690,
+      "longitude": 36.375991,
+      "latitude": 30.805025
+    },
+    {
+      "code": "PY",
+      "rawCode": "PRY",
+      "name": "Paraguay",
+      "nameZh": "巴拉圭",
+      "value": 11559,
+      "longitude": -60.146394,
+      "latitude": -21.674509
+    },
+    {
+      "code": "IS",
+      "rawCode": "ISL",
+      "name": "Iceland",
+      "nameZh": "冰岛",
+      "value": 11481,
+      "longitude": -18.673711,
+      "latitude": 64.779286
+    },
+    {
+      "code": "MK",
+      "rawCode": "MKD",
+      "name": "Macedonia",
+      "nameZh": "北马其顿",
+      "value": 10865,
+      "longitude": 21.555839,
+      "latitude": 41.558223
+    },
+    {
+      "code": "AO",
+      "rawCode": "AGO",
+      "name": "Angola",
+      "nameZh": "安哥拉",
+      "value": 10183,
+      "longitude": 17.984249,
+      "latitude": -12.182762
+    },
+    {
+      "code": "PA",
+      "rawCode": "PAN",
+      "name": "Panama",
+      "nameZh": "巴拿马",
+      "value": 9895,
+      "longitude": -80.352106,
+      "latitude": 8.72198
+    },
+    {
+      "code": "MG",
+      "rawCode": "MDG",
+      "name": "Madagascar",
+      "nameZh": "马达加斯加",
+      "value": 9698,
+      "longitude": 46.704241,
+      "latitude": -18.628288
+    },
+    {
+      "code": "CU",
+      "rawCode": "CUB",
+      "name": "Cuba",
+      "nameZh": "古巴",
+      "value": 9095,
+      "longitude": -77.975855,
+      "latitude": 21.334024
+    },
+    {
+      "code": "SN",
+      "rawCode": "SEN",
+      "name": "Senegal",
+      "nameZh": "塞内加尔",
+      "value": 8624,
+      "longitude": -14.778586,
+      "latitude": 15.138125
+    },
+    {
+      "code": "ZW",
+      "rawCode": "ZWE",
+      "name": "Zimbabwe",
+      "nameZh": "津巴布韦",
+      "value": 8624,
+      "longitude": 29.925444,
+      "latitude": -18.91164
+    },
+    {
+      "code": "NI",
+      "rawCode": "NIC",
+      "name": "Nicaragua",
+      "nameZh": "尼加拉瓜",
+      "value": 8375,
+      "longitude": -85.069347,
+      "latitude": 12.670697
+    },
+    {
+      "code": "MT",
+      "rawCode": "MLT",
+      "name": "Malta",
+      "nameZh": "马耳他",
+      "value": 7929,
+      "longitude": 14.433005,
+      "latitude": 35.892886
+    },
+    {
+      "code": "PR",
+      "rawCode": "PRI",
+      "name": "Puerto Rico",
+      "nameZh": "波多黎各",
+      "value": 7916,
+      "longitude": -66.481065,
+      "latitude": 18.234668
+    },
+    {
+      "code": "HN",
+      "rawCode": "HND",
+      "name": "Honduras",
+      "nameZh": "洪都拉斯",
+      "value": 7693,
+      "longitude": -86.887604,
+      "latitude": 14.794801
+    },
+    {
+      "code": "CD",
+      "rawCode": "COD",
+      "name": "Dem. Rep. Congo",
+      "nameZh": "刚果民主共和国",
+      "value": 6894,
+      "longitude": 23.458829,
+      "latitude": -1.858167
+    },
+    {
+      "code": "ME",
+      "rawCode": "MNE",
+      "name": "Montenegro",
+      "nameZh": "黑山",
+      "value": 6710,
+      "longitude": 19.143727,
+      "latitude": 42.803101
+    },
+    {
+      "code": "ZM",
+      "rawCode": "ZMB",
+      "name": "Zambia",
+      "nameZh": "赞比亚",
+      "value": 6671,
+      "longitude": 26.395298,
+      "latitude": -14.660804
+    },
+    {
+      "code": "AL",
+      "rawCode": "ALB",
+      "name": "Albania",
+      "nameZh": "阿尔巴尼亚",
+      "value": 6658,
+      "longitude": 20.11384,
+      "latitude": 40.654855
+    },
+    {
+      "code": "SY",
+      "rawCode": "SYR",
+      "name": "Syria",
+      "nameZh": "叙利亚",
+      "value": 6251,
+      "longitude": 38.277783,
+      "latitude": 35.006636
+    },
+    {
+      "code": "AF",
+      "rawCode": "AFG",
+      "name": "Afghanistan",
+      "nameZh": "阿富汗",
+      "value": 6120,
+      "longitude": 66.496586,
+      "latitude": 34.164262
+    },
+    {
+      "code": "BJ",
+      "rawCode": "BEN",
+      "name": "Benin",
+      "nameZh": "贝宁",
+      "value": 5898,
+      "longitude": 2.352018,
+      "latitude": 10.324775
+    },
+    {
+      "code": "MZ",
+      "rawCode": "MOZ",
+      "name": "Mozambique",
+      "nameZh": "莫桑比克",
+      "value": 5871,
+      "longitude": 37.83789,
+      "latitude": -13.94323
+    },
+    {
+      "code": "YE",
+      "rawCode": "YEM",
+      "name": "Yemen",
+      "nameZh": "也门",
+      "value": 5858,
+      "longitude": 45.874383,
+      "latitude": 15.328226
+    },
+    {
+      "code": "CI",
+      "rawCode": "CIV",
+      "name": "Côte d'Ivoire",
+      "nameZh": "科特迪瓦",
+      "value": 5806,
+      "longitude": -5.568618,
+      "latitude": 7.49139
+    },
+    {
+      "code": "MN",
+      "rawCode": "MNG",
+      "name": "Mongolia",
+      "nameZh": "蒙古国",
+      "value": 5269,
+      "longitude": 104.150405,
+      "latitude": 45.997488
+    },
+    {
+      "code": "QA",
+      "rawCode": "QAT",
+      "name": "Qatar",
+      "nameZh": "卡塔尔",
+      "value": 5033,
+      "longitude": 51.143509,
+      "latitude": 25.237383
+    },
+    {
+      "code": "PS",
+      "rawCode": "PSE",
+      "name": "Palestine",
+      "nameZh": "巴勒斯坦",
+      "value": 4967,
+      "longitude": 35.291341,
+      "latitude": 32.047431
+    },
+    {
+      "code": "MU",
+      "rawCode": "MUS",
+      "name": "Mauritius",
+      "nameZh": "毛里求斯",
+      "value": 4639,
+      "longitude": 57.565848,
+      "latitude": -20.299506
+    },
+    {
+      "code": "JM",
+      "rawCode": "JAM",
+      "name": "Jamaica",
+      "nameZh": "牙买加",
+      "value": 4115,
+      "longitude": -77.318767,
+      "latitude": 18.137124
+    },
+    {
+      "code": "MW",
+      "rawCode": "MWI",
+      "name": "Malawi",
+      "nameZh": "马拉维",
+      "value": 3971,
+      "longitude": 33.608082,
+      "latitude": -13.386737
+    },
+    {
+      "code": "SO",
+      "rawCode": "SOM",
+      "name": "Somalia",
+      "nameZh": "索马里",
+      "value": 3932,
+      "longitude": 45.19238,
+      "latitude": 3.568925
+    },
+    {
+      "code": "SD",
+      "rawCode": "SDN",
+      "name": "Sudan",
+      "nameZh": "苏丹",
+      "value": 3919,
+      "longitude": 29.260657,
+      "latitude": 16.330746
+    },
+    {
+      "code": "OM",
+      "rawCode": "OMN",
+      "name": "Oman",
+      "nameZh": "阿曼",
+      "value": 3801,
+      "longitude": 57.336553,
+      "latitude": 22.120427
+    },
+    {
+      "code": "TG",
+      "rawCode": "TGO",
+      "name": "Togo",
+      "nameZh": "多哥",
+      "value": 3801,
+      "longitude": 1.058113,
+      "latitude": 8.80722
+    },
+    {
+      "code": "KW",
+      "rawCode": "KWT",
+      "name": "Kuwait",
+      "nameZh": "科威特",
+      "value": 3643,
+      "longitude": 47.313999,
+      "latitude": 29.413628
+    },
+    {
+      "code": "AQ",
+      "rawCode": "ATA",
+      "name": "Antarctica",
+      "nameZh": "南极洲",
+      "value": 3539,
+      "longitude": 35.885455,
+      "latitude": -79.843222
+    },
+    {
+      "code": "TJ",
+      "rawCode": "TJK",
+      "name": "Tajikistan",
+      "nameZh": "塔吉克斯坦",
+      "value": 3512,
+      "longitude": 72.587276,
+      "latitude": 38.199835
+    },
+    {
+      "code": "BH",
+      "rawCode": "BHR",
+      "name": "Bahrain",
+      "nameZh": "巴林",
+      "value": 3067,
+      "longitude": 50.554816,
+      "latitude": 26.055972
+    },
+    {
+      "code": "LY",
+      "rawCode": "LBY",
+      "name": "Libya",
+      "nameZh": "利比亚",
+      "value": 3041,
+      "longitude": 18.011015,
+      "latitude": 26.638944
+    },
+    {
+      "code": "FJ",
+      "rawCode": "FJI",
+      "name": "Fiji",
+      "nameZh": "斐济",
+      "value": 2608,
+      "longitude": 177.975427,
+      "latitude": -17.826099
+    },
+    {
+      "code": "RE",
+      "rawCode": null,
+      "name": "Réunion",
+      "nameZh": "留尼汪",
+      "value": 2411,
+      "longitude": null,
+      "latitude": null
+    },
+    {
+      "code": "MV",
+      "rawCode": "MDV",
+      "name": "Maldives",
+      "nameZh": "马尔代夫",
+      "value": 2320,
+      "longitude": 73.507554,
+      "latitude": 4.174441
+    },
+    {
+      "code": "NA",
+      "rawCode": "NAM",
+      "name": "Namibia",
+      "nameZh": "纳米比亚",
+      "value": 2280,
+      "longitude": 17.108166,
+      "latitude": -20.575298
+    },
+    {
+      "code": "TT",
+      "rawCode": "TTO",
+      "name": "Trinidad and Tobago",
+      "nameZh": "特立尼达和多巴哥",
+      "value": 2254,
+      "longitude": -60.9184,
+      "latitude": 10.9989
+    },
+    {
+      "code": "TM",
+      "rawCode": "TKM",
+      "name": "Turkmenistan",
+      "nameZh": "土库曼斯坦",
+      "value": 2149,
+      "longitude": 58.676647,
+      "latitude": 39.855246
+    },
+    {
+      "code": "CC",
+      "rawCode": null,
+      "name": "Cocos (Keeling) Islands",
+      "nameZh": "科科斯（基林）群岛",
+      "value": 2149,
+      "longitude": null,
+      "latitude": null
+    },
+    {
+      "code": "LA",
+      "rawCode": "LAO",
+      "name": "Lao PDR",
+      "nameZh": "老挝",
+      "value": 1822,
+      "longitude": 102.533912,
+      "latitude": 19.431821
+    },
+    {
+      "code": "SZ",
+      "rawCode": "SWZ",
+      "name": "eSwatini",
+      "nameZh": "斯威士兰",
+      "value": 1822,
+      "longitude": 31.467264,
+      "latitude": -26.533676
+    },
+    {
+      "code": "BT",
+      "rawCode": "BTN",
+      "name": "Bhutan",
+      "nameZh": "不丹",
+      "value": 1795,
+      "longitude": 90.040294,
+      "latitude": 27.536685
+    },
+    {
+      "code": "BW",
+      "rawCode": "BWA",
+      "name": "Botswana",
+      "nameZh": "博茨瓦纳",
+      "value": 1704,
+      "longitude": 24.179216,
+      "latitude": -22.102634
+    },
+    {
+      "code": "BF",
+      "rawCode": "BFA",
+      "name": "Burkina Faso",
+      "nameZh": "布基纳法索",
+      "value": 1481,
+      "longitude": -1.36388,
+      "latitude": 12.673048
+    },
+    {
+      "code": "HT",
+      "rawCode": "HTI",
+      "name": "Haiti",
+      "nameZh": "海地",
+      "value": 1389,
+      "longitude": -72.224051,
+      "latitude": 19.263784
+    },
+    {
+      "code": "SL",
+      "rawCode": "SLE",
+      "name": "Sierra Leone",
+      "nameZh": "塞拉利昂",
+      "value": 1350,
+      "longitude": -11.763677,
+      "latitude": 8.617449
+    },
+    {
+      "code": "AD",
+      "rawCode": "AND",
+      "name": "Andorra",
+      "nameZh": "安道尔",
+      "value": 1350,
+      "longitude": 1.539409,
+      "latitude": 42.547643
+    },
+    {
+      "code": "CV",
+      "rawCode": "CPV",
+      "name": "Cabo Verde",
+      "nameZh": "佛得角",
+      "value": 1297,
+      "longitude": -23.639434,
+      "latitude": 15.074761
+    },
+    {
+      "code": "KP",
+      "rawCode": "PRK",
+      "name": "Dem. Rep. Korea",
+      "nameZh": "朝鲜",
+      "value": 1153,
+      "longitude": 126.444516,
+      "latitude": 39.885252
+    },
+    {
+      "code": "ML",
+      "rawCode": "MLI",
+      "name": "Mali",
+      "nameZh": "马里",
+      "value": 1127,
+      "longitude": -2.038455,
+      "latitude": 18.692713
+    },
+    {
+      "code": "BS",
+      "rawCode": "BHS",
+      "name": "Bahamas",
+      "nameZh": "巴哈马",
+      "value": 1127,
+      "longitude": -77.146688,
+      "latitude": 26.401789
+    },
+    {
+      "code": "BI",
+      "rawCode": "BDI",
+      "name": "Burundi",
+      "nameZh": "布隆迪",
+      "value": 983,
+      "longitude": 29.917086,
+      "latitude": -3.332836
+    },
+    {
+      "code": "NC",
+      "rawCode": "NCL",
+      "name": "New Caledonia",
+      "nameZh": "新喀里多尼亚",
+      "value": 957,
+      "longitude": 165.084004,
+      "latitude": -21.064697
+    },
+    {
+      "code": "GN",
+      "rawCode": "GIN",
+      "name": "Guinea",
+      "nameZh": "几内亚",
+      "value": 904,
+      "longitude": -10.016402,
+      "latitude": 10.618516
+    },
+    {
+      "code": "LR",
+      "rawCode": "LBR",
+      "name": "Liberia",
+      "nameZh": "利比里亚",
+      "value": 852,
+      "longitude": -9.460379,
+      "latitude": 6.447177
+    },
+    {
+      "code": "PF",
+      "rawCode": "PYF",
+      "name": "Fr. Polynesia",
+      "nameZh": "法属波利尼西亚",
+      "value": 839,
+      "longitude": -149.46157,
+      "latitude": -17.628081
+    },
+    {
+      "code": "IM",
+      "rawCode": "IMN",
+      "name": "Isle of Man",
+      "nameZh": "马恩岛",
+      "value": 839,
+      "longitude": -4.530069,
+      "latitude": 54.220833
+    },
+    {
+      "code": "CG",
+      "rawCode": "COG",
+      "name": "Congo",
+      "nameZh": "刚果共和国",
+      "value": 826,
+      "longitude": 15.9005,
+      "latitude": 0.142331
+    },
+    {
+      "code": "JE",
+      "rawCode": "JEY",
+      "name": "Jersey",
+      "nameZh": "泽西",
+      "value": 799,
+      "longitude": -2.090146,
+      "latitude": 49.220808
+    },
+    {
+      "code": "MR",
+      "rawCode": "MRT",
+      "name": "Mauritania",
+      "nameZh": "毛里塔尼亚",
+      "value": 786,
+      "longitude": -9.740299,
+      "latitude": 19.587062
+    },
+    {
+      "code": "GM",
+      "rawCode": "GMB",
+      "name": "Gambia",
+      "nameZh": "冈比亚",
+      "value": 786,
+      "longitude": -14.998318,
+      "latitude": 13.641721
+    },
+    {
+      "code": "BB",
+      "rawCode": "BRB",
+      "name": "Barbados",
+      "nameZh": "巴巴多斯",
+      "value": 760,
+      "longitude": -59.568966,
+      "latitude": 13.163709
+    },
+    {
+      "code": "LS",
+      "rawCode": "LSO",
+      "name": "Lesotho",
+      "nameZh": "莱索托",
+      "value": 734,
+      "longitude": 28.246639,
+      "latitude": -29.480158
+    },
+    {
+      "code": "GA",
+      "rawCode": "GAB",
+      "name": "Gabon",
+      "nameZh": "加蓬",
+      "value": 682,
+      "longitude": 11.835939,
+      "latitude": -0.437739
+    },
+    {
+      "code": "KY",
+      "rawCode": "CYM",
+      "name": "Cayman Is.",
+      "nameZh": "开曼群岛",
+      "value": 682,
+      "longitude": -81.24055,
+      "latitude": 19.319862
+    },
+    {
+      "code": "NE",
+      "rawCode": "NER",
+      "name": "Niger",
+      "nameZh": "尼日尔",
+      "value": 668,
+      "longitude": 9.504356,
+      "latitude": 17.446195
+    },
+    {
+      "code": "LI",
+      "rawCode": "LIE",
+      "name": "Liechtenstein",
+      "nameZh": "列支敦士登",
+      "value": 616,
+      "longitude": 9.559439,
+      "latitude": 47.111405
+    },
+    {
+      "code": "PG",
+      "rawCode": "PNG",
+      "name": "Papua New Guinea",
+      "nameZh": "巴布亚新几内亚",
+      "value": 603,
+      "longitude": 143.910216,
+      "latitude": -5.695285
+    },
+    {
+      "code": "MC",
+      "rawCode": "MCO",
+      "name": "Monaco",
+      "nameZh": "摩纳哥",
+      "value": 577,
+      "longitude": 7.398291,
+      "latitude": 43.739652
+    },
+    {
+      "code": "SR",
+      "rawCode": "SUR",
+      "name": "Suriname",
+      "nameZh": "苏里南",
+      "value": 550,
+      "longitude": -55.91094,
+      "latitude": 4.143987
+    },
+    {
+      "code": "BN",
+      "rawCode": "BRN",
+      "name": "Brunei",
+      "nameZh": "文莱",
+      "value": 537,
+      "longitude": 114.551943,
+      "latitude": 4.448298
+    },
+    {
+      "code": "BZ",
+      "rawCode": "BLZ",
+      "name": "Belize",
+      "nameZh": "伯利兹",
+      "value": 537,
+      "longitude": -88.712962,
+      "latitude": 17.202068
+    },
+    {
+      "code": "MQ",
+      "rawCode": null,
+      "name": "Martinique",
+      "nameZh": "马提尼克",
+      "value": 524,
+      "longitude": null,
+      "latitude": null
+    },
+    {
+      "code": "FO",
+      "rawCode": "FRO",
+      "name": "Faeroe Is.",
+      "nameZh": "法罗群岛",
+      "value": 524,
+      "longitude": -7.058429,
+      "latitude": 62.185604
+    },
+    {
+      "code": "GY",
+      "rawCode": "GUY",
+      "name": "Guyana",
+      "nameZh": "圭亚那",
+      "value": 511,
+      "longitude": -58.942643,
+      "latitude": 5.124317
+    },
+    {
+      "code": "GI",
+      "rawCode": null,
+      "name": "Gibraltar",
+      "nameZh": "直布罗陀",
+      "value": 511,
+      "longitude": null,
+      "latitude": null
+    },
+    {
+      "code": "SH",
+      "rawCode": "SHN",
+      "name": "Saint Helena",
+      "nameZh": "圣赫勒拿",
+      "value": 511,
+      "longitude": -5.71262,
+      "latitude": -15.950487
+    },
+    {
+      "code": "CW",
+      "rawCode": "CUW",
+      "name": "Curaçao",
+      "nameZh": "库拉索",
+      "value": 498,
+      "longitude": -68.920578,
+      "latitude": 12.145039
+    },
+    {
+      "code": "AX",
+      "rawCode": "ALA",
+      "name": "Åland",
+      "nameZh": "奥兰",
+      "value": 485,
+      "longitude": 19.869671,
+      "latitude": 60.156467
+    },
+    {
+      "code": "BM",
+      "rawCode": "BMU",
+      "name": "Bermuda",
+      "nameZh": "百慕大",
+      "value": 472,
+      "longitude": -64.763573,
+      "latitude": 32.296592
+    },
+    {
+      "code": "GL",
+      "rawCode": "GRL",
+      "name": "Greenland",
+      "nameZh": "格陵兰",
+      "value": 432,
+      "longitude": -39.335251,
+      "latitude": 74.319387
+    },
+    {
+      "code": "SM",
+      "rawCode": "SMR",
+      "name": "San Marino",
+      "nameZh": "圣马力诺",
+      "value": 432,
+      "longitude": 12.441206,
+      "latitude": 43.933916
+    },
+    {
+      "code": "GG",
+      "rawCode": "GGY",
+      "name": "Guernsey",
+      "nameZh": "根西",
+      "value": 419,
+      "longitude": -2.561736,
+      "latitude": 49.463533
+    },
+    {
+      "code": "GP",
+      "rawCode": null,
+      "name": "Guadeloupe",
+      "nameZh": "瓜德罗普",
+      "value": 406,
+      "longitude": null,
+      "latitude": null
+    },
+    {
+      "code": "TD",
+      "rawCode": "TCD",
+      "name": "Chad",
+      "nameZh": "乍得",
+      "value": 380,
+      "longitude": 18.645041,
+      "latitude": 15.142959
+    },
+    {
+      "code": "SC",
+      "rawCode": "SYC",
+      "name": "Seychelles",
+      "nameZh": "塞舌尔",
+      "value": 354,
+      "longitude": 55.480175,
+      "latitude": -4.676659
+    },
+    {
+      "code": "SS",
+      "rawCode": "SSD",
+      "name": "S. Sudan",
+      "nameZh": "南苏丹",
+      "value": 341,
+      "longitude": 30.390151,
+      "latitude": 7.230477
+    },
+    {
+      "code": "TL",
+      "rawCode": "TLS",
+      "name": "Timor-Leste",
+      "nameZh": "东帝汶",
+      "value": 328,
+      "longitude": 125.854679,
+      "latitude": -8.803705
+    },
+    {
+      "code": "LC",
+      "rawCode": "LCA",
+      "name": "Saint Lucia",
+      "nameZh": "圣卢西亚",
+      "value": 249,
+      "longitude": -60.980094,
+      "latitude": 13.892371
+    },
+    {
+      "code": "DJ",
+      "rawCode": "DJI",
+      "name": "Djibouti",
+      "nameZh": "吉布提",
+      "value": 210,
+      "longitude": 42.498825,
+      "latitude": 11.976343
+    },
+    {
+      "code": "VA",
+      "rawCode": "VAT",
+      "name": "Vatican",
+      "nameZh": "梵蒂冈",
+      "value": 210,
+      "longitude": 12.453418,
+      "latitude": 41.903323
+    },
+    {
+      "code": "SJ",
+      "rawCode": null,
+      "name": "Svalbard and Jan Mayen",
+      "nameZh": "斯瓦尔巴和扬马延",
+      "value": 210,
+      "longitude": null,
+      "latitude": null
+    },
+    {
+      "code": "GF",
+      "rawCode": null,
+      "name": "French Guiana",
+      "nameZh": "法属圭亚那",
+      "value": 183,
+      "longitude": null,
+      "latitude": null
+    },
+    {
+      "code": "AG",
+      "rawCode": "ATG",
+      "name": "Antigua and Barb.",
+      "nameZh": "安提瓜和巴布达",
+      "value": 183,
+      "longitude": -61.790612,
+      "latitude": 17.352249
+    },
+    {
+      "code": "GU",
+      "rawCode": "GUM",
+      "name": "Guam",
+      "nameZh": "关岛",
+      "value": 170,
+      "longitude": 144.703614,
+      "latitude": 13.354173
+    },
+    {
+      "code": "GD",
+      "rawCode": "GRD",
+      "name": "Grenada",
+      "nameZh": "格林纳达",
+      "value": 170,
+      "longitude": -61.680461,
+      "latitude": 12.113156
+    },
+    {
+      "code": "AW",
+      "rawCode": "ABW",
+      "name": "Aruba",
+      "nameZh": "阿鲁巴",
+      "value": 157,
+      "longitude": -69.972795,
+      "latitude": 12.5174
+    },
+    {
+      "code": "KN",
+      "rawCode": "KNA",
+      "name": "St. Kitts and Nevis",
+      "nameZh": "圣基茨和尼维斯",
+      "value": 157,
+      "longitude": -62.757975,
+      "latitude": 17.336558
+    },
+    {
+      "code": "VG",
+      "rawCode": "VGB",
+      "name": "British Virgin Is.",
+      "nameZh": "英属维尔京群岛",
+      "value": 157,
+      "longitude": -64.63661,
+      "latitude": 18.426606
+    },
+    {
+      "code": "WS",
+      "rawCode": "WSM",
+      "name": "Samoa",
+      "nameZh": "萨摩亚",
+      "value": 157,
+      "longitude": -172.438241,
+      "latitude": -13.639139
+    },
+    {
+      "code": "CX",
+      "rawCode": null,
+      "name": "Christmas Island",
+      "nameZh": "圣诞岛",
+      "value": 157,
+      "longitude": null,
+      "latitude": null
+    },
+    {
+      "code": "GQ",
+      "rawCode": "GNQ",
+      "name": "Eq. Guinea",
+      "nameZh": "赤道几内亚",
+      "value": 131,
+      "longitude": 8.9902,
+      "latitude": 2.333
+    },
+    {
+      "code": "VC",
+      "rawCode": "VCT",
+      "name": "St. Vin. and Gren.",
+      "nameZh": "圣文森特和格林纳丁斯",
+      "value": 131,
+      "longitude": -61.3359,
+      "latitude": 13.0879
+    },
+    {
+      "code": "MP",
+      "rawCode": "MNP",
+      "name": "N. Mariana Is.",
+      "nameZh": "北马里亚纳群岛",
+      "value": 118,
+      "longitude": 145.734397,
+      "latitude": 15.188188
+    },
+    {
+      "code": "YT",
+      "rawCode": null,
+      "name": "Mayotte",
+      "nameZh": "马约特",
+      "value": 105,
+      "longitude": null,
+      "latitude": null
+    },
+    {
+      "code": "VU",
+      "rawCode": "VUT",
+      "name": "Vanuatu",
+      "nameZh": "瓦努阿图",
+      "value": 105,
+      "longitude": 166.908762,
+      "latitude": -15.37153
+    },
+    {
+      "code": "KM",
+      "rawCode": "COM",
+      "name": "Comoros",
+      "nameZh": "科摩罗",
+      "value": 105,
+      "longitude": 43.318094,
+      "latitude": -11.727683
+    },
+    {
+      "code": "SB",
+      "rawCode": "SLB",
+      "name": "Solomon Is.",
+      "nameZh": "所罗门群岛",
+      "value": 92,
+      "longitude": 159.170468,
+      "latitude": -8.029548
+    },
+    {
+      "code": "TC",
+      "rawCode": "TCA",
+      "name": "Turks and Caicos Is.",
+      "nameZh": "特克斯和凯科斯群岛",
+      "value": 92,
+      "longitude": -71.752704,
+      "latitude": 21.81663
+    },
+    {
+      "code": "DM",
+      "rawCode": "DMA",
+      "name": "Dominica",
+      "nameZh": "多米尼克",
+      "value": 79,
+      "longitude": -61.344958,
+      "latitude": 15.458829
+    },
+    {
+      "code": "SX",
+      "rawCode": "SXM",
+      "name": "Sint Maarten",
+      "nameZh": "荷属圣马丁",
+      "value": 79,
+      "longitude": -63.070133,
+      "latitude": 18.04088
+    },
+    {
+      "code": "TO",
+      "rawCode": "TON",
+      "name": "Tonga",
+      "nameZh": "汤加",
+      "value": 79,
+      "longitude": -175.163014,
+      "latitude": -21.210026
+    },
+    {
+      "code": "ER",
+      "rawCode": "ERI",
+      "name": "Eritrea",
+      "nameZh": "厄立特里亚",
+      "value": 66,
+      "longitude": 38.285566,
+      "latitude": 15.787401
+    },
+    {
+      "code": "GW",
+      "rawCode": "GNB",
+      "name": "Guinea-Bissau",
+      "nameZh": "几内亚比绍",
+      "value": 66,
+      "longitude": -14.52413,
+      "latitude": 12.163712
+    },
+    {
+      "code": "CF",
+      "rawCode": "CAF",
+      "name": "Central African Rep.",
+      "nameZh": "中非共和国",
+      "value": 66,
+      "longitude": 20.906897,
+      "latitude": 6.989681
+    },
+    {
+      "code": "ST",
+      "rawCode": "STP",
+      "name": "São Tomé and Principe",
+      "nameZh": "圣多美和普林西比",
+      "value": 52,
+      "longitude": 7.021,
+      "latitude": 0.9709
+    },
+    {
+      "code": "AS",
+      "rawCode": "ASM",
+      "name": "American Samoa",
+      "nameZh": "美属萨摩亚",
+      "value": 52,
+      "longitude": -170.747153,
+      "latitude": -14.32671
+    },
+    {
+      "code": "PW",
+      "rawCode": "PLW",
+      "name": "Palau",
+      "nameZh": "帕劳",
+      "value": 52,
+      "longitude": 134.580157,
+      "latitude": 7.518252
+    },
+    {
+      "code": "TV",
+      "rawCode": "TUV",
+      "name": "Tuvalu",
+      "nameZh": "图瓦卢",
+      "value": 52,
+      "longitude": 179.209587,
+      "latitude": -8.513717
+    },
+    {
+      "code": "BV",
+      "rawCode": null,
+      "name": "Bouvet Island",
+      "nameZh": "布韦岛",
+      "value": 52,
+      "longitude": null,
+      "latitude": null
+    },
+    {
+      "code": "AI",
+      "rawCode": "AIA",
+      "name": "Anguilla",
+      "nameZh": "安圭拉",
+      "value": 39,
+      "longitude": -63.026361,
+      "latitude": 18.242979
+    },
+    {
+      "code": "FM",
+      "rawCode": "FSM",
+      "name": "Micronesia",
+      "nameZh": "密克罗尼西亚联邦",
+      "value": 39,
+      "longitude": 158.234019,
+      "latitude": 6.887553
+    },
+    {
+      "code": "KI",
+      "rawCode": "KIR",
+      "name": "Kiribati",
+      "nameZh": "基里巴斯",
+      "value": 39,
+      "longitude": -157.384577,
+      "latitude": 1.820437
+    },
+    {
+      "code": "MH",
+      "rawCode": "MHL",
+      "name": "Marshall Is.",
+      "nameZh": "马绍尔群岛",
+      "value": 39,
+      "longitude": 171.193609,
+      "latitude": 7.082568
+    },
+    {
+      "code": "CK",
+      "rawCode": "COK",
+      "name": "Cook Is.",
+      "nameZh": "库克群岛",
+      "value": 39,
+      "longitude": -159.785675,
+      "latitude": -21.215993
+    },
+    {
+      "code": "PM",
+      "rawCode": "SPM",
+      "name": "St. Pierre and Miquelon",
+      "nameZh": "圣皮埃尔和密克隆",
+      "value": 39,
+      "longitude": -56.332352,
+      "latitude": 47.040344
+    },
+    {
+      "code": "MS",
+      "rawCode": "MSR",
+      "name": "Montserrat",
+      "nameZh": "蒙特塞拉特",
+      "value": 39,
+      "longitude": -62.188252,
+      "latitude": 16.73717
+    },
+    {
+      "code": "GS",
+      "rawCode": "SGS",
+      "name": "S. Geo. and the Is.",
+      "nameZh": "南乔治亚和南桑威奇群岛",
+      "value": 39,
+      "longitude": -31.063179,
+      "latitude": -55.683402
+    },
+    {
+      "code": "TF",
+      "rawCode": "ATF",
+      "name": "Fr. S. Antarctic Lands",
+      "nameZh": "法属南部和南极领地",
+      "value": 39,
+      "longitude": 69.122136,
+      "latitude": -49.303721
+    },
+    {
+      "code": "WF",
+      "rawCode": "WLF",
+      "name": "Wallis and Futuna Is.",
+      "nameZh": "瓦利斯和富图纳",
+      "value": 39,
+      "longitude": -178.137436,
+      "latitude": -14.286415
+    },
+    {
+      "code": "FK",
+      "rawCode": "FLK",
+      "name": "Falkland Is.",
+      "nameZh": "福克兰群岛",
+      "value": 39,
+      "longitude": -58.738602,
+      "latitude": -51.608913
+    },
+    {
+      "code": "NU",
+      "rawCode": "NIU",
+      "name": "Niue",
+      "nameZh": "纽埃",
+      "value": 39,
+      "longitude": -169.862565,
+      "latitude": -19.045956
+    },
+    {
+      "code": "HM",
+      "rawCode": "HMD",
+      "name": "Heard I. and McDonald Is.",
+      "nameZh": "赫德岛和麦克唐纳群岛",
+      "value": 26,
+      "longitude": 73.50521,
+      "latitude": -53.103462
+    },
+    {
+      "code": "UM",
+      "rawCode": null,
+      "name": "U.S. Minor Outlying Is.",
+      "nameZh": "美国本土外小岛屿",
+      "value": 26,
+      "longitude": null,
+      "latitude": null
+    },
+    {
+      "code": "NR",
+      "rawCode": "NRU",
+      "name": "Nauru",
+      "nameZh": "瑙鲁",
+      "value": 13,
+      "longitude": 166.932644,
+      "latitude": -0.520261
+    },
+    {
+      "code": "EH",
+      "rawCode": "ESH",
+      "name": "W. Sahara",
+      "nameZh": "西撒哈拉",
+      "value": 13,
+      "longitude": -12.630304,
+      "latitude": 23.967592
+    },
+    {
+      "code": "IO",
+      "rawCode": "IOT",
+      "name": "Br. Indian Ocean Ter.",
+      "nameZh": "英属印度洋领地",
+      "value": 13,
+      "longitude": 71.348349,
+      "latitude": -6.190826
+    }
+  ]
+}

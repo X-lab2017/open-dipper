@@ -19,6 +19,8 @@
 
 [Reusable brand assets](public/brand/opendipper/README.md) · [Approved design references](docs/assets/brand-reference/README.md)
 
+The current atlas combines six groups and eighteen layers: regional fills, proportional asset bubbles and circular entities. Tabbed observations, top-ten rankings and paired themes support one- or two-screen presentations. See the [workspace contract](docs/ATLAS_WORKSPACE.md). Synthetic pulse growth remains separate from sourced news and report snapshots.
+
 <!-- section:business -->
 ## Business view
 

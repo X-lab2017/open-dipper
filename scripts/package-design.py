@@ -11,6 +11,8 @@ files = {
     'tokens.css': 'src/design/tokens.css',
     'components.css': 'src/design/components.css',
     'palette.ts': 'src/design/palette.ts',
+    'scales.ts': 'src/design/scales.ts',
+    'theme.css': 'src/design/theme.css',
     'icons.ts': 'src/design/icons.ts',
     'brand.ts': 'src/design/brand.ts',
 }

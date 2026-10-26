@@ -1,6 +1,6 @@
 {
   "name": "open-dipper",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "private": true,
   "type": "module",
   "scripts": {
@@ -11,7 +11,7 @@
     "test:ui": "node tests/ui.mjs",
     "refresh:data": "node scripts/fetch-data.mjs",
     "test:data": "node --test tests/data.test.mjs",
-    "test": "npm run test:data && npm run test:dom && npm run test:geo && npm run test:panorama && npm run test:observatory && npm run design:check && npm run docs:check && npm run evidence:check && npm run observation:check",
+    "test": "npm run test:data && npm run test:dom && npm run test:geo && npm run test:panorama && npm run test:observatory && npm run design:check && npm run docs:check && npm run evidence:check && npm run observation:check && npm run test:atlas",
     "test:dom": "node --test tests/dom.test.mjs",
     "test:geo": "node --test tests/geography.test.mjs",
     "test:panorama": "node --test tests/panorama.test.mjs",
@@ -29,7 +29,8 @@
     "evidence:build": "node scripts/build-evidence.mjs",
     "evidence:check": "node scripts/build-evidence.mjs --check && node --test tests/evidence.test.mjs",
     "observation:build": "node scripts/build-observation.mjs",
-    "observation:check": "node scripts/build-observation.mjs --check && node --test tests/workspace.test.mjs"
+    "observation:check": "node scripts/build-observation.mjs --check && node --test tests/workspace.test.mjs",
+    "test:atlas": "node --test tests/dashboard.test.mjs tests/layers.test.mjs tests/pulse.test.mjs tests/atlas-design.test.mjs tests/atlas-camera.test.mjs"
   },
   "devDependencies": {
     "@playwright/test": "^1.52.0",
