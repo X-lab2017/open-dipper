@@ -19,6 +19,10 @@
 | 交接未完成任务 | [执行计划](plans/README.md) → [交接模板](templates/HANDOFF.md) |
 | 核对资源复用或敏感报告 | [权利说明](RIGHTS.md) / [安全说明](../SECURITY.md) |
 
+## 来源资料提案 / Source proposals
+
+- [向量检索组件资料包 / Vector-retrieval dossier](source-packs/vector-retrieval-2026-10-26.md)：三个官方发布记录、日期精度、许可指纹与未知项；尚未编辑批准，不改变演示或生产数据。
+
 ## 哪份内容是权威来源
 
 - **当前事实**：`STATUS.md` 是有日期的摘要，运行契约、源代码和测试解释当前行为。数据新鲜度看快照，任务状态看 GitHub issue。

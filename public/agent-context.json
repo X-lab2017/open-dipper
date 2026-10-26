@@ -252,6 +252,13 @@
       "purpose": "Pinned 1.3.2 source, release evidence, shared visual/interaction rules and reuse boundaries",
       "language": "en",
       "url": "https://raw.githubusercontent.com/X-lab2017/open-dipper/main/design/baselines/observatory-radar-1.3.2.md"
+    },
+    {
+      "path": "docs/source-packs/vector-retrieval-2026-10-26.md",
+      "title": "Proposed vector-retrieval source pack",
+      "purpose": "Three primary publication records with exact date precision, pinned licenses and unknown geography; editorial proposal, not approved data",
+      "language": "en/zh-CN",
+      "url": "https://raw.githubusercontent.com/X-lab2017/open-dipper/main/docs/source-packs/vector-retrieval-2026-10-26.md"
     }
   ],
   "tasks": {
