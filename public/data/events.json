@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-26T06:17:19.453391Z",
+  "generatedAt": "2026-10-26T06:21:39.407656Z",
   "retentionDays": 90,
   "events": [
     {
@@ -1017,8 +1017,8 @@
       "name": "Kubernetes",
       "url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-10-26T06:17:14.761752Z",
-      "lastSuccess": "2026-10-26T06:17:15.150512Z",
+      "lastAttempt": "2026-10-26T06:21:33.017562Z",
+      "lastSuccess": "2026-10-26T06:21:33.516827Z",
       "count": 8,
       "status": "ok"
     },
@@ -1027,8 +1027,8 @@
       "name": "PyTorch",
       "url": "https://api.github.com/repos/pytorch/pytorch/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-10-26T06:17:15.300675Z",
-      "lastSuccess": "2026-10-26T06:17:15.755715Z",
+      "lastAttempt": "2026-10-26T06:21:33.666988Z",
+      "lastSuccess": "2026-10-26T06:21:34.594873Z",
       "count": 10,
       "status": "ok"
     },
@@ -1037,8 +1037,8 @@
       "name": "vLLM",
       "url": "https://api.github.com/repos/vllm-project/vllm/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-10-26T06:17:15.905847Z",
-      "lastSuccess": "2026-10-26T06:17:16.324213Z",
+      "lastAttempt": "2026-10-26T06:21:34.745018Z",
+      "lastSuccess": "2026-10-26T06:21:35.509785Z",
       "count": 10,
       "status": "ok"
     },
@@ -1047,8 +1047,8 @@
       "name": "VS Code",
       "url": "https://api.github.com/repos/microsoft/vscode/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-10-26T06:17:16.474408Z",
-      "lastSuccess": "2026-10-26T06:17:16.758713Z",
+      "lastAttempt": "2026-10-26T06:21:35.659942Z",
+      "lastSuccess": "2026-10-26T06:21:36.212416Z",
       "count": 10,
       "status": "ok"
     },
@@ -1057,8 +1057,8 @@
       "name": "Rust",
       "url": "https://api.github.com/repos/rust-lang/rust/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-10-26T06:17:16.908838Z",
-      "lastSuccess": "2026-10-26T06:17:17.216990Z",
+      "lastAttempt": "2026-10-26T06:21:36.362579Z",
+      "lastSuccess": "2026-10-26T06:21:36.909006Z",
       "count": 10,
       "status": "ok"
     },
@@ -1067,8 +1067,8 @@
       "name": "DuckDB",
       "url": "https://api.github.com/repos/duckdb/duckdb/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-10-26T06:17:17.367205Z",
-      "lastSuccess": "2026-10-26T06:17:17.834437Z",
+      "lastAttempt": "2026-10-26T06:21:37.059139Z",
+      "lastSuccess": "2026-10-26T06:21:37.818293Z",
       "count": 10,
       "status": "ok"
     },
@@ -1077,8 +1077,8 @@
       "name": "OpenSSF",
       "url": "https://openssf.org/feed/",
       "kind": "rss",
-      "lastAttempt": "2026-10-26T06:17:17.984607Z",
-      "lastSuccess": "2026-10-26T06:17:18.406740Z",
+      "lastAttempt": "2026-10-26T06:21:37.968437Z",
+      "lastSuccess": "2026-10-26T06:21:38.342556Z",
       "count": 10,
       "status": "ok"
     },
@@ -1087,8 +1087,8 @@
       "name": "CNCF",
       "url": "https://www.cncf.io/feed/",
       "kind": "rss",
-      "lastAttempt": "2026-10-26T06:17:18.556927Z",
-      "lastSuccess": "2026-10-26T06:17:18.923653Z",
+      "lastAttempt": "2026-10-26T06:21:38.492707Z",
+      "lastSuccess": "2026-10-26T06:21:38.686896Z",
       "count": 10,
       "status": "ok"
     },
@@ -1097,8 +1097,8 @@
       "name": "OpenDipper 编辑录入",
       "url": "https://api.github.com/repos/X-lab2017/open-dipper/issues?labels=event-approved&state=open&per_page=100",
       "kind": "github-issues",
-      "lastAttempt": "2026-10-26T06:17:19.073837Z",
-      "lastSuccess": "2026-10-26T06:17:19.302547Z",
+      "lastAttempt": "2026-10-26T06:21:38.837052Z",
+      "lastSuccess": "2026-10-26T06:21:39.257133Z",
       "count": 0,
       "status": "ok"
     }
