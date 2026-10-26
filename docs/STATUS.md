@@ -1,8 +1,8 @@
 # 当前状态 / Current status
 
-基线日期：**2026-10-26**。维护者已接受应用 **1.3.2** 的地图与 AI 雷达体验；视觉 tokens **1.3.0**，产品品牌 **1.1.0**。这三个版本轴独立，不代表新建 Git tag 或 GitHub Release。实时任务状态看 issue，数据新鲜度看来源快照。
+核对日期：**2026-10-26**。当前发布应用 **1.5.1**；维护者已接受的地图／AI 雷达固定基线仍为 **1.3.2**，视觉 tokens **1.3.0**，产品品牌 **1.1.0**。版本轴独立，不代表新建 Git tag 或 GitHub Release。实时任务状态看 issue/PR，数据新鲜度看来源快照。
 
-新增 **1.5.1 开源星系**：在 1.5.0 研究评审基础上增强深浅主题动态效果，保留双星系、任务发现、候选对照、记录关系路径与可导出研究报告。1.3.2 地图/雷达的已接受基线及指纹保持不变；本轮发布与实际验收见 [发布记录](plans/ecosystem-public-release.md)，此前私有评审见 [研究记录](plans/ecosystem-research-v2.md)。
+**1.5.1 开源星系已公开发布**：在 1.5.0 研究评审基础上增强深浅主题动态效果，保留双星系、任务发现、候选对照、记录关系路径与可导出研究报告。1.3.2 地图/雷达的已接受基线及指纹保持不变；本轮发布与实际验收见 [发布记录](plans/ecosystem-public-release.md)。
 
 ## 当前能做什么
 
@@ -16,13 +16,17 @@
 | 数据与发布 | 固定版本来源摘录、OpenDigger 月度样本、官方事件采集与独立人工审核，静态快照与 Pages | [数据契约](DATA_CONTRACTS.md) · [运维](OPERATIONS.md) |
 | 仓库协作 | 双语入口、需求/缺陷/纠错/体验/事件表单、Agent 上下文、PR 验收与交接 | [贡献指南](../CONTRIBUTING.zh-CN.md) · [Harness](HARNESS.md) |
 
-## 已验证的产品版本
+## 已验证的交付
 
-[PR #29](https://github.com/X-lab2017/open-dipper/pull/29) 合入提交 `6544f48ccaab9a43a7c56069c487f620ec83723e`；[PR CI](https://github.com/X-lab2017/open-dipper/actions/runs/40275718242) 与[生产 CI / Pages](https://github.com/X-lab2017/open-dipper/actions/runs/40275957548) 的构建和浏览器验收通过，部署成功。2026-10-26 正式站点核对 80 个目标、单一指南/来源入口、展开选择和返回。详细回执见 [收尾计划](plans/ai-radar-finish-v3.md) 与 [#26](https://github.com/X-lab2017/open-dipper/issues/26)。
+| 交付 | 实现与验收 |
+| --- | --- |
+| 地图与 AI 雷达 1.3.2 | [PR #29](https://github.com/X-lab2017/open-dipper/pull/29)；[CI / Pages 40275957548](https://github.com/X-lab2017/open-dipper/actions/runs/40275957548) 成功；固定指纹与验收见 [基线](../design/baselines/observatory-radar-1.3.2.md) |
+| 仓库与社区整理 | [PR #31](https://github.com/X-lab2017/open-dipper/pull/31)；[CI / Pages 40278908179](https://github.com/X-lab2017/open-dipper/actions/runs/40278908179) 成功；整理回执见 [#30](https://github.com/X-lab2017/open-dipper/issues/30) |
+| 开源星系 1.5.1 | [PR #33](https://github.com/X-lab2017/open-dipper/pull/33) 已合并至 `8c12aa77312f0e9ed488c81eda4ca5806a7b993e`；[CI / Pages 40328984137](https://github.com/X-lab2017/open-dipper/actions/runs/40328984137) 构建、浏览器验收和部署成功，2026-10-26 北京时间 21:29:37 完成部署；[完整发布记录](plans/ecosystem-public-release.md) |
 
-本轮仓库与社区整理已由 [PR #31](https://github.com/X-lab2017/open-dipper/pull/31) 合入，不改产品行为；本轮独立的 [CI / Pages 40278908179](https://github.com/X-lab2017/open-dipper/actions/runs/40278908179) 构建、浏览器回归和部署通过。详细验收与清理回执在 [#30](https://github.com/X-lab2017/open-dipper/issues/30)。过去版本、截图与取舍统一从 [HISTORY.md](HISTORY.md) 查阅。
+本轮发布已结束。搜索、关系路径、报告三格式实收、明暗主题、移动布局、减少动态效果和跨模块往返有 CI 证据；物理触屏设备与 PDF 打印尚未验证。发布记录不等同新视觉基线已被维护者接受。
 
-开源星系 1.5.1 的 [PR #33](https://github.com/X-lab2017/open-dipper/pull/33) 浏览器验收已通过：[CI 40327243123](https://github.com/X-lab2017/open-dipper/actions/runs/40327243123)，产品提交 `ae0883a1cccf1ffbd6c3a4945467a18500cb45f9`。实际验证搜索与重复选择、关系/报告、三格式文件实收、明暗/移动布局、减少动态效果及地图/雷达往返。最终合入与 Pages 生产回执以 PR #33 的检查和发布评论为准；不把 CI 截图或代理验收等同维护者接受新的视觉基线。
+后续开发从模块契约和实时 issue/PR 开始；[已完成计划](plans/README.md)用于追溯，不是待恢复的任务。定期数据采集属于[运维](OPERATIONS.md)，与发布计划是否完成分开。旧版本与评审过程由 [HISTORY.md](HISTORY.md) 承接。
 
 ## 仍需共同完成
 

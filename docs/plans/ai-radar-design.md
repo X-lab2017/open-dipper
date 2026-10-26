@@ -6,7 +6,7 @@
 - Review: [#26](https://github.com/X-lab2017/open-dipper/issues/26).
 - Accepted application commit: `7b27609dd3d02ae12e6987c3c989f0a5a6da561c`.
 - Working branch: `docs/atlas-baseline-ai-radar`, based on `97cd19b` (includes scheduled snapshots).
-- Updated: 2026-10-26. Collaborator: Codex; product review: pending maintainer.
+- Updated: 2026-10-26. Collaborator: Codex; design review was superseded by the accepted 1.3.2 implementation, recorded in [#26](https://github.com/X-lab2017/open-dipper/issues/26).
 
 ## Outcome and boundaries
 

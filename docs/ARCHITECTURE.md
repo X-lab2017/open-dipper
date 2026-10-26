@@ -1,4 +1,4 @@
-# OpenDipper architecture · application 1.3.2
+# OpenDipper architecture · application 1.5.1
 
 Maintained baseline: 2026-10-26. Start with [current status](STATUS.md); field-level definitions live in [the contract index](DATA_CONTRACTS.md).
 
@@ -13,11 +13,12 @@ The main task is to locate a signal, understand its scope and time, and inspect 
 | Layer rail | What am I looking at? | Six groups / eighteen layers; optional mutually exclusive groups, overlay ordering and focused observation tabs |
 | Event wire | What has been published? | Time/category/region/priority/text filters and original sources |
 | AI radar | What is worth investigating for my task? | Two lenses, sourced candidate identities, separately simulated judgments, comparison and trial export |
+| Open Galaxy | How is a project connected, and what evidence can I take away? | Two fixed networks, task discovery, recorded paths, three-object shortlist and local evidence reports |
 | Monthly lens | How did this metric change? | Same-platform sample ranking, calendar-month bars, watchlist |
 | Evidence | Can I verify it? | Source URL, metric period, retrieval time, checksum and status |
 | Editorial intake | How does an editor add an event? | Local draft → issue → maintainer approval → feed |
 
-The application now adds AI radar, an ecosystem-analysis surface, browser-local following, a public sample brief and contribution routes. See [the intelligence contract](INTELLIGENCE.md) for exact routes, provenance rules and unimplemented membership/Agent-service boundaries.
+The application includes AI radar, [Open Galaxy](OPEN_GALAXY.md), browser-local following, a public sample brief and contribution routes. See [the intelligence contract](INTELLIGENCE.md) for exact routes, provenance rules and unimplemented membership/Agent-service boundaries.
 
 ## Data paths
 
@@ -29,12 +30,14 @@ flowchart TD
   ED[Editor draft and GitHub review] --> EI
   GEO[Independent trailing-year geography] --> GA[Geographic adapter]
   REF["Pinned OpenShare / GOSD / AI source extracts"] --> OFF["Offline evidence and radar builders"]
+  GRAPH["Pinned code/model networks"] --> GI["Offline galaxy importer"]
+  GI --> VA
   OFF --> VA
   GA --> VA[Validation and versioned snapshots]
   MA --> VA
   EI --> VA
   VA --> BUILD[Static build and Pages deployment]
-  BUILD --> UI[Map · Globe · Wire · AI radar · Intelligence]
+  BUILD --> UI[Map · Globe · Wire · AI radar · Galaxy · Intelligence]
   DEMO[Separate fixed demo fixtures] --> UI
 ```
 
@@ -45,12 +48,14 @@ Public feeds are fetched in GitHub Actions, normalized into JSON and published w
 | Module | Responsibility |
 | --- | --- |
 | `src/observatory/intelligence.ts` | Typed signals, optional fixture validation, explicit AI mapping, local preference normalization, matching and exports |
-| `src/observatory/portal.ts`, `portal.css` | Ecosystem, subscription sample, following, community and shared portal composition; current radar is a dedicated module |
+| `src/observatory/portal.ts`, `portal.css` | Subscription sample, following, community and shared portal composition; retained earlier ecosystem view; production radar and galaxy use dedicated modules |
 | `src/observatory/model.ts` | Contracts, validation, time filters, ranking, missing-value semantics |
 | `src/observatory/scene.ts` | Geographic projection/clipping, choropleth, markers, camera/keyboard |
 | `src/atlas.ts`, `atlas.css`, `presentation-v*.css` | Production entry, routing, shared shell, state, dialogs, editor, polling and responsive layout |
 | `src/layers.ts`, `rankings.ts`, `dashboard.ts`, `pulse.ts` | Layer composition, scoped rankings, overview totals and separate synthetic activity |
 | `src/radar/model.ts`, `view.ts`, `radar.css` | Validated catalog, task/lens discovery, deterministic placement, inspector/compare/export and expanded state |
+| `src/galaxy/` | Independent graph loading/validation, Canvas rendering, discovery, relationships, local shortlist and report generation; see [contract](OPEN_GALAXY.md) |
+| `scripts/import-galaxy.py`, `public/data/galaxy/` | Fixed graph import, source fingerprints and original observation periods; independent of scheduled event/monthly refresh |
 | `scripts/build-radar.mjs`, `data/reference/radar/` | Offline sourced catalog and independently fixed demo advice |
 | `src/observatory/main.ts` | Retained earlier controller; not the index.html entry |
 | `src/observatory/style.css` | Earlier layout retained with legacy controller; production uses atlas and presentation styles |
