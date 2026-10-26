@@ -1,6 +1,6 @@
 # Open Galaxy / 开源星系
 
-Implementation 1.5.1; public release validation is recorded in [the release plan](plans/ecosystem-public-release.md). The accepted map/radar baseline remains 1.3.2. This module replaces the ecosystem card landing page, at `#ecosystem`; it does not change the map, globe or radar's data.
+Published implementation 1.5.1; merge, browser acceptance and Pages evidence are recorded in [the completed release record](plans/ecosystem-public-release.md). The accepted map/radar baseline remains 1.3.2. This module replaces the ecosystem card landing page, at `#ecosystem`; it does not change the map, globe or radar's data.
 
 ## User outcome and interface
 
@@ -54,6 +54,6 @@ Graph loading does not join the atlas's required startup fetches. If one network
 
 ## Validation and remaining work
 
-`npm run galaxy:check`, `npm run typecheck`, `npm test`, `npm run build`. The review execution and actual browser/publication receipt live in [the research execution plan](plans/ecosystem-research-v2.md), following the [initial galaxy review](plans/ecosystem-galaxy.md).
+`npm run galaxy:check`, `npm run typecheck`, `npm test`, `npm run build`; browser acceptance uses `npm run test:portal:ui`. The current receipt is [public release 1.5.1](plans/ecosystem-public-release.md). Earlier reviews are historical evidence, reached through [the plan index](plans/README.md).
 
-Remaining data work: newer HF snapshots, source-confirmed directed lineage, actual code/model bridges, verified organization identity and stable multi-period layouts. No synthetic temporal playback or invented real-time events are included. Website expansion and rendering are independently implemented; data reuse does not create new upstream licensing rights.
+Follow-up candidates are not active release steps: newer HF snapshots, source-confirmed directed lineage, actual code/model bridges, verified organization identity and stable multi-period layouts. Source/identity work belongs with [#15](https://github.com/X-lab2017/open-dipper/issues/15) / [#16](https://github.com/X-lab2017/open-dipper/issues/16); task evaluations, maintenance/security evidence and reviewed peer matching with [#18](https://github.com/X-lab2017/open-dipper/issues/18); live research or report delivery needs a separate scope under [#17](https://github.com/X-lab2017/open-dipper/issues/17). PDF printing, physical touch-device checks and browser fault injection of a single graph source remain unverified. No synthetic temporal playback or invented real-time events are included. Website expansion and rendering are independently implemented; data reuse does not create new upstream licensing rights.

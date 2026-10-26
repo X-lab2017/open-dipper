@@ -1,6 +1,6 @@
 # Execution plan: observation workspace delivery
 
-- State: active
+- State: completed; the original workspace UI was superseded by the current Atlas.
 - Issue: #24; implementation extends PR #23 and the #22 design.
 - Baseline: 2544ba7 (design); production 50a3c4a.
 - Updated: 2026-10-25. Agent: Codex.
@@ -23,4 +23,4 @@ Organization labels are an index, not a deduplicated global census of legal enti
 
 ## Verification / handoff
 
-Implementation complete. Local typecheck, 74 deterministic tests (including six Python collector tests), documentation/data generation checks and production build passed. Managed-browser review checked desktop 1280 × 720 (no page overflow, 122px event feed), mobile width and preset interactions. PR browser acceptance and Pages verification remain the final deployment gates. Exact run/commit/deployment evidence will be recorded in #24. Remaining source/identity work stays with #9, #15, #16 and #18.
+Implementation completed through [PR #23](https://github.com/X-lab2017/open-dipper/pull/23), commit `26f7e31c10a171195ee3c0f7d90c04ea9a373d52`; [CI 40182468249](https://github.com/X-lab2017/open-dipper/actions/runs/40182468249) passed typecheck, 74 deterministic checks, build and browser acceptance as recorded in [#24](https://github.com/X-lab2017/open-dipper/issues/24). The later [PR #25](https://github.com/X-lab2017/open-dipper/pull/25) superseded this UI; current behavior is [ATLAS_WORKSPACE.md](../ATLAS_WORKSPACE.md), with publication evidence in [the Atlas release record](atlas-release-v9.md). This historical plan has no remaining deployment step. Source/identity follow-ups stay with #9, #15, #16 and #18.

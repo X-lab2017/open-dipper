@@ -28,17 +28,8 @@ Data/model/report tests must cover exact URL identities, no inferred paths, no c
 - The screenshot below is the tested managed preview, not a logged-in production inspection. The existing protected review Site's sign-in boundary remains respected; no sign-in or access workaround was attempted.
 - [Research workspace screenshot](../assets/opendipper-galaxy-research-20261026.jpg).
 
-## Next scoped contributions
+## Historical publication receipt
 
-1. The 1.5.1 CI browser suite now confirms HTML/Markdown/JSON file receipt. PDF printing and physical touch-device validation remain follow-up work.
-2. Add task evaluations, maintenance/security signals and source-confirmed licenses as dated report evidence; never substitute an adoption score for missing evidence.
-3. Improve task taxonomy and reviewed peer matching. Current presets use curated identities and metadata rules, not semantic search or verified functional equivalence.
-4. Add newer model snapshots, preserved lineage direction and evidence-backed code/model bridges with upstream rights confirmation.
-5. Design an opt-in Agent research pipeline and report refresh policy separately; this version's reports are deterministic summaries of collected snapshots, not a live research service.
+Private review 1.5.0 was deployed successfully on 2026-10-26 from source `799f04a15b5670b786fdba0e063e12df8ab10e7c`; archive SHA-256 `c1703bed1fcf2215558310b3b02ff484b7b4cf45b9f9cc64fbb783a665439cb9`. This is historical preview evidence; public Pages delivery is recorded in [release 1.5.1](ecosystem-public-release.md).
 
-## Publication receipt
-
-- Private Site version 12 was published successfully on 2026-10-26 at https://opendipper-layer-atlas-review.token4all.chatgpt.site/#ecosystem.
-- Verified source commit: `799f04a15b5670b786fdba0e063e12df8ab10e7c`.
-- Deployment: `appgdep_6adf20de31c88191b2406823ad1fa5c0`; source archive SHA-256 `c1703bed1fcf2215558310b3b02ff484b7b4cf45b9f9cc64fbb783a665439cb9`.
-- This is a private review receipt, not evidence of public Pages publication. The accepted map/radar baseline stays 1.3.2; subsequent public release verification is maintained separately.
+Private hosting identifiers and the duplicate future-work list were removed during closeout. The prior record is recoverable at [commit 3d89ddf](https://github.com/X-lab2017/open-dipper/blob/3d89ddf5cf59f5c700a058f91ade413f6284dae8/docs/plans/ecosystem-research-v2.md). Remaining evidence/validation limits are maintained in [the galaxy contract](../OPEN_GALAXY.md), not as work to resume from this completed review.
