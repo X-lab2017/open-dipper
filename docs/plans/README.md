@@ -31,6 +31,6 @@ Read a plan only for the task it describes. Product work starts from the current
 | [Observed evidence #20](20-evidence-data.md) | Completed source-adapter delivery; independent data windows still apply |
 | [Intelligence portal](intelligence-portal.md) | Completed framework delivery; service and evidence tasks remain separate |
 
-## Active private review
+## Current release
 
-- [Compact observatory review](visual-workbench-review.md): preserve the original composition and complete first-screen inventory; no Pages deployment or baseline acceptance until maintainer review.
+- [Compact observatory and paired themes 1.5.2](visual-workbench-review.md): structure accepted; coordinated light/dark refinement and Pages publication authorized. Final validation and deployment evidence are recorded in [PR #37](https://github.com/X-lab2017/open-dipper/pull/37).

@@ -1,4 +1,4 @@
-/* Hallmark-informed restyle · app screen · OpenDipper brand · layout and copy retained.
+/* Hallmark-informed restyle · app screen · OpenDipper brand · modes: light+dark · layout and copy retained.
  * The compact composition is the contract: same columns, row budgets, controls,
  * observations and simulation. Refine type, alignment and states within it.
  * This is a project-owned implementation, not a Hallmark lint certification. */
@@ -11,7 +11,26 @@
   --wb-control: 12px;
   --wb-heading: 13px;
   --wb-number: 26px;
+  --wb-panel-shadow: none;
+  --wb-overlay-shadow: 0 0 0 1px var(--od-border);
+  --wb-panel-rim: color-mix(in srgb, var(--od-surface-highlight) 45%, var(--panel));
+  --wb-selected: color-mix(in srgb, var(--accent) 12%, var(--panel));
+  --wb-nav-selected: color-mix(in srgb, var(--accent) 9%, var(--panel));
 }
+:root[data-theme=light] {
+  --wb-panel-shadow: 0 2px 7px color-mix(in srgb, var(--od-shadow) 5%, transparent);
+  --wb-overlay-shadow: 0 3px 12px color-mix(in srgb, var(--od-shadow) 12%, transparent);
+  --wb-panel-rim: var(--od-surface-highlight);
+  --wb-selected: color-mix(in srgb, var(--accent) 9%, var(--panel));
+  --wb-nav-selected: color-mix(in srgb, var(--accent) 7%, var(--panel));
+}
+/* A paired instrument surface: lightness provides elevation, colour carries state.
+ * No additional rows, wrappers or pseudo-elements occupy the content budget. */
+body { font-family: var(--od-font-body); }
+.topbar .brand-pair { gap: 14px; }
+.topbar .brand-pair .lab-logo { width: 52px; height: 28px; }
+.topbar .brand-pair .product-logo { width: 148px; height: 42px; }
+.topbar .brand-pair > i { height: 22px; border-color: var(--od-border-strong); }
 button, input, select, textarea { font-family: var(--od-font-body); }
 button, a, input, select { touch-action: manipulation; }
 :where(button, a, input, select, textarea, [tabindex]):focus-visible {
@@ -20,14 +39,16 @@ button, a, input, select { touch-action: manipulation; }
 }
 [hidden] { display: none !important; }
 button:disabled { cursor: default; }
-.panel { border-color: var(--od-border); border-radius: var(--od-radius-panel); box-shadow: none; }
+.panel { border-color: var(--od-border); border-top-color: var(--wb-panel-rim); border-radius: var(--od-radius-panel); box-shadow: var(--wb-panel-shadow); }
 .topbar { background: var(--panel); }
 .topbar .product-nav button { font-size: 13px; font-weight: 500; letter-spacing: 0; }
-.topbar .product-nav button.active { color: var(--text); box-shadow: inset 0 -2px var(--accent); border-radius: 0; }
+.topbar .product-nav button.active { color: var(--text); background: var(--wb-nav-selected); box-shadow: inset 0 -2px var(--accent); border-radius: 4px 4px 0 0; }
 .top-actions button, .top-actions a { font-size: 11px; }
 .top-actions .icon-button, .top-actions .repo-link { font-size: 17px; }
 .od-segmented, .layout-switch { box-shadow: none; border-color: var(--line); border-radius: var(--od-radius-control); }
 .od-segmented > button { font-weight: 500; letter-spacing: 0; }
+.od-segmented > button.active, .od-segmented > button[aria-pressed=true],
+.contextbar .view-nav button.active { background: var(--soft); border-color: var(--accent); color: var(--text); }
 .contextbar .view-nav button { font-size: var(--wb-control); }
 .contextbar .perspective label, .contextbar .perspective select { font-size: var(--wb-label); }
 .contextbar .perspective select { padding: 6px 8px; background: var(--input); }
@@ -47,6 +68,7 @@ button:disabled { cursor: default; }
 .tree-group { border-color: var(--od-border-subtle); }
 .layer-row label { font-size: var(--wb-control); font-weight: 400; }
 .layer-row.is-primary { box-shadow: inset 2px 0 var(--accent); }
+.layer-row.selected { background: var(--wb-selected); }
 .layer-row .geometry-tag, .layer-row .primary-tag { font: 9px var(--od-font-body); letter-spacing: 0; }
 .layer-row .layer-info { font-size: var(--wb-label); }
 .layer-row:hover, .inspector-rank:hover, .latest-row:hover { background: var(--raised); }
@@ -56,7 +78,7 @@ button:disabled { cursor: default; }
 .stack-item { border-color: var(--od-border-subtle); }
 
 /* Five facts on one baseline: neutral figures, secondary labels, quiet rules. */
-.coverage-ribbon { padding-left: 14px; padding-right: 14px; }
+.coverage-ribbon { padding-left: 14px; padding-right: 14px; background: linear-gradient(110deg, var(--wb-nav-selected), var(--panel) 55%); }
 .coverage-metric { gap: 4px; padding-left: 14px; border-color: var(--od-border-subtle); }
 .coverage-metric:first-child { padding-left: 0; }
 .coverage-metric > span { font: var(--wb-label)/14px var(--od-font-body); color: var(--sub); }
@@ -67,16 +89,19 @@ button:disabled { cursor: default; }
 .scope-panel h2 { font-size: 17px; font-weight: 600; line-height: 20px; }
 .scope-stats { font: var(--wb-meta)/14px var(--od-font-body); color: var(--sub); }
 .scope-stats b { font-weight: 600; font-size: var(--wb-label); font-variant-numeric: tabular-nums; color: var(--text); }
+.scope-panel { background: var(--panel); box-shadow: inset 2px 0 var(--accent); }
 
 /* Map labels and controls occupy their established overlay positions. */
 .map-topline > .map-caption { font: 500 var(--wb-control)/16px var(--od-font-body); letter-spacing: 0; }
 .map-topline > .map-pulse-label { font: 9px var(--od-font-body); letter-spacing: 0; color: var(--sub); }
 .locate-button { font: var(--wb-label) var(--od-font-body); border-radius: var(--od-radius-control); box-shadow: none; }
 .locate-button kbd { font-size: 9px; }
-.map-tools { border-radius: var(--od-radius-control); box-shadow: none; background: var(--panel); }
+.map-tools { border-radius: var(--od-radius-control); box-shadow: var(--wb-overlay-shadow); background: var(--panel); }
 .map-tools button { border-radius: 3px; }
 .map-tools button:hover { background: var(--raised); }
-.map-legend { border-color: var(--line); border-radius: var(--od-radius-control); box-shadow: none; background: var(--panel); }
+.map-legend { border-color: var(--line); border-radius: var(--od-radius-control); box-shadow: var(--wb-overlay-shadow); background: var(--panel); }
+.map-panel { border-color: var(--od-border-strong); background: var(--od-map-ocean); }
+.map-footer { background: var(--panel); }
 .legend-toggle { min-height: 28px; }
 .legend-toggle b, .legend-toggle > span { font: var(--wb-meta) var(--od-font-body); letter-spacing: 0; }
 .compact-fill button, .compact-fill > span, .compact-bubble button, .compact-points button { font: var(--wb-label) var(--od-font-body); }
@@ -100,13 +125,13 @@ button:disabled { cursor: default; }
 .right-panel .inspector-rank { gap: 7px; border-color: var(--od-border-subtle); }
 .rank-number { font: var(--wb-meta) var(--od-font-body); font-variant-numeric: tabular-nums; color: var(--muted); }
 .right-panel .rank-name b { font: 400 var(--wb-control)/1.3 var(--od-font-body); padding-bottom: 5px; }
-.rank-name i { height: 2px; opacity: .7; }
+.rank-name i { height: 2px; opacity: 1; }
 .right-panel .inspector-rank > strong { font: 500 var(--wb-control) var(--od-font-body); font-variant-numeric: tabular-nums; color: var(--text); }
 .right-panel .catalog-link { font: var(--wb-label) var(--od-font-body); padding: 7px 0; }
 .catalog-link b { font: 500 var(--wb-label) var(--od-font-body); }
 
 /* Pulse remains live and fully present. Text is neutral; sparks retain identity. */
-.pulse-panel { padding: 8px 12px 6px; }
+.pulse-panel { padding: 8px 12px 6px; background: linear-gradient(110deg, var(--wb-nav-selected), var(--panel) 65%); }
 .pulse-metrics { min-height: 39px; margin: 0 0 3px; gap: 12px; }
 .pulse-metric { gap: 3px; border-radius: 3px; }
 .pulse-metric-label { font: var(--wb-label)/14px var(--od-font-body); gap: 4px; color: var(--sub); letter-spacing: 0; }
@@ -114,7 +139,8 @@ button:disabled { cursor: default; }
 .pulse-value-row { gap: 6px; }
 .pulse-value-row > strong { font: 500 20px/22px var(--od-font-body); font-variant-numeric: tabular-nums; letter-spacing: -.3px; color: var(--text); }
 .pulse-metric[data-pulse-metric=git] strong { font-size: 18px; letter-spacing: -.3px; }
-.pulse-spark { opacity: .85; }
+.pulse-spark { opacity: 1; }
+.pulse-spark path { stroke-width: 1.6; }
 .pulse-bottom { gap: 2px; }
 .pulse-platforms { padding: 3px 0; min-height: 19px; gap: 8px; }
 .pulse-platform { gap: 3px; }
@@ -152,6 +178,16 @@ button:disabled { cursor: default; }
 .galaxy-title h1 { font-weight: 600; letter-spacing: 0; }
 .galaxy-kicker { font-size: 10px; color: var(--sub); }
 .galaxy-rail, .galaxy-inspector { border-color: var(--od-border); border-radius: var(--od-radius-panel); }
+.galaxy-stage { border-color: var(--od-border-strong); }
+.galaxy-rail, .galaxy-inspector { border-top-color: var(--wb-panel-rim); box-shadow: var(--wb-panel-shadow); }
+.galaxy-mode, .galaxy-stage-tools { background: var(--input); border-color: var(--line); }
+.galaxy-mode button[aria-pressed=true] { background: var(--soft); color: var(--text); box-shadow: inset 0 -2px var(--accent); }
+.galaxy-result.selected { background: var(--wb-selected); box-shadow: inset 2px 0 var(--accent); }
+.radar-candidate.selected { background: var(--wb-selected); }
+.radar-panel-head { background: var(--wb-nav-selected); }
+.galaxy-search:focus-within, .radar-search:focus-within { border-color: var(--accent); }
+.galaxy-stage-caption, .galaxy-caption-count, .galaxy-filter-fields > label:not(.galaxy-check),
+.galaxy-list-heading b, .galaxy-rail-head b { letter-spacing: 0; }
 .galaxy-context-actions, .galaxy-filter-label, .galaxy-rail-head { font-size: 11px; }
 .research-toolbar > span, .portal-eyebrow { font-size: 11px; color: var(--sub); }
 .research-table-wrap th { font-weight: 600; }
@@ -215,6 +251,9 @@ button:disabled { cursor: default; }
   .pulse-platform b, .pulse-platform em { font-size: 9px; }
 }
 @media (max-width:700px) {
+  .topbar .brand-pair { gap: 8px; }
+  .topbar .brand-pair .lab-logo { width: 44px; height: 24px; }
+  .topbar .brand-pair .product-logo { width: 130px; height: 37px; }
   .topbar .product-nav button { font-size: 12px; }
   .contextbar .source-stamp { gap: 4px; }
   .contextbar .source-stamp .source-details { font-size: 8px; }
@@ -229,6 +268,12 @@ button:disabled { cursor: default; }
   .pulse-stream-row, .pulse-events, .pulse-event { min-height: 20px; }
   .pulse-event > strong, .pulse-event > span:not(.pulse-event-dot) { font-size: 8px; }
   .galaxy-context-actions { font-size: 10px; }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .topbar .product-nav button, .od-segmented > button, .layer-row,
+  .inspector-rank, .galaxy-result, .radar-candidate {
+    transition: background-color var(--od-motion-fast), color var(--od-motion-fast), border-color var(--od-motion-fast);
+  }
 }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after {

@@ -49,12 +49,13 @@ const sceneJS=ts.transpileModule(await fs.readFile('src/galaxy/scene.ts','utf8')
 const {GalaxyScene,galaxyTone}=await import(dataModule(sceneJS));
 const {palettes}=await import(dataModule(paletteJS));
 test('galaxy chroma derives from shared theme colors without changing readable text tokens',()=>{
+ const originalPalettes=structuredClone(palettes);
  const chroma=hex=>{const rgb=[1,3,5].map(i=>parseInt(hex.slice(i,i+2),16));return Math.max(...rgb)-Math.min(...rgb);};
  for(const light of [false,true])for(const key of ['accent','event-release','warning','positive','event-community','event-research','manual','chart-influence']){
   const token=palettes[light?'light':'dark'][key],tone=galaxyTone(token,light);
   assert.match(tone,/^#[0-9a-f]{6}$/);assert.ok(chroma(tone)>chroma(token),`${light?'light':'dark'} ${key} is more vivid`);
  }
- assert.equal(palettes.light.text,'#203540');assert.equal(palettes.dark.text,'#E2EBF0');
+ assert.deepEqual(palettes,originalPalettes,'visual effects never mutate the shared UI palette');
 });
 test('bounded overview effects obey motion toggle, live reduced motion, hidden page and disposal',()=>{
  const names=['document','matchMedia','ResizeObserver','requestAnimationFrame','cancelAnimationFrame','devicePixelRatio'],originals=new Map(names.map(k=>[k,Object.getOwnPropertyDescriptor(globalThis,k)]));

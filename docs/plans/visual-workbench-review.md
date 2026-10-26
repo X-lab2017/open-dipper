@@ -1,9 +1,9 @@
-# Compact observatory — private review revision
+# Compact observatory — paired-theme release 1.5.2
 
-- Execution state: Hallmark-informed compact restyle deployed privately; awaiting maintainer review
+- Execution state: structure accepted; paired-theme release authorized, final CI and Pages validation tracked in PR #37
 - Baseline: `6cb118b6896c044b0cdd510f7a09ee869ba8b998`
-- Branch: `design/observatory-review-v2`; draft PR https://github.com/X-lab2017/open-dipper/pull/37
-- Scope: preserve original structure and information while refining visual details. Update the existing private review Site; do not merge or deploy GitHub Pages.
+- Branch: `design/observatory-review-v2`; PR https://github.com/X-lab2017/open-dipper/pull/37
+- Current scope: preserve original structure and information, coordinate both themes, reduce the header logo and publish through GitHub Pages after validation. Earlier private-review restrictions below are historical and superseded by the release authorization.
 - Responsible collaborator: Codex, AI-assisted engineering and design.
 
 ## Acceptance
@@ -13,7 +13,7 @@
 3. Show five totals, scope counters, the entire top ten, latest news and ecosystem pulse together at 1280×720, 1366×768, 1440×900, 1920×1080 and 1920×1200. Check clipping ancestors as well as page overflow.
 4. Keep layer display management directly available. The pulse remains mounted with four metrics, seven platforms, event stream and five controls. Preserve simulation labels and original pause/step/map-link behavior.
 5. Preserve Map/Globe/Wire, themes, Chinese/English, one/two-screen modes, mobile natural flow, keyboard and reduced motion. Retain the hidden-canvas resize guard and camera round-trip regression.
-6. Deliver the revised build at the same owner-private Site. Accepted baselines and public Pages remain unchanged.
+6. Publish the validated paired-theme build through GitHub Pages under the maintainer’s 2026-10-27 release instruction. Preserve historical baseline fingerprints.
 
 ## Implementation
 
@@ -39,7 +39,7 @@ The earlier single-layer default, large title, uneven columns, tall ranking rows
 
 Private review: https://opendipper-workbench-review-20261026.token4all.chatgpt.site
 
-Apply further feedback on this branch and update this Site. Do not merge, accept a new baseline or deploy Pages without a subsequent release instruction. Physical touch devices and a complete assistive-technology audit are outside the recorded checks.
+The private-review boundary was superseded by the maintainer’s 2026-10-27 instruction to refine both themes and publish Pages. Physical touch devices and a complete assistive-technology audit are outside the recorded checks.
 
 ## Follow-up: system restyle within the compact composition
 
@@ -60,3 +60,17 @@ Verification for this follow-up:
 
 - The CI successor changes only PR concurrency: a newer check supersedes older checks for the same PR; production remains serialized. The older runner was stuck installing Chromium, so its obsolete check was cancelled and the complete latest check ran successfully. No test or publication gate was removed.
 - Owner-private Site deployment succeeded at 2026-10-27 07:24:20 Asia/Shanghai, deployment `appgdep_6adfe1150b348191923f04d96a14ce8d`. Site source `2783b14a4dcb47afffad31774c50b4838dce6c16` contains application `673569add2e5be848d758fdc34b389e4b19ec393`; the CI successor has identical application sources. The cloud review entry retains its ChatGPT sign-in gate; visual QA uses the same application build locally and in CI.
+
+## Paired-theme publication (2026-10-27)
+
+The maintainer accepted the compact structure and authorized publication after visual refinement. Application 1.5.2 and visual system 1.4.0 retain all original routes, text, data, controls and row budgets.
+
+- Use ink-blue surfaces and brighter cyan/teal data marks in dark mode; cool-white surfaces and deeper ink/cyan in light mode. Shared token roles coordinate maps, Radar, Galaxy, source badges and interaction states.
+- Reduce the product wordmark from 176px to 148px on desktop (130px on mobile), and the X-lab mark to 52px (44px on mobile). Preserve official SVG bytes and aspect ratios.
+- Use surface brightness and crisp rim borders for dark elevation, small shadows for light overlays, quiet active-navigation fills, explicit focus/selection and more distinct chart ramps. Add only short colour transitions; reduced-motion remains supported.
+- No component tree, data adapter or event handling is changed in this follow-up. The current main-branch bot snapshot is retained through a merge; no incidental data refresh is requested.
+- Reference: Hallmark’s restyle, dark-mode and data-viz guidance, adapted to the existing dashboard contract. This is not a full Hallmark lint certification.
+
+Measured local browser review at 1363×936 retains the exact original budgets: topbar 64px, context row 48px, summary 62px, map container 797×599px, pulse 104px; five totals, ten ranks, four pulse metrics, seven platforms and five controls remain present. Shared-text contrast is tested on page, panel, input, raised and selected surfaces in both themes; focus is tested at 3:1. Final test/CI/deployment results belong to the PR’s delivery record, not an assumed pass here.
+
+Local typecheck, the full deterministic suite (124 Node tests and 6 Python tests), design/docs generation checks, production build and diff checks passed. The Galaxy palette regression now verifies the full shared palette remains unchanged by visual effects, rather than pinning two obsolete colour literals; vivid-mark checks remain intact. Browser matrices will run on the PR commit before merge.
