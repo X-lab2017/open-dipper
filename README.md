@@ -21,7 +21,7 @@
 
 The current atlas combines six groups and eighteen layers: regional fills, proportional asset bubbles and circular entities. Tabbed observations, top-ten rankings and paired themes support one- or two-screen presentations. See the [workspace contract](docs/ATLAS_WORKSPACE.md). Synthetic pulse growth remains separate from sourced news and report snapshots.
 
-**AI radar review:** [Explore 30 sourced software, model and dataset candidates](https://www.x-lab.info/open-dipper/#radar), filter by task, inspect evidence, compare like candidates, export trial checklists and follow locally. Ring placements and advice are clearly marked demonstrations with an off switch. [Implementation and contribution guide](docs/AI_RADAR.md).
+**AI radar review:** [Explore 160 sourced software, model and dataset candidates](https://www.x-lab.info/open-dipper/#radar), filter by task, inspect evidence, compare like candidates, export trial checklists and follow locally. Ring placements and advice are clearly marked demonstrations with an off switch. [Implementation and contribution guide](docs/AI_RADAR.md).
 
 [![AI radar review with task filters, circular candidates and evidence details](docs/assets/opendipper-ai-radar-review-20261026.jpg)](https://www.x-lab.info/open-dipper/#radar)
 

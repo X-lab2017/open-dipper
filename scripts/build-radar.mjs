@@ -50,6 +50,7 @@ const dataSteps=[copy('固定数据 revision、配置与 split，确认样本单
 const assessments=entities.map((e,i)=>{
  const d=detail[e.name];
  if(d)return {entityId:e.id,ring:d[0],why:copy(d[1],d[2]),fit:copy(d[3],d[4]),caution:copy(d[5],d[6]),steps:softwareSteps,change:copy(`${e.short}：试用清单等待验证`,`${e.short}: trial checklist ready to verify`)};
+ if(e.kind==='software')return {entityId:e.id,ring:['trial','adopt','assess','trial','adopt'][i%5],why:copy(`围绕“${e.description.zh}”设置一个可复现的小任务，与现有工具对照验证。`,`Set up a reproducible task for ${e.description.en.toLowerCase()} and compare it with your existing tools.`),fit:e.description,caution:copy('固定版本、接口兼容、数据权限与资源成本','Pinned version, interface compatibility, data permissions and resource cost'),steps:softwareSteps,change:copy(`${e.short}：场景试用与证据待共建`,`${e.short}: contribute task trials and evidence`)};
  const isData=e.kind==='dataset';
  return {entityId:e.id,ring:isData?['trial','assess','adopt','trial','assess','trial'][i%6]:['trial','adopt','trial','assess','trial','adopt'][i%6],
  why:isData?copy('把数据用途与验证目标对应起来，先检查样本和复用条件，再纳入实验。','Match the dataset to a verification goal. Inspect samples and reuse conditions before adding it to an experiment.'):copy('将这个具体发布版本加入候选，用你的任务、硬件和评分规则验证适配性。','Add this published version to a shortlist and verify its fit using your own tasks, hardware and evaluation rules.'),

@@ -1,6 +1,14 @@
 # Changelog
 
-This file records repository milestones, not published GitHub releases. Application version (`package.json`: 1.3.0) and visual baseline (`design/tokens.json`: 1.3.0) are independent. Detailed feedback and commits are in [the history](docs/HISTORY.md).
+This file records repository milestones, not published GitHub releases. Application version (`package.json`: 1.3.1) and visual baseline (`design/tokens.json`: 1.3.0) are independent. Detailed feedback and commits are in [the history](docs/HISTORY.md).
+
+## 2026-10-26 · Application 1.3.1 / Dense, readable AI radar
+
+- Restored the existing spaced bilingual logo in both interface languages; brand assets remain 1.1.0.
+- Expanded sourced coverage to 80 software repositories, 60 models and 20 datasets, keeping original observations and unknown fields intact.
+- Added larger numbered circular targets, stronger rings, a decorative scan, linked candidate previews and one-sector zoom. All 80 candidates per lens render; numbering is not ranking and positions remain stable under filters.
+- Kept fixed demo guidance separate, improved dense-screen composition and added full-lens spacing/numbering and sector interaction acceptance checks.
+- Publication and follow-up evidence: [#26](https://github.com/X-lab2017/open-dipper/issues/26).
 
 ## 2026-10-26 · Application 1.3.0 / AI radar review and brand 1.1.0
 
