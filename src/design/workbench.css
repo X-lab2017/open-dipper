@@ -140,7 +140,7 @@ button:disabled { opacity: .45; }
 /* Inspector: readable numeric hierarchy, stable alignment and a single list. */
 .right-panel { max-height: none; grid-template-rows: none; display: flex; flex-direction: column; gap: 0; border: 1px solid var(--od-border-subtle); border-radius: 10px; background: var(--panel); overflow: hidden; min-height: 0; }
 .right-panel > .panel { border: 0; border-radius: 0; box-shadow: none; }
-.scope-panel { padding: 17px 18px 14px; gap: 5px; flex-shrink: 0; }
+.scope-panel { padding: 17px 18px 14px; gap: 5px; flex-shrink: 0; justify-content: flex-start; }
 .scope-title { font-size: 12px; line-height: 1.4; color: var(--sub); }
 .scope-title > span:last-child { font-size: 12px; }
 .scope-title button { font-size: 11px; }
@@ -178,6 +178,7 @@ button:disabled { opacity: .45; }
 .entity-metrics, .entity-note, .entity-location, .entity-actions button { font-size: 13px; }
 .entity-note { line-height: 1.7; }
 .inspector-entities button { font-size: 13px; min-height: 46px; }
+#latest-content { grid-template-rows: repeat(2, auto); align-content: start; flex: 0; }
 .latest-panel { padding: 13px 17px 12px; border-top: 1px solid var(--line) !important; flex-shrink: 0; }
 .latest-panel > header { min-height: 27px; margin-bottom: 7px; gap: 12px; }
 .latest-panel h2 { font-size: 13px; }
@@ -357,7 +358,7 @@ button:disabled { opacity: .45; }
   .context-actions { gap: 9px; }
   .workspace { grid-template-columns: 230px minmax(0,1fr); grid-template-rows: 720px auto; }
   .center-stage { grid-template-rows: 96px minmax(0,1fr) auto; }
-  .right-panel { grid-column: 1 / -1; display: grid; grid-template-columns: 220px minmax(0,1fr) 260px; min-height: 470px; }
+  .right-panel { grid-column: 1 / -1; display: grid; grid-template-columns: 220px minmax(0,1fr) 260px; min-height: 470px; height: 500px; }
   .scope-panel { border-right: 1px solid var(--line) !important; }
   .latest-panel { border-top: 0 !important; border-left: 1px solid var(--line) !important; }
   .workspace > .right-panel > .tabbed-inspector { min-height: 470px; }
@@ -426,7 +427,7 @@ button:disabled { opacity: .45; }
   .tab-layers .left-panel { min-height: 620px; height: auto; max-height: none; padding-bottom: 0; }
   .tree-scroll { max-height: 650px; overflow: auto; }
   .layer-stack { max-height: none; }
-  .tab-overview .right-panel { max-height: none; grid-template-rows: none; display: flex; min-height: 780px; }
+  .tab-overview .right-panel { max-height: none; grid-template-rows: none; display: flex; min-height: 780px; height: auto; }
   .scope-panel { border-right: 0 !important; }
   .workspace > .right-panel > .tabbed-inspector { min-height: 500px; }
   .latest-panel { border-left: 0 !important; border-top: 1px solid var(--line) !important; }
