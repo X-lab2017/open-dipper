@@ -178,7 +178,7 @@ button:disabled { opacity: .45; }
 .entity-metrics, .entity-note, .entity-location, .entity-actions button { font-size: 13px; }
 .entity-note { line-height: 1.7; }
 .inspector-entities button { font-size: 13px; min-height: 46px; }
-#latest-content { grid-template-rows: repeat(2, auto); align-content: start; flex: 0; }
+#latest-content { grid-template-rows: repeat(2, auto); align-content: start; flex: 0 0 auto; }
 .latest-panel { padding: 13px 17px 12px; border-top: 1px solid var(--line) !important; flex-shrink: 0; }
 .latest-panel > header { min-height: 27px; margin-bottom: 7px; gap: 12px; }
 .latest-panel h2 { font-size: 13px; }
