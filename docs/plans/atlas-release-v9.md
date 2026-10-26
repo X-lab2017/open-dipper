@@ -1,6 +1,6 @@
 # Atlas release: review workspace → GitHub
 
-Status: active. Date: 2026-10-26. Public issue/PR and deployment receipt will be linked after validation.
+Status: active. Date: 2026-10-26. Implementation: [PR #25](https://github.com/X-lab2017/open-dipper/pull/25). Deployment receipt will be linked after validation.
 
 ## Scope and acceptance
 
@@ -29,3 +29,5 @@ Retain six groups / 18 layers, optional exclusive developer/asset choices, one a
 Implementation, documentation and validation were prepared with AI assistance under maintainer direction. Automated and browser evidence are reported independently; unrun checks are not claimed as passed. No paid service, live intelligence SLA or full accessibility certification is implied.
 
 Local evidence: 95 Node tests plus 6 Python collector tests, typecheck and four-entry production build passed. Cloud browser checked dark/light map and globe, layer toggles, bubble overlay, fullscreen return and AI radar. Embedded viewport checks: 1280×720 and 1920×1080 stay within one screen; 390×844 uses vertical flow without horizontal overflow. CI remains the full scripted acceptance authority.
+
+First PR CI passed all deterministic checks and build, then exposed a rapid fullscreen-exit / browser-window transition race. The implementation now awaits an in-flight native fullscreen request before exiting; UI acceptance checks actual native entry/exit and isolates viewport checks from the native-window transition.

@@ -28,6 +28,7 @@ function remember(key:string,value:unknown){try{localStorage.setItem(key,JSON.st
 let dashboard:DashboardSnapshot;
 let data:Bundle,regions:Country[]=[],scene:Scene|null=null,savedCamera:ReturnType<Scene['camera']>|undefined;
 let mapOwnsFullscreen=false;
+let mapFullscreenRequest:Promise<void>|undefined;
 let disposePulse:(()=>void)|undefined;
 let pointIndex:Record<LayerId,Point[]>;let soloSaved:LayerId[]|null=null;
 const short=(n:number|null|undefined)=>n==null?'—':state.lang==='zh'?(n>=1e8?(n/1e8).toFixed(2)+'亿':n>=1e4?(n/1e4).toFixed(2)+'万':fmt(n)):n>=1e9?(n/1e9).toFixed(2)+'b':n>=1e6?(n/1e6).toFixed(1)+'m':n>=1e3?(n/1e3).toFixed(1)+'k':fmt(n);
@@ -103,16 +104,19 @@ function secondScreen(){return `<section id="screen-two" class="evidence-screen"
 function openCatalog(id:LayerId){state.catalog=id;state.catalogQuery='';if(state.layout==='two'){render();document.querySelector('#screen-two')?.scrollIntoView({behavior:'smooth'});return;}modal(`${tr(layerById[id].name)} · ${t('数据清单','Catalog')}`,`<p>${id==='code'?tr(data.repoRanking.period):tr(layerById[id].scope)} · ${totalScope(id)}</p><div class="modal-catalog">${catalogRows(id)}</div>`);document.querySelectorAll<HTMLElement>('.modal [data-entity]').forEach(el=>el.onclick=()=>{const p=pointIndex[id].find(p=>p.id===el.dataset.entity);if(p)inspectEntity(p);});document.querySelectorAll<HTMLElement>('.modal [data-region]').forEach(el=>el.onclick=()=>{const c=regions.find(c=>c.rawCode===el.dataset.region);if(c){if(!state.active.includes(id))state.active=toggleLayer(state.active,id);if(isArea(id))state.primary=id;state.inspect=id;focusCountry(c);}});}
 async function toggleFullscreen(){try{if(document.fullscreenElement)await document.exitFullscreen();else if(document.documentElement.requestFullscreen)await document.documentElement.requestFullscreen();else toast(t('当前浏览器不支持全屏，请使用浏览器的全屏功能。','Fullscreen is unavailable here; use your browser fullscreen control.'));}catch{toast(t('当前浏览器未允许全屏，可使用浏览器全屏功能。','Fullscreen was not allowed; use browser fullscreen instead.'));}}
 async function exitMapFullscreen(){
- const exitNative=mapOwnsFullscreen&&!!document.fullscreenElement;mapOwnsFullscreen=false;state.focus=false;render();
+ state.focus=false;
+ // Escape may arrive before requestFullscreen resolves. Finish that request before exiting.
+ try{await mapFullscreenRequest;}catch{}
+ const exitNative=mapOwnsFullscreen&&!!document.fullscreenElement;mapOwnsFullscreen=false;
  if(exitNative)try{await document.exitFullscreen();}catch{}
- document.querySelector<HTMLElement>('#map-fullscreen-button')?.focus({preventScroll:true});
+ render();document.querySelector<HTMLElement>('#map-fullscreen-button')?.focus({preventScroll:true});
 }
 async function toggleMapFullscreen(){
  if(state.focus){await exitMapFullscreen();return;}
  state.focus=true;state.mobile='map';render();document.querySelector<HTMLElement>('.map-return button')?.focus({preventScroll:true});
  if(!document.fullscreenElement&&document.documentElement.requestFullscreen){
   mapOwnsFullscreen=true;
-  try{await document.documentElement.requestFullscreen();}catch{mapOwnsFullscreen=false;toast(t('已展开全窗口地图；浏览器未允许隐藏窗口边框。可点“返回观测台”退出。','Map expanded to the window; browser fullscreen was not allowed. Use Back to observatory to return.'));}
+  try{mapFullscreenRequest=document.documentElement.requestFullscreen();await mapFullscreenRequest;}catch{mapOwnsFullscreen=false;toast(t('已展开全窗口地图；浏览器未允许隐藏窗口边框。可点“返回观测台”退出。','Map expanded to the window; browser fullscreen was not allowed. Use Back to observatory to return.'));}finally{mapFullscreenRequest=undefined;}
  }
 }
 document.addEventListener('fullscreenchange',()=>{
