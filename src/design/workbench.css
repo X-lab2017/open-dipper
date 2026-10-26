@@ -99,9 +99,9 @@ button:disabled { opacity: .45; }
 .coverage-source time { margin-left: 6px; font-variant-numeric: tabular-nums; }
 .coverage-source button { font-size: 11px; color: var(--sub); padding: 0; }
 .map-panel { min-height: 0; border-radius: 10px; overflow: hidden; }
-.map-topline { top: 19px; left: 20px; right: 20px; align-items: flex-start; }
+.map-topline { justify-content: flex-start; top: 19px; left: 20px; right: 20px; align-items: flex-start; }
 .map-heading { display: flex; flex-direction: column; gap: 5px; max-width: calc(100% - 145px); pointer-events: none; }
-.map-heading .map-caption { color: var(--text) !important; font-family: var(--od-font-body); font-size: 17px !important; font-weight: 600; letter-spacing: 0; line-height: 1.4; }
+.map-heading .map-measure { color: var(--text); font-family: var(--od-font-body); font-size: 17px; font-weight: 600; letter-spacing: 0; line-height: 1.4; }
 .map-period { font-size: 12px; color: var(--od-map-label); line-height: 1.4; }
 .map-topline > .map-pulse-label { font-size: 11px; color: var(--od-warning); letter-spacing: 0; }
 .locate-button { top: 19px; left: auto; right: 19px; padding: 9px 11px; min-height: 36px; font-size: 12px; gap: 7px; border: 1px solid var(--line); border-radius: 7px; background: var(--panel); backdrop-filter: none; box-shadow: none; }
@@ -379,7 +379,7 @@ button:disabled { opacity: .45; }
   .topbar .brand-pair { gap: 9px; }
   .topbar .brand-pair .lab-logo { width: 42px; }
   .topbar .brand-pair .product-logo { width: 128px; height: 39px; }
-  .top-actions { margin-left: auto; gap: 3px; }
+  .top-actions { margin-left: auto; gap: 3px; flex-basis: auto; }
   .top-actions .layout-switch, .top-actions .fullscreen-button, .top-actions .repo-link { display: none; }
   .topbar .product-nav { justify-content: space-between; overflow: auto; gap: 0; padding: 0; }
   .topbar .product-nav button { font-size: 12px; padding: 7px 8px; flex-shrink: 0; }
@@ -413,7 +413,7 @@ button:disabled { opacity: .45; }
   .tab-map .center-stage > .map-panel { min-height: 490px; height: 490px; }
   .map-topline { top: 16px; left: 15px; right: 15px; }
   .map-heading { max-width: 100%; }
-  .map-heading .map-caption { font-size: 16px !important; }
+  .map-heading .map-measure { font-size: 16px; }
   .map-period { font-size: 11px; }
   .locate-button { top: 78px; left: 15px; right: auto; min-height: 34px; padding: 7px 9px; }
   .map-fill-select { top: 121px; left: 15px; right: auto; font-size: 11px; }
@@ -426,7 +426,7 @@ button:disabled { opacity: .45; }
   .tab-layers .left-panel { min-height: 620px; height: auto; max-height: none; padding-bottom: 0; }
   .tree-scroll { max-height: 650px; overflow: auto; }
   .layer-stack { max-height: none; }
-  .tab-overview .right-panel { max-height: none; grid-template-rows: none; display: flex; min-height: 780px; grid-template-rows: none; }
+  .tab-overview .right-panel { max-height: none; grid-template-rows: none; display: flex; min-height: 780px; }
   .scope-panel { border-right: 0 !important; }
   .workspace > .right-panel > .tabbed-inspector { min-height: 500px; }
   .latest-panel { border-left: 0 !important; border-top: 1px solid var(--line) !important; }

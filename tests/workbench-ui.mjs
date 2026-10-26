@@ -56,6 +56,7 @@ try {
         await expect.poll(()=>page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
         const title=page.locator('.workspace-heading h1');
         expect(await title.evaluate(e=>parseFloat(getComputedStyle(e).fontSize))).toBeGreaterThanOrEqual(21);
+        expect(await page.locator('.map-measure').evaluate(e=>parseFloat(getComputedStyle(e).fontSize))).toBeGreaterThanOrEqual(16);
         await page.screenshot({path:`screenshots/workbench-${light?'light':'dark'}-${lang}-${width}.png`,fullPage:true});
         if(width===390) {
           await page.locator('[data-mobile=layers]').click();
