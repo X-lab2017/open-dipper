@@ -1,6 +1,6 @@
 # Compact observatory — private review revision
 
-- Execution state: Hallmark-informed restyle in progress on the approved compact composition
+- Execution state: Hallmark-informed compact restyle deployed privately; awaiting maintainer review
 - Baseline: `6cb118b6896c044b0cdd510f7a09ee869ba8b998`
 - Branch: `design/observatory-review-v2`; draft PR https://github.com/X-lab2017/open-dipper/pull/37
 - Scope: preserve original structure and information while refining visual details. Update the existing private review Site; do not merge or deploy GitHub Pages.
@@ -51,4 +51,12 @@ Sources consulted 2026-10-27: Nutlope/hallmark README and `skills/hallmark/refer
 
 Files: edit `design/tokens.json`, `src/design/workbench.css`, one obsolete mobile font-size override in `src/presentation-v7.css`, generated token mirrors, docs and visual-version assertion. Production TypeScript, data snapshots, routes and official assets are unchanged.
 
-Validation pending: existing 20-case first-screen inventory/clipping matrix, mobile matrix, all module interaction suites, local deterministic checks and private deployment.
+Verification for this follow-up:
+
+- Local `npm run typecheck`, `npm test`, `npm run build` and `git diff --check` passed. Token generation and published design-package checks passed; there is no dependency or data refresh.
+- Managed browser review covered Chinese/dark and English/light Atlas plus Radar and Galaxy. At 1363×936, the topbar (64px), context row (48px), summary (62px), map canvas container (797×599px), pulse (104px) and right sidebar (260px) exactly match the pre-restyle measurements.
+- The clipping regression now includes main figures, rank values and simulation qualifiers. Initial CI detected English DEMO GROWTH overflowing at 1280×720; a language-scoped label adjustment fixes this without removing the qualifier or changing the row budget. The final application commit includes the correction.
+- Full successful CI: https://github.com/X-lab2017/open-dipper/actions/runs/40419170720 at `9d4f82e63e8cd939f9d47e2f646f9b9a1d1afe39`. The 20-case desktop matrix, four mobile cases and all Atlas/workspace/portal/Radar/Galaxy/panorama/analysis browser suites passed. Pages deployment was skipped. Application commit: `673569add2e5be848d758fdc34b389e4b19ec393`; private Site package source: `2783b14a4dcb47afffad31774c50b4838dce6c16`.
+
+- The CI successor changes only PR concurrency: a newer check supersedes older checks for the same PR; production remains serialized. The older runner was stuck installing Chromium, so its obsolete check was cancelled and the complete latest check ran successfully. No test or publication gate was removed.
+- Owner-private Site deployment succeeded at 2026-10-27 07:24:20 Asia/Shanghai, deployment `appgdep_6adfe1150b348191923f04d96a14ce8d`. Site source `2783b14a4dcb47afffad31774c50b4838dce6c16` contains application `673569add2e5be848d758fdc34b389e4b19ec393`; the CI successor has identical application sources. The cloud review entry retains its ChatGPT sign-in gate; visual QA uses the same application build locally and in CI.
