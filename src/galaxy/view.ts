@@ -1,5 +1,3 @@
-import './galaxy.css';
-import './research.css';
 import {tasks,taskById,taskMatch,discover,recordedDegrees,sameDomainPeers,shortlistToggle,type DiscoveryTask,type DiscoverySort} from './discovery';
 import {buildProjectReport,comparisonFacts,reportMarkup,reportMarkdown,reportHTML,type ResearchContext,type ProjectReport} from './report';
 import {esc,safeUrl,type Lang} from '../observatory/model';

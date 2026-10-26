@@ -35,6 +35,7 @@ export const groups:{id:string;name:[string,string];icon:string;children:LayerId
  {id:'signals',name:['生态动态','Ecosystem signals'],icon:'signal',children:['news','meetings']},
 ];
 export const presets:Record<string,{name:[string,string];layers:LayerId[];primary:LayerId;inspect:LayerId;description:[string,string]}>= {
+ participation:{name:['参与分布','Participation'],layers:['developers'],primary:'developers',inspect:'developers',description:['查看活跃开发者的地域分布','Explore the regional distribution of active developers']},
  overview:{name:['综合观测','Overview'],layers:['developers','models','companies','benchmark','compute'],primary:'developers',inspect:'benchmark',description:['参与规模 · 模型供给 · 代表性项目','Participation · model supply · leading projects']},
  developer:{name:['开发者 · 寻找参与机会','Developers · find opportunities'],layers:['influence','code','benchmark','emerging','meetings'],primary:'influence',inspect:'emerging',description:['发现标杆与新项目，寻找参与入口','Discover benchmarks, rising projects and events']},
  enterprise:{name:['企业 · 技术选型与合作','Enterprises · technology & partners'],layers:['influence','models','companies','llm','compute'],primary:'influence',inspect:'llm',description:['对照模型供给、项目与合作方','Compare model supply, projects and partners']},

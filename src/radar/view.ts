@@ -1,4 +1,3 @@
-import './radar.css';
 import {esc,safeUrl,type Lang} from '../observatory/model';
 import type {Signal} from '../observatory/intelligence';
 import {categories,scenarios,ringNames,ringOrder,kindNames,freshState,filteredEntities,visibleAssessment,toggleCompare,monthlyChange,radarPositions,radarNumbers,exportRadar,validateCatalog,validateDemo,type Catalog,type Demo,type Entity,type Metric,type Copy,type Lens,type Scenario,type Ring,type RadarState} from './model';

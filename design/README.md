@@ -1,4 +1,4 @@
-# OpenDipper visual baseline — Quiet Observatory
+# OpenDipper visual system — Spatial Workbench review
 
 The observation, interaction and evidence layers share one visual system. Preserve X-lab / OpenDipper brand assets; keep the observation canvas as the focus. This baseline changes presentation, not observations or geographic attribution.
 
@@ -8,14 +8,14 @@ The observation, interaction and evidence layers share one visual system. Preser
 - `npm run design:build`: produces `src/design/palette.ts` and `src/design/theme.css`. Do not hand-edit generated files.
 - `npm run design:check`: detects drift. Production builds run this check.
 - `src/design/scales.ts`: logarithmic normalization, continuous stop interpolation and matching CSS legends. Canvas and legend consume the same stops.
-- `src/design/components.css`: interaction states, map furniture, tables, dialogs and portal components. Existing presentation files own responsive layout, not new color definitions.
+- `src/design/entry.css`: production stylesheet entry. Earlier presentation styles are grouped in the `legacy` cascade layer; `workbench.css` owns the current app layout, readable control sizes and responsive behavior. `components.css` supplies established interaction states. Compatibility pages retain their own entries.
 
 ## Color roles
 
 | Role | Dark | Light | Use |
 | --- | --- | --- | --- |
-| Page | `#0B1119` | `#EDF2F4` | Quiet background |
-| Panel | `#121C27` | `#FBFDFC` | Information surfaces |
+| Page | `#0C121A` | `#F0F3F5` | Quiet background |
+| Panel | `#141E28` | `#FCFDFC` | Information surfaces |
 | Primary text | `#E2EBF0` | `#203540` | Names and main values |
 | Secondary text | `#AEBFCB` | `#465E6B` | Labels and supporting copy |
 | Muted text | `#8DA4B4` | `#566D79` | Dates, units and metadata |
@@ -50,6 +50,10 @@ Honor reduced motion, retain keyboard navigation and stop offscreen animations. 
 When adding a layer, assign it a semantic tone in `tokens.json`, regenerate, and check map + globe in both themes. Do not assign a new saturated color simply because the layer is new. Keep distinctions meaningful and test overlapping layers as well as isolated examples.
 
 See [visual specification](../docs/VISUAL_SYSTEM.md) and [release plan and validation](../docs/plans/atlas-release-v9.md).
+
+## Review status and accepted baseline
+
+The workbench candidate uses visual tokens `1.4.0-rc.1`; it is not an accepted baseline or public release. See [review plan](../docs/plans/visual-workbench-review.md). Shared app text starts at 14px; routine labels at 12–13px. Atlas starts with a single participation measure, a visible legend, and collapsed advanced layer controls / simulation. Preserve the comprehensive preset and all visualization modes.
 
 ## Accepted version and module template
 

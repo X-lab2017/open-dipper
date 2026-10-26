@@ -17,7 +17,7 @@
     "test:panorama": "node --test tests/panorama.test.mjs",
     "test:panorama:ui": "node tests/panorama-ui.mjs",
     "test:observatory": "node --test tests/observatory.test.mjs tests/globe.test.mjs tests/intelligence.test.mjs && python3 -m unittest discover -s tests -p test_collectors.py",
-    "test:observatory:ui": "node tests/observatory-ui.mjs && node tests/workspace-ui.mjs",
+    "test:observatory:ui": "node tests/observatory-ui.mjs && node tests/workspace-ui.mjs && node tests/workbench-ui.mjs",
     "refresh:events": "python3 scripts/collect-events.py",
     "refresh:monthly": "node scripts/refresh-monthly.mjs",
     "design:build": "node scripts/build-design.mjs",

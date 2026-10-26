@@ -37,3 +37,9 @@ Dark/light tokens, ramps and layer tones are maintained in `design/tokens.json`;
 ## Runtime loading and current reliability limit
 
 `start()` currently loads twelve atlas snapshots together. A failed request or JSON parse leads to the full-page retry state; earlier optional-snapshot loaders are not the production entry. The five-minute event check retains existing data on failure but does not provide a complete refresh-error state. [DATA_CONTRACTS.md](DATA_CONTRACTS.md) lists the exact boundary; [#10](https://github.com/X-lab2017/open-dipper/issues/10) tracks validation and recovery. The radar has independent validated catalog/demo loaders after global startup. This documentation records the implementation, not a completed reliability improvement.
+
+## Spatial Workbench review candidate
+
+The `design/observatory-review-v2` candidate defaults to the participation preset: one developer choropleth with the matching region inspector and an expanded legend. The comprehensive preset and all eighteen layers remain available. Advanced display controls and simulation are collapsed disclosures; collapsing simulation disposes its animation and clears map pulses. A region selection from a non-regional inspector returns to the active regional fill. Global benchmark ranks remain explicitly global.
+
+The overview news total counts non-demo entries in `events.json`; separately curated located news is not folded into it. Page verification, source snapshot and measure periods retain separate meanings. These changes are pending maintainer review and do not update the accepted baseline or deploy Pages. See [review plan](plans/visual-workbench-review.md).
