@@ -9,6 +9,7 @@
 | `public/data/countries.geojson` | 制图几何与锚点 | [地域契约](../public/data/GEOGRAPHY.md) | 不是人的位置、仓库总部或贡献量；保留来源标识 |
 | `public/data/events.json` | 来源发布时间与首次采集时间 | [事件契约](EVENTS.md)；`collect-events.py` | 去重、保留窗口、来源健康、审核撤回；未定位事件仍留在快讯 |
 | `public/data/intelligence-demo.json` | 8 个固定双语情报案例，独立样例日期 | [情报契约](INTELLIGENCE.md)；`intelligence.ts` | 全文件验证、缺失可降级；不注入真实流；地图适配仍标 demo |
+| `public/data/radar-catalog.json` / `radar-demo.json` | 有来源候选与独立固定模拟建议，两个时钟 | [雷达契约](AI_RADAR.md)；`build-radar.mjs` / `src/radar/model.ts` | 目录失败可重试，建议失败仍可读事实；来源身份不等于独立采用评审 |
 | `public/data/demo.json` | 固定日期的虚构场景与模拟地域指标 | `scripts/generate-demo.py` | 不加入定时采集；不代替失败的真实来源；随时间筛选自然过期 |
 
 ## 需要持续保护的语义
@@ -22,9 +23,11 @@
 
 ## 客户端失效行为
 
-当前初始加载要求月度快照、地域和几何可用；其中任何必需文件请求失败会进入加载错误路径。事件请求失败允许主界面继续并标记 feed 错误；模拟文件缺失不会生成替代事件。事件记录经过浏览器子集验证后才呈现，采集器承担更严格的输入检查。页面不会在真实来源失败时自动切为演示数据。
+当前主入口 `src/atlas.ts:start()` 将 12 个启动快照放入同一 `Promise.all`：`evidence`、`observation`、`events`、`countries`、`anchors`、`active-developers`、`snapshot`、`intelligence-demo`、`report-layers`、`located-entities`、`repo-ranking`、`dashboard-overview`。任一请求失败或 JSON 解析失败，会进入整页“观测快照暂不可用 / 重试”；不能将旧控制器的可选数据降级描述为当前入口能力。
 
-初始请求成功但 JSON 结构被破坏仍可能产生运行错误，因此 CI 的契约与快照完整性检查不可跳过。新增或破坏性修改字段时同步更新生产者、消费者、fixtures 和测试，并在 issue 说明迁移方式。
+启动后，事件每五分钟尝试读取部署快照；失败保留现有 feed。目前没有完整的请求失败状态展示或全部启动输入的运行时 schema 校验。新增数据时继续保护缺失/零和真实/模拟边界；对应可靠性改进在 [#10](https://github.com/X-lab2017/open-dipper/issues/10)，本轮文档整理没有实现它。
+
+雷达目录和建议由独立 `loadRadar` 加载与验证，具有各自失败/重试路径，但需要全局启动先成功。构建和契约测试不能证明任意远程损坏输入都能恢复。改动字段时同步更新生产者、消费者、fixtures 和测试，并记录迁移方式。
 
 ## 数据演进边界
 
@@ -32,8 +35,11 @@
 
 ## OpenShare / GOSD observed snapshot
 
-The independent optional `evidence.json` powers global headline facts, three geographic measures and one monthly AI supply chart. See [DATA_EVIDENCE.md](DATA_EVIDENCE.md) for exact clocks, coverage, source pins, missing-value behavior, attribution and manual refresh. Neither organization samples nor AI platform repository counts are relabelled as universal open-source totals.
+The independent `evidence.json` powers global headline facts, three geographic measures and one monthly AI supply chart. See [DATA_EVIDENCE.md](DATA_EVIDENCE.md) for exact clocks, coverage, source pins, missing-value behavior, attribution and manual refresh. Neither organization samples nor AI platform repository counts are relabelled as universal open-source totals.
 
-## Optional observation workspace snapshot
+## Observation snapshot and atlas-specific inputs
 
-`public/data/observation.json` is built offline from pinned label-index and GOSD publisher-geography evidence. Counts, overlap, period and missing-value rules are specified in [OBSERVATION_WORKSPACE.md](OBSERVATION_WORKSPACE.md). This is independent of monthly metrics and event collection. `observation:check` is included in `npm test`; unavailable optional data does not become demo or zero.
+`public/data/observation.json` is built offline from pinned label-index and GOSD publisher-geography evidence. Counts, overlap, period and missing-value rules are specified in [OBSERVATION_WORKSPACE.md](OBSERVATION_WORKSPACE.md). This is independent of monthly metrics and event collection. `observation:check` is included in `npm test`. Runtime loading follows the current atlas boundary above, not the earlier optional-loader behavior.
+
+
+Additional atlas inputs (`dashboard-overview`, `active-developers`, `report-layers`, `located-entities`, `repo-ranking` and `anchors`) are defined in [ATLAS_WORKSPACE.md](ATLAS_WORKSPACE.md). Keep those report windows, source rankings and location roles separate from monthly repository samples. The map uses observed samples, historical infrastructure records and clearly identified simulations; it is not a complete live global inventory.

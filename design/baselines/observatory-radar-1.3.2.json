@@ -1,0 +1,160 @@
+{
+  "schemaVersion": 1,
+  "id": "observatory-radar-1.3.2",
+  "status": "accepted",
+  "recordedAt": "2026-10-26",
+  "applicationVersion": "1.3.2",
+  "visualVersion": "1.3.0",
+  "brandVersion": "1.1.0",
+  "repository": "https://github.com/X-lab2017/open-dipper",
+  "implementationCommit": "6544f48ccaab9a43a7c56069c487f620ec83723e",
+  "receiptCommit": "f255f7ee21f5d65365573fd2b0a5eff05229e6c8",
+  "pullRequest": 29,
+  "releaseWorkflowRun": 40275957548,
+  "themes": [
+    "dark",
+    "light"
+  ],
+  "languages": [
+    "zh-CN",
+    "en"
+  ],
+  "defaultView": "map",
+  "defaultPresentation": "one-screen",
+  "radar": {
+    "software": 80,
+    "models": 60,
+    "datasets": 20,
+    "targetsPerLens": 80,
+    "assessment": "fixed simulated guidance; switchable; not an independent recommendation"
+  },
+  "sourceFiles": [
+    {
+      "path": "package.json",
+      "sha256": "616305e97d04e5336e20381e8cfc6a2b48aa0b2759bfb31d5ad879e1b476dbd2"
+    },
+    {
+      "path": "design/tokens.json",
+      "sha256": "f94f1522f29f199dddfbd94130deb0e2182df3c6723c54c5e2932aabaab4fe24"
+    },
+    {
+      "path": "src/design/components.css",
+      "sha256": "449ef2813934c589b2bdc9f491a7c842d840414f9be66d16ba10436e737d245e"
+    },
+    {
+      "path": "src/design/scales.ts",
+      "sha256": "cf179c251356486f141d09244d9d09045fb9899d8aec9a5348bd11e5c34734af"
+    },
+    {
+      "path": "src/design/brand.ts",
+      "sha256": "4a8241330732a086f6d70f26e7f894758343bf7f75c47f16dcf3b1929e9aec10"
+    },
+    {
+      "path": "src/atlas.ts",
+      "sha256": "c50c2ba5f3f5a564c8ea1b8240af49d86887912e7b2ab52a1b82a3654aa62d64"
+    },
+    {
+      "path": "src/atlas.css",
+      "sha256": "f8f76ca45d56d22d4c84dca01f92972d2e5a70e746770f87ddafa14c13d705a8"
+    },
+    {
+      "path": "src/layers.ts",
+      "sha256": "e16d896a422ee878c9f29f8603fb7f6174a38399ced5134407faa6bc52b47167"
+    },
+    {
+      "path": "src/rankings.ts",
+      "sha256": "8b5c3138398715d2b1481ac728e3e5123cecce2e5672f1ce08b6b2c61f34669f"
+    },
+    {
+      "path": "src/dashboard.ts",
+      "sha256": "61e93efb83d3e95c9e08624810705ac3fac0da40df025cbec17a068f1265442e"
+    },
+    {
+      "path": "src/pulse.ts",
+      "sha256": "84fb3e4c64fd55edfd77aceb370031779812d707473852f67d4946ff3a9b2f78"
+    },
+    {
+      "path": "src/pulse-model.ts",
+      "sha256": "75cdd8d3252da178953c49c619298696be093c50dfb3d4e6b91062a0439569aa"
+    },
+    {
+      "path": "src/workspace-v2.css",
+      "sha256": "31a46e5290439516cf736aaa88d2e5229bc10c8f52240552d3f84562c53440e2"
+    },
+    {
+      "path": "src/presentation-v5.css",
+      "sha256": "9f05e1d5f269b5e35e63b7f3a543bc90ec3e35e82f385582478aacf3431859d5"
+    },
+    {
+      "path": "src/presentation-v6.css",
+      "sha256": "583d69f10226fadbf87ad0aff7399f7d8c93e07a71c03b185d2cd282f2f84e32"
+    },
+    {
+      "path": "src/presentation-v7.css",
+      "sha256": "917713e08894b9e5acc61972a0c86be7ca71d70210170ced5779cb7495cdc435"
+    },
+    {
+      "path": "src/observatory/scene.ts",
+      "sha256": "331cae0655d9c9b353c48149ef25c40820274dbecf005127ab4c12abb82d346e"
+    },
+    {
+      "path": "src/observatory/globe-math.ts",
+      "sha256": "478f85e6c741b207f826c9b0c1cd739175a90ffee845b506d36b6ea91890751c"
+    },
+    {
+      "path": "src/radar/model.ts",
+      "sha256": "835da5d73d795ef7fd050ac1fdbf838f34f0222e9e054301315a7175aebfa8d2"
+    },
+    {
+      "path": "src/radar/view.ts",
+      "sha256": "20b9c5c4d91f9a7664d632079e01f506a3a62a72978c7186ab89bc194a0bc5d0"
+    },
+    {
+      "path": "src/radar/radar.css",
+      "sha256": "17b7a59a8514d59f2e762cd6a35b98b6abfa10c6dfd1ba480f989c1658eefb4c"
+    },
+    {
+      "path": "scripts/build-radar.mjs",
+      "sha256": "cffdc206afee5651ae84d951c632b556bbda5ee04ead5146039e67ab7699fa77"
+    },
+    {
+      "path": "data/reference/radar/source-extract.json",
+      "sha256": "d1ed6db19c52639cbe7e83a551cc11a9602acaa662b731f3990fde7665926573"
+    },
+    {
+      "path": "public/data/radar-catalog.json",
+      "sha256": "d77c11a7e7ca57277b377906d77168b60ee81cb931d6570129e516ac8b1ae892"
+    },
+    {
+      "path": "public/data/radar-demo.json",
+      "sha256": "2f96e6d12b7c8e95c205662eaa9e83b8e144f22aa52bb4e5d8e540750dbd9949"
+    },
+    {
+      "path": "public/brand/opendipper/manifest.json",
+      "sha256": "20b952d0ef51cfc7c5440a95bad39e9ac42ab540448d94d806c58f8cddec6ec0"
+    },
+    {
+      "path": "public/brand/opendipper/opendipper-horizontal-dark.svg",
+      "sha256": "7f77a82cacbc56c2cd9ce0ca5cb5b87e8544019fe2f1317a1f83ac4043084db6"
+    },
+    {
+      "path": "public/brand/opendipper/opendipper-horizontal-light.svg",
+      "sha256": "8e5711a222397f51122789701b16336a85b03a37d6019904ec3c218230633033"
+    },
+    {
+      "path": "tests/radar.test.mjs",
+      "sha256": "fa19eef935797e40c6a1effac56b385caaa279fd457cd4b9abb27cb57c16576d"
+    },
+    {
+      "path": "tests/radar-ui.mjs",
+      "sha256": "d30318b751b733aea77988c792ef497dd05148a60d9375912af2cf61d173a1ee"
+    },
+    {
+      "path": "tests/atlas-design.test.mjs",
+      "sha256": "417ff75cf6ade084034f5a52ef5e3b11e8bb58ee0b412d9114e7d81a55562566"
+    }
+  ],
+  "moduleTemplate": "docs/templates/OBSERVATORY_MODULE.md",
+  "rights": "docs/RIGHTS.md",
+  "note": "Fingerprints refer to implementationCommit, not current main. Scheduled observations evolve independently. This pin is reproducible history, not a new tag, release, license or frozen data service."
+}

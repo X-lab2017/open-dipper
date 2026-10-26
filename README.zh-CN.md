@@ -6,26 +6,53 @@
   <img src="public/brand/opendipper/opendipper-horizontal-light.svg" width="420" alt="开源北斗 OpenDipper">
 </picture>
 
-
 [English](README.md) | **简体中文**
 
-**面向研究者与开发者的全球 AI 与开源情报站。** 通过地图、地球、快讯与个人情报空间，探索有来源的事件、AI 研究线索和 OpenDigger 指标。
+**观察全球 AI 与开源生态，发现相关项目，查阅证据，决定下一步尝试什么。** 开源北斗将全球空间观测与任务式 AI 雷达结合，为开发者、研究者和生态社区提供探索入口。
 
-[进入观测站](https://www.x-lab.info/open-dipper/) · [路线图](ROADMAP.zh-CN.md) · [提出需求](https://github.com/X-lab2017/open-dipper/issues/new?template=feature_request.yml) · [反馈问题](https://github.com/X-lab2017/open-dipper/issues/new?template=bug_report.yml) · [查看视觉基线](https://www.x-lab.info/open-dipper/design-system.html)
+[进入观测站](https://www.x-lab.info/open-dipper/) · [AI 雷达](https://www.x-lab.info/open-dipper/#radar) · [参与贡献](CONTRIBUTING.zh-CN.md) · [路线图](ROADMAP.zh-CN.md)
 
-[![OpenDipper 地图视图：地域图层、紧凑导航与生态事件流](docs/assets/opendipper-observed-overview-2026-10-25.jpg)](https://www.x-lab.info/open-dipper/)
+<!-- section:product -->
+## 你可以做什么
 
-*2026-10-25 · 已上线的全球真实数据视图；来源日期与模拟事件分别标识。截图是版本记录，不代表实时统计。[数据口径](docs/DATA_EVIDENCE.md) · [视觉演进](docs/archive/2026-10-25-visual-evolution.md)。*
+| 模块 | 解决的问题 | 当前范围 |
+| --- | --- | --- |
+| 全球观测 | 在地图或地球上探索参与、贡献、影响力与生态事件 | 六类十八层、图层叠加、当前观察多标签、排行榜与一/两屏演示 |
+| AI 雷达 | 按任务发现候选、检查来源、同类对比并导出试用清单 | 160 个有来源实体：80 个软件、60 个模型、20 个数据集；本机关注；可关闭的**模拟**圈层判断 |
+| 开源生态与情报 | 查看月度样本、公开样刊和已关注主题 | 基于快照的分析与浏览器本地偏好；订阅交付和付费服务仍为规划 |
 
-[可复用品牌资产](public/brand/opendipper/README.md) · [已批准设计参考](docs/assets/brand-reference/README.md)
+**已接受的产品基线：应用 1.3.2。** [当前状态与限制](docs/STATUS.md) · [可复用基线](design/baselines/README.md) · [数据口径](docs/DATA_EVIDENCE.md)。各数据保留独立观察期，模拟脉动不是实时测量；公开可下载不代表每个模型或数据集都符合开源定义。
 
-当前观测台支持六类十八层：地域色块、资产比例气泡与实体圆点，可叠加观察，并通过多标签、前十排行与明暗主题支持一屏/两屏演示。见[工作台契约](docs/ATLAS_WORKSPACE.md)。生态脉动的模拟增量与采集新闻、报告快照分别披露。
+[![浅色 AI 雷达：候选发现、编号目标与来源详情](docs/assets/opendipper-radar-finish-light-20261026.jpg)](https://www.x-lab.info/open-dipper/#radar)
 
-**AI 雷达评审版：** [探索 160 个有来源的软件、模型与数据集候选](https://www.x-lab.info/open-dipper/#radar)，按任务筛选、核对证据、同类对比、导出试用清单并在本机关注。圈层和建议有明确模拟标记，可独立关闭。[实现与共建指南](docs/AI_RADAR.md)。
+*1.3.2 实现评审图，2026-10-26。来源事实与模拟建议独立标记。[明暗效果与交互契约](docs/AI_RADAR.md) · [地图/地球契约](docs/ATLAS_WORKSPACE.md)。*
 
-[![AI 雷达评审版：任务筛选、圆形候选与来源证据](docs/assets/opendipper-ai-radar-review-20261026.jpg)](https://www.x-lab.info/open-dipper/#radar)
+<!-- section:participation -->
+## 从问题或一份小贡献开始
 
-*2026-10-26 · 已上线评审版本；来源事实与模拟建议分别标识。*
+提出建议不需要懂代码。Issue 欢迎中文和英文。
+
+| 我想…… | 从这里开始 |
+| --- | --- |
+| 描述需求或建议新能力 | [功能需求](https://github.com/X-lab2017/open-dipper/issues/new?template=feature_request.yml)——谁需要、什么场景、期望什么结果 |
+| 报告功能异常 | [问题反馈](https://github.com/X-lab2017/open-dipper/issues/new?template=bug_report.yml)——步骤、实际表现和预期表现 |
+| 更正数字、实体、地点或归属 | [数据纠错](https://github.com/X-lab2017/open-dipper/issues/new?template=data_correction.yml)——受影响条目与来源证据 |
+| 评审可读性或交互 | [体验反馈](https://github.com/X-lab2017/open-dipper/issues/new?template=experience_feedback.yml)——具体任务，以及顺畅或受阻的地方 |
+| 提交有来源的资讯 | [事件提交](https://github.com/X-lab2017/open-dipper/issues/new?template=ecosystem-event.yml)——之后由维护者独立审核 |
+| 完成第一次贡献 | [贡献指南](CONTRIBUTING.zh-CN.md)——来源目录、术语和内容任务 |
+
+提交前先搜索已有 issue；相同问题可以直接补充证据。意见、文档、翻译、来源核验和代码都能帮助项目改进。
+
+<!-- section:collaboration -->
+## 人主导方向，Agent 承担工程执行
+
+人提供需求、领域知识与产品评审；Agent 是主要工程协作者，读取版本化上下文、完成有边界的实现、验证结果并留下可复现的交接。人类开发者同样欢迎参与代码贡献。
+
+**需求 → 有边界的 issue → 实现 → 验收证据 → 结果评审。** 维护者负责方向和发布；提交 issue 不会自动启动 Agent。[Harness 工作流](docs/HARNESS.md) 明确区分现有检查与未来自动化。
+
+- **参与者：** [贡献指南](CONTRIBUTING.zh-CN.md) → 实时 issue → 商定一份小贡献。
+- **Agent：** [AGENTS.md](AGENTS.md) → [当前状态](docs/STATUS.md) → [任务上下文](docs/CONTEXT.json)。
+- **评审者：** [评审路线](docs/REVIEW.md) → 可复现证据 → 在 issue/PR 中反馈。
 
 <!-- section:business -->
 ## 业务视角
@@ -50,82 +77,26 @@ flowchart TD
   I -.-> O
 ```
 
-真实观测和模拟场景始终分开。用户探索证据，并通过 issue 将新的需求带回产品迭代。
+<!-- section:development -->
+## 本地运行
 
-<!-- section:collaboration -->
-## 人提出方向，Agent 推进工程
+使用 Node.js 24、npm 和 Python 3。安装依赖后，可使用仓库快照开发，无需凭据或重新采集上游数据。
 
-OpenDipper 围绕**人的需求、Agent 的执行与可验证的结果**开展协作。大家通过 issue 影响产品、评审结果；Agent 作为主要工程协作者，依据版本化上下文完成实现、测试、文档与修正。我们同样欢迎人类开发者贡献代码。
+```sh
+npm ci
+npm run dev
+```
 
-| 参与者 | 主要职责 | 从这里开始 |
-| --- | --- | --- |
-| 用户与领域专家 | 描述使用场景、期望结果，以及怎样才算有用 | [提交需求](https://github.com/X-lab2017/open-dipper/issues/new?template=feature_request.yml) |
-| 维护者 | 决定优先级和范围，处理产品/数据取舍，验收结果并管理发布 | [Issues](https://github.com/X-lab2017/open-dipper/issues) 与 [贡献指南](CONTRIBUTING.zh-CN.md) |
-| 工程 Agent | 读取上下文、制定计划、实现、验证、自检，留下有证据的交接 | [AGENTS.md](AGENTS.md) 与 [工程工作流](docs/HARNESS.md) |
+```sh
+npm run typecheck
+npm test
+npm run build
+```
 
-<!-- section:needs -->
-## 有需求？从一个 issue 开始
-
-你无需了解代码，也无需先设计技术方案。只需告诉我们：
-
-1. **使用场景**：谁在使用 OpenDipper，要完成什么任务？
-2. **期望结果**：希望什么事情变得可行或更容易？
-3. **判断方法**：如果方便，提供一个例子、可观察的效果或截图。
-
-例如：“在大会大屏演示时，我希望地图和快讯无需滚动就能看清，可以在 1920×1080 屏幕上评审效果。”维护者与 Agent 会将其转为有明确范围和验收条件的工程任务。
-
-功能异常使用 [问题表单](https://github.com/X-lab2017/open-dipper/issues/new?template=bug_report.yml)。提交有来源的生态资讯，请使用独立的 [事件表单](https://github.com/X-lab2017/open-dipper/issues/new?template=ecosystem-event.yml)，事件审核仍是单独流程。Issue 可以使用中文或英文。
-
-<!-- section:execution -->
-## Agent 如何完成工程工作
-
-1. **明确任务**：关联 issue，记录目标、范围与验收条件。优先补全现有 issue；只有确实需要独立实现单元时，才拆分 [工程任务](https://github.com/X-lab2017/open-dipper/issues/new?template=agent_task.yml)。
-2. **读取上下文**：从 [AGENTS.md](AGENTS.md) 进入，按 [任务索引](docs/CONTEXT.json) 逐步读取；复杂或跨会话工作保留版本化的 [执行计划](docs/plans/README.md)。
-3. **实现与验证**：在约定范围内工作，复现问题、运行相关检查、检查结果，并在交接前修复失败。
-4. **提交证据**：通过聚焦的 PR 提供验收结果、实际测试、必要的视觉证据、文档更新与 AI 工作披露。
-5. **闭环改进**：维护者评审结果和发布条件，issue 记录最终交付，可复用经验进入契约、测试或文档。
-
-完整生命周期与完成条件见 [HARNESS.md](docs/HARNESS.md)。Agent 可以执行哪些操作，由任务中已有的授权决定。
-
-<!-- section:harness -->
-## 工程 Harness 提供什么
-
-这里的 Harness，是让工程工作可重复执行的一套上下文、工具、约束和反馈机制。
-
-| 层次 | 仓库中的机制 |
-| --- | --- |
-| 上下文 | 简短的 [Agent 入口](AGENTS.md)、[架构](docs/ARCHITECTURE.md)、[决策](docs/DECISIONS.md) 与按任务读取的路径 |
-| 约束 | [数据契约](docs/DATA_CONTRACTS.md)、[视觉基线](docs/VISUAL_SYSTEM.md)、来源溯源与生成文件归属 |
-| 执行 | 本地开发、可复现命令、[执行计划](docs/plans/README.md) 和 [交接记录](docs/templates/HANDOFF.md) |
-| 验证 | [CI](.github/workflows/pages.yml) 中的类型检查、契约/行为测试、视觉资源检查、文档检查与 Chromium 验收 |
-| 反馈 | 需求 issue → 工程实现 → 验证证据 → 结果评审 → 仓库知识更新 |
-
-**目前的自动化程度：** CI 自动检查变更并发布符合条件的 main 构建；Agent 由已获授权的协作者启动，创建 issue 暂不会自动启动 Agent。常驻任务调度、自动认领和自主合并尚未配置，具体见 [能力与证据表](docs/HARNESS.md)。
-
-<!-- section:product -->
-## 探索观测站
-
-- **地图 / 地球 / 快讯**：地域图层、可定位事件、筛选和来源查看。默认进入地图，地球提供大气光照与惯性交互。
-- **AI 雷达**：模型／数据集月度新增图、四类主题、搜索、证据详情与地图定位；真实采集与固定虚构场景清晰区分。
-- **个人情报**：本机主题关注、收藏、项目关联、可阅读的公开样刊与 Markdown 导出。Pro 权益为规划，尚未启用支付、邮件投递或云端账户。
-- **参与共建**：来源、证据、研究与服务工作包通过真实 GitHub 任务开放参与。
-- **月度分析**：同平台排行、十二个月趋势、月份回放与本地关注列表。
-- **演示场景**：一屏总览、两屏 AI 与情报探索、全屏、响应式排版、中英文和深浅主题。
-- **可复用视觉体系**：X-lab 官方素材、共享 CSS/Canvas tokens 和 [可下载视觉基线](https://www.x-lab.info/open-dipper/design-system.html)，附[已接受版本记录](design/baselines/atlas-1.3.0.md)与[模块模板](docs/templates/OBSERVATORY_MODULE.md)。
-
-| 数据通道 | 当前范围 | 更新节奏 |
-| --- | --- | --- |
-| OpenShare 全球分布 | 开发者规模、开发者 OpenRank 贡献、项目 OpenRank 影响 | 总量年序列与地域期间分别标注 |
-| GOSD / OpenGauge AI 供给 | HF 模型仓库与数据集总量、月度新增图 | 固定版本报告快照 |
-| OpenDigger 仓库指标 | 20 个精选仓库、4 个平台、6 类指标 | 月度 |
-| 地域聚合 | Microsoft、Apache 和 PyTorch Foundation 标签，各自独立的近一年周期 | 每月获取 |
-| 生态事件 | 部分 GitHub releases、OpenSSF/CNCF RSS 与审核通过的编辑 issue | 目标每 30 分钟采集 |
-| 演示数据 | 13 个虚构生态事件、8 个 AI 情报场景与模拟地域指标 | 固定样例，明确标识 |
-
-**OpenDigger 组织与仓库仍是样本**；OpenShare 明示的全球总量和 GOSD 平台总量使用独立口径，不能混加。[来源、日期与更新规则](docs/DATA_EVIDENCE.md)。缺失值不补零，未知位置不虚构；年度地域聚合不随仓库月度轴变化。浏览器每五分钟检查已部署事件快照，采集目标不代表严格实时保障。定义与限制见 [数据契约](docs/DATA_CONTRACTS.md)。
+纯文档修改：先运行 `npm run docs:build`，再运行 `npm run docs:check`。[开发指南](docs/DEVELOPMENT.md) 提供任务检查、浏览器复现和生成文件说明。来源和部署快照各自保留日期。
 
 <!-- section:architecture -->
-## 技术架构
+## 技术视角
 
 ```mermaid
 flowchart TD
@@ -133,7 +104,7 @@ flowchart TD
   FE["GitHub releases 与官方 RSS"] --> C
   ED["维护者审核通过的事件 issue"] --> C
   C --> S["真实数据 JSON 快照"]
-  OS["OpenShare / GOSD 固定版本摘录"] --> EA["离线证据适配与校验"]
+  OS["OpenShare / GOSD / AI 目录摘录"] --> EA["离线证据适配与校验"]
   EA --> S
   S --> Q["验证与静态构建"]
   UI["TypeScript 前端与共享设计 tokens"] --> Q
@@ -144,46 +115,23 @@ flowchart TD
   B --> L["本机关注、偏好与导出"]
 ```
 
-图中展示 main 的发布路径。PR 仅验证，不采集、不归档数据、不部署；定时构建跳过浏览器验收。浏览器读取已发布快照，不包含写入 API 或发布凭据。模块职责与失败行为见 [架构](docs/ARCHITECTURE.md) 和 [运维](docs/OPERATIONS.md)。
-
-<!-- section:development -->
-## 本地运行
-
-使用 Node.js 24、npm 和 Python 3。安装依赖后，可使用仓库已有快照开发，无需重新采集上游数据。
-
-```sh
-npm ci
-npm run dev
-npm run typecheck
-npm test
-npm run build
-```
-
-任务对应的检查与浏览器环境见 [开发指南](docs/DEVELOPMENT.md)；定时采集、人工事件审核、故障恢复和部署见 [运维指南](docs/OPERATIONS.md)。详细分析页与旧全景页仍作为兼容入口保留并接受测试。
+PR 验证变更；符合条件的 main 工作流采集、归档并部署快照。没有公共写入 API 或客户端凭据。详见[架构](docs/ARCHITECTURE.md)与[运维](docs/OPERATIONS.md)。
 
 <!-- section:documentation -->
-## 文档与后续方向
+## 找到所需上下文
 
-| 你想了解什么 | 阅读入口 |
+| 目标 | 文档 |
 | --- | --- |
-| 情报框架如何工作？ | [产品、数据与服务边界](docs/INTELLIGENCE.md) · [交付 #14](https://github.com/X-lab2017/open-dipper/issues/14) · [首份内容任务 #19](https://github.com/X-lab2017/open-dipper/issues/19) |
-| 目前做到了什么、验证了什么、还缺什么？ | [当前状态与 issue 索引](docs/STATUS.md) |
-| 如何参与，或把工作交给 Agent？ | [贡献指南](CONTRIBUTING.zh-CN.md) · [Harness 工作流](docs/HARNESS.md) |
-| 知识库在哪里？ | [文档导航](docs/README.md) · [机器上下文](docs/CONTEXT.json) |
-| 产品为什么演进成现在这样？ | [协作历史](docs/HISTORY.md) · [决策记录](docs/DECISIONS.md) · [变更记录](CHANGELOG.md) |
-| 如何复用视觉体系？ | [视觉规范](docs/VISUAL_SYSTEM.md) · [设计资源](design/README.md) |
-| 下一阶段做什么？ | [分阶段路线图](ROADMAP.zh-CN.md) · [统筹 #8](https://github.com/X-lab2017/open-dipper/issues/8) · [全域数据 #4](https://github.com/X-lab2017/open-dipper/issues/4) · [事件质量 #5](https://github.com/X-lab2017/open-dipper/issues/5) · [许可决策 #6](https://github.com/X-lab2017/open-dipper/issues/6) |
-| 第一次可以贡献什么？ | [来源目录 #12](https://github.com/X-lab2017/open-dipper/issues/12) · [双语术语 #13](https://github.com/X-lab2017/open-dipper/issues/13) — 开始前先看 issue 实时状态 |
-
-README 与贡献指南提供中英文版本，深入参考文档暂保留各自维护语言。入口两种语言在同一变更中更新；自动检查检测章节与链接差异，翻译含义由贡献者复核。机器发现入口：[llms.txt](https://www.x-lab.info/open-dipper/llms.txt) 与 [agent-context.json](https://www.x-lab.info/open-dipper/agent-context.json)。
+| 了解当前能力与缺口 | [当前状态](docs/STATUS.md) · [路线图](ROADMAP.zh-CN.md) |
+| 复用已接受的设计 | [基线索引](design/baselines/README.md) · [模块模板](docs/templates/OBSERVATORY_MODULE.md) · [品牌资产](public/brand/opendipper/README.md) |
+| 理解决策与迭代过程 | [历史](docs/HISTORY.md) · [决策](docs/DECISIONS.md) |
+| 查找工程知识 | [文档导航](docs/README.md) · [机器任务索引](docs/CONTEXT.json) |
 
 <!-- section:transparency -->
-## 信息披露与复用
+## 披露与复用
 
-AI Agent 参与了 2026 年 10 月的实现、视觉迭代和文档整理。贡献需披露工具/Agent 参与范围、验证结果与尚不确定的内容；我们没有声称全部代码由 Agent 编写，也没有声称所有内容均经独立人工审核。本项目参考 [Harness engineering](https://openai.com/index/harness-engineering/) 并结合仓库现状制定工作方式，[HARNESS.md](docs/HARNESS.md) 区分已自动检查的约束、协作约定与未来能力。
+AI Agent 参与了实现、视觉迭代和仓库维护。贡献应披露参与范围、实际验证与剩余不确定项，无需公开私人提示词或聊天。观测事实、未知值和固定演示保持区分。
 
-OpenDipper 独立实现。空间体验参考 [world-monitor.com](https://world-monitor.com/)，工程参考包括另一个独立项目 [koala73/worldmonitor](https://github.com/koala73/worldmonitor)。X-lab 素材保留 [官方来源](public/brand/provenance.json)，依赖保留 [第三方声明](public/THIRD_PARTY_NOTICES.txt)。
+OpenDipper 独立实现。空间交互参考 [world-monitor.com](https://world-monitor.com/)，工程参考包括另一个独立项目 [koala73/worldmonitor](https://github.com/koala73/worldmonitor)。仓库保留来源与品牌声明。
 
-**许可状态：** 应用代码尚未选定根 LICENSE。应用源码、源数据、地图几何和品牌素材的权利不同，公开可见不等于统一授权。详见 [权利说明](docs/RIGHTS.md) 与 [决策 #6](https://github.com/X-lab2017/open-dipper/issues/6)。
-
-受众视角与实体图层：八类数据总览、数据口径和待接入的设施来源，见[观测工作台契约](docs/OBSERVATION_WORKSPACE.md)。
+**许可决策仍待确认：** 尚未选定应用代码根 LICENSE。源码、数据集、地图与品牌资产各有权利边界，公开可见不代表统一授权。详见[权利说明](docs/RIGHTS.md)与[决策 #6](https://github.com/X-lab2017/open-dipper/issues/6)。敏感报告请遵循 [SECURITY.md](SECURITY.md)。

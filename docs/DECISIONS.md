@@ -67,3 +67,14 @@ Issue [#20](https://github.com/X-lab2017/open-dipper/issues/20) adds four source
 ## 2026-10-26 — Promote the multilayer review workspace
 
 Use `src/atlas.ts` as the production entry while preserving analysis/panorama routes and collection contracts. Separate area fills, proportional regional bubbles and circular located entities; optional exclusive developer/asset groups coexist with additive point layers. Global totals stay fixed; inspection tabs separate unlike measures. One token registry drives both themes, Canvas and legends. Default north-up map center 10° E / 36° N balances the US and China without a geographic rotation or a Pacific-only view. See [contract](ATLAS_WORKSPACE.md) and [release validation](plans/atlas-release-v9.md).
+
+
+## 2026-10-26 — Task-oriented radar and reusable discovery interactions
+
+The accepted radar uses two lenses for software and models/data, equal numbered circular targets, stable placement and one focused inspector. Review feedback expanded the source catalog from 30 to 160 identities; each lens shows 80 targets and supports sector focus. Catalog indices and precise positions do not encode rank or measured quality. Actual source facts are independent of fixed simulated adoption judgments, which can be turned off.
+
+Shared sidebars, segmented controls, theme tokens and bilingual identity align radar with the atlas. Expanded selection must preserve context; explicit return, Escape and restored focus are part of the interaction contract. Keep one usage guide and one catalog source entry while retaining candidate-level evidence. This replaces the original proposal's smaller target budget and unequal sidebar recommendation. See [AI_RADAR.md](AI_RADAR.md) and [accepted baseline](../design/baselines/observatory-radar-1.3.2.md).
+
+## 2026-10-26 — Current knowledge before historical context
+
+The repository separates current status/contracts, immutable accepted baselines and archived proposals. Normal Agent task paths point to production modules, not unconsumed design types. Preserve decision/source provenance and selected screenshots; remove superseded mockups with pinned Git recovery links. Feedback intake distinguishes needs, defects, evidence corrections, experience review and editorial events; only the last uses independent event approval. No new license, autonomous dispatch or community response SLA is implied. See [maintenance](MAINTENANCE.md) and [community work #30](https://github.com/X-lab2017/open-dipper/issues/30).

@@ -1,4 +1,6 @@
-# 观测工作台：当前实现契约
+# 观测工作台：旧界面与现用数据适配
+
+**界面部分已被 [ATLAS_WORKSPACE.md](ATLAS_WORKSPACE.md) 替代。** 本文保留 PR #23 的历史交互与仍在使用的 `observation.json` 来源、样本和适配语义；修改当前主界面应进入 `src/atlas.ts`。
 
 范围：[需求 #24](https://github.com/X-lab2017/open-dipper/issues/24) · [实现 PR #23](https://github.com/X-lab2017/open-dipper/pull/23) · [执行计划](plans/24-observation-workspace.md)。这是观测图层 RFC 的首批实现；完整实体关系、设施与政策专用适配器仍为后续工作。
 
@@ -35,7 +37,7 @@ AI 地域样本：GOSD `c51e3441361407b68f10b339d97eff288319b503` 的 `preview/c
 - `src/observatory/workspace.ts`：视角注册表、可选快照验证、地图适配；`workspace-view.ts`／`workspace.css`：展示。
 - `npm run observation:build` 重建；`npm run observation:check` 检查生成物及语义。浏览器测试纳入 `npm run test:observatory:ui`。
 
-可选快照失败时保留独立可用的数据，缺少的图层显示不可用，绝不回退到模拟。资产与标签保留各自来源条款，未赋予全仓库统一许可。
+旧控制器中的可选快照失败会保留独立可用的数据；当前 Atlas 将该文件列为启动必需项，请以 [当前加载边界](DATA_CONTRACTS.md) 为准，不能沿用旧界面的降级保证。资产与标签保留各自来源条款，未赋予全仓库统一许可。
 
 ## 动态、来源和地域
 

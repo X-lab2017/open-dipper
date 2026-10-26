@@ -57,12 +57,12 @@ Use the [Agent task form](../.github/ISSUE_TEMPLATE/agent_task.yml) for a separa
 
 ## What is enforced, and what is a convention?
 
-Baseline: 2026-10-25. Refer to [the workflow](../.github/workflows/pages.yml), [package scripts](../package.json) and the linked tests for the current implementation. This is a capability inventory, not a numerical quality score or a certification.
+Baseline inventory reviewed: 2026-10-26. Refer to [the workflow](../.github/workflows/pages.yml), [package scripts](../package.json) and the linked tests for the current implementation. This is a capability inventory, not a numerical quality score or a certification.
 
 | Capability | Current mechanism and evidence | Limit |
 | --- | --- | --- |
 | Data semantics | `test:data`, `test:geo`, `test:observatory`; [tests](../tests) | Tests cover current contracts/samples, not global coverage or every upstream failure |
-| Interaction behavior | DOM, panorama, globe-math and observatory checks; Chromium suites | Browser acceptance runs on non-scheduled builds; it is not a complete accessibility audit |
+| Interaction behavior | DOM, panorama, globe-math, atlas and radar checks; Chromium suites | Browser acceptance runs on non-scheduled builds; it is not a complete accessibility audit |
 | Shared visual resources | `design:check`: generated mirrors, official asset hashes and core contrast | New design choices still require outcome review |
 | Repository context | `docs:check`: paths, task commands, local links and generated indexes | External URLs, Markdown anchors and factual correctness need review |
 | English/Chinese entry parity | `docs:check`: reciprocal switches, section IDs, link targets, code samples and diagram structure | Translation meaning is reviewed by contributors; most deep references are not yet bilingual |

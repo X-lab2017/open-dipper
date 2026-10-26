@@ -1,6 +1,6 @@
 # 产品演进与协作记录
 
-本记录整理 2026-10-24 至 2026-10-25 的需求与可验证仓库里程碑。日期按 UTC 归并；不是聊天全文，也不把设计讨论等同于已实现功能。应用版本与视觉资源版本分别管理。
+本记录整理 2026-10-24 至 2026-10-26 的需求与可验证仓库里程碑。日期按 UTC 归并；不是聊天全文，也不把设计讨论等同于已实现功能。应用版本与视觉资源版本分别管理。
 
 | 阶段 | 反馈/目标 | 落地结果 | 提交证据 |
 | --- | --- | --- | --- |
@@ -39,3 +39,26 @@
 Maintainer direction expanded the public observatory toward researchers and developers: AI radar, personal context, sample intelligence and open contribution. Application 1.1.0 retains the accepted spatial interaction while adding these surfaces, local preferences/export and fixed example evidence. Public methods and sources remain visible; subscription delivery, payments, live Agent research and endorsements are explicitly not implemented. Follow-up tasks #15–#19 separate these gaps from the shipped review framework.
 
 AI-assisted implementation and actual validation are recorded in [delivery #14](https://github.com/X-lab2017/open-dipper/issues/14) and the [versioned plan](plans/intelligence-portal.md). Existing R1 data/reliability tasks remain open.
+
+
+## 2026-10-25—26 · 从图层试验到地图与雷达基线
+
+| 用户反馈与目标 | 决策和结果 | 交付证据 |
+| --- | --- | --- |
+| 数据要少而有用，能解释来源与范围 | 接入独立 OpenShare / GOSD 摘录；保留不同观察期和样本边界 | [#20](https://github.com/X-lab2017/open-dipper/issues/20) · [数据证据](DATA_EVIDENCE.md) |
+| 图层支持分类、叠加、不同主体与指标 | 早期单对象/十视图提案经工作台实现继续迭代，最终形成六类十八层、区域面/资产气泡/实体圆点、多标签观察和前十排行 | [#22](https://github.com/X-lab2017/open-dipper/issues/22) → [PR #23](https://github.com/X-lab2017/open-dipper/pull/23) → [PR #25](https://github.com/X-lab2017/open-dipper/pull/25) |
+| 一屏演示要突出地图，明暗与地球协调 | 概览移至主图上方、脉动压缩、图例可收起；统一主题和全屏返回，接受 Atlas 视觉 1.3.0 | [Atlas 固定基线](../design/baselines/atlas-1.3.0.md) |
+| AI 雷达应围绕用户选型任务，同时包含 Agent、模型与数据 | 两个视角、证据详情、同类对比、试用导出和本机关注；首版 30 个有来源候选，建议单独标为模拟 | [PR #27](https://github.com/X-lab2017/open-dipper/pull/27) |
+| 首版轮廓、目标和文字太小，内容稀疏；保留中文 Logo | 扩为 160 个身份，双视角各 80 个编号圆点；加大轮廓与目标、分区聚焦和预览；沿用双语资产 | [PR #28](https://github.com/X-lab2017/open-dipper/pull/28) |
+| 明暗模式、指导与操作要和全球观测一致 | 共享控件和等宽侧栏、单一指南/来源入口；修复展开选择、分区详情与返回焦点 | [PR #29](https://github.com/X-lab2017/open-dipper/pull/29) · [实际验收](plans/ai-radar-finish-v3.md) |
+| 接受 1.3.2 后先整理仓库，让人和 Agent 都能参与 | 固定复用基线，精简双语入口、更新生产路径、提供纠错/体验表单，分开历史并清理失效草稿 | [社区整理 #30](https://github.com/X-lab2017/open-dipper/issues/30) · [基线索引](../design/baselines/README.md) |
+
+以上为需求与可验证产物的概括，不是私人聊天转录。由维护者提供方向和评审，Codex 参与设计、实现、验证和记录；没有声称每条来源都已人工独立核验。
+
+## 给后来参与者的上下文
+
+- 当前真相是模块契约与代码：地图从 `src/atlas.ts` 开始，雷达从 `src/radar/` 开始。旧 `main.ts` 控制器和旧提案不能覆盖新实现。
+- 视觉密度由任务决定：雷达用较多、清楚、稳定的目标帮助发现；详情通过聚焦与标签阅读，避免同时堆叠。
+- 精简的是重复说明，不是证据：来源、观察期、缺失和模拟判断应始终可查。
+- 真实身份不等于真实采用建议；模型、软件、数据也不能混算性能排名。独立评测、自动采集和编辑规则仍由后续任务承担。
+- 新模块复用 [1.3.2 基线](../design/baselines/observatory-radar-1.3.2.md)，保留五项全局导航。已完成过程从 [历史档案](archive/README.md) 和 [执行计划](plans/README.md) 按需查阅。

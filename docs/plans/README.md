@@ -9,3 +9,21 @@ Keep the filename stable and update the plan's execution state (`active`, `block
 Update the plan at meaningful checkpoints, before a session handoff, or when scope changes. Completion records link the implementation and verified result; never mark pending CI/deployment as passed. Add the plan to the relevant task's context when it affects future work; do not grow AGENTS into a task log.
 
 See [the lifecycle](../HARNESS.md), [development checks](../DEVELOPMENT.md) and [handoff template](../templates/HANDOFF.md).
+
+
+## Current handoff and completed records
+
+Read a plan only for the task it describes. Product work starts from the current module contract, not an unfinished step copied from historical review.
+
+| Plan | Disposition |
+| --- | --- |
+| [Repository/community baseline #30](30-community-baseline.md) | Current maintenance work; live completion state and PR in issue #30 |
+| [Radar finishing 1.3.2](ai-radar-finish-v3.md) | Completed and published; current accepted radar behavior |
+| [Radar density 1.3.1](ai-radar-density-v2.md) | Completed; retained as the density/numbering decision record |
+| [Radar implementation 1.3.0](ai-radar-implementation.md) | Completed; original data/interaction delivery |
+| [Radar design and atlas pin](ai-radar-design.md) | Design completed; review questions superseded by the implemented radar |
+| [Atlas release](atlas-release-v9.md) | Completed; accepted map integration and publication evidence |
+| [Initial workspace #24](24-observation-workspace.md) | Completed; UI superseded by atlas, evidence adapter retained |
+| [Observation design #22](22-observation-layers.md) | Design completed; original UI proposal superseded, remaining source/entity scope in #22 |
+| [Observed evidence #20](20-evidence-data.md) | Completed source-adapter delivery; independent data windows still apply |
+| [Intelligence portal](intelligence-portal.md) | Completed framework delivery; service and evidence tasks remain separate |

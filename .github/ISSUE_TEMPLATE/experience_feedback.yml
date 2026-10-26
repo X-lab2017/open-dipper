@@ -1,0 +1,37 @@
+name: Experience feedback / 体验反馈
+description: Help improve discovery, readability or interaction / 评审发现、阅读和操作体验
+title: '[Experience] '
+body:
+  - type: markdown
+    attributes:
+      value: 'Review one concrete task; you do not need to design the solution. / 评审一个具体任务即可，不需要先设计解决方案。'
+  - type: dropdown
+    id: surface
+    attributes:
+      label: Where did you try it? / 体验位置
+      options:
+        - Global observation / 全球观测
+        - AI radar / AI 雷达
+        - Ecosystem or intelligence / 开源生态或情报
+        - Repository or contribution flow / 仓库或贡献流程
+    validations:
+      required: true
+  - type: textarea
+    id: task
+    attributes:
+      label: What were you trying to do? / 你想完成什么？
+      description: 'For example, select two models and check the evidence, or find your first contribution task. / 例如选出两个模型并查证，或找到适合自己的首次贡献任务。'
+    validations:
+      required: true
+  - type: textarea
+    id: experience
+    attributes:
+      label: What worked, and what got in the way? / 顺畅或受阻的地方
+      description: 'Describe the observed behavior and the result that would help. / 描述实际体验和希望改善的结果。'
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Screenshot and context (optional) / 截图与环境（选填）
+      description: 'Page URL, theme/language, screen size, browser and keyboard/touch use help reproduce it. / 页面、明暗模式、语言、屏幕尺寸、浏览器与键盘/触屏方式有助于复现。'

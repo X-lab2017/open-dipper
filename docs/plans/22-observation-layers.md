@@ -1,6 +1,8 @@
 # Execution plan: entity-first observation layers
 
-- Execution state: completed (design deliverables only; implementation remains open)
+> Current disposition (2026-10-26): Design deliverables completed; the proposed selector/catalog was superseded by PR #23 and PR #25. Current UI work uses ATLAS_WORKSPACE.md. #22 retains only unresolved entity/facility evidence scope.
+
+- Execution state: completed (design delivery; UI subsequently superseded; remaining data scope tracked separately)
 - Issue: [#22](https://github.com/X-lab2017/open-dipper/issues/22); review branch `design/observation-layers-v1`
 - Baseline: `50a3c4adbdd2f42d9f0322b3e6e6fac8c9bbbef7`
 - Updated: 2026-10-25
@@ -25,14 +27,14 @@ This iteration delivers [the RFC](../OBSERVATION_LAYERS.md), a source-native SVG
 
 | Criterion | Check | Actual result |
 | --- | --- | --- |
-| Subject-specific metric/geographic role bindings | Standalone TypeScript command in [design README](../design/README.md) | Passed |
+| Subject-specific metric/geographic role bindings | Standalone TypeScript command at the original design revision (draft files now retained in Git history) | Passed |
 | Scope and provenance | Compared pinned YAML examples and report methods against RFC/catalog | Reviewed; dataset snapshot periods remain unknown where unpublished |
 | Compact state design | Rendered SVG using Inkscape and visually inspected PNG | Passed visual inspection of three states; not browser UI acceptance |
 | Documentation and context | `npm run docs:build` and `npm run docs:check` | Passed: 3 generated mirrors; 44 Markdown files, 344 local links, 11 task recipes and 6 language editions |
 | Build compatibility | `npm run build` | Passed: evidence and token consistency, 6 design tests, application typecheck and Vite build |
 | Production UI / deployment | Not applicable to this design-only change | Not performed; no claim of a new published interface |
 
-## Resume / implementation
+## Historical implementation handoff (superseded)
 
 Start with stage A in the RFC and scope it in #22: bind `evidence.maps.developers` and `.contribution` to developer; `.influence` to code project; retain `geography.layers[*]` as an organization-associated contributor view with a distinct score. Introduce a runtime layer registry and validated shared selection state before adding data sources. Run observatory/portal UI suites only when runtime interaction changes.
 
