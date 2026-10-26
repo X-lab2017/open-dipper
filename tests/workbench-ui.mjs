@@ -54,7 +54,7 @@ try {
         await expect(page.locator('.pulse-metric')).toHaveCount(4);
         await expect(page.locator('.pulse-platform')).toHaveCount(7);
         await expect(page.locator('.pulse-controls button')).toHaveCount(5);
-        await expect.poll(()=>page.evaluate(clippedContent)).toEqual([]);
+        await expect.poll(()=>page.evaluate(clippedContent),{message:`Unclipped overview: ${light?'light':'dark'} ${lang} ${width}x${height}`}).toEqual([]);
         await expect.poll(()=>page.evaluate(()=>document.documentElement.scrollHeight<=innerHeight+1&&document.documentElement.scrollWidth<=innerWidth)).toBe(true);
         await expect.poll(()=>page.locator('.map-container').evaluate(e=>e.getBoundingClientRect().height)).toBeGreaterThan(400);
         const layout=await page.evaluate(()=>{
