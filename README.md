@@ -12,6 +12,17 @@
 
 [Open the observatory](https://www.x-lab.info/open-dipper/) · [AI radar](https://www.x-lab.info/open-dipper/#radar) · [Open Galaxy](https://www.x-lab.info/open-dipper/#ecosystem) · [Contribute](CONTRIBUTING.md) · [Roadmap](ROADMAP.md)
 
+<!-- section:first-exploration -->
+## Try your first exploration
+
+1. Open [Open Galaxy](https://www.x-lab.info/open-dipper/#ecosystem) and search for **PyTorch**, or a project you already use.
+2. Select the project, inspect its recorded neighbors and add an interesting candidate to your research shortlist. For PyTorch, try the recorded connection to **vLLM**.
+3. Open the shortlist's comparison and research view, inspect the sources, then export a **Markdown, HTML or JSON** report.
+
+Code-galaxy links describe shared-contributor affinity within a dated sample; they are not software dependencies or quality rankings. Reports preserve sources and evidence gaps for further investigation.
+
+**What did you discover, and where did you get stuck?** [Share your first exploration](https://github.com/X-lab2017/open-dipper/issues/35). If the tool helps your work, star the repository to find it again; feedback and source corrections are welcome too.
+
 <!-- section:product -->
 ## What you can do
 

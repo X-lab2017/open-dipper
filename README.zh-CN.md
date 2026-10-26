@@ -12,6 +12,17 @@
 
 [进入观测站](https://www.x-lab.info/open-dipper/) · [AI 雷达](https://www.x-lab.info/open-dipper/#radar) · [开源星系](https://www.x-lab.info/open-dipper/#ecosystem) · [参与贡献](CONTRIBUTING.zh-CN.md) · [路线图](ROADMAP.zh-CN.md)
 
+<!-- section:first-exploration -->
+## 完成你的第一次探索
+
+1. 打开[开源星系](https://www.x-lab.info/open-dipper/#ecosystem)，搜索 **PyTorch**，或一个你正在使用的项目。
+2. 选中项目，查看记录关系邻居，把感兴趣的候选加入研究清单。以 PyTorch 为例，可以探索它与 **vLLM** 的记录关联。
+3. 打开研究清单中的“对照与研究”，查看来源，再导出 **Markdown、HTML 或 JSON** 报告。
+
+代码星系的连线表示采样期内的共享贡献者关联，不等于软件依赖或质量排名。报告保留来源和证据缺口，供你继续查证。
+
+**你发现了什么，在哪一步卡住了？** 欢迎[分享第一次探索体验](https://github.com/X-lab2017/open-dipper/issues/35)。如果工具对你有用，可以 Star 留作后续探索；使用反馈与来源纠错同样欢迎。
+
 <!-- section:product -->
 ## 你可以做什么
 
