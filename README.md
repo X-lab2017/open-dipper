@@ -8,9 +8,9 @@
 
 **English** | [简体中文](README.zh-CN.md)
 
-**Explore the global AI and open-source ecosystem. Find relevant projects, inspect evidence and decide what to try next.** OpenDipper combines geographic observation with a task-oriented AI radar for developers, researchers and ecosystem communities.
+**Explore the global AI and open-source ecosystem. Find relevant projects, inspect evidence and decide what to try next.** OpenDipper connects geographic observation, a task-oriented AI radar and an explorable open-source galaxy for developers, researchers and ecosystem communities.
 
-[Open the observatory](https://www.x-lab.info/open-dipper/) · [AI radar](https://www.x-lab.info/open-dipper/#radar) · [Contribute](CONTRIBUTING.md) · [Roadmap](ROADMAP.md)
+[Open the observatory](https://www.x-lab.info/open-dipper/) · [AI radar](https://www.x-lab.info/open-dipper/#radar) · [Open Galaxy](https://www.x-lab.info/open-dipper/#ecosystem) · [Contribute](CONTRIBUTING.md) · [Roadmap](ROADMAP.md)
 
 <!-- section:product -->
 ## What you can do
@@ -19,13 +19,34 @@
 | --- | --- | --- |
 | Global observation | Explore participation, contribution, influence and ecosystem events on a map or globe | Six groups / eighteen layers, overlays, focused observation tabs, rankings and one/two-screen presentation |
 | AI radar | Discover candidates by task, inspect sources, compare like entities and export a trial checklist | 160 sourced identities: 80 software, 60 models, 20 datasets; local following; optional **simulated** ring judgments |
-| Ecosystem and intelligence | Explore monthly samples, public brief examples and saved interests | Snapshot-based analysis and browser-local preferences; subscription delivery and paid services remain planned |
+| Open Galaxy · review version | Find projects by task, shortlist candidates, trace recorded connections and export sourced research reports | 19,771 code repositories + 24,000 model/data/Space nodes; recorded and inferred links stay separate; [module contract](docs/OPEN_GALAXY.md) |
+| Intelligence | Read public brief examples and save interests | Browser-local preferences; subscription delivery and paid services remain planned |
 
 **Accepted product baseline: application 1.3.2.** [Current status and limits](docs/STATUS.md) · [Reusable baseline](design/baselines/README.md) · [Data scope](docs/DATA_EVIDENCE.md). Data has independent observation windows; synthetic activity is not live measurement. Public availability does not imply every model or dataset is open source.
 
+### Global observation — find where to look
+
+Start with a broad ecosystem question, combine geographic layers, then focus a region or entity to inspect rankings, metrics and sourced events. Keep the different observation periods and sample scopes visible rather than treating every layer as one global total.
+
+[![Global observation map with geographic layers, source scope and ecosystem events](docs/assets/opendipper-observed-overview-2026-10-25.jpg)](https://www.x-lab.info/open-dipper/)
+
+*Global observation implementation preview, 2026-10-25; this retained historical capture is not a current-data claim. [Map/globe behavior and current layer contract](docs/ATLAS_WORKSPACE.md).*
+
+### AI radar — choose what to try
+
+Choose a task, explore relevant software, models or datasets, inspect source evidence, compare like candidates and export a trial checklist. Optional simulated ring judgments remain separate from source facts.
+
 [![AI radar in light mode, with candidate discovery, numbered targets and source details](docs/assets/opendipper-radar-finish-light-20261026.jpg)](https://www.x-lab.info/open-dipper/#radar)
 
-*1.3.2 implementation preview, 2026-10-26. Source facts and illustrative advice are labelled separately. [Dark/light review and behavior](docs/AI_RADAR.md) · [Map/globe contract](docs/ATLAS_WORKSPACE.md).*
+*AI radar 1.3.2 implementation preview, 2026-10-26. [Dark/light review and behavior](docs/AI_RADAR.md).*
+
+### Open Galaxy — understand connections and take away a report
+
+Find a project by task or search, inspect its recorded neighborhood, shortlist up to three research objects, trace recorded paths and export a Markdown, HTML or JSON evidence report. Reports expose missing evidence and source dates; they are not live research, security audits or adoption recommendations.
+
+[![Open Galaxy research workspace with vLLM, recorded neighbors and a three-object shortlist](docs/assets/opendipper-galaxy-research-20261026.jpg)](https://www.x-lab.info/open-dipper/#ecosystem)
+
+*Open Galaxy 1.5.0 private-review implementation preview, 2026-10-26. The brighter paired-theme update and public Pages delivery are being verified; this image does not certify deployment. [Research and relationship contract](docs/OPEN_GALAXY.md) · [Public-release validation record](docs/plans/ecosystem-public-release.md).*
 
 <!-- section:participation -->
 ## Start with your question or contribution
@@ -67,6 +88,8 @@ flowchart TD
   O --> T["Time: rankings and trends"]
   O --> W["Events: wire and source evidence"]
   O --> R["AI radar and personal following"]
+  O --> X["Open Galaxy: connections and evidence reports"]
+  X --> V
   R --> V
   R --> S["Public brief and subscription preview"]
   S --> V
@@ -111,7 +134,7 @@ flowchart TD
   FX["Fixed demo fixtures and map geometry"] --> Q
   Q --> A["Archive validated source snapshots in Git"]
   A --> P["Deploy static artifacts to GitHub Pages"]
-  P --> B["Browser: observatory, AI radar and intelligence"]
+  P --> B["Browser: observatory, AI radar, Open Galaxy and intelligence"]
   B --> L["Local following, preferences and export"]
 ```
 

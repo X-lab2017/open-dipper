@@ -9,6 +9,7 @@
 | 布局、筛选、语言与编辑器 | [视觉规范](VISUAL_SYSTEM.md)、[架构](ARCHITECTURE.md) | `src/atlas.ts`、`atlas.css`、`presentation-v*.css` | `typecheck`、`test:atlas`、`test:observatory`、`test:observatory:ui` |
 | 情报关注、样刊与共建 | [情报契约](INTELLIGENCE.md)、[架构](ARCHITECTURE.md) | `intelligence.ts`、`portal.ts`、`portal.css`、独立演示 JSON | `typecheck`、`test:observatory`、`test:portal:ui` |
 | AI 雷达候选与交互 | [实现契约](AI_RADAR.md)、[当前基线](../design/baselines/observatory-radar-1.3.2.md) | `src/radar/`、`scripts/build-radar.mjs`、`data/reference/radar/` | `radar:build`、`radar:check`、`typecheck`、`test:portal:ui` |
+| 开源星系网络与交互 | [星系契约](OPEN_GALAXY.md)、[固定图数据](../public/data/galaxy/README.md) | `src/galaxy/`、`scripts/import-galaxy.py` | `galaxy:check`、`typecheck`、`test:portal:ui`；网络快照不在常规测试中刷新 |
 | 地图/地球/相机 | [视觉规范](VISUAL_SYSTEM.md)、[地域契约](../public/data/GEOGRAPHY.md) | `src/observatory/scene.ts`、`globe-math.ts` | `test:observatory`、`test:observatory:ui`；检查日期变更线与极区 |
 | 共享视觉资源 | [设计资源](../design/README.md) | `design/tokens.json`、`src/design/` | `design:build`、`design:check`、`build`；深浅主题浏览器检查 |
 | 月度数据 | [月度契约](../public/data/README.md) | `config/repositories.json`、`scripts/fetch-data.mjs`、`refresh-monthly.mjs` | `test:data`、`test:dom`、`test:observatory` |
