@@ -9,3 +9,10 @@ export function tweenCamera(from:Camera,to:Camera,t:number):Camera{const u=1-(1-
 export const mercatorY=(lat:number)=>Math.log(Math.tan(Math.PI/4+clamp(lat,-84,84)*Math.PI/360));
 export const mercatorLatitude=(y:number)=>Math.atan(Math.sinh(y))*180/Math.PI;
 export function zoomMapAt(pan:number[],oldZoom:number,newZoom:number,point:number[],center:number[]){const ratio=newZoom/oldZoom;return pan.map((v,i)=>v*ratio+(point[i]-center[i])*(1-ratio));}
+
+/** North-up, Atlantic-spanning frame: contiguous US and China sit on the same visual band.
+ * lon is the D3 rotation (the negative of geographic center longitude).
+ */
+export const MAP_HOME={lon:-10,lat:36,zoom:1} as const;
+export const GLOBE_HOME={lon:-65,lat:20,zoom:1} as const;
+export const mapBaseScale=(width:number,height:number)=>Math.min(width*.95/(2*Math.PI),height*.94/(mercatorY(79)-mercatorY(-57)));

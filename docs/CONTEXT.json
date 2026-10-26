@@ -196,6 +196,12 @@
       "title": "Observation workspace implementation",
       "purpose": "Audience presets, entity maps, coverage scopes, refresh and China display grouping",
       "language": "zh-CN"
+    },
+    {
+      "path": "docs/ATLAS_WORKSPACE.md",
+      "title": "Production multilayer atlas contract",
+      "purpose": "Current entry, six groups/eighteen layers, camera, rankings, independent clocks and synthetic pulse boundaries",
+      "language": "en"
     }
   ],
   "tasks": {
@@ -397,6 +403,31 @@
         "observation:check",
         "test:observatory:ui",
         "test:portal:ui"
+      ]
+    },
+    "atlas": {
+      "read": [
+        "AGENTS.md",
+        "docs/ATLAS_WORKSPACE.md",
+        "docs/VISUAL_SYSTEM.md"
+      ],
+      "edit": [
+        "src/atlas.ts",
+        "src/atlas.css",
+        "src/layers.ts",
+        "src/rankings.ts",
+        "src/dashboard.ts",
+        "src/pulse-model.ts",
+        "src/observatory/scene.ts",
+        "design/tokens.json"
+      ],
+      "checks": [
+        "typecheck",
+        "test:atlas",
+        "design:check",
+        "test:observatory:ui",
+        "test:portal:ui",
+        "build"
       ]
     }
   },

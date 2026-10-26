@@ -19,6 +19,8 @@
 
 [可复用品牌资产](public/brand/opendipper/README.md) · [已批准设计参考](docs/assets/brand-reference/README.md)
 
+当前观测台支持六类十八层：地域色块、资产比例气泡与实体圆点，可叠加观察，并通过多标签、前十排行与明暗主题支持一屏/两屏演示。见[工作台契约](docs/ATLAS_WORKSPACE.md)。生态脉动的模拟增量与采集新闻、报告快照分别披露。
+
 <!-- section:business -->
 ## 业务视角
 

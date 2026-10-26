@@ -1,43 +1,52 @@
-# OpenDipper Visual Baseline 1.2
+# OpenDipper visual baseline — Quiet Observatory
 
-维护入口：`design/tokens.json`。完整中文使用规范：`docs/VISUAL_SYSTEM.md`。
+The observation, interaction and evidence layers share one visual system. Preserve X-lab / OpenDipper brand assets; keep the observation canvas as the focus. This baseline changes presentation, not observations or geographic attribution.
 
-网站：https://www.x-lab.info/open-dipper/design-system.html
+## Source of truth
 
-## 在当前仓库使用
+- `tokens.json`: paired dark/light surfaces, text, semantic colors, sequential map ramps, 18 layer tones and metric-to-ramp roles.
+- `npm run design:build`: produces `src/design/palette.ts` and `src/design/theme.css`. Do not hand-edit generated files.
+- `npm run design:check`: detects drift. Production builds run this check.
+- `src/design/scales.ts`: logarithmic normalization, continuous stop interpolation and matching CSS legends. Canvas and legend consume the same stops.
+- `src/design/components.css`: interaction states, map furniture, tables, dialogs and portal components. Existing presentation files own responsive layout, not new color definitions.
 
-```ts
-import '../design/tokens.css';
-import '../design/components.css';
-import {canvasPalette, chartColor} from '../design/palette';
-import {icon} from '../design/icons';
-```
+## Color roles
 
-使用语义变量 `var(--od-text)`、`var(--od-surface-panel)` 等。将 `data-theme="light"` 设置在 HTML 根元素上切换主题。保持 `aria-label`、`aria-pressed`、表单 label 和焦点状态。
+| Role | Dark | Light | Use |
+| --- | --- | --- | --- |
+| Page | `#0B1119` | `#EDF2F4` | Quiet background |
+| Panel | `#121C27` | `#FBFDFC` | Information surfaces |
+| Primary text | `#E2EBF0` | `#203540` | Names and main values |
+| Secondary text | `#AEBFCB` | `#465E6B` | Labels and supporting copy |
+| Muted text | `#8DA4B4` | `#566D79` | Dates, units and metadata |
+| Interaction accent | `#87C6DB` | `#28677E` | Selection, navigation, focus |
+| Project influence | Blue-green ramp | Blue-green ramp | Regional quantitative data |
+| Model assets | `#E0C68E` | `#856525` | Proportional-area bubbles |
 
-```sh
-npm run design:build  # 同步生成资源
-npm run design:check  # 同步性、标志完整性、核心色彩对比度
-npm run build        # 包含可下载视觉基线包
-```
+Area metrics use blue, teal or blue-green sequential ramps with monotonic luminance. Higher values brighten the dark map and deepen the light map. Unknown regions remain a distinct gray; they are never encoded as zero. No HSL hue shortcuts or violet fill palettes.
 
-## 使用下载包
+Entity categories use restrained paired tones. Circles, dashed rings, center dots and tooltips supplement color. Bubble area remains proportional to quantity. A thin backdrop stroke separates markers from varying map fills; it does not change encoded area. UI selection always uses the interaction accent rather than filling tabs with layer colors.
 
-解压后先加载 `tokens.css`，再加载 `components.css`。`palette.ts`、`icons.ts` 是可选 TypeScript 入口；无 TypeScript 工具链的页面可只使用 CSS 和官方 SVG。`brand.ts` 是 Vite 适配器示例，跨框架接入请替换 `import.meta.env.BASE_URL` 为自己的静态资源路径。
+## Map and globe
 
-```html
-<link rel="stylesheet" href="tokens.css">
-<link rel="stylesheet" href="components.css">
-<section class="od-panel">
-  <div class="od-panel-head"><h2>我的观测面板</h2></div>
-  <div class="od-panel-body">
-    <span class="od-badge demo">模拟数据</span>
-  </div>
-</section>
-```
+- Same metric, normalization, ramp, layer order and legend in both views.
+- Globe lighting is decorative and not a quantitative scale. Reduce shadow, dot texture and atmosphere strength so they support data readability.
+- Graticules, borders and camera readouts remain subordinate to observations. Tooltips and controls use theme-aware surfaces.
+- Simulated pulse colors use the current theme for both HTML and canvas. Keep simulation/forecast context available in metric details and concise in-place labels.
+- Preserve independent map fullscreen, persistent return control and Escape. Locating an entity preserves the current map/globe mode.
 
-`brand/` 中的 SVG 保持官方原样。读取 `brand/UPSTREAM_NOTICE.md` 与 `brand/NOTICE.md` 了解使用条件；本包不授予额外品牌或商标权利。下载包中的 `VISUAL_SYSTEM.md` 包含所有约定与源代码路径。
+## Component and motion rules
 
-## OpenDipper product identity 1.0
+Use thin borders, moderate corner radii and restrained shadows. Keep fixed layouts and numeric widths stable; do not make counters or hover states shift surrounding content. Text labels identify metrics; color does not replace names. Surface hover, checked state, focus ring and disabled state have separate treatments.
 
-[品牌资产与来源](../public/brand/opendipper/README.md)提供双语/英文横版、竖版、标准/小尺寸图标、深浅/黑白 SVG 和透明 PNG。产品品牌与 X-lab 官方资源分目录维护，下载包保留两者各自声明。
+Layer help appears on hover, keyboard focus or touch devices. At the top of the point stack, Move up is disabled; moving a point skips area and bubble entries. Avoid repeated headings, geometry summaries, source links and review labels. Keep original evidence and essential uncertainty information accessible.
+
+Honor reduced motion, retain keyboard navigation and stop offscreen animations. Do not add decorative effects that compete with the data or imply measurement.
+
+## Verification and extension
+
+`npm test` checks nominal text/action/layer/pulse colors at 4.5:1 or better against paired panel/page/input surfaces, monotonic ramp luminance, shared map/legend stops, missing-value semantics and point-stack ordering. This is a focused regression check, not a claim of complete accessibility certification.
+
+When adding a layer, assign it a semantic tone in `tokens.json`, regenerate, and check map + globe in both themes. Do not assign a new saturated color simply because the layer is new. Keep distinctions meaningful and test overlapping layers as well as isolated examples.
+
+See [visual specification](../docs/VISUAL_SYSTEM.md) and [release plan and validation](../docs/plans/atlas-release-v9.md).

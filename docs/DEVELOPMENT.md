@@ -6,7 +6,7 @@
 
 | 任务 | 先读 | 主要修改位置 | 有针对性的检查 |
 | --- | --- | --- | --- |
-| 布局、筛选、语言与编辑器 | [视觉规范](VISUAL_SYSTEM.md)、[架构](ARCHITECTURE.md) | `src/observatory/main.ts`、`style.css` | `typecheck`、`test:observatory`、`test:observatory:ui` |
+| 布局、筛选、语言与编辑器 | [视觉规范](VISUAL_SYSTEM.md)、[架构](ARCHITECTURE.md) | `src/atlas.ts`、`atlas.css`、`presentation-v*.css` | `typecheck`、`test:observatory`、`test:observatory:ui` |
 | AI 雷达、关注、样刊与共建 | [情报契约](INTELLIGENCE.md)、[架构](ARCHITECTURE.md) | `intelligence.ts`、`portal.ts`、`portal.css`、独立演示 JSON | `typecheck`、`test:observatory`、`test:portal:ui` |
 | 地图/地球/相机 | [视觉规范](VISUAL_SYSTEM.md)、[地域契约](../public/data/GEOGRAPHY.md) | `src/observatory/scene.ts`、`globe-math.ts` | `test:observatory`、`test:observatory:ui`；检查日期变更线与极区 |
 | 共享视觉资源 | [设计资源](../design/README.md) | `design/tokens.json`、`src/design/` | `design:build`、`design:check`、`build`；深浅主题浏览器检查 |
@@ -67,6 +67,8 @@ BASE_URL=http://127.0.0.1:4173/open-dipper/analysis.html npm run test:ui
 
 检查 `git diff --check` 和最终 diff；确认没有凭据、意外数据刷新或生成缓存。提交说明描述最终行为，关联 issue。若还有缺口，记录复现方法、具体文件、最近通过检查和下一步，使用 [HANDOFF.md](templates/HANDOFF.md)。
 
-## Observation workspace
+## Observation workspace (legacy contracts)
 
-Read [OBSERVATION_WORKSPACE.md](OBSERVATION_WORKSPACE.md) before changing audience presets, entity layers or coverage. Run `npm run observation:build` after editing pinned references and `npm run observation:check` to validate. `tests/workspace-ui.mjs` is included in `test:observatory:ui` and covers presets, missing sources, China scope and refresh recovery.
+Read [ATLAS_WORKSPACE.md](ATLAS_WORKSPACE.md) for the current atlas runtime. [OBSERVATION_WORKSPACE.md](OBSERVATION_WORKSPACE.md) documents the previous workspace and still-used evidence inputs. Run `npm run observation:build` after editing pinned references and `npm run observation:check` to validate. `tests/workspace-ui.mjs` is included in `test:observatory:ui` and covers presets, missing sources, China scope and refresh recovery.
+
+Atlas regression tests: `npm run test:atlas`. Camera, area/bubble/point composition, original ranking scope, paired themes and simulation boundaries are tested independently.

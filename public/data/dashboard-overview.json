@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-10-26",
+  "upstream": {
+    "url": "https://selfoss.open-digger.cn/openshare/overview_half_year/meta.json",
+    "pageUrl": "https://open-share.cn/insight/open-world/gosd",
+    "sha256": "93c18a23103a8bfa027233a42b1da6f69ab10d75e56cb368d9a60863033e72e9",
+    "period": {
+      "reportYear": 2026,
+      "start": "2025-07-01",
+      "endExclusive": "2026-07-01",
+      "totalSnapshotQuarter": 2
+    },
+    "summary": {
+      "totalRecords": 9651850587,
+      "totalRepos": 380657469,
+      "totalDevelopers": 193896100,
+      "activeDevelopers": 28903652,
+      "totalCountries": 246,
+      "dataSource": "OpenDigger",
+      "updatedAt": "2026-10-08T08:18:22.697Z"
+    }
+  },
+  "activeRepositories": {
+    "value": 11439426,
+    "platforms": {
+      "GitHub": 6328640,
+      "Gitee": 4388923,
+      "AtomGit": 604072,
+      "GitLab": 117791
+    },
+    "period": [
+      "2025.07—2026.06",
+      "Jul 2025–Jun 2026"
+    ],
+    "scope": [
+      "四平台活跃代码仓库记录之和，未跨平台去重；模型与数据活跃量待接入。",
+      "Sum of active code-repository records across four platforms, not cross-platform deduplicated. Active model and dataset counts pending."
+    ],
+    "sourceUrl": "https://www.x-lab.info/2026-Global-Open-Source-Development-Report/2026/zh/chapters/02/#ch02-s05",
+    "sourceAsset": "https://www.x-lab.info/2026-Global-Open-Source-Development-Report/assets/amap/publication-data.js?v=20261020-v4",
+    "sourceSha256": "ff2b2930fdb4fbfb85db9c6a2a0d7f5c941fee6b24dcff23880f602468b72df7"
+  },
+  "intelligence": {
+    "value": 12840,
+    "synthetic": true,
+    "scope": [
+      "资讯总量为演示规模，与已采集真实资讯分开。",
+      "Illustrative inventory, separate from the collected news snapshot."
+    ]
+  },
+  "gitScenario": {
+    "year": 2026,
+    "annualProjectedCommits": 14000000000,
+    "previousYearLowerBound": 1000000000,
+    "source": "User-provided planning assumption, 2026-10-26",
+    "status": "unverified-user-projection",
+    "scope": [
+      "提交次数作为 Git 事件的演示代理；2025 年突破 10 亿，2026 年预计 140 亿。不是已观测实时事件量，也不据此计算精确同比。",
+      "Commits proxy the Git-event display: over 1B in 2025, projected 14B in 2026. This is not observed live event volume and does not support an exact year-on-year rate."
+    ]
+  }
+}

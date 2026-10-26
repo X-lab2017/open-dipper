@@ -15,7 +15,7 @@ test('normal text and event labels meet 4.5:1 against panel surfaces in both the
 test('source badges and primary actions preserve text contrast',()=>{
  for(const [theme,p]of Object.entries(tokens.themes)){
   for(const [fg,bg]of [['accent','accent-soft'],['info','info-soft'],['warning','warning-soft'],['critical','critical-soft'],['manual','manual-soft']])assert.ok(contrast(p[fg],p[bg])>=4.5,`${theme}:${fg}`);
-  assert.ok(contrast(p['text-inverse'],tokens.brand.green)>=4.5,`${theme}:primary`);
+  assert.ok(contrast(tokens.brand.carrier,tokens.brand.green)>=4.5,`${theme}:primary`);
  }
 });
 test('both themes expose identical keys and map/chart colors are usable by Canvas',()=>{
