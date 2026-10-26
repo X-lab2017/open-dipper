@@ -19,7 +19,7 @@
 | --- | --- | --- |
 | Global observation | Explore participation, contribution, influence and ecosystem events on a map or globe | Six groups / eighteen layers, overlays, focused observation tabs, rankings and one/two-screen presentation |
 | AI radar | Discover candidates by task, inspect sources, compare like entities and export a trial checklist | 160 sourced identities: 80 software, 60 models, 20 datasets; local following; optional **simulated** ring judgments |
-| Open Galaxy · review version | Find projects by task, shortlist candidates, trace recorded connections and export sourced research reports | 19,771 code repositories + 24,000 model/data/Space nodes; recorded and inferred links stay separate; [module contract](docs/OPEN_GALAXY.md) |
+| Open Galaxy · 1.5.1 | Find projects by task, shortlist candidates, trace recorded connections and export sourced research reports | 19,771 code repositories + 24,000 model/data/Space nodes; recorded and inferred links stay separate; [module contract](docs/OPEN_GALAXY.md) |
 | Intelligence | Read public brief examples and save interests | Browser-local preferences; subscription delivery and paid services remain planned |
 
 **Accepted product baseline: application 1.3.2.** [Current status and limits](docs/STATUS.md) · [Reusable baseline](design/baselines/README.md) · [Data scope](docs/DATA_EVIDENCE.md). Data has independent observation windows; synthetic activity is not live measurement. Public availability does not imply every model or dataset is open source.
@@ -44,9 +44,9 @@ Choose a task, explore relevant software, models or datasets, inspect source evi
 
 Find a project by task or search, inspect its recorded neighborhood, shortlist up to three research objects, trace recorded paths and export a Markdown, HTML or JSON evidence report. Reports expose missing evidence and source dates; they are not live research, security audits or adoption recommendations.
 
-[![Open Galaxy research workspace with vLLM, recorded neighbors and a three-object shortlist](docs/assets/opendipper-galaxy-research-20261026.jpg)](https://www.x-lab.info/open-dipper/#ecosystem)
+[![Open Galaxy light-theme workspace with PyTorch, recorded neighbors and a two-object research shortlist](docs/assets/opendipper-galaxy-1.5.1-light-research-20261026.png)](https://www.x-lab.info/open-dipper/#ecosystem)
 
-*Open Galaxy 1.5.0 private-review implementation preview, 2026-10-26. The brighter paired-theme update and public Pages delivery are being verified; this image does not certify deployment. [Research and relationship contract](docs/OPEN_GALAXY.md) · [Public-release validation record](docs/plans/ecosystem-public-release.md).*
+*Open Galaxy 1.5.1 light-theme CI acceptance capture, 2026-10-26: recorded PyTorch–vLLM path and research shortlist. Browser checks include dark/light, mobile and actual Markdown/HTML/JSON downloads. This is a CI capture, not a production screenshot. [Research and relationship contract](docs/OPEN_GALAXY.md) · [Public-release validation record](docs/plans/ecosystem-public-release.md).*
 
 <!-- section:participation -->
 ## Start with your question or contribution

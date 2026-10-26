@@ -22,6 +22,8 @@
 
 本轮仓库与社区整理已由 [PR #31](https://github.com/X-lab2017/open-dipper/pull/31) 合入，不改产品行为；本轮独立的 [CI / Pages 40278908179](https://github.com/X-lab2017/open-dipper/actions/runs/40278908179) 构建、浏览器回归和部署通过。详细验收与清理回执在 [#30](https://github.com/X-lab2017/open-dipper/issues/30)。过去版本、截图与取舍统一从 [HISTORY.md](HISTORY.md) 查阅。
 
+开源星系 1.5.1 的 [PR #33](https://github.com/X-lab2017/open-dipper/pull/33) 浏览器验收已通过：[CI 40327243123](https://github.com/X-lab2017/open-dipper/actions/runs/40327243123)，产品提交 `ae0883a1cccf1ffbd6c3a4945467a18500cb45f9`。实际验证搜索与重复选择、关系/报告、三格式文件实收、明暗/移动布局、减少动态效果及地图/雷达往返。最终合入与 Pages 生产回执以 PR #33 的检查和发布评论为准；不把 CI 截图或代理验收等同维护者接受新的视觉基线。
+
 ## 仍需共同完成
 
 | 边界 | 当前事实 | 后续入口 |

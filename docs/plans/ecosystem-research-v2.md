@@ -13,7 +13,7 @@ Find projects for a concrete task, explain their ecosystem relationships, keep a
 - Project research dossier: identity, scope, graph metrics, known license and published facts from exact radar URL matches, dated monthly samples, recorded relationships, peers, exact-repository published events, verification gaps and next steps. Read no simulated radar assessments.
 - Download Markdown, self-contained printable HTML and JSON. Generated time is not observation time. No claim of live web research, security audit or benchmark evaluation.
 - Observatory-style circular framing, brighter landmark stars, clear selection/hover and relationship traces; paired themes, reduced-motion, responsive layout and source-preserving coordinates.
-- Preserve existing site audience and publish the same private review site. Public release awaits review.
+- Preserve the review Site audience. The private 1.5.0 publication is recorded below; the subsequently authorized public 1.5.1 release is tracked in [the public-release record](ecosystem-public-release.md).
 
 ## Validation
 
@@ -24,13 +24,13 @@ Data/model/report tests must cover exact URL identities, no inferred paths, no c
 - Full `npm test` passed, including 15 galaxy data/model/research tests; `npm run typecheck` and `git diff --check` passed. Subsequent inference-filter and license-provenance corrections passed the focused research suite; the production build checks TypeScript again.
 - Managed Chromium checks: task entrances and exact/project-prefix search; select LangGraph/PyTorch/vLLM; isolate PyTorch's 388-node neighborhood; shortlist up to three; same-type comparison; one-hop PyTorch/vLLM recorded path; mixed model/code component list with explicit missing cross-network evidence; English model report with correct HF license-source attribution.
 - Light/dark visual inspection, model inference switch (19,305 / 43,263 edges), expansion/Escape, tour stop, radar and map navigation passed. A 390px iframe viewport has document width/scroll width 390px and report width/scroll width 349px; task discovery and report opening work there. This is responsive browser coverage, not a physical-device test.
-- JSON export was downloaded and its structured source/metric content inspected. HTML/Markdown generators passed escaping, provenance and standalone-document tests. The managed browser's download-event capture timed out for HTML/Markdown, so end-to-end receipt of those two file types is not claimed. The CI browser suite now exercises all three downloads; that standalone runner has not been launched here and GitHub CI remains pending.
+- JSON export was downloaded and its structured source/metric content inspected. HTML/Markdown generators passed escaping, provenance and standalone-document tests. The managed browser's download-event capture timed out for HTML/Markdown, so end-to-end receipt of those two file types is not claimed. That was the 1.5.0 private-review limit. Subsequent 1.5.1 [CI 40327243123](https://github.com/X-lab2017/open-dipper/actions/runs/40327243123) saved and read all three files; see [the public-release record](ecosystem-public-release.md). PDF printing remains unverified.
 - The screenshot below is the tested managed preview, not a logged-in production inspection. The existing protected review Site's sign-in boundary remains respected; no sign-in or access workaround was attempted.
 - [Research workspace screenshot](../assets/opendipper-galaxy-research-20261026.jpg).
 
 ## Next scoped contributions
 
-1. Run the wired CI browser suite and validate HTML/Markdown/PDF printing on real browsers, including touch devices, before public release.
+1. The 1.5.1 CI browser suite now confirms HTML/Markdown/JSON file receipt. PDF printing and physical touch-device validation remain follow-up work.
 2. Add task evaluations, maintenance/security signals and source-confirmed licenses as dated report evidence; never substitute an adoption score for missing evidence.
 3. Improve task taxonomy and reviewed peer matching. Current presets use curated identities and metadata rules, not semantic search or verified functional equivalence.
 4. Add newer model snapshots, preserved lineage direction and evidence-backed code/model bridges with upstream rights confirmation.

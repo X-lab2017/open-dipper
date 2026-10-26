@@ -19,7 +19,7 @@
 | --- | --- | --- |
 | 全球观测 | 在地图或地球上探索参与、贡献、影响力与生态事件 | 六类十八层、图层叠加、当前观察多标签、排行榜与一/两屏演示 |
 | AI 雷达 | 按任务发现候选、检查来源、同类对比并导出试用清单 | 160 个有来源实体：80 个软件、60 个模型、20 个数据集；本机关注；可关闭的**模拟**圈层判断 |
-| 开源星系 · 评审版本 | 按任务找项目、建立候选清单、追踪记录关系，导出有来源的研究报告 | 19,771 个代码仓库 + 24,000 个模型/数据/Space 节点；记录关系与推断分离；[模块契约](docs/OPEN_GALAXY.md) |
+| 开源星系 · 1.5.1 | 按任务找项目、建立候选清单、追踪记录关系，导出有来源的研究报告 | 19,771 个代码仓库 + 24,000 个模型/数据/Space 节点；记录关系与推断分离；[模块契约](docs/OPEN_GALAXY.md) |
 | 情报 | 阅读公开样刊并保存关注主题 | 浏览器本地偏好；订阅交付和付费服务仍为规划 |
 
 **已接受的产品基线：应用 1.3.2。** [当前状态与限制](docs/STATUS.md) · [可复用基线](design/baselines/README.md) · [数据口径](docs/DATA_EVIDENCE.md)。各数据保留独立观察期，模拟脉动不是实时测量；公开可下载不代表每个模型或数据集都符合开源定义。
@@ -44,9 +44,9 @@
 
 按任务或名称找到项目，查看记录关系邻域，加入最多三个研究对象，追踪记录路径，导出 Markdown、HTML 或 JSON 证据报告。报告保留缺失证据和来源日期，不等同于实时研究、安全审计或采用建议。
 
-[![开源星系研究工作台：vLLM、记录关系邻居与三对象研究清单](docs/assets/opendipper-galaxy-research-20261026.jpg)](https://www.x-lab.info/open-dipper/#ecosystem)
+[![开源星系浅色研究工作台：PyTorch、记录关系邻居与两对象研究清单](docs/assets/opendipper-galaxy-1.5.1-light-research-20261026.png)](https://www.x-lab.info/open-dipper/#ecosystem)
 
-*开源星系 1.5.0 私有评审实现图，2026-10-26。更鲜明的明暗视觉更新及公开 Pages 交付正在验证；此图不构成上线证明。[研究与关系契约](docs/OPEN_GALAXY.md) · [正式发布验收记录](docs/plans/ecosystem-public-release.md)。*
+*开源星系 1.5.1 浅色 CI 验收截图，2026-10-26：PyTorch–vLLM 记录路径与研究清单。浏览器验收覆盖深浅主题、手机布局及 Markdown/HTML/JSON 三格式实际下载；此图不是生产站点截图。[研究与关系契约](docs/OPEN_GALAXY.md) · [正式发布验收记录](docs/plans/ecosystem-public-release.md)。*
 
 <!-- section:participation -->
 ## 从问题或一份小贡献开始
