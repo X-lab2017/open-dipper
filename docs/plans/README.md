@@ -33,4 +33,4 @@ Read a plan only for the task it describes. Product work starts from the current
 
 ## Active private review
 
-- [Visual workbench upgrade](visual-workbench-review.md): independent UI/visualization candidate; no Pages deployment or baseline acceptance until maintainer review.
+- [Compact observatory review](visual-workbench-review.md): preserve the original composition and complete first-screen inventory; no Pages deployment or baseline acceptance until maintainer review.

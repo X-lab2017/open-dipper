@@ -1,4 +1,4 @@
-# OpenDipper visual system — Spatial Workbench review
+# OpenDipper visual system — Compact Observatory review
 
 The observation, interaction and evidence layers share one visual system. Preserve X-lab / OpenDipper brand assets; keep the observation canvas as the focus. This baseline changes presentation, not observations or geographic attribution.
 
@@ -8,7 +8,7 @@ The observation, interaction and evidence layers share one visual system. Preser
 - `npm run design:build`: produces `src/design/palette.ts` and `src/design/theme.css`. Do not hand-edit generated files.
 - `npm run design:check`: detects drift. Production builds run this check.
 - `src/design/scales.ts`: logarithmic normalization, continuous stop interpolation and matching CSS legends. Canvas and legend consume the same stops.
-- `src/design/entry.css`: production stylesheet entry. Earlier presentation styles are grouped in the `legacy` cascade layer; `workbench.css` owns the current app layout, readable control sizes and responsive behavior. `components.css` supplies established interaction states. Compatibility pages retain their own entries.
+- `src/design/entry.css`: production stylesheet entry. Earlier presentation styles are grouped in the `legacy` cascade layer; the established presentation styles retain layout and responsive behavior; `workbench.css` only refines compact visual details. `components.css` supplies established interaction states. Compatibility pages retain their own entries.
 
 ## Color roles
 
@@ -53,7 +53,7 @@ See [visual specification](../docs/VISUAL_SYSTEM.md) and [release plan and valid
 
 ## Review status and accepted baseline
 
-The workbench candidate uses visual tokens `1.4.0-rc.1`; it is not an accepted baseline or public release. See [review plan](../docs/plans/visual-workbench-review.md). Shared app text starts at 14px; routine labels at 12–13px. Atlas starts with a single participation measure, a visible legend, and collapsed advanced layer controls / simulation. Preserve the comprehensive preset and all visualization modes.
+The workbench candidate uses visual tokens `1.4.0-rc.2`; it is not an accepted baseline or public release. See [review plan](../docs/plans/visual-workbench-review.md). Atlas retains the original comprehensive five-layer default, equal sidebars, five summary values, scope counts, full top ten, latest news and always-visible ecosystem pulse. Display management remains directly accessible. Preserve the original row budgets and responsive behavior; do not introduce large headings, taller rows or content disclosures that reduce the overview.
 
 ## Accepted version and module template
 

@@ -38,8 +38,10 @@ Dark/light tokens, ramps and layer tones are maintained in `design/tokens.json`;
 
 `start()` currently loads twelve atlas snapshots together. A failed request or JSON parse leads to the full-page retry state; earlier optional-snapshot loaders are not the production entry. The five-minute event check retains existing data on failure but does not provide a complete refresh-error state. [DATA_CONTRACTS.md](DATA_CONTRACTS.md) lists the exact boundary; [#10](https://github.com/X-lab2017/open-dipper/issues/10) tracks validation and recovery. The radar has independent validated catalog/demo loaders after global startup. This documentation records the implementation, not a completed reliability improvement.
 
-## Spatial Workbench review candidate
+## Compact observatory review candidate
 
-The `design/observatory-review-v2` candidate defaults to the participation preset: one developer choropleth with the matching region inspector and an expanded legend. The comprehensive preset and all eighteen layers remain available. Advanced display controls and simulation are collapsed disclosures; collapsing simulation disposes its animation and clears map pulses. A region selection from a non-regional inspector returns to the active regional fill. Global benchmark ranks remain explicitly global.
+The `design/observatory-review-v2` candidate preserves the accepted three-column composition and comprehensive default: developer fill, model bubbles, company/benchmark/compute points, and the benchmark inspector. Five summary values, scope counters, ten ranking rows, latest news and the ecosystem pulse remain visible together on desktop. Layer display management remains directly available. Legend expansion, mobile navigation and all catalog/evidence interactions retain their original behavior.
 
-The overview news total counts non-demo entries in `events.json`; separately curated located news is not folded into it. Page verification, source snapshot and measure periods retain separate meanings. These changes are pending maintainer review and do not update the accepted baseline or deploy Pages. See [review plan](plans/visual-workbench-review.md).
+The pulse keeps four counters, seven platforms, its event stream and five controls, with explicit simulation labels. Its modeled values are not replaced with unrelated observed totals. Source snapshots, source dates and observation periods are unchanged. A hidden-map resize guard preserves a finite camera during mobile tab switches.
+
+This candidate refines paired surfaces, typography and focus feedback without changing information architecture. It is pending maintainer review and does not update the accepted baseline or deploy Pages. See [review plan](plans/visual-workbench-review.md).

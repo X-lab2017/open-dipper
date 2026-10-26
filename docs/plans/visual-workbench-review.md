@@ -1,68 +1,36 @@
-# Visual workbench upgrade — private review
+# Compact observatory — private review revision
 
-- Execution state: completed (private review delivered; maintainer acceptance pending)
+- Execution state: implementing revised acceptance; prior roomy candidate superseded
 - Baseline: `6cb118b6896c044b0cdd510f7a09ee869ba8b998`
-- Branch: `design/observatory-review-v2`
-- Authorization: implement a systematic interface/visualization upgrade and provide an isolated review; do not merge or deploy GitHub Pages.
+- Branch: `design/observatory-review-v2`; draft PR https://github.com/X-lab2017/open-dipper/pull/37
+- Scope: preserve original structure and information while refining visual details. Update the existing private review Site; do not merge or deploy GitHub Pages.
 - Responsible collaborator: Codex, AI-assisted engineering and design.
 
-## Outcome and acceptance
+## Acceptance
 
-Make the existing observatory easier to read and operate, with a coherent visual system across Atlas, AI Radar and Open Galaxy. Preserve their different spatial visualizations, official brands, evidence, languages and themes.
+1. Preserve the original three columns and equal sidebars, top toolbar and perspective control. No additional title row or enlarged default spacing.
+2. Default to the comprehensive five-layer map and benchmark inspector. Preserve all eighteen layers, encodings, catalogs, sources, geography, brands and original data values.
+3. Show five totals, scope counters, the entire top ten, latest news and ecosystem pulse together at 1280×720, 1366×768, 1440×900, 1920×1080 and 1920×1200. Check clipping ancestors as well as page overflow.
+4. Keep layer display management directly available. The pulse remains mounted with four metrics, seven platforms, event stream and five controls. Preserve simulation labels and original pause/step/map-link behavior.
+5. Preserve Map/Globe/Wire, themes, Chinese/English, one/two-screen modes, mobile natural flow, keyboard and reduced motion. Retain the hidden-canvas resize guard and camera round-trip regression.
+6. Deliver the revised build at the same owner-private Site. Accepted baselines and public Pages remain unchanged.
 
-1. Atlas opens on a focused participation map with matching inspector, visible legend and readable time/scope. Existing comprehensive and role presets remain selectable.
-2. Primary controls, labels and results have deliberate hierarchy. Advanced layer presentation and simulated activity are explicit disclosures; closing simulation stops its map pulses.
-3. Selecting a region shows its active regional measure; global benchmark rankings retain their stated global scope.
-4. Map/globe, layer combinations, all catalogs, entity details, news/events, radar discovery/comparison and galaxy research/export remain available.
-5. Both themes, Chinese/English, desktop one/two-screen, narrow layouts, keyboard and reduced motion are checked. Observations, unknowns and source clocks are not recalculated by styling.
-6. Deliver a branch/PR, verification evidence and a private review URL. Production Pages and accepted historical baselines stay untouched.
+## Implementation
 
-## Design direction and references
+Restore original Atlas composition and defaults; retain centralized CSS loading, paired quieter surfaces, tabular values and keyboard focus. Replace the broad spacing overrides with a small visual refinement stylesheet. Radar and Galaxy keep their original layout and behavior. No data refresh or dependency addition.
 
-Professional spatial workbench: a continuous visualization, quieter tool surfaces, legible type and one clear selection hierarchy. Adapt Hallmark v2's app-screen, typography, paired-theme and data-viz principles to OpenDipper's existing brand and map/galaxy requirements. This is an independent implementation, not an imported theme, new runtime dependency or claim of passing Hallmark's entire lint suite.
+Hallmark reference from the earlier review informed paired-theme and type considerations. It does not justify removing content or changing the established composition. No external theme/code/assets are imported.
 
-Reference: https://github.com/Nutlope/hallmark (README, SKILL, references/flow.md, data-viz.md, dark-mode.md and redesign.md; consulted 2026-10-26). No third-party code, fonts, photographs or visual assets copied.
+## Verification
 
-## Scope and implementation checkpoints
+Pending revised local checks, browser visual review, PR browser CI and private deployment. The browser regression explicitly checks the full first-screen inventory in both themes and languages, including clipping and panel alignment. Ordinary layer trees and the original display stack retain their supported internal scrolling.
 
-- Shared type/surface/shape tokens and a production-only workbench stylesheet.
-- Atlas composition, progressive layer controls, explicit simulation disclosure, source clock labels and region/inspector continuity.
-- Radar and Galaxy control, list, panel and text refinement, retaining their visualization engines and discovery/research logic.
-- Contract/visual documentation and meaningful regression coverage for changed defaults and disclosures.
-- Typecheck, deterministic suite, build, browser review, PR CI and isolated private deployment.
+## Superseded candidate
 
-## Verification and delivery
+The earlier single-layer default, large title, uneven columns, tall ranking rows and collapsed display/pulse sections were rejected during maintainer review. Their technical CI success was not visual acceptance. The earlier application commit was `53c46569b705db1b842b5e7d6394f4763c61001e`; it is historical evidence only, not the current contract.
 
-| Criterion | Check | Result |
-| --- | --- | --- |
-| Source, data and brand invariants | Diff + deterministic suite | Passed; snapshots, official brands, workflow and baseline fingerprints unchanged |
-| App compile/build | typecheck + build | Passed locally and in CI with Node 24 |
-| Desktop / narrow / bilingual / themes | Browser review + CI suites | Passed; desktop, 1024px tablet, 390px mobile; Chinese/English and both themes |
-| Core interactions and changed defaults | Browser checks | Passed; defaults, keyboard disclosures, simulation disposal, region continuity, all existing module suites and compatibility routes |
-| Private review delivery | PR + private site | Draft PR #37; owner-private deployment succeeded; Pages deploy skipped |
+## Delivery boundary
 
-## Decisions and progress
+Private review: https://opendipper-workbench-review-20261026.token4all.chatgpt.site
 
-- Clean isolated worktree created from the current upstream snapshot. Existing data collection workflow is unchanged; PR builds cannot run the production deploy job.
-- Global defaults may change for this review; the original comprehensive preset remains a supported interaction fixture. Simulation is retained as an explicit presentation mode.
-
-## Resume / follow-up
-
-Await maintainer visual review. Apply feedback on this branch and update the same private Site. Do not merge, accept a new baseline or deploy GitHub Pages without a subsequent release instruction.
-
-## Delivered evidence
-
-- Draft review: https://github.com/X-lab2017/open-dipper/pull/37
-- Application commit: `53c46569b705db1b842b5e7d6394f4763c61001e`.
-- Full successful CI: https://github.com/X-lab2017/open-dipper/actions/runs/40406912236 — typecheck, deterministic checks, build, Atlas/workspace/workbench, portal/radar/galaxy, panorama and analysis browser suites all passed. The Pages deploy job was skipped.
-- QA artifact: `browser-qa-12f813e2a11016c76afa17b608ac5c2cc3bb7611` (7-day GitHub retention). Includes the 12-case Atlas theme/language/width matrix and existing module/export evidence.
-- Private review: https://opendipper-workbench-review-20261026.token4all.chatgpt.site — owner-only deployment succeeded on 2026-10-26 at 21:46 UTC. Browser access correctly shows the ChatGPT sign-in gate when signed out.
-- Private Site source commit: `5f1e482e849d03c3317fae3500aabc1ffe5076c6`, generated from the application commit above. Its asset bytes match the validated build; review packaging only adds noindex and omits Pages CNAME.
-- Local checks: `npm run typecheck`, `npm test`, `npm run build`, `git diff --check` passed. No data refresh, dependency addition, brand replacement or production workflow edit.
-- Visual QA corrected compressed rank rows, old mobile title overrides and unnecessary topbar wrapping. The first CI failure was an ambiguous test locator after adding a second source entry; the test now targets the primary control explicitly.
-
-Limitations: physical touch devices and a complete assistive-technology audit are not covered. This private review serves a fixed build/snapshot; the existing scheduled collector continues independently on the production repository. Maintainer design acceptance and public release remain pending.
-
-## Final screenshot follow-up
-
-Reviewing the successful CI screenshots revealed a blank canvas after mobile map/layers/overview toggles: ResizeObserver processed a hidden zero-size map, causing division by zero in the saved camera. The resize handler now ignores hidden dimensions, and the browser matrix asserts finite, unchanged camera coordinates after each round trip. The follow-up passed full CI, including the new camera assertions, and mobile light/English screenshots show the map restored. The private build was replaced with the final verified application. Tablet scope/news alignment was refined; intrinsic news height is retained so both news and event tabs remain visible.
+Apply further feedback on this branch and update this Site. Do not merge, accept a new baseline or deploy Pages without a subsequent release instruction. Physical touch devices and a complete assistive-technology audit are outside the recorded checks.
