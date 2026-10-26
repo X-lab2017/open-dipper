@@ -1,6 +1,8 @@
 # Execution plan: accepted atlas baseline and AI radar proposal
 
-- Execution state: completed (design and reusable-baseline artifacts); AI radar implementation awaits maintainer review.
+> Current disposition (2026-10-26): Design completed and implemented through PR #27–#29. Current behavior is AI_RADAR.md; original review questions and SVG verification below are historical.
+
+- Execution state: completed (design and reusable-baseline artifacts); implementation subsequently completed through 1.3.2.
 - Review: [#26](https://github.com/X-lab2017/open-dipper/issues/26).
 - Accepted application commit: `7b27609dd3d02ae12e6987c3c989f0a5a6da561c`.
 - Working branch: `docs/atlas-baseline-ai-radar`, based on `97cd19b` (includes scheduled snapshots).
@@ -33,6 +35,6 @@ Record the accepted application 1.2.0 / visual 1.3.0, supply a reusable module w
 
 Local Playwright rendering was unavailable because its Chromium binary was not installed. Static SVG verification uses a separate renderer; this does not claim application browser acceptance. No radar implementation tests, model evaluations or user interviews were performed.
 
-## Resume after review
+## Historical handoff after review (completed)
 
 Read [the proposal](../design/AI_RADAR_PROPOSAL.md), [baseline](../../design/baselines/atlas-1.3.0.md) and issue #26. Confirm the two lenses, tasks, assessment semantics and minimum evidence coverage. Then create a separate implementation plan; tie sources/evidence/editorial/entitlement work to existing issues #15–#19. Keep current runtime contracts authoritative until each capability is delivered and verified.

@@ -14,6 +14,23 @@ Find the proposed stages and scoped work in the [roadmap](ROADMAP.md). [Source d
 
 Use the [bug form](https://github.com/X-lab2017/open-dipper/issues/new?template=bug_report.yml) for a reproducible problem, or the separate [ecosystem event form](https://github.com/X-lab2017/open-dipper/issues/new?template=ecosystem-event.yml) for a sourced publication. Development issues do not use the editorial approval label.
 
+<!-- section:first-contribution -->
+## A useful first contribution
+
+| Your interest | Small, reviewable result | Existing task |
+| --- | --- | --- |
+| Understand sources | Document the configured event sources and their limits | [#12 Source directory](https://github.com/X-lab2017/open-dipper/issues/12) |
+| Explain data clearly | Plain-language English/Chinese definitions for eight scope terms | [#13 Terminology](https://github.com/X-lab2017/open-dipper/issues/13) |
+| Research AI and open source | One topic, 3–5 original sources, dates and a short usefulness note | [#19 Source material](https://github.com/X-lab2017/open-dipper/issues/19) |
+| Review the experience | Complete one map or radar task; report a concrete obstacle | [Experience feedback](https://github.com/X-lab2017/open-dipper/issues/new?template=experience_feedback.yml) · [review walkthrough](docs/REVIEW.md) |
+| Correct the evidence | Identify one affected entity/metric and the original evidence | [Data correction](https://github.com/X-lab2017/open-dipper/issues/new?template=data_correction.yml) |
+
+Check the live issue and any linked PR, then say what you intend to contribute. Feedback and evidence can be submitted directly; larger implementation work should first settle scope. A small documentation fix may go straight to a focused PR. No account on the observatory, coding experience or agent subscription is required to provide feedback on GitHub.
+
+## Discuss and review constructively
+
+Discuss the behavior, evidence and tradeoff, not the person or tool. Give reproduction context, avoid duplicate requests, and acknowledge sources and contributors. Keep private information and sensitive security details out of public reports; use [SECURITY.md](SECURITY.md). Questions without a matching form can use a blank issue. Maintainers respond as capacity allows; no response-time guarantee is claimed. A contribution is complete when its agreed outcome and actual checks are recorded, not when a large diff is submitted.
+
 <!-- section:implementation -->
 ## Implement through the engineering workflow
 
@@ -54,7 +71,7 @@ Each contribution states the tool/agent where known, work performed, review actu
 
 Observed, simulated and unknown data remain distinct. Monthly metrics and annual geography keep separate clocks; samples are not global totals. Manual events follow the [event contract](docs/EVENTS.md) and independent maintainer approval.
 
-Visual work starts with [the visual specification](docs/VISUAL_SYSTEM.md) and `design/tokens.json`; official marks remain unmodified. Application code, data, geometry, brand and dependencies have separate rights. The root application LICENSE is still undecided: see [RIGHTS.md](docs/RIGHTS.md). Do not invent a license grant or source attribution.
+Visual work starts with [the accepted baseline](design/baselines/README.md) and [the visual specification](docs/VISUAL_SYSTEM.md) and `design/tokens.json`; official marks remain unmodified. Application code, data, geometry, brand and dependencies have separate rights. The root application LICENSE is still undecided: see [RIGHTS.md](docs/RIGHTS.md). Do not invent a license grant or source attribution.
 
 <!-- section:languages -->
 ## Keep language editions aligned

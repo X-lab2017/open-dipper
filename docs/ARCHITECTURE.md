@@ -1,6 +1,6 @@
-# OpenDipper architecture · application 1.1.0
+# OpenDipper architecture · application 1.3.2
 
-Maintained baseline: 2026-10-25. Start with [current status](STATUS.md); field-level definitions live in [the contract index](DATA_CONTRACTS.md).
+Maintained baseline: 2026-10-26. Start with [current status](STATUS.md); field-level definitions live in [the contract index](DATA_CONTRACTS.md).
 
 ## Product structure
 
@@ -9,9 +9,10 @@ The main task is to locate a signal, understand its scope and time, and inspect 
 | Surface | Question | Data and interaction |
 | --- | --- | --- |
 | Overview | What is observable? | Sample coverage, actual event counts, snapshot time and scheduled cadence |
-| Map/globe | Where is participation or influence distributed? | Real organization-label geography; synthetic global monthly demonstration |
-| Layer rail | What am I looking at? | Scope, geographic metric, heat/marker/graticule switches, six categories |
+| Map/globe | Where is participation or influence distributed? | Independent sourced region aggregates, proportional asset bubbles, located entities and explicitly simulated overlays |
+| Layer rail | What am I looking at? | Six groups / eighteen layers; optional mutually exclusive groups, overlay ordering and focused observation tabs |
 | Event wire | What has been published? | Time/category/region/priority/text filters and original sources |
+| AI radar | What is worth investigating for my task? | Two lenses, sourced candidate identities, separately simulated judgments, comparison and trial export |
 | Monthly lens | How did this metric change? | Same-platform sample ranking, calendar-month bars, watchlist |
 | Evidence | Can I verify it? | Source URL, metric period, retrieval time, checksum and status |
 | Editorial intake | How does an editor add an event? | Local draft → issue → maintainer approval → feed |
@@ -27,6 +28,8 @@ flowchart TD
   RSS[Official RSS feeds] --> EI
   ED[Editor draft and GitHub review] --> EI
   GEO[Independent trailing-year geography] --> GA[Geographic adapter]
+  REF["Pinned OpenShare / GOSD / AI source extracts"] --> OFF["Offline evidence and radar builders"]
+  OFF --> VA
   GA --> VA[Validation and versioned snapshots]
   MA --> VA
   EI --> VA
@@ -42,11 +45,15 @@ Public feeds are fetched in GitHub Actions, normalized into JSON and published w
 | Module | Responsibility |
 | --- | --- |
 | `src/observatory/intelligence.ts` | Typed signals, optional fixture validation, explicit AI mapping, local preference normalization, matching and exports |
-| `src/observatory/portal.ts`, `portal.css` | Radar, subscription sample, following, community, overview rail and responsive portal composition |
+| `src/observatory/portal.ts`, `portal.css` | Ecosystem, subscription sample, following, community and shared portal composition; current radar is a dedicated module |
 | `src/observatory/model.ts` | Contracts, validation, time filters, ranking, missing-value semantics |
 | `src/observatory/scene.ts` | Geographic projection/clipping, choropleth, markers, camera/keyboard |
-| `src/observatory/main.ts` | Product state, panels, dialogs, editor, polling |
-| `src/observatory/style.css` | Product layout, one/two screens, responsive behavior, reduced motion |
+| `src/atlas.ts`, `atlas.css`, `presentation-v*.css` | Production entry, routing, shared shell, state, dialogs, editor, polling and responsive layout |
+| `src/layers.ts`, `rankings.ts`, `dashboard.ts`, `pulse.ts` | Layer composition, scoped rankings, overview totals and separate synthetic activity |
+| `src/radar/model.ts`, `view.ts`, `radar.css` | Validated catalog, task/lens discovery, deterministic placement, inspector/compare/export and expanded state |
+| `scripts/build-radar.mjs`, `data/reference/radar/` | Offline sourced catalog and independently fixed demo advice |
+| `src/observatory/main.ts` | Retained earlier controller; not the index.html entry |
+| `src/observatory/style.css` | Earlier layout retained with legacy controller; production uses atlas and presentation styles |
 | `src/observatory/globe-math.ts` | Camera tween/inertia helpers and Mercator coordinate/zoom math |
 | `design/tokens.json`, `src/design/` | Shared semantic tokens, generated CSS/Canvas palette, components and showcase |
 | `src/main.ts`, `src/panorama.ts` | Tested analysis and previous panorama compatibility routes |
@@ -64,7 +71,8 @@ Public feeds are fetched in GitHub Actions, normalized into JSON and published w
 1. Each repository metric has its own `latestMonth` and actual observations. Retrieval time is not an observation watermark.
 2. Real geography is a trailing-year aggregate with unpublished exact endpoints and unknown-country denominator. It is not interpolated into monthly observations.
 3. Events have source publication time (`occurredAt`), first retrieval (`collectedAt`), plus per-source last attempt/success.
-4. Demo dates are fixed. A redeployment never makes them fresh.
+4. Radar source extracts and judgment fixtures have separate clocks; the event schedule does not refresh the catalog or evaluate candidates.
+5. Demo dates are fixed. A redeployment never makes them fresh.
 
 ## Ingestion behavior
 
@@ -100,8 +108,8 @@ Read [AGENTS.md](../AGENTS.md) or [CONTRIBUTING.md](../CONTRIBUTING.md), then th
 
 ## Optional observed evidence
 
-`data/reference/` and pinned country anchors → `build-evidence.mjs` → `public/data/evidence.json` → validated optional `evidence.ts` → map / overview / `evidence-view.ts` supply chart. This path is manual and reviewed, separate from event collection and monthly organization snapshots. Source failure leaves core observations usable. See [the contract](DATA_EVIDENCE.md).
+`data/reference/` and pinned country anchors → `build-evidence.mjs` → `public/data/evidence.json` → validated optional `evidence.ts` → map / overview / `evidence-view.ts` supply chart. This path is manual and reviewed, separate from event collection and monthly organization snapshots. The earlier optional loader is retained, but current atlas startup requires this snapshot. Failure enters the global retry state; see [loading boundaries](DATA_CONTRACTS.md) and [the source contract](DATA_EVIDENCE.md).
 
 ## Observation workspace
 
-`workspace.ts` registers audience presets and validates the optional `observation.json`; `workspace-view.ts` and `workspace.css` compose the existing visual system. The offline adapter `scripts/build-observation.mjs` derives organization/repository indexes and publisher-geography samples from pinned evidence. Global facts, monthly repositories, publisher geography and event clocks remain separate. See [implementation contract](OBSERVATION_WORKSPACE.md).
+`workspace.ts` validates the still-used optional `observation.json`; its earlier presets and `workspace-view.ts` / `workspace.css` describe the replaced interface. Current UI and layers live in `src/atlas.ts` and `src/layers.ts`. The offline adapter `scripts/build-observation.mjs` derives organization/repository indexes and publisher-geography samples from pinned evidence. Global facts, monthly repositories, publisher geography and event clocks remain separate. See [data adapter and historical workspace contract](OBSERVATION_WORKSPACE.md) and [current atlas contract](ATLAS_WORKSPACE.md).

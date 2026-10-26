@@ -1,40 +1,39 @@
 # 产品评审与视觉验收
 
-入口：[观测站](https://www.x-lab.info/open-dipper/) · [视觉规范页](https://www.x-lab.info/open-dipper/design-system.html)。当前评审基线为应用 v1 / 视觉 1.2；已完成的验证证据见 [STATUS.md](STATUS.md)。本页是后续变更的验收路线，不将待执行的检查写成已通过。
+当前已接受基线：应用 **1.3.2**；本页供后续变更复核，不表示每次均已执行。实际证据在 [STATUS.md](STATUS.md) 和相关 PR/CI。可用 [体验反馈表单](https://github.com/X-lab2017/open-dipper/issues/new?template=experience_feedback.yml) 记录一项具体任务，不需要先设计解决方案。
 
-## 十分钟产品路线
+## 全球观测：完成一次空间观察
 
-1. **默认地图与一屏**：干净浏览器环境首次进入地图；观察海陆层次、海岸光、经纬标尺与数据节点。顶栏、状态栏、图层、地图、月轴、分析和快讯应紧凑且不重叠。X-lab 标志不压过产品标题。
-2. **空间操作**：拖动地图后惯性收束，鼠标所在位置附近缩放，切换轮廓/点阵并使用地域导航；跨日期变更线不会跳飞。点阵不是数据。
-3. **立体地球**：球面光照与边缘辉光保持节点可辨；拖拽、缩放、定位、键盘与 reduced-motion 可用。切换投影后筛选与证据查看保持一致。
-4. **两屏和全屏**：第一屏空间/快讯获得更多面积，第二屏展开排行与 12 个月趋势；跳屏和返回有效。全屏不可用时有合理降级，退出后布局恢复。
-5. **指标与范围**：切换平台、指标、月份、项目和关注项；排行只比较同平台同月。缺失显示不可用，不是零；年度真实地域不跟随月轴改变。
-6. **事件快讯**：按时间、分类、地区、优先级和文字筛选，查看原始来源；关闭模拟事件后只剩真实采集/审核记录。未知位置的事件仍能在快讯阅读。
-7. **模拟模式**：全球月度模拟和固定虚构事件有清楚标识；其日期可能已被当前时间筛选排除，不以刷新假时间来凑数。
-8. **人工录入**：草稿在本地、JSON 可导出、GitHub 提交可预览；站点不能直接越过维护者审核发布。
-9. **来源与失败**：检查范围、观察期、实际成功时间和计划周期；事件失败不伪装为实时，真实数据失败不自动切成模拟。
+1. 干净浏览器进入默认地图、一屏布局。检查五项概览、六类图层、主图、当前观察和脉动之间的主次；左右栏不要挤占主体。
+2. 选择开发者区域指标，叠加资产气泡与组织圆点；可取消的单选组能清空。切换当前观察标签，核对每个指标的主体、范围和单位，不混加异类数量。
+3. 拖拽、缩放、复位与地域定位；跨日期变更线不跳飞。切换地球后保留指标/筛选语义；球面光照不能掩盖实体。
+4. 展开地图后选择实体，使用常驻返回或 Escape；应用全屏与地图展开各有正确返回路径。切换一/两屏并检查手机自然流。
+5. 查看真实事件和原始来源；未知位置仍可阅读。查看来源期与成功时间，确认模拟脉动不进入实测统计。
 
-## 显示与可访问性矩阵
+## AI 雷达：从发现到可执行的小试验
+
+1. 在软件、模型/数据两视角切换：默认各 80 个编号目标，四分区各 20 个；编号不是排行。
+2. 选择一个任务，搜索/筛选候选；悬停或键盘聚焦预览，选择目标联动清单与右侧详情。聚焦分区后，当前观察保持在该分区内。
+3. 展开雷达、切换目标和分区，展开状态保持；显式返回和 Escape 可用，背景控件不可操作，返回后焦点合理。
+4. 同类选择最多三个候选，对比时保留各自指标窗口，缺失不填零；不能把软件与模型混作同类性能排行。导出保留来源和模拟标记。
+5. 关闭模拟圈层后进入事实清单，采用判断保持待评审。关注只在本机保存，刷新后可读取，不宣称云端同步。
+6. 打开唯一使用指南与目录来源入口；手机仍可找到来源，预览的“查看详情”能到达对应对象。暂停、减少动态、切到后台都不应继续制造干扰。
+
+## 其他模块与仓库
+
+- 开源生态的月度排行保持同平台、同指标、同月份；情报样刊、关注和导出保留示例与本机边界。
+- 共建入口能到达对应 issue；事件提交仍需独立审核，不出现虚构背书或收费能力。
+- 首次贡献者可从 README 找到当前状态、一个小任务和提交方式；Agent 可从索引找到生产入口、契约和命令，无需读取历史提案。
+
+## 验收矩阵
 
 | 场景 | 重点 |
 | --- | --- |
-| 1280×720、1440×900 | 一屏不出现多余整页滚动，列表在面板内滚动；标题和控制不占掉地图 |
-| 1920×1080、2560×1440、3840×2160 | 一/两屏信息密度协调；节点、趋势、标签可读，边栏不无限拉宽 |
-| ≤1000px 与 390px 手机 | 自然流，无横向溢出，长中英文可换行，地图与控件均可触达 |
-| 中文/英文 × 深色/浅色 | DOM 与 Canvas 颜色同步；状态、来源和模拟标签可读 |
-| 键盘、减少动态效果 | 焦点可见，弹窗可退出，定位/滚屏减少动画，交互不依赖 hover |
-| 空结果、加载失败、无地理位置 | 有明确说明与恢复路径，不用空白占位或编造数据填满 |
+| 1280×720、1440×900 | 标题和控件不覆盖主体；列表有清楚的滚动边界 |
+| 1920×1080 及大屏 | 一/两屏信息密度、编号与标签可读；侧栏不无限拉宽 |
+| 390px 手机、768px 平板 | 无横向溢出、自然流、来源/返回/详情入口可达 |
+| 中文/英文 × 深色/浅色 | DOM 与 Canvas/SVG 同步、长标题、选中态和来源文字可读 |
+| 键盘、触屏、减少动态 | 焦点可见、无 hover-only 操作、弹窗/展开可退出、可暂停 |
+| 无结果、部分数据、失败 | 明确说明与恢复；真实数据不可用时不静默改成模拟 |
 
-浏览器套件见 [DEVELOPMENT.md](DEVELOPMENT.md)，视觉复用契约见 [VISUAL_SYSTEM.md](VISUAL_SYSTEM.md)。自动验收覆盖常用路径，不能替代对新变化的人工视觉检查或完整无障碍审计。
-
-反馈建议记录：**场景 → 观察到的问题 → 期望变化 → 可验收条件**，附屏幕尺寸、语言/主题、布局模式与截图。宏观评审重点仍是产品完整度和信息主次；全球完整覆盖、全面事件源、自动地理解析、多人后台和严格实时保障仍是后续工作。
-
-## Intelligence portal 1.1.0
-
-1. Start with the map and switch globe/wire; use two screens to reach AI selection and sample content.
-2. Open AI radar, filter a topic and search. Turn demos off: no synthetic cards, map events or saved examples should remain.
-3. Open a located demo, inspect missing evidence and jump to the map. Open a collected AI release and verify its original source and repository trend.
-4. Follow topics, save an item, change cadence, reload, and export Markdown. It must be labelled local/cache-based, retain DEMO markers and never claim delivery or payment.
-5. Read the public sample with demo cases on/off. Check Open/Pro is a proposal without a checkout.
-6. Review contribution issue links and absence of invented expert/sponsor identities.
-7. Check all new surfaces in both languages/themes, keyboard dialogs, 390px mobile, 768px tablet and desktop. Existing map sizes remain covered by observatory acceptance.
+反馈格式：**任务 → 实际表现 → 希望的结果**，尽量附页面、筛选、主题/语言、屏幕尺寸和截图。自动化覆盖见 [开发指南](DEVELOPMENT.md)；本矩阵不是完整无障碍认证。

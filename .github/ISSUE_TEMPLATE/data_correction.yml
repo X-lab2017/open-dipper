@@ -1,0 +1,32 @@
+name: Data correction / 数据纠错
+description: Correct an entity, metric, location or attribution with evidence / 用证据帮助修正数据
+title: '[Data] '
+body:
+  - type: markdown
+    attributes:
+      value: 'English or Chinese is welcome. A source link helps; unknown dates or values may remain unknown. This is a correction request, not automatic publication approval. / 欢迎中英文；未知日期或数值可以留空，提交不等于自动审核通过。'
+  - type: textarea
+    id: affected
+    attributes:
+      label: Affected page and item / 页面与条目
+      description: 'Include the page URL, entity or metric, selected filters and displayed value if available. / 尽量提供页面、实体或指标、筛选和当前值。'
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: What needs correction? / 哪些内容需要修正？
+      description: 'Describe the error or uncertainty and the expected correction. / 描述错误或疑点，以及建议修正。'
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Original evidence and period / 原始证据与观察期
+      description: 'Link the original source; include version/date and scope when known. Say unknown when unavailable. Do not include private data. / 提供原始来源，已知时补充版本、日期和范围；无法确认可注明未知，不要公开私人信息。'
+    validations:
+      required: true
+  - type: textarea
+    id: impact
+    attributes:
+      label: Context or impact (optional) / 背景与影响（选填）

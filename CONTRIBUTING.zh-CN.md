@@ -14,6 +14,23 @@
 
 可复现的问题使用 [问题表单](https://github.com/X-lab2017/open-dipper/issues/new?template=bug_report.yml)，有来源的生态资讯使用独立的 [事件表单](https://github.com/X-lab2017/open-dipper/issues/new?template=ecosystem-event.yml)。开发任务不使用事件审核标签。
 
+<!-- section:first-contribution -->
+## 一份有用的首次贡献
+
+| 你的兴趣 | 一份小而可评审的成果 | 已有任务 |
+| --- | --- | --- |
+| 理解来源 | 整理已配置事件源及限制 | [#12 来源目录](https://github.com/X-lab2017/open-dipper/issues/12) |
+| 解释数据 | 为八个口径术语提供通俗中英定义 | [#13 术语](https://github.com/X-lab2017/open-dipper/issues/13) |
+| 研究 AI 与开源 | 一个主题、3–5 个原始来源、日期和简短价值说明 | [#19 来源材料](https://github.com/X-lab2017/open-dipper/issues/19) |
+| 评审体验 | 完成一个地图或雷达任务，记录具体障碍 | [体验反馈](https://github.com/X-lab2017/open-dipper/issues/new?template=experience_feedback.yml) · [评审路线](docs/REVIEW.md) |
+| 修正证据 | 指出一个受影响实体/指标及原始证据 | [数据纠错](https://github.com/X-lab2017/open-dipper/issues/new?template=data_correction.yml) |
+
+查看 issue 实时状态和关联 PR，再说明想贡献的范围。意见和证据可直接提交；较大的实现先明确范围。小型文档修复可直接提聚焦的 PR。通过 GitHub 反馈不需要观测站账户、编程经验或 Agent 订阅。
+
+## 建设性讨论与评审
+
+讨论行为、证据和取舍，不评价个人或使用的工具。给出复现背景，避免重复提单，尊重来源与贡献者。公开报告不要含私人信息或敏感漏洞细节，遵循 [SECURITY.md](SECURITY.md)。不适合现有表单的问题可使用空白 issue。维护者按精力回复，不承诺响应时限。贡献完成以约定结果和实际验证为准，不以代码改动量衡量。
+
 <!-- section:implementation -->
 ## 按工程工作流实现
 
@@ -54,7 +71,7 @@ npm run build
 
 真实、模拟和未知数据保持区分。月度指标与年度地域独立计时，样本不包装成全球总体。人工事件遵循 [事件契约](docs/EVENTS.md)，由维护者独立审核。
 
-视觉修改从 [视觉规范](docs/VISUAL_SYSTEM.md) 和 `design/tokens.json` 开始，官方标志保持原样。源码、数据、几何、品牌和依赖各有权利边界。应用代码根 LICENSE 尚未选定，见 [RIGHTS.md](docs/RIGHTS.md)。不要编造许可授权或来源归属。
+视觉修改从 [已接受基线](design/baselines/README.md) 和 [视觉规范](docs/VISUAL_SYSTEM.md) 和 `design/tokens.json` 开始，官方标志保持原样。源码、数据、几何、品牌和依赖各有权利边界。应用代码根 LICENSE 尚未选定，见 [RIGHTS.md](docs/RIGHTS.md)。不要编造许可授权或来源归属。
 
 <!-- section:languages -->
 ## 保持语言版本同步

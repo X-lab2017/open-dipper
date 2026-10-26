@@ -2,6 +2,14 @@
 
 This file records repository milestones, not published GitHub releases. Application version (`package.json`: 1.3.2) and visual baseline (`design/tokens.json`: 1.3.0) are independent. Detailed feedback and commits are in [the history](docs/HISTORY.md).
 
+
+## Repository baseline — 2026-10-26
+
+- Recorded accepted map + AI radar application 1.3.2 with pinned source fingerprints; updated the portable resource package while retaining the historical atlas record.
+- Refreshed bilingual homepages, contribution routes, current contracts and Agent task context; added data-correction and experience-feedback forms.
+- Archived superseded proposals and removed six unused design drafts with pinned recovery links; preserved compatibility routes, data, brand assets and review evidence.
+- Documentation/community maintenance only; application, visual and brand versions are unchanged. Delivery and checks: [#30](https://github.com/X-lab2017/open-dipper/issues/30).
+
 ## 2026-10-26 · Application 1.3.2 / Radar finishing review
 
 - Aligned radar sidebars and segmented controls with the observatory; checked both themes and increased target-number legibility.

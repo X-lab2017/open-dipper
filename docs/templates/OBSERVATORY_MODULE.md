@@ -1,6 +1,6 @@
 # Observatory module design template
 
-Template only. Copy into a task-specific design document; replace placeholders before submitting a proposal. Reuse [Atlas / Quiet Observatory 1.3.0](../../design/baselines/atlas-1.3.0.md) and the current shared visual source. This worksheet does not authorize implementation or publication.
+Template only. Copy into a task-specific design document; replace placeholders before submitting a proposal. Reuse [Observatory + AI radar 1.3.2](../../design/baselines/observatory-radar-1.3.2.md) and the current shared visual source. This worksheet does not authorize implementation or publication.
 
 ## 1. Outcome and status
 
@@ -24,7 +24,7 @@ Describe one complete journey: arrive with a task → narrow candidates → insp
 | Focused inspector | One entity or one comparable group | Tabs, missing facts, evidence and next step |
 | Changes / second screen | Relevant changes or deeper analysis | Dates, pagination, no fabricated freshness |
 
-Do not duplicate atlas totals on every page. Sidebars can change width, but the main visualization remains dominant. Preserve one/two-screen, dark/light, Chinese/English and small-screen flows.
+Do not duplicate atlas totals on every page. Start with the shared sidebar width and segmented controls; change proportions only when the task requires it. The main visualization remains dominant. Preserve one/two-screen, dark/light, Chinese/English and small-screen flows.
 
 ## 4. Data and editorial contract
 
@@ -39,7 +39,8 @@ Separate source facts, calculated values and reviewed opinions. Define inclusion
 - Loading, partial, unavailable, stale, empty and unreviewed states.
 - Selection, multi-selection/comparison limits, filter conflicts, reset and deep links.
 - Focus order, touch alternative, accessible list, contrast and reduced motion.
-- Fullscreen ownership and asynchronous return; narrow/short displays.
+- One usage guide and one catalog-level sources entry; retain candidate-level evidence.
+- Fullscreen/expanded-view ownership; selection must preserve the view, with visible return, Escape and focus restoration. Test narrow/short displays.
 - Animation meaning and pause behavior; preserve selections while new records arrive.
 - Security: untrusted source content, safe URLs, no client secrets, independent editorial approval.
 

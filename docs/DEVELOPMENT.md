@@ -6,14 +6,14 @@
 
 | 任务 | 先读 | 主要修改位置 | 有针对性的检查 |
 | --- | --- | --- | --- |
-| 布局、筛选、语言与编辑器 | [视觉规范](VISUAL_SYSTEM.md)、[架构](ARCHITECTURE.md) | `src/atlas.ts`、`atlas.css`、`presentation-v*.css` | `typecheck`、`test:observatory`、`test:observatory:ui` |
+| 布局、筛选、语言与编辑器 | [视觉规范](VISUAL_SYSTEM.md)、[架构](ARCHITECTURE.md) | `src/atlas.ts`、`atlas.css`、`presentation-v*.css` | `typecheck`、`test:atlas`、`test:observatory`、`test:observatory:ui` |
 | 情报关注、样刊与共建 | [情报契约](INTELLIGENCE.md)、[架构](ARCHITECTURE.md) | `intelligence.ts`、`portal.ts`、`portal.css`、独立演示 JSON | `typecheck`、`test:observatory`、`test:portal:ui` |
-| AI 雷达候选与交互 | [实现契约](AI_RADAR.md)、[已批准提案](design/AI_RADAR_PROPOSAL.md) | `src/radar/`、`scripts/build-radar.mjs`、`data/reference/radar/` | `radar:build`、`radar:check`、`typecheck`、`test:portal:ui` |
+| AI 雷达候选与交互 | [实现契约](AI_RADAR.md)、[当前基线](../design/baselines/observatory-radar-1.3.2.md) | `src/radar/`、`scripts/build-radar.mjs`、`data/reference/radar/` | `radar:build`、`radar:check`、`typecheck`、`test:portal:ui` |
 | 地图/地球/相机 | [视觉规范](VISUAL_SYSTEM.md)、[地域契约](../public/data/GEOGRAPHY.md) | `src/observatory/scene.ts`、`globe-math.ts` | `test:observatory`、`test:observatory:ui`；检查日期变更线与极区 |
 | 共享视觉资源 | [设计资源](../design/README.md) | `design/tokens.json`、`src/design/` | `design:build`、`design:check`、`build`；深浅主题浏览器检查 |
 | 月度数据 | [月度契约](../public/data/README.md) | `config/repositories.json`、`scripts/fetch-data.mjs`、`refresh-monthly.mjs` | `test:data`、`test:dom`、`test:observatory` |
 | 全球分布 / AI 供给 | [数据证据契约](DATA_EVIDENCE.md) | `data/reference/`、`build-evidence.mjs`、`evidence.ts`、`evidence-view.ts` | `evidence:build`、`evidence:check`、`typecheck`、`test:portal:ui` |
-| 观测实体与图层设计（提案） | [图层 RFC](OBSERVATION_LAYERS.md)、[参考类型](design/README.md) | `docs/design/`；尚未接入运行时 | 参考类型独立 TypeScript 检查、`docs:build`、`docs:check`；实现界面后补 UI 检查 |
+| 观测实体与图层 | [当前 Atlas 契约](ATLAS_WORKSPACE.md)、[来源证据](DATA_EVIDENCE.md) | `src/layers.ts`、`src/rankings.ts`、`src/atlas.ts`；数据适配见下方 | `test:atlas`、`observation:check`、`typecheck`、`test:observatory:ui` |
 | 地域数据 | [地域契约](../public/data/GEOGRAPHY.md) | `scripts/fetch-geography.py`、`src/observatory/model.ts` | `test:geo`、`test:observatory` |
 | 事件来源、审核 | [事件契约](EVENTS.md)、[运维](OPERATIONS.md) | `config/sources.json`、`scripts/collect-events.py`、`model.ts` | `test:observatory`（含 Python 采集器测试） |
 | 分析/历史全景兼容 | [维护边界](MAINTENANCE.md) | `src/main.ts`、`src/panorama.ts`、`src/globe-math.ts` | `test:dom`、`test:panorama` 与对应浏览器套件 |
@@ -70,6 +70,6 @@ BASE_URL=http://127.0.0.1:4173/open-dipper/analysis.html npm run test:ui
 
 ## Observation workspace (legacy contracts)
 
-Read [ATLAS_WORKSPACE.md](ATLAS_WORKSPACE.md) for the current atlas runtime. [OBSERVATION_WORKSPACE.md](OBSERVATION_WORKSPACE.md) documents the previous workspace and still-used evidence inputs. Run `npm run observation:build` after editing pinned references and `npm run observation:check` to validate. `tests/workspace-ui.mjs` is included in `test:observatory:ui` and covers presets, missing sources, China scope and refresh recovery.
+Read [ATLAS_WORKSPACE.md](ATLAS_WORKSPACE.md) for the current atlas runtime. [OBSERVATION_WORKSPACE.md](OBSERVATION_WORKSPACE.md) documents the previous workspace and still-used evidence inputs. Run `npm run observation:build` after editing pinned references and `npm run observation:check` to validate. `tests/workspace-ui.mjs` is included in `test:observatory:ui` and covers optional selection, overlays, tabs/rankings, perspectives, sources and the catalog. It does not establish partial startup recovery; that remains in #10.
 
 Atlas regression tests: `npm run test:atlas`. Camera, area/bubble/point composition, original ranking scope, paired themes and simulation boundaries are tested independently.

@@ -32,3 +32,8 @@ Only one area fill is visible at a time. Other selected area layers retain tabs 
 Default map is north-up at 10° E / 36° N, balancing US and China in an Atlantic-spanning frame. Initial view, reset and Home share `MAP_HOME`; resizing preserves geographic center. Map fullscreen has a persistent return control and Escape. Reduced motion disables automatic animation; invisible views pause rendering. Globe instrument sweep and hover outline are decorative, never additional measurements.
 
 Dark/light tokens, ramps and layer tones are maintained in `design/tokens.json`; run `npm run design:build`. See [visual system](VISUAL_SYSTEM.md). Validation: `npm run test:atlas`, `npm run test:observatory:ui`, `npm run test:portal:ui`, and legacy suites listed in [development](DEVELOPMENT.md). CI performs browser tests at the GitHub Pages subpath.
+
+
+## Runtime loading and current reliability limit
+
+`start()` currently loads twelve atlas snapshots together. A failed request or JSON parse leads to the full-page retry state; earlier optional-snapshot loaders are not the production entry. The five-minute event check retains existing data on failure but does not provide a complete refresh-error state. [DATA_CONTRACTS.md](DATA_CONTRACTS.md) lists the exact boundary; [#10](https://github.com/X-lab2017/open-dipper/issues/10) tracks validation and recovery. The radar has independent validated catalog/demo loaders after global startup. This documentation records the implementation, not a completed reliability improvement.

@@ -2,10 +2,10 @@ blank_issues_enabled: true
 contact_links:
   - name: 路线图与参与任务 / Roadmap
     url: https://github.com/X-lab2017/open-dipper/blob/main/ROADMAP.md
-    about: 查看建议阶段、首批工作包与适合新参与者的任务。
+    about: 查看阶段门槛、现有任务与适合首次贡献的工作。
   - name: 文档与贡献指南 / Documentation
-    url: https://github.com/X-lab2017/open-dipper/blob/main/docs/README.md
-    about: 阅读当前状态、任务上下文与验收方法。
+    url: https://github.com/X-lab2017/open-dipper/blob/main/CONTRIBUTING.md
+    about: 查找参与路径、首次贡献、评审和 Agent 协作方式。
   - name: 安全报告说明 / Security reporting
     url: https://github.com/X-lab2017/open-dipper/blob/main/SECURITY.md
     about: 公开 issue 不要包含凭据或可利用的漏洞细节。
