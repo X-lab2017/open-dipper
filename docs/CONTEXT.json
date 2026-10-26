@@ -217,9 +217,15 @@
     },
     {
       "path": "docs/design/AI_RADAR_PROPOSAL.md",
-      "title": "AI radar proposal (pending review)",
-      "purpose": "Task-oriented Agent engineering and model/data discovery, editorial rings, evidence and staged service model; not implemented",
+      "title": "AI radar approved proposal",
+      "purpose": "Original design intent; see AI_RADAR.md for current implemented scope",
       "language": "zh-CN"
+    },
+    {
+      "path": "docs/AI_RADAR.md",
+      "title": "AI radar implementation",
+      "purpose": "Two lenses, sourced catalog, separate demo guidance, comparisons, local following, export, clocks and contribution workflow",
+      "language": "en"
     }
   ],
   "tasks": {
@@ -463,6 +469,27 @@
       "checks": [
         "docs:build",
         "docs:check"
+      ]
+    },
+    "ai_radar": {
+      "read": [
+        "docs/AI_RADAR.md",
+        "docs/design/AI_RADAR_PROPOSAL.md",
+        "docs/VISUAL_SYSTEM.md"
+      ],
+      "edit": [
+        "src/radar/model.ts",
+        "src/radar/view.ts",
+        "src/radar/radar.css",
+        "scripts/build-radar.mjs",
+        "data/reference/radar/source-extract.json"
+      ],
+      "checks": [
+        "radar:build",
+        "radar:check",
+        "typecheck",
+        "test:portal:ui",
+        "build"
       ]
     }
   },

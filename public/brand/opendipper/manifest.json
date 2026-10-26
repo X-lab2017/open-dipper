@@ -1,6 +1,74 @@
 {
-  "version": "1.0.0",
-  "date": "2026-10-25",
+  "version": "1.1.0",
+  "date": "2026-10-26",
+  "revision": "More space between symbol and wordmark, between bilingual rows, and between outlined letters. Accepted icon geometry and file URLs are unchanged.",
+  "layoutUnits": "SVG viewBox units; text arrays are x, baseline, total advance, em height, tracking",
+  "layout": {
+    "horizontal": {
+      "canvas": [
+        1040,
+        320
+      ],
+      "chinese": [
+        475,
+        147,
+        540,
+        127,
+        6
+      ],
+      "english": [
+        480,
+        268,
+        530,
+        91,
+        2.4
+      ]
+    },
+    "english": {
+      "canvas": [
+        1040,
+        320
+      ],
+      "iconTransform": "translate(10 65) scale(0.6)",
+      "english": [
+        315,
+        210,
+        700,
+        150,
+        2.8
+      ]
+    },
+    "stacked": {
+      "canvas": [
+        600,
+        580
+      ],
+      "chinese": [
+        70,
+        433,
+        460,
+        106,
+        5
+      ],
+      "english": [
+        76,
+        539,
+        448,
+        84,
+        2
+      ]
+    }
+  },
+  "sourceFonts": [
+    {
+      "family": "Noto Sans CJK SC Bold",
+      "sha256": "b5f0d1a190a7f9b43c310a8850630af12553df32c4c050543f9059732d9b4c0a"
+    },
+    {
+      "family": "DejaVu Sans Bold",
+      "sha256": "5c1247acef7f2b8522a31742c76d6adcb5569bacc0be7ceaa4dc39dd252ce895"
+    }
+  ],
   "assets": [
     {
       "file": "opendipper-icon-dark.svg",
@@ -35,7 +103,7 @@
       "variant": "stacked",
       "theme": "dark",
       "width": 600,
-      "height": 550
+      "height": 580
     },
     {
       "file": "opendipper-icon-light.svg",
@@ -70,7 +138,7 @@
       "variant": "stacked",
       "theme": "light",
       "width": 600,
-      "height": 550
+      "height": 580
     },
     {
       "file": "opendipper-icon-black.svg",
@@ -105,7 +173,7 @@
       "variant": "stacked",
       "theme": "black",
       "width": 600,
-      "height": 550
+      "height": 580
     },
     {
       "file": "opendipper-icon-white.svg",
@@ -140,7 +208,7 @@
       "variant": "stacked",
       "theme": "white",
       "width": 600,
-      "height": 550
+      "height": 580
     }
   ]
 }

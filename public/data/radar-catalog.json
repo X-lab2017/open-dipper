@@ -1,0 +1,3142 @@
+{
+  "schemaVersion": 1,
+  "assembledAt": "2026-10-26",
+  "sources": [
+    {
+      "id": "landscape",
+      "name": "Agentic AI Landscape",
+      "url": "https://github.com/antgroup/agentic-ai-landscape/blob/e330d75ea4ca314bc81f6868df63425c8acca5e3/data/agentic-ai-projects.csv",
+      "commit": "e330d75ea4ca314bc81f6868df63425c8acca5e3",
+      "blobSha": "681604011cda10506a66419e03d36261dd0e909e",
+      "retrievedAt": "2026-10-26",
+      "observedPeriod": {
+        "openrank": "2026-08",
+        "trend": "2025-09 to 2026-08",
+        "participants": "2026-07",
+        "metadata": null
+      },
+      "rightsNote": "No repository-wide root license found at this commit. Only selected factual identifiers, numerical fields and labels extracted here; no prose selection reasons or illustrations copied. Retain attribution and verify reuse terms before broader redistribution.",
+      "observedAt": null,
+      "scope": {
+        "zh": "固定 Landscape CSV；OpenRank 2026-08、参与者 2026-07。仅摘录身份、分类与数值，未复制选择理由或图件。",
+        "en": "Pinned Landscape CSV: OpenRank 2026-08 and participants 2026-07. Factual identifiers, taxonomy and numbers only; no selection prose or artwork copied."
+      }
+    },
+    {
+      "id": "gosd-models",
+      "name": "GOSD model landscape",
+      "url": "https://github.com/X-lab2017/2026-Global-Open-Source-Development-Report/blob/c51e3441361407b68f10b339d97eff288319b503/data/processed/chapter4/fig-4-2-1_model_landscape_recent_downloads.csv",
+      "commit": "c51e3441361407b68f10b339d97eff288319b503",
+      "blobSha": "9092b1f8c31d4f7286bc753bb9ebbf03fbbe5826",
+      "retrievedAt": "2026-10-26",
+      "observedPeriod": "30 days ending 2026-10-02",
+      "rightsNote": "X-lab2017 / GOSD report extract; report CC BY 4.0 per repository rights record. Does not license model weights.",
+      "observedAt": "2026-10-02",
+      "scope": {
+        "zh": "X-lab2017 / GOSD 报告模型全景摘录；2026-10-02 近30天下载快照，不是用户数或能力评分。",
+        "en": "X-lab2017 / GOSD model-landscape extract: trailing-30-day downloads at 2026-10-02, not users or capability scores."
+      }
+    },
+    {
+      "id": "gosd-modelrank",
+      "name": "GOSD model influence Top20",
+      "url": "https://github.com/X-lab2017/2026-Global-Open-Source-Development-Report/blob/c51e3441361407b68f10b339d97eff288319b503/data/processed/chapter3/fig-3-6-1_model_influence_top20.csv",
+      "commit": "c51e3441361407b68f10b339d97eff288319b503",
+      "retrievedAt": "2026-10-26",
+      "observedPeriod": null,
+      "rightsNote": "Report extract; CSV does not carry its statistical period. No synthesized date.",
+      "observedAt": null,
+      "scope": {
+        "zh": "X-lab2017 / GOSD 模型影响力摘录；CSV 未携带统计期，保留未知。",
+        "en": "X-lab2017 / GOSD model-influence extract. The CSV does not specify its statistical period."
+      }
+    },
+    {
+      "id": "hf:Qwen/Qwen3-0.6B",
+      "name": "Hugging Face public models metadata",
+      "url": "https://huggingface.co/api/models/Qwen/Qwen3-0.6B",
+      "revision": "c1899de289a04d12100db370d81485cdf75e47ca",
+      "retrievedAt": "2026-10-26T03:51:08.734420+00:00",
+      "lastModified": "2025-07-26T03:46:27.000Z",
+      "responseSha256": "2d8cc1da3f5b10594e101cc012305f31530a56d0c3124c42cc4d0e1355260617",
+      "observedPeriod": null,
+      "rightsNote": "Public factual metadata; publisher-declared license field is not an independent legal or openness audit. No dataset contents or model weights copied.",
+      "observedAt": null,
+      "scope": {
+        "zh": "Hugging Face 公开元数据；revision 与声明许可保留。下载窗口未在响应中声明；未复制模型权重或数据内容。",
+        "en": "Public Hugging Face metadata with revision and declared license. The response does not state a download window. No weights or dataset contents copied."
+      }
+    },
+    {
+      "id": "hf:Qwen/Qwen3-8B",
+      "name": "Hugging Face public models metadata",
+      "url": "https://huggingface.co/api/models/Qwen/Qwen3-8B",
+      "revision": "b968826d9c46dd6066d109eabc6255188de91218",
+      "retrievedAt": "2026-10-26T03:51:08.746350+00:00",
+      "lastModified": "2025-07-26T03:49:13.000Z",
+      "responseSha256": "3c7eb800b2b83c1022c0e05126a9c374a3ba11b44a3867d42868c90b180b85cc",
+      "observedPeriod": null,
+      "rightsNote": "Public factual metadata; publisher-declared license field is not an independent legal or openness audit. No dataset contents or model weights copied.",
+      "observedAt": null,
+      "scope": {
+        "zh": "Hugging Face 公开元数据；revision 与声明许可保留。下载窗口未在响应中声明；未复制模型权重或数据内容。",
+        "en": "Public Hugging Face metadata with revision and declared license. The response does not state a download window. No weights or dataset contents copied."
+      }
+    },
+    {
+      "id": "hf:unsloth/Qwen3-Coder-30B-A3B-Instruct-GGUF",
+      "name": "Hugging Face public models metadata",
+      "url": "https://huggingface.co/api/models/unsloth/Qwen3-Coder-30B-A3B-Instruct-GGUF",
+      "revision": "b17cb02dd882d5b6ab62fc777ad2995f19668350",
+      "retrievedAt": "2026-10-26T03:51:08.766598+00:00",
+      "lastModified": "2026-01-30T06:29:38.000Z",
+      "responseSha256": "32ba4ad100174a4c6b1ad817d5c16dea5dc7340c50c8740093325f589973f9ee",
+      "observedPeriod": null,
+      "rightsNote": "Public factual metadata; publisher-declared license field is not an independent legal or openness audit. No dataset contents or model weights copied.",
+      "observedAt": null,
+      "scope": {
+        "zh": "Hugging Face 公开元数据；revision 与声明许可保留。下载窗口未在响应中声明；未复制模型权重或数据内容。",
+        "en": "Public Hugging Face metadata with revision and declared license. The response does not state a download window. No weights or dataset contents copied."
+      }
+    },
+    {
+      "id": "hf:Qwen/Qwen3-VL-8B-Instruct",
+      "name": "Hugging Face public models metadata",
+      "url": "https://huggingface.co/api/models/Qwen/Qwen3-VL-8B-Instruct",
+      "revision": "0c351dd01ed87e9c1b53cbc748cba10e6187ff3b",
+      "retrievedAt": "2026-10-26T03:51:08.758816+00:00",
+      "lastModified": "2025-10-15T16:16:59.000Z",
+      "responseSha256": "5c1af2b35d5a370cd03f076e2f3712fe6f72737cf5e4ca184a705ddfafa6c519",
+      "observedPeriod": null,
+      "rightsNote": "Public factual metadata; publisher-declared license field is not an independent legal or openness audit. No dataset contents or model weights copied.",
+      "observedAt": null,
+      "scope": {
+        "zh": "Hugging Face 公开元数据；revision 与声明许可保留。下载窗口未在响应中声明；未复制模型权重或数据内容。",
+        "en": "Public Hugging Face metadata with revision and declared license. The response does not state a download window. No weights or dataset contents copied."
+      }
+    },
+    {
+      "id": "hf:Qwen/Qwen3.5-9B",
+      "name": "Hugging Face public models metadata",
+      "url": "https://huggingface.co/api/models/Qwen/Qwen3.5-9B",
+      "revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "retrievedAt": "2026-10-26T03:51:08.767324+00:00",
+      "lastModified": "2026-03-02T00:51:43.000Z",
+      "responseSha256": "bc20efb021af5eddd8dc0f16b1358fbcdf216ef9dd97f0f025ba6337bd92a16e",
+      "observedPeriod": null,
+      "rightsNote": "Public factual metadata; publisher-declared license field is not an independent legal or openness audit. No dataset contents or model weights copied.",
+      "observedAt": null,
+      "scope": {
+        "zh": "Hugging Face 公开元数据；revision 与声明许可保留。下载窗口未在响应中声明；未复制模型权重或数据内容。",
+        "en": "Public Hugging Face metadata with revision and declared license. The response does not state a download window. No weights or dataset contents copied."
+      }
+    },
+    {
+      "id": "hf:sentence-transformers/all-MiniLM-L6-v2",
+      "name": "Hugging Face public models metadata",
+      "url": "https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2",
+      "revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+      "retrievedAt": "2026-10-26T03:51:08.732571+00:00",
+      "lastModified": "2026-06-01T06:29:13.000Z",
+      "responseSha256": "af914ce28328829a703189874d2badc46ff725fa5a96c51512ad7ba6ef39b919",
+      "observedPeriod": null,
+      "rightsNote": "Public factual metadata; publisher-declared license field is not an independent legal or openness audit. No dataset contents or model weights copied.",
+      "observedAt": null,
+      "scope": {
+        "zh": "Hugging Face 公开元数据；revision 与声明许可保留。下载窗口未在响应中声明；未复制模型权重或数据内容。",
+        "en": "Public Hugging Face metadata with revision and declared license. The response does not state a download window. No weights or dataset contents copied."
+      }
+    },
+    {
+      "id": "hf:BAAI/bge-m3",
+      "name": "Hugging Face public models metadata",
+      "url": "https://huggingface.co/api/models/BAAI/bge-m3",
+      "revision": "5617a9f61b028005a4858fdac845db406aefb181",
+      "retrievedAt": "2026-10-26T03:51:14.558198+00:00",
+      "lastModified": "2024-07-03T14:50:10.000Z",
+      "responseSha256": "e887aebda34e4737197613e1ed291d2dd7b503be560d02b94aa6a4f95b06613a",
+      "observedPeriod": null,
+      "rightsNote": "Public factual metadata; publisher-declared license field is not an independent legal or openness audit. No dataset contents or model weights copied.",
+      "observedAt": null,
+      "scope": {
+        "zh": "Hugging Face 公开元数据；revision 与声明许可保留。下载窗口未在响应中声明；未复制模型权重或数据内容。",
+        "en": "Public Hugging Face metadata with revision and declared license. The response does not state a download window. No weights or dataset contents copied."
+      }
+    },
+    {
+      "id": "hf:openai/clip-vit-base-patch32",
+      "name": "Hugging Face public models metadata",
+      "url": "https://huggingface.co/api/models/openai/clip-vit-base-patch32",
+      "revision": "3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268",
+      "retrievedAt": "2026-10-26T03:51:14.555923+00:00",
+      "lastModified": "2024-02-29T09:45:55.000Z",
+      "responseSha256": "7a71cb87e559aed45777cfdcedebae149ba8263032f4e79e78a1d4380f1d2c14",
+      "observedPeriod": null,
+      "rightsNote": "Public factual metadata; publisher-declared license field is not an independent legal or openness audit. No dataset contents or model weights copied.",
+      "observedAt": null,
+      "scope": {
+        "zh": "Hugging Face 公开元数据；revision 与声明许可保留。下载窗口未在响应中声明；未复制模型权重或数据内容。",
+        "en": "Public Hugging Face metadata with revision and declared license. The response does not state a download window. No weights or dataset contents copied."
+      }
+    },
+    {
+      "id": "hf:hexgrad/Kokoro-82M",
+      "name": "Hugging Face public models metadata",
+      "url": "https://huggingface.co/api/models/hexgrad/Kokoro-82M",
+      "revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+      "retrievedAt": "2026-10-26T03:51:14.509309+00:00",
+      "lastModified": "2025-04-10T18:12:48.000Z",
+      "responseSha256": "4c6960aa5f6358059f8ae60d28e73120d177318ed90174ece050a5343b34026e",
+      "observedPeriod": null,
+      "rightsNote": "Public factual metadata; publisher-declared license field is not an independent legal or openness audit. No dataset contents or model weights copied.",
+      "observedAt": null,
+      "scope": {
+        "zh": "Hugging Face 公开元数据；revision 与声明许可保留。下载窗口未在响应中声明；未复制模型权重或数据内容。",
+        "en": "Public Hugging Face metadata with revision and declared license. The response does not state a download window. No weights or dataset contents copied."
+      }
+    },
+    {
+      "id": "hf:openai/whisper-large-v3-turbo",
+      "name": "Hugging Face public models metadata",
+      "url": "https://huggingface.co/api/models/openai/whisper-large-v3-turbo",
+      "revision": "41f01f3fe87f28c78e2fbf8b568835947dd65ed9",
+      "retrievedAt": "2026-10-26T03:51:14.555093+00:00",
+      "lastModified": "2024-10-04T14:51:11.000Z",
+      "responseSha256": "8ad54e5c2971a4436b4192f5dd89a856bdd2f2d5855de06310b4da085b5df02e",
+      "observedPeriod": null,
+      "rightsNote": "Public factual metadata; publisher-declared license field is not an independent legal or openness audit. No dataset contents or model weights copied.",
+      "observedAt": null,
+      "scope": {
+        "zh": "Hugging Face 公开元数据；revision 与声明许可保留。下载窗口未在响应中声明；未复制模型权重或数据内容。",
+        "en": "Public Hugging Face metadata with revision and declared license. The response does not state a download window. No weights or dataset contents copied."
+      }
+    },
+    {
+      "id": "hf:openvla/openvla-7b",
+      "name": "Hugging Face public models metadata",
+      "url": "https://huggingface.co/api/models/openvla/openvla-7b",
+      "revision": "47a0ec7fc4ec123775a391911046cf33cf9ed83f",
+      "retrievedAt": "2026-10-26T03:51:14.554283+00:00",
+      "lastModified": "2026-02-17T03:43:23.000Z",
+      "responseSha256": "89f798f979a208dc37991dd452c98a84ffb3113bb4f6b2fe14e6f1160b4cf973",
+      "observedPeriod": null,
+      "rightsNote": "Public factual metadata; publisher-declared license field is not an independent legal or openness audit. No dataset contents or model weights copied.",
+      "observedAt": null,
+      "scope": {
+        "zh": "Hugging Face 公开元数据；revision 与声明许可保留。下载窗口未在响应中声明；未复制模型权重或数据内容。",
+        "en": "Public Hugging Face metadata with revision and declared license. The response does not state a download window. No weights or dataset contents copied."
+      }
+    },
+    {
+      "id": "hf:lerobot/smolvla_base",
+      "name": "Hugging Face public models metadata",
+      "url": "https://huggingface.co/api/models/lerobot/smolvla_base",
+      "revision": "5e8d12a6e2975b0e5e5fce7c8caf47c371d257b6",
+      "retrievedAt": "2026-10-26T03:51:14.553563+00:00",
+      "lastModified": "2026-10-06T13:57:08.000Z",
+      "responseSha256": "b725912b15a01dc8aa6eaf57691179230e709b1a7d54f00b9fef16a803c594f6",
+      "observedPeriod": null,
+      "rightsNote": "Public factual metadata; publisher-declared license field is not an independent legal or openness audit. No dataset contents or model weights copied.",
+      "observedAt": null,
+      "scope": {
+        "zh": "Hugging Face 公开元数据；revision 与声明许可保留。下载窗口未在响应中声明；未复制模型权重或数据内容。",
+        "en": "Public Hugging Face metadata with revision and declared license. The response does not state a download window. No weights or dataset contents copied."
+      }
+    },
+    {
+      "id": "hf:SWE-bench/SWE-bench_Verified",
+      "name": "Hugging Face public datasets metadata",
+      "url": "https://huggingface.co/api/datasets/SWE-bench/SWE-bench_Verified",
+      "revision": "78f471bf655a3137b2e8a75af1501690ec009ec3",
+      "retrievedAt": "2026-10-26T03:51:19.666142+00:00",
+      "lastModified": "2026-08-16T04:23:43.000Z",
+      "responseSha256": "22286c8b8315e6511fdf57f03f652fc003ad5bc1e089a50ea62e7dca56cbea61",
+      "observedPeriod": null,
+      "rightsNote": "Public factual metadata; publisher-declared license field is not an independent legal or openness audit. No dataset contents or model weights copied.",
+      "observedAt": null,
+      "scope": {
+        "zh": "Hugging Face 公开元数据；revision 与声明许可保留。下载窗口未在响应中声明；未复制模型权重或数据内容。",
+        "en": "Public Hugging Face metadata with revision and declared license. The response does not state a download window. No weights or dataset contents copied."
+      }
+    },
+    {
+      "id": "hf:HuggingFaceFW/fineweb",
+      "name": "Hugging Face public datasets metadata",
+      "url": "https://huggingface.co/api/datasets/HuggingFaceFW/fineweb",
+      "revision": "9bb295ddab0e05d785b879661af7260fed5140fc",
+      "retrievedAt": "2026-10-26T03:51:19.601517+00:00",
+      "lastModified": "2025-07-11T20:16:53.000Z",
+      "responseSha256": "0e5a06e61c0aa2de70f5ff59d27417ef1fea6f03f01821aaa69d835f52903af8",
+      "observedPeriod": null,
+      "rightsNote": "Public factual metadata; publisher-declared license field is not an independent legal or openness audit. No dataset contents or model weights copied.",
+      "observedAt": null,
+      "scope": {
+        "zh": "Hugging Face 公开元数据；revision 与声明许可保留。下载窗口未在响应中声明；未复制模型权重或数据内容。",
+        "en": "Public Hugging Face metadata with revision and declared license. The response does not state a download window. No weights or dataset contents copied."
+      }
+    },
+    {
+      "id": "hf:allenai/c4",
+      "name": "Hugging Face public datasets metadata",
+      "url": "https://huggingface.co/api/datasets/allenai/c4",
+      "revision": "1588ec454efa1a09f29cd18ddd04fe05fc8653a2",
+      "retrievedAt": "2026-10-26T03:51:19.772094+00:00",
+      "lastModified": "2024-01-09T19:14:03.000Z",
+      "responseSha256": "855493937f697ea6243d5a0707e24718cc81243b36f431f68cc65f02d2a43ac9",
+      "observedPeriod": null,
+      "rightsNote": "Public factual metadata; publisher-declared license field is not an independent legal or openness audit. No dataset contents or model weights copied.",
+      "observedAt": null,
+      "scope": {
+        "zh": "Hugging Face 公开元数据；revision 与声明许可保留。下载窗口未在响应中声明；未复制模型权重或数据内容。",
+        "en": "Public Hugging Face metadata with revision and declared license. The response does not state a download window. No weights or dataset contents copied."
+      }
+    },
+    {
+      "id": "hf:sentence-transformers/all-nli",
+      "name": "Hugging Face public datasets metadata",
+      "url": "https://huggingface.co/api/datasets/sentence-transformers/all-nli",
+      "revision": "d482672c8e74ce18da116f430137434ba2e52fab",
+      "retrievedAt": "2026-10-26T03:51:19.667833+00:00",
+      "lastModified": "2024-05-15T11:22:30.000Z",
+      "responseSha256": "8efd57a4b7fe6b416c4a0c0eea111a0265889b440fa38e8a5afc802091807d2f",
+      "observedPeriod": null,
+      "rightsNote": "Public factual metadata; publisher-declared license field is not an independent legal or openness audit. No dataset contents or model weights copied.",
+      "observedAt": null,
+      "scope": {
+        "zh": "Hugging Face 公开元数据；revision 与声明许可保留。下载窗口未在响应中声明；未复制模型权重或数据内容。",
+        "en": "Public Hugging Face metadata with revision and declared license. The response does not state a download window. No weights or dataset contents copied."
+      }
+    },
+    {
+      "id": "hf:OpenAssistant/oasst1",
+      "name": "Hugging Face public datasets metadata",
+      "url": "https://huggingface.co/api/datasets/OpenAssistant/oasst1",
+      "revision": "fdf72ae0827c1cda404aff25b6603abec9e3399b",
+      "retrievedAt": "2026-10-26T03:51:19.469573+00:00",
+      "lastModified": "2023-05-02T13:21:21.000Z",
+      "responseSha256": "1ee23bb94ce4c23ad9c5d1269e1df251fd34e06e2bfd70e592f71e2561a27be2",
+      "observedPeriod": null,
+      "rightsNote": "Public factual metadata; publisher-declared license field is not an independent legal or openness audit. No dataset contents or model weights copied.",
+      "observedAt": null,
+      "scope": {
+        "zh": "Hugging Face 公开元数据；revision 与声明许可保留。下载窗口未在响应中声明；未复制模型权重或数据内容。",
+        "en": "Public Hugging Face metadata with revision and declared license. The response does not state a download window. No weights or dataset contents copied."
+      }
+    },
+    {
+      "id": "hf:allenai/ai2_arc",
+      "name": "Hugging Face public datasets metadata",
+      "url": "https://huggingface.co/api/datasets/allenai/ai2_arc",
+      "revision": "210d026faf9955653af8916fad021475a3f00453",
+      "retrievedAt": "2026-10-26T03:51:57.566694+00:00",
+      "lastModified": "2023-12-21T15:09:48.000Z",
+      "responseSha256": "257adbe1aa14bee31c6e9b4b9466722c607ad084965d8def3660d3cbd0022043",
+      "observedPeriod": null,
+      "rightsNote": "Public factual metadata; publisher-declared license field is not an independent legal or openness audit. No dataset contents or model weights copied.",
+      "observedAt": null,
+      "scope": {
+        "zh": "Hugging Face 公开元数据；revision 与声明许可保留。下载窗口未在响应中声明；未复制模型权重或数据内容。",
+        "en": "Public Hugging Face metadata with revision and declared license. The response does not state a download window. No weights or dataset contents copied."
+      }
+    }
+  ],
+  "entities": [
+    {
+      "id": "github:965415649",
+      "kind": "software",
+      "name": "Codex",
+      "short": "Codex",
+      "owner": "openai",
+      "category": 0,
+      "scenarios": [
+        "coding"
+      ],
+      "description": {
+        "zh": "终端中的编码 Agent，从可回滚的小任务开始。",
+        "en": "A terminal coding agent. Start with a small, reversible task."
+      },
+      "url": "https://github.com/openai/codex",
+      "version": null,
+      "license": "Apache-2.0",
+      "tags": [
+        {
+          "zh": "终端编码 Agent",
+          "en": "Terminal coding agent"
+        }
+      ],
+      "sourceIds": [
+        "landscape"
+      ],
+      "metrics": [
+        {
+          "id": "openrank",
+          "value": 80.64,
+          "unit": {
+            "zh": "分",
+            "en": "score"
+          },
+          "period": "2026-08",
+          "sourceId": "landscape",
+          "scope": null,
+          "status": "observed",
+          "label": {
+            "zh": "OpenRank",
+            "en": "OpenRank"
+          },
+          "series": [
+            {
+              "period": "2025-09",
+              "value": 423.95
+            },
+            {
+              "period": "2025-10",
+              "value": 391.38
+            },
+            {
+              "period": "2025-11",
+              "value": 407.9
+            },
+            {
+              "period": "2025-12",
+              "value": 373.89
+            },
+            {
+              "period": "2026-01",
+              "value": 365.47
+            },
+            {
+              "period": "2026-02",
+              "value": 468.81
+            },
+            {
+              "period": "2026-03",
+              "value": 479.16
+            },
+            {
+              "period": "2026-04",
+              "value": 469.03
+            },
+            {
+              "period": "2026-05",
+              "value": 457.04
+            },
+            {
+              "period": "2026-06",
+              "value": 334.43
+            },
+            {
+              "period": "2026-07",
+              "value": 175.4
+            },
+            {
+              "period": "2026-08",
+              "value": 80.64
+            }
+          ]
+        },
+        {
+          "id": "participants",
+          "value": 122,
+          "unit": {
+            "zh": "人",
+            "en": "people"
+          },
+          "period": "2026-07",
+          "sourceId": "landscape",
+          "scope": null,
+          "status": "observed",
+          "label": {
+            "zh": "参与者",
+            "en": "Participants"
+          }
+        },
+        {
+          "id": "stars",
+          "value": 126313,
+          "unit": {
+            "zh": "个",
+            "en": "stars"
+          },
+          "period": null,
+          "sourceId": "landscape",
+          "scope": "Pinned CSV metadata; observation date not declared",
+          "status": "observed",
+          "label": {
+            "zh": "Stars",
+            "en": "Stars"
+          }
+        }
+      ],
+      "upstream": {
+        "platform": "GitHub",
+        "id": "965415649",
+        "slug": "openai/codex",
+        "sourceClassification": {
+          "layer": "Agent Infra",
+          "section": "Agentic coding",
+          "action": "keep"
+        },
+        "pinnedCardUrl": null,
+        "versionNote": "Metrics describe a repository at independent source windows, not a tested software release.",
+        "descriptionStatus": "ai-assisted organization, not tested performance"
+      }
+    },
+    {
+      "id": "github:968197216",
+      "kind": "software",
+      "name": "Gemini CLI",
+      "short": "Gemini CLI",
+      "owner": "google-gemini",
+      "category": 0,
+      "scenarios": [
+        "coding"
+      ],
+      "description": {
+        "zh": "把终端编码、工具调用与现有工作流连接起来。",
+        "en": "Connect terminal coding and tool use to your existing workflow."
+      },
+      "url": "https://github.com/google-gemini/gemini-cli",
+      "version": null,
+      "license": "Apache-2.0",
+      "tags": [
+        {
+          "zh": "终端中的编码与工具协作",
+          "en": "Terminal coding and tool workflows"
+        }
+      ],
+      "sourceIds": [
+        "landscape"
+      ],
+      "metrics": [
+        {
+          "id": "openrank",
+          "value": 27.16,
+          "unit": {
+            "zh": "分",
+            "en": "score"
+          },
+          "period": "2026-08",
+          "sourceId": "landscape",
+          "scope": null,
+          "status": "observed",
+          "label": {
+            "zh": "OpenRank",
+            "en": "OpenRank"
+          },
+          "series": [
+            {
+              "period": "2025-09",
+              "value": 498.43
+            },
+            {
+              "period": "2025-10",
+              "value": 444.22
+            },
+            {
+              "period": "2025-11",
+              "value": 421.48
+            },
+            {
+              "period": "2025-12",
+              "value": 370.75
+            },
+            {
+              "period": "2026-01",
+              "value": 371.57
+            },
+            {
+              "period": "2026-02",
+              "value": 385.74
+            },
+            {
+              "period": "2026-03",
+              "value": 428.49
+            },
+            {
+              "period": "2026-04",
+              "value": 344.39
+            },
+            {
+              "period": "2026-05",
+              "value": 232.46
+            },
+            {
+              "period": "2026-06",
+              "value": 84.58
+            },
+            {
+              "period": "2026-07",
+              "value": 35.41
+            },
+            {
+              "period": "2026-08",
+              "value": 27.16
+            }
+          ]
+        },
+        {
+          "id": "participants",
+          "value": 11,
+          "unit": {
+            "zh": "人",
+            "en": "people"
+          },
+          "period": "2026-07",
+          "sourceId": "landscape",
+          "scope": null,
+          "status": "observed",
+          "label": {
+            "zh": "参与者",
+            "en": "Participants"
+          }
+        },
+        {
+          "id": "stars",
+          "value": 107145,
+          "unit": {
+            "zh": "个",
+            "en": "stars"
+          },
+          "period": null,
+          "sourceId": "landscape",
+          "scope": "Pinned CSV metadata; observation date not declared",
+          "status": "observed",
+          "label": {
+            "zh": "Stars",
+            "en": "Stars"
+          }
+        }
+      ],
+      "upstream": {
+        "platform": "GitHub",
+        "id": "968197216",
+        "slug": "google-gemini/gemini-cli",
+        "sourceClassification": {
+          "layer": "Agent Infra",
+          "section": "Agentic coding",
+          "action": "keep"
+        },
+        "pinnedCardUrl": null,
+        "versionNote": "Metrics describe a repository at independent source windows, not a tested software release.",
+        "descriptionStatus": "ai-assisted organization, not tested performance"
+      }
+    },
+    {
+      "id": "github:626805178",
+      "kind": "software",
+      "name": "Dify",
+      "short": "Dify",
+      "owner": "langgenius",
+      "category": 0,
+      "scenarios": [
+        "research"
+      ],
+      "description": {
+        "zh": "用可视化工作流组织 AI 应用、检索与工具。",
+        "en": "Organize AI applications, retrieval and tools in visual workflows."
+      },
+      "url": "https://github.com/langgenius/dify",
+      "version": null,
+      "license": null,
+      "tags": [
+        {
+          "zh": "可视化 AI 应用与工作流",
+          "en": "Visual AI applications and workflows"
+        }
+      ],
+      "sourceIds": [
+        "landscape"
+      ],
+      "metrics": [
+        {
+          "id": "openrank",
+          "value": 49.17,
+          "unit": {
+            "zh": "分",
+            "en": "score"
+          },
+          "period": "2026-08",
+          "sourceId": "landscape",
+          "scope": null,
+          "status": "observed",
+          "label": {
+            "zh": "OpenRank",
+            "en": "OpenRank"
+          },
+          "series": [
+            {
+              "period": "2025-09",
+              "value": 385.95
+            },
+            {
+              "period": "2025-10",
+              "value": 326.28
+            },
+            {
+              "period": "2025-11",
+              "value": 286.14
+            },
+            {
+              "period": "2025-12",
+              "value": 287.31
+            },
+            {
+              "period": "2026-01",
+              "value": 266.36
+            },
+            {
+              "period": "2026-02",
+              "value": 217.58
+            },
+            {
+              "period": "2026-03",
+              "value": 197.49
+            },
+            {
+              "period": "2026-04",
+              "value": 145.19
+            },
+            {
+              "period": "2026-05",
+              "value": 104.87
+            },
+            {
+              "period": "2026-06",
+              "value": 77.64
+            },
+            {
+              "period": "2026-07",
+              "value": 53.65
+            },
+            {
+              "period": "2026-08",
+              "value": 49.17
+            }
+          ]
+        },
+        {
+          "id": "participants",
+          "value": 39,
+          "unit": {
+            "zh": "人",
+            "en": "people"
+          },
+          "period": "2026-07",
+          "sourceId": "landscape",
+          "scope": null,
+          "status": "observed",
+          "label": {
+            "zh": "参与者",
+            "en": "Participants"
+          }
+        },
+        {
+          "id": "stars",
+          "value": 157081,
+          "unit": {
+            "zh": "个",
+            "en": "stars"
+          },
+          "period": null,
+          "sourceId": "landscape",
+          "scope": "Pinned CSV metadata; observation date not declared",
+          "status": "observed",
+          "label": {
+            "zh": "Stars",
+            "en": "Stars"
+          }
+        }
+      ],
+      "upstream": {
+        "platform": "GitHub",
+        "id": "626805178",
+        "slug": "langgenius/dify",
+        "sourceClassification": {
+          "layer": "Agent Infra",
+          "section": "Workflow & agent builders",
+          "action": "keep"
+        },
+        "pinnedCardUrl": null,
+        "versionNote": "Metrics describe a repository at independent source windows, not a tested software release.",
+        "descriptionStatus": "ai-assisted organization, not tested performance"
+      }
+    },
+    {
+      "id": "github:552661142",
+      "kind": "software",
+      "name": "LangChain",
+      "short": "LangChain",
+      "owner": "langchain-ai",
+      "category": 1,
+      "scenarios": [
+        "research",
+        "coding"
+      ],
+      "description": {
+        "zh": "把模型、检索与工具组合为应用流程。",
+        "en": "Compose models, retrieval and tools into application workflows."
+      },
+      "url": "https://github.com/langchain-ai/langchain",
+      "version": null,
+      "license": "MIT",
+      "tags": [
+        {
+          "zh": "LLM 应用与工具编排框架",
+          "en": "Framework for LLM applications and tool orchestration"
+        }
+      ],
+      "sourceIds": [
+        "landscape"
+      ],
+      "metrics": [
+        {
+          "id": "openrank",
+          "value": 28.64,
+          "unit": {
+            "zh": "分",
+            "en": "score"
+          },
+          "period": "2026-08",
+          "sourceId": "landscape",
+          "scope": null,
+          "status": "observed",
+          "label": {
+            "zh": "OpenRank",
+            "en": "OpenRank"
+          },
+          "series": [
+            {
+              "period": "2025-09",
+              "value": 119.76
+            },
+            {
+              "period": "2025-10",
+              "value": 116.67
+            },
+            {
+              "period": "2025-11",
+              "value": 108.12
+            },
+            {
+              "period": "2025-12",
+              "value": 107.42
+            },
+            {
+              "period": "2026-01",
+              "value": 95.83
+            },
+            {
+              "period": "2026-02",
+              "value": 87.21
+            },
+            {
+              "period": "2026-03",
+              "value": 77.74
+            },
+            {
+              "period": "2026-04",
+              "value": 67.66
+            },
+            {
+              "period": "2026-05",
+              "value": 51.07
+            },
+            {
+              "period": "2026-06",
+              "value": 36.48
+            },
+            {
+              "period": "2026-07",
+              "value": 27.87
+            },
+            {
+              "period": "2026-08",
+              "value": 28.64
+            }
+          ]
+        },
+        {
+          "id": "participants",
+          "value": 16,
+          "unit": {
+            "zh": "人",
+            "en": "people"
+          },
+          "period": "2026-07",
+          "sourceId": "landscape",
+          "scope": null,
+          "status": "observed",
+          "label": {
+            "zh": "参与者",
+            "en": "Participants"
+          }
+        },
+        {
+          "id": "stars",
+          "value": 146992,
+          "unit": {
+            "zh": "个",
+            "en": "stars"
+          },
+          "period": null,
+          "sourceId": "landscape",
+          "scope": "Pinned CSV metadata; observation date not declared",
+          "status": "observed",
+          "label": {
+            "zh": "Stars",
+            "en": "Stars"
+          }
+        }
+      ],
+      "upstream": {
+        "platform": "GitHub",
+        "id": "552661142",
+        "slug": "langchain-ai/langchain",
+        "sourceClassification": {
+          "layer": "Agent Infra",
+          "section": "Code-first frameworks",
+          "action": "keep"
+        },
+        "pinnedCardUrl": null,
+        "versionNote": "Metrics describe a repository at independent source windows, not a tested software release.",
+        "descriptionStatus": "ai-assisted organization, not tested performance"
+      }
+    },
+    {
+      "id": "github:818331198",
+      "kind": "software",
+      "name": "Pydantic AI",
+      "short": "Pydantic AI",
+      "owner": "pydantic",
+      "category": 1,
+      "scenarios": [
+        "coding",
+        "research"
+      ],
+      "description": {
+        "zh": "围绕类型、结构化输出和可测试接口构建 Agent。",
+        "en": "Build agents around types, structured output and testable interfaces."
+      },
+      "url": "https://github.com/pydantic/pydantic-ai",
+      "version": null,
+      "license": "MIT",
+      "tags": [
+        {
+          "zh": "围绕类型与结构化输出构建 Agent",
+          "en": "Build agents around types and structured output"
+        }
+      ],
+      "sourceIds": [
+        "landscape"
+      ],
+      "metrics": [
+        {
+          "id": "openrank",
+          "value": 27.02,
+          "unit": {
+            "zh": "分",
+            "en": "score"
+          },
+          "period": "2026-08",
+          "sourceId": "landscape",
+          "scope": null,
+          "status": "observed",
+          "label": {
+            "zh": "OpenRank",
+            "en": "OpenRank"
+          },
+          "series": [
+            {
+              "period": "2025-09",
+              "value": 130.54
+            },
+            {
+              "period": "2025-10",
+              "value": 111.76
+            },
+            {
+              "period": "2025-11",
+              "value": 122.48
+            },
+            {
+              "period": "2025-12",
+              "value": 133.4
+            },
+            {
+              "period": "2026-01",
+              "value": 103.31
+            },
+            {
+              "period": "2026-02",
+              "value": 94.02
+            },
+            {
+              "period": "2026-03",
+              "value": 88.66
+            },
+            {
+              "period": "2026-04",
+              "value": 81.01
+            },
+            {
+              "period": "2026-05",
+              "value": 60.08
+            },
+            {
+              "period": "2026-06",
+              "value": 40.6
+            },
+            {
+              "period": "2026-07",
+              "value": 35.72
+            },
+            {
+              "period": "2026-08",
+              "value": 27.02
+            }
+          ]
+        },
+        {
+          "id": "participants",
+          "value": 23,
+          "unit": {
+            "zh": "人",
+            "en": "people"
+          },
+          "period": "2026-07",
+          "sourceId": "landscape",
+          "scope": null,
+          "status": "observed",
+          "label": {
+            "zh": "参与者",
+            "en": "Participants"
+          }
+        },
+        {
+          "id": "stars",
+          "value": 20146,
+          "unit": {
+            "zh": "个",
+            "en": "stars"
+          },
+          "period": null,
+          "sourceId": "landscape",
+          "scope": "Pinned CSV metadata; observation date not declared",
+          "status": "observed",
+          "label": {
+            "zh": "Stars",
+            "en": "Stars"
+          }
+        }
+      ],
+      "upstream": {
+        "platform": "GitHub",
+        "id": "818331198",
+        "slug": "pydantic/pydantic-ai",
+        "sourceClassification": {
+          "layer": "Agent Infra",
+          "section": "Code-first frameworks",
+          "action": "keep"
+        },
+        "pinnedCardUrl": null,
+        "versionNote": "Metrics describe a repository at independent source windows, not a tested software release.",
+        "descriptionStatus": "ai-assisted organization, not tested performance"
+      }
+    },
+    {
+      "id": "github:958830659",
+      "kind": "software",
+      "name": "Google ADK",
+      "short": "Google ADK",
+      "owner": "google",
+      "category": 1,
+      "scenarios": [
+        "research",
+        "coding"
+      ],
+      "description": {
+        "zh": "围绕 Python 工具与 Agent 编排建立原型。",
+        "en": "Prototype Python tools and agent orchestration."
+      },
+      "url": "https://github.com/google/adk-python",
+      "version": null,
+      "license": "Apache-2.0",
+      "tags": [
+        {
+          "zh": "Python Agent 开发工具包",
+          "en": "Python agent development kit"
+        }
+      ],
+      "sourceIds": [
+        "landscape"
+      ],
+      "metrics": [
+        {
+          "id": "openrank",
+          "value": 16.1,
+          "unit": {
+            "zh": "分",
+            "en": "score"
+          },
+          "period": "2026-08",
+          "sourceId": "landscape",
+          "scope": null,
+          "status": "observed",
+          "label": {
+            "zh": "OpenRank",
+            "en": "OpenRank"
+          },
+          "series": [
+            {
+              "period": "2025-09",
+              "value": 96.93
+            },
+            {
+              "period": "2025-10",
+              "value": 90.7
+            },
+            {
+              "period": "2025-11",
+              "value": 103.47
+            },
+            {
+              "period": "2025-12",
+              "value": 94.9
+            },
+            {
+              "period": "2026-01",
+              "value": 81.61
+            },
+            {
+              "period": "2026-02",
+              "value": 68.83
+            },
+            {
+              "period": "2026-03",
+              "value": 55.68
+            },
+            {
+              "period": "2026-04",
+              "value": 51.79
+            },
+            {
+              "period": "2026-05",
+              "value": 35.96
+            },
+            {
+              "period": "2026-06",
+              "value": 24.77
+            },
+            {
+              "period": "2026-07",
+              "value": 11.68
+            },
+            {
+              "period": "2026-08",
+              "value": 16.1
+            }
+          ]
+        },
+        {
+          "id": "participants",
+          "value": 17,
+          "unit": {
+            "zh": "人",
+            "en": "people"
+          },
+          "period": "2026-07",
+          "sourceId": "landscape",
+          "scope": null,
+          "status": "observed",
+          "label": {
+            "zh": "参与者",
+            "en": "Participants"
+          }
+        },
+        {
+          "id": "stars",
+          "value": 21626,
+          "unit": {
+            "zh": "个",
+            "en": "stars"
+          },
+          "period": null,
+          "sourceId": "landscape",
+          "scope": "Pinned CSV metadata; observation date not declared",
+          "status": "observed",
+          "label": {
+            "zh": "Stars",
+            "en": "Stars"
+          }
+        }
+      ],
+      "upstream": {
+        "platform": "GitHub",
+        "id": "958830659",
+        "slug": "google/adk-python",
+        "sourceClassification": {
+          "layer": "Agent Infra",
+          "section": "Code-first frameworks",
+          "action": "keep"
+        },
+        "pinnedCardUrl": null,
+        "versionNote": "Metrics describe a repository at independent source windows, not a tested software release.",
+        "descriptionStatus": "ai-assisted organization, not tested performance"
+      }
+    },
+    {
+      "id": "github:890668799",
+      "kind": "software",
+      "name": "MCP Servers",
+      "short": "MCP Servers",
+      "owner": "modelcontextprotocol",
+      "category": 2,
+      "scenarios": [
+        "coding",
+        "research"
+      ],
+      "description": {
+        "zh": "探索工具和数据连接，先核验权限与来源。",
+        "en": "Explore tool and data connections, starting with permissions and provenance."
+      },
+      "url": "https://github.com/modelcontextprotocol/servers",
+      "version": null,
+      "license": null,
+      "tags": [
+        {
+          "zh": "MCP 工具与数据连接示例",
+          "en": "Reference MCP tool and data connections"
+        }
+      ],
+      "sourceIds": [
+        "landscape"
+      ],
+      "metrics": [
+        {
+          "id": "openrank",
+          "value": 6.11,
+          "unit": {
+            "zh": "分",
+            "en": "score"
+          },
+          "period": "2026-08",
+          "sourceId": "landscape",
+          "scope": null,
+          "status": "observed",
+          "label": {
+            "zh": "OpenRank",
+            "en": "OpenRank"
+          },
+          "series": [
+            {
+              "period": "2025-09",
+              "value": 48.42
+            },
+            {
+              "period": "2025-10",
+              "value": 34.35
+            },
+            {
+              "period": "2025-11",
+              "value": 30.6
+            },
+            {
+              "period": "2025-12",
+              "value": 19.34
+            },
+            {
+              "period": "2026-01",
+              "value": 16.12
+            },
+            {
+              "period": "2026-02",
+              "value": 14.73
+            },
+            {
+              "period": "2026-03",
+              "value": 17.78
+            },
+            {
+              "period": "2026-04",
+              "value": 19.79
+            },
+            {
+              "period": "2026-05",
+              "value": 13.22
+            },
+            {
+              "period": "2026-06",
+              "value": 8.62
+            },
+            {
+              "period": "2026-07",
+              "value": 8.13
+            },
+            {
+              "period": "2026-08",
+              "value": 6.11
+            }
+          ]
+        },
+        {
+          "id": "participants",
+          "value": 15,
+          "unit": {
+            "zh": "人",
+            "en": "people"
+          },
+          "period": "2026-07",
+          "sourceId": "landscape",
+          "scope": null,
+          "status": "observed",
+          "label": {
+            "zh": "参与者",
+            "en": "Participants"
+          }
+        },
+        {
+          "id": "stars",
+          "value": 90575,
+          "unit": {
+            "zh": "个",
+            "en": "stars"
+          },
+          "period": null,
+          "sourceId": "landscape",
+          "scope": "Pinned CSV metadata; observation date not declared",
+          "status": "observed",
+          "label": {
+            "zh": "Stars",
+            "en": "Stars"
+          }
+        }
+      ],
+      "upstream": {
+        "platform": "GitHub",
+        "id": "890668799",
+        "slug": "modelcontextprotocol/servers",
+        "sourceClassification": {
+          "layer": "Agent Infra",
+          "section": "Protocols & interoperability",
+          "action": "keep"
+        },
+        "pinnedCardUrl": null,
+        "versionNote": "Metrics describe a repository at independent source windows, not a tested software release.",
+        "descriptionStatus": "ai-assisted organization, not tested performance"
+      }
+    },
+    {
+      "id": "github:881458615",
+      "kind": "software",
+      "name": "Browser Use",
+      "short": "Browser Use",
+      "owner": "browser-use",
+      "category": 2,
+      "scenarios": [
+        "research"
+      ],
+      "description": {
+        "zh": "将网页操作变成可检查、可重放的任务。",
+        "en": "Turn browser interaction into tasks you can inspect and replay."
+      },
+      "url": "https://github.com/browser-use/browser-use",
+      "version": null,
+      "license": "MIT",
+      "tags": [
+        {
+          "zh": "浏览器操作与网页任务自动化",
+          "en": "Browser interaction and web-task automation"
+        }
+      ],
+      "sourceIds": [
+        "landscape"
+      ],
+      "metrics": [
+        {
+          "id": "openrank",
+          "value": 9.63,
+          "unit": {
+            "zh": "分",
+            "en": "score"
+          },
+          "period": "2026-08",
+          "sourceId": "landscape",
+          "scope": null,
+          "status": "observed",
+          "label": {
+            "zh": "OpenRank",
+            "en": "OpenRank"
+          },
+          "series": [
+            {
+              "period": "2025-09",
+              "value": 94.44
+            },
+            {
+              "period": "2025-10",
+              "value": 70.85
+            },
+            {
+              "period": "2025-11",
+              "value": 61.76
+            },
+            {
+              "period": "2025-12",
+              "value": 53.3
+            },
+            {
+              "period": "2026-01",
+              "value": 42.84
+            },
+            {
+              "period": "2026-02",
+              "value": 37.69
+            },
+            {
+              "period": "2026-03",
+              "value": 31.22
+            },
+            {
+              "period": "2026-04",
+              "value": 20.23
+            },
+            {
+              "period": "2026-05",
+              "value": 15.16
+            },
+            {
+              "period": "2026-06",
+              "value": 12.74
+            },
+            {
+              "period": "2026-07",
+              "value": 5.4
+            },
+            {
+              "period": "2026-08",
+              "value": 9.63
+            }
+          ]
+        },
+        {
+          "id": "participants",
+          "value": 15,
+          "unit": {
+            "zh": "人",
+            "en": "people"
+          },
+          "period": "2026-07",
+          "sourceId": "landscape",
+          "scope": null,
+          "status": "observed",
+          "label": {
+            "zh": "参与者",
+            "en": "Participants"
+          }
+        },
+        {
+          "id": "stars",
+          "value": 116169,
+          "unit": {
+            "zh": "个",
+            "en": "stars"
+          },
+          "period": null,
+          "sourceId": "landscape",
+          "scope": "Pinned CSV metadata; observation date not declared",
+          "status": "observed",
+          "label": {
+            "zh": "Stars",
+            "en": "Stars"
+          }
+        }
+      ],
+      "upstream": {
+        "platform": "GitHub",
+        "id": "881458615",
+        "slug": "browser-use/browser-use",
+        "sourceClassification": {
+          "layer": "Agent Infra",
+          "section": "Tools, web & computer use",
+          "action": "keep"
+        },
+        "pinnedCardUrl": null,
+        "versionNote": "Metrics describe a repository at independent source windows, not a tested software release.",
+        "descriptionStatus": "ai-assisted organization, not tested performance"
+      }
+    },
+    {
+      "id": "github:753490180",
+      "kind": "software",
+      "name": "Daytona",
+      "short": "Daytona",
+      "owner": "daytonaio",
+      "category": 2,
+      "scenarios": [
+        "coding"
+      ],
+      "description": {
+        "zh": "为代码执行与开发任务探索隔离运行环境。",
+        "en": "Explore isolated execution environments for coding and development tasks."
+      },
+      "url": "https://github.com/daytonaio/daytona",
+      "version": null,
+      "license": null,
+      "tags": [
+        {
+          "zh": "代码执行与开发沙箱",
+          "en": "Code execution and development sandboxes"
+        }
+      ],
+      "sourceIds": [
+        "landscape"
+      ],
+      "metrics": [
+        {
+          "id": "openrank",
+          "value": 8.54,
+          "unit": {
+            "zh": "分",
+            "en": "score"
+          },
+          "period": "2026-08",
+          "sourceId": "landscape",
+          "scope": null,
+          "status": "observed",
+          "label": {
+            "zh": "OpenRank",
+            "en": "OpenRank"
+          },
+          "series": [
+            {
+              "period": "2025-09",
+              "value": 30.72
+            },
+            {
+              "period": "2025-10",
+              "value": 34.28
+            },
+            {
+              "period": "2025-11",
+              "value": 36.26
+            },
+            {
+              "period": "2025-12",
+              "value": 35.49
+            },
+            {
+              "period": "2026-01",
+              "value": 39.4
+            },
+            {
+              "period": "2026-02",
+              "value": 36.66
+            },
+            {
+              "period": "2026-03",
+              "value": 33.94
+            },
+            {
+              "period": "2026-04",
+              "value": 37.06
+            },
+            {
+              "period": "2026-05",
+              "value": 27.42
+            },
+            {
+              "period": "2026-06",
+              "value": 23.41
+            },
+            {
+              "period": "2026-07",
+              "value": null
+            },
+            {
+              "period": "2026-08",
+              "value": 8.54
+            }
+          ]
+        },
+        {
+          "id": "participants",
+          "value": 1,
+          "unit": {
+            "zh": "人",
+            "en": "people"
+          },
+          "period": "2026-07",
+          "sourceId": "landscape",
+          "scope": null,
+          "status": "observed",
+          "label": {
+            "zh": "参与者",
+            "en": "Participants"
+          }
+        },
+        {
+          "id": "stars",
+          "value": 71716,
+          "unit": {
+            "zh": "个",
+            "en": "stars"
+          },
+          "period": null,
+          "sourceId": "landscape",
+          "scope": "Pinned CSV metadata; observation date not declared",
+          "status": "observed",
+          "label": {
+            "zh": "Stars",
+            "en": "Stars"
+          }
+        }
+      ],
+      "upstream": {
+        "platform": "GitHub",
+        "id": "753490180",
+        "slug": "daytonaio/daytona",
+        "sourceClassification": {
+          "layer": "Agent Infra",
+          "section": "Development sandboxes",
+          "action": "keep"
+        },
+        "pinnedCardUrl": null,
+        "versionNote": "Metrics describe a repository at independent source windows, not a tested software release.",
+        "descriptionStatus": "ai-assisted organization, not tested performance"
+      }
+    },
+    {
+      "id": "github:599547518",
+      "kind": "software",
+      "name": "vLLM",
+      "short": "vLLM",
+      "owner": "vllm-project",
+      "category": 3,
+      "scenarios": [
+        "local"
+      ],
+      "description": {
+        "zh": "面向模型推理与服务，核对硬件、模型和负载。",
+        "en": "Explore model inference and serving across hardware and workloads."
+      },
+      "url": "https://github.com/vllm-project/vllm",
+      "version": null,
+      "license": "Apache-2.0",
+      "tags": [
+        {
+          "zh": "模型推理与服务引擎",
+          "en": "Model inference and serving engine"
+        }
+      ],
+      "sourceIds": [
+        "landscape"
+      ],
+      "metrics": [
+        {
+          "id": "openrank",
+          "value": 148.64,
+          "unit": {
+            "zh": "分",
+            "en": "score"
+          },
+          "period": "2026-08",
+          "sourceId": "landscape",
+          "scope": null,
+          "status": "observed",
+          "label": {
+            "zh": "OpenRank",
+            "en": "OpenRank"
+          },
+          "series": [
+            {
+              "period": "2025-09",
+              "value": 764.83
+            },
+            {
+              "period": "2025-10",
+              "value": 697.99
+            },
+            {
+              "period": "2025-11",
+              "value": 674.73
+            },
+            {
+              "period": "2025-12",
+              "value": 620.83
+            },
+            {
+              "period": "2026-01",
+              "value": 586.12
+            },
+            {
+              "period": "2026-02",
+              "value": 560.08
+            },
+            {
+              "period": "2026-03",
+              "value": 507.78
+            },
+            {
+              "period": "2026-04",
+              "value": 446.03
+            },
+            {
+              "period": "2026-05",
+              "value": 360.39
+            },
+            {
+              "period": "2026-06",
+              "value": 274.25
+            },
+            {
+              "period": "2026-07",
+              "value": 189.08
+            },
+            {
+              "period": "2026-08",
+              "value": 148.64
+            }
+          ]
+        },
+        {
+          "id": "participants",
+          "value": 164,
+          "unit": {
+            "zh": "人",
+            "en": "people"
+          },
+          "period": "2026-07",
+          "sourceId": "landscape",
+          "scope": null,
+          "status": "observed",
+          "label": {
+            "zh": "参与者",
+            "en": "Participants"
+          }
+        },
+        {
+          "id": "stars",
+          "value": 92623,
+          "unit": {
+            "zh": "个",
+            "en": "stars"
+          },
+          "period": null,
+          "sourceId": "landscape",
+          "scope": "Pinned CSV metadata; observation date not declared",
+          "status": "observed",
+          "label": {
+            "zh": "Stars",
+            "en": "Stars"
+          }
+        }
+      ],
+      "upstream": {
+        "platform": "GitHub",
+        "id": "599547518",
+        "slug": "vllm-project/vllm",
+        "sourceClassification": {
+          "layer": "Model Infra",
+          "section": "Serving · Inference",
+          "action": "keep"
+        },
+        "pinnedCardUrl": null,
+        "versionNote": "Metrics describe a repository at independent source windows, not a tested software release.",
+        "descriptionStatus": "ai-assisted organization, not tested performance"
+      }
+    },
+    {
+      "id": "github:646410686",
+      "kind": "software",
+      "name": "LlamaFactory",
+      "short": "LlamaFactory",
+      "owner": "hiyouga",
+      "category": 3,
+      "scenarios": [
+        "local",
+        "research"
+      ],
+      "description": {
+        "zh": "组织模型微调实验，固定数据、参数与验证集。",
+        "en": "Organize fine-tuning experiments with pinned data and validation sets."
+      },
+      "url": "https://github.com/hiyouga/LlamaFactory",
+      "version": null,
+      "license": "Apache-2.0",
+      "tags": [
+        {
+          "zh": "模型微调与训练工具",
+          "en": "Model fine-tuning and training tools"
+        }
+      ],
+      "sourceIds": [
+        "landscape"
+      ],
+      "metrics": [
+        {
+          "id": "openrank",
+          "value": 7.71,
+          "unit": {
+            "zh": "分",
+            "en": "score"
+          },
+          "period": "2026-08",
+          "sourceId": "landscape",
+          "scope": null,
+          "status": "observed",
+          "label": {
+            "zh": "OpenRank",
+            "en": "OpenRank"
+          },
+          "series": [
+            {
+              "period": "2025-09",
+              "value": 79.56
+            },
+            {
+              "period": "2025-10",
+              "value": 55.45
+            },
+            {
+              "period": "2025-11",
+              "value": 44.04
+            },
+            {
+              "period": "2025-12",
+              "value": 40.39
+            },
+            {
+              "period": "2026-01",
+              "value": 36.8
+            },
+            {
+              "period": "2026-02",
+              "value": 25.72
+            },
+            {
+              "period": "2026-03",
+              "value": 19.31
+            },
+            {
+              "period": "2026-04",
+              "value": 16.38
+            },
+            {
+              "period": "2026-05",
+              "value": 14.31
+            },
+            {
+              "period": "2026-06",
+              "value": 5.48
+            },
+            {
+              "period": "2026-07",
+              "value": null
+            },
+            {
+              "period": "2026-08",
+              "value": 7.71
+            }
+          ]
+        },
+        {
+          "id": "participants",
+          "value": 1,
+          "unit": {
+            "zh": "人",
+            "en": "people"
+          },
+          "period": "2026-07",
+          "sourceId": "landscape",
+          "scope": null,
+          "status": "observed",
+          "label": {
+            "zh": "参与者",
+            "en": "Participants"
+          }
+        },
+        {
+          "id": "stars",
+          "value": 75003,
+          "unit": {
+            "zh": "个",
+            "en": "stars"
+          },
+          "period": null,
+          "sourceId": "landscape",
+          "scope": "Pinned CSV metadata; observation date not declared",
+          "status": "observed",
+          "label": {
+            "zh": "Stars",
+            "en": "Stars"
+          }
+        }
+      ],
+      "upstream": {
+        "platform": "GitHub",
+        "id": "646410686",
+        "slug": "hiyouga/LlamaFactory",
+        "sourceClassification": {
+          "layer": "Model Infra",
+          "section": "Post-Train · Supervised fine-tuning",
+          "action": "keep"
+        },
+        "pinnedCardUrl": null,
+        "versionNote": "Metrics describe a repository at independent source windows, not a tested software release.",
+        "descriptionStatus": "ai-assisted organization, not tested performance"
+      }
+    },
+    {
+      "id": "github:642497346",
+      "kind": "software",
+      "name": "Langfuse",
+      "short": "Langfuse",
+      "owner": "langfuse",
+      "category": 3,
+      "scenarios": [
+        "coding",
+        "research"
+      ],
+      "description": {
+        "zh": "从调用轨迹与评测记录观察 LLM 应用。",
+        "en": "Inspect LLM applications through traces and evaluation records."
+      },
+      "url": "https://github.com/langfuse/langfuse",
+      "version": null,
+      "license": null,
+      "tags": [
+        {
+          "zh": "LLM 应用观测与评估",
+          "en": "LLM application observability and evaluation"
+        }
+      ],
+      "sourceIds": [
+        "landscape"
+      ],
+      "metrics": [
+        {
+          "id": "openrank",
+          "value": 34.77,
+          "unit": {
+            "zh": "分",
+            "en": "score"
+          },
+          "period": "2026-08",
+          "sourceId": "landscape",
+          "scope": null,
+          "status": "observed",
+          "label": {
+            "zh": "OpenRank",
+            "en": "OpenRank"
+          },
+          "series": [
+            {
+              "period": "2025-09",
+              "value": 104.09
+            },
+            {
+              "period": "2025-10",
+              "value": 99.96
+            },
+            {
+              "period": "2025-11",
+              "value": 97.3
+            },
+            {
+              "period": "2025-12",
+              "value": 91.02
+            },
+            {
+              "period": "2026-01",
+              "value": 77.48
+            },
+            {
+              "period": "2026-02",
+              "value": 72.29
+            },
+            {
+              "period": "2026-03",
+              "value": 64.31
+            },
+            {
+              "period": "2026-04",
+              "value": 58.68
+            },
+            {
+              "period": "2026-05",
+              "value": 46.11
+            },
+            {
+              "period": "2026-06",
+              "value": 41.18
+            },
+            {
+              "period": "2026-07",
+              "value": 31.4
+            },
+            {
+              "period": "2026-08",
+              "value": 34.77
+            }
+          ]
+        },
+        {
+          "id": "participants",
+          "value": 22,
+          "unit": {
+            "zh": "人",
+            "en": "people"
+          },
+          "period": "2026-07",
+          "sourceId": "landscape",
+          "scope": null,
+          "status": "observed",
+          "label": {
+            "zh": "参与者",
+            "en": "Participants"
+          }
+        },
+        {
+          "id": "stars",
+          "value": 35008,
+          "unit": {
+            "zh": "个",
+            "en": "stars"
+          },
+          "period": null,
+          "sourceId": "landscape",
+          "scope": "Pinned CSV metadata; observation date not declared",
+          "status": "observed",
+          "label": {
+            "zh": "Stars",
+            "en": "Stars"
+          }
+        }
+      ],
+      "upstream": {
+        "platform": "GitHub",
+        "id": "642497346",
+        "slug": "langfuse/langfuse",
+        "sourceClassification": {
+          "layer": "Agent Infra",
+          "section": "Observability & evaluation",
+          "action": "keep"
+        },
+        "pinnedCardUrl": null,
+        "versionNote": "Metrics describe a repository at independent source windows, not a tested software release.",
+        "descriptionStatus": "ai-assisted organization, not tested performance"
+      }
+    },
+    {
+      "id": "hf-model:Qwen/Qwen3-0.6B",
+      "kind": "model",
+      "name": "Qwen3 · 0.6B",
+      "short": "Qwen3 · 0.6B",
+      "owner": "Qwen",
+      "category": 0,
+      "scenarios": [
+        "local"
+      ],
+      "description": {
+        "zh": "轻量文本生成候选",
+        "en": "Compact text-generation candidate"
+      },
+      "url": "https://huggingface.co/Qwen/Qwen3-0.6B",
+      "version": "c1899de289a04d12100db370d81485cdf75e47ca",
+      "license": "apache-2.0",
+      "tags": [
+        {
+          "zh": "轻量文本生成候选",
+          "en": "Compact text-generation candidate"
+        }
+      ],
+      "sourceIds": [
+        "gosd-models",
+        "hf:Qwen/Qwen3-0.6B"
+      ],
+      "metrics": [
+        {
+          "id": "downloads",
+          "value": 29565215,
+          "unit": {
+            "zh": "次",
+            "en": "downloads"
+          },
+          "period": "2026-10-02 · 30d",
+          "sourceId": "gosd-models",
+          "scope": "Hugging Face repository downloads; not users or performance",
+          "status": "observed",
+          "label": {
+            "zh": "近30天下载",
+            "en": "30-day downloads"
+          }
+        }
+      ],
+      "upstream": {
+        "platform": "Hugging Face",
+        "id": "Qwen/Qwen3-0.6B",
+        "slug": "Qwen/Qwen3-0.6B",
+        "sourceClassification": {
+          "domain": "Text Generation",
+          "domainKey": "text",
+          "domainRank": 1
+        },
+        "pinnedCardUrl": "https://huggingface.co/Qwen/Qwen3-0.6B/blob/c1899de289a04d12100db370d81485cdf75e47ca/README.md",
+        "versionNote": "Revision is the current public API revision captured 2026-10-26. Report download metrics are repository-level 2026-10-02 observations, not measurements of this revision.",
+        "descriptionStatus": "ai-assisted organization, not tested performance"
+      }
+    },
+    {
+      "id": "hf-model:Qwen/Qwen3-8B",
+      "kind": "model",
+      "name": "Qwen3 · 8B",
+      "short": "Qwen3 · 8B",
+      "owner": "Qwen",
+      "category": 0,
+      "scenarios": [
+        "local",
+        "research"
+      ],
+      "description": {
+        "zh": "通用文本生成候选",
+        "en": "General text-generation candidate"
+      },
+      "url": "https://huggingface.co/Qwen/Qwen3-8B",
+      "version": "b968826d9c46dd6066d109eabc6255188de91218",
+      "license": "apache-2.0",
+      "tags": [
+        {
+          "zh": "通用文本生成候选",
+          "en": "General text-generation candidate"
+        }
+      ],
+      "sourceIds": [
+        "gosd-models",
+        "hf:Qwen/Qwen3-8B",
+        "gosd-modelrank"
+      ],
+      "metrics": [
+        {
+          "id": "downloads",
+          "value": 11020586,
+          "unit": {
+            "zh": "次",
+            "en": "downloads"
+          },
+          "period": "2026-10-02 · 30d",
+          "sourceId": "gosd-models",
+          "scope": "Hugging Face repository downloads; not users or performance",
+          "status": "observed",
+          "label": {
+            "zh": "近30天下载",
+            "en": "30-day downloads"
+          }
+        },
+        {
+          "id": "modelrank",
+          "value": 9596.089587139062,
+          "unit": {
+            "zh": "分",
+            "en": "score"
+          },
+          "period": null,
+          "sourceId": "gosd-modelrank",
+          "scope": "Pinned report table does not declare a period in the CSV; do not label as current or comparable with downloads",
+          "status": "observed",
+          "label": {
+            "zh": "ModelRank",
+            "en": "ModelRank"
+          }
+        }
+      ],
+      "upstream": {
+        "platform": "Hugging Face",
+        "id": "Qwen/Qwen3-8B",
+        "slug": "Qwen/Qwen3-8B",
+        "sourceClassification": {
+          "domain": "Text Generation",
+          "domainKey": "text",
+          "domainRank": 3
+        },
+        "pinnedCardUrl": "https://huggingface.co/Qwen/Qwen3-8B/blob/b968826d9c46dd6066d109eabc6255188de91218/README.md",
+        "versionNote": "Revision is the current public API revision captured 2026-10-26. Report download metrics are repository-level 2026-10-02 observations, not measurements of this revision.",
+        "descriptionStatus": "ai-assisted organization, not tested performance"
+      }
+    },
+    {
+      "id": "hf-model:unsloth/Qwen3-Coder-30B-A3B-Instruct-GGUF",
+      "kind": "model",
+      "name": "Qwen3 Coder · GGUF",
+      "short": "Qwen3 Coder",
+      "owner": "unsloth",
+      "category": 0,
+      "scenarios": [
+        "coding",
+        "local"
+      ],
+      "description": {
+        "zh": "编码模型的 GGUF 发布版本",
+        "en": "A GGUF distribution of a coding model"
+      },
+      "url": "https://huggingface.co/unsloth/Qwen3-Coder-30B-A3B-Instruct-GGUF",
+      "version": "b17cb02dd882d5b6ab62fc777ad2995f19668350",
+      "license": "apache-2.0",
+      "tags": [
+        {
+          "zh": "编码模型的 GGUF 发布版本",
+          "en": "A GGUF distribution of a coding model"
+        }
+      ],
+      "sourceIds": [
+        "gosd-models",
+        "hf:unsloth/Qwen3-Coder-30B-A3B-Instruct-GGUF"
+      ],
+      "metrics": [
+        {
+          "id": "downloads",
+          "value": 8649679,
+          "unit": {
+            "zh": "次",
+            "en": "downloads"
+          },
+          "period": "2026-10-02 · 30d",
+          "sourceId": "gosd-models",
+          "scope": "Hugging Face repository downloads; not users or performance",
+          "status": "observed",
+          "label": {
+            "zh": "近30天下载",
+            "en": "30-day downloads"
+          }
+        }
+      ],
+      "upstream": {
+        "platform": "Hugging Face",
+        "id": "unsloth/Qwen3-Coder-30B-A3B-Instruct-GGUF",
+        "slug": "unsloth/Qwen3-Coder-30B-A3B-Instruct-GGUF",
+        "sourceClassification": {
+          "domain": "Text Generation",
+          "domainKey": "text",
+          "domainRank": 7
+        },
+        "pinnedCardUrl": "https://huggingface.co/unsloth/Qwen3-Coder-30B-A3B-Instruct-GGUF/blob/b17cb02dd882d5b6ab62fc777ad2995f19668350/README.md",
+        "versionNote": "Revision is the current public API revision captured 2026-10-26. Report download metrics are repository-level 2026-10-02 observations, not measurements of this revision.",
+        "descriptionStatus": "ai-assisted organization, not tested performance"
+      }
+    },
+    {
+      "id": "hf-model:Qwen/Qwen3-VL-8B-Instruct",
+      "kind": "model",
+      "name": "Qwen3 VL · 8B",
+      "short": "Qwen3 VL · 8B",
+      "owner": "Qwen",
+      "category": 1,
+      "scenarios": [
+        "research",
+        "local"
+      ],
+      "description": {
+        "zh": "图文理解模型候选",
+        "en": "Vision-language model candidate"
+      },
+      "url": "https://huggingface.co/Qwen/Qwen3-VL-8B-Instruct",
+      "version": "0c351dd01ed87e9c1b53cbc748cba10e6187ff3b",
+      "license": "apache-2.0",
+      "tags": [
+        {
+          "zh": "图文理解模型候选",
+          "en": "Vision-language model candidate"
+        }
+      ],
+      "sourceIds": [
+        "gosd-models",
+        "hf:Qwen/Qwen3-VL-8B-Instruct"
+      ],
+      "metrics": [
+        {
+          "id": "downloads",
+          "value": 15794638,
+          "unit": {
+            "zh": "次",
+            "en": "downloads"
+          },
+          "period": "2026-10-02 · 30d",
+          "sourceId": "gosd-models",
+          "scope": "Hugging Face repository downloads; not users or performance",
+          "status": "observed",
+          "label": {
+            "zh": "近30天下载",
+            "en": "30-day downloads"
+          }
+        }
+      ],
+      "upstream": {
+        "platform": "Hugging Face",
+        "id": "Qwen/Qwen3-VL-8B-Instruct",
+        "slug": "Qwen/Qwen3-VL-8B-Instruct",
+        "sourceClassification": {
+          "domain": "Multimodal",
+          "domainKey": "multimodal",
+          "domainRank": 1
+        },
+        "pinnedCardUrl": "https://huggingface.co/Qwen/Qwen3-VL-8B-Instruct/blob/0c351dd01ed87e9c1b53cbc748cba10e6187ff3b/README.md",
+        "versionNote": "Revision is the current public API revision captured 2026-10-26. Report download metrics are repository-level 2026-10-02 observations, not measurements of this revision.",
+        "descriptionStatus": "ai-assisted organization, not tested performance"
+      }
+    },
+    {
+      "id": "hf-model:Qwen/Qwen3.5-9B",
+      "kind": "model",
+      "name": "Qwen3.5 · 9B",
+      "short": "Qwen3.5 · 9B",
+      "owner": "Qwen",
+      "category": 1,
+      "scenarios": [
+        "research",
+        "local"
+      ],
+      "description": {
+        "zh": "多模态模型候选",
+        "en": "Multimodal model candidate"
+      },
+      "url": "https://huggingface.co/Qwen/Qwen3.5-9B",
+      "version": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "license": "apache-2.0",
+      "tags": [
+        {
+          "zh": "多模态模型候选",
+          "en": "Multimodal model candidate"
+        }
+      ],
+      "sourceIds": [
+        "gosd-models",
+        "hf:Qwen/Qwen3.5-9B",
+        "gosd-modelrank"
+      ],
+      "metrics": [
+        {
+          "id": "downloads",
+          "value": 9181882,
+          "unit": {
+            "zh": "次",
+            "en": "downloads"
+          },
+          "period": "2026-10-02 · 30d",
+          "sourceId": "gosd-models",
+          "scope": "Hugging Face repository downloads; not users or performance",
+          "status": "observed",
+          "label": {
+            "zh": "近30天下载",
+            "en": "30-day downloads"
+          }
+        },
+        {
+          "id": "modelrank",
+          "value": 8195.73635756345,
+          "unit": {
+            "zh": "分",
+            "en": "score"
+          },
+          "period": null,
+          "sourceId": "gosd-modelrank",
+          "scope": "Pinned report table does not declare a period in the CSV; do not label as current or comparable with downloads",
+          "status": "observed",
+          "label": {
+            "zh": "ModelRank",
+            "en": "ModelRank"
+          }
+        }
+      ],
+      "upstream": {
+        "platform": "Hugging Face",
+        "id": "Qwen/Qwen3.5-9B",
+        "slug": "Qwen/Qwen3.5-9B",
+        "sourceClassification": {
+          "domain": "Multimodal",
+          "domainKey": "multimodal",
+          "domainRank": 4
+        },
+        "pinnedCardUrl": "https://huggingface.co/Qwen/Qwen3.5-9B/blob/c202236235762e1c871ad0ccb60c8ee5ba337b9a/README.md",
+        "versionNote": "Revision is the current public API revision captured 2026-10-26. Report download metrics are repository-level 2026-10-02 observations, not measurements of this revision.",
+        "descriptionStatus": "ai-assisted organization, not tested performance"
+      }
+    },
+    {
+      "id": "hf-model:sentence-transformers/all-MiniLM-L6-v2",
+      "kind": "model",
+      "name": "MiniLM · L6 v2",
+      "short": "MiniLM · L6 v2",
+      "owner": "sentence-transformers",
+      "category": 2,
+      "scenarios": [
+        "research",
+        "local"
+      ],
+      "description": {
+        "zh": "文本向量与语义检索",
+        "en": "Text embeddings and semantic retrieval"
+      },
+      "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2",
+      "version": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+      "license": "apache-2.0",
+      "tags": [
+        {
+          "zh": "文本向量与语义检索",
+          "en": "Text embeddings and semantic retrieval"
+        }
+      ],
+      "sourceIds": [
+        "gosd-models",
+        "hf:sentence-transformers/all-MiniLM-L6-v2"
+      ],
+      "metrics": [
+        {
+          "id": "downloads",
+          "value": 240958074,
+          "unit": {
+            "zh": "次",
+            "en": "downloads"
+          },
+          "period": "2026-10-02 · 30d",
+          "sourceId": "gosd-models",
+          "scope": "Hugging Face repository downloads; not users or performance",
+          "status": "observed",
+          "label": {
+            "zh": "近30天下载",
+            "en": "30-day downloads"
+          }
+        }
+      ],
+      "upstream": {
+        "platform": "Hugging Face",
+        "id": "sentence-transformers/all-MiniLM-L6-v2",
+        "slug": "sentence-transformers/all-MiniLM-L6-v2",
+        "sourceClassification": {
+          "domain": "Embeddings & Retrieval",
+          "domainKey": "retrieval",
+          "domainRank": 1
+        },
+        "pinnedCardUrl": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/blob/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/README.md",
+        "versionNote": "Revision is the current public API revision captured 2026-10-26. Report download metrics are repository-level 2026-10-02 observations, not measurements of this revision.",
+        "descriptionStatus": "ai-assisted organization, not tested performance"
+      }
+    },
+    {
+      "id": "hf-model:BAAI/bge-m3",
+      "kind": "model",
+      "name": "BGE M3",
+      "short": "BGE M3",
+      "owner": "BAAI",
+      "category": 2,
+      "scenarios": [
+        "research",
+        "local"
+      ],
+      "description": {
+        "zh": "多语言文本表示与检索",
+        "en": "Multilingual text representations and retrieval"
+      },
+      "url": "https://huggingface.co/BAAI/bge-m3",
+      "version": "5617a9f61b028005a4858fdac845db406aefb181",
+      "license": "mit",
+      "tags": [
+        {
+          "zh": "多语言文本表示与检索",
+          "en": "Multilingual text representations and retrieval"
+        }
+      ],
+      "sourceIds": [
+        "gosd-models",
+        "hf:BAAI/bge-m3"
+      ],
+      "metrics": [
+        {
+          "id": "downloads",
+          "value": 35073646,
+          "unit": {
+            "zh": "次",
+            "en": "downloads"
+          },
+          "period": "2026-10-02 · 30d",
+          "sourceId": "gosd-models",
+          "scope": "Hugging Face repository downloads; not users or performance",
+          "status": "observed",
+          "label": {
+            "zh": "近30天下载",
+            "en": "30-day downloads"
+          }
+        }
+      ],
+      "upstream": {
+        "platform": "Hugging Face",
+        "id": "BAAI/bge-m3",
+        "slug": "BAAI/bge-m3",
+        "sourceClassification": {
+          "domain": "Embeddings & Retrieval",
+          "domainKey": "retrieval",
+          "domainRank": 5
+        },
+        "pinnedCardUrl": "https://huggingface.co/BAAI/bge-m3/blob/5617a9f61b028005a4858fdac845db406aefb181/README.md",
+        "versionNote": "Revision is the current public API revision captured 2026-10-26. Report download metrics are repository-level 2026-10-02 observations, not measurements of this revision.",
+        "descriptionStatus": "ai-assisted organization, not tested performance"
+      }
+    },
+    {
+      "id": "hf-model:openai/clip-vit-base-patch32",
+      "kind": "model",
+      "name": "CLIP · ViT-B/32",
+      "short": "CLIP · ViT-B/32",
+      "owner": "openai",
+      "category": 1,
+      "scenarios": [
+        "research"
+      ],
+      "description": {
+        "zh": "图文表示模型",
+        "en": "Image-text representation model"
+      },
+      "url": "https://huggingface.co/openai/clip-vit-base-patch32",
+      "version": "3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268",
+      "license": null,
+      "tags": [
+        {
+          "zh": "图文表示模型",
+          "en": "Image-text representation model"
+        }
+      ],
+      "sourceIds": [
+        "gosd-models",
+        "hf:openai/clip-vit-base-patch32"
+      ],
+      "metrics": [
+        {
+          "id": "downloads",
+          "value": 21219227,
+          "unit": {
+            "zh": "次",
+            "en": "downloads"
+          },
+          "period": "2026-10-02 · 30d",
+          "sourceId": "gosd-models",
+          "scope": "Hugging Face repository downloads; not users or performance",
+          "status": "observed",
+          "label": {
+            "zh": "近30天下载",
+            "en": "30-day downloads"
+          }
+        }
+      ],
+      "upstream": {
+        "platform": "Hugging Face",
+        "id": "openai/clip-vit-base-patch32",
+        "slug": "openai/clip-vit-base-patch32",
+        "sourceClassification": {
+          "domain": "Image & Video",
+          "domainKey": "image",
+          "domainRank": 2
+        },
+        "pinnedCardUrl": "https://huggingface.co/openai/clip-vit-base-patch32/blob/3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268/README.md",
+        "versionNote": "Revision is the current public API revision captured 2026-10-26. Report download metrics are repository-level 2026-10-02 observations, not measurements of this revision.",
+        "descriptionStatus": "ai-assisted organization, not tested performance"
+      }
+    },
+    {
+      "id": "hf-model:hexgrad/Kokoro-82M",
+      "kind": "model",
+      "name": "Kokoro · 82M",
+      "short": "Kokoro · 82M",
+      "owner": "hexgrad",
+      "category": 1,
+      "scenarios": [
+        "local"
+      ],
+      "description": {
+        "zh": "语音生成模型",
+        "en": "Speech-generation model"
+      },
+      "url": "https://huggingface.co/hexgrad/Kokoro-82M",
+      "version": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+      "license": "apache-2.0",
+      "tags": [
+        {
+          "zh": "语音生成模型",
+          "en": "Speech-generation model"
+        }
+      ],
+      "sourceIds": [
+        "gosd-models",
+        "hf:hexgrad/Kokoro-82M"
+      ],
+      "metrics": [
+        {
+          "id": "downloads",
+          "value": 11426444,
+          "unit": {
+            "zh": "次",
+            "en": "downloads"
+          },
+          "period": "2026-10-02 · 30d",
+          "sourceId": "gosd-models",
+          "scope": "Hugging Face repository downloads; not users or performance",
+          "status": "observed",
+          "label": {
+            "zh": "近30天下载",
+            "en": "30-day downloads"
+          }
+        }
+      ],
+      "upstream": {
+        "platform": "Hugging Face",
+        "id": "hexgrad/Kokoro-82M",
+        "slug": "hexgrad/Kokoro-82M",
+        "sourceClassification": {
+          "domain": "Speech & Audio",
+          "domainKey": "audio",
+          "domainRank": 2
+        },
+        "pinnedCardUrl": "https://huggingface.co/hexgrad/Kokoro-82M/blob/f3ff3571791e39611d31c381e3a41a3af07b4987/README.md",
+        "versionNote": "Revision is the current public API revision captured 2026-10-26. Report download metrics are repository-level 2026-10-02 observations, not measurements of this revision.",
+        "descriptionStatus": "ai-assisted organization, not tested performance"
+      }
+    },
+    {
+      "id": "hf-model:openai/whisper-large-v3-turbo",
+      "kind": "model",
+      "name": "Whisper · v3 turbo",
+      "short": "Whisper · v3 turbo",
+      "owner": "openai",
+      "category": 1,
+      "scenarios": [
+        "research",
+        "local"
+      ],
+      "description": {
+        "zh": "语音识别与转写",
+        "en": "Speech recognition and transcription"
+      },
+      "url": "https://huggingface.co/openai/whisper-large-v3-turbo",
+      "version": "41f01f3fe87f28c78e2fbf8b568835947dd65ed9",
+      "license": "mit",
+      "tags": [
+        {
+          "zh": "语音识别与转写",
+          "en": "Speech recognition and transcription"
+        }
+      ],
+      "sourceIds": [
+        "gosd-models",
+        "hf:openai/whisper-large-v3-turbo"
+      ],
+      "metrics": [
+        {
+          "id": "downloads",
+          "value": 6401799,
+          "unit": {
+            "zh": "次",
+            "en": "downloads"
+          },
+          "period": "2026-10-02 · 30d",
+          "sourceId": "gosd-models",
+          "scope": "Hugging Face repository downloads; not users or performance",
+          "status": "observed",
+          "label": {
+            "zh": "近30天下载",
+            "en": "30-day downloads"
+          }
+        }
+      ],
+      "upstream": {
+        "platform": "Hugging Face",
+        "id": "openai/whisper-large-v3-turbo",
+        "slug": "openai/whisper-large-v3-turbo",
+        "sourceClassification": {
+          "domain": "Speech & Audio",
+          "domainKey": "audio",
+          "domainRank": 7
+        },
+        "pinnedCardUrl": "https://huggingface.co/openai/whisper-large-v3-turbo/blob/41f01f3fe87f28c78e2fbf8b568835947dd65ed9/README.md",
+        "versionNote": "Revision is the current public API revision captured 2026-10-26. Report download metrics are repository-level 2026-10-02 observations, not measurements of this revision.",
+        "descriptionStatus": "ai-assisted organization, not tested performance"
+      }
+    },
+    {
+      "id": "hf-model:openvla/openvla-7b",
+      "kind": "model",
+      "name": "OpenVLA · 7B",
+      "short": "OpenVLA · 7B",
+      "owner": "openvla",
+      "category": 1,
+      "scenarios": [
+        "research"
+      ],
+      "description": {
+        "zh": "视觉语言动作研究模型",
+        "en": "Vision-language-action research model"
+      },
+      "url": "https://huggingface.co/openvla/openvla-7b",
+      "version": "47a0ec7fc4ec123775a391911046cf33cf9ed83f",
+      "license": "mit",
+      "tags": [
+        {
+          "zh": "视觉语言动作研究模型",
+          "en": "Vision-language-action research model"
+        }
+      ],
+      "sourceIds": [
+        "gosd-models",
+        "hf:openvla/openvla-7b"
+      ],
+      "metrics": [
+        {
+          "id": "downloads",
+          "value": 131229,
+          "unit": {
+            "zh": "次",
+            "en": "downloads"
+          },
+          "period": "2026-10-02 · 30d",
+          "sourceId": "gosd-models",
+          "scope": "Hugging Face repository downloads; not users or performance",
+          "status": "observed",
+          "label": {
+            "zh": "近30天下载",
+            "en": "30-day downloads"
+          }
+        }
+      ],
+      "upstream": {
+        "platform": "Hugging Face",
+        "id": "openvla/openvla-7b",
+        "slug": "openvla/openvla-7b",
+        "sourceClassification": {
+          "domain": "Robotics",
+          "domainKey": "robotics",
+          "domainRank": 2
+        },
+        "pinnedCardUrl": "https://huggingface.co/openvla/openvla-7b/blob/47a0ec7fc4ec123775a391911046cf33cf9ed83f/README.md",
+        "versionNote": "Revision is the current public API revision captured 2026-10-26. Report download metrics are repository-level 2026-10-02 observations, not measurements of this revision.",
+        "descriptionStatus": "ai-assisted organization, not tested performance"
+      }
+    },
+    {
+      "id": "hf-model:lerobot/smolvla_base",
+      "kind": "model",
+      "name": "SmolVLA · base",
+      "short": "SmolVLA · base",
+      "owner": "lerobot",
+      "category": 1,
+      "scenarios": [
+        "research"
+      ],
+      "description": {
+        "zh": "机器人动作模型研究",
+        "en": "Robotics action-model research"
+      },
+      "url": "https://huggingface.co/lerobot/smolvla_base",
+      "version": "5e8d12a6e2975b0e5e5fce7c8caf47c371d257b6",
+      "license": "apache-2.0",
+      "tags": [
+        {
+          "zh": "机器人动作模型研究",
+          "en": "Robotics action-model research"
+        }
+      ],
+      "sourceIds": [
+        "gosd-models",
+        "hf:lerobot/smolvla_base",
+        "gosd-modelrank"
+      ],
+      "metrics": [
+        {
+          "id": "downloads",
+          "value": 88717,
+          "unit": {
+            "zh": "次",
+            "en": "downloads"
+          },
+          "period": "2026-10-02 · 30d",
+          "sourceId": "gosd-models",
+          "scope": "Hugging Face repository downloads; not users or performance",
+          "status": "observed",
+          "label": {
+            "zh": "近30天下载",
+            "en": "30-day downloads"
+          }
+        },
+        {
+          "id": "modelrank",
+          "value": 9229.637130318906,
+          "unit": {
+            "zh": "分",
+            "en": "score"
+          },
+          "period": null,
+          "sourceId": "gosd-modelrank",
+          "scope": "Pinned report table does not declare a period in the CSV; do not label as current or comparable with downloads",
+          "status": "observed",
+          "label": {
+            "zh": "ModelRank",
+            "en": "ModelRank"
+          }
+        }
+      ],
+      "upstream": {
+        "platform": "Hugging Face",
+        "id": "lerobot/smolvla_base",
+        "slug": "lerobot/smolvla_base",
+        "sourceClassification": {
+          "domain": "Robotics",
+          "domainKey": "robotics",
+          "domainRank": 4
+        },
+        "pinnedCardUrl": "https://huggingface.co/lerobot/smolvla_base/blob/5e8d12a6e2975b0e5e5fce7c8caf47c371d257b6/README.md",
+        "versionNote": "Revision is the current public API revision captured 2026-10-26. Report download metrics are repository-level 2026-10-02 observations, not measurements of this revision.",
+        "descriptionStatus": "ai-assisted organization, not tested performance"
+      }
+    },
+    {
+      "id": "hf-dataset:SWE-bench/SWE-bench_Verified",
+      "kind": "dataset",
+      "name": "SWE-bench Verified",
+      "short": "SWE-bench",
+      "owner": "SWE-bench",
+      "category": 3,
+      "scenarios": [
+        "coding"
+      ],
+      "description": {
+        "zh": "代码问题修复评测",
+        "en": "Code-issue resolution evaluation"
+      },
+      "url": "https://huggingface.co/datasets/SWE-bench/SWE-bench_Verified",
+      "version": "78f471bf655a3137b2e8a75af1501690ec009ec3",
+      "license": null,
+      "tags": [
+        {
+          "zh": "代码问题修复评测",
+          "en": "Code-issue resolution evaluation"
+        }
+      ],
+      "sourceIds": [
+        "hf:SWE-bench/SWE-bench_Verified"
+      ],
+      "metrics": [
+        {
+          "id": "downloads",
+          "value": 132184,
+          "unit": {
+            "zh": "次",
+            "en": "downloads"
+          },
+          "period": null,
+          "sourceId": "hf:SWE-bench/SWE-bench_Verified",
+          "scope": "Hugging Face API downloads field captured 2026-10-26; this response does not declare its window",
+          "status": "observed",
+          "label": {
+            "zh": "下载记录",
+            "en": "Downloads"
+          }
+        },
+        {
+          "id": "testExamples",
+          "value": 500,
+          "unit": {
+            "zh": "条",
+            "en": "examples"
+          },
+          "period": null,
+          "sourceId": "hf:SWE-bench/SWE-bench_Verified",
+          "scope": "default/test split at pinned revision",
+          "status": "observed",
+          "label": {
+            "zh": "测试样本",
+            "en": "Test examples"
+          }
+        }
+      ],
+      "upstream": {
+        "platform": "Hugging Face",
+        "id": "SWE-bench/SWE-bench_Verified",
+        "slug": "SWE-bench/SWE-bench_Verified",
+        "sourceClassification": null,
+        "pinnedCardUrl": "https://huggingface.co/datasets/SWE-bench/SWE-bench_Verified/blob/78f471bf655a3137b2e8a75af1501690ec009ec3/README.md",
+        "versionNote": "Dataset revision pinned from public API. Configurations and splits remain separate; their sizes are not interchangeable or a quality score.",
+        "descriptionStatus": "ai-assisted organization, not tested performance"
+      }
+    },
+    {
+      "id": "hf-dataset:HuggingFaceFW/fineweb",
+      "kind": "dataset",
+      "name": "FineWeb",
+      "short": "FineWeb",
+      "owner": "HuggingFaceFW",
+      "category": 3,
+      "scenarios": [
+        "local",
+        "research"
+      ],
+      "description": {
+        "zh": "网页预训练语料",
+        "en": "Web pretraining corpus"
+      },
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/fineweb",
+      "version": "9bb295ddab0e05d785b879661af7260fed5140fc",
+      "license": "odc-by",
+      "tags": [
+        {
+          "zh": "网页预训练语料",
+          "en": "Web pretraining corpus"
+        }
+      ],
+      "sourceIds": [
+        "hf:HuggingFaceFW/fineweb"
+      ],
+      "metrics": [
+        {
+          "id": "downloads",
+          "value": 356205,
+          "unit": {
+            "zh": "次",
+            "en": "downloads"
+          },
+          "period": null,
+          "sourceId": "hf:HuggingFaceFW/fineweb",
+          "scope": "Hugging Face API downloads field captured 2026-10-26; this response does not declare its window",
+          "status": "observed",
+          "label": {
+            "zh": "下载记录",
+            "en": "Downloads"
+          }
+        }
+      ],
+      "upstream": {
+        "platform": "Hugging Face",
+        "id": "HuggingFaceFW/fineweb",
+        "slug": "HuggingFaceFW/fineweb",
+        "sourceClassification": null,
+        "pinnedCardUrl": "https://huggingface.co/datasets/HuggingFaceFW/fineweb/blob/9bb295ddab0e05d785b879661af7260fed5140fc/README.md",
+        "versionNote": "Dataset revision pinned from public API. Configurations and splits remain separate; their sizes are not interchangeable or a quality score.",
+        "descriptionStatus": "ai-assisted organization, not tested performance"
+      }
+    },
+    {
+      "id": "hf-dataset:allenai/c4",
+      "kind": "dataset",
+      "name": "C4",
+      "short": "C4",
+      "owner": "allenai",
+      "category": 3,
+      "scenarios": [
+        "local",
+        "research"
+      ],
+      "description": {
+        "zh": "清洗后的网页语料",
+        "en": "Cleaned web corpus"
+      },
+      "url": "https://huggingface.co/datasets/allenai/c4",
+      "version": "1588ec454efa1a09f29cd18ddd04fe05fc8653a2",
+      "license": "odc-by",
+      "tags": [
+        {
+          "zh": "清洗后的网页语料",
+          "en": "Cleaned web corpus"
+        }
+      ],
+      "sourceIds": [
+        "hf:allenai/c4"
+      ],
+      "metrics": [
+        {
+          "id": "downloads",
+          "value": 724850,
+          "unit": {
+            "zh": "次",
+            "en": "downloads"
+          },
+          "period": null,
+          "sourceId": "hf:allenai/c4",
+          "scope": "Hugging Face API downloads field captured 2026-10-26; this response does not declare its window",
+          "status": "observed",
+          "label": {
+            "zh": "下载记录",
+            "en": "Downloads"
+          }
+        }
+      ],
+      "upstream": {
+        "platform": "Hugging Face",
+        "id": "allenai/c4",
+        "slug": "allenai/c4",
+        "sourceClassification": null,
+        "pinnedCardUrl": "https://huggingface.co/datasets/allenai/c4/blob/1588ec454efa1a09f29cd18ddd04fe05fc8653a2/README.md",
+        "versionNote": "Dataset revision pinned from public API. Configurations and splits remain separate; their sizes are not interchangeable or a quality score.",
+        "descriptionStatus": "ai-assisted organization, not tested performance"
+      }
+    },
+    {
+      "id": "hf-dataset:sentence-transformers/all-nli",
+      "kind": "dataset",
+      "name": "AllNLI",
+      "short": "AllNLI",
+      "owner": "sentence-transformers",
+      "category": 3,
+      "scenarios": [
+        "research",
+        "local"
+      ],
+      "description": {
+        "zh": "句子关系与表示学习数据",
+        "en": "Sentence-relation and representation-learning data"
+      },
+      "url": "https://huggingface.co/datasets/sentence-transformers/all-nli",
+      "version": "d482672c8e74ce18da116f430137434ba2e52fab",
+      "license": null,
+      "tags": [
+        {
+          "zh": "句子关系与表示学习数据",
+          "en": "Sentence-relation and representation-learning data"
+        }
+      ],
+      "sourceIds": [
+        "hf:sentence-transformers/all-nli"
+      ],
+      "metrics": [
+        {
+          "id": "downloads",
+          "value": 3310,
+          "unit": {
+            "zh": "次",
+            "en": "downloads"
+          },
+          "period": null,
+          "sourceId": "hf:sentence-transformers/all-nli",
+          "scope": "Hugging Face API downloads field captured 2026-10-26; this response does not declare its window",
+          "status": "observed",
+          "label": {
+            "zh": "下载记录",
+            "en": "Downloads"
+          }
+        }
+      ],
+      "upstream": {
+        "platform": "Hugging Face",
+        "id": "sentence-transformers/all-nli",
+        "slug": "sentence-transformers/all-nli",
+        "sourceClassification": null,
+        "pinnedCardUrl": "https://huggingface.co/datasets/sentence-transformers/all-nli/blob/d482672c8e74ce18da116f430137434ba2e52fab/README.md",
+        "versionNote": "Dataset revision pinned from public API. Configurations and splits remain separate; their sizes are not interchangeable or a quality score.",
+        "descriptionStatus": "ai-assisted organization, not tested performance"
+      }
+    },
+    {
+      "id": "hf-dataset:OpenAssistant/oasst1",
+      "kind": "dataset",
+      "name": "OpenAssistant OASST1",
+      "short": "OASST1",
+      "owner": "OpenAssistant",
+      "category": 3,
+      "scenarios": [
+        "local",
+        "research"
+      ],
+      "description": {
+        "zh": "多语言对话与人类反馈资料",
+        "en": "Multilingual conversations and human-feedback data"
+      },
+      "url": "https://huggingface.co/datasets/OpenAssistant/oasst1",
+      "version": "fdf72ae0827c1cda404aff25b6603abec9e3399b",
+      "license": "apache-2.0",
+      "tags": [
+        {
+          "zh": "多语言对话与人类反馈资料",
+          "en": "Multilingual conversations and human-feedback data"
+        }
+      ],
+      "sourceIds": [
+        "hf:OpenAssistant/oasst1"
+      ],
+      "metrics": [
+        {
+          "id": "downloads",
+          "value": 32171,
+          "unit": {
+            "zh": "次",
+            "en": "downloads"
+          },
+          "period": null,
+          "sourceId": "hf:OpenAssistant/oasst1",
+          "scope": "Hugging Face API downloads field captured 2026-10-26; this response does not declare its window",
+          "status": "observed",
+          "label": {
+            "zh": "下载记录",
+            "en": "Downloads"
+          }
+        }
+      ],
+      "upstream": {
+        "platform": "Hugging Face",
+        "id": "OpenAssistant/oasst1",
+        "slug": "OpenAssistant/oasst1",
+        "sourceClassification": null,
+        "pinnedCardUrl": "https://huggingface.co/datasets/OpenAssistant/oasst1/blob/fdf72ae0827c1cda404aff25b6603abec9e3399b/README.md",
+        "versionNote": "Dataset revision pinned from public API. Configurations and splits remain separate; their sizes are not interchangeable or a quality score.",
+        "descriptionStatus": "ai-assisted organization, not tested performance"
+      }
+    },
+    {
+      "id": "hf-dataset:allenai/ai2_arc",
+      "kind": "dataset",
+      "name": "AI2 ARC",
+      "short": "AI2 ARC",
+      "owner": "allenai",
+      "category": 3,
+      "scenarios": [
+        "local",
+        "research"
+      ],
+      "description": {
+        "zh": "科学问答与推理评测",
+        "en": "Science question-answering and reasoning evaluation"
+      },
+      "url": "https://huggingface.co/datasets/allenai/ai2_arc",
+      "version": "210d026faf9955653af8916fad021475a3f00453",
+      "license": "cc-by-sa-4.0",
+      "tags": [
+        {
+          "zh": "科学问答与推理评测",
+          "en": "Science question-answering and reasoning evaluation"
+        }
+      ],
+      "sourceIds": [
+        "hf:allenai/ai2_arc"
+      ],
+      "metrics": [
+        {
+          "id": "downloads",
+          "value": 593850,
+          "unit": {
+            "zh": "次",
+            "en": "downloads"
+          },
+          "period": null,
+          "sourceId": "hf:allenai/ai2_arc",
+          "scope": "Hugging Face API downloads field captured 2026-10-26; this response does not declare its window",
+          "status": "observed",
+          "label": {
+            "zh": "下载记录",
+            "en": "Downloads"
+          }
+        }
+      ],
+      "upstream": {
+        "platform": "Hugging Face",
+        "id": "allenai/ai2_arc",
+        "slug": "allenai/ai2_arc",
+        "sourceClassification": null,
+        "pinnedCardUrl": "https://huggingface.co/datasets/allenai/ai2_arc/blob/210d026faf9955653af8916fad021475a3f00453/README.md",
+        "versionNote": "Dataset revision pinned from public API. Configurations and splits remain separate; their sizes are not interchangeable or a quality score.",
+        "descriptionStatus": "ai-assisted organization, not tested performance"
+      }
+    }
+  ]
+}

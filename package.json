@@ -1,17 +1,17 @@
 {
   "name": "open-dipper",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "private": true,
   "type": "module",
   "scripts": {
     "dev": "vite --host 0.0.0.0",
-    "build": "node scripts/build-evidence.mjs --check && node scripts/build-observation.mjs --check && npm run docs:check && npm run design:check && npm run design:package && tsc --noEmit && vite build",
+    "build": "node scripts/build-radar.mjs --check && node scripts/build-evidence.mjs --check && node scripts/build-observation.mjs --check && npm run docs:check && npm run design:check && npm run design:package && tsc --noEmit && vite build",
     "preview": "vite preview --host 0.0.0.0",
     "typecheck": "tsc --noEmit",
     "test:ui": "node tests/ui.mjs",
     "refresh:data": "node scripts/fetch-data.mjs",
     "test:data": "node --test tests/data.test.mjs",
-    "test": "npm run test:data && npm run test:dom && npm run test:geo && npm run test:panorama && npm run test:observatory && npm run design:check && npm run docs:check && npm run evidence:check && npm run observation:check && npm run test:atlas",
+    "test": "npm run test:data && npm run test:dom && npm run test:geo && npm run test:panorama && npm run test:observatory && npm run design:check && npm run docs:check && npm run evidence:check && npm run observation:check && npm run test:atlas && npm run radar:check",
     "test:dom": "node --test tests/dom.test.mjs",
     "test:geo": "node --test tests/geography.test.mjs",
     "test:panorama": "node --test tests/panorama.test.mjs",
@@ -25,12 +25,14 @@
     "design:package": "python3 scripts/package-design.py",
     "docs:build": "node scripts/build-context.mjs",
     "docs:check": "node scripts/build-context.mjs --check && node scripts/check-docs.mjs",
-    "test:portal:ui": "node tests/portal-ui.mjs",
+    "test:portal:ui": "node tests/portal-ui.mjs && node tests/radar-ui.mjs",
     "evidence:build": "node scripts/build-evidence.mjs",
     "evidence:check": "node scripts/build-evidence.mjs --check && node --test tests/evidence.test.mjs",
     "observation:build": "node scripts/build-observation.mjs",
     "observation:check": "node scripts/build-observation.mjs --check && node --test tests/workspace.test.mjs",
-    "test:atlas": "node --test tests/dashboard.test.mjs tests/layers.test.mjs tests/pulse.test.mjs tests/atlas-design.test.mjs tests/atlas-camera.test.mjs"
+    "test:atlas": "node --test tests/dashboard.test.mjs tests/layers.test.mjs tests/pulse.test.mjs tests/atlas-design.test.mjs tests/atlas-camera.test.mjs",
+    "radar:build": "node scripts/build-radar.mjs",
+    "radar:check": "node scripts/build-radar.mjs --check && node --test tests/radar.test.mjs"
   },
   "devDependencies": {
     "@playwright/test": "^1.52.0",
