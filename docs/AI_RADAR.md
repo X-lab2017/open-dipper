@@ -61,6 +61,6 @@ Source and reuse boundaries: [RIGHTS.md](RIGHTS.md). Agentic AI Landscape facts 
 
 ## Dense radar review — 1.3.1
 
-Managed-browser capture of the implementation preview on 2026-10-26. Both lenses contain 80 numbered targets; quadrant focus enlarges 20 targets. This screen is a product-review record with separately marked simulated guidance. Source identities and observations are real snapshots.
+Managed-browser capture of the published route on 2026-10-26, after [PR #28](https://github.com/X-lab2017/open-dipper/pull/28) and successful [CI / Pages 40272283896](https://github.com/X-lab2017/open-dipper/actions/runs/40272283896). Both lenses contain 80 numbered targets; quadrant focus enlarges 20 targets. This screen is a product-review record with separately marked simulated guidance. Source identities and observations are real snapshots.
 
 ![AI radar 1.3.1: 80 visible numbered software targets and selected evidence](assets/opendipper-ai-radar-density-20261026.jpg)
