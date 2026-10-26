@@ -1,6 +1,6 @@
 # Compact observatory — private review revision
 
-- Execution state: implementing revised acceptance; prior roomy candidate superseded
+- Execution state: revised private build delivered; maintainer visual acceptance pending
 - Baseline: `6cb118b6896c044b0cdd510f7a09ee869ba8b998`
 - Branch: `design/observatory-review-v2`; draft PR https://github.com/X-lab2017/open-dipper/pull/37
 - Scope: preserve original structure and information while refining visual details. Update the existing private review Site; do not merge or deploy GitHub Pages.
@@ -23,7 +23,13 @@ Hallmark reference from the earlier review informed paired-theme and type consid
 
 ## Verification
 
-Pending revised local checks, browser visual review, PR browser CI and private deployment. The browser regression explicitly checks the full first-screen inventory in both themes and languages, including clipping and panel alignment. Ordinary layer trees and the original display stack retain their supported internal scrolling.
+- Local typecheck, full deterministic suite, build and diff checks passed.
+- Browser visual review confirmed the restored composition in dark Chinese and light English, plus intact Radar/Galaxy layouts and module return.
+- Full successful CI: https://github.com/X-lab2017/open-dipper/actions/runs/40413141051 at `8bef12a1c795d56d313e1426a5bd3233eced1859`. Atlas, workspace, clipping-aware 20-case desktop density matrix, four mobile theme/language cases, portal/radar/galaxy, panorama and analysis browser suites passed. Pages deployment was skipped.
+- The regression checks all ten ranking rows, five totals, scope counts, pulse metrics/platforms/controls, latest news and clipping ancestors. Ordinary layer trees and the original display stack retain their supported internal scrolling.
+- The first added-test failure counted only mounted tree checkboxes; collapsed groups intentionally unmount theirs. The corrected assertion verifies all five active inspector labels independently of tree expansion. No product behavior was changed to satisfy that assertion.
+- Application changes: `3336b7b5c3f8e0d17ee30dcc895ba6320a854b27`; the CI successor only corrects the regression assertion. Private Site source `41a0bccbad160548548ecc02e50fee3c3b875991` contains the same application asset bytes.
+- Owner-private deployment succeeded on 2026-10-27 at 06:34:31 Asia/Shanghai. Review packaging only adds noindex/nofollow and omits Pages CNAME. Source data, official brands and accepted baseline fingerprints remain unchanged.
 
 ## Superseded candidate
 
