@@ -1,6 +1,6 @@
 # AI radar implementation contract
 
-Application **1.3.1**, 2026-10-26. Route: `#radar`. Maintainer-approved implementation of [proposal #26](https://github.com/X-lab2017/open-dipper/issues/26); publication receipts belong in that issue and the [execution plan](plans/ai-radar-implementation.md). The accepted [atlas baseline](../design/baselines/atlas-1.3.0.md) remains the composition reference.
+Application **1.3.2**, 2026-10-26. Route: `#radar`. Maintainer-approved implementation of [proposal #26](https://github.com/X-lab2017/open-dipper/issues/26); publication receipts belong in that issue and the [execution plan](plans/ai-radar-implementation.md). The accepted [atlas baseline](../design/baselines/atlas-1.3.0.md) remains the composition reference.
 
 ## User outcome and scope
 
@@ -27,15 +27,15 @@ Downloads do not equal users, quality or task success. OpenRank and ModelRank me
 
 `src/radar/model.ts` defines validated, bounded `Catalog`, `Entity`, `Metric`, `Source`, `Demo` and local-state types. Entities use platform/repository IDs or full HF slugs; source references must resolve, numeric values must be finite and nonnegative (or null), and evidence URLs allow only HTTP(S). Text is escaped by the view. Demo validation is independent: a missing/bad demo file leaves source facts usable; a missing/bad catalog offers retry while other routes remain available.
 
-`src/radar/view.ts` owns rendering and action binding. `src/radar/radar.css` uses existing shared design variables in both themes. `src/atlas.ts` integrates the route and cleans up listeners/timers on navigation. No new runtime dependency is required.
+`src/radar/view.ts` owns rendering and action binding. `src/radar/radar.css` uses existing shared design variables in both themes, the observatory sidebar width, and shared `.od-segmented` controls. Catalog sources and the single usage guide remain reachable on mobile. `src/atlas.ts` integrates the route and cleans up listeners/timers on navigation. No new runtime dependency is required.
 
 The three rings are illustrative adoption reference, worth a trial and keep watching. Equal circular marks express no numerical score; exact angle and distance within a ring carry no ranking. Placement derives from the complete edition, so filters do not move remaining entities. Both lenses render all 80 targets without truncation. Equal numbered discs correspond to the candidate list; the numbers are catalog indices, not ranks. Deterministic hexagonal spacing keeps targets separate. Hover/focus exposes a readable name and task preview; clicking inspects the target. Quadrant headings enlarge one 20-target sector, with an explicit return control. Keyboard users can activate marks or the equivalent candidate list. Recent inspection tabs show one selected entity; source inspection is available in a modal.
 
 Comparison accepts up to three candidates of the same entity kind. Changing lenses does not silently discard the comparison; remove old entries to compare another kind. Downloads retain source URLs, periods and demo labels. Trial checkboxes apply to the current view only. Browser-local watches are persisted and appear under `#following`.
 
-`od:radar` stores validated lens, task, view, selected ID, watched IDs, demo preference, guide dismissal and pause preference. It is separate from `od:intelligence` and existing repository stars. No identity, cloud sync, delivery, payment or account access is activated. The OpenShare link is a resource-discovery link; it promises no candidate-specific entitlement or integration.
+`od:radar` stores validated lens, task, view, selected ID, watched IDs, demo preference, pause preference. It is separate from `od:intelligence` and existing repository stars. No identity, cloud sync, delivery, payment or account access is activated. The OpenShare link is a resource-discovery link; it promises no candidate-specific entitlement or integration.
 
-Expand radar opens an overlay with a visible return button and Escape. Global fullscreen and one/two-screen controls retain the shared behavior. Narrow layouts flow vertically. The purely decorative radar sweep pauses using the change-strip pause button and is removed under reduced motion. Change-strip movement pauses on hover, keyboard focus, hidden tabs, user pause or reduced-motion preference; it is not a real-time data refresh.
+Expand radar opens an overlay with a visible return button and Escape. Selection and sector changes preserve the expanded view; background controls are inert until return. The preview action opens the selected inspector and exits the overlay; on narrow screens it scrolls to the details. Sector focus synchronizes the current inspection; Escape outside the overlay returns to the full radar. Global fullscreen and one/two-screen controls retain the shared behavior. Narrow layouts flow vertically. The purely decorative radar sweep pauses using the change-strip pause button and is removed under reduced motion. Change-strip movement pauses on hover, keyboard focus, hidden tabs, user pause or reduced-motion preference; it is not a real-time data refresh.
 
 ## Contributing the next facts
 
@@ -64,3 +64,15 @@ Source and reuse boundaries: [RIGHTS.md](RIGHTS.md). Agentic AI Landscape facts 
 Managed-browser capture of the published route on 2026-10-26, after [PR #28](https://github.com/X-lab2017/open-dipper/pull/28) and successful [CI / Pages 40272283896](https://github.com/X-lab2017/open-dipper/actions/runs/40272283896). Both lenses contain 80 numbered targets; quadrant focus enlarges 20 targets. This screen is a product-review record with separately marked simulated guidance. Source identities and observations are real snapshots.
 
 ![AI radar 1.3.1: 80 visible numbered software targets and selected evidence](assets/opendipper-ai-radar-density-20261026.jpg)
+
+## Finishing review — 1.3.2
+
+The accepted dense radar remains the baseline. The [finishing plan](plans/ai-radar-finish-v3.md) records theme contrast, concise guidance, common observatory controls and expanded-view interaction fixes. Number and label contrast is checked for all four categories in both themes. Data snapshots and brand artwork are unchanged. Release receipts belong in issue #26.
+
+### Theme review captures
+
+Managed implementation previews captured on 2026-10-26; retained as visual review evidence for 1.3.2 (not fresh data snapshots).
+
+| Dark / software | Light / models and data |
+| --- | --- |
+| ![Dark radar with shared controls and selected target](assets/opendipper-radar-finish-dark-20261026.jpg) | ![Light radar with matching controls and source actions](assets/opendipper-radar-finish-light-20261026.jpg) |

@@ -106,3 +106,10 @@ button:disabled{opacity:.4}
 .layer-row:hover .layer-info,.layer-row:focus-within .layer-info{opacity:1}.stack-item [data-solo][aria-pressed=true]{color:var(--accent);background:var(--soft)}
 @media(hover:none){.layer-info{opacity:1}}
 @media(min-width:1700px){.coverage-ribbon{padding-top:8px;padding-bottom:8px}}
+
+/* Shared exploration controls: observatory and AI radar. */
+.od-segmented{display:inline-flex;align-items:center;gap:3px;padding:3px;border:1px solid var(--line);border-radius:6px;background:var(--input)}
+.od-segmented>button{display:inline-flex;align-items:center;justify-content:center;gap:6px;min-height:30px;padding:5px 10px;border:1px solid transparent;border-radius:4px;color:var(--sub);white-space:nowrap}
+.od-segmented>button.active,.od-segmented>button[aria-pressed=true]{background:var(--soft);border-color:var(--strong-line);color:var(--text);box-shadow:none}
+.od-segmented>button:hover:not(:disabled){background:var(--raised);color:var(--text)}
+.contextbar .view-nav.od-segmented{padding:3px;gap:3px}.contextbar .view-nav.od-segmented button{min-height:29px}

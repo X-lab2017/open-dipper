@@ -1,6 +1,13 @@
 # Changelog
 
-This file records repository milestones, not published GitHub releases. Application version (`package.json`: 1.3.1) and visual baseline (`design/tokens.json`: 1.3.0) are independent. Detailed feedback and commits are in [the history](docs/HISTORY.md).
+This file records repository milestones, not published GitHub releases. Application version (`package.json`: 1.3.2) and visual baseline (`design/tokens.json`: 1.3.0) are independent. Detailed feedback and commits are in [the history](docs/HISTORY.md).
+
+## 2026-10-26 · Application 1.3.2 / Radar finishing review
+
+- Aligned radar sidebars and segmented controls with the observatory; checked both themes and increased target-number legibility.
+- Consolidated usage/source entrances, removed redundant guidance and sidebar promotion, and added concise discovery, keyboard and candidate-source actions.
+- Preserved expanded radar during selection/sector changes, synchronized focused sectors with inspection, restored keyboard focus on return and paused hidden-document animation.
+- Added browser regression for those flows and contrast checks; data and bilingual brand artwork are unchanged. Release receipts: [#26](https://github.com/X-lab2017/open-dipper/issues/26).
 
 ## 2026-10-26 · Application 1.3.1 / Dense, readable AI radar
 
