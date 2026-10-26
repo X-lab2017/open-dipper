@@ -189,6 +189,11 @@ button:disabled { cursor: default; }
   .latest-panel > header { min-height: 18px; margin-bottom: 1px; }
   .latest-row { padding: 2px 0; }
 }
+/* Long English labels keep their simulation qualifier within the same row. */
+@media (max-width:1400px) and (min-width:1101px) {
+  :root:lang(en) .pulse-metric-label { font-size: 10px; }
+  :root:lang(en) .pulse-metric-label > i { font-size: 8px; }
+}
 @media (max-width:1250px) and (min-width:1101px) {
   :root { --wb-control: 11px; }
   .source-stamp > span, .source-stamp .source-details { font-size: 9px; }
