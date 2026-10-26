@@ -1,6 +1,6 @@
 # Visual workbench upgrade — private review
 
-- Execution state: active
+- Execution state: completed (private review delivery; maintainer acceptance pending)
 - Baseline: `6cb118b6896c044b0cdd510f7a09ee869ba8b998`
 - Branch: `design/observatory-review-v2`
 - Authorization: implement a systematic interface/visualization upgrade and provide an isolated review; do not merge or deploy GitHub Pages.
@@ -35,11 +35,11 @@ Reference: https://github.com/Nutlope/hallmark (README, SKILL, references/flow.m
 
 | Criterion | Check | Result |
 | --- | --- | --- |
-| Source, data and brand invariants | Diff + deterministic suite | Pending |
-| App compile/build | typecheck + build | Pending |
-| Desktop / narrow / bilingual / themes | Browser review + CI suites | Pending |
-| Core interactions and changed defaults | Browser checks | Pending |
-| Private review delivery | PR + private site | Pending |
+| Source, data and brand invariants | Diff + deterministic suite | Passed; snapshots, official brands, workflow and baseline fingerprints unchanged |
+| App compile/build | typecheck + build | Passed locally and in CI with Node 24 |
+| Desktop / narrow / bilingual / themes | Browser review + CI suites | Passed; desktop, 1024px tablet, 390px mobile; Chinese/English and both themes |
+| Core interactions and changed defaults | Browser checks | Passed; defaults, keyboard disclosures, simulation disposal, region continuity, all existing module suites and compatibility routes |
+| Private review delivery | PR + private site | Draft PR #37; owner-private deployment succeeded; Pages deploy skipped |
 
 ## Decisions and progress
 
@@ -48,4 +48,17 @@ Reference: https://github.com/Nutlope/hallmark (README, SKILL, references/flow.m
 
 ## Resume / follow-up
 
-Implement the first visual pass, inspect in the managed preview, resolve observed defects, and record concrete test/CI/deployment results here before handing off for maintainer review.
+Await maintainer visual review. Apply feedback on this branch and update the same private Site. Do not merge, accept a new baseline or deploy GitHub Pages without a subsequent release instruction.
+
+## Delivered evidence
+
+- Draft review: https://github.com/X-lab2017/open-dipper/pull/37
+- Application commit: `74cf06fb61b913028f65a6b350ecb182ef65531d`.
+- Full successful CI: https://github.com/X-lab2017/open-dipper/actions/runs/40405128447 — typecheck, deterministic checks, build, Atlas/workspace/workbench, portal/radar/galaxy, panorama and analysis browser suites all passed. The Pages deploy job was skipped.
+- QA artifact: `browser-qa-83dddfa25ece1e3988c25f178dce9e18fab1c4ad` (7-day GitHub retention). Includes the 12-case Atlas theme/language/width matrix and existing module/export evidence.
+- Private review: https://opendipper-workbench-review-20261026.token4all.chatgpt.site — owner-only deployment succeeded on 2026-10-26. Browser access correctly shows the ChatGPT sign-in gate when signed out.
+- Private Site source commit: `74be3bc13a813d1868f3e83b097024a2d742aa93`, generated from the application commit above. Its asset bytes match the validated build; review packaging only adds noindex and omits Pages CNAME.
+- Local checks: `npm run typecheck`, `npm test`, `npm run build`, `git diff --check` passed. No data refresh, dependency addition, brand replacement or production workflow edit.
+- Visual QA corrected compressed rank rows, old mobile title overrides and unnecessary topbar wrapping. The first CI failure was an ambiguous test locator after adding a second source entry; the test now targets the primary control explicitly.
+
+Limitations: physical touch devices and a complete assistive-technology audit are not covered. This private review serves a fixed build/snapshot; the existing scheduled collector continues independently on the production repository. Maintainer design acceptance and public release remain pending.
