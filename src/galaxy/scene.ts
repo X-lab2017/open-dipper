@@ -91,7 +91,10 @@ export class GalaxyScene{
   }c.restore();
   const path=this.opts.path;if(path){c.save();c.strokeStyle=this.palette[2];c.lineWidth=2.3;c.globalAlpha=.95;for(const ei of path.edges){const e=this.index.edges[ei];c.beginPath();c.moveTo(this.sx[e.source],this.sy[e.source]);c.lineTo(this.sx[e.target],this.sy[e.target]);c.stroke();}for(const i of path.nodes){c.fillStyle=this.palette[2];c.beginPath();c.arc(this.sx[i],this.sy[i],6,0,Math.PI*2);c.fill();}c.restore();}
  }
- private startFx(){cancelAnimationFrame(this.fxRaf);this.fxRaf=0;this.drawFx(performance.now());if(this.destroyed||document.hidden||this.reduced||!this.opts.motion||!this.opts.visible.length)return;
+ private startFx(){cancelAnimationFrame(this.fxRaf);this.fxRaf=0;this.drawFx(performance.now());
+  // Expose the applied renderer state, not merely the requested media preference.
+  this.fx.dataset.motionState=this.destroyed?'disposed':document.hidden?'hidden':this.reduced?'reduced':!this.opts.motion?'paused':!this.opts.visible.length?'empty':'running';
+  if(this.fx.dataset.motionState!=='running')return;
   // Animate only the bounded overlay, never redraw the 43k-node base per frame.
   const tick=(now:number)=>{if(this.destroyed||document.hidden)return;if(now-this.fxAt>32){this.fxAt=now;this.drawFx(now);}this.fxRaf=requestAnimationFrame(tick);};this.fxRaf=requestAnimationFrame(tick);
  }

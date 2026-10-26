@@ -1,5 +1,6 @@
 import {chromium,expect} from '@playwright/test';
-import {mkdir,readFile} from 'node:fs/promises';
+import {mkdir,readFile,writeFile} from 'node:fs/promises';
+import {createHash} from 'node:crypto';
 await mkdir('screenshots/research-exports',{recursive:true});
 const browser=await chromium.launch({headless:true});
 try{
@@ -12,12 +13,28 @@ try{
  await page.emulateMedia({reducedMotion:'no-preference'});
  await expect(page.locator('#galaxy-motion')).toHaveAttribute('aria-pressed','false');
  await page.locator('#galaxy-motion').click();await expect(page.locator('#galaxy-motion')).toHaveAttribute('aria-pressed','true');
- const fx=page.locator('.galaxy-fx');const animatedFrame=await fx.evaluate(c=>c.toDataURL());
+ const fx=page.locator('.galaxy-fx'),motionEvidence=[];
+ const frameHash=async()=>createHash('sha256').update(await fx.evaluate(c=>c.toDataURL())).digest('hex');
+ const assertStill=async state=>{
+  // emulateMedia resolves before the browser necessarily delivers matchMedia change.
+  // Wait for the renderer to acknowledge it, then flush its already queued base draw.
+  await expect(fx).toHaveAttribute('data-motion-state',state);
+  await page.evaluate(()=>new Promise(resolve=>requestAnimationFrame(()=>requestAnimationFrame(resolve))));
+  const hashes=[await frameHash()];
+  for(let i=0;i<3;i++){await page.waitForTimeout(180);hashes.push(await frameHash());}
+  const dimensions=await fx.evaluate(c=>({width:c.width,height:c.height,state:c.dataset.motionState}));
+  motionEvidence.push({state,dimensions,hashes});console.log('Galaxy motion evidence',motionEvidence.at(-1));
+  await page.screenshot({path:`screenshots/galaxy-motion-${state}.png`,fullPage:true});
+  await writeFile('screenshots/galaxy-motion-evidence.json',JSON.stringify(motionEvidence,null,2));
+  for(const hash of hashes)expect(hash,`${state}: settled canvas stays static`).toBe(hashes[0]);
+ };
+ await expect(fx).toHaveAttribute('data-motion-state','running');
+ const animatedFrame=await fx.evaluate(c=>c.toDataURL());
  await page.waitForFunction(before=>document.querySelector('.galaxy-fx').toDataURL()!==before,animatedFrame);
  await page.locator('#galaxy-motion').click();await expect(page.locator('#galaxy-motion')).toHaveAttribute('aria-pressed','false');
- const pausedFrame=await fx.evaluate(c=>c.toDataURL());await page.waitForTimeout(180);expect(await fx.evaluate(c=>c.toDataURL())).toBe(pausedFrame);
- await page.locator('#galaxy-motion').click();await page.emulateMedia({reducedMotion:'reduce'});await page.evaluate(()=>new Promise(requestAnimationFrame));
- const reducedFrame=await fx.evaluate(c=>c.toDataURL());await page.waitForTimeout(180);expect(await fx.evaluate(c=>c.toDataURL())).toBe(reducedFrame);
+ await assertStill('paused');
+ await page.locator('#galaxy-motion').click();await expect(fx).toHaveAttribute('data-motion-state','running');
+ await page.emulateMedia({reducedMotion:'reduce'});await assertStill('reduced');
 
  await page.locator('#galaxy-search').fill('pytorch/pytorch');await expect(page.locator('#galaxy-result-list button')).toHaveCount(1);
  // Search blur emits change before click; it must not replace the pointer target.

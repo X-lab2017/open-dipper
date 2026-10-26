@@ -69,12 +69,12 @@ test('bounded overview effects obey motion toggle, live reduced motion, hidden p
   for(const [key,value] of Object.entries(mocks))Object.defineProperty(globalThis,key,{value,writable:true,configurable:true});
   const tiny={...index,nodes:index.nodes.slice(0,2),edges:[],neighbors:new Map(),graphs:{},byKey:new Map()};
   scene=new GalaxyScene(canvas(),tiny,{filter,visible:[0,1],selected:-1,light:true,lang:'en',motion:true,onSelect:noop,onHover:noop,onInteract:noop,onCamera:noop});
-  assert.ok(scene.fxRaf>0,'overview animates before node selection');assert.equal(scene.fxLinks.length,0,'overview invents no relationship particles');
-  scene.update({motion:false});assert.equal(scene.fxRaf,0);
+  assert.ok(scene.fxRaf>0,'overview animates before node selection');assert.equal(scene.fx.dataset.motionState,'running');assert.equal(scene.fxLinks.length,0,'overview invents no relationship particles');
+  scene.update({motion:false});assert.equal(scene.fxRaf,0);assert.equal(scene.fx.dataset.motionState,'paused');
   scene.update({motion:true});assert.ok(scene.fxRaf>0);
-  listeners.get('motion:change')({matches:true});assert.equal(scene.fxRaf,0);
+  listeners.get('motion:change')({matches:true});assert.equal(scene.fxRaf,0);assert.equal(scene.fx.dataset.motionState,'reduced');
   listeners.get('motion:change')({matches:false});assert.ok(scene.fxRaf>0);
-  doc.hidden=true;listeners.get('visibilitychange')();assert.equal(scene.fxRaf,0);
+  doc.hidden=true;listeners.get('visibilitychange')();assert.equal(scene.fxRaf,0);assert.equal(scene.fx.dataset.motionState,'hidden');
   doc.hidden=false;listeners.get('visibilitychange')();assert.ok(scene.fxRaf>0);
   scene.destroy();assert.equal(frames.size,0,'all scheduled base, camera and effect frames are cancelled');
  }finally{scene?.destroy();for(const [key,descriptor] of originals){if(descriptor)Object.defineProperty(globalThis,key,descriptor);else delete globalThis[key];}}
