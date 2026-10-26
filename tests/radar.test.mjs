@@ -8,20 +8,22 @@ const catalog=JSON.parse(await fs.readFile('public/data/radar-catalog.json','utf
 const demo=JSON.parse(await fs.readFile('public/data/radar-demo.json','utf8'));
 test('sourced catalog and separately fixed demo retain independent clocks and identities',()=>{
  assert.ok(m.validateCatalog(catalog));assert.ok(m.validateDemo(demo,catalog));
- assert.deepEqual(['software','model','dataset'].map(k=>catalog.entities.filter(e=>e.kind===k).length),[12,12,6]);
+ assert.deepEqual(['software','model','dataset'].map(k=>catalog.entities.filter(e=>e.kind===k).length),[80,60,20]);
  assert.equal(demo.fixtureDate,'2026-10-26T00:00:00Z');
  assert.ok(catalog.entities.every(e=>!('ring' in e)&&!('assessment' in e)));
  const code=catalog.entities.find(e=>e.name==='Codex');assert.equal(code.metrics.find(m=>m.id==='openrank').period,'2026-08');assert.equal(code.metrics.find(m=>m.id==='participants').period,'2026-07');assert.equal(code.metrics.find(m=>m.id==='stars').period,null);
- assert.ok(catalog.entities.filter(e=>e.kind!=='software').every(e=>e.version));
+ assert.ok(catalog.entities.some(e=>e.kind==='model'&&e.version===null));
+ assert.ok(catalog.entities.find(e=>e.name==='Qwen3 · 0.6B').version);
+ assert.ok(catalog.entities.filter(e=>e.metrics.some(m=>m.sourceId.startsWith('hf-'))).every(e=>e.metrics.filter(m=>m.id==='downloads').every(m=>m.period===null)));
  const q=catalog.entities.find(e=>e.name==='Qwen3 · 0.6B');assert.equal(q.metrics[0].period,'2026-10-02 · 30d');
 });
 test('turning demos off or losing their file leaves real facts and no invented assessment',()=>{
  const s=m.freshState();const before=m.filteredEntities(catalog,s,demo);s.demo=false;
  assert.deepEqual(m.filteredEntities(catalog,s,demo),before);assert.equal(m.visibleAssessment(before[0].id,s,demo),null);
- s.demo=true;assert.equal(m.visibleAssessment(before[0].id,s,null),null);assert.equal(m.filteredEntities(catalog,s,null).length,12);
+ s.demo=true;assert.equal(m.visibleAssessment(before[0].id,s,null),null);assert.equal(m.filteredEntities(catalog,s,null).length,80);
 });
 test('task, lens, category, type, watch and empty filters preserve source data',()=>{
- const s=m.freshState({lens:'assets'});assert.equal(m.filteredEntities(catalog,s,demo).length,18);s.kind='dataset';assert.equal(m.filteredEntities(catalog,s,demo).length,6);
+ const s=m.freshState({lens:'assets'});assert.equal(m.filteredEntities(catalog,s,demo).length,80);s.kind='dataset';assert.equal(m.filteredEntities(catalog,s,demo).length,20);
  s.scenario='coding';assert.ok(m.filteredEntities(catalog,s,demo).every(e=>e.scenarios.includes('coding')));
  s.query='there-is-no-such-project';assert.equal(m.filteredEntities(catalog,s,demo).length,0);
  s.query='';s.scenario='all';s.onlyWatched=true;s.watched=[catalog.entities.find(e=>e.kind==='dataset').id];assert.equal(m.filteredEntities(catalog,s,demo).length,1);
@@ -39,7 +41,7 @@ test('month-over-month never spans unknowns, zero baselines or gaps',()=>{
 });
 test('placement is bounded and stable while filtering the same edition',()=>{
  const before=m.radarPositions(catalog,demo,'assets');const s=m.freshState({lens:'assets'});s.query='qwen';m.filteredEntities(catalog,s,demo);const after=m.radarPositions(catalog,demo,'assets');assert.deepEqual(after,before);
- for(const p of before.values())assert.ok(Math.hypot(p.x-340,p.y-320)<264);
+ for(const p of before.values())assert.ok(Math.hypot(p.x-340,p.y-340)<310);
 });
 test('bad URLs, duplicate IDs, invalid provenance and unsupported sources fail closed',()=>{
  for(const mutate of [c=>c.entities[0].url='javascript:alert(1)',c=>c.entities[1].id=c.entities[0].id,c=>c.entities[0].metrics[0].sourceId='unknown',c=>c.entities[0].metrics[0].value=-1]){const c=structuredClone(catalog);mutate(c);assert.equal(m.validateCatalog(c),false);}
@@ -52,4 +54,12 @@ test('exports carry evidence dates, demo labels and local-only boundaries',()=>{
 });
 test('untrusted saved state is bounded and cannot inject categories or prototype scenarios',()=>{
  const s=m.freshState({lens:'wrong',scenario:'toString',watched:['valid','valid','<script>'],demo:false,categories:[100],compare:['foo']});assert.equal(s.lens,'software');assert.equal(s.scenario,'all');assert.deepEqual(s.watched,['valid']);assert.deepEqual(s.compare,[]);assert.deepEqual(s.categories,[0,1,2,3]);
+});
+
+test('both dense lenses render all 80 distinct non-overlapping targets with stable non-ranking numbers',()=>{
+ for(const lens of ['software','assets']){
+ const points=[...m.radarPositions(catalog,demo,lens).values()];assert.equal(points.length,80);
+ for(let i=0;i<points.length;i++)for(let j=i+1;j<points.length;j++)assert.ok(Math.hypot(points[i].x-points[j].x,points[i].y-points[j].y)>=27.9);
+ const numbers=m.radarNumbers(catalog,lens);assert.equal(new Set(numbers.values()).size,80);assert.deepEqual([...numbers.values()],[...Array(80)].map((_,i)=>i+1));
+ }
 });

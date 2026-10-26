@@ -21,7 +21,7 @@
 
 当前观测台支持六类十八层：地域色块、资产比例气泡与实体圆点，可叠加观察，并通过多标签、前十排行与明暗主题支持一屏/两屏演示。见[工作台契约](docs/ATLAS_WORKSPACE.md)。生态脉动的模拟增量与采集新闻、报告快照分别披露。
 
-**AI 雷达评审版：** [探索 30 个有来源的软件、模型与数据集候选](https://www.x-lab.info/open-dipper/#radar)，按任务筛选、核对证据、同类对比、导出试用清单并在本机关注。圈层和建议有明确模拟标记，可独立关闭。[实现与共建指南](docs/AI_RADAR.md)。
+**AI 雷达评审版：** [探索 160 个有来源的软件、模型与数据集候选](https://www.x-lab.info/open-dipper/#radar)，按任务筛选、核对证据、同类对比、导出试用清单并在本机关注。圈层和建议有明确模拟标记，可独立关闭。[实现与共建指南](docs/AI_RADAR.md)。
 
 [![AI 雷达评审版：任务筛选、圆形候选与来源证据](docs/assets/opendipper-ai-radar-review-20261026.jpg)](https://www.x-lab.info/open-dipper/#radar)
 
