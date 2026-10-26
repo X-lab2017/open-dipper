@@ -2,6 +2,8 @@
 
 Application baseline **1.1.0**, 2026-10-25. Delivery: [#14](https://github.com/X-lab2017/open-dipper/issues/14). This is a public review framework, not a launch of paid subscriptions or an autonomous research service.
 
+The [AI radar design proposal](design/AI_RADAR_PROPOSAL.md), dated 2026-10-26 and tracked in [#26](https://github.com/X-lab2017/open-dipper/issues/26), proposes the next radar experience. It is pending review; the route and service facts below still describe the current implementation.
+
 ## Product and routes
 
 | Route fragment | Implemented experience |

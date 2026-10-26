@@ -2,6 +2,8 @@
 
 日期：2026-10-26。当前视觉源、颜色表与扩展方法见 [design/README.md](../design/README.md)。
 
+已接受版本及源文件指纹见 [Atlas 1.3.0 基线记录](../design/baselines/atlas-1.3.0.md)；新模块使用[可复用设计模板](templates/OBSERVATORY_MODULE.md)。历史基线固定到实现提交，当前规范可随明确评审继续演进。
+
 ## 1. 品牌归属与官方素材
 
 - 实验室母品牌：X-lab AI；产品名称：OpenDipper；说明：AI & OPEN SOURCE INTELLIGENCE / 全球 AI 与开源情报站。

@@ -8,6 +8,8 @@
 
 本节优先于下方历史版本的布局与样本规模说明。当前契约见 [ATLAS_WORKSPACE.md](ATLAS_WORKSPACE.md)，合入和部署检查见 [发布计划](plans/atlas-release-v9.md)。下方验证回执均为各自历史版本，不能作为此次版本验收。
 
+本版本已按维护者确认记录为[可复用基线](../design/baselines/atlas-1.3.0.md)，包含固定提交、源文件指纹和[模块模板](templates/OBSERVATORY_MODULE.md)。下一模块 [AI 雷达设计提案](design/AI_RADAR_PROPOSAL.md) 与深浅色静态示意由 [#26](https://github.com/X-lab2017/open-dipper/issues/26) 评审；**尚未实现新的雷达页面、候选数据接入或付费服务**。
+
 ## 已落地
 
 - 开源北斗 OpenDipper 产品身份 1.0：独立七星网络/开放轨道/方向星，双语与英文顶栏、深浅主题和 favicon；中英仓库入口、SVG/透明 PNG/ICO 与可下载品牌包已纳入源码。X-lab 官方文件保持原样。生产字标为参考批准稿的新排字轮廓，见[资产与来源](../public/brand/opendipper/README.md)。本次本地 typecheck、68 项确定性检查及构建通过；浏览器和 Pages 状态应以此提交的 Actions 回执为准，不能沿用下列旧数据版结果。
@@ -68,6 +70,7 @@
 | 维护者待决策 | [#6 应用许可与各类资源复用边界](https://github.com/X-lab2017/open-dipper/issues/6) |
 | 情报门户框架与后续工作 | [#14 交付](https://github.com/X-lab2017/open-dipper/issues/14)；#15 来源、#16 证据、#17 服务、#18 编辑、#19 首份材料见[框架契约](INTELLIGENCE.md) |
 | 数据内容接入 | [#20 OpenShare 全球分布与 GOSD AI 供给](https://github.com/X-lab2017/open-dipper/issues/20) |
+| AI 雷达设计评审 | [#26 两个视角、任务式选型、证据圈层与可持续服务](https://github.com/X-lab2017/open-dipper/issues/26)；提案阶段 |
 <!-- issue-index:end -->
 
 接手时先看 issue 的最新状态、关联提交和验收条件。更多背景见 [演进记录](HISTORY.md)、[决策记录](DECISIONS.md) 和 [开发指南](DEVELOPMENT.md)。

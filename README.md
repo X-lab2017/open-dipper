@@ -105,7 +105,7 @@ Here, the *harness* is the context, tools, constraints and feedback that make en
 - **Community:** concrete source, evidence, research and service tasks with public GitHub entry points.
 - **Monthly analysis:** same-platform rankings, twelve-month trends, playback and local watchlists.
 - **Presentation:** one-screen overview, two-screen AI and intelligence discovery, fullscreen, responsive layout, English/Chinese and dark/light themes.
-- **Reusable visual system:** X-lab official assets, shared CSS/Canvas tokens and a [downloadable baseline](https://www.x-lab.info/open-dipper/design-system.html).
+- **Reusable visual system:** X-lab official assets, shared CSS/Canvas tokens and a [downloadable baseline](https://www.x-lab.info/open-dipper/design-system.html), with an [accepted version record](design/baselines/atlas-1.3.0.md) and [module template](docs/templates/OBSERVATORY_MODULE.md).
 
 | Data channel | Current scope | Cadence |
 | --- | --- | --- |

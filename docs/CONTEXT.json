@@ -202,6 +202,24 @@
       "title": "Production multilayer atlas contract",
       "purpose": "Current entry, six groups/eighteen layers, camera, rankings, independent clocks and synthetic pulse boundaries",
       "language": "en"
+    },
+    {
+      "path": "design/baselines/atlas-1.3.0.md",
+      "title": "Accepted atlas baseline",
+      "purpose": "Pinned implementation, source fingerprints, reusable composition and limits",
+      "language": "en"
+    },
+    {
+      "path": "docs/templates/OBSERVATORY_MODULE.md",
+      "title": "Observatory module template",
+      "purpose": "User outcome, page slots, data, states, service boundaries and acceptance",
+      "language": "en"
+    },
+    {
+      "path": "docs/design/AI_RADAR_PROPOSAL.md",
+      "title": "AI radar proposal (pending review)",
+      "purpose": "Task-oriented Agent engineering and model/data discovery, editorial rings, evidence and staged service model; not implemented",
+      "language": "zh-CN"
     }
   ],
   "tasks": {
@@ -428,6 +446,23 @@
         "test:observatory:ui",
         "test:portal:ui",
         "build"
+      ]
+    },
+    "ai_radar_design": {
+      "read": [
+        "docs/design/AI_RADAR_PROPOSAL.md",
+        "docs/INTELLIGENCE.md",
+        "design/baselines/atlas-1.3.0.md",
+        "docs/templates/OBSERVATORY_MODULE.md"
+      ],
+      "edit": [
+        "docs/design/AI_RADAR_PROPOSAL.md",
+        "docs/design/ai-radar-dark.svg",
+        "docs/design/ai-radar-light.svg"
+      ],
+      "checks": [
+        "docs:build",
+        "docs:check"
       ]
     }
   },

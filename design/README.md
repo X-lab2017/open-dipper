@@ -50,3 +50,9 @@ Honor reduced motion, retain keyboard navigation and stop offscreen animations. 
 When adding a layer, assign it a semantic tone in `tokens.json`, regenerate, and check map + globe in both themes. Do not assign a new saturated color simply because the layer is new. Keep distinctions meaningful and test overlapping layers as well as isolated examples.
 
 See [visual specification](../docs/VISUAL_SYSTEM.md) and [release plan and validation](../docs/plans/atlas-release-v9.md).
+
+## Accepted version and module template
+
+The accepted atlas is pinned in [baseline 1.3.0](baselines/atlas-1.3.0.md), with a [source fingerprint manifest](baselines/atlas-1.3.0.json). Start new modules with the [observatory module template](../docs/templates/OBSERVATORY_MODULE.md); reuse the global shell, theme tokens, evidence states and interaction patterns while choosing a suitable visualization for the task.
+
+`npm run design:package` includes `BASELINE.md`, `BASELINE.json`, `MODULE_TEMPLATE.md`, `RIGHTS.md` and third-party notices alongside the shared assets. Links inside these documents use repository-relative paths; consult the source repository when reading the extracted bundle. The worksheet is not a standalone application generator. The [AI radar proposal](../docs/design/AI_RADAR_PROPOSAL.md) is a first design application of this baseline, pending review rather than implemented behavior.

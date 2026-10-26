@@ -15,6 +15,11 @@ files = {
     'theme.css': 'src/design/theme.css',
     'icons.ts': 'src/design/icons.ts',
     'brand.ts': 'src/design/brand.ts',
+    'BASELINE.md': 'design/baselines/atlas-1.3.0.md',
+    'BASELINE.json': 'design/baselines/atlas-1.3.0.json',
+    'MODULE_TEMPLATE.md': 'docs/templates/OBSERVATORY_MODULE.md',
+    'RIGHTS.md': 'docs/RIGHTS.md',
+    'THIRD_PARTY_NOTICES.txt': 'public/THIRD_PARTY_NOTICES.txt',
 }
 for path in (root / 'public/brand').rglob('*'):
     if path.is_file() and path.suffix != '.zip':

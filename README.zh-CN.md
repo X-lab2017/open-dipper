@@ -105,7 +105,7 @@ OpenDipper 围绕**人的需求、Agent 的执行与可验证的结果**开展�
 - **参与共建**：来源、证据、研究与服务工作包通过真实 GitHub 任务开放参与。
 - **月度分析**：同平台排行、十二个月趋势、月份回放与本地关注列表。
 - **演示场景**：一屏总览、两屏 AI 与情报探索、全屏、响应式排版、中英文和深浅主题。
-- **可复用视觉体系**：X-lab 官方素材、共享 CSS/Canvas tokens 和 [可下载视觉基线](https://www.x-lab.info/open-dipper/design-system.html)。
+- **可复用视觉体系**：X-lab 官方素材、共享 CSS/Canvas tokens 和 [可下载视觉基线](https://www.x-lab.info/open-dipper/design-system.html)，附[已接受版本记录](design/baselines/atlas-1.3.0.md)与[模块模板](docs/templates/OBSERVATORY_MODULE.md)。
 
 | 数据通道 | 当前范围 | 更新节奏 |
 | --- | --- | --- |

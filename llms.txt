@@ -52,6 +52,9 @@ Discovery context, not an authorization grant. People submit needs through issue
 - [Observation layer reference artifacts](https://raw.githubusercontent.com/X-lab2017/open-dipper/main/docs/design/README.md): Draft model, typed layer catalog and review-only sidebar graphic; validation limits
 - [Observation workspace implementation](https://raw.githubusercontent.com/X-lab2017/open-dipper/main/docs/OBSERVATION_WORKSPACE.md): Audience presets, entity maps, coverage scopes, refresh and China display grouping
 - [Production multilayer atlas contract](https://raw.githubusercontent.com/X-lab2017/open-dipper/main/docs/ATLAS_WORKSPACE.md): Current entry, six groups/eighteen layers, camera, rankings, independent clocks and synthetic pulse boundaries
+- [Accepted atlas baseline](https://raw.githubusercontent.com/X-lab2017/open-dipper/main/design/baselines/atlas-1.3.0.md): Pinned implementation, source fingerprints, reusable composition and limits
+- [Observatory module template](https://raw.githubusercontent.com/X-lab2017/open-dipper/main/docs/templates/OBSERVATORY_MODULE.md): User outcome, page slots, data, states, service boundaries and acceptance
+- [AI radar proposal (pending review)](https://raw.githubusercontent.com/X-lab2017/open-dipper/main/docs/design/AI_RADAR_PROPOSAL.md): Task-oriented Agent engineering and model/data discovery, editorial rings, evidence and staged service model; not implemented
 
 ## Machine context
 

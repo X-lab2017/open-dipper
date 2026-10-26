@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "id": "atlas-quiet-observatory-1.3.0",
+  "status": "accepted",
+  "recordedAt": "2026-10-26",
+  "applicationVersion": "1.2.0",
+  "visualVersion": "1.3.0",
+  "repository": "https://github.com/X-lab2017/open-dipper",
+  "implementationCommit": "7b27609dd3d02ae12e6987c3c989f0a5a6da561c",
+  "receiptCommit": "3dacbbd8e74437315f844fad9c7f2d8d6f6ac3eb",
+  "pullRequest": 25,
+  "releaseWorkflowRun": 40261921471,
+  "themes": [
+    "dark",
+    "light"
+  ],
+  "languages": [
+    "zh-CN",
+    "en"
+  ],
+  "defaultView": "map",
+  "defaultPresentation": "one-screen",
+  "mapHome": {
+    "longitude": 10,
+    "latitude": 36,
+    "northUp": true
+  },
+  "sourceFiles": [
+    {
+      "path": "design/tokens.json",
+      "sha256": "f94f1522f29f199dddfbd94130deb0e2182df3c6723c54c5e2932aabaab4fe24"
+    },
+    {
+      "path": "src/design/components.css",
+      "sha256": "f1a0f14f44cb9f8479c1263551aa3aad4014d97a7280b12a4a6a06754484039d"
+    },
+    {
+      "path": "src/design/scales.ts",
+      "sha256": "cf179c251356486f141d09244d9d09045fb9899d8aec9a5348bd11e5c34734af"
+    },
+    {
+      "path": "src/atlas.ts",
+      "sha256": "f7015eb89c329fe6456ce5b9406c198755ef0d10a7b4e6f5b781acd274a74a27"
+    },
+    {
+      "path": "src/atlas.css",
+      "sha256": "f8f76ca45d56d22d4c84dca01f92972d2e5a70e746770f87ddafa14c13d705a8"
+    },
+    {
+      "path": "src/presentation-v7.css",
+      "sha256": "917713e08894b9e5acc61972a0c86be7ca71d70210170ced5779cb7495cdc435"
+    },
+    {
+      "path": "src/observatory/globe-math.ts",
+      "sha256": "478f85e6c741b207f826c9b0c1cd739175a90ffee845b506d36b6ea91890751c"
+    },
+    {
+      "path": "src/observatory/scene.ts",
+      "sha256": "331cae0655d9c9b353c48149ef25c40820274dbecf005127ab4c12abb82d346e"
+    },
+    {
+      "path": "docs/VISUAL_SYSTEM.md",
+      "sha256": "5235e84659d4e69e169b52ffe095ace60cd84456e63775e95084519397b76a7d"
+    },
+    {
+      "path": "docs/ATLAS_WORKSPACE.md",
+      "sha256": "3200f8dbf1faea3675762783c3edd16afada3c9b02d9cb121f437f38bb28f085"
+    }
+  ],
+  "moduleTemplate": "docs/templates/OBSERVATORY_MODULE.md",
+  "rights": "docs/RIGHTS.md",
+  "note": "Fingerprints identify accepted source at implementationCommit. Current main and scheduled data snapshots may advance independently. This is not a Git tag, standalone scaffold or new license."
+}
