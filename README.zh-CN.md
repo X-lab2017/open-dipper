@@ -23,6 +23,10 @@
 
 **AI 雷达评审版：** [探索 30 个有来源的软件、模型与数据集候选](https://www.x-lab.info/open-dipper/#radar)，按任务筛选、核对证据、同类对比、导出试用清单并在本机关注。圈层和建议有明确模拟标记，可独立关闭。[实现与共建指南](docs/AI_RADAR.md)。
 
+[![AI 雷达评审版：任务筛选、圆形候选与来源证据](docs/assets/opendipper-ai-radar-review-20261026.jpg)](https://www.x-lab.info/open-dipper/#radar)
+
+*2026-10-26 · 已上线评审版本；来源事实与模拟建议分别标识。*
+
 <!-- section:business -->
 ## 业务视角
 

@@ -1,6 +1,6 @@
 # Execution plan: AI radar review release and product wordmark spacing
 
-- State: active; authorized by maintainer on 2026-10-26 after proposal #26.
+- State: delivered and live; awaiting maintainer product review in #26; authorized by maintainer on 2026-10-26 after proposal #26. Production receipt is recorded below and in #26.
 - Baseline: application 1.2.0 / visual 1.3.0, accepted atlas `7b27609`.
 - Working branch: `feat/ai-radar-review`, based on `61b2aad` including bot snapshots.
 - Scope: ship the two-lens radar, real-source candidate facts, visibly simulated assessment/content where needed, task guidance, details/compare/follow/export, dark/light and responsive presentation; improve reusable product wordmark spacing.
@@ -32,4 +32,9 @@ Codex owns application, integration, validation and publication. A bounded asset
 
 Local checks passed on 2026-10-26: `npm run typecheck`, full `npm test`, and `npm run build`. Radar semantics add nine focused checks; brand checks pass. Managed browser inspection verified both radar lenses, dark/light contrast, label spacing, same-kind comparison, demo-off dataset facts and local follow navigation. The preview uses the existing managed Sites daemon; no alternate browser runtime was installed.
 
-CI browser acceptance and Pages deployment remain pending at this commit. The branch adds `tests/radar-ui.mjs` for the full interaction and failure matrix, executed by `test:portal:ui`. Publication receipts will be appended to #26. AI-assisted implementation and source curation are disclosed in the module contract; no independent evaluation is claimed.
+[PR CI 40268740005](https://github.com/X-lab2017/open-dipper/actions/runs/40268740005) passed all checks, including the added `tests/radar-ui.mjs` interaction/failure matrix, existing observatory/workspace tests and legacy panorama/analysis acceptance. [PR #27](https://github.com/X-lab2017/open-dipper/pull/27) was merged as `a5ac9e26bcf38ee800a5c841eefb08d68c55be61`. AI-assisted implementation and source curation are disclosed in the module contract; no independent evaluation is claimed.
+
+
+## Production receipt
+
+[CI / Pages 40268988631](https://github.com/X-lab2017/open-dipper/actions/runs/40268988631) succeeded, including all browser acceptance, collection and deployment. The public `https://www.x-lab.info/open-dipper/#radar` route was opened and verified with its 12 software / 12 models / 6 datasets, default demo labels and updated header lockup. The [dated screenshot](../assets/opendipper-ai-radar-review-20261026.jpg) captures that deployed state; it is a record, not live data. No paid service or independently reviewed ring classification is claimed. Further content and evaluation work stays with #15, #16, #18 and #19; services with #17, rights with #6.

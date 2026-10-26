@@ -51,3 +51,10 @@ Source and reuse boundaries: [RIGHTS.md](RIGHTS.md). Agentic AI Landscape facts 
 - `npm run radar:check`: identity/source integrity, separate facts/demo clocks, missing data, filters, comparison limits, stable placement, exports and hostile local state.
 - `npm run test:portal:ui`: portal regression plus `tests/radar-ui.mjs` for task/lens flows, comparisons/downloads, watches/reload, source/checklist dialogs, keyboard, overlay return, two screens, themes, English, mobile and independent file failures.
 - Required release gates: `npm run typecheck`, `npm test`, `npm run build`, CI browser acceptance and actual Pages deployment. Successful compilation alone is not publication.
+
+
+## Published review record
+
+[PR #27](https://github.com/X-lab2017/open-dipper/pull/27) and [CI / Pages 40268988631](https://github.com/X-lab2017/open-dipper/actions/runs/40268988631) delivered this version. The image below was captured from the public `#radar` route on 2026-10-26. It shows sourced snapshots and separately labelled illustrative advice, not current statistics. It was captured by Codex through the managed browser and is retained as a deliberate product-review record rather than disposable CI output.
+
+![AI radar review: software lens with sourced evidence and separate demo guidance](assets/opendipper-ai-radar-review-20261026.jpg)

@@ -4,7 +4,7 @@
 
 ## 当前评审实现：应用 1.3.0
 
-2026-10-26，经维护者批准实现任务式 AI 雷达：两个视角、12 个软件、12 个模型版本、6 个数据集，支持筛选、证据、多标签详情、同类对比、试用导出和本机关注；圈层与建议是独立、可关闭的固定演示。产品品牌资产更新为 **1.1.0**，增加字标留白并更新 SVG/PNG/ICO，X-lab 原始资产保持不变。见 [雷达契约](AI_RADAR.md) 和 [执行计划](plans/ai-radar-implementation.md)。本次的实际 CI / Pages 回执记录于 [#26](https://github.com/X-lab2017/open-dipper/issues/26)，不沿用旧版验收。
+2026-10-26，经维护者批准实现任务式 AI 雷达：两个视角、12 个软件、12 个模型版本、6 个数据集，支持筛选、证据、多标签详情、同类对比、试用导出和本机关注；圈层与建议是独立、可关闭的固定演示。产品品牌资产更新为 **1.1.0**，增加字标留白并更新 SVG/PNG/ICO，X-lab 原始资产保持不变。见 [雷达契约](AI_RADAR.md) 和 [执行计划](plans/ai-radar-implementation.md)。本次 [PR #27](https://github.com/X-lab2017/open-dipper/pull/27) 已合入，[CI / Pages 40268988631](https://github.com/X-lab2017/open-dipper/actions/runs/40268988631) 通过完整测试、浏览器验收与部署；线上已打开核对。评审继续在 [#26](https://github.com/X-lab2017/open-dipper/issues/26)。
 
 ## 已接受的地图整合基线
 

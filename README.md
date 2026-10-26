@@ -23,6 +23,10 @@ The current atlas combines six groups and eighteen layers: regional fills, propo
 
 **AI radar review:** [Explore 30 sourced software, model and dataset candidates](https://www.x-lab.info/open-dipper/#radar), filter by task, inspect evidence, compare like candidates, export trial checklists and follow locally. Ring placements and advice are clearly marked demonstrations with an off switch. [Implementation and contribution guide](docs/AI_RADAR.md).
 
+[![AI radar review with task filters, circular candidates and evidence details](docs/assets/opendipper-ai-radar-review-20261026.jpg)](https://www.x-lab.info/open-dipper/#radar)
+
+*2026-10-26 · Published review version. Facts and simulated guidance are labelled separately.*
+
 <!-- section:business -->
 ## Business view
 
