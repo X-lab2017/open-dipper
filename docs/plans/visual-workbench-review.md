@@ -1,6 +1,6 @@
 # Compact observatory — private review revision
 
-- Execution state: revised private build delivered; maintainer visual acceptance pending
+- Execution state: Hallmark-informed restyle in progress on the approved compact composition
 - Baseline: `6cb118b6896c044b0cdd510f7a09ee869ba8b998`
 - Branch: `design/observatory-review-v2`; draft PR https://github.com/X-lab2017/open-dipper/pull/37
 - Scope: preserve original structure and information while refining visual details. Update the existing private review Site; do not merge or deploy GitHub Pages.
@@ -40,3 +40,15 @@ The earlier single-layer default, large title, uneven columns, tall ranking rows
 Private review: https://opendipper-workbench-review-20261026.token4all.chatgpt.site
 
 Apply further feedback on this branch and update this Site. Do not merge, accept a new baseline or deploy Pages without a subsequent release instruction. Physical touch devices and a complete assistive-technology audit are outside the recorded checks.
+
+## Follow-up: system restyle within the compact composition
+
+The maintainer accepted the restored composition and authorized a systematic visual refinement while retaining structure and information. Starting point: `3c2e7b11750fda34cb391dbb323574b2206e0bd2`. Preserve the six acceptance constraints above.
+
+Apply Hallmark v2's app-screen/restyle ideas to the existing brand: a small type hierarchy, body-face labels, tabular figures, restrained surfaces, lighter separators, aligned numeric columns, distinct selection/focus states and paired themes. All original markup, text, values, actions and module layouts stay in place; no new title row or collapsed content. Refine the shared shell, Atlas tree/summary/inspector/pulse/news, Radar/Galaxy text and controls, and evidence dialogs.
+
+Sources consulted 2026-10-27: Nutlope/hallmark README and `skills/hallmark/references/{flow,redesign,craft,fonts,data-viz,dark-mode}.md`. This adapts principles, not a new theme or runtime dependency; the existing project checks and managed browser provide verification. No claim of a complete Hallmark lint pass.
+
+Files: edit `design/tokens.json`, `src/design/workbench.css`, one obsolete mobile font-size override in `src/presentation-v7.css`, generated token mirrors, docs and visual-version assertion. Production TypeScript, data snapshots, routes and official assets are unchanged.
+
+Validation pending: existing 20-case first-screen inventory/clipping matrix, mobile matrix, all module interaction suites, local deterministic checks and private deployment.

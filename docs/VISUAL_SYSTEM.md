@@ -1,6 +1,6 @@
 # OpenDipper × X-lab AI 视觉体系 v1.3
 
-日期：2026-10-26。当前视觉源、颜色表与扩展方法见 [design/README.md](../design/README.md)。
+日期：2026-10-27。当前视觉源、颜色表与扩展方法见 [design/README.md](../design/README.md)。
 
 已接受版本及源文件指纹见 [地图 + 雷达 1.3.2 基线记录](../design/baselines/observatory-radar-1.3.2.md)；新模块使用[可复用设计模板](templates/OBSERVATORY_MODULE.md)。历史基线固定到实现提交，当前规范可随明确评审继续演进。
 
@@ -19,6 +19,8 @@
 
 地图与图例共用 `src/design/scales.ts`：区域指标按 log1p 归一化，顺序色阶亮度单调；缺失值保留独立灰色。资产以气泡面积表示数量，实体采用圆形与环状纹理。选择状态使用统一交互色，不把图层颜色大面积铺在控件上。
 
+全局字体继续使用系统与中文字体栈；正文、标签和数字使用统一字体，数字启用等宽数字特性，代码与坐标才使用等宽字体。常规标签与行名 11–12px，标题 13–14px，主统计 26px，脉动数值 20px；低高度桌面分别降为 23px 与 17px，沿用原有行高预算。选中标签以底线与背景明确区分，普通数字保持中性色，图表保留语义色。雷达、星系、研究与证据面板复用这一层级。
+
 ## 3. 布局、地图与动态
 
 评审候选保留原版三栏与一屏综合观测：左右栏等宽，顶部五项总体统计，中间地图/地球，底部生态脉动常驻；图层显示管理直接可用。右侧保留观察范围与计数、标签页、完整前十排行、新闻/活动。默认五层叠加和模拟标识不变，不新增大标题行，不用折叠内容换取留白。两屏增加完整清单与快讯；手机自然纵向布局并保留图层/地图/概览入口。
@@ -29,7 +31,7 @@
 
 ## 4. 复用与验证
 
-维护 `design/tokens.json`，运行 `npm run design:build` 生成 CSS、Canvas palette 和公开资源；不要手改生成文件。`src/design/components.css` 维护交互状态，原版布局继续由 `presentation-v7.css` 等既有样式负责，`src/design/workbench.css` 只补充紧凑视觉细节；`entry.css` 统一样式加载；兼容入口保持自己的样式。视觉包仍使用原稳定下载 URL，评审包内版本为 1.4.0-rc.2，已接受历史基线仍保留 1.3.0 tokens。
+维护 `design/tokens.json`，运行 `npm run design:build` 生成 CSS、Canvas palette 和公开资源；不要手改生成文件。`src/design/components.css` 维护交互状态，原版布局继续由 `presentation-v7.css` 等既有样式负责，`src/design/workbench.css` 只补充紧凑视觉细节；`entry.css` 统一样式加载；兼容入口保持自己的样式。视觉包仍使用原稳定下载 URL，评审包内版本为 1.4.0-rc.3，已接受历史基线仍保留 1.3.0 tokens。
 
 `npm run design:check` 验证品牌文件、文字与状态颜色；`npm run test:atlas` 验证明暗色阶、图例一致性、可选单选、气泡、相机与模拟边界。发布前检查两种主题的地图/地球、键盘、缩放、复位、全屏返回、标签与响应式。见 [工作台契约](ATLAS_WORKSPACE.md) 和 [发布计划](plans/atlas-release-v9.md)。
 

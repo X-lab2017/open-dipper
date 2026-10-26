@@ -14,8 +14,8 @@ The observation, interaction and evidence layers share one visual system. Preser
 
 | Role | Dark | Light | Use |
 | --- | --- | --- | --- |
-| Page | `#0C121A` | `#F0F3F5` | Quiet background |
-| Panel | `#141E28` | `#FCFDFC` | Information surfaces |
+| Page | `#0F141B` | `#EEF2F4` | Quiet background |
+| Panel | `#18212B` | `#F8FAFB` | Information surfaces |
 | Primary text | `#E2EBF0` | `#203540` | Names and main values |
 | Secondary text | `#AEBFCB` | `#465E6B` | Labels and supporting copy |
 | Muted text | `#8DA4B4` | `#566D79` | Dates, units and metadata |
@@ -43,6 +43,12 @@ Layer help appears on hover, keyboard focus or touch devices. At the top of the 
 
 Honor reduced motion, retain keyboard navigation and stop offscreen animations. Do not add decorative effects that compete with the data or imply measurement.
 
+## Typography within the compact composition
+
+The Hallmark-informed restyle applies its app-screen and preserve-layout principles to existing modules. Keep the system/CJK body stack; reserve monospace for actual codes and coordinate readouts. Use 11–12px labels and row names, 13–14px section titles, and tabular body-face numerals. Main summaries use 26px (23px on short desktop screens); pulse values use 20px (17px on short screens). Supporting metadata uses 9–10px. These fit the existing row budgets rather than increasing panel height.
+
+Prefer neutral text for names and quantities; retain semantic color in data marks and explicit states. Underlines and surface changes reinforce active navigation; focus outlines are immediate. The five global summaries, ten ranking rows, four pulse metrics, seven platforms, stream and controls remain visible. Radar, Galaxy, research and evidence views reuse the same body/metadata hierarchy without restructuring their content. No new font dependency, images or third-party code was added.
+
 ## Verification and extension
 
 `npm test` checks nominal text/action/layer/pulse colors at 4.5:1 or better against paired panel/page/input surfaces, monotonic ramp luminance, shared map/legend stops, missing-value semantics and point-stack ordering. This is a focused regression check, not a claim of complete accessibility certification.
@@ -53,7 +59,7 @@ See [visual specification](../docs/VISUAL_SYSTEM.md) and [release plan and valid
 
 ## Review status and accepted baseline
 
-The workbench candidate uses visual tokens `1.4.0-rc.2`; it is not an accepted baseline or public release. See [review plan](../docs/plans/visual-workbench-review.md). Atlas retains the original comprehensive five-layer default, equal sidebars, five summary values, scope counts, full top ten, latest news and always-visible ecosystem pulse. Display management remains directly accessible. Preserve the original row budgets and responsive behavior; do not introduce large headings, taller rows or content disclosures that reduce the overview.
+The workbench candidate uses visual tokens `1.4.0-rc.3`; it is not an accepted baseline or public release. See [review plan](../docs/plans/visual-workbench-review.md). Atlas retains the original comprehensive five-layer default, equal sidebars, five summary values, scope counts, full top ten, latest news and always-visible ecosystem pulse. Display management remains directly accessible. Preserve the original row budgets and responsive behavior; do not introduce large headings, taller rows or content disclosures that reduce the overview.
 
 ## Accepted version and module template
 

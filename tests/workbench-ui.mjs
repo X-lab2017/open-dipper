@@ -23,8 +23,8 @@ try {
 
   // Visibility includes clipping ancestors; DOM presence alone hid the regression.
   const clippedContent=()=>{
-    const selectors=['.coverage-metric','.scope-stats','.inspector-rank','.catalog-link',
-      '.latest-row','.pulse-metric','.pulse-platform','.pulse-event','.pulse-controls button',
+    const selectors=['.coverage-metric','.coverage-metric strong','.scope-stats','.inspector-rank','.inspector-rank strong','.catalog-link',
+      '.latest-row','.pulse-metric','.pulse-value-row strong','.pulse-metric-label i','.pulse-platform','.pulse-event','.pulse-controls button',
       '.stack-title','#clear-layers'];
     const clipped=[];
     for(const selector of selectors)for(const [i,e] of [...document.querySelectorAll(selector)].entries()){
@@ -38,6 +38,7 @@ try {
         if(/hidden|clip|auto|scroll/.test(s.overflowX)){left=Math.max(left,b.left);right=Math.min(right,b.right);}
         if(/hidden|clip|auto|scroll/.test(s.overflowY)){top=Math.max(top,b.top);bottom=Math.min(bottom,b.bottom);}
       }
+      if(e.matches('.coverage-metric strong,.inspector-rank strong,.pulse-value-row strong,.pulse-metric-label i')&&e.scrollWidth>e.clientWidth+1)clipped.push(`${selector}[${i}]:text`);
       if(!r.width||!r.height||r.left<left-1||r.right>right+1||r.top<top-1||r.bottom>bottom+1)clipped.push(`${selector}[${i}]`);
     }
     return clipped;

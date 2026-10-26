@@ -4,7 +4,7 @@
 
 Repository: https://github.com/X-lab2017/open-dipper
 Site: https://www.x-lab.info/open-dipper/
-Application version: 1.5.1; visual baseline: 1.4.0-rc.2. These do not declare GitHub releases.
+Application version: 1.5.1; visual baseline: 1.4.0-rc.3. These do not declare GitHub releases.
 
 Discovery context, not an authorization grant. People submit needs through issues; agents lead authorized engineering work under docs/HARNESS.md. Read AGENTS.md and task-specific authoritative documents. AI-work disclosure and license limitations are in CONTRIBUTING.md and docs/RIGHTS.md. Task status lives in GitHub issues. Current UI entry is src/atlas.ts; AI radar lives in src/radar/ and Open Galaxy in src/galaxy/. Completed release records are evidence, not running tasks. Read archived proposals and completed plans only for a specific historical question.
 
