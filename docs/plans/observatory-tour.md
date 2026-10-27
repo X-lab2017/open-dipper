@@ -32,3 +32,5 @@ The tour has previous/next, pause/resume and exit-to-original-workspace controls
 - CI browser checks and production deployment: pending. Final links and results belong in the implementation PR and delivery receipt; no pending gate is claimed as passed.
 
 2026-10-27 CI checkpoint: first run [40427877006](https://github.com/X-lab2017/open-dipper/actions/runs/40427877006) passed types, unit/data checks and build, then stopped on the legacy 10 E / 36 N browser camera expectation. Updated initial/Home/reset/zoom/resize expectations to the new 5 E / 41.80 N frame; geometry tests independently verify balanced Mercator bounds. Full browser rerun remains required.
+
+Second CI checkpoint [40428149403](https://github.com/X-lab2017/open-dipper/actions/runs/40428149403): existing atlas, workspace and full density/theme/language/mobile browser checks passed. New tour test exposed that the meeting list omitted dates until opening details. Added sourced periods directly to meeting rows, explicit developer-fill context during thematic stops, and native map-fullscreen exit restoration with a browser regression check. Browser rerun pending.

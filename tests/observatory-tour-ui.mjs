@@ -22,7 +22,8 @@ try{
   if(i===4){await expect(page.locator('#observation-panel')).toContainText('2026-11-09');await expect(page.locator('#tour-next')).toBeDisabled();}
   else await page.locator('#tour-next').click();
  }
- await page.keyboard.press('Escape');await expect(page.locator('#tour-start')).toBeFocused();
+ await page.locator('#map-fullscreen-button').click();await expect(page.locator('.shell')).toHaveClass(/focus-mode/);
+ await page.keyboard.press('Escape');await expect(page.locator('.shell')).not.toHaveClass(/focus-mode/);await expect.poll(()=>page.evaluate(()=>!!document.fullscreenElement)).toBe(false);await expect(page.locator('#tour-start')).toBeFocused();
  await expect(page.locator('#earth')).toHaveAttribute('data-camera',before);
  await expect(page.locator('#earth')).toHaveAttribute('data-bubble-layer','models');
  await expect(page.locator('.scope-stats b')).toHaveText(['5','3','11']);
