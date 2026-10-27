@@ -1,39 +1,39 @@
 1
-00:00:00,000 --> 00:00:04,000
-开源世界，正在连接。
+00:00:00,000 --> 00:00:03,000
+开源世界，正在连接。开源北斗 OpenDipper。
 A world of open possibilities.
 
 2
-00:00:04,000 --> 00:00:08,000
-开源北斗：AI 与开源情报平台。
-Observe. Discover. Research. Build together.
+00:00:03,000 --> 00:00:10,000
+一个平台，连接观察、发现与研究。
+Observe. Discover. Connect. Understand. Build together.
 
 3
-00:00:08,000 --> 00:00:16,000
+00:00:10,000 --> 00:00:17,000
 全球观测：从世界，看见生态。
 A global perspective. Upstream coverage: 246 countries and regions.
 
 4
-00:00:16,000 --> 00:00:24,000
+00:00:17,000 --> 00:00:24,000
 AI 雷达：面向全域数据，发现你的下一步。
 Global data foundation preview; not current radar coverage.
 
 5
-00:00:24,000 --> 00:00:32,000
+00:00:24,000 --> 00:00:31,000
 开源星系：发现项目之间的联系。
-Explore connections across fixed code and model snapshots.
+Explore connections across fixed network snapshots.
 
 6
-00:00:32,000 --> 00:00:45,000
+00:00:31,000 --> 00:00:43,000
 Agent 情报室：情报浏览 → 知识整理 → 深度研究。
-vLLM / SGLang editorial case. Not live DSH output or a benchmark.
+vLLM / SGLang editorial case; not live DSH output or a benchmark.
 
 7
-00:00:45,000 --> 00:00:54,000
-共建社区：开放的未来，一起构建。
-Share needs. Contribute evidence. Build together.
+00:00:43,000 --> 00:00:52,000
+北斗的下一颗星，也许来自你。
+Share feedback. Contribute evidence. Build together.
 
 8
-00:00:54,000 --> 00:01:00,000
-立即试用，反馈共建。
+00:00:52,000 --> 00:00:58,000
+看见连接，发现可能。立即试用，反馈共建。
 www.x-lab.info/open-dipper

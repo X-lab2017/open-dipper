@@ -1,50 +1,59 @@
 {
   "state": "passed",
-  "checkedAt": "2026-10-27",
+  "checkedAt": "2026-10-28",
   "applicationVersion": "1.15.1",
   "applicationMerge": "b25e40a0684ca9663fadb592bd43a4edafd3eb31",
   "pagesRun": 40529952243,
   "method": "AI-assisted representative-frame review plus complete ffmpeg video/audio decode; not independent human acceptance.",
   "video": {
-    "file": "OpenDipper-Promo-v3-1080p.mp4",
-    "bytes": 13038761,
-    "sha256": "b723f4f355e7d5d2698514e122e76085c2403afd0f7c379f84a002df540bd7ed",
-    "durationSeconds": 60,
+    "file": "OpenDipper-Promo-v4-1080p.mp4",
+    "bytes": 10909026,
+    "sha256": "afbde8b6e8cd754d6e7470a833fb0cd0feb4682646ccad171c2c613fe489dac7",
+    "durationSeconds": 58,
     "width": 1920,
     "height": 1080,
     "fps": 30,
-    "frames": 1800,
+    "frames": 1740,
     "videoCodec": "h264",
     "audioCodec": "aac",
     "audioSampleRate": 48000,
     "audioChannels": 2,
     "integratedLoudnessLUFS": -15.6,
-    "truePeakDBFS": -1.6
+    "truePeakDBFS": -1.8
   },
   "visualReview": {
     "scenes": 8,
     "representativeTimes": [
-      2.6,
-      6.5,
-      11.2,
-      12.5,
-      20.2,
+      2.3,
+      7,
+      14.2,
+      21.2,
       28.8,
-      34.8,
-      37.5,
-      41,
-      50,
-      57
+      40,
+      48,
+      55.5
     ],
     "checks": [
-      "five modules and active room workflow",
-      "Chinese and English text",
-      "actual release screenshots with original scope labels",
-      "upstream totals not radar coverage",
-      "editorial report not DSH output",
-      "source and brand rights disclosure"
+      "all screenshot assets dark",
+      "overview before module detail",
+      "four module captions fully visible in overview",
+      "distinct Community next-star invitation",
+      "0.35s scene crossfades and 0.55s reading/report crossfade",
+      "58 seconds with retimed soundtrack and captions",
+      "demo and upstream scope qualifiers retained"
     ]
   },
   "decode": "complete video/audio decode succeeded; no error output",
-  "assetsManifest": "assets.json"
+  "assetsManifest": "assets.json",
+  "timelineSeconds": [
+    0,
+    3,
+    10,
+    17,
+    24,
+    31,
+    43,
+    52,
+    58
+  ]
 }
