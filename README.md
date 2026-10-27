@@ -197,3 +197,5 @@ OpenDipper is independently implemented. Spatial interaction references [world-m
 Visual discovery in the Agent Room now offers a faceted timeline, topic radar and six-stop story walk. Select a cluster to inspect its sources or begin a local research draft. Counts describe the loaded index, not global popularity. [Design and data semantics](docs/INTELLIGENCE_LIBRARY.md).
 
 ![Agent Room · Visual discovery](docs/assets/agent-room/visual-story.jpg)
+
+The intelligence review workbench combines tasks, entity/material facets, three visual lenses and inline evidence with a local Agent draft composer. Its retained catalog has 940 source records, plus existing observations/events; the corpus is a sourced sample, not live Agent research. [Scope and sources](docs/INTELLIGENCE_LIBRARY.md).

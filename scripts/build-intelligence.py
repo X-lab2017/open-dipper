@@ -8,7 +8,7 @@ def topics(text):
  rules={'agents':r'agent|tool.?use|react|智能体','models':r'model|llm|dataset|模型|训练|transformer','infra':r'infer|kubernetes|gpu|runtime|serving|cloud|compiler','security':r'secur|vulnerab|safety|安全','governance':r'licen|govern|policy|standard|合规','ecosystem':r'communit|contribut|open.?source|foundation|生态'}
  return [k for k,p in rules.items() if re.search(p,text,re.I)] or ['ecosystem']
 def build():
- collected=read('data/reference/intelligence/collected.json');records=read('data/reference/intelligence/curated.json')+collected['records'];catalog=read('public/data/radar-catalog.json');entities={};links=[]
+ collected=read('data/reference/intelligence/collected.json');records=read('data/reference/intelligence/curated.json')+collected['records'];expanded=read('data/reference/intelligence/expanded.json');records+=expanded['records'];catalog=read('public/data/radar-catalog.json');entities={e['url']:e for e in expanded['entities']};links=[]
  for e in catalog['entities']:
   eid='object-'+hid(e['url']);entities[e['url']]={'id':eid,'name':e['name'],'type':{'software':'project','model':'model','dataset':'dataset'}[e['kind']],'url':e['url']};src=next(s for s in catalog['sources'] if s['id']==e['sourceIds'][0]);metric=next((m for m in e['metrics'] if m.get('status')=='observed'),None)
   summary=[e['description']['zh'],e['description']['en']];scope=src.get('scope',{});period=[scope.get('zh','原始来源范围'),scope.get('en','Original source scope')]
@@ -29,10 +29,11 @@ def build():
   r.setdefault('dateBasis','published');r.setdefault('verification','source-metadata');r.setdefault('entityUrls',[])
   if r['url'] not in dedup:dedup[r['url']]=r
  for r in dedup.values():
+  r.setdefault('entityTypes',sorted({entities[u]['type'] for u in r['entityUrls'] if u in entities}))
   for u in r['entityUrls']:
    if u not in entities:entities[u]={'id':'object-'+hid(u),'name':u.rstrip('/').split('/')[-1],'type':'project','url':u}
    links.append({'from':r['id'],'to':entities[u]['id'],'type':'describes' if r['kind']=='data' else 'references','evidenceUrl':r.get('sourceUrl',r['url']),'status':'source-recorded'})
- return {'schemaVersion':1,'assembledAt':collected['checkedAt'],'taxonomyVersion':'1','records':sorted(dedup.values(),key=lambda r:r['date'],reverse=True),'entities':list(entities.values()),'links':links,'health':collected['health']}
+ return {'schemaVersion':1,'assembledAt':collected['checkedAt'],'taxonomyVersion':'1','records':sorted(dedup.values(),key=lambda r:r['date'],reverse=True),'entities':list(entities.values()),'links':links,'health':collected['health']+expanded['health']}
 if __name__=='__main__':
  p=ROOT/'public/data/intelligence-catalog.json';s=json.dumps(build(),ensure_ascii=False,indent=2)+'\n'
  if '--check' in sys.argv:
