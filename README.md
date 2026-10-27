@@ -192,3 +192,7 @@ OpenDipper is independently implemented. Spatial interaction references [world-m
 The intelligence homepage is a focused Folo-inspired reader: source navigation, a compact list, readable source excerpts and local saved/read state. Charts, duplicate streams and Agent controls are removed from Intelligence. Research can import saved sources and keeps its own draft workspace. Its retained catalog has 940 source records, plus existing observations/events; the corpus is a sourced sample, not live Agent research. [Scope and sources](docs/INTELLIGENCE_LIBRARY.md).
 
 ![Focused intelligence reader](docs/assets/agent-room/focused-reader.jpg)
+
+Research now has an Open Notebook-inspired workspace: notebooks, selected source context, saved questions, editable notes/templates and Markdown/JSON export. Questions are not executed; the fictional walkthrough is separate. The Open Notebook backend is not connected. [Research space](docs/RESEARCH_SPACE.md).
+
+![Research space](docs/assets/agent-room/research-space.jpg)

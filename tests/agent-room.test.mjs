@@ -31,3 +31,15 @@ test('reading metadata survives malformed local storage within bounded limits',(
  assert.equal(normalizeReader({saved:Array.from({length:2400},(_,i)=>'source:'+i)}).saved.length,2000);
  assert.deepEqual(toggleReader(['a','b'],'a'),['b']);assert.deepEqual(toggleReader(['a'],'b'),['a','b']);
 });
+
+import {normalizeNotebooks,contextIds,notebookBundle,notebookMarkdown} from '../src/intelligence-room/notebook-model.ts';
+test('notebooks normalize bounded state and preserve independent question source context',()=>{
+ const s=normalizeNotebooks({active:'a',books:[{id:'a',title:'x'.repeat(200),sourceIds:['real','real','aurora-initial','bad<>'],excluded:['real'],questions:[{id:'q',text:'Why?',sourceIds:['real']}],notes:[{id:'note',title:'My note',body:'Body',origin:'not-ai',sourceIds:['real']}]},{id:'a',title:'duplicate'},null,{id:'<script>'}]});
+ assert.equal(s.books.length,1);assert.equal(s.books[0].title.length,120);assert.equal(s.books[0].notes[0].origin,'manual');
+ const real={...demoMaterials[0],id:'real',provenance:'source',url:'https://example.org/source'};
+ assert.deepEqual(contextIds(s.books[0],[real,...demoMaterials]),[]);
+ s.books[0].excluded=[];assert.deepEqual(contextIds(s.books[0],[real,...demoMaterials]),['real']);
+ s.books[0].sourceIds=[];assert.deepEqual(s.books[0].questions[0].sourceIds,['real']);
+ const bundle=notebookBundle(s.books[0],[real]);assert.equal(bundle.execution,'not-connected');assert.equal(bundle.sources[0].id,'real');assert.equal(bundle.sources[0].url,real.url);
+ assert.match(notebookMarkdown(s.books[0],[],true),/unavailable/);assert.match(notebookMarkdown(s.books[0],[real],true),/questions not executed/);
+});

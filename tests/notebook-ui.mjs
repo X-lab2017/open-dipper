@@ -1,0 +1,29 @@
+import {chromium,expect} from '@playwright/test';
+import fs from 'node:fs/promises';
+const browser=await chromium.launch({headless:true});
+try{
+ const page=await browser.newPage({viewport:{width:1366,height:768},reducedMotion:'reduce'});const errors=[];page.on('pageerror',e=>errors.push(e.message));
+ await page.goto(process.env.BASE_URL||'http://127.0.0.1:4173/open-dipper/#briefing');await expect(page.locator('.focused-reader')).toBeVisible();
+ const initial=await page.locator('[data-reader-save]').getAttribute('data-reader-save');await page.locator('[data-reader-save]').click();
+ await page.locator('.room-tabs [data-room="tab:research"]').click();await expect(page.locator('.notebook-space')).toBeVisible();
+ await page.locator('#nb-title').fill('真实资料研究 <script>alert(1)</script>');await page.locator('[data-nb="saved"]').click();await expect(page.locator('[data-nb-context]')).toHaveAttribute('data-nb-context',initial);
+ const firstBook=await page.locator('#nb-switch').inputValue();
+ await page.locator('[data-nb="picker"]').first().click();await page.locator('#nb-source-query').fill('vLLM');await page.locator('#nb-source-search button').click();await expect(page.locator('.nb-picker-list')).toContainText('vLLM');
+ const added=await page.locator('[data-nb-add]').first().getAttribute('data-nb-add');await page.locator('[data-nb-add]').first().check();await page.locator('.nb-dialog footer [data-nb="close"]').click();
+ await page.locator('[data-nb-context="'+initial+'"]').uncheck();await page.locator('#nb-question').fill('哪些结论还缺少证据？ <img src=x onerror=alert(1)>');await page.locator('#nb-question-form button').click();
+ await expect(page.locator('.nb-question')).toContainText('尚未提交模型');await page.locator('.nb-question summary').click();await expect(page.locator('.nb-question [data-nb-source]')).toHaveCount(1);await expect(page.locator('.nb-question [data-nb-source]')).toHaveAttribute('data-nb-source',added);
+ await page.locator('[data-nb-remove="'+added+'"]').click();await expect(page.locator('.nb-question [data-nb-source]')).toHaveAttribute('data-nb-source',added);
+ await page.locator('[data-nb-question-note]').click();await page.locator('#nb-note-title').fill('采用条件');await page.locator('#nb-note-body').fill('我的判断：还需同一硬件与工作负载的验证。');
+ await page.locator('[data-nb="new"]').click();await expect(page.locator('.nb-question')).toHaveCount(0);await expect(page.locator('[data-nb-context]')).toHaveCount(0);await expect(page.locator('#nb-note-body')).toHaveCount(0);
+ await page.locator('#nb-switch').selectOption(firstBook);await expect(page.locator('#nb-note-body')).toHaveValue('我的判断：还需同一硬件与工作负载的验证。');
+ await page.reload();await expect(page.locator('#nb-note-title')).toHaveValue('采用条件');await expect(page.locator('#nb-title')).toHaveValue('真实资料研究 <script>alert(1)</script>');
+ await page.locator('[data-nb-template="brief"]').click();await expect(page.locator('#nb-note-body')).toContainText('待填写');await expect(page.locator('.nb-note-editor')).toContainText('可编辑模板');
+ const box=await page.locator('.notebook-space').boundingBox();expect(box.y+box.height).toBeLessThanOrEqual(768);await expect(page.locator('#nb-question-form button')).toBeVisible();
+ await fs.mkdir('screenshots',{recursive:true});await page.screenshot({path:'screenshots/research-space-dark.png'});
+ await page.locator('[data-nb="export"]').click();const pending=page.waitForEvent('download');await page.locator('#nb-json-export').click();const dl=await pending;const data=JSON.parse(await fs.readFile(await dl.path(),'utf8'));expect(data.execution).toBe('not-connected');expect(data.notebook.questions[0].sourceIds).toEqual([added]);expect(data.sources.some(s=>s.id===added)).toBe(true);await page.keyboard.press('Escape');
+ await page.locator('[data-nb="new"]').click();await page.locator('[data-nb="demo"]').click();await expect(page.locator('.nb-demo-answer')).toContainText('虚构');await page.locator('.nb-demo-answer [data-nb-source]').first().click();await expect(page.locator('.nb-source-detail')).toContainText('DEMO');await page.keyboard.press('Escape');await expect(page.locator('.nb-overlay')).toHaveCount(0);await page.locator('[data-nb="save-demo"]').click();await expect(page.locator('.nb-note-editor')).toContainText('虚构示例');
+ await page.locator('#theme-toggle').click();await page.locator('#language-toggle').click();await expect(page.locator('.nb-status')).toContainText('DEMO');await page.screenshot({path:'screenshots/research-space-light.png'});
+ await page.setViewportSize({width:390,height:844});await page.locator('[data-nb-pane="sources"]').click();await expect(page.locator('.nb-sources')).toBeVisible();await expect(page.locator('.nb-chat')).toBeHidden();await page.locator('[data-nb-pane="chat"]').click();await expect(page.locator('.nb-chat')).toBeVisible();await page.locator('[data-nb-pane="notes"]').click();await expect(page.locator('#nb-note-body')).toBeVisible();expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1)).toBe(true);await page.screenshot({path:'screenshots/research-space-mobile.png'});
+ await page.locator('.room-tabs [data-room="tab:signals"]').click();await expect(page.locator('.focused-reader')).toBeVisible();await expect(page.locator('.notebook-space')).toHaveCount(0);expect(errors).toEqual([]);
+ console.log('Notebook context isolation, source import, citation retention, notes, export, persistence, themes and mobile passed');
+}finally{await browser.close();}

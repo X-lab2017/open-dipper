@@ -103,3 +103,7 @@ Default the intelligence homepage to a three-pane reader; keep visual discovery 
 ## 2026-10-27 — Separate intelligence reading from Agent research
 
 Intelligence becomes a source-only, three-pane reader. Remove visual lenses, duplicate stream, task navigation, Agent composer and service/demo blocks from that surface. Preserve advanced source filters in a disclosure, bounded saved/read state and incremental browsing. Research imports saved evidence explicitly and owns question creation. Folo remains a product-pattern reference, not an embedded SDK or upstream code adoption. See [contract](INTELLIGENCE_LIBRARY.md) and [execution plan](plans/focused-reader.md).
+
+## 2026-10-27 — Notebook research with explicit context
+
+Use Open Notebook's notebook/source/note separation as a product reference. Keep OpenDipper's shared reader and add original Sources / Research / Notes UI with bounded local state. A saved question captures selected source IDs; unlinking sources does not rewrite old context. Templates and fixed examples are labelled and never presented as generated responses. Preserve earlier drafts. Real integration is planned through a server gateway to an independently deployed Open Notebook API, not an iframe, copied application or browser-held credential. See [research contract](RESEARCH_SPACE.md).

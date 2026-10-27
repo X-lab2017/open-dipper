@@ -192,3 +192,7 @@ OpenDipper 独立实现。空间交互参考 [world-monitor.com](https://world-m
 情报首页专注 Folo 式阅读：来源导航、紧凑列表、来源摘录和本机收藏／已读。情报页移除图表、重复流与 Agent 操作；研究页可导入收藏资料，并保留独立的研究草案工作区。来源目录包含 940 条记录，另合并原有观测与事件；这是有出处的样本库，尚未接通实时 Agent 研究。[范围与来源](docs/INTELLIGENCE_LIBRARY.md)。
 
 ![Focused intelligence reader](docs/assets/agent-room/focused-reader.jpg)
+
+研究页新增参考 Open Notebook 的研究空间：多课题、资料上下文勾选、问题保存、可编辑笔记／模板和 Markdown／JSON 导出。问题尚未执行，虚构示例独立展示；未接入 Open Notebook 后端。[研究空间](docs/RESEARCH_SPACE.md)。
+
+![Research space](docs/assets/agent-room/research-space.jpg)
