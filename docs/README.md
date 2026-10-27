@@ -5,6 +5,7 @@
 | 你要做什么 | 最短阅读路径 |
 | --- | --- |
 | 了解产品与当前缺口 | [首页](../README.md) / [中文](../README.zh-CN.md) → [当前状态](STATUS.md) |
+| 查看最新里程碑、截图或宣传片 | [1.6.0 发布记录](releases/1.6.0.md) → [图片来源](assets/README.md) / [短片制作](../media/promo/README.md) |
 | 提建议、反馈、贡献资料或代码 | [贡献指南](../CONTRIBUTING.md) / [中文](../CONTRIBUTING.zh-CN.md) → 对应 issue 表单或已有任务 |
 | 选择第一个任务 | [路线图](../ROADMAP.md) / [中文](../ROADMAP.zh-CN.md) → 实时 issue；文档不重复维护任务状态 |
 | Agent 接手实现 | [AGENTS.md](../AGENTS.md) → [当前状态](STATUS.md) → [任务索引](CONTEXT.json) → [开发检查](DEVELOPMENT.md) |

@@ -1,6 +1,6 @@
 # Compact observatory — paired-theme release 1.5.2
 
-- Execution state: structure accepted; paired-theme release authorized, final CI and Pages validation tracked in PR #37
+- Execution state: completed; PR #37 merged and production Pages verified
 - Baseline: `6cb118b6896c044b0cdd510f7a09ee869ba8b998`
 - Branch: `design/observatory-review-v2`; PR https://github.com/X-lab2017/open-dipper/pull/37
 - Current scope: preserve original structure and information, coordinate both themes, reduce the header logo and publish through GitHub Pages after validation. Earlier private-review restrictions below are historical and superseded by the release authorization.
@@ -28,8 +28,8 @@ Hallmark reference from the earlier review informed paired-theme and type consid
 - Full successful CI: https://github.com/X-lab2017/open-dipper/actions/runs/40413141051 at `8bef12a1c795d56d313e1426a5bd3233eced1859`. Atlas, workspace, clipping-aware 20-case desktop density matrix, four mobile theme/language cases, portal/radar/galaxy, panorama and analysis browser suites passed. Pages deployment was skipped.
 - The regression checks all ten ranking rows, five totals, scope counts, pulse metrics/platforms/controls, latest news and clipping ancestors. Ordinary layer trees and the original display stack retain their supported internal scrolling.
 - The first added-test failure counted only mounted tree checkboxes; collapsed groups intentionally unmount theirs. The corrected assertion verifies all five active inspector labels independently of tree expansion. No product behavior was changed to satisfy that assertion.
-- Application changes: `3336b7b5c3f8e0d17ee30dcc895ba6320a854b27`; the CI successor only corrects the regression assertion. Private Site source `41a0bccbad160548548ecc02e50fee3c3b875991` contains the same application asset bytes.
-- Owner-private deployment succeeded on 2026-10-27 at 06:34:31 Asia/Shanghai. Review packaging only adds noindex/nofollow and omits Pages CNAME. Source data, official brands and accepted baseline fingerprints remain unchanged.
+- Application changes: `3336b7b5c3f8e0d17ee30dcc895ba6320a854b27`; the CI successor only corrects the regression assertion.
+- Private review was completed before public-release authorization. Public source commits and CI evidence above preserve the reproducible engineering record; private hosting identifiers are omitted.
 
 ## Superseded candidate
 
@@ -59,7 +59,7 @@ Verification for this follow-up:
 - Full successful CI: https://github.com/X-lab2017/open-dipper/actions/runs/40419170720 at `9d4f82e63e8cd939f9d47e2f646f9b9a1d1afe39`. The 20-case desktop matrix, four mobile cases and all Atlas/workspace/portal/Radar/Galaxy/panorama/analysis browser suites passed. Pages deployment was skipped. Application commit: `673569add2e5be848d758fdc34b389e4b19ec393`; private Site package source: `2783b14a4dcb47afffad31774c50b4838dce6c16`.
 
 - The CI successor changes only PR concurrency: a newer check supersedes older checks for the same PR; production remains serialized. The older runner was stuck installing Chromium, so its obsolete check was cancelled and the complete latest check ran successfully. No test or publication gate was removed.
-- Owner-private Site deployment succeeded at 2026-10-27 07:24:20 Asia/Shanghai, deployment `appgdep_6adfe1150b348191923f04d96a14ce8d`. Site source `2783b14a4dcb47afffad31774c50b4838dce6c16` contains application `673569add2e5be848d758fdc34b389e4b19ec393`; the CI successor has identical application sources. The cloud review entry retains its ChatGPT sign-in gate; visual QA uses the same application build locally and in CI.
+- Private review was completed before public-release authorization. Public source commits and CI evidence above preserve the reproducible engineering record; private hosting identifiers are omitted.
 
 ## Paired-theme publication (2026-10-27)
 
@@ -73,4 +73,8 @@ The maintainer accepted the compact structure and authorized publication after v
 
 Measured local browser review at 1363×936 retains the exact original budgets: topbar 64px, context row 48px, summary 62px, map container 797×599px, pulse 104px; five totals, ten ranks, four pulse metrics, seven platforms and five controls remain present. Shared-text contrast is tested on page, panel, input, raised and selected surfaces in both themes; focus is tested at 3:1. Final test/CI/deployment results belong to the PR’s delivery record, not an assumed pass here.
 
-Local typecheck, the full deterministic suite (124 Node tests and 6 Python tests), design/docs generation checks, production build and diff checks passed. The Galaxy palette regression now verifies the full shared palette remains unchanged by visual effects, rather than pinning two obsolete colour literals; vivid-mark checks remain intact. Browser matrices will run on the PR commit before merge.
+Local typecheck, the full deterministic suite (124 Node tests and 6 Python tests), design/docs generation checks, production build and diff checks passed. The Galaxy palette regression now verifies the full shared palette remains unchanged by visual effects, rather than pinning two obsolete colour literals; vivid-mark checks remain intact. The final browser matrices passed before merge (see delivery below).
+
+## Verified public delivery
+
+[PR #37](https://github.com/X-lab2017/open-dipper/pull/37) merged as `c8b2c76b58f3874fb1fd52d44664def7f7f14999`. [Production CI / Pages 40423706809](https://github.com/X-lab2017/open-dipper/actions/runs/40423706809) passed and deployed at 2026-10-27 08:05:06 Asia/Shanghai. No release step remains. The benchmark-default acceptance above is historical; [1.6.0](../releases/1.6.0.md) now opens Active developers.

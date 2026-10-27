@@ -57,4 +57,4 @@ OpenShare / OpenDigger: source values, names, original URLs and hashes retained;
 
 ## Version record
 
-Captured from the published site on 2026-10-25: [overview](assets/opendipper-observed-overview-2026-10-25.jpg) and [AI supply chart](assets/opendipper-observed-supply-2026-10-25.jpg). These record the UI and independent source clocks, not live values. The existing portal screenshot remains a historical artifact. Deployment and browser verification are recorded in issue #20.
+Captured from the published site on 2026-10-25: [overview](https://raw.githubusercontent.com/X-lab2017/open-dipper/ae3da3e0fa00a3ef7167b8d26a3196d7c1fdd0bc/docs/assets/opendipper-observed-overview-2026-10-25.jpg) and [AI supply chart](https://raw.githubusercontent.com/X-lab2017/open-dipper/ae3da3e0fa00a3ef7167b8d26a3196d7c1fdd0bc/docs/assets/opendipper-observed-supply-2026-10-25.jpg). These record the UI and independent source clocks, not live values. The existing portal screenshot remains a historical artifact. Deployment and browser verification are recorded in issue #20.

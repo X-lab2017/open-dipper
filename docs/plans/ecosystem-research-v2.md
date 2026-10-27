@@ -26,7 +26,7 @@ Data/model/report tests must cover exact URL identities, no inferred paths, no c
 - Light/dark visual inspection, model inference switch (19,305 / 43,263 edges), expansion/Escape, tour stop, radar and map navigation passed. A 390px iframe viewport has document width/scroll width 390px and report width/scroll width 349px; task discovery and report opening work there. This is responsive browser coverage, not a physical-device test.
 - JSON export was downloaded and its structured source/metric content inspected. HTML/Markdown generators passed escaping, provenance and standalone-document tests. The managed browser's download-event capture timed out for HTML/Markdown, so end-to-end receipt of those two file types is not claimed. That was the 1.5.0 private-review limit. Subsequent 1.5.1 [CI 40327243123](https://github.com/X-lab2017/open-dipper/actions/runs/40327243123) saved and read all three files; see [the public-release record](ecosystem-public-release.md). PDF printing remains unverified.
 - The screenshot below is the tested managed preview, not a logged-in production inspection. The existing protected review Site's sign-in boundary remains respected; no sign-in or access workaround was attempted.
-- [Research workspace screenshot](../assets/opendipper-galaxy-research-20261026.jpg).
+- [Research workspace screenshot](https://raw.githubusercontent.com/X-lab2017/open-dipper/ae3da3e0fa00a3ef7167b8d26a3196d7c1fdd0bc/docs/assets/opendipper-galaxy-research-20261026.jpg).
 
 ## Historical publication receipt
 

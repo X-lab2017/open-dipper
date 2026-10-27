@@ -19,6 +19,7 @@
 | 事件来源、审核 | [事件契约](EVENTS.md)、[运维](OPERATIONS.md) | `config/sources.json`、`scripts/collect-events.py`、`model.ts` | `test:observatory`（含 Python 采集器测试） |
 | 分析/历史全景兼容 | [维护边界](MAINTENANCE.md) | `src/main.ts`、`src/panorama.ts`、`src/globe-math.ts` | `test:dom`、`test:panorama` 与对应浏览器套件 |
 | 文档、Agent 上下文 | [文档导航](README.md)、[AGENTS](../AGENTS.md) | 相关权威文档、`docs/CONTEXT.json` | `docs:build`、`docs:check`；影响构建时运行 `build` |
+| 宣传片、截图与数据表述 | [里程碑](releases/1.6.0.md)、[短片说明](../media/promo/README.md) | `media/promo/`、`docs/assets/manifest.json`；不改生产数据来配合宣传 | 核对来源、逐场画面、完整解码；`docs:check` |
 | CI/部署 | [运维](OPERATIONS.md) | `.github/workflows/pages.yml` | 确定性检查、构建、实际 Actions/Pages 结果 |
 
 表中为 `npm run` 后的脚本名。完整合入检查如下；`npm test` 包含数据、DOM、地域、历史全景、观测站/相机、Python 采集器、视觉与文档检查。

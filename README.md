@@ -12,6 +12,8 @@
 
 [Open the observatory](https://www.x-lab.info/open-dipper/) · [AI radar](https://www.x-lab.info/open-dipper/#radar) · [Open Galaxy](https://www.x-lab.info/open-dipper/#ecosystem) · [Contribute](CONTRIBUTING.md) · [Roadmap](ROADMAP.md)
 
+**1.6.0 milestone:** [release record and data boundaries](docs/releases/1.6.0.md) · [50-second film, storyboard and reproduction](media/promo/README.md). The film uses global-observatory upstream totals to preview full-domain discovery; the current radar index remains a sourced preview sample.
+
 <!-- section:first-exploration -->
 ## Try your first exploration
 
@@ -30,7 +32,7 @@ Code-galaxy links describe shared-contributor affinity within a dated sample; th
 | --- | --- | --- |
 | Global observation | Explore participation, contribution, influence and ecosystem events on a map or globe | Six groups / eighteen layers, overlays, focused observation tabs, rankings and one/two-screen presentation |
 | AI radar | Discover candidates by task, inspect sources, compare like entities and export a trial checklist | 160 sourced identities: 80 software, 60 models, 20 datasets; local following; optional **simulated** ring judgments |
-| Open Galaxy · 1.5.1 | Find projects by task, shortlist candidates, trace recorded connections and export sourced research reports | 19,771 code repositories + 24,000 model/data/Space nodes; recorded and inferred links stay separate; [module contract](docs/OPEN_GALAXY.md) |
+| Open Galaxy | Find projects by task, shortlist candidates, trace recorded connections and export sourced research reports | 19,771 code repositories + 24,000 model/data/Space nodes; recorded and inferred links stay separate; [module contract](docs/OPEN_GALAXY.md) |
 | Intelligence | Read public brief examples and save interests | Browser-local preferences; subscription delivery and paid services remain planned |
 
 **Application: 1.6.0; visual system: 1.4.0; fixed map/radar baseline: 1.3.2.** The centered observatory opens Active developers and offers a five-stop World tour across companies, projects, models and events. [Implementation and validation](docs/plans/observatory-tour.md). [Current status and limits](docs/STATUS.md) · [Reusable baseline](design/baselines/README.md) · [Data scope](docs/DATA_EVIDENCE.md). Data has independent observation windows; synthetic activity is not live measurement. Public availability does not imply every model or dataset is open source.
@@ -39,25 +41,40 @@ Code-galaxy links describe shared-contributor affinity within a dated sample; th
 
 Start with a broad ecosystem question, combine geographic layers, then focus a region or entity to inspect rankings, metrics and sourced events. Keep the different observation periods and sample scopes visible rather than treating every layer as one global total.
 
-[![Global observation map with geographic layers, source scope and ecosystem events](docs/assets/opendipper-observed-overview-2026-10-25.jpg)](https://www.x-lab.info/open-dipper/)
+<a href="https://www.x-lab.info/open-dipper/">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="docs/assets/opendipper-1.6.0-atlas-dark-20261027.jpg">
+    <img src="docs/assets/opendipper-1.6.0-atlas-light-20261027.jpg" alt="Global observation — 1.6.0 production capture" width="1363" loading="lazy">
+  </picture>
+</a>
 
-*Global observation implementation preview, 2026-10-25; this retained historical capture is not a current-data claim. [Map/globe behavior and current layer contract](docs/ATLAS_WORKSPACE.md).*
+*Production capture, 2026-10-27. The image follows your light/dark preference; capture date is not the data observation period. [Image provenance and compressed assets](docs/assets/README.md).*
 
 ### AI radar — choose what to try
 
 Choose a task, explore relevant software, models or datasets, inspect source evidence, compare like candidates and export a trial checklist. Optional simulated ring judgments remain separate from source facts.
 
-[![AI radar in light mode, with candidate discovery, numbered targets and source details](docs/assets/opendipper-radar-finish-light-20261026.jpg)](https://www.x-lab.info/open-dipper/#radar)
+<a href="https://www.x-lab.info/open-dipper/#radar">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="docs/assets/opendipper-1.6.0-radar-dark-20261027.jpg">
+    <img src="docs/assets/opendipper-1.6.0-radar-light-20261027.jpg" alt="AI radar — current preview index" width="1363" loading="lazy">
+  </picture>
+</a>
 
-*AI radar 1.3.2 implementation preview, 2026-10-26. [Dark/light review and behavior](docs/AI_RADAR.md).*
+*Production capture, 2026-10-27. The image follows your light/dark preference; capture date is not the data observation period. [Image provenance and compressed assets](docs/assets/README.md).*
 
 ### Open Galaxy — understand connections and take away a report
 
 Find a project by task or search, inspect its recorded neighborhood, shortlist up to three research objects, trace recorded paths and export a Markdown, HTML or JSON evidence report. Reports expose missing evidence and source dates; they are not live research, security audits or adoption recommendations.
 
-[![Open Galaxy light-theme workspace with PyTorch, recorded neighbors and a two-object research shortlist](docs/assets/opendipper-galaxy-1.5.1-light-research-20261026.png)](https://www.x-lab.info/open-dipper/#ecosystem)
+<a href="https://www.x-lab.info/open-dipper/#ecosystem">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="docs/assets/opendipper-1.6.0-galaxy-dark-20261027.jpg">
+    <img src="docs/assets/opendipper-1.6.0-galaxy-light-20261027.jpg" alt="Open Galaxy — dual network overview" width="1363" loading="lazy">
+  </picture>
+</a>
 
-*Open Galaxy 1.5.1 light-theme CI acceptance capture, 2026-10-26: recorded PyTorch–vLLM path and research shortlist. Browser checks include dark/light, mobile and actual Markdown/HTML/JSON downloads. This is a CI capture, not a production screenshot. [Research and relationship contract](docs/OPEN_GALAXY.md) · [Public-release validation record](docs/plans/ecosystem-public-release.md).*
+*Production capture, 2026-10-27. The image follows your light/dark preference; capture date is not the data observation period. [Image provenance and compressed assets](docs/assets/README.md).*
 
 <!-- section:participation -->
 ## Start with your question or contribution

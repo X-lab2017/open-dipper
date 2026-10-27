@@ -3,6 +3,12 @@
 This file records repository milestones, not published GitHub releases. Application version (`package.json`: 1.5.1) and visual baseline (`design/tokens.json`: 1.3.0) are independent. Detailed feedback and commits are in [the history](docs/HISTORY.md).
 
 
+## Documentation and media milestone — 2026-10-27
+
+- Document the published 1.6.0 release, current preview/full-domain boundaries, community and Agent entry paths, and actual AI-assisted work.
+- Refresh both homepage editions with compressed production images for all three modules; retain historical originals through pinned Git links and fingerprints.
+- Close stale release instructions and add the reproducible 50-second promotional film source, global-data claims and notices. Application version and runtime behavior are unchanged.
+
 ## 2026-10-26 · Application 1.5.1 / Open Galaxy public release
 
 - Added the independently implemented dual-galaxy research workspace from the verified 1.5.0 private review: discovery, recorded relations, three-object shortlist and evidence reports.

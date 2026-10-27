@@ -259,6 +259,25 @@
       "purpose": "Dual-network exploration, task discovery, shortlist comparison, recorded paths, evidence reports, scope and integration boundaries",
       "language": "en",
       "url": "https://raw.githubusercontent.com/X-lab2017/open-dipper/main/docs/OPEN_GALAXY.md"
+    },
+    {
+      "path": "docs/releases/1.6.0.md",
+      "title": "1.6.0 published milestone",
+      "purpose": "Verified release receipts, full-domain versus preview scope, process disclosure and participation",
+      "language": "zh-CN",
+      "url": "https://raw.githubusercontent.com/X-lab2017/open-dipper/main/docs/releases/1.6.0.md"
+    },
+    {
+      "path": "docs/assets/README.md",
+      "title": "Current screenshots and archived originals",
+      "purpose": "Production captures, compression, fingerprints and historical recovery",
+      "url": "https://raw.githubusercontent.com/X-lab2017/open-dipper/main/docs/assets/README.md"
+    },
+    {
+      "path": "media/promo/README.md",
+      "title": "Promotional film source and claims",
+      "purpose": "Reproducible 50-second film, storyboard, factual scope and AI disclosure",
+      "url": "https://raw.githubusercontent.com/X-lab2017/open-dipper/main/media/promo/README.md"
     }
   ],
   "tasks": {
@@ -513,6 +532,22 @@
         "galaxy:check",
         "typecheck",
         "test:portal:ui"
+      ]
+    },
+    "media": {
+      "read": [
+        "docs/releases/1.6.0.md",
+        "docs/RIGHTS.md",
+        "media/promo/README.md",
+        "docs/assets/README.md"
+      ],
+      "edit": [
+        "media/promo/render.py",
+        "media/promo/facts.json",
+        "docs/assets/manifest.json"
+      ],
+      "checks": [
+        "docs:check"
       ]
     }
   },

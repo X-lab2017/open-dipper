@@ -1,0 +1,5 @@
+Python 3.12.14
+numpy==2.3.5
+Pillow==12.3.0
+CairoSVG==2.9.1
+ffmpeg version 6.1.1-3ubuntu5 Copyright (c) 2000-2023 the FFmpeg developers

@@ -17,7 +17,8 @@ Read a plan only for the task it describes. Product work starts from the current
 
 | Plan | Disposition |
 | --- | --- |
-| [Observatory World tour 1.6.0](observatory-tour.md) | Implementation and browser validation completed; merge and Pages receipt in [PR #38](https://github.com/X-lab2017/open-dipper/pull/38) |
+| [Compact paired themes 1.5.2](visual-workbench-review.md) | Completed; PR #37 merged and production Pages passed on 2026-10-27 |
+| [Observatory World tour 1.6.0](observatory-tour.md) | Completed implementation, full browser validation and production Pages; receipt in [PR #38](https://github.com/X-lab2017/open-dipper/pull/38) |
 | [Galaxy public release 1.5.1](ecosystem-public-release.md) | Completed; PR #33 merged, production CI and Pages succeeded on 2026-10-26 |
 | [Galaxy research 1.5.0](ecosystem-research-v2.md) | Completed private review; task discovery, paths, shortlist and evidence reports |
 | [Initial galaxy 1.4.0](ecosystem-galaxy.md) | Completed private review; source snapshots and first network implementation |
@@ -32,6 +33,7 @@ Read a plan only for the task it describes. Product work starts from the current
 | [Observed evidence #20](20-evidence-data.md) | Completed source-adapter delivery; independent data windows still apply |
 | [Intelligence portal](intelligence-portal.md) | Completed framework delivery; service and evidence tasks remain separate |
 
-## Current release
 
-- [Compact observatory and paired themes 1.5.2](visual-workbench-review.md): structure accepted; coordinated light/dark refinement and Pages publication authorized. Final validation and deployment evidence are recorded in [PR #37](https://github.com/X-lab2017/open-dipper/pull/37).
+## Milestone maintenance
+
+[1.6.0 documentation and promotional film](milestone-1.6.md) records this maintenance delivery, including actual validation and the final PR receipt.

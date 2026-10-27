@@ -12,3 +12,6 @@ test-results/
 
 __pycache__/
 *.pyc
+
+# Reproducible promotional exports
+media/promo/output/

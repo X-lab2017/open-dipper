@@ -76,3 +76,9 @@
 未删除整份历史记录或图件：当前 `docs/assets/` 图片均有引用。旧路径的简短导航继续保留。三个模块的 README 展示、现有来源数据、品牌原件、兼容路由、固定基线和运行代码不受本次整理影响。开放的社区 PR 和未完成 Issue 不因发布收尾而关闭。
 
 被精简的正文可按路径从 [整理前提交](https://github.com/X-lab2017/open-dipper/tree/3d89ddf5cf59f5c700a058f91ade413f6284dae8) 恢复，使用 `git show 3d89ddf5cf59f5c700a058f91ade413f6284dae8:<path>`；无需回退整个主分支。检查结果与本次合入证据由收尾 PR 承接。
+
+## 2026-10-27 · 1.6.0 milestone cleanup
+
+After auditing every reference, moved all 18 superseded raster captures/review boards out of the current tree and changed their historical references to immutable Git URLs. Original files, sizes and SHA-256 remain recoverable from [the manifest](assets/manifest.json). Added seven compressed production captures, reducing this screenshot set from 9,209,853 to 1,295,626 bytes (85.9%); Git history remains unchanged. Production SVGs, data fixtures, compatibility routes and fixed baseline manifests were untouched.
+
+Replaced stale active-release language with verified PR #37/#38 deployment receipts, removed private hosting identifiers from their public process record, and aligned current status, review guidance, bilingual homepages and generated Agent navigation. Historical failures and design decisions remain. Promotional exports are ignored; the reproducible renderer, storyboard and data-scope disclosure live in [media/promo](../media/promo/README.md).

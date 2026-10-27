@@ -37,6 +37,6 @@ Turn the ecosystem destination into a real, explorable project/model network. Ke
 
 ## Historical review receipt
 
-Private review 1.4.0 was deployed successfully on 2026-10-26 from source `186d88fd1cfd7a6ac0d447fd90795e507d9d8d3b`; archive SHA-256 `55b13411331d70fd7df3eeda8a8ed9038896a3f51fc74d0a1b8fc568ff16baf6`. [Review screenshot](../assets/opendipper-galaxy-review-20261026.jpg) records the tested managed preview. The protected hosted page was not inspected after sign-in.
+Private review 1.4.0 was deployed successfully on 2026-10-26 from source `186d88fd1cfd7a6ac0d447fd90795e507d9d8d3b`; archive SHA-256 `55b13411331d70fd7df3eeda8a8ed9038896a3f51fc74d0a1b8fc568ff16baf6`. [Review screenshot](https://raw.githubusercontent.com/X-lab2017/open-dipper/ae3da3e0fa00a3ef7167b8d26a3196d7c1fdd0bc/docs/assets/opendipper-galaxy-review-20261026.jpg) records the tested managed preview. The protected hosted page was not inspected after sign-in.
 
 Private hosting identifiers and obsolete publication instructions were removed during closeout. The prior record is recoverable at [commit 3d89ddf](https://github.com/X-lab2017/open-dipper/blob/3d89ddf5cf59f5c700a058f91ade413f6284dae8/docs/plans/ecosystem-galaxy.md). Current publication evidence is [1.5.1](ecosystem-public-release.md); remaining data/validation limits are maintained once in [the galaxy contract](../OPEN_GALAXY.md).
