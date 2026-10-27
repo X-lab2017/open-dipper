@@ -285,6 +285,13 @@
       "purpose": "Product validation, scripted simulation boundaries and future research/following service gates; not a live Agent service",
       "language": "zh-CN/en",
       "url": "https://raw.githubusercontent.com/X-lab2017/open-dipper/main/docs/AGENT_ROOM.md"
+    },
+    {
+      "path": "docs/INTELLIGENCE_LIBRARY.md",
+      "title": "AI and open-source intelligence library",
+      "purpose": "Taxonomy, evidence objects, bounded metadata collection, source clocks and runtime recovery",
+      "language": "zh-CN/en",
+      "url": "https://raw.githubusercontent.com/X-lab2017/open-dipper/main/docs/INTELLIGENCE_LIBRARY.md"
     }
   ],
   "tasks": {
@@ -638,7 +645,7 @@
     "implementationCommit": "6544f48ccaab9a43a7c56069c487f620ec83723e"
   },
   "versions": {
-    "application": "1.6.0",
+    "application": "1.7.0",
     "visual": "1.4.0"
   }
 }
