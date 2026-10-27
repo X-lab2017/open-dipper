@@ -1,9 +1,5 @@
 <!-- section:overview -->
 
-**1.13 review:** Intelligence → Knowledge → Research, with a complete vLLM/SGLang evidence-to-report walkthrough. [Start the case](https://www.x-lab.info/open-dipper/#briefing?tab=signals&case=inference). DSH service adapter is prepared; the public report is an editorial example until a runtime is provisioned.
-
-[Try the built-in research case: vLLM vs SGLang](https://www.x-lab.info/open-dipper/#briefing?tab=research&case=inference) — six real sources, three editorial walkthrough steps and editable notes; no live model or measured benchmark.
-
 # OpenDipper · 开源北斗
 
 <picture>
@@ -13,20 +9,20 @@
 
 **English** | [简体中文](README.zh-CN.md)
 
-**Explore the global AI and open-source ecosystem. Find relevant projects, inspect evidence and decide what to try next.** OpenDipper connects geographic observation, a task-oriented AI radar and an explorable open-source galaxy for developers, researchers and ecosystem communities.
+**OpenDipper turns AI and open-source ecosystem data into discoveries, organized knowledge and reviewable research reports.** Developers can find and compare projects; researchers and ecosystem teams can inspect evidence, organize a topic and prepare a decision. Global observation, AI radar and Open Galaxy help you discover what matters; the Agent Intelligence Room carries selected sources through reading, knowledge preparation and report delivery.
 
-[Open the observatory](https://www.x-lab.info/open-dipper/) · [AI radar](https://www.x-lab.info/open-dipper/#radar) · [Open Galaxy](https://www.x-lab.info/open-dipper/#ecosystem) · [Contribute](CONTRIBUTING.md) · [Roadmap](ROADMAP.md)
+[Open the observatory](https://www.x-lab.info/open-dipper/) · [AI radar](https://www.x-lab.info/open-dipper/#radar) · [Open Galaxy](https://www.x-lab.info/open-dipper/#ecosystem) · [Agent Intelligence Room](https://www.x-lab.info/open-dipper/#briefing) · [Contribute](CONTRIBUTING.md) · [Roadmap](ROADMAP.md)
 
 **1.6.0 milestone:** [release record and data boundaries](docs/releases/1.6.0.md) · [50-second film, storyboard and reproduction](media/promo/README.md). The film uses global-observatory upstream totals to preview full-domain discovery; the current radar index remains a sourced preview sample.
 
 <!-- section:first-exploration -->
 ## Try your first exploration
 
-1. Open [Open Galaxy](https://www.x-lab.info/open-dipper/#ecosystem) and search for **PyTorch**, or a project you already use.
-2. Select the project, inspect its recorded neighbors and add an interesting candidate to your research shortlist. For PyTorch, try the recorded connection to **vLLM**.
-3. Open the shortlist's comparison and research view, inspect the sources, then export a **Markdown, HTML or JSON** report.
+1. [Open the vLLM / SGLang case](https://www.x-lab.info/open-dipper/#briefing?tab=signals&case=inference) and read its six official sources.
+2. Collect material into **Knowledge**, check the sources to include, then choose **Bring into research**.
+3. Open the complete **editorial example**, inspect citations, edit the report and export Markdown or printable HTML; save the result back to your notebook.
 
-Code-galaxy links describe shared-contributor affinity within a dated sample; they are not software dependencies or quality rankings. Reports preserve sources and evidence gaps for further investigation.
+This walkthrough needs no API key. It demonstrates evidence-to-report interaction, **not live DSH execution or a performance benchmark**. Work stays in this browser; export before clearing its storage. For relationship exploration, start with PyTorch in Open Galaxy: recorded shared-contributor links are not software dependencies or quality rankings.
 
 **What did you discover, and where did you get stuck?** [Share your first exploration](https://github.com/X-lab2017/open-dipper/issues/35). If the tool helps your work, star the repository to find it again; feedback and source corrections are welcome too.
 
@@ -38,9 +34,9 @@ Code-galaxy links describe shared-contributor affinity within a dated sample; th
 | Global observation | Explore participation, contribution, influence and ecosystem events on a map or globe | Six groups / eighteen layers, overlays, focused observation tabs, rankings and one/two-screen presentation |
 | AI radar | Discover candidates by task, inspect sources, compare like entities and export a trial checklist | 160 sourced identities: 80 software, 60 models, 20 datasets; local following; optional **simulated** ring judgments |
 | Open Galaxy | Find projects by task, shortlist candidates, trace recorded connections and export sourced research reports | 19,771 code repositories + 24,000 model/data/Space nodes; recorded and inferred links stay separate; [module contract](docs/OPEN_GALAXY.md) |
-| Agent Intelligence Room | Browse eight material forms across six topics, inspect evidence/object links and collect research context | Bounded source metadata, category counts and progressive feed; local research/following prototype; no live Agent or delivery |
+| Agent Intelligence Room | Read sources → organize a notebook → prepare research → review and deliver a report | Browser-local work; complete vLLM/SGLang editorial example; DSH adapter code prepared, runtime not connected |
 
-**Application: 1.8.0; visual system: 1.4.0; fixed map/radar baseline: 1.3.2.** The centered observatory opens Active developers and offers a five-stop World tour across companies, projects, models and events. [Implementation and validation](docs/plans/observatory-tour.md). [Current status and limits](docs/STATUS.md) · [Reusable baseline](design/baselines/README.md) · [Data scope](docs/DATA_EVIDENCE.md). Data has independent observation windows; synthetic activity is not live measurement. Public availability does not imply every model or dataset is open source.
+**Application: 1.13.0; visual system: 1.4.0; fixed map/radar baseline: 1.3.2.** The centered observatory opens Active developers and offers a five-stop World tour across companies, projects, models and events. [Implementation and validation](docs/plans/observatory-tour.md). [Current status and limits](docs/STATUS.md) · [Reusable baseline](design/baselines/README.md) · [Data scope](docs/DATA_EVIDENCE.md). Data has independent observation windows; synthetic activity is not live measurement. Public availability does not imply every model or dataset is open source.
 
 ### Global observation — find where to look
 
@@ -81,6 +77,18 @@ Find a project by task or search, inspect its recorded neighborhood, shortlist u
 
 *Production capture, 2026-10-27. The image follows your light/dark preference; capture date is not the data observation period. [Image provenance and compressed assets](docs/assets/README.md).*
 
+### Agent Intelligence Room — from sources to a deliverable
+
+**Intelligence / Knowledge / Research** separates reading from knowledge preparation and execution. The Folo-inspired reader keeps navigation, list and reading in three columns. The Open Notebook-inspired workspace holds source selections and editable notes. Research adds a scoped question, evidence panel, report editing and delivery.
+
+![Focused intelligence reader](docs/assets/agent-room/focused-reader.jpg)
+
+![Knowledge workspace](docs/assets/agent-room/research-space.jpg)
+
+*Reader and notebook captures from earlier iterations, not a screenshot of the new Research surface. The current walkthrough and limits are documented in the [workflow guide](docs/INTELLIGENCE_WORKFLOW.md).*
+
+The source catalog is a bounded sample, not full-web coverage. Folo and Open Notebook are interaction references, not embedded services. DSH is the selected execution direction; [server adapter setup](services/research/README.md) still requires a provisioned runtime, matching SDK, model and authenticated gateway. Without them, Run is disabled and the example is a separate action. There is no cloud sync, autonomous monitoring or notification delivery.
+
 <!-- section:participation -->
 ## Start with your question or contribution
 
@@ -113,25 +121,26 @@ People bring needs, domain knowledge and product review. Agents are the primary 
 
 ```mermaid
 flowchart TD
-  GS["OpenShare global distribution / GOSD AI supply"] --> O
-  M["OpenDigger metrics and geography"] --> O["OpenDipper observatory"]
-  E["Published and reviewed ecosystem events"] --> O
-  D["Clearly labeled demo scenarios"] -.-> O
-  O --> G["Place: map and globe"]
-  O --> T["Time: rankings and trends"]
-  O --> W["Events: wire and source evidence"]
-  O --> R["AI radar and personal following"]
-  O --> X["Open Galaxy: connections and evidence reports"]
-  X --> V
-  R --> V
-  R --> S["Public brief and subscription preview"]
-  S --> V
-  G --> V["Research · monitoring · presentations"]
-  T --> V
-  W --> V
-  V -.-> I["Issues: needs and feedback"]
-  I -.-> O
+  A["Global observation / AI radar / Open Galaxy"]
+  B["Discover objects and questions"]
+  C["Intelligence: read sources"]
+  D["Knowledge: curate evidence"]
+  E["Research: review and deliver"]
+  F["Issues / PRs: feedback and contributions"]
+  G["Maintainer review and publication"]
+  A --> B
+  B -.-> C
+  C --> D
+  D --> E
+  E --> D
+  B -.-> F
+  E -.-> F
+  F --> G
+  G --> A
+  G --> C
 ```
+
+Dashed arrows are user actions, not automatic cross-module context transfer or public sharing. The proposed **Community** entry closes the feedback loop; its [design brief](docs/COMMUNITY_HUB.md) is not an implemented service. The current navigation still says Contribute.
 
 <!-- section:development -->
 ## Run locally
@@ -191,13 +200,3 @@ AI agents contributed implementation, visual iterations and repository maintenan
 OpenDipper is independently implemented. Spatial interaction references [world-monitor.com](https://world-monitor.com/); engineering references include the separate [koala73/worldmonitor](https://github.com/koala73/worldmonitor) project. Source and brand notices remain in the repository.
 
 **License decision remains open:** a root application LICENSE has not been selected. Application code, datasets, maps and brand assets have separate rights; public visibility is not a blanket license. See [rights](docs/RIGHTS.md) and [decision #6](https://github.com/X-lab2017/open-dipper/issues/6). For sensitive reports, follow [SECURITY.md](SECURITY.md).
-
-**Agent Intelligence Room · 1.11.0**
-
-The intelligence homepage is a focused Folo-inspired reader: source navigation, a compact list, readable source excerpts and local saved/read state. Charts, duplicate streams and Agent controls are removed from Intelligence. Research can import saved sources and keeps its own draft workspace. Its retained catalog has 940 source records, plus existing observations/events; the corpus is a sourced sample, not live Agent research. [Scope and sources](docs/INTELLIGENCE_LIBRARY.md).
-
-![Focused intelligence reader](docs/assets/agent-room/focused-reader.jpg)
-
-Research now has an Open Notebook-inspired workspace: notebooks, selected source context, saved questions, editable notes/templates and Markdown/JSON export. Questions are not executed; the fictional walkthrough is separate. The Open Notebook backend is not connected. [Research space](docs/RESEARCH_SPACE.md).
-
-![Research space](docs/assets/agent-room/research-space.jpg)

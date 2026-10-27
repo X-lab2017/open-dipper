@@ -1,6 +1,8 @@
-# Research space / 研究空间
+# Knowledge workspace / 知识整理
 
 Product review 1.13.0 · 2026-10-27. **Local working prototype; Open Notebook backend is not deployed or connected.**
+
+See the [current end-to-end workflow](INTELLIGENCE_WORKFLOW.md) for the three product tabs, report delivery and verified release. This document owns notebook behavior; historical execution proposals below are not current implementation requirements.
 
 ## User experience
 
