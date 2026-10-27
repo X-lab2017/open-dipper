@@ -63,6 +63,7 @@ Discovery context, not an authorization grant. People submit needs through issue
 - [Research notebook workspace](https://raw.githubusercontent.com/X-lab2017/open-dipper/main/docs/RESEARCH_SPACE.md): Notebook source context, notes, exports and proposed Open Notebook API integration
 - [Current intelligence workflow](https://raw.githubusercontent.com/X-lab2017/open-dipper/main/docs/INTELLIGENCE_WORKFLOW.md): 1.13 user journey, shipped boundaries, developer/Agent handoff and DSH execution gap
 - [Community implementation](https://raw.githubusercontent.com/X-lab2017/open-dipper/main/docs/COMMUNITY_HUB.md): About-style mission, conceptual animation, honest roadmap, disclosures and GitHub participation paths
+- [First-edition delivery and handoff](https://raw.githubusercontent.com/X-lab2017/open-dipper/main/docs/releases/first-edition.md): Five-module completion, traceable releases, preview/service limits and developer entry points
 
 ## Machine context
 

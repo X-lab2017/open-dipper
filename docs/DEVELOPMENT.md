@@ -2,12 +2,29 @@
 
 环境使用 Node.js 24（与 CI 一致）、npm、Python 3；浏览器验收使用 Chromium。`npm ci` 安装锁定依赖，`npm run dev` 启动开发服务。所有命令从仓库根目录执行。环境或网络限制导致未运行的检查，必须写明，不可记为通过。
 
+## 第一次跑起来
+
+```sh
+git clone https://github.com/X-lab2017/open-dipper.git
+cd open-dipper
+npm ci
+npm run dev
+```
+
+打开终端显示的 Vite 地址；生产环境位于 `/open-dipper/`，不要用根路径开发成功代替子路径验收。先打开 Agent 情报室的 vLLM / SGLang 案例，依次体验情报浏览、知识整理、深度研究的编辑示例与导出。无需 API key；普通前端开发使用仓库快照，不运行 `refresh:*`。真实 DSH 服务需单独配置，参见 [服务说明](../services/research/README.md)。
+
+本机课题与收藏保存在浏览器；测试前先导出重要内容，不通过清空用户存储解决普通界面问题。遇到运行问题，记录 Node/Python 版本、命令、完整报错和复现路由。`npm ci` 失败先核对 Node 24 与网络；生成索引过期运行 `docs:build`，共享样式镜像过期运行 `design:build`，不要直接改镜像文件。
+
+纯文档改动先运行 `npm run docs:build` 与 `npm run docs:check`；命令、索引或构建入口变动再运行 `npm run build`。完整 CI 仍是合入证据，不为小改动新建重复测试。
+
 ## 按任务读取与修改
 
 | 任务 | 先读 | 主要修改位置 | 有针对性的检查 |
 | --- | --- | --- | --- |
 | 布局、筛选、语言与编辑器 | [视觉规范](VISUAL_SYSTEM.md)、[架构](ARCHITECTURE.md) | `src/atlas.ts`、`atlas.css`、`presentation-v*.css` | `typecheck`、`test:atlas`、`test:observatory`、`test:observatory:ui` |
-| 情报关注、样刊与共建 | [情报契约](INTELLIGENCE.md)、[架构](ARCHITECTURE.md) | `intelligence.ts`、`portal.ts`、`portal.css`、独立演示 JSON | `typecheck`、`test:observatory`、`test:portal:ui` |
+| 情报阅读、筛选与收藏 | [当前流程](INTELLIGENCE_WORKFLOW.md)、[情报库](INTELLIGENCE_LIBRARY.md) | `src/intelligence-room/reader.ts`、`reader.css`、`catalog.ts`、`model.ts` | `typecheck`、`test:observatory`、`test:portal:ui` |
+| 共建社区介绍与动态图 | [共建契约](COMMUNITY_HUB.md) | `src/community/view.ts`、`community.css`；路由接入 `src/observatory/portal.ts` | `typecheck`、`test:portal:ui`、`docs:check` |
+| 五模块导航与共用工具栏 | [联动收尾](releases/1.15.1.md) | `src/atlas.ts`、`src/presentation-v7.css`、`tests/navigation-ui.mjs` | `typecheck`、`test:portal:ui`；覆盖中英、明暗和四档宽度 |
 | 知识整理、深度研究与交付 | [当前流程](INTELLIGENCE_WORKFLOW.md)、[知识契约](RESEARCH_SPACE.md)、[DSH 接入](../services/research/README.md) | `src/intelligence-room/notebook*.ts`、`research-*.ts`、对应 CSS、`services/research/` | `typecheck`、`test:observatory`、`test:portal:ui`；适配器替身检查不等于真实 DSH 验证 |
 | AI 雷达候选与交互 | [实现契约](AI_RADAR.md)、[当前基线](../design/baselines/observatory-radar-1.3.2.md) | `src/radar/`、`scripts/build-radar.mjs`、`data/reference/radar/` | `radar:build`、`radar:check`、`typecheck`、`test:portal:ui` |
 | 开源星系网络与交互 | [星系契约](OPEN_GALAXY.md)、[固定图数据](../public/data/galaxy/README.md) | `src/galaxy/`、`scripts/import-galaxy.py` | `galaxy:check`、`typecheck`、`test:portal:ui`；网络快照不在常规测试中刷新 |
@@ -20,7 +37,7 @@
 | 事件来源、审核 | [事件契约](EVENTS.md)、[运维](OPERATIONS.md) | `config/sources.json`、`scripts/collect-events.py`、`model.ts` | `test:observatory`（含 Python 采集器测试） |
 | 分析/历史全景兼容 | [维护边界](MAINTENANCE.md) | `src/main.ts`、`src/panorama.ts`、`src/globe-math.ts` | `test:dom`、`test:panorama` 与对应浏览器套件 |
 | 文档、Agent 上下文 | [文档导航](README.md)、[AGENTS](../AGENTS.md) | 相关权威文档、`docs/CONTEXT.json` | `docs:build`、`docs:check`；影响构建时运行 `build` |
-| 宣传片、截图与数据表述 | [里程碑](releases/1.6.0.md)、[短片说明](../media/promo/README.md) | `media/promo/`、`docs/assets/manifest.json`；不改生产数据来配合宣传 | 核对来源、逐场画面、完整解码；`docs:check` |
+| 宣传片、截图与数据表述 | [第一版里程碑](releases/first-edition.md)、[短片说明](../media/promo/README.md) | `media/promo/`、`docs/assets/manifest.json`；不改生产数据来配合宣传 | 核对来源、逐场画面、完整解码；`docs:check` |
 | CI/部署 | [运维](OPERATIONS.md) | `.github/workflows/pages.yml` | 确定性检查、构建、实际 Actions/Pages 结果 |
 
 表中为 `npm run` 后的脚本名。完整合入检查如下；`npm test` 包含数据、DOM、地域、历史全景、观测站/相机、Python 采集器、视觉与文档检查。

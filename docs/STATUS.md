@@ -1,42 +1,10 @@
 # 当前状态 / Current status
 
-核对日期：**2026-10-27**。当前工作版本 **1.15.1**（部署以 PR / Actions 为准）；维护者已接受的地图／AI 雷达固定基线仍为 **1.3.2**，当前视觉 tokens **1.4.0**（固定历史基线为 **1.3.0**），产品品牌 **1.1.0**。版本轴独立，不代表新建 Git tag 或 GitHub Release。实时任务状态看 issue/PR，数据新鲜度看来源快照。
+核对日期：**2026-10-28（北京时间）**。**第一版五模块产品交互与宣传片已完成交付**；应用仍为 **1.15.1**，视觉 tokens **1.4.0**，地图／雷达固定基线 **1.3.2**，品牌 **1.1.0**。第一版收尾是产品里程碑，不新建版本号、tag 或 GitHub Release，也不代表全域数据、真实 Agent 服务或所有 issue 已完成。
 
-**1.6.0 已上线。** 紧凑三栏、地图取景、明暗体系与五站“环球巡航”已交付；默认打开活跃开发者，随后为企业、标杆项目、模型资产、会议与活动，模块名统一为“开源星系”。[里程碑与过程披露](releases/1.6.0.md) 汇总实际发布、数据边界和参与入口；[线上体验](https://www.x-lab.info/open-dipper/)反馈集中在 [#35](https://github.com/X-lab2017/open-dipper/issues/35)。
+[第一版交付与过程记录](releases/first-edition.md) · [在线体验](https://www.x-lab.info/open-dipper/) · [体验反馈 #35](https://github.com/X-lab2017/open-dipper/issues/35) · [开发与验证](DEVELOPMENT.md)
 
-1.15.1 统一五模块导航与上下文工具槽，修复星系→情报室位移；保留窄屏导航滚动，切换模块回到顶部并定位键盘焦点，清理重复入口和旧模块称呼。[过程与验收](releases/1.15.1.md)；已由 [PR #51](https://github.com/X-lab2017/open-dipper/pull/51) 合并，[Pages 40529952243](https://github.com/X-lab2017/open-dipper/actions/runs/40529952243) 构建、浏览器验收与部署成功。
-
-## 阶段收尾：情报浏览 → 知识整理 → 深度研究
-
-1.13.0 已由 [PR #47](https://github.com/X-lab2017/open-dipper/pull/47) 合并，[Pages 40498062877](https://github.com/X-lab2017/open-dipper/actions/runs/40498062877) 构建、浏览器验收与部署成功。维护者结束本轮产品交互迭代；后端能力未因此完成。
-
-1.13.0 打通 vLLM / SGLang 的来源阅读、知识收录、研究范围、完整报告、编辑与导出。案例报告为编辑演示，未运行 DSH 或性能评测。维护者确认尚无 DSH 服务；服务端 SDK 适配代码已准备，真实执行仍等待独立部署、模型与限制配置。见[执行计划](plans/knowledge-dsh-flow.md)和[服务端接入说明](../services/research/README.md)。既有课题、笔记、草案与历史跟踪保留。使用与接手请读[情报室流程](INTELLIGENCE_WORKFLOW.md)。
-
-1.15.0 将“共建社区”改为项目介绍与开放协作页面：四模块概念动态图、愿景、价值、可展开路线和轻量参与入口；替代 1.14 的表单办理界面。动态图可暂停并尊重系统减少动态设置；不表示实时数据或自动流转。[实现契约](COMMUNITY_HUB.md)；发布以 PR / Actions 为准。
-
-## 已交付：研究空间与推理框架演示案例
-
-1.12.1 内置 vLLM / SGLang 课题：6 份真实来源、3 步编辑示例、3 份可编辑成果。首次使用默认展示；已有课题保留。支持[直接打开案例](https://www.x-lab.info/open-dipper/#briefing?tab=research&case=inference)。没有实时模型或实测性能结论。见[案例计划](plans/inference-case.md)。
-
-1.12.0 已由 [PR #45](https://github.com/X-lab2017/open-dipper/pull/45) 发布，[Pages 40481435640](https://github.com/X-lab2017/open-dipper/actions/runs/40481435640) 成功。
-
-研究页以 Open Notebook 的课题／资料／对话／笔记为参考，提供本机多课题、情报收藏导入、资料选择与上下文勾选、未执行问题、可编辑笔记和模板、Markdown / JSON 导出。虚构对话示例独立；早期草案与跟踪保留。尚未部署或连接 Open Notebook、模型、文件解析、云同步。见 [研究空间契约](RESEARCH_SPACE.md) 与 [执行计划](plans/research-space.md)。
-
-1.11.0 专注阅读版已由 [PR #44](https://github.com/X-lab2017/open-dipper/pull/44) 发布；[Pages 40470579201](https://github.com/X-lab2017/open-dipper/actions/runs/40470579201) 成功。情报页保持资料库／列表／阅读三栏，无 Agent 输入和可视化。最新研究交付见上方 1.13.0 记录。
-
-## 1.9.0 情报探索工作台
-
-[PR #42](https://github.com/X-lab2017/open-dipper/pull/42) 已合并；[Pages 40458506705](https://github.com/X-lab2017/open-dipper/actions/runs/40458506705) 构建、浏览器验收与部署成功。
-
-新增来源目录扩展至 940 条去重记录，另合并原有全球观测和事件流；人物、组织、基金会、专利等实体可独立筛选。一屏任务／探索／详情与本机共创草稿，下方连续情报流。验证与发布进度见 [执行计划](plans/intelligence-workbench.md)。
-
-## 1.8.0 可视化情报发现
-
-新增时间星图、主题雷达、六站线索漫游；图选资料联动原有事件流，可将资料和可编辑问题带入研究草案。沿用既有快照，不新增采集或后台 Agent。数量表示收录量，不是全网热度。参考项目与语义边界见 [情报库契约](INTELLIGENCE_LIBRARY.md)。
-
-## 1.7.0 情报库与研究原型
-
-维护者已授权发布 Agent 情报室：八类资料、六个主题、来源 / 模拟分列计数、跨日期浏览、渐进下拉、来源状态和对象关联。扩展数据文件初始包含 354 条来源记录，另合并原有观测与新闻。研究草案、跟踪和成果版本仍为本机原型，无后台 Agent 或通知投递。见 [情报库契约](INTELLIGENCE_LIBRARY.md)、[产品规划](AGENT_ROOM.md) 与 [发布 PR #40](https://github.com/X-lab2017/open-dipper/pull/40)；实际部署结果以 PR / Actions 记录为准。
+最新已核验发布：[PR #53](https://github.com/X-lab2017/open-dipper/pull/53) 合并；[Pages 40596411391](https://github.com/X-lab2017/open-dipper/actions/runs/40596411391) 成功。五模块导航联动由 [PR #51](https://github.com/X-lab2017/open-dipper/pull/51) 交付。后续提交与任务状态以实时 Actions / issue / PR 为准，数据新鲜度看各快照的观察期与采集时间。
 
 ## 当前能做什么
 
@@ -47,22 +15,11 @@
 | 统一展示 | 双语品牌、明暗模式、一/两屏；地图全屏、雷达展开及返回；移动端自然流、键盘和减少动态效果 | [复用基线](../design/baselines/observatory-radar-1.3.2.md) |
 | 开源星系 | 19,771 个代码仓库 + 24,000 个模型/数据集/应用节点；记录与推断分离；任务搜索、3 项清单、3 跳内路径、月度证据与报告导出 | [星系契约](OPEN_GALAXY.md) |
 | Agent 情报室 | 情报浏览、知识整理、深度研究与报告交付；vLLM/SGLang 编辑案例；本机保存，DSH 运行待部署 | [当前流程](INTELLIGENCE_WORKFLOW.md) · [知识契约](RESEARCH_SPACE.md) |
+| 共建社区 | 项目愿景、四模块概念动态图、路线与参与入口；可暂停，尊重减少动态设置 | [共建契约](COMMUNITY_HUB.md) |
 | 数据与发布 | 固定版本来源摘录、OpenDigger 月度样本、官方事件采集与独立人工审核，静态快照与 Pages | [数据契约](DATA_CONTRACTS.md) · [运维](OPERATIONS.md) |
 | 仓库协作 | 双语入口、需求/缺陷/纠错/体验/事件表单、Agent 上下文、PR 验收与交接 | [贡献指南](../CONTRIBUTING.zh-CN.md) · [Harness](HARNESS.md) |
 
-## 已验证的交付
-
-| 交付 | 实现与验收 |
-| --- | --- |
-| 地图与 AI 雷达 1.3.2 | [PR #29](https://github.com/X-lab2017/open-dipper/pull/29)；[CI / Pages 40275957548](https://github.com/X-lab2017/open-dipper/actions/runs/40275957548) 成功；固定指纹与验收见 [基线](../design/baselines/observatory-radar-1.3.2.md) |
-| 仓库与社区整理 | [PR #31](https://github.com/X-lab2017/open-dipper/pull/31)；[CI / Pages 40278908179](https://github.com/X-lab2017/open-dipper/actions/runs/40278908179) 成功；整理回执见 [#30](https://github.com/X-lab2017/open-dipper/issues/30) |
-| 开源星系 1.5.1 | [PR #33](https://github.com/X-lab2017/open-dipper/pull/33) 已合并至 `8c12aa77312f0e9ed488c81eda4ca5806a7b993e`；[CI / Pages 40328984137](https://github.com/X-lab2017/open-dipper/actions/runs/40328984137) 构建、浏览器验收和部署成功，2026-10-26 北京时间 21:29:37 完成部署；[完整发布记录](plans/ecosystem-public-release.md) |
-| 紧凑双主题 1.5.2 | [PR #37](https://github.com/X-lab2017/open-dipper/pull/37)；[CI / Pages 40423706809](https://github.com/X-lab2017/open-dipper/actions/runs/40423706809) 成功，2026-10-27 北京时间 08:05:06 部署 |
-| 观测取景与环球巡航 1.6.0 | [PR #38](https://github.com/X-lab2017/open-dipper/pull/38)；[CI / Pages 40429862249](https://github.com/X-lab2017/open-dipper/actions/runs/40429862249) 成功，2026-10-27 北京时间 09:02:58 部署 |
-
-以上应用发布均已结束。搜索、关系路径、报告三格式实收、明暗主题、移动布局、减少动态效果和跨模块往返有 CI 证据；物理触屏设备与 PDF 打印尚未验证。发布记录不等同新视觉基线已被维护者接受。
-
-后续开发从模块契约和实时 issue/PR 开始；[已完成计划](plans/README.md)用于追溯，不是待恢复的任务。定期数据采集属于[运维](OPERATIONS.md)，与发布计划是否完成分开。旧版本与评审过程由 [HISTORY.md](HISTORY.md) 承接。
+历史版本与被替代的界面见 [演进记录](HISTORY.md)、[完成计划](plans/README.md) 和 [第一版交付](releases/first-edition.md)，不作为当前待办恢复。物理触屏与 PDF 打印尚未验证。
 
 ## 仍需共同完成
 
