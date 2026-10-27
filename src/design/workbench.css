@@ -341,3 +341,10 @@ button:disabled { cursor: default; }
   .topbar .product-nav { justify-content: flex-start; overflow-x: auto; scrollbar-width: thin; }
   .topbar .product-nav button { flex: 1 0 auto; max-width: none; }
 }
+/* Long translated controls must not set the radar grid's minimum width. */
+.radar-first { grid-template-columns: minmax(0, 1fr); }
+.radar-first > * { min-width: 0; }
+@media (max-width:700px) {
+  .radar-context .radar-lenses { min-width: 0; max-width: 100%; }
+  .radar-context .radar-lenses > button { min-width: 0; flex: 1 1 0; white-space: normal; overflow-wrap: anywhere; }
+}
