@@ -1,7 +1,14 @@
 # Changelog
 
-This file records repository milestones, not published GitHub releases. Application version (`package.json`: 1.5.1) and visual baseline (`design/tokens.json`: 1.3.0) are independent. Detailed feedback and commits are in [the history](docs/HISTORY.md).
+This file records repository milestones, not published GitHub releases. Application version (`package.json`: 1.15.1) and visual system (`design/tokens.json`: 1.4.0) are independent. Detailed feedback and commits are in [the history](docs/HISTORY.md).
 
+
+## First-edition closeout — 2026-10-28
+
+- Complete the five-module product loop: observation, radar, galaxy, intelligence reading/knowledge/research, and Community. [Delivery and verification](docs/releases/first-edition.md).
+- Record 1.11 focused reading, 1.12 notebooks, 1.13 vLLM/SGLang editorial report delivery, 1.15 About-style Community and 1.15.1 stable navigation. DSH runtime remains unconnected.
+- Promo v4 uses dark screenshots, overview-first storytelling and a separate community invitation in 58 seconds; source, subtitle and measured validation are in `media/promo/`.
+- Refresh bilingual homepages, current-status navigation, developer recipes and machine context. Remove superseded UI narratives from current status; preserve Git history and completed plans. No application/version/data change in this closeout.
 
 ## Documentation and media milestone — 2026-10-27
 

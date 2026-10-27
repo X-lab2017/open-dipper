@@ -82,3 +82,10 @@
 After auditing every reference, moved all 18 superseded raster captures/review boards out of the current tree and changed their historical references to immutable Git URLs. Original files, sizes and SHA-256 remain recoverable from [the manifest](assets/manifest.json). Added seven compressed production captures, reducing this screenshot set from 9,209,853 to 1,295,626 bytes (85.9%); Git history remains unchanged. Production SVGs, data fixtures, compatibility routes and fixed baseline manifests were untouched.
 
 Replaced stale active-release language with verified PR #37/#38 deployment receipts, removed private hosting identifiers from their public process record, and aligned current status, review guidance, bilingual homepages and generated Agent navigation. Historical failures and design decisions remain. Promotional exports are ignored; the reproducible renderer, storyboard and data-scope disclosure live in [media/promo](../media/promo/README.md).
+
+## 2026-10-28 · 第一版收尾
+
+- README 双语入口突出第一版五模块交付；CHANGELOG 修正过时版本轴，历史条目仍按当时事实保留。
+- STATUS 只保留当前能力、限制与交付入口，移出已被替代的探索 UI 和重复发布叙述；[交付记录](releases/first-edition.md) 提供追溯及旧状态页恢复链接。
+- 开发任务与机器索引改用现行阅读、社区、导航源码。`docs:build` 同步生成镜像，避免下一位 Agent 按旧入口修改。
+- 未进行无引用证据的源码删除；兼容路由、固定模拟、品牌原件、历史计划和数据快照保留。视频输出继续按现有规则忽略；不批量清理用户附件或工作区。

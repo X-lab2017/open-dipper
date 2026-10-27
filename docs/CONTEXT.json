@@ -266,6 +266,12 @@
       "title": "Community implementation",
       "purpose": "About-style mission, conceptual animation, honest roadmap, disclosures and GitHub participation paths",
       "language": "zh-CN"
+    },
+    {
+      "path": "docs/releases/first-edition.md",
+      "title": "First-edition delivery and handoff",
+      "purpose": "Five-module completion, traceable releases, preview/service limits and developer entry points",
+      "language": "zh-CN"
     }
   ],
   "tasks": {
@@ -420,15 +426,15 @@
     },
     "intelligence": {
       "read": [
-        "docs/INTELLIGENCE.md",
-        "docs/ARCHITECTURE.md",
+        "docs/INTELLIGENCE_WORKFLOW.md",
+        "docs/INTELLIGENCE_LIBRARY.md",
         "docs/VISUAL_SYSTEM.md"
       ],
       "edit": [
-        "src/observatory/intelligence.ts",
-        "src/observatory/portal.ts",
-        "src/observatory/portal.css",
-        "public/data/intelligence-demo.json"
+        "src/intelligence-room/reader.ts",
+        "src/intelligence-room/reader.css",
+        "src/intelligence-room/catalog.ts",
+        "src/intelligence-room/model.ts"
       ],
       "checks": [
         "typecheck",
@@ -524,7 +530,7 @@
     },
     "media": {
       "read": [
-        "docs/releases/1.6.0.md",
+        "docs/releases/first-edition.md",
         "docs/RIGHTS.md",
         "media/promo/README.md",
         "docs/assets/README.md"
@@ -578,6 +584,21 @@
         "typecheck",
         "test:portal:ui",
         "docs:check"
+      ]
+    },
+    "navigation": {
+      "read": [
+        "docs/releases/1.15.1.md",
+        "docs/VISUAL_SYSTEM.md"
+      ],
+      "edit": [
+        "src/atlas.ts",
+        "src/presentation-v7.css",
+        "tests/navigation-ui.mjs"
+      ],
+      "checks": [
+        "typecheck",
+        "test:portal:ui"
       ]
     }
   },
