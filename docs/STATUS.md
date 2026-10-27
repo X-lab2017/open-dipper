@@ -1,10 +1,14 @@
 # 当前状态 / Current status
 
-核对日期：**2026-10-27**。当前工作分支 **1.12.0**（线上版本以部署记录为准）；维护者已接受的地图／AI 雷达固定基线仍为 **1.3.2**，当前视觉 tokens **1.4.0**（固定历史基线为 **1.3.0**），产品品牌 **1.1.0**。版本轴独立，不代表新建 Git tag 或 GitHub Release。实时任务状态看 issue/PR，数据新鲜度看来源快照。
+核对日期：**2026-10-27**。当前工作分支 **1.12.1**（线上版本以部署记录为准）；维护者已接受的地图／AI 雷达固定基线仍为 **1.3.2**，当前视觉 tokens **1.4.0**（固定历史基线为 **1.3.0**），产品品牌 **1.1.0**。版本轴独立，不代表新建 Git tag 或 GitHub Release。实时任务状态看 issue/PR，数据新鲜度看来源快照。
 
 **1.6.0 已上线。** 紧凑三栏、地图取景、明暗体系与五站“环球巡航”已交付；默认打开活跃开发者，随后为企业、标杆项目、模型资产、会议与活动，模块名统一为“开源星系”。[里程碑与过程披露](releases/1.6.0.md) 汇总实际发布、数据边界和参与入口；[线上体验](https://www.x-lab.info/open-dipper/)反馈集中在 [#35](https://github.com/X-lab2017/open-dipper/issues/35)。
 
-## 待评审：研究空间
+## 待评审：研究空间与推理框架演示案例
+
+1.12.1 内置 vLLM / SGLang 课题：6 份真实来源、3 步编辑示例、3 份可编辑成果。首次使用默认展示；已有课题保留。支持[直接打开案例](https://www.x-lab.info/open-dipper/#briefing?tab=research&case=inference)。没有实时模型或实测性能结论。见[案例计划](plans/inference-case.md)。
+
+1.12.0 已由 [PR #45](https://github.com/X-lab2017/open-dipper/pull/45) 发布，[Pages 40481435640](https://github.com/X-lab2017/open-dipper/actions/runs/40481435640) 成功。
 
 研究页以 Open Notebook 的课题／资料／对话／笔记为参考，提供本机多课题、情报收藏导入、资料选择与上下文勾选、未执行问题、可编辑笔记和模板、Markdown / JSON 导出。虚构对话示例独立；早期草案与跟踪保留。尚未部署或连接 Open Notebook、模型、文件解析、云同步。见 [研究空间契约](RESEARCH_SPACE.md) 与 [执行计划](plans/research-space.md)。
 

@@ -43,3 +43,11 @@ test('notebooks normalize bounded state and preserve independent question source
  const bundle=notebookBundle(s.books[0],[real]);assert.equal(bundle.execution,'not-connected');assert.equal(bundle.sources[0].id,'real');assert.equal(bundle.sources[0].url,real.url);
  assert.match(notebookMarkdown(s.books[0],[],true),/unavailable/);assert.match(notebookMarkdown(s.books[0],[real],true),/questions not executed/);
 });
+
+import {caseSources,caseSteps,makeInferenceCase} from '../src/intelligence-room/inference-case.ts';
+test('inference case keeps actual evidence distinct from editorial analysis and portable edits',()=>{
+ const book=makeInferenceCase();assert.equal(book.sourceIds.length,6);assert.equal(book.notes.length,3);assert.ok(caseSources.every(s=>s.provenance==='source'&&s.url.startsWith('https://')));
+ assert.ok(caseSteps.every(s=>s.sourceIds.every(id=>book.sourceIds.includes(id))));
+ book.notes[0].body='My edited analysis';const normalized=normalizeNotebooks({active:book.id,books:[book]});assert.equal(normalized.books[0].caseId,'inference');assert.equal(normalized.books[0].notes[0].origin,'example');assert.equal(normalized.books[0].notes[0].body,'My edited analysis');
+ const bundle=notebookBundle(book,caseSources);assert.equal(bundle.editorialWalkthrough.length,3);assert.equal(bundle.execution,'not-connected');assert.match(notebookMarkdown(book,caseSources,true),/My edited analysis/);assert.equal(normalizeNotebooks({books:Array.from({length:13},(_,i)=>({...book,id:'b'+i}))}).books.length,13);
+});

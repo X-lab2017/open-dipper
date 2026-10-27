@@ -1,4 +1,7 @@
 <!-- section:overview -->
+
+[打开研究空间演示：vLLM 与 SGLang 选型](https://www.x-lab.info/open-dipper/#briefing?tab=research&case=inference) — 六份真实来源、三步编辑示例和可编辑成果；非实时模型回答，未进行性能实测。
+
 # OpenDipper · 开源北斗
 
 <picture>
