@@ -332,12 +332,12 @@ button:disabled { cursor: default; }
 .topbar .fullscreen-button { width: 78px; flex: 0 0 78px; }
 .topbar .product-nav { min-width: 0; }
 .topbar .product-nav button { flex-shrink: 0; }
-@media (min-width:1001px) {
+@media (min-width:1101px) {
   .topbar { display: grid; grid-template-columns: auto minmax(0,1fr) auto; }
-  .topbar .product-nav { overflow-x: auto; scrollbar-width: thin; justify-content: safe center; }
+  .topbar .product-nav { order: 0; overflow-x: auto; scrollbar-width: thin; justify-content: safe center; }
   .topbar .product-nav button { padding-inline: 9px; }
 }
-@media (max-width:1000px) {
+@media (max-width:1100px) {
   .topbar .product-nav { justify-content: flex-start; overflow-x: auto; scrollbar-width: thin; }
   .topbar .product-nav button { flex: 1 0 auto; max-width: none; }
 }

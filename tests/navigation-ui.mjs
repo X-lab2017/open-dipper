@@ -3,7 +3,7 @@ import fs from 'node:fs/promises';
 const browser=await chromium.launch({headless:true});
 const modules=['overview','radar','ecosystem','briefing','contribute'];
 try {
- const page=await browser.newPage({reducedMotion:'reduce'}),errors=[];
+ const page=await browser.newPage({reducedMotion:'reduce'}),errors=[],overflows=[];
  page.on('pageerror',e=>errors.push(e.message));
  await page.goto(process.env.BASE_URL||'http://127.0.0.1:4173/open-dipper/');
  await expect(page.locator('#earth')).toBeVisible();
@@ -27,7 +27,7 @@ try {
      actual.buttons.forEach((b,i)=>{for(const key of ['x','y','w','h'])expect(Math.abs(b[key]-baseline.buttons[i][key]),`${width}/${lang}/${theme}/${id}/${key}`).toBeLessThanOrEqual(1);});
      const overflow=await page.evaluate(()=>({width:innerWidth,document:document.documentElement.scrollWidth,elements:[...document.querySelectorAll('body *')].filter(el=>{const r=el.getBoundingClientRect();return r.right>innerWidth+1&&getComputedStyle(el).position!=='fixed';}).slice(0,16).map(el=>({tag:el.tagName,cls:el.className,right:el.getBoundingClientRect().right}))}));
      if(overflow.document>width+1){console.log('Navigation overflow',width,lang,theme,id,JSON.stringify(overflow));await page.screenshot({path:`screenshots/navigation-overflow-${width}-${lang}-${theme}-${id}.png`});}
-     expect(overflow.document,`${width}/${lang}/${theme}/${id}: document overflow`).toBeLessThanOrEqual(width+1);
+     if(overflow.document>width+1)overflows.push({width,lang,theme,id,document:overflow.document});
      if(width===1366&&lang==='zh'&&theme==='dark')await page.screenshot({path:`screenshots/navigation-${id}.png`});
     }
    }
@@ -47,5 +47,5 @@ try {
  expect(await page.evaluate(()=>scrollY)).toBe(0);
  await page.locator('#nav-contribute').focus();await page.keyboard.press('Enter');
  await expect(page.locator('#nav-contribute')).toBeFocused();
- expect(errors).toEqual([]);console.log('Five-module navigation: fixed geometry, four widths, both languages/themes, scroll, focus and sources passed');
+ expect(overflows,'No document overflow across the complete navigation matrix').toEqual([]);expect(errors).toEqual([]);console.log('Five-module navigation: fixed geometry, four widths, both languages/themes, scroll, focus and sources passed');
 } finally {await browser.close();}
