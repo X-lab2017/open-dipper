@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "project": "OpenDipper",
-  "description": "AI and open-source ecosystem discovery, evidence reading, browser-local knowledge organization and reviewable research reports. DSH adapter code is prepared; no live runtime, cloud sync or paid service is deployed. Community redesign is a proposal.",
+  "description": "AI and open-source ecosystem discovery, evidence reading, browser-local knowledge organization and reviewable research reports. DSH adapter code is prepared; no live runtime, cloud sync or paid service is deployed. Community links feedback, sources and development to GitHub with session-only drafts and verified deliveries.",
   "repository": "https://github.com/X-lab2017/open-dipper",
   "site": "https://www.x-lab.info/open-dipper/",
   "rawBase": "https://raw.githubusercontent.com/X-lab2017/open-dipper/main/",
@@ -263,8 +263,8 @@
     },
     {
       "path": "docs/COMMUNITY_HUB.md",
-      "title": "Community design proposal",
-      "purpose": "Proposed naming, intent-based contribution entry, feedback loop and phased acceptance; not implemented",
+      "title": "Community implementation",
+      "purpose": "Intent-based contribution entry, session-only drafts, GitHub handoff and verified delivery links",
       "language": "zh-CN"
     }
   ],
@@ -569,8 +569,10 @@
         "CONTRIBUTING.zh-CN.md"
       ],
       "edit": [
+        "src/community/view.ts",
+        "src/community/community.css",
         "src/observatory/portal.ts",
-        "src/atlas.ts"
+        "src/observatory/intelligence.ts"
       ],
       "checks": [
         "typecheck",

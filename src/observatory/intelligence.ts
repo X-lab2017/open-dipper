@@ -12,7 +12,7 @@ export const topics: Record<Topic, Copy> = {
 export const pages: Record<Page, Copy> = {
   overview: {zh: '全球观测', en: 'Observatory'}, radar: {zh: 'AI 雷达', en: 'AI radar'},
   ecosystem: {zh: '开源星系', en: 'Open Galaxy'}, briefing: {zh: 'Agent 情报室', en: 'Agent Room'},
-  contribute: {zh: '参与共建', en: 'Contribute'}, following: {zh: '我的关注', en: 'Following'},
+  contribute: {zh: '共建社区', en: 'Community'}, following: {zh: '我的关注', en: 'Following'},
 };
 export type Signal = {
   id: string; topic: Topic; title: Copy; summary: Copy; why: Copy; next: Copy;
