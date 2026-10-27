@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "project": "OpenDipper",
-  "description": "AI and open-source ecosystem discovery, evidence reading, browser-local knowledge organization and reviewable research reports. DSH adapter code is prepared; no live runtime, cloud sync or paid service is deployed. Community links feedback, sources and development to GitHub with session-only drafts and verified deliveries.",
+  "description": "AI and open-source ecosystem discovery, evidence reading, browser-local knowledge organization and reviewable research reports. DSH adapter code is prepared; no live runtime, cloud sync or paid service is deployed. Community explains the mission, product modules, roadmap and contribution paths through an animated About page.",
   "repository": "https://github.com/X-lab2017/open-dipper",
   "site": "https://www.x-lab.info/open-dipper/",
   "rawBase": "https://raw.githubusercontent.com/X-lab2017/open-dipper/main/",
@@ -310,7 +310,7 @@
     {
       "path": "docs/COMMUNITY_HUB.md",
       "title": "Community implementation",
-      "purpose": "Intent-based contribution entry, session-only drafts, GitHub handoff and verified delivery links",
+      "purpose": "About-style mission, conceptual animation, honest roadmap, disclosures and GitHub participation paths",
       "language": "zh-CN",
       "url": "https://raw.githubusercontent.com/X-lab2017/open-dipper/main/docs/COMMUNITY_HUB.md"
     }
@@ -708,7 +708,7 @@
     "implementationCommit": "6544f48ccaab9a43a7c56069c487f620ec83723e"
   },
   "versions": {
-    "application": "1.14.0",
+    "application": "1.15.0",
     "visual": "1.4.0"
   }
 }
