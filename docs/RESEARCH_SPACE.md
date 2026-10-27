@@ -1,6 +1,6 @@
 # Research space / 研究空间
 
-Product review 1.12.0 · 2026-10-27. **Local working prototype; Open Notebook backend is not deployed or connected.**
+Product review 1.12.1 · 2026-10-27. **Local working prototype; Open Notebook backend is not deployed or connected.**
 
 ## User experience
 
@@ -8,7 +8,7 @@ A notebook holds one question or topic over time. Intelligence remains the share
 
 | Surface | What works now | Boundary |
 | --- | --- | --- |
-| Topic bar | Create, rename, switch local notebooks | 12 notebooks; no team/account synchronization |
+| Topic bar | Create, rename, switch local notebooks | 12 user notebooks plus one built-in case; no team/account synchronization |
 | Sources, left | Explicit import of Intelligence saved items; search the actual catalog; link/unlink sources; inspect provenance | 40 linked sources; catalog excerpts, not full text or audiovisual analysis |
 | Research, center | Suggested questions, editable draft, saved questions with the exact selected IDs | No model calls; saved questions never auto-execute later |
 | Notes, right | Manual notes, question-to-note, brief/comparison/plan templates; automatic local save | 30 notes, 20,000 characters each; template is not a generated finding |
@@ -24,7 +24,7 @@ A useful review route: save two articles in Intelligence → open Research → i
 
 `src/intelligence-room/notebook-model.ts` owns bounded normalization, context selection and export. `notebook.ts` owns interaction and original rendering. `od:notebooks-v1` is independent of `od:reader-v1` and earlier `od:agent-room-v2`; no old drafts are removed. Storage failures show a message and the session can still export. Browser clearing removes local persistence.
 
-Questions capture source IDs when saved; later deselection/unlinking does not rewrite prior context. Export includes IDs referenced by older questions and notes, even when no longer linked. Missing source records remain unavailable. This is a current metadata export, not immutable archival of source revisions; full source-version pinning is a backend prerequisite. Ordinary notebooks exclude fictional sources from context. Sources stay source-labelled; notes keep manual/template/demo origin. User text is escaped, links restricted to HTTP(S), no rendered user HTML. No remote content grants tool permissions.
+Questions capture source IDs when saved; later deselection/unlinking does not rewrite prior context. Export includes IDs referenced by older questions and notes, even when no longer linked. Missing source records remain unavailable. This is a current metadata export, not immutable archival of source revisions; full source-version pinning is a backend prerequisite. Ordinary notebooks exclude fictional sources from context. Sources stay source-labelled; notes keep manual/template/demo/example origin. User text is escaped, links restricted to HTTP(S), no rendered user HTML. No remote content grants tool permissions.
 
 ## What to reuse from Open Notebook
 
@@ -63,3 +63,7 @@ Pilot sequence:
 ## Validation evidence
 
 See [execution plan](plans/research-space.md) and the linked PR receipt for actual checks/deployment. Product review is not acceptance of a live Agent system.
+
+## Built-in inference case (1.12.1)
+
+[Open vLLM / SGLang case](https://www.x-lab.info/open-dipper/#briefing?tab=research&case=inference). Six real sources (two commit-pinned READMEs, two versioned papers and two release records) underpin three fixed editorial walkthrough steps and three editable notes. Source retrieval: 2026-10-27. No model ran and no performance benchmark was executed; cross-paper speedups are not ranked. New stores select the case; existing active notebooks and edited notes remain intact. The toolbar can reopen it. Direct links select it without overwriting edits. Notes remain browser-local; this is not a cloud account save. Export includes the editorial walkthrough and source references.

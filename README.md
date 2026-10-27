@@ -1,4 +1,7 @@
 <!-- section:overview -->
+
+[Try the built-in research case: vLLM vs SGLang](https://www.x-lab.info/open-dipper/#briefing?tab=research&case=inference) — six real sources, three editorial walkthrough steps and editable notes; no live model or measured benchmark.
+
 # OpenDipper · 开源北斗
 
 <picture>
