@@ -13,7 +13,7 @@
 
 [Open the observatory](https://www.x-lab.info/open-dipper/) · [AI radar](https://www.x-lab.info/open-dipper/#radar) · [Open Galaxy](https://www.x-lab.info/open-dipper/#ecosystem) · [Agent Intelligence Room](https://www.x-lab.info/open-dipper/#briefing) · [Contribute](CONTRIBUTING.md) · [Roadmap](ROADMAP.md)
 
-**1.6.0 milestone:** [release record and data boundaries](docs/releases/1.6.0.md) · [60-second five-module film, storyboard and reproduction](media/promo/README.md). The film uses global-observatory upstream totals to preview full-domain discovery; the current radar index remains a sourced preview sample.
+**1.6.0 milestone:** [release record and data boundaries](docs/releases/1.6.0.md) · [58-second five-module film, storyboard and reproduction](media/promo/README.md). The film uses global-observatory upstream totals to preview full-domain discovery; the current radar index remains a sourced preview sample.
 
 <!-- section:first-exploration -->
 ## Try your first exploration

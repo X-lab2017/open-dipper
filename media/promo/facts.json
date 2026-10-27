@@ -39,7 +39,7 @@
     "live DSH execution",
     "measured vLLM versus SGLang performance ranking"
   ],
-  "filmVersion": "3",
+  "filmVersion": "4",
   "researchCase": {
     "title": "vLLM / SGLang",
     "sources": 6,
