@@ -325,3 +325,19 @@ button:disabled { cursor: default; }
     animation-iteration-count: 1 !important;
   }
 }
+
+/* One shell across all five modules. Context tools must not move navigation. */
+.topbar .header-context-tools { width: 94px; flex: 0 0 94px; display: flex; align-items: center; justify-content: center; }
+.topbar .header-context-tools .sources-button { display: inline-flex; font-size: 11px; padding: 4px; }
+.topbar .fullscreen-button { width: 78px; flex: 0 0 78px; }
+.topbar .product-nav { min-width: 0; }
+.topbar .product-nav button { flex-shrink: 0; }
+@media (min-width:1001px) {
+  .topbar { display: grid; grid-template-columns: auto minmax(0,1fr) auto; }
+  .topbar .product-nav { overflow-x: auto; scrollbar-width: thin; justify-content: safe center; }
+  .topbar .product-nav button { padding-inline: 9px; }
+}
+@media (max-width:1000px) {
+  .topbar .product-nav { justify-content: flex-start; overflow-x: auto; scrollbar-width: thin; }
+  .topbar .product-nav button { flex: 1 0 auto; max-width: none; }
+}
