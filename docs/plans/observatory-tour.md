@@ -1,6 +1,6 @@
 # Observatory composition and World tour — 1.6.0
 
-- Execution state: active
+- Execution state: completed (implementation and pre-publication verification); final Pages receipt in PR #38
 - Baseline: `2ee96698b1c34fd7efbfd7a340f2214ba1f93af5`; branch `feat/observatory-tour`
 - Updated: 2026-10-27
 - Implementation: [PR #38](https://github.com/X-lab2017/open-dipper/pull/38); maintainer-authorized, AI-assisted implementation and review.
@@ -29,8 +29,11 @@ The tour has previous/next, pause/resume and exit-to-original-workspace controls
 - `npm run build`: passed; docs/generated context checks passed.
 - Managed browser preview at 1363×936: checked all five stops and matching map/globe/inspector states, exit restoration and both theme palettes; document height remains exactly viewport height, with the pulse visible.
 - Added CI browser coverage for default panel order, shared glyph alignment, the five stops, selected-region/camera restoration, 1280×720 and 390×844 in both themes, English, keyboard/manual interruption, reduced motion, visibility and module navigation cleanup.
-- CI browser checks and production deployment: pending. Final links and results belong in the implementation PR and delivery receipt; no pending gate is claimed as passed.
+- Full CI browser acceptance passed on application head `c860a5216e136690ff4c2a75f2095fc406ac0dc8` in [run 40429292901](https://github.com/X-lab2017/open-dipper/actions/runs/40429292901). This includes the existing atlas/workspace/density/portal/radar/galaxy/legacy routes and new World tour cases.
+- Pages publication is a separate gate: use the final [PR #38 receipt](https://github.com/X-lab2017/open-dipper/pull/38) for merge, production workflow and live verification. Deployment was not yet claimed when this record was committed.
 
-2026-10-27 CI checkpoint: first run [40427877006](https://github.com/X-lab2017/open-dipper/actions/runs/40427877006) passed types, unit/data checks and build, then stopped on the legacy 10 E / 36 N browser camera expectation. Updated initial/Home/reset/zoom/resize expectations to the new 5 E / 41.80 N frame; geometry tests independently verify balanced Mercator bounds. Full browser rerun remains required.
+2026-10-27 CI checkpoint: first run [40427877006](https://github.com/X-lab2017/open-dipper/actions/runs/40427877006) passed types, unit/data checks and build, then stopped on the legacy 10 E / 36 N browser camera expectation. Updated initial/Home/reset/zoom/resize expectations to the new 5 E / 41.80 N frame; geometry tests independently verify balanced Mercator bounds. Superseded by the successful browser run linked above.
 
-Second CI checkpoint [40428149403](https://github.com/X-lab2017/open-dipper/actions/runs/40428149403): existing atlas, workspace and full density/theme/language/mobile browser checks passed. New tour test exposed that the meeting list omitted dates until opening details. Added sourced periods directly to meeting rows, explicit developer-fill context during thematic stops, and native map-fullscreen exit restoration with a browser regression check. Browser rerun pending.
+Second CI checkpoint [40428149403](https://github.com/X-lab2017/open-dipper/actions/runs/40428149403): existing atlas, workspace and full density/theme/language/mobile browser checks passed. New tour test exposed that the meeting list omitted dates until opening details. Added sourced periods directly to meeting rows, explicit developer-fill context during thematic stops, and native map-fullscreen exit restoration with a browser regression check. Superseded by the successful browser run linked above.
+
+Final review: no data snapshots, collection contracts, official logos or historical baseline fingerprints changed. The dated meeting rows, explicit underlying fill label, final-stop completion message and fullscreen restoration are covered by the final browser pass. Run 40428542631 was superseded while installing browser dependencies; its cancellation is not a failed application check. No engineering steps remain in this plan; production delivery status is authoritative in PR #38.
