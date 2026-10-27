@@ -1,10 +1,22 @@
 # AI + 开源情报库 / AI + open-source intelligence library
 
-Application 1.7.0, 2026-10-27. Public browsing and local research prototype; not an autonomous research service. Implementation: `src/intelligence-room/`; data: `public/data/intelligence-catalog.json`.
+Application 1.8.0, 2026-10-27. Public browsing and local research prototype; not an autonomous research service. Implementation: `src/intelligence-room/`; data: `public/data/intelligence-catalog.json`.
 
 ![深色情报库](assets/agent-room/library-dark.jpg)
 
 ![浅色论文浏览](assets/agent-room/library-light.jpg)
+
+## Visual discovery · 1.8.0
+
+![Visual discovery](assets/agent-room/visual-story.jpg)
+
+Three original visual lenses sit between the category summary and searchable stream. **Timeline** facets the same records by form across 14 chronological buckets; **Topic radar** places six primary topics into three equal temporal bands (inner is more recent); **Story walk** provides six manual topic stops, with up to three distinct material forms and an open research question. It is a thematic browsing aid, not an automatically generated news narrative or a claim that records describe the same event.
+
+Selecting a bubble filters the feed to those exact records. A research starter brings up to 30 selected records and an editable question into the existing local draft. Reset clears graphical selection. Category/search/date/demo filters scope all lenses. The default visual window is the last 30 days of the loaded matching archive; all-time is available, and earlier records remain in the stream unless a cluster is selected. No current-day or live coverage claim. Form or primary-topic grouping assigns each record once; multi-topic tags still work in the regular topic filter.
+
+Bubble size represents indexed volume (capped for legibility), not popularity, quality, influence or causality. Solid fill means source records are present; dashed outlines mark included demos, with separate totals. Data snapshots and unknown publication dates use capture date on the chart and remain labelled; original observation periods remain in detail views. Empty scopes produce empty states. All chart cells are keyboard-operable, support focus, light/dark themes, and reduced motion. No timer or autoplay.
+
+Design references inspected 2026-10-27: [Timeline Storyteller](https://github.com/microsoft/timelinestoryteller), especially faceted timelines / radial representation / scene navigation; [AI News Radar](https://github.com/LearnPrompt/ai-news-radar), especially simple category navigation and source-preserving thematic browsing. Timeline Storyteller is archived; its D3 3 / Webpack 2 code is not embedded. No upstream code, icons, generated commentary, ranking scores, feed data or Agent skills were copied or installed. This release does not introduce semantic same-event clustering, AI-generated recommendations or new collection services.
 
 ## 阅读与分类
 

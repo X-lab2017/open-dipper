@@ -35,7 +35,7 @@
 | 开源星系 | 按任务找项目、建立候选清单、追踪记录关系，导出有来源的研究报告 | 19,771 个代码仓库 + 24,000 个模型/数据/Space 节点；记录关系与推断分离；[模块契约](docs/OPEN_GALAXY.md) |
 | Agent 情报室 | 按八类资料与六个主题浏览情报、检查来源和对象关联、收集研究上下文 | 有界来源元数据、分类统计与连续情报流；本机研究/跟踪原型；无后台 Agent 或投递 |
 
-**应用版本：1.7.0；视觉体系：1.4.0；地图／雷达固定基线：1.3.2。** 全球地图重新居中，默认打开活跃开发者，并以五站“环球巡航”串联企业、项目、模型和活动。[实现与验收](docs/plans/observatory-tour.md)。 [当前状态与限制](docs/STATUS.md) · [可复用基线](design/baselines/README.md) · [数据口径](docs/DATA_EVIDENCE.md)。各数据保留独立观察期，模拟脉动不是实时测量；公开可下载不代表每个模型或数据集都符合开源定义。
+**应用版本：1.8.0；视觉体系：1.4.0；地图／雷达固定基线：1.3.2。** 全球地图重新居中，默认打开活跃开发者，并以五站“环球巡航”串联企业、项目、模型和活动。[实现与验收](docs/plans/observatory-tour.md)。 [当前状态与限制](docs/STATUS.md) · [可复用基线](design/baselines/README.md) · [数据口径](docs/DATA_EVIDENCE.md)。各数据保留独立观察期，模拟脉动不是实时测量；公开可下载不代表每个模型或数据集都符合开源定义。
 
 ### 全球观测——找到观察重点
 
@@ -187,9 +187,13 @@ OpenDipper 独立实现。空间交互参考 [world-monitor.com](https://world-m
 
 **许可决策仍待确认：** 尚未选定应用代码根 LICENSE。源码、数据集、地图与品牌资产各有权利边界，公开可见不代表统一授权。详见[权利说明](docs/RIGHTS.md)与[决策 #6](https://github.com/X-lab2017/open-dipper/issues/6)。敏感报告请遵循 [SECURITY.md](SECURITY.md)。
 
-**Agent 情报室（1.7.0）：**[八类资料、六个主题](docs/INTELLIGENCE_LIBRARY.md)，支持分类汇总、连续浏览、来源与对象关联，并将选定资料带入本机研究草案。实际采集与模拟分别标识；尚未上线后台 Agent 研究和通知投递。
+**Agent 情报室（1.8.0）：**[八类资料、六个主题](docs/INTELLIGENCE_LIBRARY.md)，支持分类汇总、连续浏览、来源与对象关联，并将选定资料带入本机研究草案。实际采集与模拟分别标识；尚未上线后台 Agent 研究和通知投递。
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="docs/assets/agent-room/library-dark.jpg">
   <img src="docs/assets/agent-room/library-light.jpg" alt="Agent 情报室 · 八类资料、六个主题" width="1363" loading="lazy">
 </picture>
+
+Agent 情报室新增时间星图、主题雷达与六站线索漫游：点选聚集处查看资料，或将证据带入本机研究草案。数量代表当前收录量，不是全网热度。[设计与数据语义](docs/INTELLIGENCE_LIBRARY.md)。
+
+![Agent Room · Visual discovery](docs/assets/agent-room/visual-story.jpg)
