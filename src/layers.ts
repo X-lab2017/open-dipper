@@ -28,14 +28,14 @@ export const layers:Layer[]=[
 export const layerById=Object.fromEntries(layers.map(l=>[l.id,l])) as Record<LayerId,Layer>;
 export const groups:{id:string;name:[string,string];icon:string;children:LayerId[];exclusive?:boolean}[]=[
  {id:'developers',name:['开源开发者','Open-source developers'],icon:'people',exclusive:true,children:['developers','contribution','talent']},
- {id:'organizations',name:['开源组织','Open-source organizations'],icon:'people',children:['companies','foundations','research']},
- {id:'projects',name:['开源项目','Open-source projects'],icon:'assets',children:['influence','benchmark','emerging','llm']},
+ {id:'organizations',name:['开源组织','Open-source organizations'],icon:'organizations',children:['companies','foundations','research']},
+ {id:'projects',name:['开源项目','Open-source projects'],icon:'projects',children:['influence','benchmark','emerging','llm']},
  {id:'assets',name:['开源资产','Open assets'],icon:'assets',exclusive:true,children:['code','models','datasets','content']},
  {id:'infrastructure',name:['基础设施','Infrastructure'],icon:'server',children:['energy','compute']},
  {id:'signals',name:['生态动态','Ecosystem signals'],icon:'signal',children:['news','meetings']},
 ];
 export const presets:Record<string,{name:[string,string];layers:LayerId[];primary:LayerId;inspect:LayerId;description:[string,string]}>= {
- overview:{name:['综合观测','Overview'],layers:['developers','models','companies','benchmark','compute'],primary:'developers',inspect:'benchmark',description:['参与规模 · 模型供给 · 代表性项目','Participation · model supply · leading projects']},
+ overview:{name:['综合观测','Overview'],layers:['developers','companies','benchmark','models','meetings'],primary:'developers',inspect:'developers',description:['参与规模 · 模型供给 · 代表性项目','Participation · model supply · leading projects']},
  developer:{name:['开发者 · 寻找参与机会','Developers · find opportunities'],layers:['influence','code','benchmark','emerging','meetings'],primary:'influence',inspect:'emerging',description:['发现标杆与新项目，寻找参与入口','Discover benchmarks, rising projects and events']},
  enterprise:{name:['企业 · 技术选型与合作','Enterprises · technology & partners'],layers:['influence','models','companies','llm','compute'],primary:'influence',inspect:'llm',description:['对照模型供给、项目与合作方','Compare model supply, projects and partners']},
  researcher:{name:['研究者 · 人才与开放数据','Researchers · talent & data'],layers:['talent','datasets','research','meetings'],primary:'talent',inspect:'datasets',description:['寻找人才、数据资源与科研机构','Explore talent, datasets and institutions']},

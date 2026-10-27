@@ -11,9 +11,9 @@ try {
   await expect(earth).toHaveAttribute('data-fill-metric','developers');
   await expect(page.locator('#perspective')).toHaveValue('overview');
   // Collapsed tree groups unmount their checkboxes; inspector tabs represent every active layer.
-  await expect(page.locator('.inspector-tabs [role=tab]')).toHaveText(['活跃开发者','模型资产','企业','标杆项目','算力设施']);
+  await expect(page.locator('.inspector-tabs [role=tab]')).toHaveText(['活跃开发者','企业','标杆项目','模型资产','会议与活动']);
   await expect(earth).toHaveAttribute('data-bubble-layer','models');
-  await expect(page.locator('#observation-panel')).toContainText('标杆项目');
+  await expect(page.locator('#observation-panel')).toContainText('活跃开发者');
   await expect(page.locator('.scope-stats b')).toHaveText(['5','3','11']);
   await expect(page.locator('#legend-content')).toBeHidden();
   await expect(page.locator('#clear-layers')).toBeVisible();
