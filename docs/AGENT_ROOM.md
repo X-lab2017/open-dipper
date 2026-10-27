@@ -2,7 +2,7 @@
 
 Historical product specification v0.3 · 2026-10-27 · **interactive prototype, not a live Agent service**.
 
-> Current Research implementation: [Research space 1.12.0](RESEARCH_SPACE.md). Current reading: [Intelligence library](INTELLIGENCE_LIBRARY.md). The sections below retain earlier prototype decisions; the former research landing is now under Earlier drafts & version examples.
+> Current product: [Intelligence / Knowledge / Research 1.13](INTELLIGENCE_WORKFLOW.md). Knowledge contract: [RESEARCH_SPACE.md](RESEARCH_SPACE.md). The sections below are historical prototype proposals, including superseded navigation, provider selection and Following. They must not be restored as current requirements.
 
 ## 中文评审摘要 / Review v0.3
 

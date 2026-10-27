@@ -1,12 +1,16 @@
 # 当前状态 / Current status
 
-核对日期：**2026-10-27**。当前工作分支 **1.13.0**（线上版本以部署记录为准）；维护者已接受的地图／AI 雷达固定基线仍为 **1.3.2**，当前视觉 tokens **1.4.0**（固定历史基线为 **1.3.0**），产品品牌 **1.1.0**。版本轴独立，不代表新建 Git tag 或 GitHub Release。实时任务状态看 issue/PR，数据新鲜度看来源快照。
+核对日期：**2026-10-27**。当前已发布应用 **1.13.0**（部署证据见下）；维护者已接受的地图／AI 雷达固定基线仍为 **1.3.2**，当前视觉 tokens **1.4.0**（固定历史基线为 **1.3.0**），产品品牌 **1.1.0**。版本轴独立，不代表新建 Git tag 或 GitHub Release。实时任务状态看 issue/PR，数据新鲜度看来源快照。
 
 **1.6.0 已上线。** 紧凑三栏、地图取景、明暗体系与五站“环球巡航”已交付；默认打开活跃开发者，随后为企业、标杆项目、模型资产、会议与活动，模块名统一为“开源星系”。[里程碑与过程披露](releases/1.6.0.md) 汇总实际发布、数据边界和参与入口；[线上体验](https://www.x-lab.info/open-dipper/)反馈集中在 [#35](https://github.com/X-lab2017/open-dipper/issues/35)。
 
-## 待评审：情报浏览 → 知识整理 → 深度研究
+## 阶段收尾：情报浏览 → 知识整理 → 深度研究
 
-1.13.0 打通 vLLM / SGLang 的来源阅读、知识收录、研究范围、完整报告、编辑与导出。案例报告为编辑演示，未运行 DSH 或性能评测。维护者确认尚无 DSH 服务；服务端 SDK 适配代码已准备，真实执行仍等待独立部署、模型与限制配置。见[执行计划](plans/knowledge-dsh-flow.md)和[服务端接入说明](../services/research/README.md)。既有课题、笔记、草案与历史跟踪保留。
+1.13.0 已由 [PR #47](https://github.com/X-lab2017/open-dipper/pull/47) 合并，[Pages 40498062877](https://github.com/X-lab2017/open-dipper/actions/runs/40498062877) 构建、浏览器验收与部署成功。维护者结束本轮产品交互迭代；后端能力未因此完成。
+
+1.13.0 打通 vLLM / SGLang 的来源阅读、知识收录、研究范围、完整报告、编辑与导出。案例报告为编辑演示，未运行 DSH 或性能评测。维护者确认尚无 DSH 服务；服务端 SDK 适配代码已准备，真实执行仍等待独立部署、模型与限制配置。见[执行计划](plans/knowledge-dsh-flow.md)和[服务端接入说明](../services/research/README.md)。既有课题、笔记、草案与历史跟踪保留。使用与接手请读[情报室流程](INTELLIGENCE_WORKFLOW.md)。
+
+下一阶段建议将“参与共建”改为“共建社区 / Community”，承接体验反馈、资料贡献和开发协作。[设计 v0.1](COMMUNITY_HUB.md) 已形成；尚未改动线上名称、布局或新增提交服务。
 
 ## 已交付：研究空间与推理框架演示案例
 
@@ -16,7 +20,7 @@
 
 研究页以 Open Notebook 的课题／资料／对话／笔记为参考，提供本机多课题、情报收藏导入、资料选择与上下文勾选、未执行问题、可编辑笔记和模板、Markdown / JSON 导出。虚构对话示例独立；早期草案与跟踪保留。尚未部署或连接 Open Notebook、模型、文件解析、云同步。见 [研究空间契约](RESEARCH_SPACE.md) 与 [执行计划](plans/research-space.md)。
 
-1.11.0 专注阅读版已由 [PR #44](https://github.com/X-lab2017/open-dipper/pull/44) 发布；[Pages 40470579201](https://github.com/X-lab2017/open-dipper/actions/runs/40470579201) 成功。情报页保持资料库／列表／阅读三栏，无 Agent 输入和可视化。当前研究升级的部署状态以本次 PR / Actions 回执为准。
+1.11.0 专注阅读版已由 [PR #44](https://github.com/X-lab2017/open-dipper/pull/44) 发布；[Pages 40470579201](https://github.com/X-lab2017/open-dipper/actions/runs/40470579201) 成功。情报页保持资料库／列表／阅读三栏，无 Agent 输入和可视化。最新研究交付见上方 1.13.0 记录。
 
 ## 1.9.0 情报探索工作台
 
@@ -40,7 +44,7 @@
 | AI 雷达 | 80 软件 + 60 模型 + 20 数据集；双视角各 80 个编号目标；任务筛选、分区聚焦、来源证据、同类对比、试用导出、本机关注 | [雷达契约](AI_RADAR.md) |
 | 统一展示 | 双语品牌、明暗模式、一/两屏；地图全屏、雷达展开及返回；移动端自然流、键盘和减少动态效果 | [复用基线](../design/baselines/observatory-radar-1.3.2.md) |
 | 开源星系 | 19,771 个代码仓库 + 24,000 个模型/数据集/应用节点；记录与推断分离；任务搜索、3 项清单、3 跳内路径、月度证据与报告导出 | [星系契约](OPEN_GALAXY.md) |
-| Agent 情报室 | 八类情报、六主题、对象与来源索引、连续浏览；本机研究草案与版本演示；保留公开样刊 | [情报契约](INTELLIGENCE.md) |
+| Agent 情报室 | 情报浏览、知识整理、深度研究与报告交付；vLLM/SGLang 编辑案例；本机保存，DSH 运行待部署 | [当前流程](INTELLIGENCE_WORKFLOW.md) · [知识契约](RESEARCH_SPACE.md) |
 | 数据与发布 | 固定版本来源摘录、OpenDigger 月度样本、官方事件采集与独立人工审核，静态快照与 Pages | [数据契约](DATA_CONTRACTS.md) · [运维](OPERATIONS.md) |
 | 仓库协作 | 双语入口、需求/缺陷/纠错/体验/事件表单、Agent 上下文、PR 验收与交接 | [贡献指南](../CONTRIBUTING.zh-CN.md) · [Harness](HARNESS.md) |
 

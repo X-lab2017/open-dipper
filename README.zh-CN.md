@@ -1,9 +1,5 @@
 <!-- section:overview -->
 
-**1.13 评审版：** 情报浏览 → 知识整理 → 深度研究，完整演示 vLLM/SGLang 从来源到报告的流程。[开始案例](https://www.x-lab.info/open-dipper/#briefing?tab=signals&case=inference)。DSH 服务端适配已准备；运行服务待部署，公开报告为编辑示例。
-
-[打开研究空间演示：vLLM 与 SGLang 选型](https://www.x-lab.info/open-dipper/#briefing?tab=research&case=inference) — 六份真实来源、三步编辑示例和可编辑成果；非实时模型回答，未进行性能实测。
-
 # OpenDipper · 开源北斗
 
 <picture>
@@ -13,20 +9,20 @@
 
 [English](README.md) | **简体中文**
 
-**观察全球 AI 与开源生态，发现相关项目，查阅证据，决定下一步尝试什么。** 开源北斗连接全球空间观测、任务式 AI 雷达与可深入探索的开源星系，为开发者、研究者和生态社区提供探索入口。
+**开源北斗将 AI 与开源生态数据，转化为可探索的线索、可整理的知识和可审阅的研究报告。** 开发者可以发现和比较项目，研究者与生态团队可以查证资料、组织专题、准备决策。全球观测、AI 雷达和开源星系帮助你发现问题；Agent 情报室承接资料阅读、知识整理与报告交付。
 
-[进入观测站](https://www.x-lab.info/open-dipper/) · [AI 雷达](https://www.x-lab.info/open-dipper/#radar) · [开源星系](https://www.x-lab.info/open-dipper/#ecosystem) · [参与贡献](CONTRIBUTING.zh-CN.md) · [路线图](ROADMAP.zh-CN.md)
+[进入观测站](https://www.x-lab.info/open-dipper/) · [AI 雷达](https://www.x-lab.info/open-dipper/#radar) · [开源星系](https://www.x-lab.info/open-dipper/#ecosystem) · [Agent 情报室](https://www.x-lab.info/open-dipper/#briefing) · [参与贡献](CONTRIBUTING.zh-CN.md) · [路线图](ROADMAP.zh-CN.md)
 
 **1.6.0 里程碑：**[发布记录与数据边界](docs/releases/1.6.0.md) · [50 秒宣传短片、分镜与复现](media/promo/README.md)。短片以全球观测上游统计呈现全域发现愿景；当前雷达仍是有来源的预览样本，后续分阶段接入。
 
 <!-- section:first-exploration -->
 ## 完成你的第一次探索
 
-1. 打开[开源星系](https://www.x-lab.info/open-dipper/#ecosystem)，搜索 **PyTorch**，或一个你正在使用的项目。
-2. 选中项目，查看记录关系邻居，把感兴趣的候选加入研究清单。以 PyTorch 为例，可以探索它与 **vLLM** 的记录关联。
-3. 打开研究清单中的“对照与研究”，查看来源，再导出 **Markdown、HTML 或 JSON** 报告。
+1. [打开 vLLM / SGLang 案例](https://www.x-lab.info/open-dipper/#briefing?tab=signals&case=inference)，阅读六份官方来源。
+2. 收录到**知识整理**，勾选本次研究使用的资料，点击**带入深度研究**。
+3. 查看完整**编辑示例**，回查引用、修改报告，导出 Markdown 或可打印 HTML，也可以将成果存回知识库。
 
-代码星系的连线表示采样期内的共享贡献者关联，不等于软件依赖或质量排名。报告保留来源和证据缺口，供你继续查证。
+无需 API 密钥即可体验。该流程演示从证据到报告的交互，**不是 DSH 实时执行或性能实测**。内容保存在当前浏览器，清理存储前请导出。若想探索项目关系，可以在开源星系搜索 PyTorch；记录的共享贡献者连线不等于软件依赖或质量排名。
 
 **你发现了什么，在哪一步卡住了？** 欢迎[分享第一次探索体验](https://github.com/X-lab2017/open-dipper/issues/35)。如果工具对你有用，可以 Star 留作后续探索；使用反馈与来源纠错同样欢迎。
 
@@ -38,9 +34,9 @@
 | 全球观测 | 在地图或地球上探索参与、贡献、影响力与生态事件 | 六类十八层、图层叠加、当前观察多标签、排行榜与一/两屏演示 |
 | AI 雷达 | 按任务发现候选、检查来源、同类对比并导出试用清单 | 160 个有来源实体：80 个软件、60 个模型、20 个数据集；本机关注；可关闭的**模拟**圈层判断 |
 | 开源星系 | 按任务找项目、建立候选清单、追踪记录关系，导出有来源的研究报告 | 19,771 个代码仓库 + 24,000 个模型/数据/Space 节点；记录关系与推断分离；[模块契约](docs/OPEN_GALAXY.md) |
-| Agent 情报室 | 按八类资料与六个主题浏览情报、检查来源和对象关联、收集研究上下文 | 有界来源元数据、分类统计与连续情报流；本机研究/跟踪原型；无后台 Agent 或投递 |
+| Agent 情报室 | 浏览情报 → 整理知识 → 发起研究 → 审阅与交付报告 | 本机工作区；完整 vLLM/SGLang 编辑案例；DSH 适配代码已准备，运行服务未接通 |
 
-**应用版本：1.8.0；视觉体系：1.4.0；地图／雷达固定基线：1.3.2。** 全球地图重新居中，默认打开活跃开发者，并以五站“环球巡航”串联企业、项目、模型和活动。[实现与验收](docs/plans/observatory-tour.md)。 [当前状态与限制](docs/STATUS.md) · [可复用基线](design/baselines/README.md) · [数据口径](docs/DATA_EVIDENCE.md)。各数据保留独立观察期，模拟脉动不是实时测量；公开可下载不代表每个模型或数据集都符合开源定义。
+**应用版本：1.13.0；视觉体系：1.4.0；地图／雷达固定基线：1.3.2。** 全球地图重新居中，默认打开活跃开发者，并以五站“环球巡航”串联企业、项目、模型和活动。[实现与验收](docs/plans/observatory-tour.md)。 [当前状态与限制](docs/STATUS.md) · [可复用基线](design/baselines/README.md) · [数据口径](docs/DATA_EVIDENCE.md)。各数据保留独立观察期，模拟脉动不是实时测量；公开可下载不代表每个模型或数据集都符合开源定义。
 
 ### 全球观测——找到观察重点
 
@@ -81,6 +77,18 @@
 
 *2026-10-27 线上截图，随明暗偏好切换；截图日期不替代数据观察期。[图片来源与压缩说明](docs/assets/README.md)。*
 
+### Agent 情报室——从资料走到交付
+
+**情报浏览｜知识整理｜深度研究**分别负责阅读、知识加工和研究交付。情报页借鉴 Folo 的资料库／列表／阅读三栏；知识页借鉴 Open Notebook 的资料选择与笔记组织；研究页围绕问题、证据、报告与交付展开。
+
+![专注情报阅读](docs/assets/agent-room/focused-reader.jpg)
+
+![知识整理工作区](docs/assets/agent-room/research-space.jpg)
+
+*阅读与知识整理截图来自此前迭代，不代表新增深度研究页面。当前完整操作路径与边界见[流程指南](docs/INTELLIGENCE_WORKFLOW.md)。*
+
+来源目录是有界样本，不是全网覆盖。Folo、Open Notebook 是交互参考，未嵌入其服务。DSH 是选定的执行方向；[服务端适配说明](services/research/README.md)仍要求独立运行服务、匹配的 SDK、模型和带身份验证的网关。未接通时运行按钮禁用，演示为独立入口。尚无云同步、自动跟踪或通知投递。
+
 <!-- section:participation -->
 ## 从问题或一份小贡献开始
 
@@ -113,25 +121,26 @@
 
 ```mermaid
 flowchart TD
-  GS["OpenShare 全球分布 / GOSD AI 供给"] --> O
-  M["OpenDigger 指标与地域数据"] --> O["OpenDipper 观测站"]
-  E["公开发布与审核通过的生态事件"] --> O
-  D["明确标识的模拟场景"] -.-> O
-  O --> G["空间：地图与地球"]
-  O --> T["时间：排行与趋势"]
-  O --> W["事件：快讯与来源证据"]
-  O --> R["AI 雷达与个人关注"]
-  O --> X["开源星系：关系探索与证据报告"]
-  X --> V
-  R --> V
-  R --> S["公开样刊与订阅预览"]
-  S --> V
-  G --> V["研究洞察 · 日常观测 · 大屏演示"]
-  T --> V
-  W --> V
-  V -.-> I["Issues：需求与反馈"]
-  I -.-> O
+  A["全球观测 / AI 雷达 / 开源星系"]
+  B["发现对象与问题"]
+  C["情报浏览：阅读来源"]
+  D["知识整理：组织证据"]
+  E["深度研究：审阅与交付"]
+  F["Issues / PRs：反馈与贡献"]
+  G["维护者审核与发布"]
+  A --> B
+  B -.-> C
+  C --> D
+  D --> E
+  E --> D
+  B -.-> F
+  E -.-> F
+  F --> G
+  G --> A
+  G --> C
 ```
+
+虚线表示用户主动衔接，不代表跨模块自动传递上下文或公开分享。建议以**共建社区**承接反馈闭环；[设计方案](docs/COMMUNITY_HUB.md)尚未实现，当前线上导航仍为“参与共建”。
 
 <!-- section:development -->
 ## 本地运行
@@ -191,13 +200,3 @@ AI Agent 参与了实现、视觉迭代和仓库维护。贡献应披露参与�
 OpenDipper 独立实现。空间交互参考 [world-monitor.com](https://world-monitor.com/)，工程参考包括另一个独立项目 [koala73/worldmonitor](https://github.com/koala73/worldmonitor)。仓库保留来源与品牌声明。
 
 **许可决策仍待确认：** 尚未选定应用代码根 LICENSE。源码、数据集、地图与品牌资产各有权利边界，公开可见不代表统一授权。详见[权利说明](docs/RIGHTS.md)与[决策 #6](https://github.com/X-lab2017/open-dipper/issues/6)。敏感报告请遵循 [SECURITY.md](SECURITY.md)。
-
-**Agent 情报室 · 1.11.0**
-
-情报首页专注 Folo 式阅读：来源导航、紧凑列表、来源摘录和本机收藏／已读。情报页移除图表、重复流与 Agent 操作；研究页可导入收藏资料，并保留独立的研究草案工作区。来源目录包含 940 条记录，另合并原有观测与事件；这是有出处的样本库，尚未接通实时 Agent 研究。[范围与来源](docs/INTELLIGENCE_LIBRARY.md)。
-
-![Focused intelligence reader](docs/assets/agent-room/focused-reader.jpg)
-
-研究页新增参考 Open Notebook 的研究空间：多课题、资料上下文勾选、问题保存、可编辑笔记／模板和 Markdown／JSON 导出。问题尚未执行，虚构示例独立展示；未接入 Open Notebook 后端。[研究空间](docs/RESEARCH_SPACE.md)。
-
-![Research space](docs/assets/agent-room/research-space.jpg)
