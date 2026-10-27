@@ -33,9 +33,9 @@ Code-galaxy links describe shared-contributor affinity within a dated sample; th
 | Global observation | Explore participation, contribution, influence and ecosystem events on a map or globe | Six groups / eighteen layers, overlays, focused observation tabs, rankings and one/two-screen presentation |
 | AI radar | Discover candidates by task, inspect sources, compare like entities and export a trial checklist | 160 sourced identities: 80 software, 60 models, 20 datasets; local following; optional **simulated** ring judgments |
 | Open Galaxy | Find projects by task, shortlist candidates, trace recorded connections and export sourced research reports | 19,771 code repositories + 24,000 model/data/Space nodes; recorded and inferred links stay separate; [module contract](docs/OPEN_GALAXY.md) |
-| Intelligence | Read public brief examples and save interests | Browser-local preferences; subscription delivery and paid services remain planned |
+| Agent Intelligence Room | Browse eight material forms across six topics, inspect evidence/object links and collect research context | Bounded source metadata, category counts and progressive feed; local research/following prototype; no live Agent or delivery |
 
-**Application: 1.6.0; visual system: 1.4.0; fixed map/radar baseline: 1.3.2.** The centered observatory opens Active developers and offers a five-stop World tour across companies, projects, models and events. [Implementation and validation](docs/plans/observatory-tour.md). [Current status and limits](docs/STATUS.md) · [Reusable baseline](design/baselines/README.md) · [Data scope](docs/DATA_EVIDENCE.md). Data has independent observation windows; synthetic activity is not live measurement. Public availability does not imply every model or dataset is open source.
+**Application: 1.7.0; visual system: 1.4.0; fixed map/radar baseline: 1.3.2.** The centered observatory opens Active developers and offers a five-stop World tour across companies, projects, models and events. [Implementation and validation](docs/plans/observatory-tour.md). [Current status and limits](docs/STATUS.md) · [Reusable baseline](design/baselines/README.md) · [Data scope](docs/DATA_EVIDENCE.md). Data has independent observation windows; synthetic activity is not live measurement. Public availability does not imply every model or dataset is open source.
 
 ### Global observation — find where to look
 
@@ -187,4 +187,9 @@ OpenDipper is independently implemented. Spatial interaction references [world-m
 
 **License decision remains open:** a root application LICENSE has not been selected. Application code, datasets, maps and brand assets have separate rights; public visibility is not a blanket license. See [rights](docs/RIGHTS.md) and [decision #6](https://github.com/X-lab2017/open-dipper/issues/6). For sensitive reports, follow [SECURITY.md](SECURITY.md).
 
-**Product review:** [Agent Intelligence Room](docs/AGENT_ROOM.md) combines scripted research and local following in a prototype. No live Agent or delivery service is launched.
+**Agent Intelligence Room (1.7.0):** [Browse eight material forms](docs/INTELLIGENCE_LIBRARY.md) across six AI/open-source topics, inspect source/object links, and carry selected evidence into local research drafts. Includes bounded public metadata collection and separately labelled demos. Live Agent research and notification delivery are not active.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/assets/agent-room/library-dark.jpg">
+  <img src="docs/assets/agent-room/library-light.jpg" alt="Agent Intelligence Room · eight material forms, six topics" width="1363" loading="lazy">
+</picture>

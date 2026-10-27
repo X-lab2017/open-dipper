@@ -43,3 +43,7 @@ The independent `evidence.json` powers global headline facts, three geographic m
 
 
 Additional atlas inputs (`dashboard-overview`, `active-developers`, `report-layers`, `located-entities`, `repo-ranking` and `anchors`) are defined in [ATLAS_WORKSPACE.md](ATLAS_WORKSPACE.md). Keep those report windows, source rankings and location roles separate from monthly repository samples. The map uses observed samples, historical infrastructure records and clearly identified simulations; it is not a complete live global inventory.
+
+## Intelligence library 1.7.0
+
+The optional `public/data/intelligence-catalog.json` is loaded independently after base startup, validated at runtime, and can fail without replacing facts with demos. Its metadata adapters, taxonomy, canonical entities, evidence links, clock boundaries and source health are specified in [INTELLIGENCE_LIBRARY.md](INTELLIGENCE_LIBRARY.md).

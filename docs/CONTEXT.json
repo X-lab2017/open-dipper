@@ -242,6 +242,12 @@
       "title": "Agent Intelligence Room prototype",
       "purpose": "Product validation, scripted simulation boundaries and future research/following service gates; not a live Agent service",
       "language": "zh-CN/en"
+    },
+    {
+      "path": "docs/INTELLIGENCE_LIBRARY.md",
+      "title": "AI and open-source intelligence library",
+      "purpose": "Taxonomy, evidence objects, bounded metadata collection, source clocks and runtime recovery",
+      "language": "zh-CN/en"
     }
   ],
   "tasks": {

@@ -1,0 +1,372 @@
+[
+  {
+    "id": "curated-7647307fe49844a005ca",
+    "kind": "paper",
+    "provenance": "source",
+    "date": "2022-10-06",
+    "publishedAt": "2022-10-06",
+    "dateBasis": "published",
+    "captured": "2026-10-27",
+    "title": [
+      "ReAct: Synergizing Reasoning and Acting in Language Models",
+      "ReAct: Synergizing Reasoning and Acting in Language Models"
+    ],
+    "summary": [
+      "公开来源索引；阅读原文了解方法、限制与上下文。",
+      "Public source index; consult the original for methods, limitations and context."
+    ],
+    "source": "arXiv",
+    "url": "https://arxiv.org/abs/2210.03629",
+    "objects": [
+      "ReAct"
+    ],
+    "topics": [
+      "agents"
+    ],
+    "modality": "document",
+    "verification": "primary-page"
+  },
+  {
+    "id": "curated-200002328137240fce9a",
+    "kind": "paper",
+    "provenance": "source",
+    "date": "2023-02-09",
+    "publishedAt": "2023-02-09",
+    "dateBasis": "published",
+    "captured": "2026-10-27",
+    "title": [
+      "Toolformer: Language Models Can Teach Themselves to Use Tools",
+      "Toolformer: Language Models Can Teach Themselves to Use Tools"
+    ],
+    "summary": [
+      "公开来源索引；阅读原文了解方法、限制与上下文。",
+      "Public source index; consult the original for methods, limitations and context."
+    ],
+    "source": "arXiv",
+    "url": "https://arxiv.org/abs/2302.04761",
+    "objects": [
+      "Toolformer"
+    ],
+    "topics": [
+      "agents"
+    ],
+    "modality": "document",
+    "verification": "primary-page"
+  },
+  {
+    "id": "curated-ef8b5f9fca8456b539f4",
+    "kind": "paper",
+    "provenance": "source",
+    "date": "2023-09-12",
+    "publishedAt": "2023-09-12",
+    "dateBasis": "published",
+    "captured": "2026-10-27",
+    "title": [
+      "Efficient Memory Management for Large Language Model Serving with PagedAttention",
+      "Efficient Memory Management for Large Language Model Serving with PagedAttention"
+    ],
+    "summary": [
+      "公开来源索引；阅读原文了解方法、限制与上下文。",
+      "Public source index; consult the original for methods, limitations and context."
+    ],
+    "source": "arXiv",
+    "url": "https://arxiv.org/abs/2309.06180",
+    "objects": [
+      "Efficient Memory Management for Large Language Model Serving with PagedAttention"
+    ],
+    "topics": [
+      "infra"
+    ],
+    "modality": "document",
+    "verification": "primary-page"
+  },
+  {
+    "id": "curated-bd51be41629f627c10d0",
+    "kind": "paper",
+    "provenance": "source",
+    "date": "2023-07-18",
+    "publishedAt": "2023-07-18",
+    "dateBasis": "published",
+    "captured": "2026-10-27",
+    "title": [
+      "Llama 2: Open Foundation and Fine-Tuned Chat Models",
+      "Llama 2: Open Foundation and Fine-Tuned Chat Models"
+    ],
+    "summary": [
+      "公开来源索引；阅读原文了解方法、限制与上下文。",
+      "Public source index; consult the original for methods, limitations and context."
+    ],
+    "source": "arXiv",
+    "url": "https://arxiv.org/abs/2307.09288",
+    "objects": [
+      "Llama 2"
+    ],
+    "topics": [
+      "models"
+    ],
+    "modality": "document",
+    "verification": "primary-page"
+  },
+  {
+    "id": "curated-4cd8fde22db0b147d8d4",
+    "kind": "paper",
+    "provenance": "source",
+    "date": "2025-01-22",
+    "publishedAt": "2025-01-22",
+    "dateBasis": "published",
+    "captured": "2026-10-27",
+    "title": [
+      "DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning",
+      "DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning"
+    ],
+    "summary": [
+      "公开来源索引；阅读原文了解方法、限制与上下文。",
+      "Public source index; consult the original for methods, limitations and context."
+    ],
+    "source": "arXiv",
+    "url": "https://arxiv.org/abs/2501.12948",
+    "objects": [
+      "DeepSeek-R1"
+    ],
+    "topics": [
+      "models"
+    ],
+    "modality": "document",
+    "verification": "primary-page"
+  },
+  {
+    "id": "curated-aa2cb025bec569d8daf4",
+    "kind": "paper",
+    "provenance": "source",
+    "date": "2025-09-11",
+    "publishedAt": "2025-09-11",
+    "dateBasis": "published",
+    "captured": "2026-10-27",
+    "title": [
+      "From Hugging Face to GitHub: Tracing License Drift in the Open-Source AI Ecosystem",
+      "From Hugging Face to GitHub: Tracing License Drift in the Open-Source AI Ecosystem"
+    ],
+    "summary": [
+      "公开来源索引；阅读原文了解方法、限制与上下文。",
+      "Public source index; consult the original for methods, limitations and context."
+    ],
+    "source": "arXiv",
+    "url": "https://arxiv.org/abs/2509.09873",
+    "objects": [
+      "From Hugging Face to GitHub"
+    ],
+    "topics": [
+      "governance"
+    ],
+    "modality": "document",
+    "verification": "primary-page"
+  },
+  {
+    "id": "curated-d54f21cc3a8100fa641a",
+    "kind": "video",
+    "provenance": "source",
+    "date": "2026-10-27",
+    "publishedAt": null,
+    "dateBasis": "captured",
+    "captured": "2026-10-27",
+    "title": [
+      "Building Agents with Smolagents",
+      "Building Agents with Smolagents"
+    ],
+    "summary": [
+      "视频标题已通过公开索引取得；未核验字幕、内容或时长，点击前往观看。",
+      "Title retrieved from a public index; transcript, content and duration not verified. Open to watch."
+    ],
+    "source": "YouTube",
+    "url": "https://www.youtube.com/watch?v=dSGS6-iGhyo",
+    "objects": [
+      "Building Agents with Smolagents"
+    ],
+    "topics": [
+      "agents"
+    ],
+    "modality": "video",
+    "verification": "search-metadata"
+  },
+  {
+    "id": "curated-ab5af3e75eb20eeeb6a4",
+    "kind": "video",
+    "provenance": "source",
+    "date": "2026-10-27",
+    "publishedAt": null,
+    "dateBasis": "captured",
+    "captured": "2026-10-27",
+    "title": [
+      "New - Easy to Learn - AI Agents: Smolagents (by HuggingFace)",
+      "New - Easy to Learn - AI Agents: Smolagents (by HuggingFace)"
+    ],
+    "summary": [
+      "公开视频入口；未抓取影音、字幕或确认作者身份。",
+      "Public video reference; media, transcript and author identity not verified."
+    ],
+    "source": "YouTube",
+    "url": "https://www.youtube.com/watch?v=tBXAwCH6rcU",
+    "objects": [
+      "New - Easy to Learn - AI Agents"
+    ],
+    "topics": [
+      "agents"
+    ],
+    "modality": "video",
+    "verification": "search-metadata"
+  },
+  {
+    "id": "curated-06989187b995155d350f",
+    "kind": "conference",
+    "provenance": "source",
+    "date": "2026-10-27",
+    "publishedAt": null,
+    "dateBasis": "captured",
+    "captured": "2026-10-27",
+    "title": [
+      "PyTorch Conference 2026",
+      "PyTorch Conference 2026"
+    ],
+    "summary": [
+      "PyTorch 官方活动页；日期按本页记录，跨站日程存在差异，参加前须复核。",
+      "Official PyTorch event listing; calendars differ, so confirm with organizers before attending."
+    ],
+    "source": "Public event source",
+    "url": "https://pytorch.org/event/pytorch-conference-2026/",
+    "objects": [
+      "PyTorch Conference 2026"
+    ],
+    "topics": [
+      "infra"
+    ],
+    "modality": "event",
+    "verification": "primary-page",
+    "period": [
+      "2026-10-20—2026-10-21 · PyTorch listing; other calendars differ",
+      "2026-10-20—2026-10-21 · PyTorch listing; other calendars differ"
+    ]
+  },
+  {
+    "id": "curated-54a004c7a6d10c553829",
+    "kind": "event",
+    "provenance": "source",
+    "date": "2026-10-27",
+    "publishedAt": null,
+    "dateBasis": "captured",
+    "captured": "2026-10-27",
+    "title": [
+      "Training Agents IRL",
+      "Training Agents IRL"
+    ],
+    "summary": [
+      "围绕 Agent 强化学习的社区活动；活动已结束，可回看主办方资料。",
+      "A community event on reinforcement learning for agents; consult organizer materials after the event."
+    ],
+    "source": "Public event source",
+    "url": "https://luma.com/awautg3p",
+    "objects": [
+      "Training Agents IRL"
+    ],
+    "topics": [
+      "agents"
+    ],
+    "modality": "event",
+    "verification": "primary-page",
+    "period": [
+      "2026-10-22 · 18:00–21:00 Pacific",
+      "2026-10-22 · 18:00–21:00 Pacific"
+    ]
+  },
+  {
+    "id": "curated-81f059c5a49f63c71449",
+    "kind": "event",
+    "provenance": "source",
+    "date": "2026-10-27",
+    "publishedAt": null,
+    "dateBasis": "captured",
+    "captured": "2026-10-27",
+    "title": [
+      "Open Together: Community Demos",
+      "Open Together: Community Demos"
+    ],
+    "summary": [
+      "社区演示征集页面，要求关联公开 Hugging Face Space。",
+      "Community demo call requiring a public Hugging Face Space."
+    ],
+    "source": "Public event source",
+    "url": "https://huggingface.co/spaces/OpenTogether/community-demos/blob/main/README.md",
+    "objects": [
+      "Open Together"
+    ],
+    "topics": [
+      "ecosystem"
+    ],
+    "modality": "event",
+    "verification": "primary-page",
+    "period": [
+      "2026-10-16",
+      "2026-10-16"
+    ]
+  },
+  {
+    "id": "curated-0b02fade2e970159ae2d",
+    "kind": "event",
+    "provenance": "source",
+    "date": "2026-10-27",
+    "publishedAt": null,
+    "dateBasis": "captured",
+    "captured": "2026-10-27",
+    "title": [
+      "Open Source AI Week — community calendar",
+      "Open Source AI Week — community calendar"
+    ],
+    "summary": [
+      "活动日历入口：演讲、讨论、黑客松与社区聚会。各场活动需查阅独立日程。",
+      "Calendar spanning talks, discussions, hackathons and meetups; check each event separately."
+    ],
+    "source": "Public event source",
+    "url": "https://opensourceaiweek.com/community-events/",
+    "objects": [
+      "Open Source AI Week — community calendar"
+    ],
+    "topics": [
+      "ecosystem"
+    ],
+    "modality": "event",
+    "verification": "primary-page",
+    "period": [
+      "2026-10-16—2026-10-25",
+      "2026-10-16—2026-10-25"
+    ]
+  },
+  {
+    "id": "curated-c1c6e8d4b5f3d596914a",
+    "kind": "blog",
+    "provenance": "source",
+    "date": "2024-12-31",
+    "publishedAt": "2024-12-31",
+    "dateBasis": "published",
+    "captured": "2026-10-27",
+    "title": [
+      "Introducing smolagents: simple agents that write actions in code.",
+      "Introducing smolagents: simple agents that write actions in code."
+    ],
+    "summary": [
+      "介绍轻量代码 Agent 库；从工具执行和研究边界开始阅读。",
+      "Introduction to a lightweight code-agent library; examine tool execution and limitations."
+    ],
+    "source": "Hugging Face",
+    "url": "https://huggingface.co/blog/smolagents",
+    "objects": [
+      "Introducing smolagents"
+    ],
+    "topics": [
+      "agents"
+    ],
+    "modality": "event",
+    "verification": "primary-page",
+    "entityUrls": [
+      "https://github.com/huggingface/smolagents"
+    ]
+  }
+]

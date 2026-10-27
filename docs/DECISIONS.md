@@ -86,3 +86,7 @@ The ecosystem review replaces the card landing page with independently rendered 
 ## 2026-10-27 — Observatory composition and finite World tour
 
 Keep the compact structure accepted in PR #37. The default now opens Active developers and orders companies, benchmark projects, model assets and conferences after it. A balanced Mercator inhabited-land frame supersedes the multilayer workspace’s former 10° E / 36° N home camera. Shared SVG geometry slots preserve area/bubble/point semantics. World tour is opt-in and finite, alternates global map comparisons with sourced globe anchors, retains global inspector scope and restores the prior workspace on exit. Reduced motion/manual input/hidden pages pause it; navigation disposes timers. The navigation label is Open Galaxy / 开源星系 with the existing route retained. See [contract](ATLAS_WORKSPACE.md) and [validation plan](plans/observatory-tour.md).
+
+## 2026-10-27 — Browse-first, typed evidence library
+
+Promote Agent Room to the public Pages client, retaining research/following as explicit local prototypes. Eight forms and six topic facets organize a bounded source index. Use canonical object URLs and provenance-bearing `describes`/`references` links, not guessed semantic edges. Preserve publication/capture/observation clocks and last-good collection with visible failures. This supersedes the private-only delivery gate of the Agent Room prototype. See [library contract](INTELLIGENCE_LIBRARY.md).

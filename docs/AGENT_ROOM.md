@@ -1,8 +1,10 @@
 # Agent 情报室 / Agent Intelligence Room
 
-Product specification v0.2 · 2026-10-27 · **interactive prototype, not a live Agent service**.
+Product specification v0.3 · 2026-10-27 · **interactive prototype, not a live Agent service**.
 
-## 中文评审摘要 / Review v0.2
+## 中文评审摘要 / Review v0.3
+
+1.7.0 扩展为八类资料、六个主题的公共情报库；多来源采集、对象关联、分类统计和连续滚动的实际范围见 [情报库契约](INTELLIGENCE_LIBRARY.md)。研究与跟踪仍为本机产品原型。
 
 从“先选场景”调整为 **先浏览 → 产生问题 → 带资料研究 → 持续回看**。前三个模块与主导航结构保留。
 
@@ -11,7 +13,7 @@ Product specification v0.2 · 2026-10-27 · **interactive prototype, not a live 
 - **研究**：自由提问，携带跨日期选中的资料和时间范围，保存本机研究草案。右侧提供独立的虚构 Aurora 成果，可以切换简报、比较表与趋势图；不会假装回答自定义问题。
 - **跟踪**：将草案加入专题，手动模拟新证据、切换历史版本、比较结论变化。更新频率只是本机偏好，没有自动研究或投递。
 
-原型用于评审浏览启发和研究衔接，不是已接入的 Agent 服务。公开样刊及旧偏好保留在折叠区域。正式 Pages 仍为 1.6.0，评审通过前不合并。v0.1 的固定三场景和轨道装饰已被本次浏览式设计替代；旧截图仅作历史记录。
+原型用于评审浏览启发和研究衔接，不是已接入的 Agent 服务。公开样刊及旧偏好保留在折叠区域。维护者已授权本轮随 1.7.0 发布到正式 Pages；部署结果以 Actions 为准。v0.1 的固定三场景和轨道装饰已被本次浏览式设计替代；旧截图仅作历史记录。
 
 ![时间线情报流](assets/agent-room/v2-home.jpg)
 
@@ -21,9 +23,9 @@ Product specification v0.2 · 2026-10-27 · **interactive prototype, not a live 
 
 Keep **Agent 情报室 · Dipper Intelligence** as the single entry for Intelligence, Research and Following. Subscription is a future delivery preference of followed research, not a separate homepage. Preserve `#briefing`, the first three modules and existing sample/preferences.
 
-The knowledge library combines actual source snapshots and captured public events with separately labelled, removable fictional fixtures. It offers browsing before a question exists. Timeline range mode filters event publication dates; as-known mode also respects capture dates. Snapshot observation periods remain explicit. October 2026 is a fixed prototype window, not a claim of a complete archive or live ingestion.
+The knowledge library combines actual source snapshots and captured public events with separately labelled, removable fictional fixtures. It offers browsing before a question exists. Timeline range mode filters event publication dates; as-known mode also respects capture dates. Snapshot observation periods remain explicit. The fixed October 2026 lens is supplemented by an archive date range. This is not a complete historical archive.
 
-Free questions create local drafts with selected evidence; a fixed plan and independent fictional report illustrate the intended experience. Following demonstrates three report versions and their changes. No inference, collection, notifications, payment or external posting occurs. Radar/Galaxy navigation remains available; their full evidence catalogues and cross-module context transfer are not integrated yet.
+Free questions create local drafts with selected evidence; a fixed plan and independent fictional report illustrate the intended experience. Following demonstrates three report versions and their changes. No inference, collection, notifications, payment or external posting occurs. The library now incorporates radar profiles and a bounded galaxy sample with source URLs. Full corpus indexing and cross-module selection transfer remain future work.
 
 ## Who and what to validate
 
