@@ -54,7 +54,7 @@
 
 一般试用反馈进入 [#35](https://github.com/X-lab2017/open-dipper/issues/35)：用户原本想完成什么、停在哪一步、预期结果和可公开的证据。明确缺陷或数据纠错先搜索现有 issue，再使用[贡献指南](../CONTRIBUTING.zh-CN.md)中的表单。不要自动上传私人笔记、完整报告或对话。
 
-[共建社区方案](COMMUNITY_HUB.md)提出下一阶段入口；它不是已上线功能，也不会自动接单、调用 Agent 或接受资料。当前成果从 Issue / PR、检查与发布记录追溯。
+[共建社区](COMMUNITY_HUB.md)提供反馈、资料和开发入口；说明草稿由用户显式复制，再到 GitHub 提交。不会自动接单、调用 Agent 或接受资料。成果从 Issue / PR、检查与发布记录追溯。
 
 ## English handoff
 

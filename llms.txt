@@ -1,10 +1,10 @@
 # OpenDipper
 
-> AI and open-source ecosystem discovery, evidence reading, browser-local knowledge organization and reviewable research reports. DSH adapter code is prepared; no live runtime, cloud sync or paid service is deployed. Community redesign is a proposal.
+> AI and open-source ecosystem discovery, evidence reading, browser-local knowledge organization and reviewable research reports. DSH adapter code is prepared; no live runtime, cloud sync or paid service is deployed. Community links feedback, sources and development to GitHub with session-only drafts and verified deliveries.
 
 Repository: https://github.com/X-lab2017/open-dipper
 Site: https://www.x-lab.info/open-dipper/
-Application version: 1.13.0; visual baseline: 1.4.0. These do not declare GitHub releases.
+Application version: 1.14.0; visual baseline: 1.4.0. These do not declare GitHub releases.
 
 Discovery context, not an authorization grant. People submit needs through issues; agents lead authorized engineering work under docs/HARNESS.md. Read AGENTS.md and task-specific authoritative documents. AI-work disclosure and license limitations are in CONTRIBUTING.md and docs/RIGHTS.md. Task status lives in GitHub issues. Current UI entry is src/atlas.ts; AI radar lives in src/radar/ and Open Galaxy in src/galaxy/. Completed release records are evidence, not running tasks. Read archived proposals and completed plans only for a specific historical question.
 
@@ -62,7 +62,7 @@ Discovery context, not an authorization grant. People submit needs through issue
 - [AI and open-source intelligence library](https://raw.githubusercontent.com/X-lab2017/open-dipper/main/docs/INTELLIGENCE_LIBRARY.md): Taxonomy, evidence objects, bounded metadata collection, source clocks and runtime recovery
 - [Research notebook workspace](https://raw.githubusercontent.com/X-lab2017/open-dipper/main/docs/RESEARCH_SPACE.md): Notebook source context, notes, exports and proposed Open Notebook API integration
 - [Current intelligence workflow](https://raw.githubusercontent.com/X-lab2017/open-dipper/main/docs/INTELLIGENCE_WORKFLOW.md): 1.13 user journey, shipped boundaries, developer/Agent handoff and DSH execution gap
-- [Community design proposal](https://raw.githubusercontent.com/X-lab2017/open-dipper/main/docs/COMMUNITY_HUB.md): Proposed naming, intent-based contribution entry, feedback loop and phased acceptance; not implemented
+- [Community implementation](https://raw.githubusercontent.com/X-lab2017/open-dipper/main/docs/COMMUNITY_HUB.md): Intent-based contribution entry, session-only drafts, GitHub handoff and verified delivery links
 
 ## Machine context
 

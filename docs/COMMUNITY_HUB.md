@@ -1,15 +1,26 @@
-# 共建社区 / Community — 产品设计 v0.1
+# 共建社区 / Community — 1.14.0 实现契约
 
-**设计提案，尚未实现或改名上线。** 2026-10-27。当前站点仍使用“参与共建”，路由为 `#contribute`。本方案承接[情报室流程](INTELLIGENCE_WORKFLOW.md)，保留现有主导航与前三个模块。
+**已实现，发布结果以 PR / Actions 为准。** 2026-10-27。维护者接受“共建社区 / Community”命名；保留 `#contribute`。本模块承接[情报室流程](INTELLIGENCE_WORKFLOW.md)，前三个模块与研究内容保持独立。
+
+## 本版交付与边界
+
+- 紧凑三栏：左侧反馈体验／贡献资料／参与开发，中间内容与动作，右侧提交要求与后续流程；手机按顺序阅读。
+- 反馈与资料有独立可编辑说明草稿，只保存在当前 JS 会话；切换入口、主题、语言或往返模块保留，刷新即清空。不会读取知识库、报告、对话或自动收集上下文。
+- 复制功能明确区分“已复制，未提交”；剪贴板不可用时选中文字供手动复制。GitHub 表单或评论由用户另行粘贴、确认提交。本站不发布评论、不创建 issue、不应用标签。
+- 开发入口链接到实时 Issues / PR、双语贡献指南、AGENTS、任务索引、状态和路线图；不复制一套静态任务状态。
+- 精选成果记录 PR #47、#38、#33 的实际交付及对应部署，可返回情报室、全球观测和开源星系。核对日期为 2026-10-27，不表示实时社区动态。
+- 页尾包含署名/权利、安全报告和机构合作边界。无贡献排行榜、虚构背书、账户、收费、自动 Agent 派工或私人资料公开。
+
+代码：`src/community/view.ts` / `community.css`；导航：`src/observatory/intelligence.ts`；装配：`src/observatory/portal.ts`。浏览器验收 `tests/community-ui.mjs` 纳入 `npm run test:portal:ui`，覆盖三入口、复制、无自动写入、草稿隔离和会话行为、主题语言、手机及跨模块往返。以下保留设计依据；跨模块带入反馈上下文和实时任务同步仍未实现。
 
 ## 命名与定位
 
-建议导航：**全球观测｜AI 雷达｜开源星系｜Agent 情报室｜共建社区**。
+正式导航：**全球观测｜AI 雷达｜开源星系｜Agent 情报室｜共建社区**。
 
 | 候选 | 判断 |
 | --- | --- |
-| 共建社区 / Community（建议） | 覆盖用户反馈、资料、案例、开发和公开成果；无需懂代码也能进入 |
-| 参与共建 / Contribute（现名） | 动作明确，适合按钮；作为整个空间的名称略像说明页 |
+| 共建社区 / Community（已采用） | 覆盖用户反馈、资料、案例、开发和公开成果；无需懂代码也能进入 |
+| 参与共建 / Contribute（旧名） | 动作明确，适合按钮；作为整个空间的名称略像说明页 |
 | 共创中心 / Co-creation | 容易被理解为内容创作或商业孵化，与研究功能产生重叠 |
 
 页面主标题建议“让一次使用，推动下一次改进”。第一目标不是展示贡献人数或吸引提交量，而是让用户知道：**我能贡献什么、交给谁、怎样知道有结果**。GitHub 是第一版协作记录源，不重复建立一个没有后端的任务系统。
@@ -52,11 +63,11 @@ X-lab 的公共入口承接开放资料、方法、反馈和协作。机构定�
 
 ## 实施切分与验收
 
-**第一步：导航与协作入口。** 将可见名称改为共建社区，保留 `#contribute` 兼容；实现三个意图入口、相关说明和既有 GitHub 链接。来源：`src/observatory/portal.ts`、导航名称定义、共享样式。保留敏感报告入口和原有协作内容，移除已过时的“当前交付”硬编码。
+**第一步：导航与协作入口（本版已实现）。** 将可见名称改为共建社区，保留 `#contribute` 兼容；实现三个意图入口、相关说明和既有 GitHub 链接。来源：`src/observatory/portal.ts`、导航名称定义、共享样式。保留敏感报告入口和原有协作内容，移除已过时的“当前交付”硬编码。
 
-**第二步：显式反馈衔接。** 从阅读、知识与报告增加轻量反馈入口及可编辑摘要。只传用户选择的公开上下文；不自动发布，不建立云端存储。需要独立验证跨模块状态保持与长内容布局。
+**第二步：显式反馈衔接（后续）。** 从阅读、知识与报告增加轻量反馈入口及可编辑摘要。只传用户选择的公开上下文；不自动发布，不建立云端存储。需要独立验证跨模块状态保持与长内容布局。
 
-**第三步：发布回访。** 有真实记录后再增加精选成果清单。以后若展示任务状态，须先建设带核对时间、失败/过期状态和维护责任的数据接口；不能把构建时快照称为实时状态。
+**第三步：发布回访（精选记录已实现；动态任务状态后续）。** 有真实记录后再增加精选成果清单。以后若展示任务状态，须先建设带核对时间、失败/过期状态和维护责任的数据接口；不能把构建时快照称为实时状态。
 
 首版验收：
 
@@ -70,4 +81,4 @@ X-lab 的公共入口承接开放资料、方法、反馈和协作。机构定�
 
 ## English summary
 
-Proposed navigation name: **Community** (共建社区), replacing the visible Contribute label while keeping `#contribute`. Three intent-based entries—feedback, evidence contribution, development—lead to existing GitHub discussions, forms and guidance. A compact action area and explanation panel replace a generic promotional page. Reviewed changes link back to product use. No automatic posting, agent dispatch, public notebook sharing, live task status, billing or invented activity is implied. This document is a design proposal only.
+Implementation: **Community** (共建社区), keeping `#contribute`. Three intent-based entries—feedback, evidence contribution, development—link to existing GitHub forms, issues and guidance. Session-only editable notes support explicit copying, never automatic submission or notebook access. Three verified delivery records link back to product use. No agent dispatch, live task feed, billing or public notebook sharing. Release evidence lives in the associated PR / Actions.

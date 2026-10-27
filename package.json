@@ -1,6 +1,6 @@
 {
   "name": "open-dipper",
-  "version": "1.13.0",
+  "version": "1.14.0",
   "private": true,
   "type": "module",
   "scripts": {
@@ -25,7 +25,7 @@
     "design:package": "python3 scripts/package-design.py",
     "docs:build": "node scripts/build-context.mjs",
     "docs:check": "node scripts/build-context.mjs --check && node scripts/check-docs.mjs",
-    "test:portal:ui": "node tests/portal-ui.mjs && node tests/radar-ui.mjs && node tests/galaxy-ui.mjs && node tests/agent-room-ui.mjs && node tests/notebook-ui.mjs && node tests/research-flow-ui.mjs",
+    "test:portal:ui": "node tests/portal-ui.mjs && node tests/radar-ui.mjs && node tests/galaxy-ui.mjs && node tests/agent-room-ui.mjs && node tests/notebook-ui.mjs && node tests/research-flow-ui.mjs && node tests/community-ui.mjs",
     "evidence:build": "node scripts/build-evidence.mjs",
     "evidence:check": "node scripts/build-evidence.mjs --check && node --test tests/evidence.test.mjs",
     "observation:build": "node scripts/build-observation.mjs",

@@ -11,7 +11,7 @@
 | Agent 接手实现 | [AGENTS.md](../AGENTS.md) → [当前状态](STATUS.md) → [任务索引](CONTEXT.json) → [开发检查](DEVELOPMENT.md) |
 | 修改全球观测 | [当前 Atlas 契约](ATLAS_WORKSPACE.md) → `src/atlas.ts` / `src/layers.ts` / 相关测试 |
 | 使用或接手 Agent 情报室 | [当前流程与交接](INTELLIGENCE_WORKFLOW.md) → [知识整理](RESEARCH_SPACE.md) → [DSH 服务端](../services/research/README.md) |
-| 设计共建社区 | [设计提案 v0.1](COMMUNITY_HUB.md) → [贡献指南](../CONTRIBUTING.zh-CN.md) → [Harness](HARNESS.md)；提案不是已实现能力 |
+| 修改共建社区 | [实现契约](COMMUNITY_HUB.md) → [贡献指南](../CONTRIBUTING.zh-CN.md) → [Harness](HARNESS.md)；草稿只在会话中保留，GitHub 承接提交 |
 | 修改 AI 雷达 | [当前雷达契约](AI_RADAR.md) → `src/radar/` / 固定来源摘录 / 相关测试 |
 | 修改开源星系 | [星系契约](OPEN_GALAXY.md) → `src/galaxy/` / [图数据来源](../public/data/galaxy/README.md) |
 | 开发下一模块或复用视觉 | [基线索引](../design/baselines/README.md) → [模块模板](templates/OBSERVATORY_MODULE.md) → [视觉规范](VISUAL_SYSTEM.md) |
