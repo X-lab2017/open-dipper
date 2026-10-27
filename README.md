@@ -198,4 +198,4 @@ Visual discovery in the Agent Room now offers a faceted timeline, topic radar an
 
 ![Agent Room · Visual discovery](docs/assets/agent-room/visual-story.jpg)
 
-The intelligence review workbench combines tasks, entity/material facets, three visual lenses and inline evidence with a local Agent draft composer. Its retained catalog has 940 source records, plus existing observations/events; the corpus is a sourced sample, not live Agent research. [Scope and sources](docs/INTELLIGENCE_LIBRARY.md).
+The intelligence homepage uses a Folo-inspired reading workflow: source navigation, a compact list and an evidence reader with local saved/read state and contextual question capture. Three visual lenses, source bundles, research drafts and following remain available. Its retained catalog has 940 source records, plus existing observations/events; the corpus is a sourced sample, not live Agent research. [Scope and sources](docs/INTELLIGENCE_LIBRARY.md).

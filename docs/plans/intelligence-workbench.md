@@ -1,4 +1,4 @@
-# Intelligence workbench · active execution plan
+# Intelligence workbench · completed execution plan
 
 2026-10-27 · AI-assisted implementation requested by the maintainer.
 
@@ -13,7 +13,7 @@
 
 - Inspected current 1.8.0 implementation and source contracts.
 - Retrieved Apache official project and committee registries; retain public professional metadata only. Patent publication metadata inspected separately.
-- Implementation and validation in progress. No release claimed yet.
+- Published through [PR #42](https://github.com/X-lab2017/open-dipper/pull/42), merge `b00ecef967aeaeb64ebcdce6bf03366e45caf49a`; [Pages run 40458506705](https://github.com/X-lab2017/open-dipper/actions/runs/40458506705) build, browser acceptance and deployment succeeded.
 
 - Added 591 retained records (519 newly retrieved public registry/page records, 72 existing-observatory adaptations); deterministic catalog now 940 unique URLs. 133 public PMC chairs + 380 project profiles; original source hashes retained.
 - Implemented first-screen tasks/facets/visual exploration/inline inspector/local composer and second-screen stream. Entity facet is independent of material form. No live Agent connection or scheduled collection added.
