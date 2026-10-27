@@ -99,3 +99,7 @@ Use original SVG temporal facets, primary-topic radial bands and manual thematic
 ## 2026-10-27 — Reading before visual exploration
 
 Default the intelligence homepage to a three-pane reader; keep visual discovery opt-in and source bundles explicit. Local saved/read state is independent from research selection. Capture a question with its exact source before entering the existing draft workspace. This supersedes the chart-dominant first screen in 1.9.0, not its catalog or three visual lenses. See [contract](INTELLIGENCE_LIBRARY.md) and [plan](plans/intelligence-reader.md).
+
+## 2026-10-27 — Separate intelligence reading from Agent research
+
+Intelligence becomes a source-only, three-pane reader. Remove visual lenses, duplicate stream, task navigation, Agent composer and service/demo blocks from that surface. Preserve advanced source filters in a disclosure, bounded saved/read state and incremental browsing. Research imports saved evidence explicitly and owns question creation. Folo remains a product-pattern reference, not an embedded SDK or upstream code adoption. See [contract](INTELLIGENCE_LIBRARY.md) and [execution plan](plans/focused-reader.md).
