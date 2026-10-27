@@ -3,8 +3,9 @@ import fs from 'node:fs/promises';
 const browser=await chromium.launch({headless:true});
 try{
  const page=await browser.newPage({viewport:{width:1366,height:768},reducedMotion:'reduce'});const errors=[];page.on('pageerror',e=>errors.push(e.message));
- await page.goto(process.env.BASE_URL||'http://127.0.0.1:4173/open-dipper/#briefing');await expect(page.locator('.focused-reader')).toBeVisible();
- const initial=await page.locator('[data-reader-save]').getAttribute('data-reader-save');await page.locator('[data-reader-save]').click();
+ const catalogReady=page.waitForResponse(r=>r.url().includes('/data/intelligence-catalog.json')&&r.status()===200);
+ await page.goto(process.env.BASE_URL||'http://127.0.0.1:4173/open-dipper/#briefing');await expect(page.locator('.focused-reader')).toBeVisible();await catalogReady;await expect(page.locator('[data-material="curated-06989187b995155d350f"]')).toBeVisible();await page.locator('[data-material="curated-06989187b995155d350f"]').click();
+ const initial=await page.locator('[data-reader-save]').getAttribute('data-reader-save');await page.locator('[data-reader-save="'+initial+'"]').click();
  await page.locator('.room-tabs [data-room="tab:research"]').click();await expect(page.locator('.notebook-space')).toBeVisible();await expect(page.locator('[data-nb-context]')).toHaveCount(6);await expect(page.locator('[data-nb-note]')).toHaveCount(3);await expect(page.locator('.nb-status')).toContainText('未运行模型');await page.locator('[data-case-step="1"]').click();await expect(page.locator('.nb-case-answer')).toContainText('论文');await page.locator('[data-nb="new"]').click();
  await page.locator('#nb-title').fill('真实资料研究 <script>alert(1)</script>');await page.locator('[data-nb="saved"]').click();await expect(page.locator('[data-nb-context]')).toHaveAttribute('data-nb-context',initial);
  const firstBook=await page.locator('#nb-switch').inputValue();
