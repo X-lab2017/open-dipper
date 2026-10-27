@@ -107,3 +107,7 @@ Intelligence becomes a source-only, three-pane reader. Remove visual lenses, dup
 ## 2026-10-27 — Notebook research with explicit context
 
 Use Open Notebook's notebook/source/note separation as a product reference. Keep OpenDipper's shared reader and add original Sources / Research / Notes UI with bounded local state. A saved question captures selected source IDs; unlinking sources does not rewrite old context. Templates and fixed examples are labelled and never presented as generated responses. Preserve earlier drafts. Real integration is planned through a server gateway to an independently deployed Open Notebook API, not an iframe, copied application or browser-held credential. See [research contract](RESEARCH_SPACE.md).
+
+## 2026-10-27 — Knowledge preparation and DSH research
+
+Use three task-oriented entry labels: 情报浏览 / 知识整理 / 深度研究. Preserve notebook state and earlier tracking, separate knowledge preparation from task execution, and route selected evidence into an independently deployed DSH SDK gateway. The maintainer confirmed no service exists yet; Pages publishes an explicit editorial case walkthrough with editable/exportable report. No model output, hardware measurement or live execution is fabricated. See [plan](plans/knowledge-dsh-flow.md) and [adapter](../services/research/README.md).

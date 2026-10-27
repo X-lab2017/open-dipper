@@ -1,6 +1,6 @@
 # Research space / 研究空间
 
-Product review 1.12.1 · 2026-10-27. **Local working prototype; Open Notebook backend is not deployed or connected.**
+Product review 1.13.0 · 2026-10-27. **Local working prototype; Open Notebook backend is not deployed or connected.**
 
 ## User experience
 
@@ -37,7 +37,13 @@ Reviewed upstream commit [`a0f6f3081ae06328f0a451b3a3ef2959ca25721d`](https://gi
 
 Borrow the task model, not the entire administration UI. OpenDipper puts conversation in the center and outputs at right to continue its reader ergonomics. No upstream code or assets are copied. This version integrates the **product pattern and OpenDipper evidence**, not the Open Notebook service or source code. The upstream license does not select this repository's license.
 
-## Proposed live integration (not implemented)
+## Current direction: knowledge preparation + DSH execution
+
+The visible navigation is Intelligence / Knowledge / Research (情报浏览 / 知识整理 / 深度研究). Notebook source/context/note tools now form the knowledge workspace. Research is a separate task-and-report surface with selected evidence, explicit DSH availability, an editorial case report, editing, exports and save-to-knowledge. No destructive notebook migration. Previous reports are retained in a bounded local history (10); the active report has an independent storage key. The case sources now also appear in the reader.
+
+[DSH service adapter](../services/research/README.md) uses the official SDK contract and requires a separately provisioned service. This supersedes using Open Notebook as the research execution engine. Open Notebook remains a product reference for organizing knowledge. Without a configured service the Run action is disabled; the example is an explicit separate action, never an automatic fallback. No live upstream/model test or backend deployment has occurred.
+
+## Historical Open Notebook integration proposal (superseded for execution)
 
 Keep OpenDipper's public Pages client and notebook UI. Run Open Notebook privately as the research engine behind an OpenDipper server-side gateway. Do not iframe its complete administration interface or ship provider keys to Pages.
 

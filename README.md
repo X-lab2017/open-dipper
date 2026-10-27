@@ -1,5 +1,7 @@
 <!-- section:overview -->
 
+**1.13 review:** Intelligence → Knowledge → Research, with a complete vLLM/SGLang evidence-to-report walkthrough. [Start the case](https://www.x-lab.info/open-dipper/#briefing?tab=signals&case=inference). DSH service adapter is prepared; the public report is an editorial example until a runtime is provisioned.
+
 [Try the built-in research case: vLLM vs SGLang](https://www.x-lab.info/open-dipper/#briefing?tab=research&case=inference) — six real sources, three editorial walkthrough steps and editable notes; no live model or measured benchmark.
 
 # OpenDipper · 开源北斗

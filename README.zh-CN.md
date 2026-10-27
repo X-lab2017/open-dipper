@@ -1,5 +1,7 @@
 <!-- section:overview -->
 
+**1.13 评审版：** 情报浏览 → 知识整理 → 深度研究，完整演示 vLLM/SGLang 从来源到报告的流程。[开始案例](https://www.x-lab.info/open-dipper/#briefing?tab=signals&case=inference)。DSH 服务端适配已准备；运行服务待部署，公开报告为编辑示例。
+
 [打开研究空间演示：vLLM 与 SGLang 选型](https://www.x-lab.info/open-dipper/#briefing?tab=research&case=inference) — 六份真实来源、三步编辑示例和可编辑成果；非实时模型回答，未进行性能实测。
 
 # OpenDipper · 开源北斗
