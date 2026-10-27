@@ -1,0 +1,18 @@
+/* Earlier production compositions remain available to compatibility routes.
+ * Put their inherited rules in one cascade layer so the current workbench can
+ * evolve without a growing contest of selector specificity.
+ */
+@layer legacy;
+@import '../atlas.css' layer(legacy);
+@import '../observatory/portal.css' layer(legacy);
+@import '../observatory/evidence.css' layer(legacy);
+@import '../workspace-v2.css' layer(legacy);
+@import '../presentation-v5.css' layer(legacy);
+@import '../presentation-v6.css' layer(legacy);
+@import '../presentation-v7.css' layer(legacy);
+@import '../radar/radar.css' layer(legacy);
+@import '../galaxy/galaxy.css' layer(legacy);
+@import '../galaxy/research.css' layer(legacy);
+@import './components.css' layer(legacy);
+@import './theme.css';
+@import './workbench.css';

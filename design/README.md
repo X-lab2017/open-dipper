@@ -1,4 +1,4 @@
-# OpenDipper visual baseline — Quiet Observatory
+# OpenDipper visual system — Compact Observatory review
 
 The observation, interaction and evidence layers share one visual system. Preserve X-lab / OpenDipper brand assets; keep the observation canvas as the focus. This baseline changes presentation, not observations or geographic attribution.
 
@@ -8,14 +8,14 @@ The observation, interaction and evidence layers share one visual system. Preser
 - `npm run design:build`: produces `src/design/palette.ts` and `src/design/theme.css`. Do not hand-edit generated files.
 - `npm run design:check`: detects drift. Production builds run this check.
 - `src/design/scales.ts`: logarithmic normalization, continuous stop interpolation and matching CSS legends. Canvas and legend consume the same stops.
-- `src/design/components.css`: interaction states, map furniture, tables, dialogs and portal components. Existing presentation files own responsive layout, not new color definitions.
+- `src/design/entry.css`: production stylesheet entry. Earlier presentation styles are grouped in the `legacy` cascade layer; the established presentation styles retain layout and responsive behavior; `workbench.css` only refines compact visual details. `components.css` supplies established interaction states. Compatibility pages retain their own entries.
 
 ## Color roles
 
 | Role | Dark | Light | Use |
 | --- | --- | --- | --- |
-| Page | `#0B1119` | `#EDF2F4` | Quiet background |
-| Panel | `#121C27` | `#FBFDFC` | Information surfaces |
+| Page | `#0F141B` | `#EEF2F4` | Quiet background |
+| Panel | `#18212B` | `#F8FAFB` | Information surfaces |
 | Primary text | `#E2EBF0` | `#203540` | Names and main values |
 | Secondary text | `#AEBFCB` | `#465E6B` | Labels and supporting copy |
 | Muted text | `#8DA4B4` | `#566D79` | Dates, units and metadata |
@@ -43,6 +43,12 @@ Layer help appears on hover, keyboard focus or touch devices. At the top of the 
 
 Honor reduced motion, retain keyboard navigation and stop offscreen animations. Do not add decorative effects that compete with the data or imply measurement.
 
+## Typography within the compact composition
+
+The Hallmark-informed restyle applies its app-screen and preserve-layout principles to existing modules. Keep the system/CJK body stack; reserve monospace for actual codes and coordinate readouts. Use 11–12px labels and row names, 13–14px section titles, and tabular body-face numerals. Main summaries use 26px (23px on short desktop screens); pulse values use 20px (17px on short screens). Supporting metadata uses 9–10px. These fit the existing row budgets rather than increasing panel height.
+
+Prefer neutral text for names and quantities; retain semantic color in data marks and explicit states. Underlines and surface changes reinforce active navigation; focus outlines are immediate. The five global summaries, ten ranking rows, four pulse metrics, seven platforms, stream and controls remain visible. Radar, Galaxy, research and evidence views reuse the same body/metadata hierarchy without restructuring their content. No new font dependency, images or third-party code was added.
+
 ## Verification and extension
 
 `npm test` checks nominal text/action/layer/pulse colors at 4.5:1 or better against paired panel/page/input surfaces, monotonic ramp luminance, shared map/legend stops, missing-value semantics and point-stack ordering. This is a focused regression check, not a claim of complete accessibility certification.
@@ -51,8 +57,12 @@ When adding a layer, assign it a semantic tone in `tokens.json`, regenerate, and
 
 See [visual specification](../docs/VISUAL_SYSTEM.md) and [release plan and validation](../docs/plans/atlas-release-v9.md).
 
+## Current system and fixed baseline
+
+Application `1.5.2` uses visual tokens `1.4.0`. The maintainer accepted the compact structure and authorized Pages publication after paired-theme refinement and verification; [PR #37](https://github.com/X-lab2017/open-dipper/pull/37) records final checks/deployment. See [execution record](../docs/plans/visual-workbench-review.md). Atlas retains the original comprehensive five-layer default, equal sidebars, five summary values, scope counts, full top ten, latest news and always-visible ecosystem pulse. Display management remains directly accessible. Preserve the original row budgets and responsive behavior; do not introduce large headings, taller rows or content disclosures that reduce the overview.
+
 ## Accepted version and module template
 
-The current accepted map + radar is pinned in [baseline 1.3.2](baselines/observatory-radar-1.3.2.md), with a [source fingerprint manifest](baselines/observatory-radar-1.3.2.json). The [baseline index](baselines/README.md) retains the original atlas record. Start new modules with the [observatory module template](../docs/templates/OBSERVATORY_MODULE.md); reuse the global shell, theme tokens, evidence states and interaction patterns while choosing a suitable visualization for the task.
+The historical accepted map + radar is pinned in [baseline 1.3.2](baselines/observatory-radar-1.3.2.md), with a [source fingerprint manifest](baselines/observatory-radar-1.3.2.json). The [baseline index](baselines/README.md) retains the original atlas record. Start new modules with the [observatory module template](../docs/templates/OBSERVATORY_MODULE.md); reuse the global shell, theme tokens, evidence states and interaction patterns while choosing a suitable visualization for the task.
 
 `npm run design:package` includes the current `BASELINE.md` / `BASELINE.json`, historical atlas records, `AI_RADAR.md`, `MODULE_TEMPLATE.md`, `RIGHTS.md` and third-party notices alongside the shared assets. Links inside these documents use repository-relative paths; consult the source repository when reading the extracted bundle. The worksheet is not a standalone application generator. The implemented [AI radar](../docs/AI_RADAR.md) is the first module applying this baseline: 160 sourced candidates, paired themes, matching sidebar widths and shared segmented controls. Reuse its selection, expanded-view return, concise guidance and evidence patterns; keep its fixed demo judgments distinct from source facts. The original [proposal](../docs/design/AI_RADAR_PROPOSAL.md) remains design history.

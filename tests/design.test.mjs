@@ -12,6 +12,14 @@ test('official X-lab SVGs exactly match pinned upstream blobs',async()=>{
 test('normal text and event labels meet 4.5:1 against panel surfaces in both themes',()=>{
  for(const [theme,p]of Object.entries(tokens.themes))for(const key of ['text','text-secondary','text-muted','accent','info','warning','critical','manual',...Object.keys(p).filter(k=>k.startsWith('event-'))])assert.ok(contrast(p[key],p['surface-panel'])>=4.5,`${theme}:${key}`);
 });
+test('paired themes keep secondary text and focus legible across interactive surfaces',()=>{
+ for(const [theme,p]of Object.entries(tokens.themes)){
+  for(const bg of ['surface-page','surface-panel','surface-raised','surface-input','accent-soft']){
+   for(const fg of ['text','text-secondary','text-muted','accent'])assert.ok(contrast(p[fg],p[bg])>=4.5,`${theme}:${fg} on ${bg}`);
+   assert.ok(contrast(p.focus,p[bg])>=3,`${theme}:focus on ${bg}`);
+  }
+ }
+});
 test('source badges and primary actions preserve text contrast',()=>{
  for(const [theme,p]of Object.entries(tokens.themes)){
   for(const [fg,bg]of [['accent','accent-soft'],['info','info-soft'],['warning','warning-soft'],['critical','critical-soft'],['manual','manual-soft']])assert.ok(contrast(p[fg],p[bg])>=4.5,`${theme}:${fg}`);
