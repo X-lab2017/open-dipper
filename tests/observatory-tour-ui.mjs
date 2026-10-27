@@ -19,7 +19,7 @@ try{
   await expect(page.locator('#earth')).toHaveAttribute('data-view',views[i]);
   await expect(page.locator('.scope-panel h2')).toHaveText('全球');
   await expect(page.locator('.coverage-metric')).toHaveCount(5);await expect(page.locator('.pulse-metric')).toHaveCount(4);
-  if(i===4){await expect(page.locator('#observation-panel')).toContainText('2026-11-09');await expect(page.locator('#tour-next')).toBeDisabled();}
+  if(i===4){await expect(page.locator('.tour-status')).toContainText('巡航完成');await expect(page.locator('#observation-panel')).toContainText('2026-11-09');await expect(page.locator('#tour-next')).toBeDisabled();}
   else await page.locator('#tour-next').click();
  }
  await page.locator('#map-fullscreen-button').click();await expect(page.locator('.shell')).toHaveClass(/focus-mode/);
