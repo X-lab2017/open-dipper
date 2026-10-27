@@ -13,6 +13,10 @@ Product specification v0.2 · 2026-10-27 · **interactive prototype, not a live 
 
 原型用于评审浏览启发和研究衔接，不是已接入的 Agent 服务。公开样刊及旧偏好保留在折叠区域。正式 Pages 仍为 1.6.0，评审通过前不合并。v0.1 的固定三场景和轨道装饰已被本次浏览式设计替代；旧截图仅作历史记录。
 
+![时间线情报流](assets/agent-room/v2-home.jpg)
+
+![浅色版本比较](assets/agent-room/v2-tracking.jpg)
+
 ## Product decision
 
 Keep **Agent 情报室 · Dipper Intelligence** as the single entry for Intelligence, Research and Following. Subscription is a future delivery preference of followed research, not a separate homepage. Preserve `#briefing`, the first three modules and existing sample/preferences.

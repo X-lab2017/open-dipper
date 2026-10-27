@@ -2,7 +2,7 @@ import {chromium,expect} from '@playwright/test';
 import fs from 'node:fs/promises';
 const browser=await chromium.launch({headless:true});
 try{
- const page=await browser.newPage({viewport:{width:1440,height:900},reducedMotion:'reduce'});const errors=[];page.on('pageerror',e=>errors.push(e.message));await page.goto(process.env.BASE_URL||'http://127.0.0.1:4173/open-dipper/#briefing');await expect(page.locator('.knowledge-grid')).toBeVisible();
+ const page=await browser.newPage({viewport:{width:1440,height:900},reducedMotion:'reduce'});const errors=[];page.on('pageerror',e=>errors.push(e.message));await page.goto(process.env.BASE_URL||'http://127.0.0.1:4173/open-dipper/#briefing');await expect(page.locator('.knowledge-grid')).toBeVisible();await expect(page.locator('.knowledge-timeline')).toHaveCount(1);
  await expect(page.locator('.knowledge-badge.snapshot').first()).toBeVisible();await fs.mkdir('screenshots',{recursive:true});await page.screenshot({path:'screenshots/agent-room-v2-dark.png'});
  await page.locator('[data-day="15"]').click();await expect(page.locator('#room-range-label')).toContainText('2026-10-15');await expect(page.locator('.knowledge-badge.snapshot')).toHaveCount(0);await page.locator('[data-room="reset-range"]').click();
  await page.locator('#room-search').fill('Aurora');await page.locator('#room-search').press('Enter');await expect(page.locator('.knowledge-card').first()).toContainText('Aurora');await page.locator('[data-pick="aurora-release"]').click();await expect(page.locator('.knowledge-selection')).toContainText('1');
