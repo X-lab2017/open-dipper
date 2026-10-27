@@ -1,6 +1,6 @@
 {
   "name": "open-dipper",
-  "version": "1.5.2",
+  "version": "1.6.0",
   "private": true,
   "type": "module",
   "scripts": {
@@ -17,7 +17,7 @@
     "test:panorama": "node --test tests/panorama.test.mjs",
     "test:panorama:ui": "node tests/panorama-ui.mjs",
     "test:observatory": "node --test tests/observatory.test.mjs tests/globe.test.mjs tests/intelligence.test.mjs && python3 -m unittest discover -s tests -p test_collectors.py",
-    "test:observatory:ui": "node tests/observatory-ui.mjs && node tests/workspace-ui.mjs && node tests/workbench-ui.mjs",
+    "test:observatory:ui": "node tests/observatory-ui.mjs && node tests/workspace-ui.mjs && node tests/workbench-ui.mjs && node tests/observatory-tour-ui.mjs",
     "refresh:events": "python3 scripts/collect-events.py",
     "refresh:monthly": "node scripts/refresh-monthly.mjs",
     "design:build": "node scripts/build-design.mjs",
@@ -30,7 +30,7 @@
     "evidence:check": "node scripts/build-evidence.mjs --check && node --test tests/evidence.test.mjs",
     "observation:build": "node scripts/build-observation.mjs",
     "observation:check": "node scripts/build-observation.mjs --check && node --test tests/workspace.test.mjs",
-    "test:atlas": "node --test tests/dashboard.test.mjs tests/layers.test.mjs tests/pulse.test.mjs tests/atlas-design.test.mjs tests/atlas-camera.test.mjs",
+    "test:atlas": "node --test tests/dashboard.test.mjs tests/layers.test.mjs tests/pulse.test.mjs tests/atlas-design.test.mjs tests/atlas-camera.test.mjs tests/observatory-tour.test.mjs",
     "radar:build": "node scripts/build-radar.mjs",
     "radar:check": "node scripts/build-radar.mjs --check && node --test tests/radar.test.mjs",
     "galaxy:check": "python3 scripts/import-galaxy.py --check && node --test tests/galaxy-data.test.mjs tests/galaxy.test.mjs tests/galaxy-research.test.mjs"

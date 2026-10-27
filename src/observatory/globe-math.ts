@@ -10,9 +10,10 @@ export const mercatorY=(lat:number)=>Math.log(Math.tan(Math.PI/4+clamp(lat,-84,8
 export const mercatorLatitude=(y:number)=>Math.atan(Math.sinh(y))*180/Math.PI;
 export function zoomMapAt(pan:number[],oldZoom:number,newZoom:number,point:number[],center:number[]){const ratio=newZoom/oldZoom;return pan.map((v,i)=>v*ratio+(point[i]-center[i])*(1-ratio));}
 
-/** North-up, Atlantic-spanning frame: contiguous US and China sit on the same visual band.
+/** Balanced north-up frame of inhabited land (Antarctica remains outside the home extent).
  * lon is the D3 rotation (the negative of geographic center longitude).
  */
-export const MAP_HOME={lon:-10,lat:36,zoom:1} as const;
+export const MAP_EXTENT={north:83,south:-56} as const;
+export const MAP_HOME={lon:-5,lat:mercatorLatitude((mercatorY(MAP_EXTENT.north)+mercatorY(MAP_EXTENT.south))/2),zoom:1} as const;
 export const GLOBE_HOME={lon:-65,lat:20,zoom:1} as const;
-export const mapBaseScale=(width:number,height:number)=>Math.min(width*.95/(2*Math.PI),height*.94/(mercatorY(79)-mercatorY(-57)));
+export const mapBaseScale=(width:number,height:number)=>Math.min(width*.92/(2*Math.PI),height*.86/(mercatorY(MAP_EXTENT.north)-mercatorY(MAP_EXTENT.south)));

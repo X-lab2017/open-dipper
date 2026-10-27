@@ -33,7 +33,7 @@ Code-galaxy links describe shared-contributor affinity within a dated sample; th
 | Open Galaxy · 1.5.1 | Find projects by task, shortlist candidates, trace recorded connections and export sourced research reports | 19,771 code repositories + 24,000 model/data/Space nodes; recorded and inferred links stay separate; [module contract](docs/OPEN_GALAXY.md) |
 | Intelligence | Read public brief examples and save interests | Browser-local preferences; subscription delivery and paid services remain planned |
 
-**Application: 1.5.2; visual system: 1.4.0; fixed map/radar baseline: 1.3.2.** The compact overview now shares a coordinated light/dark system with Radar and Galaxy. [Release and validation](https://github.com/X-lab2017/open-dipper/pull/37). [Current status and limits](docs/STATUS.md) · [Reusable baseline](design/baselines/README.md) · [Data scope](docs/DATA_EVIDENCE.md). Data has independent observation windows; synthetic activity is not live measurement. Public availability does not imply every model or dataset is open source.
+**Application: 1.6.0; visual system: 1.4.0; fixed map/radar baseline: 1.3.2.** The centered observatory opens Active developers and offers a five-stop World tour across companies, projects, models and events. [Implementation and validation](docs/plans/observatory-tour.md). [Current status and limits](docs/STATUS.md) · [Reusable baseline](design/baselines/README.md) · [Data scope](docs/DATA_EVIDENCE.md). Data has independent observation windows; synthetic activity is not live measurement. Public availability does not imply every model or dataset is open source.
 
 ### Global observation — find where to look
 

@@ -11,7 +11,7 @@ export const topics: Record<Topic, Copy> = {
 };
 export const pages: Record<Page, Copy> = {
   overview: {zh: '全球观测', en: 'Observatory'}, radar: {zh: 'AI 雷达', en: 'AI radar'},
-  ecosystem: {zh: '开源生态', en: 'Open source'}, briefing: {zh: '情报订阅', en: 'Intelligence'},
+  ecosystem: {zh: '开源星系', en: 'Open Galaxy'}, briefing: {zh: '情报订阅', en: 'Intelligence'},
   contribute: {zh: '参与共建', en: 'Contribute'}, following: {zh: '我的关注', en: 'Following'},
 };
 export type Signal = {

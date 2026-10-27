@@ -63,6 +63,22 @@ button:disabled { cursor: default; }
 .tree-search { background: var(--input); border-radius: var(--od-radius-control); }
 .tree-search input { font-size: var(--wb-control); }
 .tree-key { font: var(--wb-meta) var(--od-font-body); color: var(--sub); }
+.symbol.geometry-icon { display: inline-block; width: 16px; height: 16px; min-width: 16px; flex: 0 0 16px; margin: 0; border: 0; border-radius: 0; background: none; color: var(--color); vertical-align: middle; }
+.tree-key { gap: 10px; }
+.tree-key > span { gap: 4px; white-space: nowrap; }
+.group-icon { display: flex; align-items: center; justify-content: center; width: 16px; flex: 0 0 16px; }
+.group-icon svg { width: 16px; height: 16px; }
+.group-header .exclusive-mark { box-sizing: border-box; width: 13px; height: 13px; flex: 0 0 13px; border: 1px solid var(--sub); border-radius: 50%; position: relative; }
+.exclusive-mark.selected { border-color: var(--accent); }
+.exclusive-mark.selected::after { content: ''; position: absolute; inset: 3px; border-radius: 50%; background: var(--accent); }
+.layer-row { display: grid; grid-template-columns: minmax(0,1fr) 32px 18px 16px; gap: 3px; align-items: center; }
+.layer-row label { display: grid; grid-template-columns: 13px 16px minmax(0,1fr); gap: 5px; }
+.layer-row input, .group-header input { width: 13px; height: 13px; margin: 0; }
+.layer-row .geometry-tag { grid-column: 2; text-align: center; }
+.layer-row .primary-tag, .layer-row .demo-dot { grid-column: 3; justify-self: center; }
+.layer-row .layer-info { grid-column: 4; grid-row: 1; width: 16px; height: 20px; padding: 0; display: grid; place-items: center; }
+.layer-row label, .layer-row .geometry-tag, .layer-row .primary-tag, .layer-row .demo-dot { grid-row: 1; }
+.bubble-order { display: grid; place-items: center; }
 .group-name { font-size: var(--wb-control); font-weight: 600; letter-spacing: 0; }
 .group-header small { font: var(--wb-meta) var(--od-font-body); color: var(--muted); }
 .tree-group { border-color: var(--od-border-subtle); }
@@ -102,6 +118,32 @@ button:disabled { cursor: default; }
 .map-legend { border-color: var(--line); border-radius: var(--od-radius-control); box-shadow: var(--wb-overlay-shadow); background: var(--panel); }
 .map-panel { border-color: var(--od-border-strong); background: var(--od-map-ocean); }
 .map-footer { background: var(--panel); }
+.map-footer { position: relative; }
+#tour-dock { margin-left: auto; min-width: 0; }
+.map-footer #tour-start { display: flex; align-items: center; gap: 5px; color: var(--accent); font-size: var(--wb-label); white-space: nowrap; }
+#tour-dock svg { width: 15px; height: 15px; flex-shrink: 0; }
+.map-footer.tour-active .map-navigation, .map-footer.tour-active .screen-jump { display: none; }
+.tour-active #tour-dock { width: 100%; margin: 0; }
+.tour-controls { display: flex; align-items: center; justify-content: flex-end; gap: 6px; min-height: 27px; }
+.tour-status { color: var(--accent); font: 10px var(--od-font-body); margin-right: auto; white-space: nowrap; }
+.tour-controls button { display: inline-flex; align-items: center; justify-content: center; min-width: 26px; height: 26px; border-radius: 4px; color: var(--text); }
+.tour-controls button:hover { background: var(--soft); color: var(--accent); }
+.tour-controls button:disabled { opacity: .35; cursor: default; }
+.tour-stops { display: flex; gap: 1px; }
+.tour-stops button { min-width: 19px; }
+.tour-stops button > span { width: 5px; height: 5px; border: 1px solid var(--sub); border-radius: 50%; }
+.tour-stops button[aria-current=step] > span { width: 15px; border-radius: 3px; background: var(--accent); border-color: var(--accent); }
+.tour-note { position: absolute; left: 12px; bottom: 70px; max-width: min(360px,calc(100% - 70px)); padding: 7px 10px; border-left: 2px solid var(--accent); border-radius: 0 4px 4px 0; background: var(--panel); color: var(--sub); font-size: 11px; line-height: 1.55; box-shadow: 0 4px 14px #0002; pointer-events: none; }
+.tour-controls .tour-panel-jump { display: none; }
+@media (max-width:700px) {
+  .tour-controls { gap: 2px; }
+  .tour-stops button { min-width: 15px; }
+  .tour-controls .tour-panel-jump { display: inline-flex; font-size: 10px; padding: 0 3px; }
+  .touring.tab-map .right-panel { display: flex; margin-top: 10px; min-height: 650px; }
+  .touring.tab-map .compare-panel { max-height: none; }
+  .touring.tab-map .comparison-rows { max-height: 370px; }
+  .touring.tab-map .latest-panel { min-height: 100px; }
+}
 .legend-toggle { min-height: 28px; }
 .legend-toggle b, .legend-toggle > span { font: var(--wb-meta) var(--od-font-body); letter-spacing: 0; }
 .compact-fill button, .compact-fill > span, .compact-bubble button, .compact-points button { font: var(--wb-label) var(--od-font-body); }
