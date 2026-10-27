@@ -1,0 +1,3745 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-10-27T03:50:47.487913+00:00",
+  "records": [
+    {
+      "id": "external-289294acbd62123b08d4",
+      "kind": "social",
+      "provenance": "source",
+      "date": "2026-10-26",
+      "publishedAt": "2026-10-26",
+      "captured": "2026-10-27",
+      "title": [
+        "Show HN: Autorouter Benchmark on Various PCBs",
+        "Show HN: Autorouter Benchmark on Various PCBs"
+      ],
+      "summary": [
+        "公开来源元数据；点击原文阅读。内容未经本站独立验证。",
+        "Public source metadata. Read the original; claims are not independently verified."
+      ],
+      "source": "Hacker News",
+      "sourceId": "hn",
+      "url": "https://news.ycombinator.com/item?id=50251285",
+      "objects": [
+        "Hacker News"
+      ],
+      "topics": [],
+      "modality": "text"
+    },
+    {
+      "id": "external-fd3354db454590ed53b2",
+      "kind": "social",
+      "provenance": "source",
+      "date": "2026-10-26",
+      "publishedAt": "2026-10-26",
+      "captured": "2026-10-27",
+      "title": [
+        "Show HN: Hob - Open-source, on device alternative to Claude Cowork and ChatGPT",
+        "Show HN: Hob - Open-source, on device alternative to Claude Cowork and ChatGPT"
+      ],
+      "summary": [
+        "公开来源元数据；点击原文阅读。内容未经本站独立验证。",
+        "Public source metadata. Read the original; claims are not independently verified."
+      ],
+      "source": "Hacker News",
+      "sourceId": "hn",
+      "url": "https://news.ycombinator.com/item?id=50246238",
+      "objects": [
+        "Hacker News"
+      ],
+      "topics": [],
+      "modality": "text"
+    },
+    {
+      "id": "external-2fefaa821678081cc010",
+      "kind": "social",
+      "provenance": "source",
+      "date": "2026-10-26",
+      "publishedAt": "2026-10-26",
+      "captured": "2026-10-27",
+      "title": [
+        "Show HN: Ranwhat.com",
+        "Show HN: Ranwhat.com"
+      ],
+      "summary": [
+        "公开来源元数据；点击原文阅读。内容未经本站独立验证。",
+        "Public source metadata. Read the original; claims are not independently verified."
+      ],
+      "source": "Hacker News",
+      "sourceId": "hn",
+      "url": "https://news.ycombinator.com/item?id=50245260",
+      "objects": [
+        "Hacker News"
+      ],
+      "topics": [],
+      "modality": "text"
+    },
+    {
+      "id": "external-556b4c8c3bf257af506a",
+      "kind": "social",
+      "provenance": "source",
+      "date": "2026-10-26",
+      "publishedAt": "2026-10-26",
+      "captured": "2026-10-27",
+      "title": [
+        "Show HN: Sóþspell, a model-guided walkthrough of a codebase",
+        "Show HN: Sóþspell, a model-guided walkthrough of a codebase"
+      ],
+      "summary": [
+        "公开来源元数据；点击原文阅读。内容未经本站独立验证。",
+        "Public source metadata. Read the original; claims are not independently verified."
+      ],
+      "source": "Hacker News",
+      "sourceId": "hn",
+      "url": "https://news.ycombinator.com/item?id=50245022",
+      "objects": [
+        "Hacker News"
+      ],
+      "topics": [],
+      "modality": "text"
+    },
+    {
+      "id": "external-470c413da7afb1e595a7",
+      "kind": "social",
+      "provenance": "source",
+      "date": "2026-10-26",
+      "publishedAt": "2026-10-26",
+      "captured": "2026-10-27",
+      "title": [
+        "R/open source just banned AI, non-English speakers, and more",
+        "R/open source just banned AI, non-English speakers, and more"
+      ],
+      "summary": [
+        "公开来源元数据；点击原文阅读。内容未经本站独立验证。",
+        "Public source metadata. Read the original; claims are not independently verified."
+      ],
+      "source": "Hacker News",
+      "sourceId": "hn",
+      "url": "https://news.ycombinator.com/item?id=50244212",
+      "objects": [
+        "Hacker News"
+      ],
+      "topics": [],
+      "modality": "text"
+    },
+    {
+      "id": "external-09772c4438409b9eed0d",
+      "kind": "social",
+      "provenance": "source",
+      "date": "2026-10-26",
+      "publishedAt": "2026-10-26",
+      "captured": "2026-10-27",
+      "title": [
+        "R/opensource bans AI-made and AI-focused projects and non-English speakers",
+        "R/opensource bans AI-made and AI-focused projects and non-English speakers"
+      ],
+      "summary": [
+        "公开来源元数据；点击原文阅读。内容未经本站独立验证。",
+        "Public source metadata. Read the original; claims are not independently verified."
+      ],
+      "source": "Hacker News",
+      "sourceId": "hn",
+      "url": "https://news.ycombinator.com/item?id=50242884",
+      "objects": [
+        "Hacker News"
+      ],
+      "topics": [],
+      "modality": "text"
+    },
+    {
+      "id": "external-9e0ba510471044f0a312",
+      "kind": "social",
+      "provenance": "source",
+      "date": "2026-10-26",
+      "publishedAt": "2026-10-26",
+      "captured": "2026-10-27",
+      "title": [
+        "Show HN: Claude optimizes mel-band roformer to run 4x faster on Mac",
+        "Show HN: Claude optimizes mel-band roformer to run 4x faster on Mac"
+      ],
+      "summary": [
+        "公开来源元数据；点击原文阅读。内容未经本站独立验证。",
+        "Public source metadata. Read the original; claims are not independently verified."
+      ],
+      "source": "Hacker News",
+      "sourceId": "hn",
+      "url": "https://news.ycombinator.com/item?id=50241399",
+      "objects": [
+        "Hacker News"
+      ],
+      "topics": [],
+      "modality": "text"
+    },
+    {
+      "id": "external-d3ffc07a3891c12cdfc5",
+      "kind": "social",
+      "provenance": "source",
+      "date": "2026-10-26",
+      "publishedAt": "2026-10-26",
+      "captured": "2026-10-27",
+      "title": [
+        "Show HN: Tabverse – a free, open-source, with self-hostable server Workona clone",
+        "Show HN: Tabverse – a free, open-source, with self-hostable server Workona clone"
+      ],
+      "summary": [
+        "公开来源元数据；点击原文阅读。内容未经本站独立验证。",
+        "Public source metadata. Read the original; claims are not independently verified."
+      ],
+      "source": "Hacker News",
+      "sourceId": "hn",
+      "url": "https://news.ycombinator.com/item?id=50240121",
+      "objects": [
+        "Hacker News"
+      ],
+      "topics": [],
+      "modality": "text"
+    },
+    {
+      "id": "external-1e95f8b84fb6805f3e92",
+      "kind": "social",
+      "provenance": "source",
+      "date": "2026-10-26",
+      "publishedAt": "2026-10-26",
+      "captured": "2026-10-27",
+      "title": [
+        "Show HN: Nodecode, open-source living agent in Lisp that rewrites itself for you",
+        "Show HN: Nodecode, open-source living agent in Lisp that rewrites itself for you"
+      ],
+      "summary": [
+        "公开来源元数据；点击原文阅读。内容未经本站独立验证。",
+        "Public source metadata. Read the original; claims are not independently verified."
+      ],
+      "source": "Hacker News",
+      "sourceId": "hn",
+      "url": "https://news.ycombinator.com/item?id=50238751",
+      "objects": [
+        "Hacker News"
+      ],
+      "topics": [],
+      "modality": "text"
+    },
+    {
+      "id": "external-99e1b7fb72b640ddd888",
+      "kind": "social",
+      "provenance": "source",
+      "date": "2026-10-26",
+      "publishedAt": "2026-10-26",
+      "captured": "2026-10-27",
+      "title": [
+        "Show HN: Freehire, open-source search 3M+ tech jobs from company career boards",
+        "Show HN: Freehire, open-source search 3M+ tech jobs from company career boards"
+      ],
+      "summary": [
+        "公开来源元数据；点击原文阅读。内容未经本站独立验证。",
+        "Public source metadata. Read the original; claims are not independently verified."
+      ],
+      "source": "Hacker News",
+      "sourceId": "hn",
+      "url": "https://news.ycombinator.com/item?id=50237813",
+      "objects": [
+        "Hacker News"
+      ],
+      "topics": [],
+      "modality": "text"
+    },
+    {
+      "id": "external-fdb7f54f4fde9b1817f1",
+      "kind": "social",
+      "provenance": "source",
+      "date": "2026-10-25",
+      "publishedAt": "2026-10-25",
+      "captured": "2026-10-27",
+      "title": [
+        "Show HN: Optio – A self-hosted orchestration platform for AI agents",
+        "Show HN: Optio – A self-hosted orchestration platform for AI agents"
+      ],
+      "summary": [
+        "公开来源元数据；点击原文阅读。内容未经本站独立验证。",
+        "Public source metadata. Read the original; claims are not independently verified."
+      ],
+      "source": "Hacker News",
+      "sourceId": "hn",
+      "url": "https://news.ycombinator.com/item?id=50234643",
+      "objects": [
+        "Hacker News"
+      ],
+      "topics": [],
+      "modality": "text"
+    },
+    {
+      "id": "external-3edea54e80279e6b78f4",
+      "kind": "social",
+      "provenance": "source",
+      "date": "2026-10-25",
+      "publishedAt": "2026-10-25",
+      "captured": "2026-10-27",
+      "title": [
+        "Show HN: Junior – an open-source AI junior engineer that runs on your Mac",
+        "Show HN: Junior – an open-source AI junior engineer that runs on your Mac"
+      ],
+      "summary": [
+        "公开来源元数据；点击原文阅读。内容未经本站独立验证。",
+        "Public source metadata. Read the original; claims are not independently verified."
+      ],
+      "source": "Hacker News",
+      "sourceId": "hn",
+      "url": "https://news.ycombinator.com/item?id=50233491",
+      "objects": [
+        "Hacker News"
+      ],
+      "topics": [],
+      "modality": "text"
+    },
+    {
+      "id": "external-69ed949b2237e49da5a6",
+      "kind": "social",
+      "provenance": "source",
+      "date": "2026-10-25",
+      "publishedAt": "2026-10-25",
+      "captured": "2026-10-27",
+      "title": [
+        "Subreddit R/opensource banned all AI so we made a subreddit for you to post in",
+        "Subreddit R/opensource banned all AI so we made a subreddit for you to post in"
+      ],
+      "summary": [
+        "公开来源元数据；点击原文阅读。内容未经本站独立验证。",
+        "Public source metadata. Read the original; claims are not independently verified."
+      ],
+      "source": "Hacker News",
+      "sourceId": "hn",
+      "url": "https://news.ycombinator.com/item?id=50232289",
+      "objects": [
+        "Hacker News"
+      ],
+      "topics": [],
+      "modality": "text"
+    },
+    {
+      "id": "external-5a624062177e608c2798",
+      "kind": "social",
+      "provenance": "source",
+      "date": "2026-10-25",
+      "publishedAt": "2026-10-25",
+      "captured": "2026-10-27",
+      "title": [
+        "r/open source just banned AI, non-English speakers and more",
+        "r/open source just banned AI, non-English speakers and more"
+      ],
+      "summary": [
+        "公开来源元数据；点击原文阅读。内容未经本站独立验证。",
+        "Public source metadata. Read the original; claims are not independently verified."
+      ],
+      "source": "Hacker News",
+      "sourceId": "hn",
+      "url": "https://news.ycombinator.com/item?id=50231744",
+      "objects": [
+        "Hacker News"
+      ],
+      "topics": [],
+      "modality": "text"
+    },
+    {
+      "id": "external-a117a71aff5f81bfd16f",
+      "kind": "social",
+      "provenance": "source",
+      "date": "2026-10-25",
+      "publishedAt": "2026-10-25",
+      "captured": "2026-10-27",
+      "title": [
+        "R/open source bans all solo projects and projects using LLMs",
+        "R/open source bans all solo projects and projects using LLMs"
+      ],
+      "summary": [
+        "公开来源元数据；点击原文阅读。内容未经本站独立验证。",
+        "Public source metadata. Read the original; claims are not independently verified."
+      ],
+      "source": "Hacker News",
+      "sourceId": "hn",
+      "url": "https://news.ycombinator.com/item?id=50231722",
+      "objects": [
+        "Hacker News"
+      ],
+      "topics": [],
+      "modality": "text"
+    },
+    {
+      "id": "external-3d8be54775050d1f1e20",
+      "kind": "social",
+      "provenance": "source",
+      "date": "2026-10-25",
+      "publishedAt": "2026-10-25",
+      "captured": "2026-10-27",
+      "title": [
+        "Show HN: Open-Source Cybersecurity Platform Uses AI Agents to Protect Businesses",
+        "Show HN: Open-Source Cybersecurity Platform Uses AI Agents to Protect Businesses"
+      ],
+      "summary": [
+        "公开来源元数据；点击原文阅读。内容未经本站独立验证。",
+        "Public source metadata. Read the original; claims are not independently verified."
+      ],
+      "source": "Hacker News",
+      "sourceId": "hn",
+      "url": "https://news.ycombinator.com/item?id=50231486",
+      "objects": [
+        "Hacker News"
+      ],
+      "topics": [],
+      "modality": "text"
+    },
+    {
+      "id": "external-dc70aa9ff48c329661bf",
+      "kind": "social",
+      "provenance": "source",
+      "date": "2026-10-25",
+      "publishedAt": "2026-10-25",
+      "captured": "2026-10-27",
+      "title": [
+        "Show HN: OpenXet",
+        "Show HN: OpenXet"
+      ],
+      "summary": [
+        "公开来源元数据；点击原文阅读。内容未经本站独立验证。",
+        "Public source metadata. Read the original; claims are not independently verified."
+      ],
+      "source": "Hacker News",
+      "sourceId": "hn",
+      "url": "https://news.ycombinator.com/item?id=50229716",
+      "objects": [
+        "Hacker News"
+      ],
+      "topics": [],
+      "modality": "text"
+    },
+    {
+      "id": "external-87aa65b746577534a4fe",
+      "kind": "social",
+      "provenance": "source",
+      "date": "2026-10-25",
+      "publishedAt": "2026-10-25",
+      "captured": "2026-10-27",
+      "title": [
+        "Show HN: Hindsight – Lightweight, elegant, open-source tracker for Windows/macOS",
+        "Show HN: Hindsight – Lightweight, elegant, open-source tracker for Windows/macOS"
+      ],
+      "summary": [
+        "公开来源元数据；点击原文阅读。内容未经本站独立验证。",
+        "Public source metadata. Read the original; claims are not independently verified."
+      ],
+      "source": "Hacker News",
+      "sourceId": "hn",
+      "url": "https://news.ycombinator.com/item?id=50229028",
+      "objects": [
+        "Hacker News"
+      ],
+      "topics": [],
+      "modality": "text"
+    },
+    {
+      "id": "external-2df1da2680b3867c662a",
+      "kind": "social",
+      "provenance": "source",
+      "date": "2026-10-25",
+      "publishedAt": "2026-10-25",
+      "captured": "2026-10-27",
+      "title": [
+        "Anthropic's Claude Code Sandbox",
+        "Anthropic's Claude Code Sandbox"
+      ],
+      "summary": [
+        "公开来源元数据；点击原文阅读。内容未经本站独立验证。",
+        "Public source metadata. Read the original; claims are not independently verified."
+      ],
+      "source": "Hacker News",
+      "sourceId": "hn",
+      "url": "https://news.ycombinator.com/item?id=50228041",
+      "objects": [
+        "Hacker News"
+      ],
+      "topics": [],
+      "modality": "text"
+    },
+    {
+      "id": "external-f3518d9c12496efc2697",
+      "kind": "social",
+      "provenance": "source",
+      "date": "2026-10-25",
+      "publishedAt": "2026-10-25",
+      "captured": "2026-10-27",
+      "title": [
+        "Tokens aren't valuable: No more AI",
+        "Tokens aren't valuable: No more AI"
+      ],
+      "summary": [
+        "公开来源元数据；点击原文阅读。内容未经本站独立验证。",
+        "Public source metadata. Read the original; claims are not independently verified."
+      ],
+      "source": "Hacker News",
+      "sourceId": "hn",
+      "url": "https://news.ycombinator.com/item?id=50227985",
+      "objects": [
+        "Hacker News"
+      ],
+      "topics": [],
+      "modality": "text"
+    },
+    {
+      "id": "external-2dc04575d36af253cfda",
+      "kind": "social",
+      "provenance": "source",
+      "date": "2026-10-25",
+      "publishedAt": "2026-10-25",
+      "captured": "2026-10-27",
+      "title": [
+        "Show HN: ReVault – new secure archive format",
+        "Show HN: ReVault – new secure archive format"
+      ],
+      "summary": [
+        "公开来源元数据；点击原文阅读。内容未经本站独立验证。",
+        "Public source metadata. Read the original; claims are not independently verified."
+      ],
+      "source": "Hacker News",
+      "sourceId": "hn",
+      "url": "https://news.ycombinator.com/item?id=50227527",
+      "objects": [
+        "Hacker News"
+      ],
+      "topics": [],
+      "modality": "text"
+    },
+    {
+      "id": "external-c1bc23dbfd4af228772c",
+      "kind": "social",
+      "provenance": "source",
+      "date": "2026-10-25",
+      "publishedAt": "2026-10-25",
+      "captured": "2026-10-27",
+      "title": [
+        "Show HN: Hurston-1 open source TTS that speak Southern American and Afro-English",
+        "Show HN: Hurston-1 open source TTS that speak Southern American and Afro-English"
+      ],
+      "summary": [
+        "公开来源元数据；点击原文阅读。内容未经本站独立验证。",
+        "Public source metadata. Read the original; claims are not independently verified."
+      ],
+      "source": "Hacker News",
+      "sourceId": "hn",
+      "url": "https://news.ycombinator.com/item?id=50227330",
+      "objects": [
+        "Hacker News"
+      ],
+      "topics": [],
+      "modality": "text"
+    },
+    {
+      "id": "external-76df4aa4e5117ef52da5",
+      "kind": "social",
+      "provenance": "source",
+      "date": "2026-10-24",
+      "publishedAt": "2026-10-24",
+      "captured": "2026-10-27",
+      "title": [
+        "Your tokens aren't valuable: No more AI",
+        "Your tokens aren't valuable: No more AI"
+      ],
+      "summary": [
+        "公开来源元数据；点击原文阅读。内容未经本站独立验证。",
+        "Public source metadata. Read the original; claims are not independently verified."
+      ],
+      "source": "Hacker News",
+      "sourceId": "hn",
+      "url": "https://news.ycombinator.com/item?id=50226554",
+      "objects": [
+        "Hacker News"
+      ],
+      "topics": [],
+      "modality": "text"
+    },
+    {
+      "id": "external-da670533a3b39bc1209a",
+      "kind": "social",
+      "provenance": "source",
+      "date": "2026-10-24",
+      "publishedAt": "2026-10-24",
+      "captured": "2026-10-27",
+      "title": [
+        "Show HN: Narro – Read web pages and Kindle books using local AI voices",
+        "Show HN: Narro – Read web pages and Kindle books using local AI voices"
+      ],
+      "summary": [
+        "公开来源元数据；点击原文阅读。内容未经本站独立验证。",
+        "Public source metadata. Read the original; claims are not independently verified."
+      ],
+      "source": "Hacker News",
+      "sourceId": "hn",
+      "url": "https://news.ycombinator.com/item?id=50224373",
+      "objects": [
+        "Hacker News"
+      ],
+      "topics": [],
+      "modality": "text"
+    },
+    {
+      "id": "external-7b1bb70585b5ce1cdda6",
+      "kind": "social",
+      "provenance": "source",
+      "date": "2026-10-24",
+      "publishedAt": "2026-10-24",
+      "captured": "2026-10-27",
+      "title": [
+        "Show HN: Loböle, open-source parametric CAD that AI agents can drive",
+        "Show HN: Loböle, open-source parametric CAD that AI agents can drive"
+      ],
+      "summary": [
+        "公开来源元数据；点击原文阅读。内容未经本站独立验证。",
+        "Public source metadata. Read the original; claims are not independently verified."
+      ],
+      "source": "Hacker News",
+      "sourceId": "hn",
+      "url": "https://news.ycombinator.com/item?id=50223070",
+      "objects": [
+        "Hacker News"
+      ],
+      "topics": [],
+      "modality": "text"
+    },
+    {
+      "id": "external-8c6380757d0c6d11f289",
+      "kind": "social",
+      "provenance": "source",
+      "date": "2026-10-24",
+      "publishedAt": "2026-10-24",
+      "captured": "2026-10-27",
+      "title": [
+        "Took apart Claude Code, then turned it into a free course on harness engineering",
+        "Took apart Claude Code, then turned it into a free course on harness engineering"
+      ],
+      "summary": [
+        "公开来源元数据；点击原文阅读。内容未经本站独立验证。",
+        "Public source metadata. Read the original; claims are not independently verified."
+      ],
+      "source": "Hacker News",
+      "sourceId": "hn",
+      "url": "https://news.ycombinator.com/item?id=50219641",
+      "objects": [
+        "Hacker News"
+      ],
+      "topics": [],
+      "modality": "text"
+    },
+    {
+      "id": "external-0992c437042f95bce433",
+      "kind": "social",
+      "provenance": "source",
+      "date": "2026-10-24",
+      "publishedAt": "2026-10-24",
+      "captured": "2026-10-27",
+      "title": [
+        "CowAgent – Open-Source Super AI Assistant",
+        "CowAgent – Open-Source Super AI Assistant"
+      ],
+      "summary": [
+        "公开来源元数据；点击原文阅读。内容未经本站独立验证。",
+        "Public source metadata. Read the original; claims are not independently verified."
+      ],
+      "source": "Hacker News",
+      "sourceId": "hn",
+      "url": "https://news.ycombinator.com/item?id=50218141",
+      "objects": [
+        "Hacker News"
+      ],
+      "topics": [],
+      "modality": "text"
+    },
+    {
+      "id": "external-03be5c0a6b18b1b8e07b",
+      "kind": "social",
+      "provenance": "source",
+      "date": "2026-10-24",
+      "publishedAt": "2026-10-24",
+      "captured": "2026-10-27",
+      "title": [
+        "Modular MAX 26.7 open on October 22 2026",
+        "Modular MAX 26.7 open on October 22 2026"
+      ],
+      "summary": [
+        "公开来源元数据；点击原文阅读。内容未经本站独立验证。",
+        "Public source metadata. Read the original; claims are not independently verified."
+      ],
+      "source": "Hacker News",
+      "sourceId": "hn",
+      "url": "https://news.ycombinator.com/item?id=50217991",
+      "objects": [
+        "Hacker News"
+      ],
+      "topics": [],
+      "modality": "text"
+    },
+    {
+      "id": "external-5d794c3788a3a4be0d42",
+      "kind": "blog",
+      "provenance": "source",
+      "date": "2026-10-23",
+      "publishedAt": "2026-10-23",
+      "captured": "2026-10-27",
+      "title": [
+        "LitPivot: Developing research ideas through dynamic contextualization within the literature landscape",
+        "LitPivot: Developing research ideas through dynamic contextualization within the literature landscape"
+      ],
+      "summary": [
+        "公开来源元数据；点击原文阅读。内容未经本站独立验证。",
+        "Public source metadata. Read the original; claims are not independently verified."
+      ],
+      "source": "Hugging Face",
+      "sourceId": "hf-blog",
+      "url": "https://huggingface.co/blog/allenai/litpivot",
+      "objects": [
+        "Hugging Face"
+      ],
+      "topics": [],
+      "modality": "text"
+    },
+    {
+      "id": "external-2b3f616d26d343fed778",
+      "kind": "blog",
+      "provenance": "source",
+      "date": "2026-10-23",
+      "publishedAt": "2026-10-23",
+      "captured": "2026-10-27",
+      "title": [
+        "Does Your Model Run on AWS Trainium? Look It Up",
+        "Does Your Model Run on AWS Trainium? Look It Up"
+      ],
+      "summary": [
+        "公开来源元数据；点击原文阅读。内容未经本站独立验证。",
+        "Public source metadata. Read the original; claims are not independently verified."
+      ],
+      "source": "Hugging Face",
+      "sourceId": "hf-blog",
+      "url": "https://huggingface.co/blog/torch-neuronx-model-support",
+      "objects": [
+        "Hugging Face"
+      ],
+      "topics": [],
+      "modality": "text"
+    },
+    {
+      "id": "external-0f139dc137518b65a8c9",
+      "kind": "social",
+      "provenance": "source",
+      "date": "2026-10-23",
+      "publishedAt": "2026-10-23",
+      "captured": "2026-10-27",
+      "title": [
+        "Kimi K3.1 Pro puts open-source AI a month behind the best",
+        "Kimi K3.1 Pro puts open-source AI a month behind the best"
+      ],
+      "summary": [
+        "公开来源元数据；点击原文阅读。内容未经本站独立验证。",
+        "Public source metadata. Read the original; claims are not independently verified."
+      ],
+      "source": "Hacker News",
+      "sourceId": "hn",
+      "url": "https://news.ycombinator.com/item?id=50214701",
+      "objects": [
+        "Hacker News"
+      ],
+      "topics": [],
+      "modality": "text"
+    },
+    {
+      "id": "external-f3300132ab8391865bce",
+      "kind": "social",
+      "provenance": "source",
+      "date": "2026-10-23",
+      "publishedAt": "2026-10-23",
+      "captured": "2026-10-27",
+      "title": [
+        "Open Source Is Dead and I Killed It",
+        "Open Source Is Dead and I Killed It"
+      ],
+      "summary": [
+        "公开来源元数据；点击原文阅读。内容未经本站独立验证。",
+        "Public source metadata. Read the original; claims are not independently verified."
+      ],
+      "source": "Hacker News",
+      "sourceId": "hn",
+      "url": "https://news.ycombinator.com/item?id=50214528",
+      "objects": [
+        "Hacker News"
+      ],
+      "topics": [],
+      "modality": "text"
+    },
+    {
+      "id": "external-96b08f6df3209ac19e90",
+      "kind": "social",
+      "provenance": "source",
+      "date": "2026-10-23",
+      "publishedAt": "2026-10-23",
+      "captured": "2026-10-27",
+      "title": [
+        "Kimi K3.1 Pro and K3.1 Pro Highspeed",
+        "Kimi K3.1 Pro and K3.1 Pro Highspeed"
+      ],
+      "summary": [
+        "公开来源元数据；点击原文阅读。内容未经本站独立验证。",
+        "Public source metadata. Read the original; claims are not independently verified."
+      ],
+      "source": "Hacker News",
+      "sourceId": "hn",
+      "url": "https://news.ycombinator.com/item?id=50212065",
+      "objects": [
+        "Hacker News"
+      ],
+      "topics": [],
+      "modality": "text"
+    },
+    {
+      "id": "external-1204479833a6d638a6dc",
+      "kind": "social",
+      "provenance": "source",
+      "date": "2026-10-23",
+      "publishedAt": "2026-10-23",
+      "captured": "2026-10-27",
+      "title": [
+        "Open Source Mobile-Use MCP and AI Agent",
+        "Open Source Mobile-Use MCP and AI Agent"
+      ],
+      "summary": [
+        "公开来源元数据；点击原文阅读。内容未经本站独立验证。",
+        "Public source metadata. Read the original; claims are not independently verified."
+      ],
+      "source": "Hacker News",
+      "sourceId": "hn",
+      "url": "https://news.ycombinator.com/item?id=50211548",
+      "objects": [
+        "Hacker News"
+      ],
+      "topics": [],
+      "modality": "text"
+    },
+    {
+      "id": "external-e2d5deb5cdf19ce9f692",
+      "kind": "social",
+      "provenance": "source",
+      "date": "2026-10-23",
+      "publishedAt": "2026-10-23",
+      "captured": "2026-10-27",
+      "title": [
+        "Ordered list of open-source software with the No-AI policy",
+        "Ordered list of open-source software with the No-AI policy"
+      ],
+      "summary": [
+        "公开来源元数据；点击原文阅读。内容未经本站独立验证。",
+        "Public source metadata. Read the original; claims are not independently verified."
+      ],
+      "source": "Hacker News",
+      "sourceId": "hn",
+      "url": "https://news.ycombinator.com/item?id=50205780",
+      "objects": [
+        "Hacker News"
+      ],
+      "topics": [],
+      "modality": "text"
+    },
+    {
+      "id": "external-51888f116f5b083740bc",
+      "kind": "blog",
+      "provenance": "source",
+      "date": "2026-10-22",
+      "publishedAt": "2026-10-22",
+      "captured": "2026-10-27",
+      "title": [
+        "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
+        "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox"
+      ],
+      "summary": [
+        "公开来源元数据；点击原文阅读。内容未经本站独立验证。",
+        "Public source metadata. Read the original; claims are not independently verified."
+      ],
+      "source": "Hugging Face",
+      "sourceId": "hf-blog",
+      "url": "https://huggingface.co/blog/microsoft/thinkingbox-training",
+      "objects": [
+        "Hugging Face"
+      ],
+      "topics": [],
+      "modality": "text"
+    },
+    {
+      "id": "external-0e5fad3ca5f8a881acf7",
+      "kind": "blog",
+      "provenance": "source",
+      "date": "2026-10-22",
+      "publishedAt": "2026-10-22",
+      "captured": "2026-10-27",
+      "title": [
+        "Ensemble forecasting with IBM Granite time-series models",
+        "Ensemble forecasting with IBM Granite time-series models"
+      ],
+      "summary": [
+        "公开来源元数据；点击原文阅读。内容未经本站独立验证。",
+        "Public source metadata. Read the original; claims are not independently verified."
+      ],
+      "source": "Hugging Face",
+      "sourceId": "hf-blog",
+      "url": "https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1",
+      "objects": [
+        "Hugging Face"
+      ],
+      "topics": [],
+      "modality": "text"
+    },
+    {
+      "id": "external-e80d3c427e79053656f1",
+      "kind": "social",
+      "provenance": "source",
+      "date": "2026-10-22",
+      "publishedAt": "2026-10-22",
+      "captured": "2026-10-27",
+      "title": [
+        "Show HN: Halv – open-source agent coding software that reduces your usage",
+        "Show HN: Halv – open-source agent coding software that reduces your usage"
+      ],
+      "summary": [
+        "公开来源元数据；点击原文阅读。内容未经本站独立验证。",
+        "Public source metadata. Read the original; claims are not independently verified."
+      ],
+      "source": "Hacker News",
+      "sourceId": "hn",
+      "url": "https://news.ycombinator.com/item?id=50198250",
+      "objects": [
+        "Hacker News"
+      ],
+      "topics": [],
+      "modality": "text"
+    },
+    {
+      "id": "external-5a75a9e2c530fa2df4ca",
+      "kind": "social",
+      "provenance": "source",
+      "date": "2026-10-22",
+      "publishedAt": "2026-10-22",
+      "captured": "2026-10-27",
+      "title": [
+        "Show HN: Dedoomify – AI news, minus the doom",
+        "Show HN: Dedoomify – AI news, minus the doom"
+      ],
+      "summary": [
+        "公开来源元数据；点击原文阅读。内容未经本站独立验证。",
+        "Public source metadata. Read the original; claims are not independently verified."
+      ],
+      "source": "Hacker News",
+      "sourceId": "hn",
+      "url": "https://news.ycombinator.com/item?id=50197276",
+      "objects": [
+        "Hacker News"
+      ],
+      "topics": [],
+      "modality": "text"
+    },
+    {
+      "id": "external-f3c12bb552f5e10e2561",
+      "kind": "social",
+      "provenance": "source",
+      "date": "2026-10-22",
+      "publishedAt": "2026-10-22",
+      "captured": "2026-10-27",
+      "title": [
+        "Show HN: PDT – Open-source deployment of scheduled jobs on your own cloud",
+        "Show HN: PDT – Open-source deployment of scheduled jobs on your own cloud"
+      ],
+      "summary": [
+        "公开来源元数据；点击原文阅读。内容未经本站独立验证。",
+        "Public source metadata. Read the original; claims are not independently verified."
+      ],
+      "source": "Hacker News",
+      "sourceId": "hn",
+      "url": "https://news.ycombinator.com/item?id=50196741",
+      "objects": [
+        "Hacker News"
+      ],
+      "topics": [],
+      "modality": "text"
+    },
+    {
+      "id": "external-88cba6011974c0c5fb36",
+      "kind": "social",
+      "provenance": "source",
+      "date": "2026-10-22",
+      "publishedAt": "2026-10-22",
+      "captured": "2026-10-27",
+      "title": [
+        "Show HN: Caudra – An open-source terminal coding agent in one native binary",
+        "Show HN: Caudra – An open-source terminal coding agent in one native binary"
+      ],
+      "summary": [
+        "公开来源元数据；点击原文阅读。内容未经本站独立验证。",
+        "Public source metadata. Read the original; claims are not independently verified."
+      ],
+      "source": "Hacker News",
+      "sourceId": "hn",
+      "url": "https://news.ycombinator.com/item?id=50195228",
+      "objects": [
+        "Hacker News"
+      ],
+      "topics": [],
+      "modality": "text"
+    },
+    {
+      "id": "external-05d508cfb6a1f791b7e1",
+      "kind": "social",
+      "provenance": "source",
+      "date": "2026-10-22",
+      "publishedAt": "2026-10-22",
+      "captured": "2026-10-27",
+      "title": [
+        "Show HN: FiscaLLM:open-source per-user AI cost for subscription apps",
+        "Show HN: FiscaLLM:open-source per-user AI cost for subscription apps"
+      ],
+      "summary": [
+        "公开来源元数据；点击原文阅读。内容未经本站独立验证。",
+        "Public source metadata. Read the original; claims are not independently verified."
+      ],
+      "source": "Hacker News",
+      "sourceId": "hn",
+      "url": "https://news.ycombinator.com/item?id=50195023",
+      "objects": [
+        "Hacker News"
+      ],
+      "topics": [],
+      "modality": "text"
+    },
+    {
+      "id": "external-ad859d3d2860e81ef635",
+      "kind": "social",
+      "provenance": "source",
+      "date": "2026-10-22",
+      "publishedAt": "2026-10-22",
+      "captured": "2026-10-27",
+      "title": [
+        "Show HN: Open-source Claude skills to replace Higgsfield",
+        "Show HN: Open-source Claude skills to replace Higgsfield"
+      ],
+      "summary": [
+        "公开来源元数据；点击原文阅读。内容未经本站独立验证。",
+        "Public source metadata. Read the original; claims are not independently verified."
+      ],
+      "source": "Hacker News",
+      "sourceId": "hn",
+      "url": "https://news.ycombinator.com/item?id=50191723",
+      "objects": [
+        "Hacker News"
+      ],
+      "topics": [],
+      "modality": "text"
+    },
+    {
+      "id": "external-595cbb6dc0d90934fba7",
+      "kind": "social",
+      "provenance": "source",
+      "date": "2026-10-22",
+      "publishedAt": "2026-10-22",
+      "captured": "2026-10-27",
+      "title": [
+        "The Kessler Syndrome (where blowups multiply exponentially) applied to software",
+        "The Kessler Syndrome (where blowups multiply exponentially) applied to software"
+      ],
+      "summary": [
+        "公开来源元数据；点击原文阅读。内容未经本站独立验证。",
+        "Public source metadata. Read the original; claims are not independently verified."
+      ],
+      "source": "Hacker News",
+      "sourceId": "hn",
+      "url": "https://news.ycombinator.com/item?id=50189771",
+      "objects": [
+        "Hacker News"
+      ],
+      "topics": [],
+      "modality": "text"
+    },
+    {
+      "id": "external-94a5f6526eada9bc0f52",
+      "kind": "blog",
+      "provenance": "source",
+      "date": "2026-10-21",
+      "publishedAt": "2026-10-21",
+      "captured": "2026-10-27",
+      "title": [
+        "NVIDIA Kumo Relational Outperforms Supervised Machine Learning on Relational Data, No Training Required",
+        "NVIDIA Kumo Relational Outperforms Supervised Machine Learning on Relational Data, No Training Required"
+      ],
+      "summary": [
+        "公开来源元数据；点击原文阅读。内容未经本站独立验证。",
+        "Public source metadata. Read the original; claims are not independently verified."
+      ],
+      "source": "Hugging Face",
+      "sourceId": "hf-blog",
+      "url": "https://huggingface.co/blog/nvidia/kumo-relational",
+      "objects": [
+        "Hugging Face"
+      ],
+      "topics": [],
+      "modality": "text"
+    },
+    {
+      "id": "external-40a01666d562060bfdf9",
+      "kind": "blog",
+      "provenance": "source",
+      "date": "2026-10-21",
+      "publishedAt": "2026-10-21",
+      "captured": "2026-10-27",
+      "title": [
+        "How Specializing the Vocabulary of SLMs Can Cut Inference Cost by 77% in Real Applications",
+        "How Specializing the Vocabulary of SLMs Can Cut Inference Cost by 77% in Real Applications"
+      ],
+      "summary": [
+        "公开来源元数据；点击原文阅读。内容未经本站独立验证。",
+        "Public source metadata. Read the original; claims are not independently verified."
+      ],
+      "source": "Hugging Face",
+      "sourceId": "hf-blog",
+      "url": "https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization",
+      "objects": [
+        "Hugging Face"
+      ],
+      "topics": [],
+      "modality": "text"
+    },
+    {
+      "id": "external-5b4e08461387ba3b4483",
+      "kind": "blog",
+      "provenance": "source",
+      "date": "2026-10-21",
+      "publishedAt": "2026-10-21",
+      "captured": "2026-10-27",
+      "title": [
+        "Profiling TorchNeuron (Part 1): System-level profiling on AWS Trainium.",
+        "Profiling TorchNeuron (Part 1): System-level profiling on AWS Trainium."
+      ],
+      "summary": [
+        "公开来源元数据；点击原文阅读。内容未经本站独立验证。",
+        "Public source metadata. Read the original; claims are not independently verified."
+      ],
+      "source": "Hugging Face",
+      "sourceId": "hf-blog",
+      "url": "https://huggingface.co/blog/amazon/profiling-torchneuron-part-1",
+      "objects": [
+        "Hugging Face"
+      ],
+      "topics": [],
+      "modality": "text"
+    },
+    {
+      "id": "external-c2ed162a157709f5cb47",
+      "kind": "blog",
+      "provenance": "source",
+      "date": "2026-10-21",
+      "publishedAt": "2026-10-21",
+      "captured": "2026-10-27",
+      "title": [
+        "Granite Speech 5.0: Transcribe, Translate, and Attribute more Accurately and Faster",
+        "Granite Speech 5.0: Transcribe, Translate, and Attribute more Accurately and Faster"
+      ],
+      "summary": [
+        "公开来源元数据；点击原文阅读。内容未经本站独立验证。",
+        "Public source metadata. Read the original; claims are not independently verified."
+      ],
+      "source": "Hugging Face",
+      "sourceId": "hf-blog",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-speech-5",
+      "objects": [
+        "Hugging Face"
+      ],
+      "topics": [],
+      "modality": "text"
+    },
+    {
+      "id": "external-39e60f901a735303e0c0",
+      "kind": "blog",
+      "provenance": "source",
+      "date": "2026-10-20",
+      "publishedAt": "2026-10-20",
+      "captured": "2026-10-27",
+      "title": [
+        "Hugging Face ❤️ TorchTPU: TPUs, Natively",
+        "Hugging Face ❤️ TorchTPU: TPUs, Natively"
+      ],
+      "summary": [
+        "公开来源元数据；点击原文阅读。内容未经本站独立验证。",
+        "Public source metadata. Read the original; claims are not independently verified."
+      ],
+      "source": "Hugging Face",
+      "sourceId": "hf-blog",
+      "url": "https://huggingface.co/blog/hf-torchtpu",
+      "objects": [
+        "Hugging Face"
+      ],
+      "topics": [],
+      "modality": "text"
+    },
+    {
+      "id": "external-41fb25a47d12d204a957",
+      "kind": "blog",
+      "provenance": "source",
+      "date": "2026-10-20",
+      "publishedAt": "2026-10-20",
+      "captured": "2026-10-27",
+      "title": [
+        "AnyLanguageModel 1.0: One Year of Local Models on Apple Platforms",
+        "AnyLanguageModel 1.0: One Year of Local Models on Apple Platforms"
+      ],
+      "summary": [
+        "公开来源元数据；点击原文阅读。内容未经本站独立验证。",
+        "Public source metadata. Read the original; claims are not independently verified."
+      ],
+      "source": "Hugging Face",
+      "sourceId": "hf-blog",
+      "url": "https://huggingface.co/blog/anylanguagemodel-1-0",
+      "objects": [
+        "Hugging Face"
+      ],
+      "topics": [],
+      "modality": "text"
+    },
+    {
+      "id": "external-c2b4b68d7e0027f0e436",
+      "kind": "blog",
+      "provenance": "source",
+      "date": "2026-10-20",
+      "publishedAt": "2026-10-20",
+      "captured": "2026-10-27",
+      "title": [
+        "MPS in PyTorch 2.15",
+        "MPS in PyTorch 2.15"
+      ],
+      "summary": [
+        "公开来源元数据；点击原文阅读。内容未经本站独立验证。",
+        "Public source metadata. Read the original; claims are not independently verified."
+      ],
+      "source": "Hugging Face",
+      "sourceId": "hf-blog",
+      "url": "https://huggingface.co/blog/mps-pytorch-2-15",
+      "objects": [
+        "Hugging Face"
+      ],
+      "topics": [],
+      "modality": "text"
+    },
+    {
+      "id": "external-5c52b7d34becd1ccf770",
+      "kind": "blog",
+      "provenance": "source",
+      "date": "2026-10-19",
+      "publishedAt": "2026-10-19",
+      "captured": "2026-10-27",
+      "title": [
+        "TorchNeuron: running HF models on AWS Trainium is easier than ever",
+        "TorchNeuron: running HF models on AWS Trainium is easier than ever"
+      ],
+      "summary": [
+        "公开来源元数据；点击原文阅读。内容未经本站独立验证。",
+        "Public source metadata. Read the original; claims are not independently verified."
+      ],
+      "source": "Hugging Face",
+      "sourceId": "hf-blog",
+      "url": "https://huggingface.co/blog/hf-torchneuron",
+      "objects": [
+        "Hugging Face"
+      ],
+      "topics": [],
+      "modality": "text"
+    },
+    {
+      "id": "external-c9a6184923cc1a5837b4",
+      "kind": "blog",
+      "provenance": "source",
+      "date": "2026-10-16",
+      "publishedAt": "2026-10-16",
+      "captured": "2026-10-27",
+      "title": [
+        "Welcome Beam: a 501B open model you can own, customize, and scale",
+        "Welcome Beam: a 501B open model you can own, customize, and scale"
+      ],
+      "summary": [
+        "公开来源元数据；点击原文阅读。内容未经本站独立验证。",
+        "Public source metadata. Read the original; claims are not independently verified."
+      ],
+      "source": "Hugging Face",
+      "sourceId": "hf-blog",
+      "url": "https://huggingface.co/blog/reflection-beam",
+      "objects": [
+        "Hugging Face"
+      ],
+      "topics": [],
+      "modality": "text"
+    },
+    {
+      "id": "external-39052ad94a8a76cc68a2",
+      "kind": "blog",
+      "provenance": "source",
+      "date": "2026-10-15",
+      "publishedAt": "2026-10-15",
+      "captured": "2026-10-27",
+      "title": [
+        "Apertus 1.5 Release Notes",
+        "Apertus 1.5 Release Notes"
+      ],
+      "summary": [
+        "公开来源元数据；点击原文阅读。内容未经本站独立验证。",
+        "Public source metadata. Read the original; claims are not independently verified."
+      ],
+      "source": "Hugging Face",
+      "sourceId": "hf-blog",
+      "url": "https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes",
+      "objects": [
+        "Hugging Face"
+      ],
+      "topics": [],
+      "modality": "text"
+    },
+    {
+      "id": "external-ff0cf28c5d7530571030",
+      "kind": "blog",
+      "provenance": "source",
+      "date": "2026-10-15",
+      "publishedAt": "2026-10-15",
+      "captured": "2026-10-27",
+      "title": [
+        "Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta",
+        "Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta"
+      ],
+      "summary": [
+        "公开来源元数据；点击原文阅读。内容未经本站独立验证。",
+        "Public source metadata. Read the original; claims are not independently verified."
+      ],
+      "source": "Hugging Face",
+      "sourceId": "hf-blog",
+      "url": "https://huggingface.co/blog/meta-muse-spark-open",
+      "objects": [
+        "Hugging Face"
+      ],
+      "topics": [],
+      "modality": "text"
+    },
+    {
+      "id": "external-eb67409897ed2136a753",
+      "kind": "blog",
+      "provenance": "source",
+      "date": "2026-10-15",
+      "publishedAt": "2026-10-15",
+      "captured": "2026-10-27",
+      "title": [
+        "Welcome FLUX.3 Image Klein in Diffusers",
+        "Welcome FLUX.3 Image Klein in Diffusers"
+      ],
+      "summary": [
+        "公开来源元数据；点击原文阅读。内容未经本站独立验证。",
+        "Public source metadata. Read the original; claims are not independently verified."
+      ],
+      "source": "Hugging Face",
+      "sourceId": "hf-blog",
+      "url": "https://huggingface.co/blog/flux-3",
+      "objects": [
+        "Hugging Face"
+      ],
+      "topics": [],
+      "modality": "text"
+    },
+    {
+      "id": "external-53911f98c21c784fce1a",
+      "kind": "blog",
+      "provenance": "source",
+      "date": "2026-10-13",
+      "publishedAt": "2026-10-13",
+      "captured": "2026-10-27",
+      "title": [
+        "Run fast, private agents on-device with LFM2.5-24B-A2B",
+        "Run fast, private agents on-device with LFM2.5-24B-A2B"
+      ],
+      "summary": [
+        "公开来源元数据；点击原文阅读。内容未经本站独立验证。",
+        "Public source metadata. Read the original; claims are not independently verified."
+      ],
+      "source": "Hugging Face",
+      "sourceId": "hf-blog",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
+      "objects": [
+        "Hugging Face"
+      ],
+      "topics": [],
+      "modality": "text"
+    },
+    {
+      "id": "external-ffd2818196374b7e8d98",
+      "kind": "blog",
+      "provenance": "source",
+      "date": "2026-10-08",
+      "publishedAt": "2026-10-08",
+      "captured": "2026-10-27",
+      "title": [
+        "The model that didn't exist, so you made it yourself",
+        "The model that didn't exist, so you made it yourself"
+      ],
+      "summary": [
+        "公开来源元数据；点击原文阅读。内容未经本站独立验证。",
+        "Public source metadata. Read the original; claims are not independently verified."
+      ],
+      "source": "Hugging Face",
+      "sourceId": "hf-blog",
+      "url": "https://huggingface.co/blog/building-with-ml-intern",
+      "objects": [
+        "Hugging Face"
+      ],
+      "topics": [],
+      "modality": "text"
+    },
+    {
+      "id": "external-16b7810afb00bdc03cf9",
+      "kind": "blog",
+      "provenance": "source",
+      "date": "2026-10-07",
+      "publishedAt": "2026-10-07",
+      "captured": "2026-10-27",
+      "title": [
+        "Introducing Falcon ASR",
+        "Introducing Falcon ASR"
+      ],
+      "summary": [
+        "公开来源元数据；点击原文阅读。内容未经本站独立验证。",
+        "Public source metadata. Read the original; claims are not independently verified."
+      ],
+      "source": "Hugging Face",
+      "sourceId": "hf-blog",
+      "url": "https://huggingface.co/blog/tiiuae/falcon-asr",
+      "objects": [
+        "Hugging Face"
+      ],
+      "topics": [],
+      "modality": "text"
+    },
+    {
+      "id": "external-bd1136d0fcfd6f1357de",
+      "kind": "blog",
+      "provenance": "source",
+      "date": "2026-10-03",
+      "publishedAt": "2026-10-03",
+      "captured": "2026-10-27",
+      "title": [
+        "The Agent Said It Was Done. The Database Disagreed.",
+        "The Agent Said It Was Done. The Database Disagreed."
+      ],
+      "summary": [
+        "公开来源元数据；点击原文阅读。内容未经本站独立验证。",
+        "Public source metadata. Read the original; claims are not independently verified."
+      ],
+      "source": "Hugging Face",
+      "sourceId": "hf-blog",
+      "url": "https://huggingface.co/blog/microsoft/thinkingbox",
+      "objects": [
+        "Hugging Face"
+      ],
+      "topics": [],
+      "modality": "text"
+    },
+    {
+      "id": "external-56c490db040147f1def4",
+      "kind": "blog",
+      "provenance": "source",
+      "date": "2026-10-02",
+      "publishedAt": "2026-10-02",
+      "captured": "2026-10-27",
+      "title": [
+        "AutoSynthData: Generating Training Data for Enterprise Agents",
+        "AutoSynthData: Generating Training Data for Enterprise Agents"
+      ],
+      "summary": [
+        "公开来源元数据；点击原文阅读。内容未经本站独立验证。",
+        "Public source metadata. Read the original; claims are not independently verified."
+      ],
+      "source": "Hugging Face",
+      "sourceId": "hf-blog",
+      "url": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
+      "objects": [
+        "Hugging Face"
+      ],
+      "topics": [],
+      "modality": "text"
+    },
+    {
+      "id": "external-74c2ff7e2707d1f61043",
+      "kind": "blog",
+      "provenance": "source",
+      "date": "2026-09-30",
+      "publishedAt": "2026-09-30",
+      "captured": "2026-10-27",
+      "title": [
+        "Open TTS Leaderboard: Scalable Evaluation for Multilingual Text-to-Speech and Voice Cloning",
+        "Open TTS Leaderboard: Scalable Evaluation for Multilingual Text-to-Speech and Voice Cloning"
+      ],
+      "summary": [
+        "公开来源元数据；点击原文阅读。内容未经本站独立验证。",
+        "Public source metadata. Read the original; claims are not independently verified."
+      ],
+      "source": "Hugging Face",
+      "sourceId": "hf-blog",
+      "url": "https://huggingface.co/blog/open-tts-leaderboard",
+      "objects": [
+        "Hugging Face"
+      ],
+      "topics": [],
+      "modality": "text"
+    },
+    {
+      "id": "external-afa8c33f8eb7996a3941",
+      "kind": "blog",
+      "provenance": "source",
+      "date": "2026-09-29",
+      "publishedAt": "2026-09-29",
+      "captured": "2026-10-27",
+      "title": [
+        "Getting the Source Right, Not Just the Fact: Source-Aware Verification for MCP Agents",
+        "Getting the Source Right, Not Just the Fact: Source-Aware Verification for MCP Agents"
+      ],
+      "summary": [
+        "公开来源元数据；点击原文阅读。内容未经本站独立验证。",
+        "Public source metadata. Read the original; claims are not independently verified."
+      ],
+      "source": "Hugging Face",
+      "sourceId": "hf-blog",
+      "url": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source",
+      "objects": [
+        "Hugging Face"
+      ],
+      "topics": [],
+      "modality": "text"
+    },
+    {
+      "id": "external-09d1d26fa19dd694ec40",
+      "kind": "blog",
+      "provenance": "source",
+      "date": "2026-09-28",
+      "publishedAt": "2026-09-28",
+      "captured": "2026-10-27",
+      "title": [
+        "Holo4: powering generalist computer-use agents",
+        "Holo4: powering generalist computer-use agents"
+      ],
+      "summary": [
+        "公开来源元数据；点击原文阅读。内容未经本站独立验证。",
+        "Public source metadata. Read the original; claims are not independently verified."
+      ],
+      "source": "Hugging Face",
+      "sourceId": "hf-blog",
+      "url": "https://huggingface.co/blog/Hcompany/holo4",
+      "objects": [
+        "Hugging Face"
+      ],
+      "topics": [],
+      "modality": "text"
+    },
+    {
+      "id": "external-eb916b5190e379580afd",
+      "kind": "blog",
+      "provenance": "source",
+      "date": "2026-09-28",
+      "publishedAt": "2026-09-28",
+      "captured": "2026-10-27",
+      "title": [
+        "Welcome RL Environments to the hub",
+        "Welcome RL Environments to the hub"
+      ],
+      "summary": [
+        "公开来源元数据；点击原文阅读。内容未经本站独立验证。",
+        "Public source metadata. Read the original; claims are not independently verified."
+      ],
+      "source": "Hugging Face",
+      "sourceId": "hf-blog",
+      "url": "https://huggingface.co/blog/rl-environments",
+      "objects": [
+        "Hugging Face"
+      ],
+      "topics": [],
+      "modality": "text"
+    },
+    {
+      "id": "external-e9f63aa1f7aaa02f4024",
+      "kind": "blog",
+      "provenance": "source",
+      "date": "2026-09-22",
+      "publishedAt": "2026-09-22",
+      "captured": "2026-10-27",
+      "title": [
+        "How UK AISI and EvalEval Are Making Benchmark Results Reproducible",
+        "How UK AISI and EvalEval Are Making Benchmark Results Reproducible"
+      ],
+      "summary": [
+        "公开来源元数据；点击原文阅读。内容未经本站独立验证。",
+        "Public source metadata. Read the original; claims are not independently verified."
+      ],
+      "source": "Hugging Face",
+      "sourceId": "hf-blog",
+      "url": "https://huggingface.co/blog/evaleval-aisi",
+      "objects": [
+        "Hugging Face"
+      ],
+      "topics": [],
+      "modality": "text"
+    },
+    {
+      "id": "external-689d78c6e007ab8e2c4f",
+      "kind": "blog",
+      "provenance": "source",
+      "date": "2026-09-22",
+      "publishedAt": "2026-09-22",
+      "captured": "2026-10-27",
+      "title": [
+        "Transformers now runs llama.cpp quants",
+        "Transformers now runs llama.cpp quants"
+      ],
+      "summary": [
+        "公开来源元数据；点击原文阅读。内容未经本站独立验证。",
+        "Public source metadata. Read the original; claims are not independently verified."
+      ],
+      "source": "Hugging Face",
+      "sourceId": "hf-blog",
+      "url": "https://huggingface.co/blog/transformers-llama-cpp-quants",
+      "objects": [
+        "Hugging Face"
+      ],
+      "topics": [],
+      "modality": "text"
+    },
+    {
+      "id": "external-6b3083011aeb49b1cc1d",
+      "kind": "blog",
+      "provenance": "source",
+      "date": "2026-09-22",
+      "publishedAt": "2026-09-22",
+      "captured": "2026-10-27",
+      "title": [
+        "Jun Kim, oMLX creator and maintainer, joins Hugging Face to support the MLX community",
+        "Jun Kim, oMLX creator and maintainer, joins Hugging Face to support the MLX community"
+      ],
+      "summary": [
+        "公开来源元数据；点击原文阅读。内容未经本站独立验证。",
+        "Public source metadata. Read the original; claims are not independently verified."
+      ],
+      "source": "Hugging Face",
+      "sourceId": "hf-blog",
+      "url": "https://huggingface.co/blog/omlx",
+      "objects": [
+        "Hugging Face"
+      ],
+      "topics": [],
+      "modality": "text"
+    },
+    {
+      "id": "external-693b3130e25cc8808f58",
+      "kind": "blog",
+      "provenance": "source",
+      "date": "2026-09-21",
+      "publishedAt": "2026-09-21",
+      "captured": "2026-10-27",
+      "title": [
+        "tokenizers v1: encode, decode and scaling, measured",
+        "tokenizers v1: encode, decode and scaling, measured"
+      ],
+      "summary": [
+        "公开来源元数据；点击原文阅读。内容未经本站独立验证。",
+        "Public source metadata. Read the original; claims are not independently verified."
+      ],
+      "source": "Hugging Face",
+      "sourceId": "hf-blog",
+      "url": "https://huggingface.co/blog/tokenizers-v1",
+      "objects": [
+        "Hugging Face"
+      ],
+      "topics": [],
+      "modality": "text"
+    },
+    {
+      "id": "external-a1d018f16fad79f97456",
+      "kind": "blog",
+      "provenance": "source",
+      "date": "2026-09-15",
+      "publishedAt": "2026-09-15",
+      "captured": "2026-10-27",
+      "title": [
+        "Your Agent Aced the Task. Will It Do It Again?",
+        "Your Agent Aced the Task. Will It Do It Again?"
+      ],
+      "summary": [
+        "公开来源元数据；点击原文阅读。内容未经本站独立验证。",
+        "Public source metadata. Read the original; claims are not independently verified."
+      ],
+      "source": "Hugging Face",
+      "sourceId": "hf-blog",
+      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-consistency",
+      "objects": [
+        "Hugging Face"
+      ],
+      "topics": [],
+      "modality": "text"
+    },
+    {
+      "id": "external-85052f9befba2c4e17fa",
+      "kind": "blog",
+      "provenance": "source",
+      "date": "2026-09-10",
+      "publishedAt": "2026-09-10",
+      "captured": "2026-10-27",
+      "title": [
+        "Async GRPO with LoRA across HF Jobs: a bucket, a proxy, and no NCCL",
+        "Async GRPO with LoRA across HF Jobs: a bucket, a proxy, and no NCCL"
+      ],
+      "summary": [
+        "公开来源元数据；点击原文阅读。内容未经本站独立验证。",
+        "Public source metadata. Read the original; claims are not independently verified."
+      ],
+      "source": "Hugging Face",
+      "sourceId": "hf-blog",
+      "url": "https://huggingface.co/blog/asyncgrpo-lora-hfjobs",
+      "objects": [
+        "Hugging Face"
+      ],
+      "topics": [],
+      "modality": "text"
+    },
+    {
+      "id": "external-075fed980e67c694db46",
+      "kind": "blog",
+      "provenance": "source",
+      "date": "2026-09-10",
+      "publishedAt": "2026-09-10",
+      "captured": "2026-10-27",
+      "title": [
+        "Rebuilding AUTOMATIC1111 with Gradio Workflow",
+        "Rebuilding AUTOMATIC1111 with Gradio Workflow"
+      ],
+      "summary": [
+        "公开来源元数据；点击原文阅读。内容未经本站独立验证。",
+        "Public source metadata. Read the original; claims are not independently verified."
+      ],
+      "source": "Hugging Face",
+      "sourceId": "hf-blog",
+      "url": "https://huggingface.co/blog/gradio-workflow-1111",
+      "objects": [
+        "Hugging Face"
+      ],
+      "topics": [],
+      "modality": "text"
+    },
+    {
+      "id": "external-fffbcba03b0b217e4893",
+      "kind": "blog",
+      "provenance": "source",
+      "date": "2026-09-03",
+      "publishedAt": "2026-09-03",
+      "captured": "2026-10-27",
+      "title": [
+        "NeoMME: an efficient Multimodal-native and Multilingual Encoder",
+        "NeoMME: an efficient Multimodal-native and Multilingual Encoder"
+      ],
+      "summary": [
+        "公开来源元数据；点击原文阅读。内容未经本站独立验证。",
+        "Public source metadata. Read the original; claims are not independently verified."
+      ],
+      "source": "Hugging Face",
+      "sourceId": "hf-blog",
+      "url": "https://huggingface.co/blog/Hcompany/neomme",
+      "objects": [
+        "Hugging Face"
+      ],
+      "topics": [],
+      "modality": "text"
+    },
+    {
+      "id": "external-a139f80b159295ada71d",
+      "kind": "blog",
+      "provenance": "source",
+      "date": "2026-09-03",
+      "publishedAt": "2026-09-03",
+      "captured": "2026-10-27",
+      "title": [
+        "Fine-tuning a 350M Model for Better Structured Outputs in 100 GRPO Steps",
+        "Fine-tuning a 350M Model for Better Structured Outputs in 100 GRPO Steps"
+      ],
+      "summary": [
+        "公开来源元数据；点击原文阅读。内容未经本站独立验证。",
+        "Public source metadata. Read the original; claims are not independently verified."
+      ],
+      "source": "Hugging Face",
+      "sourceId": "hf-blog",
+      "url": "https://huggingface.co/blog/grpo-with-trl-ifstruct",
+      "objects": [
+        "Hugging Face"
+      ],
+      "topics": [],
+      "modality": "text"
+    },
+    {
+      "id": "external-cdd1118267ee925c6328",
+      "kind": "blog",
+      "provenance": "source",
+      "date": "2026-09-03",
+      "publishedAt": "2026-09-03",
+      "captured": "2026-10-27",
+      "title": [
+        "Give Your Coding Agents a Memory You Own",
+        "Give Your Coding Agents a Memory You Own"
+      ],
+      "summary": [
+        "公开来源元数据；点击原文阅读。内容未经本站独立验证。",
+        "Public source metadata. Read the original; claims are not independently verified."
+      ],
+      "source": "Hugging Face",
+      "sourceId": "hf-blog",
+      "url": "https://huggingface.co/blog/funes",
+      "objects": [
+        "Hugging Face"
+      ],
+      "topics": [],
+      "modality": "text"
+    },
+    {
+      "id": "external-b5500bc6503561c622e2",
+      "kind": "blog",
+      "provenance": "source",
+      "date": "2026-09-03",
+      "publishedAt": "2026-09-03",
+      "captured": "2026-10-27",
+      "title": [
+        "Training a coding model to paint watercolours with TRL and OpenEnv",
+        "Training a coding model to paint watercolours with TRL and OpenEnv"
+      ],
+      "summary": [
+        "公开来源元数据；点击原文阅读。内容未经本站独立验证。",
+        "Public source metadata. Read the original; claims are not independently verified."
+      ],
+      "source": "Hugging Face",
+      "sourceId": "hf-blog",
+      "url": "https://huggingface.co/blog/train-to-paint-with-code",
+      "objects": [
+        "Hugging Face"
+      ],
+      "topics": [],
+      "modality": "text"
+    },
+    {
+      "id": "external-ad90e6779ea3045b3b9f",
+      "kind": "blog",
+      "provenance": "source",
+      "date": "2026-09-01",
+      "publishedAt": "2026-09-01",
+      "captured": "2026-10-27",
+      "title": [
+        "BenchMIRT: What are LLM benchmarks actually measuring?",
+        "BenchMIRT: What are LLM benchmarks actually measuring?"
+      ],
+      "summary": [
+        "公开来源元数据；点击原文阅读。内容未经本站独立验证。",
+        "Public source metadata. Read the original; claims are not independently verified."
+      ],
+      "source": "Hugging Face",
+      "sourceId": "hf-blog",
+      "url": "https://huggingface.co/blog/allenai/benchmirt",
+      "objects": [
+        "Hugging Face"
+      ],
+      "topics": [],
+      "modality": "text"
+    },
+    {
+      "id": "external-91dad0068ec24e5bcea7",
+      "kind": "blog",
+      "provenance": "source",
+      "date": "2026-09-01",
+      "publishedAt": "2026-09-01",
+      "captured": "2026-10-27",
+      "title": [
+        "Introducing @huggingface/kernels: 200+ WebGPU Kernels for Local AI",
+        "Introducing @huggingface/kernels: 200+ WebGPU Kernels for Local AI"
+      ],
+      "summary": [
+        "公开来源元数据；点击原文阅读。内容未经本站独立验证。",
+        "Public source metadata. Read the original; claims are not independently verified."
+      ],
+      "source": "Hugging Face",
+      "sourceId": "hf-blog",
+      "url": "https://huggingface.co/blog/webgpu-kernels",
+      "objects": [
+        "Hugging Face"
+      ],
+      "topics": [],
+      "modality": "text"
+    },
+    {
+      "id": "external-4d3b17a749f42c957e92",
+      "kind": "blog",
+      "provenance": "source",
+      "date": "2026-08-28",
+      "publishedAt": "2026-08-28",
+      "captured": "2026-10-27",
+      "title": [
+        "The Open ASR Leaderboard Adds Its First Global South Language",
+        "The Open ASR Leaderboard Adds Its First Global South Language"
+      ],
+      "summary": [
+        "公开来源元数据；点击原文阅读。内容未经本站独立验证。",
+        "Public source metadata. Read the original; claims are not independently verified."
+      ],
+      "source": "Hugging Face",
+      "sourceId": "hf-blog",
+      "url": "https://huggingface.co/blog/open-asr-leaderboard-global-south",
+      "objects": [
+        "Hugging Face"
+      ],
+      "topics": [],
+      "modality": "text"
+    },
+    {
+      "id": "external-17177c100c9150295f9a",
+      "kind": "blog",
+      "provenance": "source",
+      "date": "2026-08-26",
+      "publishedAt": "2026-08-26",
+      "captured": "2026-10-27",
+      "title": [
+        "Training and Finetuning Multi-Vector Embedding Models with Sentence Transformers",
+        "Training and Finetuning Multi-Vector Embedding Models with Sentence Transformers"
+      ],
+      "summary": [
+        "公开来源元数据；点击原文阅读。内容未经本站独立验证。",
+        "Public source metadata. Read the original; claims are not independently verified."
+      ],
+      "source": "Hugging Face",
+      "sourceId": "hf-blog",
+      "url": "https://huggingface.co/blog/train-multi-vector-encoder",
+      "objects": [
+        "Hugging Face"
+      ],
+      "topics": [],
+      "modality": "text"
+    },
+    {
+      "id": "external-d21068479952e4038366",
+      "kind": "blog",
+      "provenance": "source",
+      "date": "2026-08-25",
+      "publishedAt": "2026-08-25",
+      "captured": "2026-10-27",
+      "title": [
+        "Granite 4.2 LLMs: How They're Built",
+        "Granite 4.2 LLMs: How They're Built"
+      ],
+      "summary": [
+        "公开来源元数据；点击原文阅读。内容未经本站独立验证。",
+        "Public source metadata. Read the original; claims are not independently verified."
+      ],
+      "source": "Hugging Face",
+      "sourceId": "hf-blog",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-4-2",
+      "objects": [
+        "Hugging Face"
+      ],
+      "topics": [],
+      "modality": "text"
+    },
+    {
+      "id": "external-f1c76f23a788b6884a28",
+      "kind": "blog",
+      "provenance": "source",
+      "date": "2026-08-25",
+      "publishedAt": "2026-08-25",
+      "captured": "2026-10-27",
+      "title": [
+        "Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
+        "Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original"
+      ],
+      "summary": [
+        "公开来源元数据；点击原文阅读。内容未经本站独立验证。",
+        "Public source metadata. Read the original; claims are not independently verified."
+      ],
+      "source": "Hugging Face",
+      "sourceId": "hf-blog",
+      "url": "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
+      "objects": [
+        "Hugging Face"
+      ],
+      "topics": [],
+      "modality": "text"
+    },
+    {
+      "id": "external-9b54a38fa1b1a3f1fc1f",
+      "kind": "blog",
+      "provenance": "source",
+      "date": "2026-08-25",
+      "publishedAt": "2026-08-25",
+      "captured": "2026-10-27",
+      "title": [
+        "Wire It, Run It, Deploy It: AI Workflows in Gradio",
+        "Wire It, Run It, Deploy It: AI Workflows in Gradio"
+      ],
+      "summary": [
+        "公开来源元数据；点击原文阅读。内容未经本站独立验证。",
+        "Public source metadata. Read the original; claims are not independently verified."
+      ],
+      "source": "Hugging Face",
+      "sourceId": "hf-blog",
+      "url": "https://huggingface.co/blog/gradio-workflow-guide",
+      "objects": [
+        "Hugging Face"
+      ],
+      "topics": [],
+      "modality": "text"
+    },
+    {
+      "id": "external-966123ef613d7e9a038f",
+      "kind": "blog",
+      "provenance": "source",
+      "date": "2026-08-21",
+      "publishedAt": "2026-08-21",
+      "captured": "2026-10-27",
+      "title": [
+        "How Hugging Face Inference Endpoints, Jobs, and Buckets Power Search on Papers with Code",
+        "How Hugging Face Inference Endpoints, Jobs, and Buckets Power Search on Papers with Code"
+      ],
+      "summary": [
+        "公开来源元数据；点击原文阅读。内容未经本站独立验证。",
+        "Public source metadata. Read the original; claims are not independently verified."
+      ],
+      "source": "Hugging Face",
+      "sourceId": "hf-blog",
+      "url": "https://huggingface.co/blog/pwc-search",
+      "objects": [
+        "Hugging Face"
+      ],
+      "topics": [],
+      "modality": "text"
+    },
+    {
+      "id": "external-e3ddd7a65cd3a566e91c",
+      "kind": "blog",
+      "provenance": "source",
+      "date": "2026-08-21",
+      "publishedAt": "2026-08-21",
+      "captured": "2026-10-27",
+      "title": [
+        "Measuring benchmark optimization in speech recognition",
+        "Measuring benchmark optimization in speech recognition"
+      ],
+      "summary": [
+        "公开来源元数据；点击原文阅读。内容未经本站独立验证。",
+        "Public source metadata. Read the original; claims are not independently verified."
+      ],
+      "source": "Hugging Face",
+      "sourceId": "hf-blog",
+      "url": "https://huggingface.co/blog/asr-benchmark-optimization",
+      "objects": [
+        "Hugging Face"
+      ],
+      "topics": [],
+      "modality": "text"
+    },
+    {
+      "id": "external-eab5285cfdebeb65a8ef",
+      "kind": "blog",
+      "provenance": "source",
+      "date": "2026-08-20",
+      "publishedAt": "2026-08-20",
+      "captured": "2026-10-27",
+      "title": [
+        "Up to 3.2x Faster Inference with LFM2.5-DSpark",
+        "Up to 3.2x Faster Inference with LFM2.5-DSpark"
+      ],
+      "summary": [
+        "公开来源元数据；点击原文阅读。内容未经本站独立验证。",
+        "Public source metadata. Read the original; claims are not independently verified."
+      ],
+      "source": "Hugging Face",
+      "sourceId": "hf-blog",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm25-dspark",
+      "objects": [
+        "Hugging Face"
+      ],
+      "topics": [],
+      "modality": "text"
+    },
+    {
+      "id": "external-5ba78b757300e8cc3ff5",
+      "kind": "blog",
+      "provenance": "source",
+      "date": "2026-08-18",
+      "publishedAt": "2026-08-18",
+      "captured": "2026-10-27",
+      "title": [
+        "How Much Memory Does Your Agent Actually Need?",
+        "How Much Memory Does Your Agent Actually Need?"
+      ],
+      "summary": [
+        "公开来源元数据；点击原文阅读。内容未经本站独立验证。",
+        "Public source metadata. Read the original; claims are not independently verified."
+      ],
+      "source": "Hugging Face",
+      "sourceId": "hf-blog",
+      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
+      "objects": [
+        "Hugging Face"
+      ],
+      "topics": [],
+      "modality": "text"
+    },
+    {
+      "id": "external-d9524ab76177d5beaf99",
+      "kind": "blog",
+      "provenance": "source",
+      "date": "2026-08-18",
+      "publishedAt": "2026-08-18",
+      "captured": "2026-10-27",
+      "title": [
+        "Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers",
+        "Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers"
+      ],
+      "summary": [
+        "公开来源元数据；点击原文阅读。内容未经本站独立验证。",
+        "Public source metadata. Read the original; claims are not independently verified."
+      ],
+      "source": "Hugging Face",
+      "sourceId": "hf-blog",
+      "url": "https://huggingface.co/blog/multi-vector-encoder",
+      "objects": [
+        "Hugging Face"
+      ],
+      "topics": [],
+      "modality": "text"
+    },
+    {
+      "id": "external-bf50ec5ce617ac83f0c8",
+      "kind": "blog",
+      "provenance": "source",
+      "date": "2026-08-17",
+      "publishedAt": "2026-08-17",
+      "captured": "2026-10-27",
+      "title": [
+        "Same Cluster, 33 Points More Utilization: What Changed Was the Order",
+        "Same Cluster, 33 Points More Utilization: What Changed Was the Order"
+      ],
+      "summary": [
+        "公开来源元数据；点击原文阅读。内容未经本站独立验证。",
+        "Public source metadata. Read the original; claims are not independently verified."
+      ],
+      "source": "Hugging Face",
+      "sourceId": "hf-blog",
+      "url": "https://huggingface.co/blog/Dharma-AI/gpu-management-pt2",
+      "objects": [
+        "Hugging Face"
+      ],
+      "topics": [],
+      "modality": "text"
+    },
+    {
+      "id": "external-bc290ba394fd0d9149bf",
+      "kind": "blog",
+      "provenance": "source",
+      "date": "2026-08-14",
+      "publishedAt": "2026-08-14",
+      "captured": "2026-10-27",
+      "title": [
+        "State of Open Models: Summer 2026 Observations",
+        "State of Open Models: Summer 2026 Observations"
+      ],
+      "summary": [
+        "公开来源元数据；点击原文阅读。内容未经本站独立验证。",
+        "Public source metadata. Read the original; claims are not independently verified."
+      ],
+      "source": "Hugging Face",
+      "sourceId": "hf-blog",
+      "url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
+      "objects": [
+        "Hugging Face"
+      ],
+      "topics": [],
+      "modality": "text"
+    },
+    {
+      "id": "external-353217afc4f706b5339d",
+      "kind": "blog",
+      "provenance": "source",
+      "date": "2026-08-13",
+      "publishedAt": "2026-08-13",
+      "captured": "2026-10-27",
+      "title": [
+        "Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
+        "Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets"
+      ],
+      "summary": [
+        "公开来源元数据；点击原文阅读。内容未经本站独立验证。",
+        "Public source metadata. Read the original; claims are not independently verified."
+      ],
+      "source": "Hugging Face",
+      "sourceId": "hf-blog",
+      "url": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
+      "objects": [
+        "Hugging Face"
+      ],
+      "topics": [],
+      "modality": "text"
+    },
+    {
+      "id": "external-57f8b7f378e9c39afee2",
+      "kind": "blog",
+      "provenance": "source",
+      "date": "2026-08-13",
+      "publishedAt": "2026-08-13",
+      "captured": "2026-10-27",
+      "title": [
+        "What We Learned by Reproducing 2,200 papers from ICML",
+        "What We Learned by Reproducing 2,200 papers from ICML"
+      ],
+      "summary": [
+        "公开来源元数据；点击原文阅读。内容未经本站独立验证。",
+        "Public source metadata. Read the original; claims are not independently verified."
+      ],
+      "source": "Hugging Face",
+      "sourceId": "hf-blog",
+      "url": "https://huggingface.co/blog/icml-2026-open-reproductions",
+      "objects": [
+        "Hugging Face"
+      ],
+      "topics": [],
+      "modality": "text"
+    },
+    {
+      "id": "external-249a5e1ede4df4c07802",
+      "kind": "blog",
+      "provenance": "source",
+      "date": "2026-08-12",
+      "publishedAt": "2026-08-12",
+      "captured": "2026-10-27",
+      "title": [
+        "Introducing OlmoEarth embeddings: Custom embedding exports from OlmoEarth Studio for downstream analysis",
+        "Introducing OlmoEarth embeddings: Custom embedding exports from OlmoEarth Studio for downstream analysis"
+      ],
+      "summary": [
+        "公开来源元数据；点击原文阅读。内容未经本站独立验证。",
+        "Public source metadata. Read the original; claims are not independently verified."
+      ],
+      "source": "Hugging Face",
+      "sourceId": "hf-blog",
+      "url": "https://huggingface.co/blog/allenai/olmoearth-embeddings",
+      "objects": [
+        "Hugging Face"
+      ],
+      "topics": [],
+      "modality": "text"
+    },
+    {
+      "id": "external-077b61a0fed02bcc2a08",
+      "kind": "blog",
+      "provenance": "source",
+      "date": "2026-08-11",
+      "publishedAt": "2026-08-11",
+      "captured": "2026-10-27",
+      "title": [
+        "Thinking of ACE? We Can Do It with Fewer Tokens",
+        "Thinking of ACE? We Can Do It with Fewer Tokens"
+      ],
+      "summary": [
+        "公开来源元数据；点击原文阅读。内容未经本站独立验证。",
+        "Public source metadata. Read the original; claims are not independently verified."
+      ],
+      "source": "Hugging Face",
+      "sourceId": "hf-blog",
+      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-sldd",
+      "objects": [
+        "Hugging Face"
+      ],
+      "topics": [],
+      "modality": "text"
+    },
+    {
+      "id": "external-5890b1cfd4cc38aa3885",
+      "kind": "blog",
+      "provenance": "source",
+      "date": "2026-08-10",
+      "publishedAt": "2026-08-10",
+      "captured": "2026-10-27",
+      "title": [
+        "Build Low-Latency Multilingual Voice Agents: Open Weights & Full Deployment Control with NVIDIA Magpie TTS",
+        "Build Low-Latency Multilingual Voice Agents: Open Weights & Full Deployment Control with NVIDIA Magpie TTS"
+      ],
+      "summary": [
+        "公开来源元数据；点击原文阅读。内容未经本站独立验证。",
+        "Public source metadata. Read the original; claims are not independently verified."
+      ],
+      "source": "Hugging Face",
+      "sourceId": "hf-blog",
+      "url": "https://huggingface.co/blog/nvidia/magpie-tts-multilingual-voice-agents",
+      "objects": [
+        "Hugging Face"
+      ],
+      "topics": [],
+      "modality": "text"
+    },
+    {
+      "id": "external-815edfe6383208a72cfe",
+      "kind": "blog",
+      "provenance": "source",
+      "date": "2026-08-10",
+      "publishedAt": "2026-08-10",
+      "captured": "2026-10-27",
+      "title": [
+        "Making Knowledge Distillation Cheap Enough to Run at Scale",
+        "Making Knowledge Distillation Cheap Enough to Run at Scale"
+      ],
+      "summary": [
+        "公开来源元数据；点击原文阅读。内容未经本站独立验证。",
+        "Public source metadata. Read the original; claims are not independently verified."
+      ],
+      "source": "Hugging Face",
+      "sourceId": "hf-blog",
+      "url": "https://huggingface.co/blog/MultiverseComputingCAI/efficient-knowledge-distillation",
+      "objects": [
+        "Hugging Face"
+      ],
+      "topics": [],
+      "modality": "text"
+    },
+    {
+      "id": "external-dfb586131bf3d3cb04b4",
+      "kind": "blog",
+      "provenance": "source",
+      "date": "2026-08-10",
+      "publishedAt": "2026-08-10",
+      "captured": "2026-10-27",
+      "title": [
+        "Meta is back with Muse Glimmer: local, agentic, multimodal, and open source",
+        "Meta is back with Muse Glimmer: local, agentic, multimodal, and open source"
+      ],
+      "summary": [
+        "公开来源元数据；点击原文阅读。内容未经本站独立验证。",
+        "Public source metadata. Read the original; claims are not independently verified."
+      ],
+      "source": "Hugging Face",
+      "sourceId": "hf-blog",
+      "url": "https://huggingface.co/blog/muse-glimmer",
+      "objects": [
+        "Hugging Face"
+      ],
+      "topics": [],
+      "modality": "text"
+    },
+    {
+      "id": "external-23ccd9ff0c11ef81ec23",
+      "kind": "blog",
+      "provenance": "source",
+      "date": "2026-08-06",
+      "publishedAt": "2026-08-06",
+      "captured": "2026-10-27",
+      "title": [
+        "Baseten on Hugging Face Inference Providers 🔥",
+        "Baseten on Hugging Face Inference Providers 🔥"
+      ],
+      "summary": [
+        "公开来源元数据；点击原文阅读。内容未经本站独立验证。",
+        "Public source metadata. Read the original; claims are not independently verified."
+      ],
+      "source": "Hugging Face",
+      "sourceId": "hf-blog",
+      "url": "https://huggingface.co/blog/baseten",
+      "objects": [
+        "Hugging Face"
+      ],
+      "topics": [],
+      "modality": "text"
+    },
+    {
+      "id": "external-859cdcef3df01ae8d929",
+      "kind": "blog",
+      "provenance": "source",
+      "date": "2026-07-30",
+      "publishedAt": "2026-07-30",
+      "captured": "2026-10-27",
+      "title": [
+        "GPU Management: Why Idle GPUs Are the New Grounded Aircraft",
+        "GPU Management: Why Idle GPUs Are the New Grounded Aircraft"
+      ],
+      "summary": [
+        "公开来源元数据；点击原文阅读。内容未经本站独立验证。",
+        "Public source metadata. Read the original; claims are not independently verified."
+      ],
+      "source": "Hugging Face",
+      "sourceId": "hf-blog",
+      "url": "https://huggingface.co/blog/Dharma-AI/gpu-management",
+      "objects": [
+        "Hugging Face"
+      ],
+      "topics": [],
+      "modality": "text"
+    },
+    {
+      "id": "external-96537f9acc12bc3d68e6",
+      "kind": "blog",
+      "provenance": "source",
+      "date": "2026-07-27",
+      "publishedAt": "2026-07-27",
+      "captured": "2026-10-27",
+      "title": [
+        "NVIDIA Cosmos-H-Dreams: Bringing Real-Time Generative Simulation to Surgical Robotics",
+        "NVIDIA Cosmos-H-Dreams: Bringing Real-Time Generative Simulation to Surgical Robotics"
+      ],
+      "summary": [
+        "公开来源元数据；点击原文阅读。内容未经本站独立验证。",
+        "Public source metadata. Read the original; claims are not independently verified."
+      ],
+      "source": "Hugging Face",
+      "sourceId": "hf-blog",
+      "url": "https://huggingface.co/blog/nvidia/cosmos-h-dreams",
+      "objects": [
+        "Hugging Face"
+      ],
+      "topics": [],
+      "modality": "text"
+    },
+    {
+      "id": "external-424fdb621545a108a2c2",
+      "kind": "paper",
+      "provenance": "source",
+      "date": "2026-10-25",
+      "publishedAt": "2026-10-25",
+      "captured": "2026-10-27",
+      "title": [
+        "DynaFlow: Learning Free-Form Multi-Agent Orchestration",
+        "DynaFlow: Learning Free-Form Multi-Agent Orchestration"
+      ],
+      "summary": [
+        "Hugging Face Papers 收录的论文元数据；arXiv 原文及实验结论待阅读核验。",
+        "Paper metadata from Hugging Face Papers; consult the arXiv original and validate experimental claims."
+      ],
+      "source": "Hugging Face Papers",
+      "sourceId": "hf-papers",
+      "url": "https://arxiv.org/abs/2610.34467",
+      "sourceUrl": "https://huggingface.co/api/daily_papers",
+      "objects": [
+        "arXiv:2610.34467"
+      ],
+      "topics": [],
+      "modality": "document",
+      "verification": "aggregator-metadata"
+    },
+    {
+      "id": "external-ade9af525e3953afc9aa",
+      "kind": "paper",
+      "provenance": "source",
+      "date": "2026-10-25",
+      "publishedAt": "2026-10-25",
+      "captured": "2026-10-27",
+      "title": [
+        "Δτ-Bench: Pushing Agents Toward a Moving Capability",
+        "Δτ-Bench: Pushing Agents Toward a Moving Capability"
+      ],
+      "summary": [
+        "Hugging Face Papers 收录的论文元数据；arXiv 原文及实验结论待阅读核验。",
+        "Paper metadata from Hugging Face Papers; consult the arXiv original and validate experimental claims."
+      ],
+      "source": "Hugging Face Papers",
+      "sourceId": "hf-papers",
+      "url": "https://arxiv.org/abs/2610.34238",
+      "sourceUrl": "https://huggingface.co/api/daily_papers",
+      "objects": [
+        "arXiv:2610.34238"
+      ],
+      "topics": [],
+      "modality": "document",
+      "verification": "aggregator-metadata"
+    },
+    {
+      "id": "external-9fbe7130605b3a7c0b94",
+      "kind": "paper",
+      "provenance": "source",
+      "date": "2026-10-25",
+      "publishedAt": "2026-10-25",
+      "captured": "2026-10-27",
+      "title": [
+        "AgentProofBench: Benchmarking Reusable Verifiers for Web Agents",
+        "AgentProofBench: Benchmarking Reusable Verifiers for Web Agents"
+      ],
+      "summary": [
+        "Hugging Face Papers 收录的论文元数据；arXiv 原文及实验结论待阅读核验。",
+        "Paper metadata from Hugging Face Papers; consult the arXiv original and validate experimental claims."
+      ],
+      "source": "Hugging Face Papers",
+      "sourceId": "hf-papers",
+      "url": "https://arxiv.org/abs/2610.34634",
+      "sourceUrl": "https://huggingface.co/api/daily_papers",
+      "objects": [
+        "arXiv:2610.34634"
+      ],
+      "topics": [],
+      "modality": "document",
+      "verification": "aggregator-metadata"
+    },
+    {
+      "id": "external-7387918ad74d1502d51b",
+      "kind": "paper",
+      "provenance": "source",
+      "date": "2026-10-24",
+      "publishedAt": "2026-10-24",
+      "captured": "2026-10-27",
+      "title": [
+        "Novel or Not? PatEx-Gym: Agentic Prior-Art Search for Novelty Assessment in Patent Examination",
+        "Novel or Not? PatEx-Gym: Agentic Prior-Art Search for Novelty Assessment in Patent Examination"
+      ],
+      "summary": [
+        "Hugging Face Papers 收录的论文元数据；arXiv 原文及实验结论待阅读核验。",
+        "Paper metadata from Hugging Face Papers; consult the arXiv original and validate experimental claims."
+      ],
+      "source": "Hugging Face Papers",
+      "sourceId": "hf-papers",
+      "url": "https://arxiv.org/abs/2610.33503",
+      "sourceUrl": "https://huggingface.co/api/daily_papers",
+      "objects": [
+        "arXiv:2610.33503"
+      ],
+      "topics": [],
+      "modality": "document",
+      "verification": "aggregator-metadata"
+    },
+    {
+      "id": "external-43d941c286c670dbfbc5",
+      "kind": "paper",
+      "provenance": "source",
+      "date": "2026-10-25",
+      "publishedAt": "2026-10-25",
+      "captured": "2026-10-27",
+      "title": [
+        "ProAS: A Progress-Aware Advantage Shaping Framework for Multi-Turn Agentic Reinforcement Learning",
+        "ProAS: A Progress-Aware Advantage Shaping Framework for Multi-Turn Agentic Reinforcement Learning"
+      ],
+      "summary": [
+        "Hugging Face Papers 收录的论文元数据；arXiv 原文及实验结论待阅读核验。",
+        "Paper metadata from Hugging Face Papers; consult the arXiv original and validate experimental claims."
+      ],
+      "source": "Hugging Face Papers",
+      "sourceId": "hf-papers",
+      "url": "https://arxiv.org/abs/2610.18683",
+      "sourceUrl": "https://huggingface.co/api/daily_papers",
+      "objects": [
+        "arXiv:2610.18683"
+      ],
+      "topics": [],
+      "modality": "document",
+      "verification": "aggregator-metadata"
+    },
+    {
+      "id": "external-47e008c461c64eb65661",
+      "kind": "paper",
+      "provenance": "source",
+      "date": "2026-10-26",
+      "publishedAt": "2026-10-26",
+      "captured": "2026-10-27",
+      "title": [
+        "Work Agents: Systems, Capabilities, and Optimization",
+        "Work Agents: Systems, Capabilities, and Optimization"
+      ],
+      "summary": [
+        "Hugging Face Papers 收录的论文元数据；arXiv 原文及实验结论待阅读核验。",
+        "Paper metadata from Hugging Face Papers; consult the arXiv original and validate experimental claims."
+      ],
+      "source": "Hugging Face Papers",
+      "sourceId": "hf-papers",
+      "url": "https://arxiv.org/abs/2610.35845",
+      "sourceUrl": "https://huggingface.co/api/daily_papers",
+      "objects": [
+        "arXiv:2610.35845"
+      ],
+      "topics": [],
+      "modality": "document",
+      "verification": "aggregator-metadata"
+    },
+    {
+      "id": "external-64636563bef184a2ba49",
+      "kind": "paper",
+      "provenance": "source",
+      "date": "2026-10-24",
+      "publishedAt": "2026-10-24",
+      "captured": "2026-10-27",
+      "title": [
+        "Qwen-Image-PE: Learning Visual Design for Text-to-Image Prompt Enhancement",
+        "Qwen-Image-PE: Learning Visual Design for Text-to-Image Prompt Enhancement"
+      ],
+      "summary": [
+        "Hugging Face Papers 收录的论文元数据；arXiv 原文及实验结论待阅读核验。",
+        "Paper metadata from Hugging Face Papers; consult the arXiv original and validate experimental claims."
+      ],
+      "source": "Hugging Face Papers",
+      "sourceId": "hf-papers",
+      "url": "https://arxiv.org/abs/2610.33472",
+      "sourceUrl": "https://huggingface.co/api/daily_papers",
+      "objects": [
+        "arXiv:2610.33472"
+      ],
+      "topics": [],
+      "modality": "document",
+      "verification": "aggregator-metadata"
+    },
+    {
+      "id": "external-00e5126f569a140cd0ea",
+      "kind": "paper",
+      "provenance": "source",
+      "date": "2026-10-22",
+      "publishedAt": "2026-10-22",
+      "captured": "2026-10-27",
+      "title": [
+        "Extreme Compression of Per-Layer Embeddings via Cross-Layer Latent Vector Quantization",
+        "Extreme Compression of Per-Layer Embeddings via Cross-Layer Latent Vector Quantization"
+      ],
+      "summary": [
+        "Hugging Face Papers 收录的论文元数据；arXiv 原文及实验结论待阅读核验。",
+        "Paper metadata from Hugging Face Papers; consult the arXiv original and validate experimental claims."
+      ],
+      "source": "Hugging Face Papers",
+      "sourceId": "hf-papers",
+      "url": "https://arxiv.org/abs/2610.31309",
+      "sourceUrl": "https://huggingface.co/api/daily_papers",
+      "objects": [
+        "arXiv:2610.31309"
+      ],
+      "topics": [],
+      "modality": "document",
+      "verification": "aggregator-metadata"
+    },
+    {
+      "id": "external-7879d80f8ba77ad5ef8e",
+      "kind": "paper",
+      "provenance": "source",
+      "date": "2026-10-26",
+      "publishedAt": "2026-10-26",
+      "captured": "2026-10-27",
+      "title": [
+        "StreamVibe: Proactive Video Agents for Evolving User Intent",
+        "StreamVibe: Proactive Video Agents for Evolving User Intent"
+      ],
+      "summary": [
+        "Hugging Face Papers 收录的论文元数据；arXiv 原文及实验结论待阅读核验。",
+        "Paper metadata from Hugging Face Papers; consult the arXiv original and validate experimental claims."
+      ],
+      "source": "Hugging Face Papers",
+      "sourceId": "hf-papers",
+      "url": "https://arxiv.org/abs/2610.34662",
+      "sourceUrl": "https://huggingface.co/api/daily_papers",
+      "objects": [
+        "arXiv:2610.34662"
+      ],
+      "topics": [],
+      "modality": "document",
+      "verification": "aggregator-metadata"
+    },
+    {
+      "id": "external-e5af65d8ed72be8dd2a0",
+      "kind": "paper",
+      "provenance": "source",
+      "date": "2026-10-24",
+      "publishedAt": "2026-10-24",
+      "captured": "2026-10-27",
+      "title": [
+        "Trajectory2Gym: Decision-Grounded Compositional Interaction Synthesis for Tool-Use Agents",
+        "Trajectory2Gym: Decision-Grounded Compositional Interaction Synthesis for Tool-Use Agents"
+      ],
+      "summary": [
+        "Hugging Face Papers 收录的论文元数据；arXiv 原文及实验结论待阅读核验。",
+        "Paper metadata from Hugging Face Papers; consult the arXiv original and validate experimental claims."
+      ],
+      "source": "Hugging Face Papers",
+      "sourceId": "hf-papers",
+      "url": "https://arxiv.org/abs/2610.33568",
+      "sourceUrl": "https://huggingface.co/api/daily_papers",
+      "objects": [
+        "arXiv:2610.33568"
+      ],
+      "topics": [],
+      "modality": "document",
+      "verification": "aggregator-metadata"
+    },
+    {
+      "id": "external-69d6a9490f99edc58655",
+      "kind": "paper",
+      "provenance": "source",
+      "date": "2026-10-25",
+      "publishedAt": "2026-10-25",
+      "captured": "2026-10-27",
+      "title": [
+        "InteractiveWorld: A Verifiable Human-Centric Environment for Building Better Interactive MLLM Assistants",
+        "InteractiveWorld: A Verifiable Human-Centric Environment for Building Better Interactive MLLM Assistants"
+      ],
+      "summary": [
+        "Hugging Face Papers 收录的论文元数据；arXiv 原文及实验结论待阅读核验。",
+        "Paper metadata from Hugging Face Papers; consult the arXiv original and validate experimental claims."
+      ],
+      "source": "Hugging Face Papers",
+      "sourceId": "hf-papers",
+      "url": "https://arxiv.org/abs/2610.33966",
+      "sourceUrl": "https://huggingface.co/api/daily_papers",
+      "objects": [
+        "arXiv:2610.33966"
+      ],
+      "topics": [],
+      "modality": "document",
+      "verification": "aggregator-metadata"
+    },
+    {
+      "id": "external-d8ca89c0a96c3e80fb50",
+      "kind": "paper",
+      "provenance": "source",
+      "date": "2026-10-23",
+      "publishedAt": "2026-10-23",
+      "captured": "2026-10-27",
+      "title": [
+        "Principia: Test-Time Hypotheses to Principle Construction for Scientific Discovery",
+        "Principia: Test-Time Hypotheses to Principle Construction for Scientific Discovery"
+      ],
+      "summary": [
+        "Hugging Face Papers 收录的论文元数据；arXiv 原文及实验结论待阅读核验。",
+        "Paper metadata from Hugging Face Papers; consult the arXiv original and validate experimental claims."
+      ],
+      "source": "Hugging Face Papers",
+      "sourceId": "hf-papers",
+      "url": "https://arxiv.org/abs/2610.32195",
+      "sourceUrl": "https://huggingface.co/api/daily_papers",
+      "objects": [
+        "arXiv:2610.32195"
+      ],
+      "topics": [],
+      "modality": "document",
+      "verification": "aggregator-metadata"
+    },
+    {
+      "id": "external-f44db6f31949f0777b84",
+      "kind": "paper",
+      "provenance": "source",
+      "date": "2026-10-23",
+      "publishedAt": "2026-10-23",
+      "captured": "2026-10-27",
+      "title": [
+        "World-in-Context: Interactive Video World Modeling with In-Context Conditioning",
+        "World-in-Context: Interactive Video World Modeling with In-Context Conditioning"
+      ],
+      "summary": [
+        "Hugging Face Papers 收录的论文元数据；arXiv 原文及实验结论待阅读核验。",
+        "Paper metadata from Hugging Face Papers; consult the arXiv original and validate experimental claims."
+      ],
+      "source": "Hugging Face Papers",
+      "sourceId": "hf-papers",
+      "url": "https://arxiv.org/abs/2610.33169",
+      "sourceUrl": "https://huggingface.co/api/daily_papers",
+      "objects": [
+        "arXiv:2610.33169"
+      ],
+      "topics": [],
+      "modality": "document",
+      "verification": "aggregator-metadata"
+    },
+    {
+      "id": "external-6a2162d5e1381827efdc",
+      "kind": "paper",
+      "provenance": "source",
+      "date": "2026-10-25",
+      "publishedAt": "2026-10-25",
+      "captured": "2026-10-27",
+      "title": [
+        "Continual Learning Exam: Benchmarking Long-Horizon RSI and Experiential Learning in LLM Agents",
+        "Continual Learning Exam: Benchmarking Long-Horizon RSI and Experiential Learning in LLM Agents"
+      ],
+      "summary": [
+        "Hugging Face Papers 收录的论文元数据；arXiv 原文及实验结论待阅读核验。",
+        "Paper metadata from Hugging Face Papers; consult the arXiv original and validate experimental claims."
+      ],
+      "source": "Hugging Face Papers",
+      "sourceId": "hf-papers",
+      "url": "https://arxiv.org/abs/2610.33956",
+      "sourceUrl": "https://huggingface.co/api/daily_papers",
+      "objects": [
+        "arXiv:2610.33956"
+      ],
+      "topics": [],
+      "modality": "document",
+      "verification": "aggregator-metadata"
+    },
+    {
+      "id": "external-712abb20a14f30f7873e",
+      "kind": "paper",
+      "provenance": "source",
+      "date": "2026-10-23",
+      "publishedAt": "2026-10-23",
+      "captured": "2026-10-27",
+      "title": [
+        "Trial by Trace: Benchmarking AI Agent Harnesses for Reliability and Failure Attribution",
+        "Trial by Trace: Benchmarking AI Agent Harnesses for Reliability and Failure Attribution"
+      ],
+      "summary": [
+        "Hugging Face Papers 收录的论文元数据；arXiv 原文及实验结论待阅读核验。",
+        "Paper metadata from Hugging Face Papers; consult the arXiv original and validate experimental claims."
+      ],
+      "source": "Hugging Face Papers",
+      "sourceId": "hf-papers",
+      "url": "https://arxiv.org/abs/2610.32285",
+      "sourceUrl": "https://huggingface.co/api/daily_papers",
+      "objects": [
+        "arXiv:2610.32285"
+      ],
+      "topics": [],
+      "modality": "document",
+      "verification": "aggregator-metadata"
+    },
+    {
+      "id": "external-c36a7ebcd0bd12a0b2f8",
+      "kind": "paper",
+      "provenance": "source",
+      "date": "2026-10-21",
+      "publishedAt": "2026-10-21",
+      "captured": "2026-10-27",
+      "title": [
+        "Steering Black-Box Large Language Model Agents with Pitfall Anticipation World Model",
+        "Steering Black-Box Large Language Model Agents with Pitfall Anticipation World Model"
+      ],
+      "summary": [
+        "Hugging Face Papers 收录的论文元数据；arXiv 原文及实验结论待阅读核验。",
+        "Paper metadata from Hugging Face Papers; consult the arXiv original and validate experimental claims."
+      ],
+      "source": "Hugging Face Papers",
+      "sourceId": "hf-papers",
+      "url": "https://arxiv.org/abs/2610.29139",
+      "sourceUrl": "https://huggingface.co/api/daily_papers",
+      "objects": [
+        "arXiv:2610.29139"
+      ],
+      "topics": [],
+      "modality": "document",
+      "verification": "aggregator-metadata"
+    },
+    {
+      "id": "external-90a8c4f520fc5773aef9",
+      "kind": "paper",
+      "provenance": "source",
+      "date": "2026-10-23",
+      "publishedAt": "2026-10-23",
+      "captured": "2026-10-27",
+      "title": [
+        "WorldCast: World-Consistent Character Video Generation with Large-Angle Camera Control",
+        "WorldCast: World-Consistent Character Video Generation with Large-Angle Camera Control"
+      ],
+      "summary": [
+        "Hugging Face Papers 收录的论文元数据；arXiv 原文及实验结论待阅读核验。",
+        "Paper metadata from Hugging Face Papers; consult the arXiv original and validate experimental claims."
+      ],
+      "source": "Hugging Face Papers",
+      "sourceId": "hf-papers",
+      "url": "https://arxiv.org/abs/2610.33135",
+      "sourceUrl": "https://huggingface.co/api/daily_papers",
+      "objects": [
+        "arXiv:2610.33135"
+      ],
+      "topics": [],
+      "modality": "document",
+      "verification": "aggregator-metadata"
+    },
+    {
+      "id": "external-3c56ba0d896a7404f4ac",
+      "kind": "paper",
+      "provenance": "source",
+      "date": "2026-10-20",
+      "publishedAt": "2026-10-20",
+      "captured": "2026-10-27",
+      "title": [
+        "WORTH Benchmark: Evidence Discovery under Not-Fully-Cooperative Information -- A Two-Episode Pilot",
+        "WORTH Benchmark: Evidence Discovery under Not-Fully-Cooperative Information -- A Two-Episode Pilot"
+      ],
+      "summary": [
+        "Hugging Face Papers 收录的论文元数据；arXiv 原文及实验结论待阅读核验。",
+        "Paper metadata from Hugging Face Papers; consult the arXiv original and validate experimental claims."
+      ],
+      "source": "Hugging Face Papers",
+      "sourceId": "hf-papers",
+      "url": "https://arxiv.org/abs/2610.27597",
+      "sourceUrl": "https://huggingface.co/api/daily_papers",
+      "objects": [
+        "arXiv:2610.27597"
+      ],
+      "topics": [],
+      "modality": "document",
+      "verification": "aggregator-metadata"
+    },
+    {
+      "id": "external-3ec8fb151cd77aabfd45",
+      "kind": "paper",
+      "provenance": "source",
+      "date": "2026-10-23",
+      "publishedAt": "2026-10-23",
+      "captured": "2026-10-27",
+      "title": [
+        "DiscoDemo: Discovering Efficient and Diverse Robot Demonstrations for Imitation Learning",
+        "DiscoDemo: Discovering Efficient and Diverse Robot Demonstrations for Imitation Learning"
+      ],
+      "summary": [
+        "Hugging Face Papers 收录的论文元数据；arXiv 原文及实验结论待阅读核验。",
+        "Paper metadata from Hugging Face Papers; consult the arXiv original and validate experimental claims."
+      ],
+      "source": "Hugging Face Papers",
+      "sourceId": "hf-papers",
+      "url": "https://arxiv.org/abs/2610.32093",
+      "sourceUrl": "https://huggingface.co/api/daily_papers",
+      "objects": [
+        "arXiv:2610.32093"
+      ],
+      "topics": [],
+      "modality": "document",
+      "verification": "aggregator-metadata"
+    },
+    {
+      "id": "external-98824c70837642db93f6",
+      "kind": "paper",
+      "provenance": "source",
+      "date": "2026-10-14",
+      "publishedAt": "2026-10-14",
+      "captured": "2026-10-27",
+      "title": [
+        "Function-Space Temporal Self-Distillation for Policy Optimization",
+        "Function-Space Temporal Self-Distillation for Policy Optimization"
+      ],
+      "summary": [
+        "Hugging Face Papers 收录的论文元数据；arXiv 原文及实验结论待阅读核验。",
+        "Paper metadata from Hugging Face Papers; consult the arXiv original and validate experimental claims."
+      ],
+      "source": "Hugging Face Papers",
+      "sourceId": "hf-papers",
+      "url": "https://arxiv.org/abs/2610.19687",
+      "sourceUrl": "https://huggingface.co/api/daily_papers",
+      "objects": [
+        "arXiv:2610.19687"
+      ],
+      "topics": [],
+      "modality": "document",
+      "verification": "aggregator-metadata"
+    },
+    {
+      "id": "external-dd424d84ae4ffe319dc0",
+      "kind": "paper",
+      "provenance": "source",
+      "date": "2026-10-18",
+      "publishedAt": "2026-10-18",
+      "captured": "2026-10-27",
+      "title": [
+        "How Much Feedback Is Needed to Break Template Protection? The Geometric Vulnerability of Biometric Authentication",
+        "How Much Feedback Is Needed to Break Template Protection? The Geometric Vulnerability of Biometric Authentication"
+      ],
+      "summary": [
+        "Hugging Face Papers 收录的论文元数据；arXiv 原文及实验结论待阅读核验。",
+        "Paper metadata from Hugging Face Papers; consult the arXiv original and validate experimental claims."
+      ],
+      "source": "Hugging Face Papers",
+      "sourceId": "hf-papers",
+      "url": "https://arxiv.org/abs/2610.25118",
+      "sourceUrl": "https://huggingface.co/api/daily_papers",
+      "objects": [
+        "arXiv:2610.25118"
+      ],
+      "topics": [],
+      "modality": "document",
+      "verification": "aggregator-metadata"
+    },
+    {
+      "id": "external-c4824adae163f399f54a",
+      "kind": "paper",
+      "provenance": "source",
+      "date": "2026-10-15",
+      "publishedAt": "2026-10-15",
+      "captured": "2026-10-27",
+      "title": [
+        "Kolab: Benchmarking Human-Agent Collaboration in Long-Horizon Workflows",
+        "Kolab: Benchmarking Human-Agent Collaboration in Long-Horizon Workflows"
+      ],
+      "summary": [
+        "Hugging Face Papers 收录的论文元数据；arXiv 原文及实验结论待阅读核验。",
+        "Paper metadata from Hugging Face Papers; consult the arXiv original and validate experimental claims."
+      ],
+      "source": "Hugging Face Papers",
+      "sourceId": "hf-papers",
+      "url": "https://arxiv.org/abs/2610.21109",
+      "sourceUrl": "https://huggingface.co/api/daily_papers",
+      "objects": [
+        "arXiv:2610.21109"
+      ],
+      "topics": [],
+      "modality": "document",
+      "verification": "aggregator-metadata"
+    },
+    {
+      "id": "external-07f581e485bcadb43f26",
+      "kind": "paper",
+      "provenance": "source",
+      "date": "2026-10-19",
+      "publishedAt": "2026-10-19",
+      "captured": "2026-10-27",
+      "title": [
+        "Predictive Closure: A Set-Level Characterization of JEPA's Feature Selection",
+        "Predictive Closure: A Set-Level Characterization of JEPA's Feature Selection"
+      ],
+      "summary": [
+        "Hugging Face Papers 收录的论文元数据；arXiv 原文及实验结论待阅读核验。",
+        "Paper metadata from Hugging Face Papers; consult the arXiv original and validate experimental claims."
+      ],
+      "source": "Hugging Face Papers",
+      "sourceId": "hf-papers",
+      "url": "https://arxiv.org/abs/2610.27364",
+      "sourceUrl": "https://huggingface.co/api/daily_papers",
+      "objects": [
+        "arXiv:2610.27364"
+      ],
+      "topics": [],
+      "modality": "document",
+      "verification": "aggregator-metadata"
+    },
+    {
+      "id": "external-8d7f564fd9f13e27a915",
+      "kind": "paper",
+      "provenance": "source",
+      "date": "2026-10-20",
+      "publishedAt": "2026-10-20",
+      "captured": "2026-10-27",
+      "title": [
+        "Judging the Justification: Decision Certificate Supervision for Generative Reward Models",
+        "Judging the Justification: Decision Certificate Supervision for Generative Reward Models"
+      ],
+      "summary": [
+        "Hugging Face Papers 收录的论文元数据；arXiv 原文及实验结论待阅读核验。",
+        "Paper metadata from Hugging Face Papers; consult the arXiv original and validate experimental claims."
+      ],
+      "source": "Hugging Face Papers",
+      "sourceId": "hf-papers",
+      "url": "https://arxiv.org/abs/2610.27528",
+      "sourceUrl": "https://huggingface.co/api/daily_papers",
+      "objects": [
+        "arXiv:2610.27528"
+      ],
+      "topics": [],
+      "modality": "document",
+      "verification": "aggregator-metadata"
+    },
+    {
+      "id": "external-bed2b1a28486dea6ec28",
+      "kind": "paper",
+      "provenance": "source",
+      "date": "2026-10-22",
+      "publishedAt": "2026-10-22",
+      "captured": "2026-10-27",
+      "title": [
+        "On the Token Collapse Phenomenon in Textual Graph Soft Prompting",
+        "On the Token Collapse Phenomenon in Textual Graph Soft Prompting"
+      ],
+      "summary": [
+        "Hugging Face Papers 收录的论文元数据；arXiv 原文及实验结论待阅读核验。",
+        "Paper metadata from Hugging Face Papers; consult the arXiv original and validate experimental claims."
+      ],
+      "source": "Hugging Face Papers",
+      "sourceId": "hf-papers",
+      "url": "https://arxiv.org/abs/2610.31572",
+      "sourceUrl": "https://huggingface.co/api/daily_papers",
+      "objects": [
+        "arXiv:2610.31572"
+      ],
+      "topics": [],
+      "modality": "document",
+      "verification": "aggregator-metadata"
+    },
+    {
+      "id": "external-9f7ec8a8c0e5e4602eef",
+      "kind": "paper",
+      "provenance": "source",
+      "date": "2026-10-22",
+      "publishedAt": "2026-10-22",
+      "captured": "2026-10-27",
+      "title": [
+        "FLORA: An Open Model Suite for Scaling Robotics Data Engines",
+        "FLORA: An Open Model Suite for Scaling Robotics Data Engines"
+      ],
+      "summary": [
+        "Hugging Face Papers 收录的论文元数据；arXiv 原文及实验结论待阅读核验。",
+        "Paper metadata from Hugging Face Papers; consult the arXiv original and validate experimental claims."
+      ],
+      "source": "Hugging Face Papers",
+      "sourceId": "hf-papers",
+      "url": "https://arxiv.org/abs/2610.31779",
+      "sourceUrl": "https://huggingface.co/api/daily_papers",
+      "objects": [
+        "arXiv:2610.31779"
+      ],
+      "topics": [],
+      "modality": "document",
+      "verification": "aggregator-metadata"
+    },
+    {
+      "id": "external-ab2db738fd6c27a69069",
+      "kind": "paper",
+      "provenance": "source",
+      "date": "2026-10-14",
+      "publishedAt": "2026-10-14",
+      "captured": "2026-10-27",
+      "title": [
+        "KANLab: TensorFlow Playground for Kolmogorov-Arnold Networks",
+        "KANLab: TensorFlow Playground for Kolmogorov-Arnold Networks"
+      ],
+      "summary": [
+        "Hugging Face Papers 收录的论文元数据；arXiv 原文及实验结论待阅读核验。",
+        "Paper metadata from Hugging Face Papers; consult the arXiv original and validate experimental claims."
+      ],
+      "source": "Hugging Face Papers",
+      "sourceId": "hf-papers",
+      "url": "https://arxiv.org/abs/2610.20117",
+      "sourceUrl": "https://huggingface.co/api/daily_papers",
+      "objects": [
+        "arXiv:2610.20117"
+      ],
+      "topics": [],
+      "modality": "document",
+      "verification": "aggregator-metadata"
+    },
+    {
+      "id": "external-dd39f6104750943c81b9",
+      "kind": "paper",
+      "provenance": "source",
+      "date": "2026-10-21",
+      "publishedAt": "2026-10-21",
+      "captured": "2026-10-27",
+      "title": [
+        "LLM2Cert: LLM Synthesis of Certificates with SMT/Lean Verification",
+        "LLM2Cert: LLM Synthesis of Certificates with SMT/Lean Verification"
+      ],
+      "summary": [
+        "Hugging Face Papers 收录的论文元数据；arXiv 原文及实验结论待阅读核验。",
+        "Paper metadata from Hugging Face Papers; consult the arXiv original and validate experimental claims."
+      ],
+      "source": "Hugging Face Papers",
+      "sourceId": "hf-papers",
+      "url": "https://arxiv.org/abs/2610.30524",
+      "sourceUrl": "https://huggingface.co/api/daily_papers",
+      "objects": [
+        "arXiv:2610.30524"
+      ],
+      "topics": [],
+      "modality": "document",
+      "verification": "aggregator-metadata"
+    },
+    {
+      "id": "external-01623fe5218eb9efa0c5",
+      "kind": "paper",
+      "provenance": "source",
+      "date": "2026-10-14",
+      "publishedAt": "2026-10-14",
+      "captured": "2026-10-27",
+      "title": [
+        "JockeyBench: Evaluating LLM Agents on Horse-Racing Decision-Making",
+        "JockeyBench: Evaluating LLM Agents on Horse-Racing Decision-Making"
+      ],
+      "summary": [
+        "Hugging Face Papers 收录的论文元数据；arXiv 原文及实验结论待阅读核验。",
+        "Paper metadata from Hugging Face Papers; consult the arXiv original and validate experimental claims."
+      ],
+      "source": "Hugging Face Papers",
+      "sourceId": "hf-papers",
+      "url": "https://arxiv.org/abs/2610.19589",
+      "sourceUrl": "https://huggingface.co/api/daily_papers",
+      "objects": [
+        "arXiv:2610.19589"
+      ],
+      "topics": [],
+      "modality": "document",
+      "verification": "aggregator-metadata"
+    },
+    {
+      "id": "external-d762df67a1c93fa46e12",
+      "kind": "paper",
+      "provenance": "source",
+      "date": "2026-10-22",
+      "publishedAt": "2026-10-22",
+      "captured": "2026-10-27",
+      "title": [
+        "PaperFormalizer: Author-in-the-Loop Autoformalization of Research Papers in Lean",
+        "PaperFormalizer: Author-in-the-Loop Autoformalization of Research Papers in Lean"
+      ],
+      "summary": [
+        "Hugging Face Papers 收录的论文元数据；arXiv 原文及实验结论待阅读核验。",
+        "Paper metadata from Hugging Face Papers; consult the arXiv original and validate experimental claims."
+      ],
+      "source": "Hugging Face Papers",
+      "sourceId": "hf-papers",
+      "url": "https://arxiv.org/abs/2610.31810",
+      "sourceUrl": "https://huggingface.co/api/daily_papers",
+      "objects": [
+        "arXiv:2610.31810"
+      ],
+      "topics": [],
+      "modality": "document",
+      "verification": "aggregator-metadata"
+    },
+    {
+      "id": "external-9a3302f432ad04598bc1",
+      "kind": "paper",
+      "provenance": "source",
+      "date": "2026-10-22",
+      "publishedAt": "2026-10-22",
+      "captured": "2026-10-27",
+      "title": [
+        "Speculative Diffusion is a Tale of Two Tradeoffs",
+        "Speculative Diffusion is a Tale of Two Tradeoffs"
+      ],
+      "summary": [
+        "Hugging Face Papers 收录的论文元数据；arXiv 原文及实验结论待阅读核验。",
+        "Paper metadata from Hugging Face Papers; consult the arXiv original and validate experimental claims."
+      ],
+      "source": "Hugging Face Papers",
+      "sourceId": "hf-papers",
+      "url": "https://arxiv.org/abs/2610.31819",
+      "sourceUrl": "https://huggingface.co/api/daily_papers",
+      "objects": [
+        "arXiv:2610.31819"
+      ],
+      "topics": [],
+      "modality": "document",
+      "verification": "aggregator-metadata"
+    },
+    {
+      "id": "external-8f34f3543ab3e50d13c3",
+      "kind": "paper",
+      "provenance": "source",
+      "date": "2026-10-09",
+      "publishedAt": "2026-10-09",
+      "captured": "2026-10-27",
+      "title": [
+        "What Git Does Not Record: Provenance Legibility in Two AI-Assisted Research Repositories",
+        "What Git Does Not Record: Provenance Legibility in Two AI-Assisted Research Repositories"
+      ],
+      "summary": [
+        "Hugging Face Papers 收录的论文元数据；arXiv 原文及实验结论待阅读核验。",
+        "Paper metadata from Hugging Face Papers; consult the arXiv original and validate experimental claims."
+      ],
+      "source": "Hugging Face Papers",
+      "sourceId": "hf-papers",
+      "url": "https://arxiv.org/abs/2610.28655",
+      "sourceUrl": "https://huggingface.co/api/daily_papers",
+      "objects": [
+        "arXiv:2610.28655"
+      ],
+      "topics": [],
+      "modality": "document",
+      "verification": "aggregator-metadata"
+    },
+    {
+      "id": "external-deaadaa17103f9cafce3",
+      "kind": "paper",
+      "provenance": "source",
+      "date": "2026-10-22",
+      "publishedAt": "2026-10-22",
+      "captured": "2026-10-27",
+      "title": [
+        "FocusVLA: Future-Intent Guided Dynamic View Routing for Vision-Language-Action Models",
+        "FocusVLA: Future-Intent Guided Dynamic View Routing for Vision-Language-Action Models"
+      ],
+      "summary": [
+        "Hugging Face Papers 收录的论文元数据；arXiv 原文及实验结论待阅读核验。",
+        "Paper metadata from Hugging Face Papers; consult the arXiv original and validate experimental claims."
+      ],
+      "source": "Hugging Face Papers",
+      "sourceId": "hf-papers",
+      "url": "https://arxiv.org/abs/2610.31423",
+      "sourceUrl": "https://huggingface.co/api/daily_papers",
+      "objects": [
+        "arXiv:2610.31423"
+      ],
+      "topics": [],
+      "modality": "document",
+      "verification": "aggregator-metadata"
+    },
+    {
+      "id": "external-ab11c98f74e97bb40998",
+      "kind": "paper",
+      "provenance": "source",
+      "date": "2026-10-22",
+      "publishedAt": "2026-10-22",
+      "captured": "2026-10-27",
+      "title": [
+        "Does LeWorldModel Preserve Local Action Geometry?",
+        "Does LeWorldModel Preserve Local Action Geometry?"
+      ],
+      "summary": [
+        "Hugging Face Papers 收录的论文元数据；arXiv 原文及实验结论待阅读核验。",
+        "Paper metadata from Hugging Face Papers; consult the arXiv original and validate experimental claims."
+      ],
+      "source": "Hugging Face Papers",
+      "sourceId": "hf-papers",
+      "url": "https://arxiv.org/abs/2610.31716",
+      "sourceUrl": "https://huggingface.co/api/daily_papers",
+      "objects": [
+        "arXiv:2610.31716"
+      ],
+      "topics": [],
+      "modality": "document",
+      "verification": "aggregator-metadata"
+    },
+    {
+      "id": "external-dfbccdacbb319eab3ae1",
+      "kind": "paper",
+      "provenance": "source",
+      "date": "2026-10-22",
+      "publishedAt": "2026-10-22",
+      "captured": "2026-10-27",
+      "title": [
+        "Reading, Writing, Sharing, and Interacting with the World through Video",
+        "Reading, Writing, Sharing, and Interacting with the World through Video"
+      ],
+      "summary": [
+        "Hugging Face Papers 收录的论文元数据；arXiv 原文及实验结论待阅读核验。",
+        "Paper metadata from Hugging Face Papers; consult the arXiv original and validate experimental claims."
+      ],
+      "source": "Hugging Face Papers",
+      "sourceId": "hf-papers",
+      "url": "https://arxiv.org/abs/2610.31668",
+      "sourceUrl": "https://huggingface.co/api/daily_papers",
+      "objects": [
+        "arXiv:2610.31668"
+      ],
+      "topics": [],
+      "modality": "document",
+      "verification": "aggregator-metadata"
+    },
+    {
+      "id": "external-35b9a7f119c042eecd51",
+      "kind": "paper",
+      "provenance": "source",
+      "date": "2026-10-20",
+      "publishedAt": "2026-10-20",
+      "captured": "2026-10-27",
+      "title": [
+        "RoboJudge: Multimodal Language Models as Judges for Embodied Video Generation",
+        "RoboJudge: Multimodal Language Models as Judges for Embodied Video Generation"
+      ],
+      "summary": [
+        "Hugging Face Papers 收录的论文元数据；arXiv 原文及实验结论待阅读核验。",
+        "Paper metadata from Hugging Face Papers; consult the arXiv original and validate experimental claims."
+      ],
+      "source": "Hugging Face Papers",
+      "sourceId": "hf-papers",
+      "url": "https://arxiv.org/abs/2610.27782",
+      "sourceUrl": "https://huggingface.co/api/daily_papers",
+      "objects": [
+        "arXiv:2610.27782"
+      ],
+      "topics": [],
+      "modality": "document",
+      "verification": "aggregator-metadata"
+    },
+    {
+      "id": "external-78e33c1f4ce0f99d4a07",
+      "kind": "paper",
+      "provenance": "source",
+      "date": "2026-10-14",
+      "publishedAt": "2026-10-14",
+      "captured": "2026-10-27",
+      "title": [
+        "SliderEdit++: Improved Slider Trajectories in Instruction-Based Image Editing",
+        "SliderEdit++: Improved Slider Trajectories in Instruction-Based Image Editing"
+      ],
+      "summary": [
+        "Hugging Face Papers 收录的论文元数据；arXiv 原文及实验结论待阅读核验。",
+        "Paper metadata from Hugging Face Papers; consult the arXiv original and validate experimental claims."
+      ],
+      "source": "Hugging Face Papers",
+      "sourceId": "hf-papers",
+      "url": "https://arxiv.org/abs/2610.14253",
+      "sourceUrl": "https://huggingface.co/api/daily_papers",
+      "objects": [
+        "arXiv:2610.14253"
+      ],
+      "topics": [],
+      "modality": "document",
+      "verification": "aggregator-metadata"
+    },
+    {
+      "id": "external-080ac6ed1ce6901d93d7",
+      "kind": "paper",
+      "provenance": "source",
+      "date": "2026-10-22",
+      "publishedAt": "2026-10-22",
+      "captured": "2026-10-27",
+      "title": [
+        "MMVistaReason: Toward Open-Data and Post-Training Recipes for Multimodal Reasoning",
+        "MMVistaReason: Toward Open-Data and Post-Training Recipes for Multimodal Reasoning"
+      ],
+      "summary": [
+        "Hugging Face Papers 收录的论文元数据；arXiv 原文及实验结论待阅读核验。",
+        "Paper metadata from Hugging Face Papers; consult the arXiv original and validate experimental claims."
+      ],
+      "source": "Hugging Face Papers",
+      "sourceId": "hf-papers",
+      "url": "https://arxiv.org/abs/2610.01352",
+      "sourceUrl": "https://huggingface.co/api/daily_papers",
+      "objects": [
+        "arXiv:2610.01352"
+      ],
+      "topics": [],
+      "modality": "document",
+      "verification": "aggregator-metadata"
+    },
+    {
+      "id": "external-081d2afb18f35c00e64d",
+      "kind": "paper",
+      "provenance": "source",
+      "date": "2026-10-17",
+      "publishedAt": "2026-10-17",
+      "captured": "2026-10-27",
+      "title": [
+        "Co-adaptive Rule Routing and Constraining for Structured Knowledge Retrieval",
+        "Co-adaptive Rule Routing and Constraining for Structured Knowledge Retrieval"
+      ],
+      "summary": [
+        "Hugging Face Papers 收录的论文元数据；arXiv 原文及实验结论待阅读核验。",
+        "Paper metadata from Hugging Face Papers; consult the arXiv original and validate experimental claims."
+      ],
+      "source": "Hugging Face Papers",
+      "sourceId": "hf-papers",
+      "url": "https://arxiv.org/abs/2610.14465",
+      "sourceUrl": "https://huggingface.co/api/daily_papers",
+      "objects": [
+        "arXiv:2610.14465"
+      ],
+      "topics": [],
+      "modality": "document",
+      "verification": "aggregator-metadata"
+    },
+    {
+      "id": "external-6405bfac88e078e46a9d",
+      "kind": "paper",
+      "provenance": "source",
+      "date": "2026-10-22",
+      "publishedAt": "2026-10-22",
+      "captured": "2026-10-27",
+      "title": [
+        "DISC: Domain-Integrated Similarity Cost for Time-Series Dataset",
+        "DISC: Domain-Integrated Similarity Cost for Time-Series Dataset"
+      ],
+      "summary": [
+        "Hugging Face Papers 收录的论文元数据；arXiv 原文及实验结论待阅读核验。",
+        "Paper metadata from Hugging Face Papers; consult the arXiv original and validate experimental claims."
+      ],
+      "source": "Hugging Face Papers",
+      "sourceId": "hf-papers",
+      "url": "https://arxiv.org/abs/2610.31288",
+      "sourceUrl": "https://huggingface.co/api/daily_papers",
+      "objects": [
+        "arXiv:2610.31288"
+      ],
+      "topics": [],
+      "modality": "document",
+      "verification": "aggregator-metadata"
+    },
+    {
+      "id": "external-c4d29a70f6b39e30b318",
+      "kind": "paper",
+      "provenance": "source",
+      "date": "2026-10-21",
+      "publishedAt": "2026-10-21",
+      "captured": "2026-10-27",
+      "title": [
+        "Building Auditable AI Text Detectors with Sparse Autoencoders",
+        "Building Auditable AI Text Detectors with Sparse Autoencoders"
+      ],
+      "summary": [
+        "Hugging Face Papers 收录的论文元数据；arXiv 原文及实验结论待阅读核验。",
+        "Paper metadata from Hugging Face Papers; consult the arXiv original and validate experimental claims."
+      ],
+      "source": "Hugging Face Papers",
+      "sourceId": "hf-papers",
+      "url": "https://arxiv.org/abs/2610.30006",
+      "sourceUrl": "https://huggingface.co/api/daily_papers",
+      "objects": [
+        "arXiv:2610.30006"
+      ],
+      "topics": [],
+      "modality": "document",
+      "verification": "aggregator-metadata"
+    },
+    {
+      "id": "external-b371cb9612dcfdad0161",
+      "kind": "paper",
+      "provenance": "source",
+      "date": "2026-10-21",
+      "publishedAt": "2026-10-21",
+      "captured": "2026-10-27",
+      "title": [
+        "TenetBench: A Clause-Anchored Russian Corpus for Evaluating Language Models against Professional Codes of Ethics",
+        "TenetBench: A Clause-Anchored Russian Corpus for Evaluating Language Models against Professional Codes of Ethics"
+      ],
+      "summary": [
+        "Hugging Face Papers 收录的论文元数据；arXiv 原文及实验结论待阅读核验。",
+        "Paper metadata from Hugging Face Papers; consult the arXiv original and validate experimental claims."
+      ],
+      "source": "Hugging Face Papers",
+      "sourceId": "hf-papers",
+      "url": "https://arxiv.org/abs/2610.29477",
+      "sourceUrl": "https://huggingface.co/api/daily_papers",
+      "objects": [
+        "arXiv:2610.29477"
+      ],
+      "topics": [],
+      "modality": "document",
+      "verification": "aggregator-metadata"
+    },
+    {
+      "id": "external-9f3149cb6a174d38bde4",
+      "kind": "paper",
+      "provenance": "source",
+      "date": "2026-10-20",
+      "publishedAt": "2026-10-20",
+      "captured": "2026-10-27",
+      "title": [
+        "DuoLM: Fast and Effective Personalized Recommendation with Language Models",
+        "DuoLM: Fast and Effective Personalized Recommendation with Language Models"
+      ],
+      "summary": [
+        "Hugging Face Papers 收录的论文元数据；arXiv 原文及实验结论待阅读核验。",
+        "Paper metadata from Hugging Face Papers; consult the arXiv original and validate experimental claims."
+      ],
+      "source": "Hugging Face Papers",
+      "sourceId": "hf-papers",
+      "url": "https://arxiv.org/abs/2610.24481",
+      "sourceUrl": "https://huggingface.co/api/daily_papers",
+      "objects": [
+        "arXiv:2610.24481"
+      ],
+      "topics": [],
+      "modality": "document",
+      "verification": "aggregator-metadata"
+    },
+    {
+      "id": "external-2416a12fded6f2dbd66e",
+      "kind": "paper",
+      "provenance": "source",
+      "date": "2026-10-23",
+      "publishedAt": "2026-10-23",
+      "captured": "2026-10-27",
+      "title": [
+        "A path-following framework on fiber bundle for variational inequalities",
+        "A path-following framework on fiber bundle for variational inequalities"
+      ],
+      "summary": [
+        "Hugging Face Papers 收录的论文元数据；arXiv 原文及实验结论待阅读核验。",
+        "Paper metadata from Hugging Face Papers; consult the arXiv original and validate experimental claims."
+      ],
+      "source": "Hugging Face Papers",
+      "sourceId": "hf-papers",
+      "url": "https://arxiv.org/abs/2606.00778",
+      "sourceUrl": "https://huggingface.co/api/daily_papers",
+      "objects": [
+        "arXiv:2606.00778"
+      ],
+      "topics": [],
+      "modality": "document",
+      "verification": "aggregator-metadata"
+    },
+    {
+      "id": "external-c48529083f3acc5ca39a",
+      "kind": "paper",
+      "provenance": "source",
+      "date": "2026-10-23",
+      "publishedAt": "2026-10-23",
+      "captured": "2026-10-27",
+      "title": [
+        "The fixed-point bundle method over product-of-simplex domains arising from game equilibria",
+        "The fixed-point bundle method over product-of-simplex domains arising from game equilibria"
+      ],
+      "summary": [
+        "Hugging Face Papers 收录的论文元数据；arXiv 原文及实验结论待阅读核验。",
+        "Paper metadata from Hugging Face Papers; consult the arXiv original and validate experimental claims."
+      ],
+      "source": "Hugging Face Papers",
+      "sourceId": "hf-papers",
+      "url": "https://arxiv.org/abs/2609.16158",
+      "sourceUrl": "https://huggingface.co/api/daily_papers",
+      "objects": [
+        "arXiv:2609.16158"
+      ],
+      "topics": [],
+      "modality": "document",
+      "verification": "aggregator-metadata"
+    },
+    {
+      "id": "external-196c956b69f1a6ef06b1",
+      "kind": "paper",
+      "provenance": "source",
+      "date": "2026-10-23",
+      "publishedAt": "2026-10-23",
+      "captured": "2026-10-27",
+      "title": [
+        "On-Policy Self-Training: Data-Free Self-Improvement in Large Language Models",
+        "On-Policy Self-Training: Data-Free Self-Improvement in Large Language Models"
+      ],
+      "summary": [
+        "Hugging Face Papers 收录的论文元数据；arXiv 原文及实验结论待阅读核验。",
+        "Paper metadata from Hugging Face Papers; consult the arXiv original and validate experimental claims."
+      ],
+      "source": "Hugging Face Papers",
+      "sourceId": "hf-papers",
+      "url": "https://arxiv.org/abs/2610.32770",
+      "sourceUrl": "https://huggingface.co/api/daily_papers",
+      "objects": [
+        "arXiv:2610.32770"
+      ],
+      "topics": [],
+      "modality": "document",
+      "verification": "aggregator-metadata"
+    },
+    {
+      "id": "external-572a65a52169b4df63e8",
+      "kind": "paper",
+      "provenance": "source",
+      "date": "2026-10-20",
+      "publishedAt": "2026-10-20",
+      "captured": "2026-10-27",
+      "title": [
+        "MultiAgent-OPD: End-to-End Training of Hierarchical Multi-Agent Systems with On-Policy Distillation",
+        "MultiAgent-OPD: End-to-End Training of Hierarchical Multi-Agent Systems with On-Policy Distillation"
+      ],
+      "summary": [
+        "Hugging Face Papers 收录的论文元数据；arXiv 原文及实验结论待阅读核验。",
+        "Paper metadata from Hugging Face Papers; consult the arXiv original and validate experimental claims."
+      ],
+      "source": "Hugging Face Papers",
+      "sourceId": "hf-papers",
+      "url": "https://arxiv.org/abs/2610.23234",
+      "sourceUrl": "https://huggingface.co/api/daily_papers",
+      "objects": [
+        "arXiv:2610.23234"
+      ],
+      "topics": [],
+      "modality": "document",
+      "verification": "aggregator-metadata"
+    },
+    {
+      "id": "external-6f69d744af158b5ef9bf",
+      "kind": "paper",
+      "provenance": "source",
+      "date": "2026-10-23",
+      "publishedAt": "2026-10-23",
+      "captured": "2026-10-27",
+      "title": [
+        "LoCA: Enabling Multi-Modality in Geospatial Location Encoders",
+        "LoCA: Enabling Multi-Modality in Geospatial Location Encoders"
+      ],
+      "summary": [
+        "Hugging Face Papers 收录的论文元数据；arXiv 原文及实验结论待阅读核验。",
+        "Paper metadata from Hugging Face Papers; consult the arXiv original and validate experimental claims."
+      ],
+      "source": "Hugging Face Papers",
+      "sourceId": "hf-papers",
+      "url": "https://arxiv.org/abs/2610.32894",
+      "sourceUrl": "https://huggingface.co/api/daily_papers",
+      "objects": [
+        "arXiv:2610.32894"
+      ],
+      "topics": [],
+      "modality": "document",
+      "verification": "aggregator-metadata"
+    },
+    {
+      "id": "external-346add6fc3348aeb6401",
+      "kind": "paper",
+      "provenance": "source",
+      "date": "2026-10-22",
+      "publishedAt": "2026-10-22",
+      "captured": "2026-10-27",
+      "title": [
+        "DraMaze: A Multi-Agent Pipeline with Future-Aware Memory for Diverse Microdrama Script Generation",
+        "DraMaze: A Multi-Agent Pipeline with Future-Aware Memory for Diverse Microdrama Script Generation"
+      ],
+      "summary": [
+        "Hugging Face Papers 收录的论文元数据；arXiv 原文及实验结论待阅读核验。",
+        "Paper metadata from Hugging Face Papers; consult the arXiv original and validate experimental claims."
+      ],
+      "source": "Hugging Face Papers",
+      "sourceId": "hf-papers",
+      "url": "https://arxiv.org/abs/2610.32002",
+      "sourceUrl": "https://huggingface.co/api/daily_papers",
+      "objects": [
+        "arXiv:2610.32002"
+      ],
+      "topics": [],
+      "modality": "document",
+      "verification": "aggregator-metadata"
+    },
+    {
+      "id": "external-00dd8def37b8821c722b",
+      "kind": "paper",
+      "provenance": "source",
+      "date": "2026-10-22",
+      "publishedAt": "2026-10-22",
+      "captured": "2026-10-27",
+      "title": [
+        "Every Weight Is a Path of Shared Discrete Decisions",
+        "Every Weight Is a Path of Shared Discrete Decisions"
+      ],
+      "summary": [
+        "Hugging Face Papers 收录的论文元数据；arXiv 原文及实验结论待阅读核验。",
+        "Paper metadata from Hugging Face Papers; consult the arXiv original and validate experimental claims."
+      ],
+      "source": "Hugging Face Papers",
+      "sourceId": "hf-papers",
+      "url": "https://arxiv.org/abs/2610.31931",
+      "sourceUrl": "https://huggingface.co/api/daily_papers",
+      "objects": [
+        "arXiv:2610.31931"
+      ],
+      "topics": [],
+      "modality": "document",
+      "verification": "aggregator-metadata"
+    }
+  ],
+  "health": [
+    {
+      "id": "hf-blog",
+      "name": "Hugging Face",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "status": "ok",
+      "checkedAt": "2026-10-27T03:45:34.658322+00:00",
+      "lastSuccess": "2026-10-27T03:45:34.658322+00:00",
+      "count": 60
+    },
+    {
+      "id": "arxiv",
+      "name": "arXiv",
+      "url": "https://export.arxiv.org/api/query?search_query=all:open-source+AND+cat:cs.AI&start=0&max_results=40&sortBy=submittedDate&sortOrder=descending",
+      "status": "unavailable",
+      "checkedAt": "2026-10-27T03:45:34.658322+00:00",
+      "lastSuccess": null,
+      "error": "429 observed during initial access check; no immediate retry",
+      "count": 0
+    },
+    {
+      "id": "hn",
+      "name": "Hacker News",
+      "url": "https://hn.algolia.com/api/v1/search_by_date?query=open%20source%20AI&tags=story&hitsPerPage=40",
+      "status": "ok",
+      "checkedAt": "2026-10-27T03:45:34.658322+00:00",
+      "lastSuccess": "2026-10-27T03:45:34.658322+00:00",
+      "count": 40
+    },
+    {
+      "id": "hf-papers",
+      "name": "Hugging Face Papers",
+      "url": "https://huggingface.co/api/daily_papers",
+      "status": "ok",
+      "checkedAt": "2026-10-27T03:50:47.487913+00:00",
+      "lastSuccess": "2026-10-27T03:50:47.487913+00:00",
+      "count": 50
+    }
+  ]
+}

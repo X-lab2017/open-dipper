@@ -1,0 +1,15 @@
+import type {Material,Copy} from './model';
+export const materialKinds:Record<string,Copy>={all:['全部情报','All intelligence'],data:['数据观测','Data'],paper:['论文与研究','Papers'],news:['新闻与发布','News'],blog:['博客与实践','Blogs'],social:['社交讨论','Social'],video:['视频与讲座','Video'],conference:['会议','Conferences'],event:['活动与共建','Events'],community:['社区样例','Community demos']};
+export const subjects:Record<string,Copy>={all:['全部主题','All topics'],agents:['Agent 与应用','Agents & applications'],models:['模型与数据','Models & data'],infra:['基础设施','Infrastructure'],security:['安全与可信','Security & trust'],governance:['治理与标准','Governance & standards'],ecosystem:['开源生态','Open ecosystem']};
+export type Entity={id:string;name:string;type:string;url:string};
+export type Catalog={schemaVersion:1;assembledAt:string;records:Material[];entities:Entity[];links:{from:string;to:string;type:string;evidenceUrl:string;status:string}[];health:{id:string;name:string;url:string;status:string;checkedAt:string;lastSuccess:string|null;count:number}[]};
+export let catalog:Catalog|null=null, catalogStatus:'idle'|'loading'|'ready'|'error'='idle';
+const url=(x:unknown)=>typeof x==='string'&&/^https?:\/\/[^\s]+$/.test(x);
+export function validateCatalog(x:any):Catalog{
+ if(!x||x.schemaVersion!==1||!Array.isArray(x.records)||x.records.length>1200||!Array.isArray(x.entities)||!Array.isArray(x.links)||!Array.isArray(x.health))throw Error('Invalid catalog');
+ const ids=new Set<string>();for(const r of x.records){if(!r||typeof r.source!=='string'||typeof r.id!=='string'||!/^[\w:.-]{1,160}$/.test(r.id)||ids.has(r.id)||!Object.hasOwn(materialKinds,r.kind)||r.kind==='all'||!['source','snapshot'].includes(r.provenance)||!url(r.url)||![r.title,r.summary].every(a=>Array.isArray(a)&&a.length===2&&a.every(s=>typeof s==='string'&&s.length<2000))||![r.date,r.captured].every(d=>typeof d==='string'&&/^\d{4}-\d{2}-\d{2}$/.test(d))||!Array.isArray(r.topics)||!r.topics.every((t:string)=>Object.hasOwn(subjects,t))||!Array.isArray(r.objects)||!r.objects.every((s:any)=>typeof s==='string')||!Array.isArray(r.entityUrls)||!r.entityUrls.every(url)||r.sourceUrl&&!url(r.sourceUrl))throw Error('Invalid material');ids.add(r.id);}
+ const entities=new Set<string>();for(const e of x.entities){if(!e||typeof e.id!=='string'||entities.has(e.id)||typeof e.name!=='string'||!url(e.url))throw Error('Invalid entity');entities.add(e.id);}
+ for(const l of x.links)if(!ids.has(l.from)||!entities.has(l.to)||!['references','describes'].includes(l.type)||l.status!=='source-recorded'||!url(l.evidenceUrl))throw Error('Invalid evidence link');
+ for(const h of x.health)if(!h||typeof h.name!=='string'||!url(h.url)||!['ok','unavailable'].includes(h.status)||typeof h.checkedAt!=='string')throw Error('Invalid health');return x;
+}
+export async function loadCatalog(base:string,force=false){if(catalogStatus==='loading'||catalogStatus==='ready'&&!force)return;catalogStatus='loading';try{const r=await fetch(`${base}data/intelligence-catalog.json`);if(!r.ok)throw Error('Unavailable');catalog=validateCatalog(await r.json());catalogStatus='ready';}catch{catalogStatus='error';}}
