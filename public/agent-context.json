@@ -292,6 +292,13 @@
       "purpose": "Taxonomy, evidence objects, bounded metadata collection, source clocks and runtime recovery",
       "language": "zh-CN/en",
       "url": "https://raw.githubusercontent.com/X-lab2017/open-dipper/main/docs/INTELLIGENCE_LIBRARY.md"
+    },
+    {
+      "path": "docs/RESEARCH_SPACE.md",
+      "title": "Research notebook workspace",
+      "purpose": "Notebook source context, notes, exports and proposed Open Notebook API integration",
+      "language": "zh-CN/en",
+      "url": "https://raw.githubusercontent.com/X-lab2017/open-dipper/main/docs/RESEARCH_SPACE.md"
     }
   ],
   "tasks": {
@@ -563,6 +570,23 @@
       "checks": [
         "docs:check"
       ]
+    },
+    "research": {
+      "read": [
+        "docs/RESEARCH_SPACE.md",
+        "docs/INTELLIGENCE_LIBRARY.md",
+        "docs/VISUAL_SYSTEM.md"
+      ],
+      "edit": [
+        "src/intelligence-room/notebook.ts",
+        "src/intelligence-room/notebook-model.ts",
+        "src/intelligence-room/notebook.css"
+      ],
+      "checks": [
+        "typecheck",
+        "test:observatory",
+        "test:portal:ui"
+      ]
     }
   },
   "routes": [
@@ -645,7 +669,7 @@
     "implementationCommit": "6544f48ccaab9a43a7c56069c487f620ec83723e"
   },
   "versions": {
-    "application": "1.11.0",
+    "application": "1.12.0",
     "visual": "1.4.0"
   }
 }

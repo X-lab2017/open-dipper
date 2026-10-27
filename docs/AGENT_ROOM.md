@@ -1,6 +1,8 @@
 # Agent 情报室 / Agent Intelligence Room
 
-Product specification v0.3 · 2026-10-27 · **interactive prototype, not a live Agent service**.
+Historical product specification v0.3 · 2026-10-27 · **interactive prototype, not a live Agent service**.
+
+> Current Research implementation: [Research space 1.12.0](RESEARCH_SPACE.md). Current reading: [Intelligence library](INTELLIGENCE_LIBRARY.md). The sections below retain earlier prototype decisions; the former research landing is now under Earlier drafts & version examples.
 
 ## 中文评审摘要 / Review v0.3
 
