@@ -198,4 +198,4 @@ Agent 情报室新增时间星图、主题雷达与六站线索漫游：点选�
 
 ![Agent Room · Visual discovery](docs/assets/agent-room/visual-story.jpg)
 
-情报评审工作台整合任务、实体／资料分类、三种可视化、就地证据详情和本机 Agent 问题草稿。来源目录包含 940 条记录，另合并原有观测与事件；这是有出处的样本库，尚未接通实时 Agent 研究。[范围与来源](docs/INTELLIGENCE_LIBRARY.md)。
+情报首页采用以 Folo 为参考的阅读路径：来源导航、紧凑列表和证据阅读区，支持本机收藏／已读及带资料追问。三种可视化、资料集、研究草案与持续跟踪仍可使用。来源目录包含 940 条记录，另合并原有观测与事件；这是有出处的样本库，尚未接通实时 Agent 研究。[范围与来源](docs/INTELLIGENCE_LIBRARY.md)。

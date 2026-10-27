@@ -23,3 +23,11 @@ test('expanded evidence has at least 500 genuinely retrieved records and all obs
  for(const r of expanded.records.filter(r=>r.entityTypes.includes('patent'))){assert.equal(r.dateBasis,'published');assert.ok(r.date<'2026-10-27');}
  const bad=structuredClone(catalog);bad.records[0].entityTypes=['invented-type'];assert.throws(()=>validateCatalog(bad));
 });
+
+import {normalizeReader,toggleReader} from '../src/intelligence-room/reader.ts';
+test('reading metadata survives malformed local storage within bounded limits',()=>{
+ assert.deepEqual(normalizeReader(null),{read:[],saved:[]});
+ assert.deepEqual(normalizeReader({read:['a','a',null,4,'','x'.repeat(241)],saved:'bad'}),{read:['a'],saved:[]});
+ assert.equal(normalizeReader({saved:Array.from({length:2400},(_,i)=>'source:'+i)}).saved.length,2000);
+ assert.deepEqual(toggleReader(['a','b'],'a'),['b']);assert.deepEqual(toggleReader(['a'],'b'),['a','b']);
+});

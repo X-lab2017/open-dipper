@@ -95,3 +95,7 @@ Promote Agent Room to the public Pages client, retaining research/following as e
 ## 2026-10-27 — Visual lenses over one evidence collection
 
 Use original SVG temporal facets, primary-topic radial bands and manual thematic stops. Preserve one category/feed/research structure. Chart selection is exact membership, not semantic event merging; default last-30-days is relative to the loaded archive. Capture clocks remain distinct from publication and observation. No external toolkit runtime, generated commentary or new collector automation. See [library contract](INTELLIGENCE_LIBRARY.md) and [execution plan](plans/intelligence-visual-lenses.md).
+
+## 2026-10-27 — Reading before visual exploration
+
+Default the intelligence homepage to a three-pane reader; keep visual discovery opt-in and source bundles explicit. Local saved/read state is independent from research selection. Capture a question with its exact source before entering the existing draft workspace. This supersedes the chart-dominant first screen in 1.9.0, not its catalog or three visual lenses. See [contract](INTELLIGENCE_LIBRARY.md) and [plan](plans/intelligence-reader.md).
