@@ -1,5 +1,6 @@
 # AI + 开源情报库 / AI + open-source intelligence library
 
+Current homepage: **1.11.0 focused reader** (final section below). Earlier 1.7–1.10 layout descriptions and screenshots are historical design context; they do not describe the current Intelligence tab. Source contracts remain applicable.
 Application 1.9.0, 2026-10-27. Public browsing and local research prototype; not an autonomous research service. Implementation: `src/intelligence-room/`; data: `public/data/intelligence-catalog.json`.
 
 ![深色情报库](assets/agent-room/library-dark.jpg)
@@ -93,3 +94,9 @@ The default first screen is a source/form navigation rail, compact chronological
 Saved and explicitly marked-read IDs persist locally in `od:reader-v1`, bounded to 2,000 each. Opening a preview does not imply it has been read. No account sync or external service is used. “Ask about this” adds the exact record to the source bundle and fills a question only when the draft is empty; existing writing is retained. Saving creates an unexecuted research draft with those IDs. Related-reading links use existing shared topic tags, never inferred causal edges. The reader presents retained excerpts/metadata, not scraped full articles or generated summaries; videos open at their original source.
 
 Product references, inspected 2026-10-27: [Folo](https://github.com/RSSNext/Folo) for reading/navigation/contextual questioning; [Open Notebook](https://github.com/lfnovo/open-notebook) for source bundles; [DeerFlow](https://github.com/bytedance/deer-flow) for distinguishing tasks from results; [Khoj](https://github.com/khoj-ai/khoj) for following; [OpenCTI](https://github.com/OpenCTI-Platform/opencti) for evidence-bearing entity context. These are interaction references, not connected services. No upstream source code, assets, dependencies or license terms are imported. Existing local research and fictional report/version boundaries remain unchanged.
+
+## Focused reader · 1.11.0 (supersedes the 1.10 homepage)
+
+Intelligence is now exclusively a three-pane reader. Visual discovery, duplicate card stream, local task rail, Agent composer and legacy service/sample panels are removed from this tab. Actual source records remain accessible through incremental list loading; fictional fixtures are excluded from reading and retained only for explicit research examples. Type/source navigation, saved/unread, search, optional entity/topic/date filters, previous/next, original links and expandable evidence details remain. Mobile opens a dedicated reader with a return-to-list control. Research explicitly imports up to 30 saved sources; question entry stays there. Existing saved/read IDs and research drafts are retained.
+
+Folo integration boundary: its inspected [root package](https://github.com/RSSNext/Folo/blob/dev/package.json) describes a private monorepo with separate application builds and AGPL-3.0-only metadata. The inspected README/package does not establish a supported embeddable reader component. This implementation borrows interaction patterns only; it is not a Folo client, iframe, SDK integration or account connection. Future source-level adoption needs an explicit runtime/data adapter and license decision. Current sources keep their own IDs, URLs, clocks and provenance. No upstream code/assets or full-article scraping are introduced.

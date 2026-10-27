@@ -187,15 +187,8 @@ OpenDipper 独立实现。空间交互参考 [world-monitor.com](https://world-m
 
 **许可决策仍待确认：** 尚未选定应用代码根 LICENSE。源码、数据集、地图与品牌资产各有权利边界，公开可见不代表统一授权。详见[权利说明](docs/RIGHTS.md)与[决策 #6](https://github.com/X-lab2017/open-dipper/issues/6)。敏感报告请遵循 [SECURITY.md](SECURITY.md)。
 
-**Agent 情报室（1.8.0）：**[八类资料、六个主题](docs/INTELLIGENCE_LIBRARY.md)，支持分类汇总、连续浏览、来源与对象关联，并将选定资料带入本机研究草案。实际采集与模拟分别标识；尚未上线后台 Agent 研究和通知投递。
+**Agent 情报室 · 1.11.0**
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="docs/assets/agent-room/library-dark.jpg">
-  <img src="docs/assets/agent-room/library-light.jpg" alt="Agent 情报室 · 八类资料、六个主题" width="1363" loading="lazy">
-</picture>
+情报首页专注 Folo 式阅读：来源导航、紧凑列表、来源摘录和本机收藏／已读。情报页移除图表、重复流与 Agent 操作；研究页可导入收藏资料，并保留独立的研究草案工作区。来源目录包含 940 条记录，另合并原有观测与事件；这是有出处的样本库，尚未接通实时 Agent 研究。[范围与来源](docs/INTELLIGENCE_LIBRARY.md)。
 
-Agent 情报室新增时间星图、主题雷达与六站线索漫游：点选聚集处查看资料，或将证据带入本机研究草案。数量代表当前收录量，不是全网热度。[设计与数据语义](docs/INTELLIGENCE_LIBRARY.md)。
-
-![Agent Room · Visual discovery](docs/assets/agent-room/visual-story.jpg)
-
-情报首页采用以 Folo 为参考的阅读路径：来源导航、紧凑列表和证据阅读区，支持本机收藏／已读及带资料追问。三种可视化、资料集、研究草案与持续跟踪仍可使用。来源目录包含 940 条记录，另合并原有观测与事件；这是有出处的样本库，尚未接通实时 Agent 研究。[范围与来源](docs/INTELLIGENCE_LIBRARY.md)。
+![Focused intelligence reader](docs/assets/agent-room/focused-reader.jpg)

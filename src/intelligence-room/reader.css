@@ -73,3 +73,44 @@
 .agent-room .reader-related h3{font-size:11px;font-weight:500;color:var(--muted);margin:0 0 8px}
 .agent-room .reader-related button{display:flex;align-items:center;gap:12px;text-align:left;width:100%;padding:8px 0;border-radius:0;font-size:11px;line-height:1.5;border-bottom:1px solid var(--line)}
 .agent-room .reader-related button span{flex:1}.agent-room .reader-related time{color:var(--muted);font-size:9px}
+/* 1.11: the intelligence surface is solely a reader; research has its own tab. */
+.agent-room.reading-only .room-heading{padding-bottom:7px;margin-bottom:7px;align-items:center}
+.agent-room.reading-only .room-heading .portal-eyebrow{display:none}
+.agent-room.reading-only .room-heading h1{font-size:17px;margin:0}
+.agent-room.reading-only .room-tabs button{padding:7px 18px}
+.agent-room .focused-reader{position:relative;height:calc(100dvh - 125px);min-height:450px;border-radius:7px;grid-template-columns:175px minmax(270px,.82fr) minmax(350px,1.18fr)}
+.agent-room .focused-reader .workbench-tasks{padding:12px 9px}
+.agent-room .focused-reader .workbench-tasks h2{font-size:13px;margin:5px 7px 13px}
+.agent-room .focused-reader .reader-collections{margin-bottom:14px}
+.agent-room .focused-reader .reader-collections button{padding:7px 8px}
+.agent-room .focused-reader .workbench-stats{font-size:10px}
+.agent-room .focused-reader .reader-list-title{display:flex;align-items:center;gap:10px;padding:12px 14px 4px;min-height:30px}
+.agent-room .focused-reader .reader-list-title h2{font-size:14px;margin:0;font-weight:550}.agent-room .focused-reader .reader-list-title>span{font-size:11px;color:var(--muted)}
+.agent-room .focused-reader .reader-list-title button{margin-left:auto;font-size:10px;color:var(--muted)}
+.agent-room .focused-reader .knowledge-search{margin:5px 12px;border:0;border-bottom:1px solid var(--line);border-radius:0;padding:4px 0;box-shadow:none;max-width:none;flex-shrink:0;gap:7px}
+.agent-room .focused-reader .knowledge-search input{font-size:12px;min-width:0;padding:5px 0}.agent-room .focused-reader .knowledge-search button{font-size:10px;padding:5px}
+.agent-room .reader-filters{padding:0 14px 8px;border-bottom:1px solid var(--line);font-size:10px;color:var(--muted);flex-shrink:0}
+.agent-room .reader-filters summary{cursor:pointer;padding:5px 0}.agent-room .reader-filters small{display:block;overflow-wrap:anywhere;font-size:9px}
+.agent-room .reader-filter-fields{display:grid;grid-template-columns:1fr 1fr;gap:8px;padding:8px 0}
+.agent-room .reader-filter-fields label{display:grid;gap:4px;min-width:0}
+.agent-room .reader-filter-fields input,.agent-room .reader-filter-fields select{width:100%;box-sizing:border-box;min-width:0;border:1px solid var(--line);background:var(--panel);color:var(--text);font-size:10px;padding:5px;border-radius:4px}
+.agent-room .focused-reader .workbench-results .reader-row{padding:11px 14px;gap:5px}
+.agent-room .focused-reader .reader-row strong{font-size:13px;line-height:1.5}
+.agent-room .focused-reader .reader-row-foot .knowledge-badge{display:none}
+.agent-room .focused-reader .reader-row-meta time{font-size:9px}
+.agent-room .focused-reader .reader-excerpt{-webkit-line-clamp:1!important;font-size:11px}
+.agent-room .focused-reader .workbench-detail{padding:0;max-height:none}
+.agent-room .focused-reader .reader-actions{position:sticky;top:0;z-index:2;margin:0;padding:9px 20px;min-height:29px;background:var(--panel);border-bottom:1px solid var(--line)}
+.agent-room .reader-article{padding:30px clamp(22px,4vw,65px) 50px;max-width:780px;margin:0 auto}
+.agent-room .focused-reader .reader-kicker{font-size:11px;line-height:1.9}.agent-room .focused-reader .reader-kicker span{color:var(--muted)}
+.agent-room .focused-reader .workbench-detail h2{font-size:clamp(23px,2vw,31px);line-height:1.4;margin:15px 0 26px;letter-spacing:-.5px}
+.agent-room .focused-reader .workbench-detail .reader-summary{font-size:15px;line-height:1.95;margin-bottom:24px}
+.agent-room .focused-reader .reader-period{font-size:11px;color:var(--muted);line-height:1.8}
+.agent-room .reader-original{display:flex;align-items:center;gap:16px;margin:24px 0;font-size:12px;flex-wrap:wrap}.agent-room .reader-original span{font-size:10px;color:var(--muted)}
+.agent-room .reader-evidence{font-size:11px;color:var(--sub);border-top:1px solid var(--line);padding-top:12px}.agent-room .reader-evidence summary{cursor:pointer;color:var(--muted)}
+.agent-room .reader-evidence dl{border:0;padding:0}.agent-room .reader-evidence p{font-size:10px;line-height:1.7}
+.agent-room .focused-reader .reader-related{margin-top:30px;border-top:0;padding-top:0}.agent-room .focused-reader .reader-related button{padding:11px 0;line-height:1.65;font-size:12px}
+.agent-room .reader-back{display:none}
+.agent-room .focused-reader .library-status{grid-column:1/-1;position:absolute;bottom:0;left:0;right:0;font-size:11px}
+@media(max-width:1150px) and (min-width:801px){.agent-room .focused-reader{grid-template-columns:150px minmax(245px,.8fr) minmax(300px,1.2fr)}.agent-room .reader-article{padding:25px 24px}.agent-room .focused-reader .workbench-detail h2{font-size:23px}}
+@media(max-width:800px){.agent-room .focused-reader{height:calc(100dvh - 145px);min-height:470px;grid-template-columns:135px minmax(0,1fr);position:relative;overflow:hidden}.agent-room .focused-reader .workbench-tasks{border-right:1px solid var(--line);border-bottom:0;border-radius:0;display:flex;flex-direction:column;align-items:stretch;gap:7px}.agent-room .focused-reader .workbench-tasks h2{display:block}.agent-room .focused-reader .reader-collections{display:grid}.agent-room .focused-reader .workbench-tasks .category-overview{grid-template-columns:1fr}.agent-room .focused-reader .reader-source-label{display:grid;margin:10px 2px}.agent-room .focused-reader #reader-source{width:100%;max-width:none}.agent-room .focused-reader .workbench-stats{display:grid;margin: auto 0 0}.agent-room .focused-reader .workbench-results{height:auto;max-height:none;flex:1}.agent-room .focused-reader .workbench-right{display:none}.agent-room .focused-reader.reader-mobile-open{grid-template-columns:1fr}.agent-room .reader-mobile-open .workbench-tasks,.agent-room .reader-mobile-open .workbench-explore{display:none}.agent-room .reader-mobile-open .workbench-right{display:flex;height:100%;min-height:0;overflow:hidden}.agent-room .focused-reader .workbench-detail{min-height:0;overflow:auto;border:0}.agent-room .focused-reader .reader-back{display:inline-block}.agent-room .reader-article{padding:22px 22px 35px}.agent-room .focused-reader .reader-actions{padding:8px 10px}.agent-room .focused-reader .workbench-detail h2{font-size:23px}.agent-room .focused-reader .reader-kicker span{display:block}.agent-room .focused-reader .reader-row-meta{gap:5px;font-size:8px}.agent-room .focused-reader .workbench-results .reader-row{padding:11px 10px}.agent-room .focused-reader .reader-row-meta time{font-size:8px}.agent-room .focused-reader .reader-collections button{font-size:10px}}

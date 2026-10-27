@@ -187,15 +187,8 @@ OpenDipper is independently implemented. Spatial interaction references [world-m
 
 **License decision remains open:** a root application LICENSE has not been selected. Application code, datasets, maps and brand assets have separate rights; public visibility is not a blanket license. See [rights](docs/RIGHTS.md) and [decision #6](https://github.com/X-lab2017/open-dipper/issues/6). For sensitive reports, follow [SECURITY.md](SECURITY.md).
 
-**Agent Intelligence Room (1.8.0):** [Browse eight material forms](docs/INTELLIGENCE_LIBRARY.md) across six AI/open-source topics, inspect source/object links, and carry selected evidence into local research drafts. Includes bounded public metadata collection and separately labelled demos. Live Agent research and notification delivery are not active.
+**Agent Intelligence Room · 1.11.0**
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="docs/assets/agent-room/library-dark.jpg">
-  <img src="docs/assets/agent-room/library-light.jpg" alt="Agent Intelligence Room · eight material forms, six topics" width="1363" loading="lazy">
-</picture>
+The intelligence homepage is a focused Folo-inspired reader: source navigation, a compact list, readable source excerpts and local saved/read state. Charts, duplicate streams and Agent controls are removed from Intelligence. Research can import saved sources and keeps its own draft workspace. Its retained catalog has 940 source records, plus existing observations/events; the corpus is a sourced sample, not live Agent research. [Scope and sources](docs/INTELLIGENCE_LIBRARY.md).
 
-Visual discovery in the Agent Room now offers a faceted timeline, topic radar and six-stop story walk. Select a cluster to inspect its sources or begin a local research draft. Counts describe the loaded index, not global popularity. [Design and data semantics](docs/INTELLIGENCE_LIBRARY.md).
-
-![Agent Room · Visual discovery](docs/assets/agent-room/visual-story.jpg)
-
-The intelligence homepage uses a Folo-inspired reading workflow: source navigation, a compact list and an evidence reader with local saved/read state and contextual question capture. Three visual lenses, source bundles, research drafts and following remain available. Its retained catalog has 940 source records, plus existing observations/events; the corpus is a sourced sample, not live Agent research. [Scope and sources](docs/INTELLIGENCE_LIBRARY.md).
+![Focused intelligence reader](docs/assets/agent-room/focused-reader.jpg)
