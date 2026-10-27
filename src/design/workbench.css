@@ -325,3 +325,26 @@ button:disabled { cursor: default; }
     animation-iteration-count: 1 !important;
   }
 }
+
+/* One shell across all five modules. Context tools must not move navigation. */
+.topbar .header-context-tools { width: 94px; flex: 0 0 94px; display: flex; align-items: center; justify-content: center; }
+.topbar .header-context-tools .sources-button { display: inline-flex; font-size: 11px; padding: 4px; }
+.topbar .fullscreen-button { width: 78px; flex: 0 0 78px; }
+.topbar .product-nav { min-width: 0; }
+.topbar .product-nav button { flex-shrink: 0; }
+@media (min-width:1101px) {
+  .topbar { display: grid; grid-template-columns: auto minmax(0,1fr) auto; }
+  .topbar .product-nav { order: 0; overflow-x: auto; scrollbar-width: thin; justify-content: safe center; }
+  .topbar .product-nav button { padding-inline: 9px; }
+}
+@media (max-width:1100px) {
+  .topbar .product-nav { justify-content: flex-start; overflow-x: auto; scrollbar-width: thin; }
+  .topbar .product-nav button { flex: 1 0 auto; max-width: none; }
+}
+/* Long translated controls must not set the radar grid's minimum width. */
+.radar-first { grid-template-columns: minmax(0, 1fr); }
+.radar-first > * { min-width: 0; }
+@media (max-width:700px) {
+  .radar-context .radar-lenses { min-width: 0; max-width: 100%; }
+  .radar-context .radar-lenses > button { min-width: 0; flex: 1 1 0; white-space: normal; overflow-wrap: anywhere; }
+}
