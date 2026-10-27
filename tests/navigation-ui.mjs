@@ -25,7 +25,9 @@ try {
      await expect(page.locator(`#nav-${id}`)).toBeFocused();
      const actual=await geometry();expect(actual.header).toBe(baseline.header);
      actual.buttons.forEach((b,i)=>{for(const key of ['x','y','w','h'])expect(Math.abs(b[key]-baseline.buttons[i][key]),`${width}/${lang}/${theme}/${id}/${key}`).toBeLessThanOrEqual(1);});
-     expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1)).toBe(true);
+     const overflow=await page.evaluate(()=>({width:innerWidth,document:document.documentElement.scrollWidth,elements:[...document.querySelectorAll('body *')].filter(el=>{const r=el.getBoundingClientRect();return r.right>innerWidth+1&&getComputedStyle(el).position!=='fixed';}).slice(0,16).map(el=>({tag:el.tagName,cls:el.className,right:el.getBoundingClientRect().right}))}));
+     if(overflow.document>width+1){console.log('Navigation overflow',width,lang,theme,id,JSON.stringify(overflow));await page.screenshot({path:`screenshots/navigation-overflow-${width}-${lang}-${theme}-${id}.png`});}
+     expect(overflow.document,`${width}/${lang}/${theme}/${id}: document overflow`).toBeLessThanOrEqual(width+1);
      if(width===1366&&lang==='zh'&&theme==='dark')await page.screenshot({path:`screenshots/navigation-${id}.png`});
     }
    }
