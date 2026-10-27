@@ -195,3 +195,5 @@ OpenDipper 独立实现。空间交互参考 [world-monitor.com](https://world-m
 </picture>
 
 Agent 情报室新增时间星图、主题雷达与六站线索漫游：点选聚集处查看资料，或将证据带入本机研究草案。数量代表当前收录量，不是全网热度。[设计与数据语义](docs/INTELLIGENCE_LIBRARY.md)。
+
+![Agent Room · Visual discovery](docs/assets/agent-room/visual-story.jpg)

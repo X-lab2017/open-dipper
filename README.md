@@ -195,3 +195,5 @@ OpenDipper is independently implemented. Spatial interaction references [world-m
 </picture>
 
 Visual discovery in the Agent Room now offers a faceted timeline, topic radar and six-stop story walk. Select a cluster to inspect its sources or begin a local research draft. Counts describe the loaded index, not global popularity. [Design and data semantics](docs/INTELLIGENCE_LIBRARY.md).
+
+![Agent Room · Visual discovery](docs/assets/agent-room/visual-story.jpg)

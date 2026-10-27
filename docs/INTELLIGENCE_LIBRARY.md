@@ -8,6 +8,8 @@ Application 1.8.0, 2026-10-27. Public browsing and local research prototype; not
 
 ## Visual discovery · 1.8.0
 
+![Visual discovery](assets/agent-room/visual-story.jpg)
+
 Three original visual lenses sit between the category summary and searchable stream. **Timeline** facets the same records by form across 14 chronological buckets; **Topic radar** places six primary topics into three equal temporal bands (inner is more recent); **Story walk** provides six manual topic stops, with up to three distinct material forms and an open research question. It is a thematic browsing aid, not an automatically generated news narrative or a claim that records describe the same event.
 
 Selecting a bubble filters the feed to those exact records. A research starter brings up to 30 selected records and an editable question into the existing local draft. Reset clears graphical selection. Category/search/date/demo filters scope all lenses. The default visual window is the last 30 days of the loaded matching archive; all-time is available, and earlier records remain in the stream unless a cluster is selected. No current-day or live coverage claim. Form or primary-topic grouping assigns each record once; multi-topic tags still work in the regular topic filter.
