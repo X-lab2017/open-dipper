@@ -1,29 +1,25 @@
 # Agent 情报室 / Agent Intelligence Room
 
-Product specification v0.1 · 2026-10-27 · **interactive prototype, not a live Agent service**.
+Product specification v0.2 · 2026-10-27 · **interactive prototype, not a live Agent service**.
 
-## 中文评审摘要
+## 中文评审摘要 / Review v0.2
 
-本轮把“情报订阅”合入“Agent 情报室”，先验证产品价值，再接入真实服务。主导航与前三个模块保持原结构。
+从“先选场景”调整为 **先浏览 → 产生问题 → 带资料研究 → 持续回看**。前三个模块与主导航结构保留。
 
-- **情报首页**：围绕技术选型、关键依赖风险、生态合作机会，解释一条变化为何值得关注。
-- **研究任务**：按“确定问题—收集证据—比较核验—行动建议”手动查看模拟过程；可以保存自己的问题，但不会据此生成答案。
-- **持续跟踪**：保存专题、触发条件与频率；当前仅本机偏好，不会自动采集或发送通知。
-- **证据与反馈**：展示虚构材料位置与真实缺口，不伪造来源或置信度；可以导出带模拟标记的评审简报，反馈入口沿用 #35。
+- **情报**：同屏翻阅真实全球观测快照、已采集公开资讯和可关闭的虚构材料。来源标签、原文链接、统计周期可检查；不把全域总量当作本地知识库覆盖量。
+- **时间轴**：原型固定在 2026 年 10 月。双端选区间看资讯变化；点日期看当时已收录材料。数据快照按收录时间保留背景，不能当作每日观测。快照先展示，资讯按发布时间倒序；时间轴数量仅代表此资料集。
+- **研究**：自由提问，携带跨日期选中的资料和时间范围，保存本机研究草案。右侧提供独立的虚构 Aurora 成果，可以切换简报、比较表与趋势图；不会假装回答自定义问题。
+- **跟踪**：将草案加入专题，手动模拟新证据、切换历史版本、比较结论变化。更新频率只是本机偏好，没有自动研究或投递。
 
-建议先邀请 5–8 位愿意参与的开发者和研究用户，以一个真实决策为起点体验。重点记录是否理解证据、下一步是否可执行、是否愿意持续回来；这些是拟定的评审安排，尚未开展招募或获得结果。
-
-后续按“真实专题样刊 → 有预算和可恢复状态的 Agent 研究 → 经同意的订阅交付 → 机构协作空间”推进。首选试点为 AI 推理基础设施。继续免费积累用户，商业服务由 OpenShare 承接；收费与权益仍需单独确认。
-
-![深色情报首页](assets/agent-room/dark.jpg)
-
-![浅色研究任务](assets/agent-room/light.jpg)
+原型用于评审浏览启发和研究衔接，不是已接入的 Agent 服务。公开样刊及旧偏好保留在折叠区域。正式 Pages 仍为 1.6.0，评审通过前不合并。v0.1 的固定三场景和轨道装饰已被本次浏览式设计替代；旧截图仅作历史记录。
 
 ## Product decision
 
-Merge the subscription entry into **Agent 情报室 · Dipper Intelligence**. Research answers a question; following keeps the answer current; evidence and saved reports preserve context. The first three product modules and their data contracts remain intact. Keep `#briefing` compatible; do not introduce another top-level navigation item.
+Keep **Agent 情报室 · Dipper Intelligence** as the single entry for Intelligence, Research and Following. Subscription is a future delivery preference of followed research, not a separate homepage. Preserve `#briefing`, the first three modules and existing sample/preferences.
 
-This branch implements a local, bilingual prototype with three views: Intelligence, Research, Following. It does not claim deployed production availability. Research is a **manual, scripted simulation**. No inference, collection, delivery, payment or external posting occurs. Current public sample and original topic preferences remain reachable in an expandable section. Existing local watchlists are not migrated or removed.
+The knowledge library combines actual source snapshots and captured public events with separately labelled, removable fictional fixtures. It offers browsing before a question exists. Timeline range mode filters event publication dates; as-known mode also respects capture dates. Snapshot observation periods remain explicit. October 2026 is a fixed prototype window, not a claim of a complete archive or live ingestion.
+
+Free questions create local drafts with selected evidence; a fixed plan and independent fictional report illustrate the intended experience. Following demonstrates three report versions and their changes. No inference, collection, notifications, payment or external posting occurs. Radar/Galaxy navigation remains available; their full evidence catalogues and cross-module context transfer are not integrated yet.
 
 ## Who and what to validate
 
@@ -37,15 +33,15 @@ Start a real pilot with **AI inference infrastructure**, then widen only when re
 
 ## Experience and prototype contract
 
-- Compact shared shell, paired light/dark tokens, three columns; mobile natural flow. Decorative orbital artwork communicates signal → evidence → action, not a measured network.
-- Three selectable scenarios, dated 2026-10-27. Switching scenarios changes the question, fictional update, caveat, evidence slots and action. Missing evidence has no invented URL or confidence score.
-- Research steps are directly selectable and manually advanced; there is no fake elapsed time, simulated completion toast, running-agent count or fabricated tool log.
-- Custom question: at most 600 characters, editable draft only. Saving does not alter the scripted sample answer or execute research. The draft is a shared scratchpad across scenarios; the export distinguishes it from the example question.
-- Following saves selected scenario IDs and shared trigger/cadence preferences. It does not activate alerts. Empty, selected and removed states are visible; clear affects only `od:agent-room`.
-- Export produces Markdown carrying DEMO, fixed fixture date, fictional evidence, missing evidence, custom question and local rule/feedback state.
-- Feedback buttons save only locally; no analytics or submission is implied. Share an exported review manually in existing [#35](https://github.com/X-lab2017/open-dipper/issues/35); no automatic GitHub comment.
-- Original `od:intelligence` preferences and old public sample are independent. This separation is temporary for backward compatibility; real account migration requires an explicit design.
-- `src/intelligence-room/model.ts` owns static fixtures, bounded state normalization and export. `view.ts` owns local interaction; `room.css` uses existing visual tokens. No backend dependencies or secrets.
+- Dense responsive material cards, visible timeline, paired light/dark tokens, keyboard controls and reduced-motion support. No decorative graph or fabricated topology.
+- Search, category, demo visibility and time selections intersect. Empty results do not trigger a silent demo fallback.
+- Source detail preserves publication/snapshot date, capture/check date, observation period and HTTP(S) original URL. Publication is not independent validation.
+- At most 30 selected sources, 600 characters per question and 12 local drafts. Values are bounded on reload. Sources stay attached to a task when revisiting it.
+- `od:agent-room-v2` stores this prototype; `od:agent-room` and `od:intelligence` are preserved independently. No account synchronization or data migration is implied.
+- Export includes the question, scope, source provenance and independent DEMO report revisions. Missing material stays unavailable.
+- Fixed fictional Aurora/Harbor/Polaris/Nova examples are not real projects, recommendations or evidence of performance.
+- `src/intelligence-room/model.ts` owns normalization, filtering, fixtures and export; `view.ts` owns material adapters and UI; `room.css` uses shared tokens. There are no backend credentials.
+- Feedback remains optional via [#35](https://github.com/X-lab2017/open-dipper/issues/35); no automatic feedback posting or analytics.
 
 ## Joint user evaluation
 
@@ -94,7 +90,7 @@ Future institutional value: shared topics, private evidence, reproducible report
 
 | Stage | Deliverable / gate | Existing coordination |
 | --- | --- | --- |
-| Product review (this branch) | Interactive scripted scenarios, feedback/export, documented boundaries and visual QA | #35 feedback |
+| Product review (this branch) | Browse/select/research/follow prototype, source provenance/export, documented boundaries and visual QA | #35 feedback |
 | Evidence pilot | One actual topic, original sources, claim-evidence checks, repeat user value | #15, #16, #18, #19 |
 | Bounded live Agent | Real job states, cancellation, budgets, evaluation, reviewed report; failures visible | #15, #18 |
 | Delivery | Consent, identity, synchronization, reliable sends, unsubscribe | #17 |

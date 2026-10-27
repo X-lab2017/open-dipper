@@ -25,7 +25,7 @@ Implemented: isolated `src/intelligence-room/` with bounded state, scripted fixt
 
 Validation results and PR receipt will be appended after checks. No data snapshots, first-three-module content, brand assets or historical baselines changed.
 
-## Delivery evidence
+## Historical v0.1 delivery evidence
 
 - [Draft PR #40](https://github.com/X-lab2017/open-dipper/pull/40), application source `7b2dd4a4414ce8ef27913094a6936be5970d1e93`.
 - [CI 40439047977](https://github.com/X-lab2017/open-dipper/actions/runs/40439047977) completed successfully: typecheck, complete deterministic tests, build and Chromium acceptance at repository subpath. Pages deploy skipped as intended.
@@ -34,3 +34,11 @@ Validation results and PR receipt will be appended after checks. No data snapsho
 - Private review Site publication succeeded on 2026-10-27. Its URL is delivered to the owner separately, not recorded as a public project endpoint. Owner ChatGPT login is required. Site contains the built application above; no public audience was added.
 - [Dark](../assets/agent-room/dark.jpg) and [light](../assets/agent-room/light.jpg) screenshots captured from the running prototype; no generated mockup.
 - Product research/user outcomes remain unverified. Next action is maintainer/user review, not automatic backend implementation or merge.
+
+## v0.2 timeline-library revision — 2026-10-27
+
+User review replaced the fixed scenario-first home with browsing before research. Implemented a fixed October timeline, intersecting search/type/demo filters, publication versus capture dates, selected source context, free research drafts, and three independently labelled report versions with differences. Existing v0.1 screenshots and CI above are historical, not evidence for v0.2.
+
+Acceptance: browse without entering a question; inspect source clocks; select material across dates; carry context into a free question; save/follow a draft; inspect new evidence and earlier judgments; retain themes/languages/mobile and original modules. No live Agent, scheduling or delivery.
+
+AI-assisted implementation and product copy by Codex; maintainer review pending. Local typecheck, deterministic tests and build passed before publication. Browser/CI receipt is recorded in PR #40.

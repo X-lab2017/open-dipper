@@ -1,3 +1,4 @@
+import type {DashboardSnapshot} from '../dashboard';
 import {roomPage,bindRoom} from '../intelligence-room/view';
 import {locationName} from './model';
 import {supplyChart} from './evidence-view';
@@ -6,7 +7,7 @@ import {esc, safeUrl, type Data, type Lang} from './model';
 import {topics, pages, filterSignals, matchingSignals, exportBrief, type Copy, type Page, type Preferences, type Signal, type Topic} from './intelligence';
 
 export type PortalContext = {
-  lang: Lang; page: Page; signals: Signal[]; preferences: Preferences; data: Data;
+  dashboard?: DashboardSnapshot; lang: Lang; page: Page; signals: Signal[]; preferences: Preferences; data: Data;
   watch: string[]; topic: string; query: string; fixtureAvailable: boolean; evidence: Evidence|null; supplyMetric: SupplyMetric; supplyMonth: string;
 };
 export type PortalActions = {

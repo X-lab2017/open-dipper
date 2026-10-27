@@ -125,7 +125,7 @@ document.addEventListener('fullscreenchange',()=>{
 });
 
 
-function portalContext():PortalContext{return {lang:state.lang,page:state.page,signals:signalsFor(actualEvents(),data.intelligence,preferences.demo),preferences,data:{snapshot:data.snapshot,feed:data.feed,features:data.features,geography:{fetchedAt:'',layers:[]},demo:{generatedAt:'',countries:[],events:[]}} as Data,watch,topic:state.topic,query:state.portalQuery,fixtureAvailable:!!data.intelligence,evidence:data.evidence,supplyMetric:state.supplyMetric,supplyMonth:state.supplyMonth};}
+function portalContext():PortalContext{return {dashboard,lang:state.lang,page:state.page,signals:signalsFor(actualEvents(),data.intelligence,preferences.demo),preferences,data:{snapshot:data.snapshot,feed:data.feed,features:data.features,geography:{fetchedAt:'',layers:[]},demo:{generatedAt:'',countries:[],events:[]}} as Data,watch,topic:state.topic,query:state.portalQuery,fixtureAvailable:!!data.intelligence,evidence:data.evidence,supplyMetric:state.supplyMetric,supplyMonth:state.supplyMonth};}
 function ecosystem(){return `<div class="repository-grid">${data.snapshot.repositories.map((r:any)=>{const p=r.metrics.openrank?.points.at(-1);return `<button class="repository-card" data-project="${esc(r.path)}"><span>${esc(r.platform)} · ${p?.month??'—'}</span><h3>${esc(r.path)}</h3><strong>${fmt(p?.value)}</strong><small>OpenRank ↗</small></button>`;}).join('')}</div>`;}
 
 function tourWorkspace(){return {active:[...state.active],hidden:[...state.hidden],primary:state.primary,inspect:state.inspect,entity:state.entity,entityTabs:[...state.entityTabs],selected:state.selected,preset:state.preset,view:state.view,mobile:state.mobile};}
