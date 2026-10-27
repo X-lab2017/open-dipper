@@ -42,7 +42,7 @@ No merge or deployment step remains in this plan. Continue new work from [the cu
 
 ### Preserved captures
 
-[Dark overview](../assets/opendipper-galaxy-1.5.1-dark-overview-20261026.png) · [Light research workspace](../assets/opendipper-galaxy-1.5.1-light-research-20261026.png) · [Mobile layout](../assets/opendipper-galaxy-1.5.1-mobile-20261026.png). README editions retain the earlier separate map and radar captures and now use the 1.5.1 light workspace.
+[Dark overview](https://raw.githubusercontent.com/X-lab2017/open-dipper/ae3da3e0fa00a3ef7167b8d26a3196d7c1fdd0bc/docs/assets/opendipper-galaxy-1.5.1-dark-overview-20261026.png) · [Light research workspace](https://raw.githubusercontent.com/X-lab2017/open-dipper/ae3da3e0fa00a3ef7167b8d26a3196d7c1fdd0bc/docs/assets/opendipper-galaxy-1.5.1-light-research-20261026.png) · [Mobile layout](https://raw.githubusercontent.com/X-lab2017/open-dipper/ae3da3e0fa00a3ef7167b8d26a3196d7c1fdd0bc/docs/assets/opendipper-galaxy-1.5.1-mobile-20261026.png). README editions retain the earlier separate map and radar captures and now use the 1.5.1 light workspace.
 
 ### Actual downloaded report files
 

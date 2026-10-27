@@ -1,6 +1,6 @@
 # Observatory composition and World tour — 1.6.0
 
-- Execution state: completed (implementation and pre-publication verification); final Pages receipt in PR #38
+- Execution state: completed (implementation, browser verification and Pages publication)
 - Baseline: `2ee96698b1c34fd7efbfd7a340f2214ba1f93af5`; branch `feat/observatory-tour`
 - Updated: 2026-10-27
 - Implementation: [PR #38](https://github.com/X-lab2017/open-dipper/pull/38); maintainer-authorized, AI-assisted implementation and review.
@@ -37,3 +37,7 @@ The tour has previous/next, pause/resume and exit-to-original-workspace controls
 Second CI checkpoint [40428149403](https://github.com/X-lab2017/open-dipper/actions/runs/40428149403): existing atlas, workspace and full density/theme/language/mobile browser checks passed. New tour test exposed that the meeting list omitted dates until opening details. Added sourced periods directly to meeting rows, explicit developer-fill context during thematic stops, and native map-fullscreen exit restoration with a browser regression check. Superseded by the successful browser run linked above.
 
 Final review: no data snapshots, collection contracts, official logos or historical baseline fingerprints changed. The dated meeting rows, explicit underlying fill label, final-stop completion message and fullscreen restoration are covered by the final browser pass. Run 40428542631 was superseded while installing browser dependencies; its cancellation is not a failed application check. No engineering steps remain in this plan; production delivery status is authoritative in PR #38.
+
+## Verified public delivery
+
+[PR #38](https://github.com/X-lab2017/open-dipper/pull/38) merged as `a0506f48696171ec7459af8e51a894162a7701b3`. [Production CI / Pages 40429862249](https://github.com/X-lab2017/open-dipper/actions/runs/40429862249) passed and deployed at 2026-10-27 09:02:58 Asia/Shanghai. Live map centering, both themes, default panel order, all five stops and exit restoration were checked. Earlier pending-publication statements are checkpoint history, not open tasks.

@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "applicationVersion": "1.6.0",
+  "basis": "public/data/dashboard-overview.json",
+  "upstream": "https://selfoss.open-digger.cn/openshare/overview_half_year/meta.json",
+  "sourceUpdatedAt": "2026-10-08T08:18:22.697Z",
+  "checkedAt": "2026-10-26",
+  "radarFoundation": [
+    {"key": "totalDevelopers", "value": 193896100, "display": "1.94亿", "label": "开发者总量"},
+    {"key": "totalRepos", "value": 380657469, "display": "3.81亿", "label": "仓库总量"},
+    {"key": "totalRecords", "value": 9651850587, "display": "96.52亿", "label": "日志总量"}
+  ],
+  "countryCoverage": 246,
+  "scope": "Upstream global observatory totals, not the current radar index size, local ingestion volume, real-time traffic or a performance benchmark.",
+  "currentRadarIdentities": 160,
+  "integration": "Full-domain discovery is a preview capability direction; staged integration remains future work.",
+  "decorativeRadarPoints": 520,
+  "decorativePointScope": "Concept animation only; no one-to-one entity or measured-event meaning.",
+  "excludedClaims": ["simulated intelligence total 12840", "projected 2026 commits 14 billion", "synthetic pulse growth", "all global records already searchable in the radar"]
+}

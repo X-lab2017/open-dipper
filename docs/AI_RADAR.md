@@ -67,4 +67,4 @@ Managed implementation previews captured on 2026-10-26; retained as visual revie
 
 | Dark / software | Light / models and data |
 | --- | --- |
-| ![Dark radar with shared controls and selected target](assets/opendipper-radar-finish-dark-20261026.jpg) | ![Light radar with matching controls and source actions](assets/opendipper-radar-finish-light-20261026.jpg) |
+| ![Dark radar with shared controls and selected target](https://raw.githubusercontent.com/X-lab2017/open-dipper/ae3da3e0fa00a3ef7167b8d26a3196d7c1fdd0bc/docs/assets/opendipper-radar-finish-dark-20261026.jpg) | ![Light radar with matching controls and source actions](https://raw.githubusercontent.com/X-lab2017/open-dipper/ae3da3e0fa00a3ef7167b8d26a3196d7c1fdd0bc/docs/assets/opendipper-radar-finish-light-20261026.jpg) |

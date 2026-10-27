@@ -1,0 +1,186 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-10-27",
+  "applicationVersion": "1.6.0",
+  "applicationMerge": "a0506f48696171ec7459af8e51a894162a7701b3",
+  "repositorySnapshot": "ae3da3e0fa00a3ef7167b8d26a3196d7c1fdd0bc",
+  "site": "https://www.x-lab.info/open-dipper/",
+  "method": "AI-assisted production browser captures; full viewport, progressive JPEG quality 84, 4:4:4; no label or data changes. Themes use the application controls. Capture date is not the data observation period.",
+  "current": [
+    {
+      "path": "docs/assets/opendipper-1.6.0-atlas-dark-20261027.jpg",
+      "module": "atlas",
+      "theme": "dark",
+      "width": 1363,
+      "height": 936,
+      "bytes": 195849,
+      "sha256": "398481deddddf958985cf5bec8b6cc722e019e33f77848c32ce7f938a053a273"
+    },
+    {
+      "path": "docs/assets/opendipper-1.6.0-atlas-light-20261027.jpg",
+      "module": "atlas",
+      "theme": "light",
+      "width": 1363,
+      "height": 936,
+      "bytes": 201538,
+      "sha256": "334828b5da84af2909a2acecf1173da33cd0d23452b6a448d56f3e201f2705ab"
+    },
+    {
+      "path": "docs/assets/opendipper-1.6.0-radar-dark-20261027.jpg",
+      "module": "radar",
+      "theme": "dark",
+      "width": 1363,
+      "height": 936,
+      "bytes": 174866,
+      "sha256": "42d4903192c0afddb1c8e147c5dc1c8635c889cef3e006c580fcba6e1e7c16ed"
+    },
+    {
+      "path": "docs/assets/opendipper-1.6.0-radar-light-20261027.jpg",
+      "module": "radar",
+      "theme": "light",
+      "width": 1363,
+      "height": 936,
+      "bytes": 184913,
+      "sha256": "0795b2fee8c98d1a5a7143c6ae33492096707124dfe4ca8783521c353183ce69"
+    },
+    {
+      "path": "docs/assets/opendipper-1.6.0-galaxy-dark-20261027.jpg",
+      "module": "galaxy",
+      "theme": "dark",
+      "width": 1363,
+      "height": 936,
+      "bytes": 181549,
+      "sha256": "ee872ff5e21a9b4aab6abdf7a74c49fd6216b35eb6ea697312f7d4899b736c04"
+    },
+    {
+      "path": "docs/assets/opendipper-1.6.0-galaxy-light-20261027.jpg",
+      "module": "galaxy",
+      "theme": "light",
+      "width": 1363,
+      "height": 936,
+      "bytes": 178180,
+      "sha256": "ce82f0207863ac03f6b78c512c6528aa6d81321732854389ab245fd885229ccb"
+    },
+    {
+      "path": "docs/assets/opendipper-1.6.0-tour-dark-20261027.jpg",
+      "module": "tour",
+      "theme": "dark",
+      "width": 1363,
+      "height": 936,
+      "bytes": 178731,
+      "sha256": "99a0c802b49719272c50a963cba236bd4f9b73e4140151fc239b0963cfffd11f"
+    }
+  ],
+  "archivedOriginals": [
+    {
+      "path": "docs/assets/opendipper-galaxy-review-20261026.jpg",
+      "bytes": 145884,
+      "sha256": "9db374a9041681b92b26832b8982b5474acf9a770de2134e3f88b08b6467840d",
+      "url": "https://raw.githubusercontent.com/X-lab2017/open-dipper/ae3da3e0fa00a3ef7167b8d26a3196d7c1fdd0bc/docs/assets/opendipper-galaxy-review-20261026.jpg"
+    },
+    {
+      "path": "docs/assets/open-dipper-map-2026-10-25.png",
+      "bytes": 1347369,
+      "sha256": "e038e8b9904ee9fb47b9c856483ff66757b9148f3429710aaf62d1304c007e0b",
+      "url": "https://raw.githubusercontent.com/X-lab2017/open-dipper/ae3da3e0fa00a3ef7167b8d26a3196d7c1fdd0bc/docs/assets/open-dipper-map-2026-10-25.png"
+    },
+    {
+      "path": "docs/assets/opendipper-ai-radar-review-20261026.jpg",
+      "bytes": 104663,
+      "sha256": "4fa8e5a71022f3669e7a130ceb640eb10b0e274c1c9ecc846ac71c0ee8bdff60",
+      "url": "https://raw.githubusercontent.com/X-lab2017/open-dipper/ae3da3e0fa00a3ef7167b8d26a3196d7c1fdd0bc/docs/assets/opendipper-ai-radar-review-20261026.jpg"
+    },
+    {
+      "path": "docs/assets/opendipper-galaxy-1.5.1-mobile-20261026.png",
+      "bytes": 297185,
+      "sha256": "8c502c7046edb1e5fb4fab773582151a7f6b2f493531688522132b53a8175538",
+      "url": "https://raw.githubusercontent.com/X-lab2017/open-dipper/ae3da3e0fa00a3ef7167b8d26a3196d7c1fdd0bc/docs/assets/opendipper-galaxy-1.5.1-mobile-20261026.png"
+    },
+    {
+      "path": "docs/assets/opendipper-radar-finish-dark-20261026.jpg",
+      "bytes": 150684,
+      "sha256": "23eaa67943b4c603a76135b36a559ae612397e9cbbf86e06a6419ce15cebbfb4",
+      "url": "https://raw.githubusercontent.com/X-lab2017/open-dipper/ae3da3e0fa00a3ef7167b8d26a3196d7c1fdd0bc/docs/assets/opendipper-radar-finish-dark-20261026.jpg"
+    },
+    {
+      "path": "docs/assets/opendipper-observed-overview-2026-10-25.jpg",
+      "bytes": 149189,
+      "sha256": "866a82782d0288fc76be1b70ad807e4cd79f403eefc035b69e351cc1d8e9da91",
+      "url": "https://raw.githubusercontent.com/X-lab2017/open-dipper/ae3da3e0fa00a3ef7167b8d26a3196d7c1fdd0bc/docs/assets/opendipper-observed-overview-2026-10-25.jpg"
+    },
+    {
+      "path": "docs/assets/opendipper-observed-supply-2026-10-25.jpg",
+      "bytes": 93246,
+      "sha256": "a7643411c7032edb177f3dc031ebf68e7f1278a48ac91727614a345270743af3",
+      "url": "https://raw.githubusercontent.com/X-lab2017/open-dipper/ae3da3e0fa00a3ef7167b8d26a3196d7c1fdd0bc/docs/assets/opendipper-observed-supply-2026-10-25.jpg"
+    },
+    {
+      "path": "docs/assets/open-dipper-portal-2026-10-25.jpg",
+      "bytes": 145485,
+      "sha256": "a59ba30942984eda344fe9c9f261b35518cf4665fe4c9da835ab31bd681f29be",
+      "url": "https://raw.githubusercontent.com/X-lab2017/open-dipper/ae3da3e0fa00a3ef7167b8d26a3196d7c1fdd0bc/docs/assets/open-dipper-portal-2026-10-25.jpg"
+    },
+    {
+      "path": "docs/assets/opendipper-galaxy-1.5.1-dark-overview-20261026.png",
+      "bytes": 924434,
+      "sha256": "64b4c9b3b0626c343f79c84a10c74baf1a085a99b794d2fd62bba1fb0c9d9c7a",
+      "url": "https://raw.githubusercontent.com/X-lab2017/open-dipper/ae3da3e0fa00a3ef7167b8d26a3196d7c1fdd0bc/docs/assets/opendipper-galaxy-1.5.1-dark-overview-20261026.png"
+    },
+    {
+      "path": "docs/assets/opendipper-galaxy-research-20261026.jpg",
+      "bytes": 167067,
+      "sha256": "82fe93e0cb7d4eb7fe57a2e56ce1da7b121f9a9f555bff528852d4836feaf97b",
+      "url": "https://raw.githubusercontent.com/X-lab2017/open-dipper/ae3da3e0fa00a3ef7167b8d26a3196d7c1fdd0bc/docs/assets/opendipper-galaxy-research-20261026.jpg"
+    },
+    {
+      "path": "docs/assets/opendipper-ai-radar-density-20261026.jpg",
+      "bytes": 149012,
+      "sha256": "65a821985d81449372aa2b19dc728fb8066c401c9121713d5b2f7f1155fe6fd5",
+      "url": "https://raw.githubusercontent.com/X-lab2017/open-dipper/ae3da3e0fa00a3ef7167b8d26a3196d7c1fdd0bc/docs/assets/opendipper-ai-radar-density-20261026.jpg"
+    },
+    {
+      "path": "docs/assets/opendipper-radar-finish-light-20261026.jpg",
+      "bytes": 151093,
+      "sha256": "f36f4a879b544aee2b74b9425c70da5ad834aac71a422870c850ee0b6eba7cba",
+      "url": "https://raw.githubusercontent.com/X-lab2017/open-dipper/ae3da3e0fa00a3ef7167b8d26a3196d7c1fdd0bc/docs/assets/opendipper-radar-finish-light-20261026.jpg"
+    },
+    {
+      "path": "docs/assets/opendipper-galaxy-1.5.1-light-research-20261026.png",
+      "bytes": 1201976,
+      "sha256": "1a257cf636d11fdab0a17e1dcf7eb2b1a23a4489ab9bac47f2ff8dc005214559",
+      "url": "https://raw.githubusercontent.com/X-lab2017/open-dipper/ae3da3e0fa00a3ef7167b8d26a3196d7c1fdd0bc/docs/assets/opendipper-galaxy-1.5.1-light-research-20261026.png"
+    },
+    {
+      "path": "docs/assets/open-dipper-ai-radar-2026-10-25.jpg",
+      "bytes": 93719,
+      "sha256": "d221bd8c6563bbb866b2e6bbca8f15776f7f1728e1b15bf5c4dcf22306aab144",
+      "url": "https://raw.githubusercontent.com/X-lab2017/open-dipper/ae3da3e0fa00a3ef7167b8d26a3196d7c1fdd0bc/docs/assets/open-dipper-ai-radar-2026-10-25.jpg"
+    },
+    {
+      "path": "docs/assets/evolution/2026-10-25-02-brand-baseline.png",
+      "bytes": 567747,
+      "sha256": "c3d9d7d409f96629303a8eb2e954d3cfab176c78952d93f7d3e46f1afb304a7b",
+      "url": "https://raw.githubusercontent.com/X-lab2017/open-dipper/ae3da3e0fa00a3ef7167b8d26a3196d7c1fdd0bc/docs/assets/evolution/2026-10-25-02-brand-baseline.png"
+    },
+    {
+      "path": "docs/assets/evolution/2026-10-25-01-architecture-review.png",
+      "bytes": 569384,
+      "sha256": "106a41c223d6219ae18bca1a22aa3bbc0c18100a99731a2ad94aad283d2a595d",
+      "url": "https://raw.githubusercontent.com/X-lab2017/open-dipper/ae3da3e0fa00a3ef7167b8d26a3196d7c1fdd0bc/docs/assets/evolution/2026-10-25-01-architecture-review.png"
+    },
+    {
+      "path": "docs/assets/brand-reference/OpenDipper七星座标志系统精修.png",
+      "bytes": 1445383,
+      "sha256": "826bcf6db06202906f017e966d429954a263f086237ea29e2cc909310f27c216",
+      "url": "https://raw.githubusercontent.com/X-lab2017/open-dipper/ae3da3e0fa00a3ef7167b8d26a3196d7c1fdd0bc/docs/assets/brand-reference/OpenDipper七星座标志系统精修.png"
+    },
+    {
+      "path": "docs/assets/brand-reference/开源北斗品牌应用评审.png",
+      "bytes": 1506333,
+      "sha256": "d29a72ef62f9f7d24c7bba16e12812dfd82adadb7735f3c6d199dec33b364484",
+      "url": "https://raw.githubusercontent.com/X-lab2017/open-dipper/ae3da3e0fa00a3ef7167b8d26a3196d7c1fdd0bc/docs/assets/brand-reference/开源北斗品牌应用评审.png"
+    }
+  ],
+  "previousBytes": 9209853,
+  "currentBytes": 1295626
+}

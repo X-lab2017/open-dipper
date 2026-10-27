@@ -55,6 +55,9 @@ Discovery context, not an authorization grant. People submit needs through issue
 - [Accepted baseline index](https://raw.githubusercontent.com/X-lab2017/open-dipper/main/design/baselines/README.md): Current map/radar reference and immutable historical atlas record
 - [Accepted observatory and radar baseline](https://raw.githubusercontent.com/X-lab2017/open-dipper/main/design/baselines/observatory-radar-1.3.2.md): Pinned 1.3.2 source, release evidence, shared visual/interaction rules and reuse boundaries
 - [Open Galaxy ecosystem contract](https://raw.githubusercontent.com/X-lab2017/open-dipper/main/docs/OPEN_GALAXY.md): Dual-network exploration, task discovery, shortlist comparison, recorded paths, evidence reports, scope and integration boundaries
+- [1.6.0 published milestone](https://raw.githubusercontent.com/X-lab2017/open-dipper/main/docs/releases/1.6.0.md): Verified release receipts, full-domain versus preview scope, process disclosure and participation
+- [Current screenshots and archived originals](https://raw.githubusercontent.com/X-lab2017/open-dipper/main/docs/assets/README.md): Production captures, compression, fingerprints and historical recovery
+- [Promotional film source and claims](https://raw.githubusercontent.com/X-lab2017/open-dipper/main/media/promo/README.md): Reproducible 50-second film, storyboard, factual scope and AI disclosure
 
 ## Machine context
 

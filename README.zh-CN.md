@@ -12,6 +12,8 @@
 
 [进入观测站](https://www.x-lab.info/open-dipper/) · [AI 雷达](https://www.x-lab.info/open-dipper/#radar) · [开源星系](https://www.x-lab.info/open-dipper/#ecosystem) · [参与贡献](CONTRIBUTING.zh-CN.md) · [路线图](ROADMAP.zh-CN.md)
 
+**1.6.0 里程碑：**[发布记录与数据边界](docs/releases/1.6.0.md) · [50 秒宣传短片、分镜与复现](media/promo/README.md)。短片以全球观测上游统计呈现全域发现愿景；当前雷达仍是有来源的预览样本，后续分阶段接入。
+
 <!-- section:first-exploration -->
 ## 完成你的第一次探索
 
@@ -30,7 +32,7 @@
 | --- | --- | --- |
 | 全球观测 | 在地图或地球上探索参与、贡献、影响力与生态事件 | 六类十八层、图层叠加、当前观察多标签、排行榜与一/两屏演示 |
 | AI 雷达 | 按任务发现候选、检查来源、同类对比并导出试用清单 | 160 个有来源实体：80 个软件、60 个模型、20 个数据集；本机关注；可关闭的**模拟**圈层判断 |
-| 开源星系 · 1.5.1 | 按任务找项目、建立候选清单、追踪记录关系，导出有来源的研究报告 | 19,771 个代码仓库 + 24,000 个模型/数据/Space 节点；记录关系与推断分离；[模块契约](docs/OPEN_GALAXY.md) |
+| 开源星系 | 按任务找项目、建立候选清单、追踪记录关系，导出有来源的研究报告 | 19,771 个代码仓库 + 24,000 个模型/数据/Space 节点；记录关系与推断分离；[模块契约](docs/OPEN_GALAXY.md) |
 | 情报 | 阅读公开样刊并保存关注主题 | 浏览器本地偏好；订阅交付和付费服务仍为规划 |
 
 **应用版本：1.6.0；视觉体系：1.4.0；地图／雷达固定基线：1.3.2。** 全球地图重新居中，默认打开活跃开发者，并以五站“环球巡航”串联企业、项目、模型和活动。[实现与验收](docs/plans/observatory-tour.md)。 [当前状态与限制](docs/STATUS.md) · [可复用基线](design/baselines/README.md) · [数据口径](docs/DATA_EVIDENCE.md)。各数据保留独立观察期，模拟脉动不是实时测量；公开可下载不代表每个模型或数据集都符合开源定义。
@@ -39,25 +41,40 @@
 
 从宏观生态问题出发，组合地域图层，再聚焦地区或实体，查看排行、指标和有来源的事件。不同观察期与样本范围始终保留，不把所有图层混算成同一全球总量。
 
-[![全球观测地图：地域图层、来源范围与生态事件](docs/assets/opendipper-observed-overview-2026-10-25.jpg)](https://www.x-lab.info/open-dipper/)
+<a href="https://www.x-lab.info/open-dipper/">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="docs/assets/opendipper-1.6.0-atlas-dark-20261027.jpg">
+    <img src="docs/assets/opendipper-1.6.0-atlas-light-20261027.jpg" alt="全球观测——1.6.0 线上实景" width="1363" loading="lazy">
+  </picture>
+</a>
 
-*全球观测实现评审图，2026-10-25；保留的历史画面不代表当前数据。[地图/地球交互与当前图层契约](docs/ATLAS_WORKSPACE.md)。*
+*2026-10-27 线上截图，随明暗偏好切换；截图日期不替代数据观察期。[图片来源与压缩说明](docs/assets/README.md)。*
 
 ### AI 雷达——形成试用清单
 
 选择任务，发现相关软件、模型或数据集，检查来源证据，对比同类候选，再导出试用清单。可选的模拟圈层判断与来源事实保持独立。
 
-[![浅色 AI 雷达：候选发现、编号目标与来源详情](docs/assets/opendipper-radar-finish-light-20261026.jpg)](https://www.x-lab.info/open-dipper/#radar)
+<a href="https://www.x-lab.info/open-dipper/#radar">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="docs/assets/opendipper-1.6.0-radar-dark-20261027.jpg">
+    <img src="docs/assets/opendipper-1.6.0-radar-light-20261027.jpg" alt="AI 雷达——当前预览索引" width="1363" loading="lazy">
+  </picture>
+</a>
 
-*AI 雷达 1.3.2 实现评审图，2026-10-26。[明暗效果与交互契约](docs/AI_RADAR.md)。*
+*2026-10-27 线上截图，随明暗偏好切换；截图日期不替代数据观察期。[图片来源与压缩说明](docs/assets/README.md)。*
 
 ### 开源星系——理解连接，带走报告
 
 按任务或名称找到项目，查看记录关系邻域，加入最多三个研究对象，追踪记录路径，导出 Markdown、HTML 或 JSON 证据报告。报告保留缺失证据和来源日期，不等同于实时研究、安全审计或采用建议。
 
-[![开源星系浅色研究工作台：PyTorch、记录关系邻居与两对象研究清单](docs/assets/opendipper-galaxy-1.5.1-light-research-20261026.png)](https://www.x-lab.info/open-dipper/#ecosystem)
+<a href="https://www.x-lab.info/open-dipper/#ecosystem">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="docs/assets/opendipper-1.6.0-galaxy-dark-20261027.jpg">
+    <img src="docs/assets/opendipper-1.6.0-galaxy-light-20261027.jpg" alt="开源星系——双星系全景" width="1363" loading="lazy">
+  </picture>
+</a>
 
-*开源星系 1.5.1 浅色 CI 验收截图，2026-10-26：PyTorch–vLLM 记录路径与研究清单。浏览器验收覆盖深浅主题、手机布局及 Markdown/HTML/JSON 三格式实际下载；此图不是生产站点截图。[研究与关系契约](docs/OPEN_GALAXY.md) · [正式发布验收记录](docs/plans/ecosystem-public-release.md)。*
+*2026-10-27 线上截图，随明暗偏好切换；截图日期不替代数据观察期。[图片来源与压缩说明](docs/assets/README.md)。*
 
 <!-- section:participation -->
 ## 从问题或一份小贡献开始
