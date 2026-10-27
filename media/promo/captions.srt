@@ -1,40 +1,39 @@
 1
 00:00:00,000 --> 00:00:04,000
 开源世界，正在连接。
-Every project is part of a bigger story.
+A world of open possibilities.
 
 2
 00:00:04,000 --> 00:00:08,000
-开源北斗 OpenDipper · AI 与开源生态观测站
-Explore the AI and open-source ecosystem.
+开源北斗：AI 与开源情报平台。
+Observe. Discover. Research. Build together.
 
 3
-00:00:08,000 --> 00:00:15,000
-全球观测 · 246 个国家和地区的上游统计覆盖
-Global observation · upstream geographic coverage.
+00:00:08,000 --> 00:00:16,000
+全球观测：从世界，看见生态。
+A global perspective. Upstream coverage: 246 countries and regions.
 
 4
-00:00:15,000 --> 00:00:23,000
-AI 雷达 · 面向全域数据，发现你的下一步。
-Full-domain capability preview; staged integration.
-全球观测上游总量，不代表当前雷达收录量。
+00:00:16,000 --> 00:00:24,000
+AI 雷达：面向全域数据，发现你的下一步。
+Global data foundation preview; not current radar coverage.
 
 5
-00:00:23,000 --> 00:00:31,000
-开源星系 · 发现项目之间的联系。
-Explore the connections in dated network snapshots.
+00:00:24,000 --> 00:00:32,000
+开源星系：发现项目之间的联系。
+Explore connections across fixed code and model snapshots.
 
 6
-00:00:31,000 --> 00:00:38,000
-环球巡航 · 开发者、企业、项目、模型、活动。
-Five perspectives, from the map to the globe.
+00:00:32,000 --> 00:00:45,000
+Agent 情报室：情报浏览 → 知识整理 → 深度研究。
+vLLM / SGLang editorial case. Not live DSH output or a benchmark.
 
 7
-00:00:38,000 --> 00:00:44,000
-发现项目 · 理解联系 · 带走报告
-Discover · Connect · Export
+00:00:45,000 --> 00:00:54,000
+共建社区：开放的未来，一起构建。
+Share needs. Contribute evidence. Build together.
 
 8
-00:00:44,000 --> 00:00:50,000
-看见连接，发现可能。立即试用，反馈共建。
-Preview 1.6.0 · www.x-lab.info/open-dipper
+00:00:54,000 --> 00:01:00,000
+立即试用，反馈共建。
+www.x-lab.info/open-dipper

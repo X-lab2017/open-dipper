@@ -13,7 +13,7 @@
 
 [进入观测站](https://www.x-lab.info/open-dipper/) · [AI 雷达](https://www.x-lab.info/open-dipper/#radar) · [开源星系](https://www.x-lab.info/open-dipper/#ecosystem) · [Agent 情报室](https://www.x-lab.info/open-dipper/#briefing) · [参与贡献](CONTRIBUTING.zh-CN.md) · [路线图](ROADMAP.zh-CN.md)
 
-**1.6.0 里程碑：**[发布记录与数据边界](docs/releases/1.6.0.md) · [50 秒宣传短片、分镜与复现](media/promo/README.md)。短片以全球观测上游统计呈现全域发现愿景；当前雷达仍是有来源的预览样本，后续分阶段接入。
+**1.6.0 里程碑：**[发布记录与数据边界](docs/releases/1.6.0.md) · [60 秒五模块宣传片、分镜与复现](media/promo/README.md)。短片以全球观测上游统计呈现全域发现愿景；当前雷达仍是有来源的预览样本，后续分阶段接入。
 
 <!-- section:first-exploration -->
 ## 完成你的第一次探索

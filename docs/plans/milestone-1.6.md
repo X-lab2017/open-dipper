@@ -24,6 +24,6 @@ No application behavior, dependency, source refresh, license decision, external 
 
 - Both homepages retain all three modules; seven production images verified at 1363 × 936, each under 210 KB. Current screenshot bytes reduced by 85.9%; all eighteen historical originals match their recorded SHA-256 at the fixed commit.
 - `npm run docs:build`, `npm run docs:check`, `npm run typecheck`, `npm test`, `npm run build` and `git diff --check` passed locally. Official SVGs, application sources, data snapshots and fixed baseline manifests are unchanged.
-- Eight film scenes and both screenshot themes were inspected; the final movie is 50 seconds / 1,500 frames / 1080p / 30 fps, with 48 kHz stereo AAC. Complete ffmpeg decode passed; measured output and source hashes are in [validation.json](../../media/promo/validation.json).
+- Eight film scenes and both screenshot themes were inspected; the final movie is 50 seconds / 1,500 frames / 1080p / 30 fps, with 48 kHz stereo AAC. Complete ffmpeg decode passed; measured output and source hashes are in [v2 validation](../../media/promo/validation-v2.json).
 - The exact figure checks use the pinned global source. No full-domain ingestion or live-measurement claim is made. Film screenshots use aspect-preserving containment to avoid clipping their selected content.
 - PR CI, merge and subsequent Pages deployment are separate external results recorded in the associated GitHub PR; they are not inferred from local success. The previous 1.6.0 application deployment remains documented in [the milestone](../releases/1.6.0.md).

@@ -1,4 +1,4 @@
-"""OpenDipper launch film, deterministic 1920x1080 / 30 fps / 50 s.
+"""OpenDipper launch film, deterministic 1920x1080 / 30 fps / 60 s.
 Motion reference: Amicro TextReveal easing and smooth spring presets.
 See notices/Amicro-LICENSE.txt. No application source is modified.
 """
@@ -12,7 +12,7 @@ import cairosvg
 ROOT=Path(__file__).resolve().parent
 REPO=ROOT.parents[1]
 OUT=ROOT/'output'; OUT.mkdir(exist_ok=True)
-W,H,FPS,DURATION=1920,1080,30,50
+W,H,FPS,DURATION=1920,1080,30,60
 BLUE=(105,185,233); GREEN=(154,215,68); WHITE=(231,240,248)
 MUTED=(142,169,189); GOLD=(236,191,100); BG=(7,13,22)
 ZH=Path(os.environ.get('OD_FONT_ZH', str(Path.home()/'.local/share/fonts/NotoSansCJKsc-Regular.otf')))
@@ -69,7 +69,7 @@ BRAND={'logo.svg':'public/brand/opendipper/opendipper-horizontal-dark.svg','xlab
 @lru_cache(maxsize=32)
 def svg(name,width):
     return Image.open(io.BytesIO(cairosvg.svg2png(url=str(REPO/BRAND[name]),output_width=width))).convert('RGBA')
-SCREEN={name:Image.open(REPO/'docs/assets'/f'opendipper-1.6.0-{name}-20261027.jpg').convert('RGBA') for name in ['atlas-dark','atlas-light','galaxy-dark','galaxy-light','tour-dark']}
+SCREEN={name:Image.open(ROOT/'assets'/f'{name}.jpg').convert('RGBA') for name in ['atlas-dark','atlas-light','galaxy-dark','reading','report','community']}
 FACTS=json.loads((ROOT/'facts.json').read_text())
 SOURCE=json.loads((REPO/FACTS['basis']).read_text())
 for stat in FACTS['radarFoundation']:
@@ -194,8 +194,8 @@ def scene(index,u,t):
             r=250+90*k+18*math.sin(u*.5+k);d.arc((960-r,530-r,960+r,530+r),25+u*12+k*60,165+u*12+k*60,fill=(31,70,96),width=2)
         logo=svg('logo.svg',1090)
         put(im,logo,(W-logo.width)/2,245+(1-bezier(u/.9))*90,bezier(u/.7))
-        text(im,'AI 与开源生态观测站',960,669,57,WHITE,align='center',reveal=(u-.45)/.95)
-        text(im,'Explore the AI and open-source ecosystem',960,774,30,MUTED,'en','center',opacity=bezier((u-.9)/1))
+        text(im,'AI 与开源情报平台',960,669,57,WHITE,align='center',reveal=(u-.45)/.95)
+        text(im,'Observe. Discover. Research. Build together.',960,774,30,MUTED,'en','center',opacity=bezier((u-.9)/1))
         text(im,'BY X-LAB AI',960,902,21,BLUE,'en','center',opacity=bezier((u-1.2)/.8))
     elif index==2:
         module_label(im,'01','GLOBAL OBSERVATION')
@@ -205,7 +205,7 @@ def scene(index,u,t):
         text(im,'246',128,590,108,BLUE,'bold',opacity=bezier((u-.5)/1))
         text(im,'国家和地区 · 上游统计覆盖',132,727,26,MUTED)
         text(im,'18 图层  /  地图 + 立体地球',132,832,27,WHITE)
-        panel(im,'atlas-dark' if u<3.5 else 'atlas-light',690,188,1100,715,(u-.3)/.9,crop=(278,111,1351,925))
+        panel(im,'atlas-dark' if u<3.5 else 'atlas-light',690,188,1100,715,(u-.3)/.9,crop=(260,110,1350,865))
         small_footer(im,'OpenDigger / OpenShare · 来源快照更新 2026-10-08 · 画面中的模拟动态另行标识')
     elif index==3:
         module_label(im,'02','AI RADAR / FULL-DOMAIN PREVIEW')
@@ -227,36 +227,39 @@ def scene(index,u,t):
         text(im,'开源星系',128,218,89,WHITE,reveal=u/.9,weight=1)
         text(im,'发现项目之间的联系',129,350,43,BLUE,reveal=(u-.2)/.95)
         text(im,'Explore the connections.',133,436,26,MUTED,'en')
-        panel(im,'galaxy-dark' if u<4 else 'galaxy-light',725,208,1050,650,(u-.35)/1.2,crop=(260,152,1351,906))
+        panel(im,'galaxy-dark',725,208,1050,650,(u-.35)/1.2,crop=(260,152,1351,870))
         for k,(n,label,col) in enumerate([('19,771','代码仓库',BLUE),('24,000','模型 · 数据集 · Spaces',GREEN)]):
             y=555+k*185;qq=bezier((u-.8-k*.15)/.9)
             text(im,n,130,y,76,col,'bold',opacity=qq)
             text(im,label,132,y+107,27,MUTED,opacity=qq)
         small_footer(im,'固定网络快照 · 代码 2025.08—2026.07 / 模型 2026-08-05 · 动画不代表实时增长')
-        text(im,'OpenDipper 1.6.0 · 真实界面',1248,940,22,MUTED,align='center')
+        text(im,'OpenDipper 1.15.1 · 真实界面',1248,940,22,MUTED,align='center')
     elif index==5:
-        module_label(im,'04','WORLD TOUR')
-        text(im,'五站巡航，一眼看见全局。',128,179,68,WHITE,reveal=u/.9,weight=1)
-        labels=['活跃开发者','企业','标杆项目','模型资产','会议与活动']
-        for k,label in enumerate(labels):
-            x=130+k*335;active=min(4,int(u/1.25))==k
-            text(im,f'{k+1:02d}',x,301,22,GREEN if active else MUTED,'en')
-            text(im,label,x+50,295,30,WHITE if active else MUTED)
-            ImageDraw.Draw(im).line((x,356,x+278,356),fill=GREEN if active else (40,70,87),width=3)
-        panel(im,'atlas-light',128,400,795,490,bezier((u-.3)/.8),crop=(278,111,1351,812))
-        panel(im,'tour-dark',990,400,795,490,bezier((u-.55)/.8),crop=(278,111,1351,812))
-        text(im,'平面地图 · 全球分布',128,952,26,BLUE)
-        text(im,'立体地球 · 企业巡航实景',990,952,26,GREEN)
+        module_label(im,'04','AGENT INTELLIGENCE ROOM')
+        text(im,'Agent 情报室',128,191,76,WHITE,reveal=u/.85,weight=1)
+        text(im,'从线索，到有据可查的报告。',128,309,42,BLUE,reveal=(u-.2)/.9)
+        labels=[('情报浏览','READ THE SIGNALS'),('知识整理','BUILD THE CONTEXT'),('深度研究','DELIVER THE REPORT')]
+        active=min(2,int(u/4))
+        for k,(zh,en) in enumerate(labels):
+            y=459+k*139;col=GREEN if k==active else MUTED
+            text(im,f'0{k+1}',132,y,26,col,'en')
+            text(im,zh,198,y-5,37,WHITE if k==active else MUTED)
+            text(im,en,199,y+53,17,col,'en')
+        # Real reading/report surfaces; the knowledge transition is editorial storytelling.
+        panel(im,'reading' if u<6 else 'report',730,420,1060,510,(u-.3)/.9)
+        text(im,'vLLM / SGLang · 6 份来源 · 完整案例',733,359,28,GREEN)
+        small_footer(im,'编辑演示，非 DSH 执行或性能实测。知识保存在本机；真实 Agent 运行服务待接入。')
     elif index==6:
-        network(im,t,cx=960,cy=650,scale=950,alpha=.2)
-        text(im,'让探索，成为下一步。',960,160,79,WHITE,align='center',reveal=u/.9,weight=1)
-        text(im,'DISCOVER  /  CONNECT  /  TAKE IT WITH YOU',960,289,25,BLUE,'en','center',opacity=bezier((u-.35)/.8))
-        for k in [0,2,1]:
-            q=spring((u-.35-k*.12));cx=960+(k-1)*525*q;y=421+abs(k-1)*18*(1-q)
-            card=result_card(k);ang=(k-1)*(-10)*(1-smooth((u-1.2)/1.8))
-            if abs(ang)>.02:card=card.rotate(ang,Image.Resampling.BICUBIC,expand=True)
-            put(im,card,cx-card.width/2,y+(1-q)*280,clamp(q))
-        text(im,'Markdown · HTML · JSON',960,974,26,MUTED,'en','center',opacity=bezier((u-1.3)/.8))
+        module_label(im,'05','COMMUNITY / BUILD TOGETHER')
+        text(im,'共建社区',128,190,83,WHITE,reveal=u/.85,weight=1)
+        text(im,'开放的未来，一起构建。',128,311,47,BLUE,reveal=(u-.2)/.9)
+        panel(im,'community',128,431,1085,470,(u-.3)/.9,crop=(0,60,1366,650))
+        for k,(zh,en) in enumerate([('带来真实问题','SHARE YOUR NEEDS'),('补充可靠资料','CONTRIBUTE EVIDENCE'),('参与产品与工程','BUILD WITH THE COMMUNITY')]):
+            q=bezier((u-.6-k*.3)/.8);y=471+k*157
+            text(im,f'0{k+1}',1300,y,24,GREEN,'en',opacity=q)
+            text(im,zh,1300,y+44,34,WHITE,opacity=q)
+            text(im,en,1301,y+100,16,MUTED,'en',opacity=q)
+        small_footer(im,'愿景 · 路线 · 参与指南 · AI 协作披露。人提出需求，Agent 协助实现，社区共同评审。')
     else:
         network(im,t,cx=960,cy=510,scale=920,alpha=.26)
         brand_corner(im,bezier(u/.8))
@@ -271,37 +274,14 @@ def scene(index,u,t):
             text(im,'立即试用 · 反馈共建',960,784,31,(12,27,17),align='center',opacity=q)
         text(im,'www.x-lab.info/open-dipper',960,889,29,WHITE,'en','center',opacity=q)
         text(im,'github.com/X-lab2017/open-dipper',960,953,25,MUTED,'en','center',opacity=q)
-        text(im,'PREVIEW 1.6.0',1788,82,20,BLUE,'en','right',opacity=q)
+        text(im,'PREVIEW 1.15.1',1788,82,20,BLUE,'en','right',opacity=q)
     # Consistent editorial frame, generous 128 px safe area.
     d=ImageDraw.Draw(im)
     d.line((128,1038,1792,1038),fill=(31,52,69),width=1)
     d.line((128,1038,128+1664*clamp(t/DURATION),1038),fill=BLUE,width=2)
     return im
 
-@lru_cache(maxsize=3)
-def result_card(k):
-    im=Image.new('RGBA',(480,477));d=ImageDraw.Draw(im)
-    d.rounded_rectangle((0,0,479,476),radius=23,fill=(14,28,42,255),outline=(59,91,113,255),width=2)
-    colors=[BLUE,GREEN,GOLD];titles=['发现项目','理解联系','带走报告'];en=['DISCOVER','CONNECT','EXPORT']
-    text(im,'0'+str(k+1),32,27,23,colors[k],'en')
-    text(im,titles[k],32,82,44,WHITE,weight=1)
-    text(im,en[k],34,149,18,MUTED,'en')
-    if k==0:
-        for i,(s,label) in enumerate([('P','PyTorch'),('v','vLLM'),('H','Models & data')]):
-            y=223+i*64;d.rounded_rectangle((30,y,449,y+51),radius=11,fill=(23,43,58,255))
-            d.ellipse((45,y+12,70,y+37),fill=rgba(colors[i]))
-            text(im,label,90,y+12,23,WHITE,'en')
-    elif k==1:
-        xy=[(88,270),(230,228),(380,275),(172,383),(338,390)]
-        for i,j in [(0,1),(1,2),(0,3),(1,3),(1,4),(2,4),(3,4)]:d.line((*xy[i],*xy[j]),fill=(73,122,148),width=2)
-        for i,(x,y) in enumerate(xy):d.ellipse((x-13,y-13,x+13,y+13),fill=colors[i%3])
-    else:
-        d.rounded_rectangle((95,207,384,427),radius=12,fill=(27,46,62,255),outline=(77,112,138,255),width=2)
-        for i,w in enumerate([162,215,187,203,138]):d.rounded_rectangle((124,235+i*30,124+w,242+i*30),radius=3,fill=rgba(BLUE if i==0 else (81,109,128)))
-        text(im,'SOURCES + EVIDENCE',124,399,14,GOLD,'en')
-    return im
-
-CUTS=[0,4,8,15,23,31,38,44,50]
+CUTS=[0,4,8,16,24,32,45,54,60]
 def frame(t):
     i=min(7,max(0,next((k for k in range(8) if CUTS[k]<=t<CUTS[k+1]),7)))
     u=t-CUTS[i];im=scene(i,u,t)
@@ -339,11 +319,11 @@ def soundtrack():
                 phase=2*np.pi*(47*tt+75*.027*(1-np.exp(-tt/.027)))
                 kick=np.sin(phase)*np.exp(-tt*17)*.18
                 add(kick,beat)
-            if 8<=beat<44:
+            if 8<=beat<54:
                 m=notes[(b*3)%4]+12
                 note(440*2**((m-69)/12),1,.07,beat+.25,(-.6 if b%2 else .6),True)
                 note(440*2**((m-69)/12),.6,.02,beat+.625,(.6 if b%2 else -.6),True)
-            if 15<=beat<44:
+            if 16<=beat<54:
                 tt=np.arange(int(sr*.055))/sr;noise=rng.normal(0,1,len(tt));noise=np.r_[0,np.diff(noise)]
                 add(noise*np.exp(-tt*95)*.012,beat+.25,(-.3 if b%2 else .3))
     for at in CUTS[1:-1]:
@@ -362,7 +342,7 @@ def soundtrack():
     print('Original soundtrack ready',flush=True)
 
 def render():
-    out=OUT/'OpenDipper-Promo-v2-1080p.mp4'
+    out=OUT/'OpenDipper-Promo-v3-1080p.mp4'
     cmd=['ffmpeg','-hide_banner','-loglevel','warning','-y','-f','rawvideo','-vcodec','rawvideo','-pix_fmt','rgb24','-s',f'{W}x{H}','-r',str(FPS),'-i','pipe:0','-i',str(OUT/'soundtrack.wav'),'-c:v','libx264','-preset','fast','-crf','21','-pix_fmt','yuv420p','-c:a','aac','-b:a','192k','-af','loudnorm=I=-16:TP=-1.5:LRA=10','-ar','48000','-t',str(DURATION),'-movflags','+faststart',str(out)]
     p=subprocess.Popen(cmd,stdin=subprocess.PIPE);start=time.time()
     try:
@@ -376,7 +356,7 @@ def render():
 if __name__=='__main__':
     pa=argparse.ArgumentParser();pa.add_argument('--preview',action='store_true');pa.add_argument('--audio',action='store_true');pa.add_argument('--render',action='store_true');args=pa.parse_args()
     if args.preview:
-        times=[2.6,6.5,11.2,19.2,27.8,35.4,41.0,47.0]
+        times=[2.6,6.5,11.2,20.2,28.8,41.0,50.0,57.0]
         thumbs=[]
         for i,t in enumerate(times):
             f=frame(t);f.save(OUT/f'preview-{i+1:02d}.png');thumbs.append(f.resize((640,360),Image.Resampling.LANCZOS))
@@ -384,7 +364,7 @@ if __name__=='__main__':
         for i,thumb in enumerate(thumbs):
             x=(i%2)*640;y=(i//2)*400;sheet.paste(thumb,(x,y));d.text((x+20,y+366),f'{times[i]:04.1f}s',font=font(20,'en'),fill=WHITE)
         sheet.save(OUT/'contact-sheet.jpg',quality=92)
-        frame(47).save(OUT/'OpenDipper-Promo-Cover.png')
+        frame(57).save(OUT/'OpenDipper-Promo-Cover.png')
         print('Preview ready',flush=True)
     if args.audio:soundtrack()
     if args.render:
