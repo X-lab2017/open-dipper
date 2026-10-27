@@ -2,6 +2,23 @@
 
 Product specification v0.1 · 2026-10-27 · **interactive prototype, not a live Agent service**.
 
+## 中文评审摘要
+
+本轮把“情报订阅”合入“Agent 情报室”，先验证产品价值，再接入真实服务。主导航与前三个模块保持原结构。
+
+- **情报首页**：围绕技术选型、关键依赖风险、生态合作机会，解释一条变化为何值得关注。
+- **研究任务**：按“确定问题—收集证据—比较核验—行动建议”手动查看模拟过程；可以保存自己的问题，但不会据此生成答案。
+- **持续跟踪**：保存专题、触发条件与频率；当前仅本机偏好，不会自动采集或发送通知。
+- **证据与反馈**：展示虚构材料位置与真实缺口，不伪造来源或置信度；可以导出带模拟标记的评审简报，反馈入口沿用 #35。
+
+建议先邀请 5–8 位愿意参与的开发者和研究用户，以一个真实决策为起点体验。重点记录是否理解证据、下一步是否可执行、是否愿意持续回来；这些是拟定的评审安排，尚未开展招募或获得结果。
+
+后续按“真实专题样刊 → 有预算和可恢复状态的 Agent 研究 → 经同意的订阅交付 → 机构协作空间”推进。首选试点为 AI 推理基础设施。继续免费积累用户，商业服务由 OpenShare 承接；收费与权益仍需单独确认。
+
+![深色情报首页](assets/agent-room/dark.jpg)
+
+![浅色研究任务](assets/agent-room/light.jpg)
+
 ## Product decision
 
 Merge the subscription entry into **Agent 情报室 · Dipper Intelligence**. Research answers a question; following keeps the answer current; evidence and saved reports preserve context. The first three product modules and their data contracts remain intact. Keep `#briefing` compatible; do not introduce another top-level navigation item.
