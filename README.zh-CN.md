@@ -186,3 +186,5 @@ AI Agent 参与了实现、视觉迭代和仓库维护。贡献应披露参与�
 OpenDipper 独立实现。空间交互参考 [world-monitor.com](https://world-monitor.com/)，工程参考包括另一个独立项目 [koala73/worldmonitor](https://github.com/koala73/worldmonitor)。仓库保留来源与品牌声明。
 
 **许可决策仍待确认：** 尚未选定应用代码根 LICENSE。源码、数据集、地图与品牌资产各有权利边界，公开可见不代表统一授权。详见[权利说明](docs/RIGHTS.md)与[决策 #6](https://github.com/X-lab2017/open-dipper/issues/6)。敏感报告请遵循 [SECURITY.md](SECURITY.md)。
+
+**产品评审：**[Agent 情报室](docs/AGENT_ROOM.md)将模拟研究与本机持续跟踪合为一个原型，尚未上线真实 Agent 或投递服务。

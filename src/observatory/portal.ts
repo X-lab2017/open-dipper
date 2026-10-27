@@ -1,3 +1,4 @@
+import {roomPage,bindRoom} from '../intelligence-room/view';
 import {locationName} from './model';
 import {supplyChart} from './evidence-view';
 import type {Evidence,SupplyMetric} from './evidence';
@@ -45,7 +46,7 @@ function briefTeaser(c: PortalContext, compact = false): string {
 export function overviewRail(c: PortalContext): string {
   const observed = c.signals.find(s=>s.provenance!=='demo');
   const available = (observed ? [observed,...c.signals.filter(s=>s.id!==observed.id)] : c.signals).slice(0,2);
-  return `<section class="intelligence-rail"><div class="rail-signals panel"><div class="rail-heading"><span class="portal-eyebrow">AI RADAR</span>${go('radar',text(c,'探索 AI 雷达 ↗','Explore AI radar ↗'))}</div>${available.length?available.map(s=>`<button data-signal="${esc(s.id)}" class="rail-signal">${provenance(c,s)}<span>${copy(c,s.title)}</span><b>↗</b></button>`).join(''):`<p class="rail-empty">${text(c,'当前没有可用条目','No items available')}</p>`}</div><div class="rail-subscribe panel"><span class="portal-eyebrow">INTELLIGENCE / PREVIEW</span><strong>${text(c,'你的 AI 与开源情报','Your AI & open-source brief')}</strong><div>${go('briefing',text(c,'样刊与订阅方案 ↗','Sample & subscription ↗'))}<small>${text(c,'尚未收费','Not yet on sale')}</small></div></div></section>`;
+  return `<section class="intelligence-rail"><div class="rail-signals panel"><div class="rail-heading"><span class="portal-eyebrow">AI RADAR</span>${go('radar',text(c,'探索 AI 雷达 ↗','Explore AI radar ↗'))}</div>${available.length?available.map(s=>`<button data-signal="${esc(s.id)}" class="rail-signal">${provenance(c,s)}<span>${copy(c,s.title)}</span><b>↗</b></button>`).join(''):`<p class="rail-empty">${text(c,'当前没有可用条目','No items available')}</p>`}</div><div class="rail-subscribe panel"><span class="portal-eyebrow">INTELLIGENCE / PREVIEW</span><strong>${text(c,'你的 AI 与开源情报','Your AI & open-source brief')}</strong><div>${go('briefing',text(c,'进入 Agent 情报室 ↗','Enter Agent Intelligence Room ↗'))}<small>${text(c,'尚未收费','Not yet on sale')}</small></div></div></section>`;
 }
 export function secondScreen(c: PortalContext): string {
   return `<section id="discovery-screen" class="discovery-screen"><header class="discovery-heading"><div><span class="portal-eyebrow">02 / DISCOVER & UNDERSTAND</span><h2>${text(c,'从全球现场，走向深入理解','From global signals to deeper understanding')}</h2></div><button data-action="screen-overview">↑ ${text(c,'返回全球总览','Back to global overview')}</button></header>${demoNotice(c)}<div class="discovery-grid"><div><div class="section-title"><h3>${text(c,'AI 雷达精选','AI radar selection')}</h3>${go('radar',text(c,'全部情报 ↗','All intelligence ↗'))}</div><div class="signal-grid">${c.signals.slice(0,4).map((s,i)=>signalCard(c,s,i)).join('')||empty(c,'暂无可用条目','No items available')}</div></div><div class="discovery-side">${briefTeaser(c)}<div class="portal-box"><span class="portal-eyebrow">OPEN SOURCE PULSE</span><h3>${text(c,'把最新动态放回长期趋势','Place new events in a longer perspective')}</h3><p>${text(c,'OpenDigger 月度指标，按同平台、同月份对比项目变化。','OpenDigger monthly metrics, compared within the same platform and month.')}</p>${go('ecosystem',text(c,'查看开源生态 ↗','Explore the ecosystem ↗'))}</div></div></div></section>`;
@@ -89,7 +90,7 @@ function contribute(c: PortalContext): string {
 export function portalPage(c: PortalContext, ecosystem: string, followedRadar = ''): string {
   let content='';
   if(c.page==='radar')content=radar(c);
-  if(c.page==='briefing')content=subscription(c);
+  if(c.page==='briefing')content=roomPage(c,subscription(c).replace('id="portal-title"','id="legacy-briefing-title"'));
   if(c.page==='following')content=followedRadar+following(c);
   if(c.page==='contribute')content=contribute(c);
   if(c.page==='ecosystem')content=`${pageHeader(c,'05 / OPEN SOURCE ECOSYSTEM','看见项目的长期变化','Follow the evolution of projects.','最新事件之外，用同平台、同月份、同一指标理解项目。','Beyond new events: compare the same platform, month and metric.')}<div class="ecosystem-summary"><span><b>${c.data.snapshot.repositories.length}</b>${text(c,'精选仓库','curated repositories')}</span><span><b>4</b>${text(c,'平台样本','sample platforms')}</span><span><b>6</b>${text(c,'独立指标','separate metrics')}</span><p>${text(c,'OpenDigger 真实月度样本，当前不代表全域覆盖或全球总量。','Observed monthly OpenDigger samples, not full coverage or global totals.')}</p></div><section class="ecosystem-workbench">${ecosystem}</section><div class="portal-bottom-grid"><div class="portal-box"><h3>${text(c,'月度变化与事件相互补充','Monthly change meets event context')}</h3><p>${text(c,'选择项目查看趋势与原始指标，点击星标保存在本机；已建立精确关联的 AI 事件会进入我的关注。','Select a project for trends and evidence; star it locally. Exactly linked AI events will appear in Following.')}</p>${go('following',text(c,'查看我的关注 →','View my watchlist →'))}</div><div class="portal-box"><h3>${text(c,'让全域数据逐步接入','Grow coverage with evidence')}</h3><p>${text(c,'月度地域、覆盖分母与未知地域需要新的数据契约。欢迎提供真实样例。','Monthly geography, coverage denominators and unknown regions need new contracts. Verified samples are welcome.')}</p>${link(`${github}/issues/9`,text(c,'参与数据接入','Contribute data'))}</div></div>`;
@@ -111,6 +112,7 @@ export function openSample(c: PortalContext, a: PortalActions): void {
 }
 
 export function bindPortal(c: PortalContext, a: PortalActions): void {
+  bindRoom(c,a);
   document.querySelectorAll<HTMLElement>('[data-page]').forEach(el=>el.onclick=()=>a.navigate(el.dataset.page as Page));
   document.querySelectorAll<HTMLElement>('[data-signal]').forEach(el=>el.onclick=()=>{const s=c.signals.find(s=>s.id===el.dataset.signal);if(s)openSignal(c,a,s);});
   document.querySelectorAll<HTMLElement>('[data-save-signal]').forEach(el=>el.onclick=()=>{const id=el.dataset.saveSignal!;const saved=c.preferences.saved.includes(id);a.savePreferences({...c.preferences,saved:saved?c.preferences.saved.filter(x=>x!==id):[...c.preferences.saved,id].slice(-200)});a.render();a.toast(text(c,saved?'已取消收藏':'已收藏到本机',saved?'Removed from saved':'Saved in this browser'));});

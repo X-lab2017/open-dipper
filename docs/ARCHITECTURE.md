@@ -47,6 +47,7 @@ Public feeds are fetched in GitHub Actions, normalized into JSON and published w
 
 | Module | Responsibility |
 | --- | --- |
+| `src/intelligence-room/` | Agent Room product prototype, fictional fixtures, local drafts/following and review export; no live Agent backend |
 | `src/observatory/intelligence.ts` | Typed signals, optional fixture validation, explicit AI mapping, local preference normalization, matching and exports |
 | `src/observatory/portal.ts`, `portal.css` | Subscription sample, following, community and shared portal composition; retained earlier ecosystem view; production radar and galaxy use dedicated modules |
 | `src/observatory/model.ts` | Contracts, validation, time filters, ranking, missing-value semantics |

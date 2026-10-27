@@ -1,6 +1,6 @@
 # AI and open-source intelligence framework
 
-Framework introduced in **1.1.0**; current route ownership reviewed for **1.3.2**, 2026-10-26. Delivery: [#14](https://github.com/X-lab2017/open-dipper/issues/14). This is a public review framework, not a launch of paid subscriptions or an autonomous research service.
+Framework introduced in **1.1.0**; current route ownership reviewed on 2026-10-27. Delivery: [#14](https://github.com/X-lab2017/open-dipper/issues/14). This is a public review framework, not a launch of paid subscriptions or an autonomous research service.
 
 The application 1.3.2 radar now has a dedicated [implementation contract](AI_RADAR.md). It supersedes the former radar route described in the 1.1.0 delivery; other portal services retain their boundaries below.
 
@@ -10,8 +10,8 @@ The application 1.3.2 radar now has a dedicated [implementation contract](AI_RAD
 | --- | --- |
 | `#overview` (default without a fragment) | Multilayer atlas, map/globe, sourced events, compact overview and pulse; two-screen catalog/wire |
 | `#radar` | Two task-oriented lenses, 160 sourced candidates, separately simulated rings, evidence, comparison, local watch and trial export |
-| `#ecosystem` | Same-platform, same-month OpenDigger rankings, 12-month trend, metric evidence and project stars |
-| `#briefing` | Public sample brief, proposed Open/Pro comparison, local topic/cadence preferences and Markdown export |
+| `#ecosystem` | Open Galaxy: code/model networks, task discovery, evidence paths and local reports; see [contract](OPEN_GALAXY.md) |
+| `#briefing` | Agent Intelligence Room product prototype: scripted research, local following rules and review export; previous sample and preferences retained |
 | `#following` | Locally followed radar candidates, plus selected topics, saved signals and exactly linked watched repositories |
 | `#contribute` | Research and support participation, actual issue links, no invented contributor or sponsor roster |
 
@@ -66,3 +66,7 @@ Continue existing reliability, editorial pagination and monthly geography tasks 
 - `npm run test:portal:ui` covers current product routing/local preferences and the dedicated radar suite (selection, comparisons, export, theme/language, mobile and independent radar-file failures). Historical portal fixture tests do not establish atlas startup recovery.
 - Existing observatory suite retains map/globe/wire, camera, draft, source, layout and branding acceptance. Legacy UI suites remain enabled.
 - Follow [REVIEW](REVIEW.md) for manual review and [STATUS](STATUS.md) for dated verification evidence. Test source is not evidence that a test was run; actual results belong to the delivery issue.
+
+## Agent Intelligence Room product prototype
+
+The subscription entry now hosts a product-review framework, not a live service. Its independent fictional scenarios, manual research walkthrough, local storage and future implementation gates are specified in [AGENT_ROOM.md](AGENT_ROOM.md). Existing sample and topic preferences remain accessible in the expandable legacy tools section. This does not complete #15–#18.

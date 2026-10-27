@@ -58,6 +58,7 @@ Discovery context, not an authorization grant. People submit needs through issue
 - [1.6.0 published milestone](https://raw.githubusercontent.com/X-lab2017/open-dipper/main/docs/releases/1.6.0.md): Verified release receipts, full-domain versus preview scope, process disclosure and participation
 - [Current screenshots and archived originals](https://raw.githubusercontent.com/X-lab2017/open-dipper/main/docs/assets/README.md): Production captures, compression, fingerprints and historical recovery
 - [Promotional film source and claims](https://raw.githubusercontent.com/X-lab2017/open-dipper/main/media/promo/README.md): Reproducible 50-second film, storyboard, factual scope and AI disclosure
+- [Agent Intelligence Room prototype](https://raw.githubusercontent.com/X-lab2017/open-dipper/main/docs/AGENT_ROOM.md): Product validation, scripted simulation boundaries and future research/following service gates; not a live Agent service
 
 ## Machine context
 

@@ -236,6 +236,12 @@
       "path": "media/promo/README.md",
       "title": "Promotional film source and claims",
       "purpose": "Reproducible 50-second film, storyboard, factual scope and AI disclosure"
+    },
+    {
+      "path": "docs/AGENT_ROOM.md",
+      "title": "Agent Intelligence Room prototype",
+      "purpose": "Product validation, scripted simulation boundaries and future research/following service gates; not a live Agent service",
+      "language": "zh-CN/en"
     }
   ],
   "tasks": {

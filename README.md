@@ -186,3 +186,5 @@ AI agents contributed implementation, visual iterations and repository maintenan
 OpenDipper is independently implemented. Spatial interaction references [world-monitor.com](https://world-monitor.com/); engineering references include the separate [koala73/worldmonitor](https://github.com/koala73/worldmonitor) project. Source and brand notices remain in the repository.
 
 **License decision remains open:** a root application LICENSE has not been selected. Application code, datasets, maps and brand assets have separate rights; public visibility is not a blanket license. See [rights](docs/RIGHTS.md) and [decision #6](https://github.com/X-lab2017/open-dipper/issues/6). For sensitive reports, follow [SECURITY.md](SECURITY.md).
+
+**Product review:** [Agent Intelligence Room](docs/AGENT_ROOM.md) combines scripted research and local following in a prototype. No live Agent or delivery service is launched.
