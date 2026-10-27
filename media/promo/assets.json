@@ -1,0 +1,59 @@
+{
+  "applicationVersion": "1.15.1",
+  "sourceCommit": "c20b1dc4b2b041637fa0a02f83dcfbd2aa6ac1ab",
+  "mergeCommit": "b25e40a0684ca9663fadb592bd43a4edafd3eb31",
+  "ciRun": 40529392907,
+  "artifactId": 12746355300,
+  "capturedAt": "2026-10-27",
+  "method": "Chromium acceptance screenshots from the exact reviewed release source; JPEG compression only. Not a manual live-site capture. Screenshot date is not the data observation date.",
+  "assets": [
+    {
+      "path": "media/promo/assets/atlas-dark.jpg",
+      "source": "navigation-overview.png",
+      "width": 1366,
+      "height": 900,
+      "bytes": 248876,
+      "sha256": "7ab8dc7267394331094090045db61b671749443d96322200ad182ff6827a4512"
+    },
+    {
+      "path": "media/promo/assets/atlas-light.jpg",
+      "source": "workbench-light-zh-1440x900.png",
+      "width": 1440,
+      "height": 900,
+      "bytes": 258769,
+      "sha256": "54e8d7a8b3cec1a6712c7c97be60bf61e42fe130dcbedd73d9b8c29e5a283106"
+    },
+    {
+      "path": "media/promo/assets/galaxy-dark.jpg",
+      "source": "navigation-ecosystem.png",
+      "width": 1366,
+      "height": 900,
+      "bytes": 247357,
+      "sha256": "83fa148643a5eb9e12d42dd97b6cc1e44509d45307497f17750219c53cb1819f"
+    },
+    {
+      "path": "media/promo/assets/reading.jpg",
+      "source": "navigation-briefing.png",
+      "width": 1366,
+      "height": 900,
+      "bytes": 170616,
+      "sha256": "562b5b6f516d27c7c25e7885a75de36df1b71382936e4df4d94073423144a835"
+    },
+    {
+      "path": "media/promo/assets/report.jpg",
+      "source": "deep-research-report-dark.png",
+      "width": 1366,
+      "height": 768,
+      "bytes": 170832,
+      "sha256": "449301ebfe14ce21411a89a967177548d7a2e26543bd463c1aa463433c21ed33"
+    },
+    {
+      "path": "media/promo/assets/community.jpg",
+      "source": "navigation-contribute.png",
+      "width": 1366,
+      "height": 900,
+      "bytes": 135391,
+      "sha256": "22c9a5d039347fa1eaff70b37dc63c000b6f75af91b88d5f1d1491522e0609d9"
+    }
+  ]
+}

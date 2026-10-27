@@ -1,0 +1,59 @@
+{
+  "state": "passed",
+  "checkedAt": "2026-10-27",
+  "method": "AI-assisted representative-frame visual review plus complete ffmpeg video/audio decode; not independent human acceptance.",
+  "video": {
+    "file": "OpenDipper-Promo-v2-1080p.mp4",
+    "bytes": 13558764,
+    "sha256": "091295601ee69ad4c8c96d4121adbceee5bbd3f23471949f96df619656d4087b",
+    "durationSeconds": 50,
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "frames": 1500,
+    "videoCodec": "h264",
+    "audioCodec": "aac",
+    "audioSampleRate": 48000,
+    "audioChannels": 2,
+    "integratedLoudnessLUFS": -15.6,
+    "truePeakDBFS": -1.7
+  },
+  "visualReview": {
+    "scenes": 8,
+    "representativeTimes": [
+      2.6,
+      6.5,
+      11.2,
+      19.2,
+      27.8,
+      35.4,
+      41.0,
+      47.0
+    ],
+    "additionalThemeTimes": [
+      13,
+      25
+    ],
+    "inspected": [
+      "readable figures and source qualifiers",
+      "official brand proportions",
+      "Chinese glyphs",
+      "both production themes",
+      "five tour labels",
+      "image panels contain full selected crop without edge clipping",
+      "CTA and safe areas"
+    ]
+  },
+  "sourceChecks": [
+    "headline values equal pinned dashboard upstream summary",
+    "source update date matches",
+    "simulated and projected quantities excluded from headline claims",
+    "7 image hashes and byte budgets match; 18 archived originals are byte-exact recoverable"
+  ],
+  "sourceFiles": {
+    "render.py": "706f8936ddcb67d6a0d47def911482a066a9bb90ac417474f3817153c3c1d3f5",
+    "facts.json": "8e4312ac0a61e64c2cc9c992ff323546b13372c5738a808cc58dca5758ab565e",
+    "captions.srt": "777dbd2581e3cb3a7e8704108482f44f3971fc81b24e196bf3d8c179b3d6bf21",
+    "requirements.txt": "1feb00331073ece739298a03fd594537e94413bae63a34c0fc2b0e0f281c6652"
+  }
+}

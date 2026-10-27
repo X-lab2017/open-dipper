@@ -4,7 +4,7 @@
 
 **1.6.0 已上线。** 紧凑三栏、地图取景、明暗体系与五站“环球巡航”已交付；默认打开活跃开发者，随后为企业、标杆项目、模型资产、会议与活动，模块名统一为“开源星系”。[里程碑与过程披露](releases/1.6.0.md) 汇总实际发布、数据边界和参与入口；[线上体验](https://www.x-lab.info/open-dipper/)反馈集中在 [#35](https://github.com/X-lab2017/open-dipper/issues/35)。
 
-1.15.1 统一五模块导航与上下文工具槽，修复星系→情报室位移；保留窄屏导航滚动，切换模块回到顶部并定位键盘焦点，清理重复入口和旧模块称呼。[过程与验收](releases/1.15.1.md)；实际发布以 PR / Actions 为准。
+1.15.1 统一五模块导航与上下文工具槽，修复星系→情报室位移；保留窄屏导航滚动，切换模块回到顶部并定位键盘焦点，清理重复入口和旧模块称呼。[过程与验收](releases/1.15.1.md)；已由 [PR #51](https://github.com/X-lab2017/open-dipper/pull/51) 合并，[Pages 40529952243](https://github.com/X-lab2017/open-dipper/actions/runs/40529952243) 构建、浏览器验收与部署成功。
 
 ## 阶段收尾：情报浏览 → 知识整理 → 深度研究
 
@@ -81,3 +81,7 @@
 第一次参与可从 [#12 来源目录](https://github.com/X-lab2017/open-dipper/issues/12)、[#13 双语术语](https://github.com/X-lab2017/open-dipper/issues/13)、[#19 来源与样刊材料](https://github.com/X-lab2017/open-dipper/issues/19) 开始。先查看负责人、评论和关联 PR，再说明准备贡献的范围。
 
 工程优先级和阶段门槛以[路线图](../ROADMAP.zh-CN.md)及 [#8](https://github.com/X-lab2017/open-dipper/issues/8) 为准。Agent 从 [AGENTS.md](../AGENTS.md) 进入，再按 [任务索引](CONTEXT.json) 只读取相关契约；历史提案与完成计划不属于默认上下文。
+
+## 五模块宣传片
+
+OpenDipper-Promo v3 基于已发布 1.15.1，60 秒涵盖五模块与 vLLM / SGLang 编辑案例。全域数据基础与当前雷达收录量分列，DSH 待接入状态保留。脚本、压缩素材、字幕、来源与验证见 [宣传片说明](../media/promo/README.md)；MP4 与源包作为文件交付，不提交大型视频到 Git。
