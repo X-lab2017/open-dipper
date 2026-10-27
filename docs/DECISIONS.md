@@ -90,3 +90,8 @@ Keep the compact structure accepted in PR #37. The default now opens Active deve
 ## 2026-10-27 — Browse-first, typed evidence library
 
 Promote Agent Room to the public Pages client, retaining research/following as explicit local prototypes. Eight forms and six topic facets organize a bounded source index. Use canonical object URLs and provenance-bearing `describes`/`references` links, not guessed semantic edges. Preserve publication/capture/observation clocks and last-good collection with visible failures. This supersedes the private-only delivery gate of the Agent Room prototype. See [library contract](INTELLIGENCE_LIBRARY.md).
+
+
+## 2026-10-27 — Visual lenses over one evidence collection
+
+Use original SVG temporal facets, primary-topic radial bands and manual thematic stops. Preserve one category/feed/research structure. Chart selection is exact membership, not semantic event merging; default last-30-days is relative to the loaded archive. Capture clocks remain distinct from publication and observation. No external toolkit runtime, generated commentary or new collector automation. See [library contract](INTELLIGENCE_LIBRARY.md) and [execution plan](plans/intelligence-visual-lenses.md).
