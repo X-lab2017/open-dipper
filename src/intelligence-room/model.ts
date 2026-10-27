@@ -1,5 +1,5 @@
 export type Copy=[string,string];
-export type Material={id:string;kind:'data'|'news'|'paper'|'community'|'blog'|'social'|'video'|'conference'|'event';provenance:'snapshot'|'source'|'demo';date:string;captured:string;title:Copy;summary:Copy;source:string;url:string;objects:string[];period?:Copy;value?:string;series?:number[];page?:'overview'|'radar'|'ecosystem';topics?:string[];entityUrls?:string[];sourceUrl?:string;publishedAt?:string|null;dateBasis?:string;modality?:string;verification?:string};
+export type Material={id:string;kind:'data'|'news'|'paper'|'community'|'blog'|'social'|'video'|'conference'|'event';provenance:'snapshot'|'source'|'demo';date:string;captured:string;title:Copy;summary:Copy;source:string;url:string;objects:string[];period?:Copy;value?:string;series?:number[];page?:'overview'|'radar'|'ecosystem';topics?:string[];entityTypes?:string[];entityUrls?:string[];sourceUrl?:string;publishedAt?:string|null;dateBasis?:string;modality?:string;verification?:string};
 export const fixtureDate='2026-10-27';
 export const demoMaterials:Material[]=[
  ['aurora-release','2026-10-27','news','Aurora','批处理接口更新，迁移成本值得重新评估','Batching API changes: reconsider migration costs','发布说明提到新接口；性能收益仍需独立验证。','The release describes a new API; benefits need independent verification.'],

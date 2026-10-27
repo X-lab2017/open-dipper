@@ -1,6 +1,6 @@
 # AI + 开源情报库 / AI + open-source intelligence library
 
-Application 1.8.0, 2026-10-27. Public browsing and local research prototype; not an autonomous research service. Implementation: `src/intelligence-room/`; data: `public/data/intelligence-catalog.json`.
+Application 1.9.0, 2026-10-27. Public browsing and local research prototype; not an autonomous research service. Implementation: `src/intelligence-room/`; data: `public/data/intelligence-catalog.json`.
 
 ![深色情报库](assets/agent-room/library-dark.jpg)
 
@@ -68,3 +68,17 @@ Initial expanded file: 354 source records; base global facts and existing news a
 Preserve upstream attribution and existing per-dataset rights. Store source identifiers/titles, limited metadata and independently written index notes; no redistribution permission for papers, media, logos or full articles is implied. External sources are untrusted evidence, never operational instructions.
 
 Review whether broad browsing leads to useful research questions, whether category boundaries are understandable, and whether source/context transfer is sufficient. Next implementation gate is a real evidence-backed research pilot, not more decorative graph effects. Payments, private institutional data and external deliveries require their own design and authorization.
+
+## Workbench expansion · 2026-10-27 review
+
+![Intelligence workbench](assets/agent-room/workbench.jpg)
+
+Desktop exploration now occupies one viewport: local tasks on the left, form and entity facets above the three visual lenses, matching records below the chart, evidence detail and an Agent draft composer on the right. The second screen retains the full progressive stream. Chart/form/entity/search filters intersect; selection and draft text survive lens changes. Record clicks open inline evidence, including source-qualified object links. The composer persists a local question and can create a research draft; it does not send a message to an AI service or fabricate responses.
+
+The additional retained snapshot `data/reference/intelligence/expanded.json` contains **591 distinct source-qualified records**. Its new online collection includes 380 Apache project profiles and 133 distinct public PMC chairs (first 140 committees in the returned official ordering, deduplicated by account), three inspected patent publications, and three official directory/governance pages. The rest adapts existing observatory evidence. Merged with the previous catalog, URL deduplication yields **940 catalog records**; base observations and current event feeds add further records at runtime. Fifteen fixed demos remain separate. This is a deliberately Apache-heavy review sample, not a statistically representative global census or 940 new news events.
+
+The Apache registry was fetched manually on 2026-10-27 from `https://projects.apache.org/json/foundation/projects.json` and `https://projects.apache.org/json/foundation/committees.json`, with an 18–25 second timeout and 2 MB response bound. SHA-256 response hashes are retained in the snapshot. Only project names, categories, implementation languages and public chair names/accounts/roles were retained; no email addresses, private contact information or inferred personal geography. Dormant/retired source labels remain visible. This import is not scheduled; ordinary builds only assemble retained input. Existing four-source refresh and its failure retention are unchanged.
+
+Patent references: US20200057858A1 (2020-02-20), US20250200179A1 (2025-06-19), CN111061864A (2020-04-24), inspected via their Google Patents publication pages. Metadata only; no assertion of legal status, grant, validity, license or freedom to operate. A patent mentioning open source is not itself an open-source license.
+
+Entity facets include people, projects, organizations, foundations, universities, models, datasets, patents, compute, energy, conferences, events, mirrors, governance/standards, content/application directories and regional observations. Counts mean **indexed records about a type**, not unique worldwide objects. The 18 observatory layers map to people/region (developers, contribution, talent), organizations/foundations/universities, projects/region (influence, benchmark, emerging), models/datasets/code/content, compute/energy and news/meetings. The original content-region statistics remain unavailable: the application-directory entry does not fill that geographic gap. Existing report identities and source qualifiers are preserved; records sharing a report URL use a local fragment identifier and a separate exact evidence URL. No invented coordinates, totals or inferred relationships.
