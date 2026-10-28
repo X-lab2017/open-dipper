@@ -1,8 +1,46 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-28T14:32:11.282724Z",
+  "generatedAt": "2026-10-28T19:53:48.804995Z",
   "retentionDays": 90,
   "events": [
+    {
+      "id": "073bc027b25d4ba6cfbd",
+      "title": "VS Code · 1.144.0",
+      "summary": "https://code.visualstudio.com/updates/v1_144",
+      "category": "release",
+      "severity": "info",
+      "occurredAt": "2026-10-28T18:51:38Z",
+      "collectedAt": "2026-10-28T19:53:45.340109Z",
+      "source": "VS Code",
+      "sourceId": "release-vscode",
+      "sourceUrl": "https://github.com/microsoft/vscode/releases/tag/1.144.0",
+      "repository": "microsoft/vscode",
+      "provenance": "automatic",
+      "location": null,
+      "reviewStatus": "source-published",
+      "tags": [
+        "VS Code"
+      ]
+    },
+    {
+      "id": "5b8b12525ad43ea9a68a",
+      "title": "PyTorch · PyTorch 2.15.0 Release",
+      "summary": "# PyTorch 2.15.0 Release Notes - [Highlights](#highlights) - [Backwards Incompatible Changes](#backwards-incompatible-changes) - [Deprecations](#deprecations) - [New Features](#new-features) - [Improvements](#improvements) - [Bug fixes](#bug-fixes) - [Performance](#performance) - [Documentation](#documentation) - [Security](#security) - [Developers](#developers) # Highlights Rewritten NCCL backend becomes the default , with a flight recorder that",
+      "category": "release",
+      "severity": "info",
+      "occurredAt": "2026-10-28T17:09:49Z",
+      "collectedAt": "2026-10-28T19:53:44.032992Z",
+      "source": "PyTorch",
+      "sourceId": "release-pytorch",
+      "sourceUrl": "https://github.com/pytorch/pytorch/releases/tag/v2.15.0",
+      "repository": "pytorch/pytorch",
+      "provenance": "automatic",
+      "location": null,
+      "reviewStatus": "source-published",
+      "tags": [
+        "PyTorch"
+      ]
+    },
     {
       "id": "581cfd5a7357843f8593",
       "title": "Kubernetes · v1.36.6",
@@ -1131,8 +1169,8 @@
       "name": "Kubernetes",
       "url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-10-28T14:32:05.938314Z",
-      "lastSuccess": "2026-10-28T14:32:06.336144Z",
+      "lastAttempt": "2026-10-28T19:53:42.912152Z",
+      "lastSuccess": "2026-10-28T19:53:43.341949Z",
       "count": 7,
       "status": "ok"
     },
@@ -1141,8 +1179,8 @@
       "name": "PyTorch",
       "url": "https://api.github.com/repos/pytorch/pytorch/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-10-28T14:32:06.486303Z",
-      "lastSuccess": "2026-10-28T14:32:06.937335Z",
+      "lastAttempt": "2026-10-28T19:53:43.492072Z",
+      "lastSuccess": "2026-10-28T19:53:44.045983Z",
       "count": 10,
       "status": "ok"
     },
@@ -1151,8 +1189,8 @@
       "name": "vLLM",
       "url": "https://api.github.com/repos/vllm-project/vllm/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-10-28T14:32:07.087485Z",
-      "lastSuccess": "2026-10-28T14:32:07.688531Z",
+      "lastAttempt": "2026-10-28T19:53:44.196128Z",
+      "lastSuccess": "2026-10-28T19:53:44.782939Z",
       "count": 10,
       "status": "ok"
     },
@@ -1161,8 +1199,8 @@
       "name": "VS Code",
       "url": "https://api.github.com/repos/microsoft/vscode/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-10-28T14:32:07.838670Z",
-      "lastSuccess": "2026-10-28T14:32:08.170205Z",
+      "lastAttempt": "2026-10-28T19:53:44.933083Z",
+      "lastSuccess": "2026-10-28T19:53:45.340277Z",
       "count": 10,
       "status": "ok"
     },
@@ -1171,8 +1209,8 @@
       "name": "Rust",
       "url": "https://api.github.com/repos/rust-lang/rust/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-10-28T14:32:08.320342Z",
-      "lastSuccess": "2026-10-28T14:32:08.712747Z",
+      "lastAttempt": "2026-10-28T19:53:45.490422Z",
+      "lastSuccess": "2026-10-28T19:53:45.949442Z",
       "count": 10,
       "status": "ok"
     },
@@ -1181,8 +1219,8 @@
       "name": "DuckDB",
       "url": "https://api.github.com/repos/duckdb/duckdb/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-10-28T14:32:08.862856Z",
-      "lastSuccess": "2026-10-28T14:32:09.470879Z",
+      "lastAttempt": "2026-10-28T19:53:46.099600Z",
+      "lastSuccess": "2026-10-28T19:53:46.802857Z",
       "count": 10,
       "status": "ok"
     },
@@ -1191,8 +1229,8 @@
       "name": "OpenSSF",
       "url": "https://openssf.org/feed/",
       "kind": "rss",
-      "lastAttempt": "2026-10-28T14:32:09.621031Z",
-      "lastSuccess": "2026-10-28T14:32:10.381943Z",
+      "lastAttempt": "2026-10-28T19:53:46.952999Z",
+      "lastSuccess": "2026-10-28T19:53:47.828139Z",
       "count": 10,
       "status": "ok"
     },
@@ -1201,8 +1239,8 @@
       "name": "CNCF",
       "url": "https://www.cncf.io/feed/",
       "kind": "rss",
-      "lastAttempt": "2026-10-28T14:32:10.532080Z",
-      "lastSuccess": "2026-10-28T14:32:10.680502Z",
+      "lastAttempt": "2026-10-28T19:53:47.978286Z",
+      "lastSuccess": "2026-10-28T19:53:48.248125Z",
       "count": 10,
       "status": "ok"
     },
@@ -1211,8 +1249,8 @@
       "name": "OpenDipper 编辑录入",
       "url": "https://api.github.com/repos/X-lab2017/open-dipper/issues?labels=event-approved&state=open&per_page=100",
       "kind": "github-issues",
-      "lastAttempt": "2026-10-28T14:32:10.830658Z",
-      "lastSuccess": "2026-10-28T14:32:11.132062Z",
+      "lastAttempt": "2026-10-28T19:53:48.398271Z",
+      "lastSuccess": "2026-10-28T19:53:48.654416Z",
       "count": 0,
       "status": "ok"
     }
