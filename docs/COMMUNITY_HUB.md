@@ -33,3 +33,18 @@
 ## English handoff
 
 Community is an About-style narrative: mission, an animated four-module concept illustration, public values, a candid roadmap, contribution invitations and project disclosures. It replaces the previous task-form interface. Existing routes and other module state remain intact. SVG/CSS motion can be paused, stops offscreen/when hidden and respects reduced motion. The illustration is conceptual; DSH runtime, shared workspaces and notifications are not presented as deployed capabilities. Participation links lead to GitHub without automatically posting or reading private notebook content.
+
+## 1.16.0 · 里程碑事件
+
+维护者在愿景区原操作行要求增加并列入口。现提供“认识北斗 / 里程碑事件”两个视图，保留愿景、共建按钮和 GitHub 入口；切换只替换下方内容，不移动五模块主导航。直接入口为 `#contribute?view=milestones`，刷新可恢复；同会话主题/语言切换保留当前视图。认识北斗仍默认展示原项目介绍，参与按钮可从里程碑返回介绍并定位共建区。
+
+时间线首版精选 17 个仓库事件：初始提交、全景原型、观测站重构、共建路线、多层 Atlas、AI 雷达、开源星系、试用反馈、环球巡航、情报库、专注阅读、知识空间、研究报告、共建介绍、五模块联动、宣传片与第一版收尾。来源逐条核对 GitHub commit、PR `merged_at` 或 issue `created_at`。显示北京时间（Asia/Shanghai），明确“提交 / 合并 / 议题建立”；部署链接独立，合并时间不冒充上线时间。
+
+- 上方光轨与星点用于按事件顺序定位，等间距不编码时间长度；下方按真实日期分组、顺序展示完整事件和证据。
+- 星点、日期按钮可键盘操作，跳转后焦点进入目标记录。双视图支持左右方向键及 Home/End。
+- 光轨、呼吸星点和节点晕圈为装饰动画，可手动暂停；系统减少动态实时生效，页面隐藏、离开可见区域或模块时暂停/清理。
+- `src/community/milestones.ts` 为唯一编辑目录；`timeline.ts` / `timeline.css` 负责渲染和交互。无运行时 GitHub 请求、用户追踪或新增依赖。
+- 新事件需明确事件类型、UTC 时间、双语标题/摘要和本仓库证据路径，按时间插入；不把计划、未合并 PR、Star 增长或未经验证的上线写成完成事实。
+- 本轮没有把“里程碑页面自身上线”预先加入历史。后续交付后可凭实际合入/部署证据补入。
+
+验证由 `tests/milestones.test.mjs` 核对顺序、唯一 ID、证据路径和跨日时区；`tests/milestones-ui.mjs` 覆盖视图切换、导航坐标、深链刷新、日期/星点跳转、焦点、暂停、动态减少、中英明暗及手机布局。最终合入与部署回执见本轮 PR；构建通过不替代 Pages 发布成功。

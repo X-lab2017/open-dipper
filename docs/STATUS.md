@@ -1,10 +1,12 @@
 # 当前状态 / Current status
 
-核对日期：**2026-10-28（北京时间）**。**第一版五模块产品交互与宣传片已完成交付**；应用仍为 **1.15.1**，视觉 tokens **1.4.0**，地图／雷达固定基线 **1.3.2**，品牌 **1.1.0**。第一版收尾是产品里程碑，不新建版本号、tag 或 GitHub Release，也不代表全域数据、真实 Agent 服务或所有 issue 已完成。
+核对日期：**2026-10-28（北京时间）**。**第一版五模块产品交互与宣传片已完成交付**；当前工作版本为 **1.16.0**（本轮发布结果以 PR / Actions 为准），视觉 tokens **1.4.0**，地图／雷达固定基线 **1.3.2**，品牌 **1.1.0**。第一版收尾是产品里程碑，不新建版本号、tag 或 GitHub Release，也不代表全域数据、真实 Agent 服务或所有 issue 已完成。
 
 [第一版交付与过程记录](releases/first-edition.md) · [在线体验](https://www.x-lab.info/open-dipper/) · [体验反馈 #35](https://github.com/X-lab2017/open-dipper/issues/35) · [开发与验证](DEVELOPMENT.md)
 
 最新已核验发布：[PR #53](https://github.com/X-lab2017/open-dipper/pull/53) 合并；[Pages 40596411391](https://github.com/X-lab2017/open-dipper/actions/runs/40596411391) 成功。五模块导航联动由 [PR #51](https://github.com/X-lab2017/open-dipper/pull/51) 交付。后续提交与任务状态以实时 Actions / issue / PR 为准，数据新鲜度看各快照的观察期与采集时间。
+
+1.16.0 在共建社区加入并列里程碑视图，17 个可回查的仓库事件、动态光轨与日期跳转；原项目介绍保留。[实现与验收计划](plans/community-milestones.md)。
 
 ## 当前能做什么
 
@@ -15,7 +17,7 @@
 | 统一展示 | 双语品牌、明暗模式、一/两屏；地图全屏、雷达展开及返回；移动端自然流、键盘和减少动态效果 | [复用基线](../design/baselines/observatory-radar-1.3.2.md) |
 | 开源星系 | 19,771 个代码仓库 + 24,000 个模型/数据集/应用节点；记录与推断分离；任务搜索、3 项清单、3 跳内路径、月度证据与报告导出 | [星系契约](OPEN_GALAXY.md) |
 | Agent 情报室 | 情报浏览、知识整理、深度研究与报告交付；vLLM/SGLang 编辑案例；本机保存，DSH 运行待部署 | [当前流程](INTELLIGENCE_WORKFLOW.md) · [知识契约](RESEARCH_SPACE.md) |
-| 共建社区 | 项目愿景、四模块概念动态图、路线与参与入口；可暂停，尊重减少动态设置 | [共建契约](COMMUNITY_HUB.md) |
+| 共建社区 | 项目愿景、四模块概念动态图、路线与参与入口、仓库里程碑时间线；可暂停，尊重减少动态设置 | [共建契约](COMMUNITY_HUB.md) |
 | 数据与发布 | 固定版本来源摘录、OpenDigger 月度样本、官方事件采集与独立人工审核，静态快照与 Pages | [数据契约](DATA_CONTRACTS.md) · [运维](OPERATIONS.md) |
 | 仓库协作 | 双语入口、需求/缺陷/纠错/体验/事件表单、Agent 上下文、PR 验收与交接 | [贡献指南](../CONTRIBUTING.zh-CN.md) · [Harness](HARNESS.md) |
 
