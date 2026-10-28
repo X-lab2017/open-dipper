@@ -1,10 +1,10 @@
 # 当前状态 / Current status
 
-核对日期：**2026-10-28（北京时间）**。**第一版五模块产品交互与宣传片已完成交付**；当前工作版本为 **1.18.0**（本轮发布结果以 PR / Actions 为准），视觉 tokens **1.4.1**，地图／雷达固定基线 **1.3.2**，品牌 **1.1.0**。第一版收尾是产品里程碑，不新建版本号、tag 或 GitHub Release，也不代表全域数据、真实 Agent 服务或所有 issue 已完成。
+核对日期：**2026-10-28（北京时间）**。**第一版五模块产品交互与宣传片已完成交付**；当前工作版本为 **1.19.0**（本轮发布结果以 PR / Actions 为准），视觉 tokens **1.4.1**，地图／雷达固定基线 **1.3.2**，品牌 **1.1.0**。第一版收尾是产品里程碑，不新建版本号、tag 或 GitHub Release，也不代表全域数据、真实 Agent 服务或所有 issue 已完成。
 
 [第一版交付与过程记录](releases/first-edition.md) · [在线体验](https://www.x-lab.info/open-dipper/) · [体验反馈 #35](https://github.com/X-lab2017/open-dipper/issues/35) · [开发与验证](DEVELOPMENT.md)
 
-最新已核验发布：[PR #58](https://github.com/X-lab2017/open-dipper/pull/58) 合并；[Pages 40646063196](https://github.com/X-lab2017/open-dipper/actions/runs/40646063196) 成功。五模块导航联动由 [PR #51](https://github.com/X-lab2017/open-dipper/pull/51) 交付。后续提交与任务状态以实时 Actions / issue / PR 为准，数据新鲜度看各快照的观察期与采集时间。
+最新已核验发布：[PR #59](https://github.com/X-lab2017/open-dipper/pull/59) 合并；[Pages 40651398322](https://github.com/X-lab2017/open-dipper/actions/runs/40651398322) 成功。五模块导航联动由 [PR #51](https://github.com/X-lab2017/open-dipper/pull/51) 交付。后续提交与任务状态以实时 Actions / issue / PR 为准，数据新鲜度看各快照的观察期与采集时间。
 
 1.16.0 在共建社区加入并列里程碑视图，17 个可回查的仓库事件、动态光轨与日期跳转；原项目介绍保留。[实现与验收计划](plans/community-milestones.md)。
 
@@ -54,3 +54,5 @@ OpenDipper-Promo v4 基于已发布 1.15.1，58 秒全深色画面，先总览�
 1.17.1 将会议分类改为“学术会议 → A/B/C 类”和并列“社区活动”，默认 A+B，地图与列表同步多选；部署以本轮 PR / Actions 为准。
 
 1.18.0 将会议目录接入左侧图层树：学术会议 → A/B/C → 具体会议，社区活动并列；与右侧信息卡、地图双向联动。实体符号采用跨 SVG/Canvas 共用的圆形徽标及内部图形，配对色升级至 1.4.1。验证与上线回执以本轮 PR / Actions 为准。
+
+1.19.0 补充 Open Source Deadlines / Linux Foundation 社区活动：去重后 179 条，与学术 392 条合计 571 条。社区四类多层目录、来源/形式筛选、原始节点与冲突提示，并保留每日失败回滚。后续沿用的经验见 [交互模式](INTERACTION_PATTERNS.md)；本轮 CI/Pages 以实现 PR 回执为准。

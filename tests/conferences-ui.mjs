@@ -12,5 +12,31 @@ await page.locator('.conf-record').first().click();await expect(page.locator('.e
 await page.locator('#conf-fold-meetings').click();await expect(page.locator('.conference-directory')).toHaveCount(0);await expect(page.locator('.conference-summary>b')).toHaveText(initialCount);await page.locator('#conf-fold-meetings').click();
 await fs.mkdir('screenshots',{recursive:true});await page.screenshot({path:'screenshots/conferences-dark.png'});
 await page.locator('[data-conf-filter="time"]').selectOption('all');await page.locator('[data-conf-category="B"]').uncheck();await page.locator('[data-conf-filter="query"]').fill('ACL');await page.locator('[data-conference="huiban-411"]').click();await expect(page.getByRole('dialog')).toContainText(snapshot.records.find(r=>r.id==='huiban-411').startsAt);await expect(page.locator('#locate-entity')).toBeDisabled();await page.keyboard.press('Escape');
-await page.locator('[data-conf-reset]').click();await page.locator('[data-conf-category="academic"]').uncheck();await expect(page.locator('#conf-tree-academic')).not.toBeChecked();await expect(page.locator('.conference-row')).toHaveCount(2);await page.locator('[data-conf-reset]').click();await page.locator('[data-conf-filter="query"]').fill('no-such-conference');await expect(page.locator('.conference-empty')).toBeVisible();await page.locator('[data-conf-reset]').click();
+await page.locator('[data-conf-reset]').click();await page.locator('[data-conf-category="academic"]').uncheck();await expect(page.locator('#conf-tree-academic')).not.toBeChecked();await expect(page.locator('.conference-row')).toHaveCount(Math.min(40,snapshot.records.filter(r=>r.kind==='community').length));await page.locator('[data-conf-reset]').click();await page.locator('[data-conf-filter="query"]').fill('no-such-conference');await expect(page.locator('.conference-empty')).toBeVisible();await page.locator('[data-conf-reset]').click();
+// New four-level community directory, source/format filters and original timeline.
+await page.locator('[data-conf-category="academic"]').uncheck();
+await page.locator('#conf-fold-community').click();
+await expect(page.locator('#conf-tree-community-program')).toBeVisible();
+await page.locator('#conf-tree-community-program').uncheck();
+await expect(page.locator('[data-conf-category="community-program"]')).not.toBeChecked();
+expect(await page.locator('[data-conf-category="community"]').evaluate(el=>el.indeterminate)).toBe(true);
+await page.locator('#conf-tree-community-program').check();
+await page.locator('#conf-fold-community-meetup').click();
+await expect(page.locator('#conf-branch-community-meetup .conf-record').first()).toBeVisible();
+await page.screenshot({path:'screenshots/community-events-dark.png'});
+await page.locator('.conference-advanced').evaluate(el=>el.open=true);
+await page.locator('[data-conf-filter="source"]').selectOption('lf');
+await page.locator('[data-conf-filter="mode"]').selectOption('online');
+await page.locator('[data-latest-tab="meetings"]').click();await page.locator('[data-meeting]').first().click();await expect(page.locator('#locate-entity')).toBeDisabled();await page.keyboard.press('Escape');
+const virtual=snapshot.records.filter(r=>r.sourceKey==='lf'&&r.mode==='online');
+await expect(page.locator('.conference-row')).toHaveCount(virtual.length);
+await page.locator('.conference-row').first().click();await expect(page.locator('#locate-entity')).toBeDisabled();await expect(page.getByRole('dialog')).toContainText('线上');await page.keyboard.press('Escape');
+await page.locator('[data-conf-reset]').click();
+const historical=snapshot.records.find(r=>r.sourceKey==='osd'&&r.milestones?.length&&r.startsAt?.startsWith('2025'));
+await page.locator('[data-conf-filter="query"]').fill(historical.name);
+await page.locator(`[data-conference="${historical.id}"]`).click();
+await expect(page.getByRole('dialog')).toContainText(historical.dateLabel);
+await expect(page.locator('.conference-milestones')).toContainText(historical.milestones[0].label);
+await page.screenshot({path:'screenshots/community-event-timeline.png'});
+await page.keyboard.press('Escape');await page.locator('[data-conf-reset]').click();
 await page.locator('#theme-toggle').click();await page.locator('#language-toggle').click();await expect(page.locator('.conference-summary')).toContainText('conferences & events');await page.screenshot({path:'screenshots/conferences-light-en.png'});await page.locator('[data-conf-filter="query"]').fill('AAAI');await page.locator('[data-conference="huiban-408"]').click();await expect(page.locator('#locate-entity')).toBeEnabled();await page.locator('#locate-entity').click();await expect(page.locator('#earth')).toBeVisible();await page.locator('[data-back-layer="meetings"]').click();await expect(page.locator('[data-conf-filter="region"]')).toHaveValue('CAN');await expect(page.locator('.conference-row')).toHaveCount(1);await page.setViewportSize({width:390,height:844});await page.locator('[data-mobile="overview"]').click();await expect(page.locator('[data-conference-browser]')).toBeVisible();expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1)).toBe(true);await page.screenshot({path:'screenshots/conferences-mobile.png'});await page.locator('[data-mobile="layers"]').click();await expect(page.locator('#conf-tree-A')).toBeVisible();await page.locator('#conf-fold-A').click();await page.locator('#conf-fold-A').click();await page.screenshot({path:'screenshots/conferences-tree-mobile.png',fullPage:true});await page.locator('.conf-record').first().click();await expect(page.locator('.entity-title')).toBeVisible();expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1)).toBe(true);expect(errors).toEqual([]);console.log('Conference filters, provenance, unlocated detail, map location, themes and mobile passed');}finally{await browser.close();}

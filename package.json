@@ -1,6 +1,6 @@
 {
   "name": "open-dipper",
-  "version": "1.18.0",
+  "version": "1.19.0",
   "private": true,
   "type": "module",
   "scripts": {
@@ -38,8 +38,9 @@
     "intelligence:check": "python3 scripts/build-intelligence.py --check && node --test tests/agent-room.test.mjs tests/research-flow.test.mjs && python3 -m unittest discover -s tests -p test_intelligence_collect.py",
     "refresh:intelligence": "python3 scripts/collect-intelligence.py && python3 scripts/build-intelligence.py",
     "conferences:build": "python3 scripts/build-conferences.py",
-    "conferences:check": "python3 scripts/build-conferences.py --check && node --test tests/conferences.test.mjs",
-    "refresh:conferences": "python3 scripts/refresh-conferences.py && python3 scripts/build-intelligence.py"
+    "conferences:check": "python3 scripts/build-conferences.py --check && node --test tests/conferences.test.mjs && python3 -m unittest discover -s tests -p test_community.py",
+    "refresh:conferences": "python3 scripts/refresh-conferences.py && python3 scripts/build-intelligence.py",
+    "refresh:community": "python3 scripts/refresh-community.py && python3 scripts/build-intelligence.py"
   },
   "devDependencies": {
     "@playwright/test": "^1.52.0",

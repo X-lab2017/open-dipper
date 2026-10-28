@@ -1,0 +1,211 @@
+{
+  "source": "https://github.com/nvkelso/natural-earth-vector/blob/ca96624a56bd078437bca8184e78163e5039ad19/geojson/ne_50m_populated_places_simple.geojson",
+  "license": "public domain",
+  "purpose": "Exact city + country matches for supplied community event metadata; not venues.",
+  "cities": [
+    {
+      "name": "Dalian",
+      "ascii": "Dalian",
+      "alt": null,
+      "country": "CHN",
+      "point": {
+        "city": "Dalian",
+        "longitude": 121.627885,
+        "latitude": 38.924784,
+        "naturalEarthId": 1159149913
+      }
+    },
+    {
+      "name": "San Juan",
+      "ascii": "San Juan",
+      "alt": null,
+      "country": "ARG",
+      "point": {
+        "city": "San Juan",
+        "longitude": -68.519988,
+        "latitude": -31.550026,
+        "naturalEarthId": 1159150281
+      }
+    },
+    {
+      "name": "Buffalo",
+      "ascii": "Buffalo",
+      "alt": null,
+      "country": "USA",
+      "point": {
+        "city": "Buffalo",
+        "longitude": -78.881948,
+        "latitude": 42.881924,
+        "naturalEarthId": 1159150529
+      }
+    },
+    {
+      "name": "Kathmandu",
+      "ascii": "Kathmandu",
+      "alt": null,
+      "country": "NPL",
+      "point": {
+        "city": "Kathmandu",
+        "longitude": 85.314696,
+        "latitude": 27.718638,
+        "naturalEarthId": 1159150655
+      }
+    },
+    {
+      "name": "Panama City",
+      "ascii": "Panama City",
+      "alt": "Ciudad de Panam|Panama",
+      "country": "PAN",
+      "point": {
+        "city": "Panama City",
+        "longitude": -79.534983,
+        "latitude": 8.969963,
+        "naturalEarthId": 1159150667
+      }
+    },
+    {
+      "name": "San Juan",
+      "ascii": "San Juan",
+      "alt": null,
+      "country": "PRI",
+      "point": {
+        "city": "San Juan",
+        "longitude": -66.129979,
+        "latitude": 18.440023,
+        "naturalEarthId": 1159151181
+      }
+    },
+    {
+      "name": "New Orleans",
+      "ascii": "New Orleans",
+      "alt": null,
+      "country": "USA",
+      "point": {
+        "city": "New Orleans",
+        "longitude": -90.088368,
+        "latitude": 29.968908,
+        "naturalEarthId": 1159151233
+      }
+    },
+    {
+      "name": "Xian",
+      "ascii": "Xian",
+      "alt": "Xi'an, Shaanxi",
+      "country": "CHN",
+      "point": {
+        "city": "Xian",
+        "longitude": 108.89305,
+        "latitude": 34.276971,
+        "naturalEarthId": 1159151363
+      }
+    },
+    {
+      "name": "Changsha",
+      "ascii": "Changsha",
+      "alt": "Changsha, Hunan",
+      "country": "CHN",
+      "point": {
+        "city": "Changsha",
+        "longitude": 112.968047,
+        "latitude": 28.201916,
+        "naturalEarthId": 1159151369
+      }
+    },
+    {
+      "name": "Kunming",
+      "ascii": "Kunming",
+      "alt": null,
+      "country": "CHN",
+      "point": {
+        "city": "Kunming",
+        "longitude": 102.69744,
+        "latitude": 25.042859,
+        "naturalEarthId": 1159151371
+      }
+    },
+    {
+      "name": "Shenyeng",
+      "ascii": "Shenyeng",
+      "alt": "Shenyang",
+      "country": "CHN",
+      "point": {
+        "city": "Shenyeng",
+        "longitude": 123.448028,
+        "latitude": 41.806925,
+        "naturalEarthId": 1159151377
+      }
+    },
+    {
+      "name": "Accra",
+      "ascii": "Accra",
+      "alt": null,
+      "country": "GHA",
+      "point": {
+        "city": "Accra",
+        "longitude": -0.218662,
+        "latitude": 5.55198,
+        "naturalEarthId": 1159151403
+      }
+    },
+    {
+      "name": "Miami",
+      "ascii": "Miami",
+      "alt": null,
+      "country": "USA",
+      "point": {
+        "city": "Miami",
+        "longitude": -80.226052,
+        "latitude": 25.789557,
+        "naturalEarthId": 1159151487
+      }
+    },
+    {
+      "name": "Chengdu",
+      "ascii": "Chengdu",
+      "alt": null,
+      "country": "CHN",
+      "point": {
+        "city": "Chengdu",
+        "longitude": 104.068074,
+        "latitude": 30.671946,
+        "naturalEarthId": 1159151533
+      }
+    },
+    {
+      "name": "Nairobi",
+      "ascii": "Nairobi",
+      "alt": null,
+      "country": "KEN",
+      "point": {
+        "city": "Nairobi",
+        "longitude": 36.814711,
+        "latitude": -1.281401,
+        "naturalEarthId": 1159151597
+      }
+    },
+    {
+      "name": "Hong Kong",
+      "ascii": "Hong Kong",
+      "alt": null,
+      "country": "HKG",
+      "point": {
+        "city": "Hong Kong",
+        "longitude": 114.183064,
+        "latitude": 22.306927,
+        "naturalEarthId": 1159151629
+      }
+    },
+    {
+      "name": "Bengaluru",
+      "ascii": "Bengaluru",
+      "alt": null,
+      "country": "IND",
+      "point": {
+        "city": "Bengaluru",
+        "longitude": 77.558064,
+        "latitude": 12.971941,
+        "naturalEarthId": 1159151543
+      }
+    }
+  ]
+}

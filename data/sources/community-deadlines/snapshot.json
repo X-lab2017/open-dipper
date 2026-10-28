@@ -1,0 +1,2898 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "id": "osd",
+    "name": "Open Source Deadlines · HUST Open Atom Club",
+    "url": "https://github.com/hust-open-atom-club/open-source-deadlines",
+    "website": "https://oseddl.openatom.club/",
+    "sourceCommit": "8f30d66ac6fb99d5064aebb7d3a1f4ed3846a3cf",
+    "sourceUpdatedAt": "2026-10-14T11:59:57Z",
+    "capturedAt": "2026-10-28",
+    "license": "MIT; notice retained; linked sites retain their own terms"
+  },
+  "sha256": {
+    "LICENSE": "28e01eb1c9468d73d6018d77dfeddbfa5d4a49ee2ac6fa906f79de7773856810",
+    "data/activities.yml": "d43de027cdf0af8b1340371bd6fa05da11db097ae4ad8b06213e2645c54030b4",
+    "data/competitions.yml": "f8694684e6cfe9a2ea296418d14998d89d84d4097b7473f8b530546b5370911a",
+    "data/conferences.yml": "b110107c1beccea5e6d49009f9cafb5d968c1cad460c05e2193b59f0a4e2659b"
+  },
+  "records": [
+    {
+      "sourceId": "PaddlePaddleInternship2026",
+      "title": "【实习招募】飞桨 AI Infra 正式实习生招募（长期 / 高含金量项目）",
+      "sourceCategory": "activity",
+      "tags": [
+        "实习招募",
+        "线下实习"
+      ],
+      "url": "https://github.com/PaddlePaddle/Paddle/issues/77190",
+      "dateLabel": "2026年1月4日起长期招募",
+      "location": "线上",
+      "timezone": "Asia/Shanghai",
+      "year": 2026,
+      "timeline": [
+        {
+          "deadline": "2026-01-04T00:00:00",
+          "comment": "活动开始"
+        }
+      ],
+      "sourceFile": "data/activities.yml",
+      "locationConflict": true
+    },
+    {
+      "sourceId": "tencentopensource2025",
+      "title": "腾讯开源活动",
+      "sourceCategory": "activity",
+      "tags": [
+        "腾讯开源",
+        "开源经历"
+      ],
+      "url": "https://mp.weixin.qq.com/s/1IMxH4FcZQIu--Key6tA1g",
+      "dateLabel": "2025年7月19日",
+      "location": "线上",
+      "timezone": "Asia/Shanghai",
+      "year": 2025,
+      "timeline": [
+        {
+          "deadline": "2025-07-19T19:00:00",
+          "comment": "活动开始"
+        }
+      ],
+      "sourceFile": "data/activities.yml",
+      "locationConflict": false
+    },
+    {
+      "sourceId": "xingyuandajiangtang-ai2025",
+      "title": "醒源大讲堂第一期",
+      "sourceCategory": "activity",
+      "tags": [
+        "醒源大讲堂",
+        "人工智能开源"
+      ],
+      "url": "https://mp.weixin.qq.com/s/xD3P0m4XcYaoxi9vta1pvg",
+      "dateLabel": "2025 年 7 月 8 日",
+      "location": "线上",
+      "timezone": "Asia/Shanghai",
+      "year": 2025,
+      "timeline": [
+        {
+          "deadline": "2025-07-08T20:00:00",
+          "comment": "活动开始"
+        },
+        {
+          "deadline": "2025-07-08T21:00:00",
+          "comment": "活动结束"
+        }
+      ],
+      "sourceFile": "data/activities.yml",
+      "locationConflict": false
+    },
+    {
+      "sourceId": "openeulersigarmmeetup-shenzhen2025",
+      "title": "openEuler SIG-Arm Meetup 深圳站",
+      "sourceCategory": "activity",
+      "tags": [
+        "openEuler",
+        "Arm",
+        "Meetup"
+      ],
+      "url": "https://mp.weixin.qq.com/s/FOKMP2gQRFZ-r2YhIF_hAw",
+      "dateLabel": "2025 年 7 月 18 日",
+      "location": "中国，深圳",
+      "timezone": "Asia/Shanghai",
+      "year": 2025,
+      "timeline": [
+        {
+          "deadline": "2025-07-18T13:00:00",
+          "comment": "活动开始"
+        },
+        {
+          "deadline": "2025-07-18T17:30:00",
+          "comment": "活动结束"
+        }
+      ],
+      "sourceFile": "data/activities.yml",
+      "locationConflict": false
+    },
+    {
+      "sourceId": "opencampdocker2025",
+      "title": "OpenCamp 第一期 Docker 训练营",
+      "sourceCategory": "activity",
+      "tags": [
+        "OpenCamp",
+        "腾讯云",
+        "Docker"
+      ],
+      "url": "https://opencamp.cn/Docker/camp/202501",
+      "dateLabel": "2025年6月29日-8月10日（共6周）",
+      "location": "线上",
+      "timezone": "Asia/Shanghai",
+      "year": 2025,
+      "timeline": [
+        {
+          "deadline": "2025-06-29T00:00:00",
+          "comment": "训练营开始"
+        },
+        {
+          "deadline": "2025-08-10T00:00:00",
+          "comment": "训练营结束"
+        }
+      ],
+      "sourceFile": "data/activities.yml",
+      "locationConflict": false
+    },
+    {
+      "sourceId": "openvelabeijing2025",
+      "title": "openvela 首场城市沙龙",
+      "sourceCategory": "activity",
+      "tags": [
+        "openvela",
+        "城市沙龙"
+      ],
+      "url": "https://mp.weixin.qq.com/s/kPpiIbnHpW-nus3FUrt4tw",
+      "dateLabel": "2025年7月5日",
+      "location": "中国，北京",
+      "timezone": "Asia/Shanghai",
+      "year": 2025,
+      "timeline": [
+        {
+          "deadline": "2025-07-05T14:00:00",
+          "comment": "活动开始"
+        },
+        {
+          "deadline": "2025-07-05T18:00:00",
+          "comment": "活动结束"
+        }
+      ],
+      "sourceFile": "data/activities.yml",
+      "locationConflict": false
+    },
+    {
+      "sourceId": "spacemitopenkylin250703",
+      "title": "甜“芯”代码局：RISC-V 与 openKylin 的开源狂欢派对",
+      "sourceCategory": "activity",
+      "tags": [
+        "RISC-V",
+        "openKylin",
+        "城市沙龙"
+      ],
+      "url": "https://forum.spacemit.com/t/topic/604",
+      "dateLabel": "2025 年 7 月 3 日",
+      "location": "中国，沈阳",
+      "timezone": "Asia/Shanghai",
+      "year": 2025,
+      "timeline": [
+        {
+          "deadline": "2025-07-03T14:00:00",
+          "comment": "活动开始"
+        },
+        {
+          "deadline": "2025-07-03T18:00:00",
+          "comment": "活动结束"
+        }
+      ],
+      "sourceFile": "data/activities.yml",
+      "locationConflict": false
+    },
+    {
+      "sourceId": "openkylinmeetup-hku2025",
+      "title": "openKylin Meetup 香港大学站",
+      "sourceCategory": "activity",
+      "tags": [
+        "openKylin",
+        "Meetup"
+      ],
+      "url": "https://mp.weixin.qq.com/s/b2AMVI_KNyJuQw7WnLPocQ",
+      "dateLabel": "2025年7月19日",
+      "location": "中国，香港",
+      "timezone": "Asia/Shanghai",
+      "year": 2025,
+      "timeline": [
+        {
+          "deadline": "2025-07-19T09:00:00",
+          "comment": "活动开始"
+        },
+        {
+          "deadline": "2025-07-19T12:00:00",
+          "comment": "活动结束"
+        }
+      ],
+      "sourceFile": "data/activities.yml",
+      "locationConflict": false
+    },
+    {
+      "sourceId": "openkylinmeetup-cityuhk2025",
+      "title": "openKylin Meetup 香港城市大学站",
+      "sourceCategory": "activity",
+      "tags": [
+        "openKylin",
+        "Meetup"
+      ],
+      "url": "https://www.openkylin.top/support/questionnaire.html?qid=3",
+      "dateLabel": "2025年7月20日",
+      "location": "中国，香港",
+      "timezone": "Asia/Shanghai",
+      "year": 2025,
+      "timeline": [
+        {
+          "deadline": "2025-07-20T14:00:00",
+          "comment": "活动开始"
+        },
+        {
+          "deadline": "2025-07-20T17:30:00",
+          "comment": "活动结束"
+        }
+      ],
+      "sourceFile": "data/activities.yml",
+      "locationConflict": false
+    },
+    {
+      "sourceId": "opencamp-infinitensor-2025summer",
+      "title": "InfiniTensor 大模型与人工智能系统训练营",
+      "sourceCategory": "activity",
+      "tags": [
+        "大模型",
+        "人工智能系统",
+        "OpenCamp"
+      ],
+      "url": "https://opencamp.cn/InfiniTensor/camp/2025summer",
+      "dateLabel": "2025 年 7 月 14 日 - 9 月 30 日",
+      "location": "线上",
+      "timezone": "Asia/Shanghai",
+      "year": 2025,
+      "timeline": [
+        {
+          "deadline": "2025-07-20T23:59:59",
+          "comment": "报名预热阶段结束，基础考试截止"
+        },
+        {
+          "deadline": "2025-07-21T00:00:00",
+          "comment": "授课学习阶段开始"
+        },
+        {
+          "deadline": "2025-08-17T23:59:59",
+          "comment": "授课学习阶段结束"
+        },
+        {
+          "deadline": "2025-08-18T00:00:00",
+          "comment": "项目实践阶段开始"
+        },
+        {
+          "deadline": "2025-09-30T23:59:59",
+          "comment": "项目实践阶段结束，训练营结营"
+        }
+      ],
+      "sourceFile": "data/activities.yml",
+      "locationConflict": false
+    },
+    {
+      "sourceId": "opensourcemeetyu-2",
+      "title": "源来喻见你系列活动 （二）| 线上操作系统讲座",
+      "sourceCategory": "activity",
+      "tags": [
+        "操作系统"
+      ],
+      "url": "https://mp.weixin.qq.com/s/rxi2JRg-HpXMECxmRvIQUg",
+      "dateLabel": "2025 年 7 月 19 日 19:30 - 20:30",
+      "location": "线上",
+      "timezone": "Asia/Shanghai",
+      "year": 2025,
+      "timeline": [
+        {
+          "deadline": "2025-07-19T19:30:00",
+          "comment": "活动开始"
+        },
+        {
+          "deadline": "2025-07-19T20:30:00",
+          "comment": "活动结束"
+        }
+      ],
+      "sourceFile": "data/activities.yml",
+      "locationConflict": false
+    },
+    {
+      "sourceId": "risc-v-days-beijing-2025",
+      "title": "World RISC-V Days Beijing",
+      "sourceCategory": "activity",
+      "tags": [
+        "RISC-V"
+      ],
+      "url": "https://mp.weixin.qq.com/s/JYZS2pRX201evWbtqB5uaA",
+      "dateLabel": "2025年8月8日",
+      "location": "中国，北京",
+      "timezone": "Asia/Shanghai",
+      "year": 2025,
+      "timeline": [
+        {
+          "deadline": "2025-08-08T14:00:00",
+          "comment": "活动开始"
+        },
+        {
+          "deadline": "2025-08-08T18:00:00",
+          "comment": "活动结束"
+        }
+      ],
+      "sourceFile": "data/activities.yml",
+      "locationConflict": false
+    },
+    {
+      "sourceId": "openharmony-salon-shenzhen-2025",
+      "title": "开源鸿蒙城市技术沙龙深圳站",
+      "sourceCategory": "activity",
+      "tags": [
+        "AI",
+        "OpenHarmony",
+        "城市沙龙"
+      ],
+      "url": "https://mp.weixin.qq.com/s/wuJREfpkormMnRvDC_0_CQ",
+      "dateLabel": "2025年8月9日",
+      "location": "中国，深圳",
+      "timezone": "Asia/Shanghai",
+      "year": 2025,
+      "timeline": [
+        {
+          "deadline": "2025-08-09T14:00:00",
+          "comment": "活动开始"
+        },
+        {
+          "deadline": "2025-08-09T17:00:00",
+          "comment": "活动结束"
+        }
+      ],
+      "sourceFile": "data/activities.yml",
+      "locationConflict": false
+    },
+    {
+      "sourceId": "opencamp-rust-compiler-2025autumn",
+      "title": "Rust 编译器开源社区训练营",
+      "sourceCategory": "activity",
+      "tags": [
+        "Rust",
+        "OpenCamp"
+      ],
+      "url": "https://opencamp.ai/rustcompiler/camp/2025fall",
+      "dateLabel": "2025年8月4日-12月20日",
+      "location": "线上",
+      "timezone": "Asia/Shanghai",
+      "year": 2025,
+      "timeline": [
+        {
+          "deadline": "2025-08-04T00:00:00",
+          "comment": "训练营开始"
+        },
+        {
+          "deadline": "2025-08-16T00:00:00",
+          "comment": "导学阶段结束"
+        },
+        {
+          "deadline": "2025-10-18T00:00:00",
+          "comment": "基础阶段结束"
+        },
+        {
+          "deadline": "2025-11-15T00:00:00",
+          "comment": "专业阶段结束"
+        },
+        {
+          "deadline": "2025-12-20T00:00:00",
+          "comment": "项目阶段结束"
+        }
+      ],
+      "sourceFile": "data/activities.yml",
+      "locationConflict": false
+    },
+    {
+      "sourceId": "openharmony-salon-beijing-2025",
+      "title": "开源鸿蒙城市技术沙龙·北京站",
+      "sourceCategory": "activity",
+      "tags": [
+        "终端安全",
+        "OpenHarmony",
+        "城市沙龙"
+      ],
+      "url": "https://mp.weixin.qq.com/s/6JHjzWrfF9pPbWXK9ljjoA",
+      "dateLabel": "2025年8月23日",
+      "location": "中国，北京",
+      "timezone": "Asia/Shanghai",
+      "year": 2025,
+      "timeline": [
+        {
+          "deadline": "2025-08-23T09:00:00",
+          "comment": "活动开始"
+        },
+        {
+          "deadline": "2025-08-23T18:00:00",
+          "comment": "活动结束"
+        }
+      ],
+      "sourceFile": "data/activities.yml",
+      "locationConflict": false
+    },
+    {
+      "sourceId": "whlug-8-2025",
+      "title": "WHLUG 开源咖啡局 | 8 月自由畅聊，等你来当主角！",
+      "sourceCategory": "activity",
+      "tags": [
+        "Deepin",
+        "Linux用户组"
+      ],
+      "url": "https://mp.weixin.qq.com/s/SW0zGvJoMqrdqGvMF46OAw",
+      "dateLabel": "2025年8月23日",
+      "location": "中国，武汉",
+      "timezone": "Asia/Shanghai",
+      "year": 2025,
+      "timeline": [
+        {
+          "deadline": "2025-08-23T14:00:00",
+          "comment": "活动开始"
+        },
+        {
+          "deadline": "2025-08-23T17:00:00",
+          "comment": "活动结束"
+        }
+      ],
+      "sourceFile": "data/activities.yml",
+      "locationConflict": false
+    },
+    {
+      "sourceId": "openeuler-sig-long-meetup-beijing-2025",
+      "title": "openEuler sig-Long 异构融合技术 Meetup 北京站",
+      "sourceCategory": "activity",
+      "tags": [
+        "openEuler",
+        "Meetup"
+      ],
+      "url": "https://mp.weixin.qq.com/s/QABou9m5QwHVz-sG77kIEA",
+      "dateLabel": "2025 年 8 月 22 日",
+      "location": "中国，北京",
+      "timezone": "Asia/Shanghai",
+      "year": 2025,
+      "timeline": [
+        {
+          "deadline": "2025-08-22T14:00:00",
+          "comment": "活动开始"
+        },
+        {
+          "deadline": "2025-08-22T17:30:00",
+          "comment": "活动结束"
+        }
+      ],
+      "sourceFile": "data/activities.yml",
+      "locationConflict": false
+    },
+    {
+      "sourceId": "vllm-meetup-shanghai-2025",
+      "title": "Shanghai vLLM Community Meetup",
+      "sourceCategory": "activity",
+      "tags": [
+        "vLLM",
+        "Meetup"
+      ],
+      "url": "https://mp.weixin.qq.com/s/QHJA90fSEQRNp5oSsf2Sog",
+      "dateLabel": "2025 年 8 月 23 日",
+      "location": "中国，上海",
+      "timezone": "Asia/Shanghai",
+      "year": 2025,
+      "timeline": [
+        {
+          "deadline": "2025-08-23T14:00:00",
+          "comment": "活动开始"
+        },
+        {
+          "deadline": "2025-08-23T17:30:00",
+          "comment": "活动结束"
+        }
+      ],
+      "sourceFile": "data/activities.yml",
+      "locationConflict": false
+    },
+    {
+      "sourceId": "vllm-meetup-深圳-2025",
+      "title": "vLLM Shenzhen Meetup",
+      "sourceCategory": "activity",
+      "tags": [
+        "vLLM",
+        "Meetup"
+      ],
+      "url": "https://mp.weixin.qq.com/s/QHJA90fSEQRNp5oSsf2Sog",
+      "dateLabel": "2025 年 8 月 30 日",
+      "location": "中国，深圳",
+      "timezone": "Asia/Shanghai",
+      "year": 2025,
+      "timeline": [
+        {
+          "deadline": "2025-08-30T13:30:00",
+          "comment": "活动开始"
+        },
+        {
+          "deadline": "2025-08-30T18:00:00",
+          "comment": "活动结束"
+        }
+      ],
+      "sourceFile": "data/activities.yml",
+      "locationConflict": false
+    },
+    {
+      "sourceId": "openeuler-diverse-computing-meetup-beijing-2025",
+      "title": "openEuler 多样性算力 Meetup 北京站",
+      "sourceCategory": "activity",
+      "tags": [
+        "openEuler",
+        "Meetup"
+      ],
+      "url": "https://mp.weixin.qq.com/s/5O3q6-dEa9qJ5ScDVUOWSA",
+      "dateLabel": "2025 年 9 月 6 日",
+      "location": "中国，北京",
+      "timezone": "Asia/Shanghai",
+      "year": 2025,
+      "timeline": [
+        {
+          "deadline": "2025-09-06T13:00:00",
+          "comment": "活动开始"
+        },
+        {
+          "deadline": "2025-09-06T17:00:00",
+          "comment": "活动结束"
+        }
+      ],
+      "sourceFile": "data/activities.yml",
+      "locationConflict": false
+    },
+    {
+      "sourceId": "tidb-xian-2025",
+      "title": "TiDB 社区活动（西安站）",
+      "sourceCategory": "activity",
+      "tags": [
+        "TiDB",
+        "数据库"
+      ],
+      "url": "https://mp.weixin.qq.com/s/Vsx790WS_vITp3Dt0OpiXQ",
+      "dateLabel": "2025 年 9 月 13 日 13:00 - 17:30",
+      "location": "中国，西安",
+      "timezone": "Asia/Shanghai",
+      "year": 2025,
+      "timeline": [
+        {
+          "deadline": "2025-09-13T13:00:00",
+          "comment": "签到 & 玩游戏赢周边 & 畅聊时间"
+        },
+        {
+          "deadline": "2025-09-13T13:50:00",
+          "comment": "活动正式开始"
+        },
+        {
+          "deadline": "2025-09-13T17:30:00",
+          "comment": "活动结束"
+        }
+      ],
+      "sourceFile": "data/activities.yml",
+      "locationConflict": false
+    },
+    {
+      "sourceId": "chitu-first-meetup-2025",
+      "title": "Chitu First Meetup",
+      "sourceCategory": "activity",
+      "tags": [
+        "Chitu",
+        "Meetup"
+      ],
+      "url": "https://mp.weixin.qq.com/s/iTpI2VGnKmGykErd_KDQ2g",
+      "dateLabel": "2025 年 9 月 13 日 13:30 - 17:00",
+      "location": "中国，杭州",
+      "timezone": "Asia/Shanghai",
+      "year": 2025,
+      "timeline": [
+        {
+          "deadline": "2025-09-13T13:30:00",
+          "comment": "活动开始时间"
+        },
+        {
+          "deadline": "2025-09-13T17:00:00",
+          "comment": "活动结束"
+        }
+      ],
+      "sourceFile": "data/activities.yml",
+      "locationConflict": false
+    },
+    {
+      "sourceId": "ai-salon-chengdu-2025",
+      "title": "模力方舟 AI 应用开发沙龙第七站（成都站）",
+      "sourceCategory": "activity",
+      "tags": [
+        "AI",
+        "城市沙龙"
+      ],
+      "url": "https://mp.weixin.qq.com/s/E_Cm8I8Ap5oPZgoLb8ma_g",
+      "dateLabel": "2025 年 09 月 20 日 13:30 - 17:00",
+      "location": "中国，成都",
+      "timezone": "Asia/Shanghai",
+      "year": 2025,
+      "timeline": [
+        {
+          "deadline": "2025-09-20T13:30:00",
+          "comment": "活动开始"
+        },
+        {
+          "deadline": "2025-09-20T17:00:00",
+          "comment": "活动结束"
+        }
+      ],
+      "sourceFile": "data/activities.yml",
+      "locationConflict": false
+    },
+    {
+      "sourceId": "open-saturday-2025",
+      "title": "Gitcode 开源星期六第二期",
+      "sourceCategory": "activity",
+      "tags": [
+        "三方库移植",
+        "鸿蒙",
+        "技术交流"
+      ],
+      "url": "https://mp.weixin.qq.com/s/TAZh0b_v5BzWrh4KgLeyQQ",
+      "dateLabel": "2025 年 09 月 13 日 14:00 - 17:00",
+      "location": "中国，深圳",
+      "timezone": "Asia/Shanghai",
+      "year": 2025,
+      "timeline": [
+        {
+          "deadline": "2025-09-10T00:00:00",
+          "comment": "报名开始"
+        },
+        {
+          "deadline": "2025-09-12T20:00:00",
+          "comment": "报名截止"
+        },
+        {
+          "deadline": "2025-09-13T14:00:00",
+          "comment": "活动开始"
+        },
+        {
+          "deadline": "2025-09-13T17:00:00",
+          "comment": "活动结束"
+        }
+      ],
+      "sourceFile": "data/activities.yml",
+      "locationConflict": false
+    },
+    {
+      "sourceId": "ccf-open-source-college-HLJUST-2025",
+      "title": "CCF 开源高校行-黑龙江科技大学",
+      "sourceCategory": "activity",
+      "tags": [
+        "开源",
+        "CCF"
+      ],
+      "url": "https://mp.weixin.qq.com/s/ZMeLsm3EuxEPKYt-LSwMcw",
+      "dateLabel": "2025 年 09 月 20 日 14:30 - 17:00",
+      "location": "中国，哈尔滨",
+      "timezone": "Asia/Shanghai",
+      "year": 2025,
+      "timeline": [
+        {
+          "deadline": "2025-09-20T14:30:00",
+          "comment": "活动开始"
+        },
+        {
+          "deadline": "2025-09-20T17:00:00",
+          "comment": "活动结束"
+        }
+      ],
+      "sourceFile": "data/activities.yml",
+      "locationConflict": false
+    },
+    {
+      "sourceId": "openGauss-Meetup-2025-Chengdu",
+      "title": "openGauss Meetup 成都站",
+      "sourceCategory": "activity",
+      "tags": [
+        "openGauss",
+        "数据库"
+      ],
+      "url": "https://mp.weixin.qq.com/s/heYxLP9-vKz6TYTEHZ2-qw",
+      "dateLabel": "2025 年 09 月 27 日 13:00 - 17:00",
+      "location": "中国，成都",
+      "timezone": "Asia/Shanghai",
+      "year": 2025,
+      "timeline": [
+        {
+          "deadline": "2025-09-27T13:00:00",
+          "comment": "活动开始"
+        },
+        {
+          "deadline": "2025-09-27T17:00:00",
+          "comment": "活动结束"
+        }
+      ],
+      "sourceFile": "data/activities.yml",
+      "locationConflict": false
+    },
+    {
+      "sourceId": "openGauss-openEuler-Meetup-2025-Xian",
+      "title": "openEuler & openGauss Meetup 西安站",
+      "sourceCategory": "activity",
+      "tags": [
+        "openGauss",
+        "openEuler",
+        "数据库",
+        "操作系统"
+      ],
+      "url": "https://mp.weixin.qq.com/s/4-N0QoyecGq-B4rVD3sS7Q",
+      "dateLabel": "2025 年 09 月 26 日",
+      "location": "中国，西安",
+      "timezone": "Asia/Shanghai",
+      "year": 2025,
+      "timeline": [
+        {
+          "deadline": "2025-09-26T13:30:00",
+          "comment": "活动开始"
+        },
+        {
+          "deadline": "2025-09-26T17:30:00",
+          "comment": "活动结束"
+        }
+      ],
+      "sourceFile": "data/activities.yml",
+      "locationConflict": false
+    },
+    {
+      "sourceId": "openEuler-middleware-Meetup-2025-Wuhan",
+      "title": "openEuler 云原生开源中间件 Meetup 武汉站",
+      "sourceCategory": "activity",
+      "tags": [
+        "openEuler",
+        "中间件"
+      ],
+      "url": "https://mp.weixin.qq.com/s/f_w1lNaYU3H2nu_q6R-B0A",
+      "dateLabel": "2025 年 09 月 25 日",
+      "location": "中国，武汉",
+      "timezone": "Asia/Shanghai",
+      "year": 2025,
+      "timeline": [
+        {
+          "deadline": "2025-09-25T13:45:00",
+          "comment": "活动开始"
+        },
+        {
+          "deadline": "2025-09-25T17:00:00",
+          "comment": "活动结束"
+        }
+      ],
+      "sourceFile": "data/activities.yml",
+      "locationConflict": false
+    },
+    {
+      "sourceId": "openvela-shanghai-salon",
+      "title": "openvela 城市沙龙（上海站）",
+      "sourceCategory": "activity",
+      "tags": [
+        "openvela",
+        "AIoT",
+        "物联网"
+      ],
+      "url": "https://mp.weixin.qq.com/s/8CX7qxVHCvb6e1K4Ya427A",
+      "dateLabel": "2025 年 9 月 20 日",
+      "location": "中国，上海",
+      "timezone": "Asia/Shanghai",
+      "year": 2025,
+      "timeline": [
+        {
+          "deadline": "2025-09-20T14:00:00",
+          "comment": "活动开始"
+        },
+        {
+          "deadline": "2025-09-20T18:00:00",
+          "comment": "活动结束"
+        }
+      ],
+      "sourceFile": "data/activities.yml",
+      "locationConflict": false
+    },
+    {
+      "sourceId": "ccf-open-source-tour-2025",
+      "title": "CCF 开源高校行——哈尔滨工程大学、哈尔滨工业大学",
+      "sourceCategory": "activity",
+      "tags": [
+        "CCF"
+      ],
+      "url": "https://mp.weixin.qq.com/s/fVCftOIV491w3Hjibq9EIg",
+      "dateLabel": "2025 年 9 月 22 日",
+      "location": "中国，哈尔滨",
+      "timezone": "Asia/Shanghai",
+      "year": 2025,
+      "timeline": [
+        {
+          "deadline": "2025-09-22T14:00:00",
+          "comment": "哈尔滨工程大学站开始"
+        },
+        {
+          "deadline": "2025-09-22T16:30:00",
+          "comment": "哈尔滨工程大学站结束"
+        },
+        {
+          "deadline": "2025-09-22T19:00:00",
+          "comment": "哈尔滨工业大学站开始"
+        },
+        {
+          "deadline": "2025-09-22T20:00:00",
+          "comment": "哈尔滨工业大学站结束"
+        }
+      ],
+      "sourceFile": "data/activities.yml",
+      "locationConflict": false
+    },
+    {
+      "sourceId": "ccf-open-source-tour-shenzhen-2025",
+      "title": "CCF 开源高校行——深圳技术大学、深圳大学、中山大学",
+      "sourceCategory": "activity",
+      "tags": [
+        "CCF"
+      ],
+      "url": "https://mp.weixin.qq.com/s/LcS6zIfkRgT_PZ5NqqRIGw",
+      "dateLabel": "2025 年 9 月 26 日 - 2025 年 9 月 27 日",
+      "location": "中国，深圳",
+      "timezone": "Asia/Shanghai",
+      "year": 2025,
+      "timeline": [
+        {
+          "deadline": "2025-09-26T14:00:00",
+          "comment": "深圳技术大学站开始"
+        },
+        {
+          "deadline": "2025-09-26T16:30:00",
+          "comment": "深圳技术大学站结束"
+        },
+        {
+          "deadline": "2025-09-26T19:00:00",
+          "comment": "深圳大学站开始"
+        },
+        {
+          "deadline": "2025-09-26T21:30:00",
+          "comment": "深圳大学站结束"
+        },
+        {
+          "deadline": "2025-09-27T15:30:00",
+          "comment": "中山大学站开始"
+        },
+        {
+          "deadline": "2025-09-27T17:30:00",
+          "comment": "中山大学站结束"
+        }
+      ],
+      "sourceFile": "data/activities.yml",
+      "locationConflict": false
+    },
+    {
+      "sourceId": "ai-game-open-source-2025",
+      "title": "开源 × AI × 游戏——新世代开发者的技术狂欢",
+      "sourceCategory": "activity",
+      "tags": [
+        "AI",
+        "游戏开发"
+      ],
+      "url": "https://mp.weixin.qq.com/s/BIwPL11fWPO1WRRZ1-Tecw",
+      "dateLabel": "2025 年 10 月 18 日",
+      "location": "中国，昆明",
+      "timezone": "Asia/Shanghai",
+      "year": 2025,
+      "timeline": [
+        {
+          "deadline": "2025-10-18T14:00:00",
+          "comment": "活动开始"
+        },
+        {
+          "deadline": "2025-10-18T17:00:00",
+          "comment": "活动结束"
+        }
+      ],
+      "sourceFile": "data/activities.yml",
+      "locationConflict": false
+    },
+    {
+      "sourceId": "open-ai-infra-forum-cncc-2025",
+      "title": "开源 AI 基础设施论坛 - “国芯+国模”下开源 AI Infra 的机遇与挑战 | CNCC",
+      "sourceCategory": "activity",
+      "tags": [
+        "AI",
+        "GPU",
+        "云原生"
+      ],
+      "url": "https://mp.weixin.qq.com/s/tKV3V_4Opjd0T42qU_DOIg",
+      "dateLabel": "2025 年 10 月 22 日# 人类可读的日期范围",
+      "location": "中国，哈尔滨",
+      "timezone": "Asia/Shanghai",
+      "year": 2025,
+      "timeline": [
+        {
+          "deadline": "2025-10-22T00:00:00",
+          "comment": "活动开始"
+        },
+        {
+          "deadline": "2025-10-25T23:59:59",
+          "comment": "活动结束"
+        }
+      ],
+      "sourceFile": "data/activities.yml",
+      "locationConflict": false
+    },
+    {
+      "sourceId": "deepin-gitcode-meetup-2025",
+      "title": "deepin & GitCode Meetup - 大湾区开发者盛会",
+      "sourceCategory": "activity",
+      "tags": [
+        "Deepin",
+        "GitCode"
+      ],
+      "url": "https://mp.weixin.qq.com/s/NDztoW6Tqx-srRZiNWgNyQ",
+      "dateLabel": "2025 年 10 月 18 日",
+      "location": "中国，深圳",
+      "timezone": "Asia/Shanghai",
+      "year": 2025,
+      "timeline": [
+        {
+          "deadline": "2025-10-18T14:00:00",
+          "comment": "活动开始"
+        },
+        {
+          "deadline": "2025-10-18T17:00:00",
+          "comment": "活动结束"
+        }
+      ],
+      "sourceFile": "data/activities.yml",
+      "locationConflict": false
+    },
+    {
+      "sourceId": "openEuler-compiler-sig-Meetup-2025-Beijing",
+      "title": "openEuler Compiler SIG Meetup 北京站",
+      "sourceCategory": "activity",
+      "tags": [
+        "openEuler",
+        "编译器"
+      ],
+      "url": "https://mp.weixin.qq.com/s/qJnabiweOMMYG1k4JFpXYA",
+      "dateLabel": "2025 年 10 月 16 日",
+      "location": "中国，北京",
+      "timezone": "Asia/Shanghai",
+      "year": 2025,
+      "timeline": [
+        {
+          "deadline": "2025-10-16T14:00:00",
+          "comment": "活动开始"
+        },
+        {
+          "deadline": "2025-10-16T17:30:00",
+          "comment": "活动结束"
+        }
+      ],
+      "sourceFile": "data/activities.yml",
+      "locationConflict": false
+    },
+    {
+      "sourceId": "gitcode-opensource-sichuan-swpu-2025",
+      "title": "开源川行 · 西南石油大学站",
+      "sourceCategory": "activity",
+      "tags": [
+        "GitCode",
+        "华为云"
+      ],
+      "url": "https://mp.weixin.qq.com/s/-7NXDb4jwqGQt6aJncEQOw",
+      "dateLabel": "2025 年 10 月 16 日",
+      "location": "中国，成都",
+      "timezone": "Asia/Shanghai",
+      "year": 2025,
+      "timeline": [
+        {
+          "deadline": "2025-10-16T16:30:00",
+          "comment": "活动开始"
+        },
+        {
+          "deadline": "2025-10-16T18:30:00",
+          "comment": "活动结束"
+        }
+      ],
+      "sourceFile": "data/activities.yml",
+      "locationConflict": false
+    },
+    {
+      "sourceId": "openEuler-embodied-intelligence-Meetup-2025-Xian",
+      "title": "openEuler 具身智能技术 Meetup 西安站",
+      "sourceCategory": "activity",
+      "tags": [
+        "openEuler",
+        "具身智能"
+      ],
+      "url": "https://mp.weixin.qq.com/s/_FaVuHIqjt1mZawibPQmew",
+      "dateLabel": "2025 年 10 月 23 日",
+      "location": "中国，西安",
+      "timezone": "Asia/Shanghai",
+      "year": 2025,
+      "timeline": [
+        {
+          "deadline": "2025-10-23T14:00:00",
+          "comment": "活动开始"
+        },
+        {
+          "deadline": "2025-10-23T17:00:00",
+          "comment": "活动结束"
+        }
+      ],
+      "sourceFile": "data/activities.yml",
+      "locationConflict": false
+    },
+    {
+      "sourceId": "huawei-opensource-oseco-5th-2025",
+      "title": "华为开源生态大讲堂第五讲：浅谈开源操作系统的生态建设",
+      "sourceCategory": "activity",
+      "tags": [
+        "华为开源",
+        "操作系统"
+      ],
+      "url": "https://mp.weixin.qq.com/s/WZtz7t7PrSxKMlrbmkt9IA",
+      "dateLabel": "2025 年 10 月 17 日",
+      "location": "中国，北京",
+      "timezone": "Asia/Shanghai",
+      "year": 2025,
+      "timeline": [
+        {
+          "deadline": "2025-10-17T17:00:00",
+          "comment": "讲堂开始"
+        },
+        {
+          "deadline": "2025-10-17T18:00:00",
+          "comment": "讲堂结束"
+        }
+      ],
+      "sourceFile": "data/activities.yml",
+      "locationConflict": false
+    },
+    {
+      "sourceId": "openharmony-riscv-techsalon-beijing-2025",
+      "title": "开源鸿蒙城市技术沙龙·北京站——开源鸿蒙 & RISC-V 技术融合交流会",
+      "sourceCategory": "activity",
+      "tags": [
+        "开源鸿蒙",
+        "RISC-V"
+      ],
+      "url": "https://mp.weixin.qq.com/s/8-eWQuKh9LuW07re-NcAEw",
+      "dateLabel": "2025 年 10 月 22 日",
+      "location": "中国，北京",
+      "timezone": "Asia/Shanghai",
+      "year": 2025,
+      "timeline": [
+        {
+          "deadline": "2025-10-22T14:00:00",
+          "comment": "活动开始"
+        },
+        {
+          "deadline": "2025-10-22T17:30:00",
+          "comment": "活动结束"
+        }
+      ],
+      "sourceFile": "data/activities.yml",
+      "locationConflict": false
+    },
+    {
+      "sourceId": "openatom-campus-shanghai-2025",
+      "title": "开放原子校源行（上海站）",
+      "sourceCategory": "activity",
+      "tags": [
+        "开放原子",
+        "校源行"
+      ],
+      "url": "https://mp.weixin.qq.com/s/IY9IzizCuETLKG-9UfCqIA",
+      "dateLabel": "2025 年 10 月 15 日",
+      "location": "中国，上海",
+      "timezone": "Asia/Shanghai",
+      "year": 2025,
+      "timeline": [
+        {
+          "deadline": "2025-10-15T09:00:00",
+          "comment": "主论坛开始"
+        },
+        {
+          "deadline": "2025-10-15T11:40:00",
+          "comment": "主论坛结束"
+        },
+        {
+          "deadline": "2025-10-15T14:00:00",
+          "comment": "动手实践课堂开始"
+        },
+        {
+          "deadline": "2025-10-15T16:30:00",
+          "comment": "动手实践课堂结束"
+        }
+      ],
+      "sourceFile": "data/activities.yml",
+      "locationConflict": false
+    },
+    {
+      "sourceId": "multimodal-agentic-ai-beijing-2025",
+      "title": "多模态数据湖与 Agentic AI——构建企业智能基座技术研讨会",
+      "sourceCategory": "activity",
+      "tags": [
+        "Agentic AI",
+        "企业智能化"
+      ],
+      "url": "https://mp.weixin.qq.com/s/49GZZDKLzYfpbO2K1IJpMw",
+      "dateLabel": "2025 年 10 月 18 日",
+      "location": "中国，北京",
+      "timezone": "Asia/Shanghai",
+      "year": 2025,
+      "timeline": [
+        {
+          "deadline": "2025-10-18T13:30:00",
+          "comment": "活动开始"
+        },
+        {
+          "deadline": "2025-10-18T17:30:00",
+          "comment": "活动结束"
+        }
+      ],
+      "sourceFile": "data/activities.yml",
+      "locationConflict": false
+    },
+    {
+      "sourceId": "opentenbase-chengdu-2025",
+      "title": "OpenTenBase 城市行成都站",
+      "sourceCategory": "activity",
+      "tags": [
+        "OpenTenBase"
+      ],
+      "url": "https://mp.weixin.qq.com/s/qyl-VRB7AN3HTM-rGotI5Q",
+      "dateLabel": "2025 年 11 月 1 日",
+      "location": "中国，成都",
+      "timezone": "Asia/Shanghai",
+      "year": 2025,
+      "timeline": [
+        {
+          "deadline": "2025-11-01T13:00:00",
+          "comment": "活动开始"
+        },
+        {
+          "deadline": "2025-11-01T17:40:00",
+          "comment": "活动结束"
+        }
+      ],
+      "sourceFile": "data/activities.yml",
+      "locationConflict": false
+    },
+    {
+      "sourceId": "kcd-oid-hangzhou-2025",
+      "title": "KCD 杭州站 x OpenInfra Days China",
+      "sourceCategory": "activity",
+      "tags": [
+        "Kubernates",
+        "OpenInfra",
+        "CNCF"
+      ],
+      "url": "https://mp.weixin.qq.com/s/eGny5_A4UutC6GzxcVY7EA",
+      "dateLabel": "2025 年 11 月 15 日",
+      "location": "中国，杭州",
+      "timezone": "Asia/Shanghai",
+      "year": 2025,
+      "timeline": [
+        {
+          "deadline": "2025-11-15T09:30:00",
+          "comment": "活动开始"
+        },
+        {
+          "deadline": "2025-11-15T17:45:00",
+          "comment": "活动结束"
+        }
+      ],
+      "sourceFile": "data/activities.yml",
+      "locationConflict": false
+    },
+    {
+      "sourceId": "gitcode-campus-hust-2025",
+      "title": "GitCode「源启高校」 华中科技大学站",
+      "sourceCategory": "activity",
+      "tags": [
+        "GitCode"
+      ],
+      "url": "https://mp.weixin.qq.com/s/1VIrDmx1plHhl2MFHIKQwg",
+      "dateLabel": "2025 年 11 月 1 日",
+      "location": "中国，武汉",
+      "timezone": "Asia/Shanghai",
+      "year": 2025,
+      "timeline": [
+        {
+          "deadline": "2025-11-01T14:00:00",
+          "comment": "活动开始"
+        },
+        {
+          "deadline": "2025-11-01T18:00:00",
+          "comment": "活动结束"
+        }
+      ],
+      "sourceFile": "data/activities.yml",
+      "locationConflict": false
+    },
+    {
+      "sourceId": "google-devfest-hangzhou-2025",
+      "title": "Google DevFest Hangzhou 2025",
+      "sourceCategory": "activity",
+      "tags": [
+        "Google",
+        "DevFest"
+      ],
+      "url": "https://mp.weixin.qq.com/s/RVUEQipG4N7NwHvENKYuxg",
+      "dateLabel": "2025 年 11 月 1 日",
+      "location": "中国，杭州",
+      "timezone": "Asia/Shanghai",
+      "year": 2025,
+      "timeline": [
+        {
+          "deadline": "2025-11-01T09:00:00",
+          "comment": "活动开始"
+        },
+        {
+          "deadline": "2025-11-01T18:00:00",
+          "comment": "活动结束"
+        }
+      ],
+      "sourceFile": "data/activities.yml",
+      "locationConflict": false
+    },
+    {
+      "sourceId": "google-devfest-beijing-2025",
+      "title": "Google DevFest Beijing 2025",
+      "sourceCategory": "activity",
+      "tags": [
+        "Google",
+        "DevFest"
+      ],
+      "url": "https://mp.weixin.qq.com/s/51u87qDLGcR6dX7Z_ZebWA",
+      "dateLabel": "2025 年 11 月 9 日",
+      "location": "中国，北京",
+      "timezone": "Asia/Shanghai",
+      "year": 2025,
+      "timeline": [
+        {
+          "deadline": "2025-11-09T10:00:00",
+          "comment": "活动开始"
+        },
+        {
+          "deadline": "2025-11-09T17:30:00",
+          "comment": "活动结束"
+        }
+      ],
+      "sourceFile": "data/activities.yml",
+      "locationConflict": false
+    },
+    {
+      "sourceId": "openloong-college-beijing-2025",
+      "title": "OpenLoong 高校行 北京科技大学站",
+      "sourceCategory": "activity",
+      "tags": [
+        "OpenLoong",
+        "DORA"
+      ],
+      "url": "https://mp.weixin.qq.com/s/WveAJQFGRKlVJDy8FrW4Mg",
+      "dateLabel": "2025 年 11 月 8 日",
+      "location": "中国，北京",
+      "timezone": "Asia/Shanghai",
+      "year": 2025,
+      "timeline": [
+        {
+          "deadline": "2025-11-08T13:30:00",
+          "comment": "活动开始"
+        },
+        {
+          "deadline": "2025-11-08T16:30:00",
+          "comment": "活动结束"
+        }
+      ],
+      "sourceFile": "data/activities.yml",
+      "locationConflict": false
+    },
+    {
+      "sourceId": "openharmony-arkdata-enabling-streaming-lesson-2",
+      "title": "开源鸿蒙 AI 赋能系列技术直播课 第二期",
+      "sourceCategory": "activity",
+      "tags": [
+        "OpenHarmony",
+        "开放原子",
+        "ArkData"
+      ],
+      "url": "https://mp.weixin.qq.com/s/tbIzMoN8oL2YSHREPWutIg",
+      "dateLabel": "2025 年 11 月 4 日",
+      "location": "线上",
+      "timezone": "Asia/Shanghai",
+      "year": 2025,
+      "timeline": [
+        {
+          "deadline": "2025-11-04T19:00:00",
+          "comment": "活动开始"
+        },
+        {
+          "deadline": "2025-11-04T20:00:00",
+          "comment": "活动结束"
+        }
+      ],
+      "sourceFile": "data/activities.yml",
+      "locationConflict": false
+    },
+    {
+      "sourceId": "cann-meetup-beijing-2025",
+      "title": "CANN Meetup 北京站 | 11月15日，邀您共赴一场技术盛宴",
+      "sourceCategory": "activity",
+      "tags": [
+        "CANN",
+        "Ascend"
+      ],
+      "url": "https://mp.weixin.qq.com/s/imVzEaJP3cUk7-xrsREe3w",
+      "dateLabel": "2025 年 11 月 15 日",
+      "location": "中国，北京",
+      "timezone": "Asia/Shanghai",
+      "year": 2025,
+      "timeline": [
+        {
+          "deadline": "2025-11-15T13:30:00",
+          "comment": "活动开始"
+        },
+        {
+          "deadline": "2025-11-15T17:30:00",
+          "comment": "活动结束"
+        }
+      ],
+      "sourceFile": "data/activities.yml",
+      "locationConflict": false
+    },
+    {
+      "sourceId": "openatom-campus-udalian-2025",
+      "title": "开放原子校源行（大连大学站）",
+      "sourceCategory": "activity",
+      "tags": [
+        "开放原子",
+        "校源行",
+        "OpenTenBase"
+      ],
+      "url": "https://mp.weixin.qq.com/s/OENe_NvhSbDKpdWe4uS-zg",
+      "dateLabel": "2025 年 11 月 11 日",
+      "location": "中国，大连",
+      "timezone": "Asia/Shanghai",
+      "year": 2025,
+      "timeline": [
+        {
+          "deadline": "2025-11-11T09:30:00",
+          "comment": "活动开始"
+        },
+        {
+          "deadline": "2025-11-11T11:30:00",
+          "comment": "活动结束"
+        }
+      ],
+      "sourceFile": "data/activities.yml",
+      "locationConflict": false
+    },
+    {
+      "sourceId": "PaddlePaddle-Starter-2026spring",
+      "title": "【HACKATHON 预备营】飞桨启航计划集训营（马年新春版）",
+      "sourceCategory": "competition",
+      "tags": [
+        "PaddlePaddle",
+        "启航计划"
+      ],
+      "url": "https://github.com/PaddlePaddle/Paddle/issues/77510",
+      "dateLabel": "2026 年 1 月 26 日 - 3 月 9 日",
+      "location": "线上",
+      "timezone": "Asia/Shanghai",
+      "year": 2026,
+      "timeline": [
+        {
+          "deadline": "2026-01-26T18:00:00",
+          "comment": "PR 提交截止"
+        },
+        {
+          "deadline": "2026-03-09T24:00:00",
+          "comment": "结项提交"
+        }
+      ],
+      "sourceFile": "data/competitions.yml",
+      "locationConflict": false
+    },
+    {
+      "sourceId": "PaddlePaddle-hackathon-10th-spring",
+      "title": "【Hackathon 10th】开源贡献个人挑战赛 · 春节特别季",
+      "sourceCategory": "competition",
+      "tags": [
+        "PaddlePaddle",
+        "Hackathon"
+      ],
+      "url": "https://github.com/PaddlePaddle/Paddle/issues/77429",
+      "dateLabel": "2026 年 1 月 19 日 - 3 月 6 日",
+      "location": "线上",
+      "timezone": "Asia/Shanghai",
+      "year": 2026,
+      "timeline": [
+        {
+          "deadline": "2026-01-19T18:00:00",
+          "comment": "PR 提交截止"
+        },
+        {
+          "deadline": "2026-03-06T24:00:00",
+          "comment": "结项提交"
+        }
+      ],
+      "sourceFile": "data/competitions.yml",
+      "locationConflict": false
+    },
+    {
+      "sourceId": "PaddlePaddle-Starter-6th",
+      "title": "PaddlePaddle 启航计划集训营（第六期）",
+      "sourceCategory": "competition",
+      "tags": [
+        "PaddlePaddle",
+        "启航计划"
+      ],
+      "url": "https://github.com/PaddlePaddle/Paddle/issues/75250",
+      "dateLabel": "2025 年 9 月 12 日 - 12 月 15 日",
+      "location": "线上",
+      "timezone": "Asia/Shanghai",
+      "year": 2025,
+      "timeline": [
+        {
+          "deadline": "2025-11-24T18:00:00",
+          "comment": "PR 提交截止"
+        },
+        {
+          "deadline": "2025-12-15T24:00:00",
+          "comment": "结项提交"
+        }
+      ],
+      "sourceFile": "data/competitions.yml",
+      "locationConflict": false
+    },
+    {
+      "sourceId": "PaddlePaddle-hackathon-9th",
+      "title": "第九届 PaddlePaddle 黑客松",
+      "sourceCategory": "competition",
+      "tags": [
+        "PaddlePaddle",
+        "Hackathon"
+      ],
+      "url": "https://github.com/PaddlePaddle/Paddle/issues/74777",
+      "dateLabel": "2025 年 8 月 25 日 - 12 月 15 日",
+      "location": "线上",
+      "timezone": "Asia/Shanghai",
+      "year": 2025,
+      "timeline": [
+        {
+          "deadline": "2025-11-24T18:00:00",
+          "comment": "PR 提交截止"
+        },
+        {
+          "deadline": "2025-12-15T24:00:00",
+          "comment": "结项提交"
+        }
+      ],
+      "sourceFile": "data/competitions.yml",
+      "locationConflict": false
+    },
+    {
+      "sourceId": "gitlink-summer-camp-2025",
+      "title": "GitLink \"确实开源\"编程夏令营（GLCC）",
+      "sourceCategory": "competition",
+      "tags": [
+        "确实开源",
+        "编程夏令营"
+      ],
+      "url": "https://www.gitlink.org.cn/glcc",
+      "dateLabel": "2025 年 4 月 15 日 - 9 月 26 日",
+      "location": "中国，北京",
+      "timezone": "Asia/Shanghai",
+      "year": 2025,
+      "timeline": [
+        {
+          "deadline": "2025-06-10T23:59:59",
+          "comment": "项目报名截至"
+        },
+        {
+          "deadline": "2025-07-05T23:59:59",
+          "comment": "学生报名截止"
+        },
+        {
+          "deadline": "2025-08-03T00:00:00",
+          "comment": "中期考核结果公示"
+        },
+        {
+          "deadline": "2025-09-26T00:00:00",
+          "comment": "结项考核结果公示"
+        }
+      ],
+      "sourceFile": "data/competitions.yml",
+      "locationConflict": false
+    },
+    {
+      "sourceId": "ospp2025",
+      "title": "开源之夏",
+      "sourceCategory": "competition",
+      "tags": [
+        "RISC-V",
+        "openEuler",
+        "Apache"
+      ],
+      "url": "https://summer-ospp.ac.cn",
+      "dateLabel": "2025 年 4 月 30 日 - 9 月 30 日",
+      "location": "线上",
+      "timezone": "Asia/Shanghai",
+      "year": 2025,
+      "timeline": [
+        {
+          "deadline": "2025-06-04T18:00:00",
+          "comment": "项目申请书提交"
+        },
+        {
+          "deadline": "2025-09-30T24:00:00",
+          "comment": "结项提交"
+        }
+      ],
+      "sourceFile": "data/competitions.yml",
+      "locationConflict": false
+    },
+    {
+      "sourceId": "ospp2024",
+      "title": "开源之夏",
+      "sourceCategory": "competition",
+      "tags": [
+        "RISC-V",
+        "openEuler",
+        "Apache"
+      ],
+      "url": "https://summer-ospp.ac.cn/2024/",
+      "dateLabel": "2024 年 4 月 30 日 - 9 月 30 日",
+      "location": "线上",
+      "timezone": "Asia/Shanghai",
+      "year": 2024,
+      "timeline": [
+        {
+          "deadline": "2024-06-04T18:00:00",
+          "comment": "项目申请书提交"
+        },
+        {
+          "deadline": "2024-09-30T24:00:00",
+          "comment": "结项提交"
+        }
+      ],
+      "sourceFile": "data/competitions.yml",
+      "locationConflict": false
+    },
+    {
+      "sourceId": "gsoc2025",
+      "title": "谷歌编程之夏",
+      "sourceCategory": "competition",
+      "tags": [
+        "Programming",
+        "Mentorship",
+        "Open Source"
+      ],
+      "url": "https://summerofcode.withgoogle.com/",
+      "dateLabel": "2025 年 1 月 27 日 - 11 月 17 日",
+      "location": "线上",
+      "timezone": "UTC",
+      "year": 2025,
+      "timeline": [
+        {
+          "deadline": "2025-01-27T18:00:00Z",
+          "comment": "导师组织申请开始"
+        },
+        {
+          "deadline": "2025-02-11T18:00:00Z",
+          "comment": "导师组织申请截止"
+        },
+        {
+          "deadline": "2025-03-24T18:00:00Z",
+          "comment": "贡献者申请开始"
+        },
+        {
+          "deadline": "2025-04-08T18:00:00Z",
+          "comment": "贡献者申请截止"
+        },
+        {
+          "deadline": "2025-05-08T18:00:00Z",
+          "comment": "公布贡献者项目"
+        },
+        {
+          "deadline": "2025-06-02T00:00:00Z",
+          "comment": "正式开始编码"
+        },
+        {
+          "deadline": "2025-07-14T18:00:00Z",
+          "comment": "中期评估开始"
+        },
+        {
+          "deadline": "2025-07-18T18:00:00Z",
+          "comment": "中期评估截止"
+        },
+        {
+          "deadline": "2025-09-01T18:00:00Z",
+          "comment": "贡献者提交最终成果和最终导师评估截止"
+        },
+        {
+          "deadline": "2025-11-10T18:00:00Z",
+          "comment": "延长截止日期的贡献者提交最终成果和最终评估截止"
+        },
+        {
+          "deadline": "2025-11-17T18:00:00Z",
+          "comment": "导师针对延长截止日期的贡献者项目提交评估截止"
+        }
+      ],
+      "sourceFile": "data/competitions.yml",
+      "locationConflict": false
+    },
+    {
+      "sourceId": "nscscc-cpu-2025",
+      "title": "全国大学生计算机系统能力大赛 - CPU 设计赛 (龙芯杯)",
+      "sourceCategory": "competition",
+      "tags": [
+        "CPU 设计",
+        "龙芯",
+        "计算机系统",
+        "体系结构"
+      ],
+      "url": "https://www.nscscc.com",
+      "dateLabel": "2025 年 3 月 20 日 - 8 月下旬",
+      "location": "线上初赛 + 线下决赛",
+      "timezone": "Asia/Shanghai",
+      "year": 2025,
+      "timeline": [
+        {
+          "deadline": "2025-06-20T23:59:59",
+          "comment": "报名截止"
+        },
+        {
+          "deadline": "2025-08-05T00:00:00",
+          "comment": "初赛作品线上提交截止"
+        }
+      ],
+      "sourceFile": "data/competitions.yml",
+      "locationConflict": false
+    },
+    {
+      "sourceId": "trotp2025",
+      "title": "腾讯犀牛鸟",
+      "sourceCategory": "competition",
+      "tags": [
+        "腾讯犀牛鸟",
+        "人才培养",
+        "开源技术"
+      ],
+      "url": "https://opensource.tencent.com/summer-of-code",
+      "dateLabel": "2025 年 6 月 20 日 - 9 月 10 日",
+      "location": "线上",
+      "timezone": "Asia/Shanghai",
+      "year": 2025,
+      "timeline": [
+        {
+          "deadline": "2025-06-20T00:00:00",
+          "comment": "报名开始 & 开源基础课程开启"
+        },
+        {
+          "deadline": "2025-07-10T00:00:00",
+          "comment": "开源 issue 实践开启"
+        },
+        {
+          "deadline": "2025-07-28T00:00:00",
+          "comment": "报名结束"
+        },
+        {
+          "deadline": "2025-08-01T00:00:00",
+          "comment": "开源课题实战开启"
+        },
+        {
+          "deadline": "2025-09-10T00:00:00",
+          "comment": "实战毕业"
+        }
+      ],
+      "sourceFile": "data/competitions.yml",
+      "locationConflict": false
+    },
+    {
+      "sourceId": "gondc2025",
+      "title": "Godot x openKylin 全国开发大赛",
+      "sourceCategory": "competition",
+      "tags": [
+        "openKylin",
+        "Godot",
+        "开源技术"
+      ],
+      "url": "https://mp.weixin.qq.com/s/pYNHInIts4Rf0TH3joQVsQ",
+      "dateLabel": "2025 年 7 月 5 日 - 10 月 25 日",
+      "location": "线上",
+      "timezone": "Asia/Shanghai",
+      "year": 2025,
+      "timeline": [
+        {
+          "deadline": "2025-07-05T00:00:00",
+          "comment": "报名 & 比赛开始"
+        },
+        {
+          "deadline": "2025-08-01T00:00:00",
+          "comment": "作品提交开始"
+        },
+        {
+          "deadline": "2025-09-01T00:00:00",
+          "comment": "报名截止"
+        },
+        {
+          "deadline": "2025-09-10T23:59:59",
+          "comment": "比赛结束 & 作品提交截止"
+        },
+        {
+          "deadline": "2025-10-15T23:59:59",
+          "comment": "评选结束"
+        },
+        {
+          "deadline": "2025-10-25T12:00:00",
+          "comment": "颁奖结束"
+        }
+      ],
+      "sourceFile": "data/competitions.yml",
+      "locationConflict": false
+    },
+    {
+      "sourceId": "cpipc2",
+      "title": "中国研究生操作系统开源创新大赛",
+      "sourceCategory": "competition",
+      "tags": [
+        "操作系统",
+        "开源技术"
+      ],
+      "url": "https://cpipc.acge.org.cn/cw/hp/2c9080178c7c917b018d1b1a0af61cd6",
+      "dateLabel": "2025 年 5 月 1 日 - 8 月下旬",
+      "location": "线上",
+      "timezone": "Asia/Shanghai",
+      "year": 2025,
+      "timeline": [
+        {
+          "deadline": "2025-05-01T00:00:00",
+          "comment": "报名开始"
+        },
+        {
+          "deadline": "2025-05-20T00:00:00",
+          "comment": "作品提交开始"
+        },
+        {
+          "deadline": "2025-07-18T17:00:00",
+          "comment": "报名截止"
+        },
+        {
+          "deadline": "2025-07-20T17:00:00",
+          "comment": "作品提交截止"
+        },
+        {
+          "deadline": "2025-07-25T00:00:00",
+          "comment": "初赛评审（具体时间待定）"
+        },
+        {
+          "deadline": "2025-07-30T00:00:00",
+          "comment": "入围公示（具体时间待定）"
+        },
+        {
+          "deadline": "2025-08-25T00:00:00",
+          "comment": "决赛（具体时间待定）"
+        }
+      ],
+      "sourceFile": "data/competitions.yml",
+      "locationConflict": false
+    },
+    {
+      "sourceId": "coc-na-2025",
+      "title": "Community Over Code NA",
+      "sourceCategory": "conference",
+      "tags": [
+        "Apache",
+        "开源",
+        "北美"
+      ],
+      "url": "https://communityovercode.org/",
+      "dateLabel": "2025 年 9 月 11 日 - 14 日",
+      "location": "美国，明尼阿波利斯",
+      "timezone": "America/New_York",
+      "year": 2025,
+      "timeline": [
+        {
+          "deadline": "2025-06-28T23:59:59",
+          "comment": "早鸟票截止（US$650）"
+        },
+        {
+          "deadline": "2025-06-30T23:59:59",
+          "comment": "演讲提案提交截止"
+        },
+        {
+          "deadline": "2025-08-15T23:59:59",
+          "comment": "常规票价生效（US$750）"
+        },
+        {
+          "deadline": "2025-09-11T00:00:00",
+          "comment": "会议正式开始"
+        }
+      ],
+      "sourceFile": "data/competitions.yml",
+      "locationConflict": false
+    },
+    {
+      "sourceId": "oh-competition-2025",
+      "title": "OpenHarmony竞赛训练营",
+      "sourceCategory": "competition",
+      "tags": [
+        "OpenHarmony",
+        "AI"
+      ],
+      "url": "https://mp.weixin.qq.com/s/gENH9zvMGa4qQUZWLOwcog",
+      "dateLabel": "2025 年 7 月 15 日 - 9 月下旬",
+      "location": "线上",
+      "timezone": "Asia/Shanghai",
+      "year": 2025,
+      "timeline": [
+        {
+          "deadline": "2025-07-15T00:00:00",
+          "comment": "报名开始"
+        },
+        {
+          "deadline": "2025-09-16T00:00:00",
+          "comment": "报名截止"
+        },
+        {
+          "deadline": "2025-09-17T00:00:00",
+          "comment": "初赛作品提交截止"
+        },
+        {
+          "deadline": "2025-09-30T00:00:00",
+          "comment": "入围公示（具体时间待定）"
+        },
+        {
+          "deadline": "2025-09-30T00:00:00",
+          "comment": "决赛（具体时间待定）"
+        }
+      ],
+      "sourceFile": "data/competitions.yml",
+      "locationConflict": false
+    },
+    {
+      "sourceId": "oh-media-2025",
+      "title": "开源鸿蒙创新应用挑战赛-媒体格式音视频解码专项",
+      "sourceCategory": "competition",
+      "tags": [
+        "OpenHarmony",
+        "媒体技术",
+        "开放原子"
+      ],
+      "url": "https://competition.atomgit.com/competitionInfo?id=67a2bfabddf910caee6f422ed8760bf0",
+      "dateLabel": "2025 年 8 月 7 日 - 11 月 25 日",
+      "location": "线上",
+      "timezone": "Asia/Shanghai",
+      "year": 2025,
+      "timeline": [
+        {
+          "deadline": "2025-08-07T00:00:00",
+          "comment": "报名开始"
+        },
+        {
+          "deadline": "2025-10-15T00:00:00",
+          "comment": "报名截止"
+        },
+        {
+          "deadline": "2025-10-17T00:00:00",
+          "comment": "作品提交截止"
+        },
+        {
+          "deadline": "2025-10-25T00:00:00",
+          "comment": "公布晋级决赛名单"
+        },
+        {
+          "deadline": "2025-11-10T00:00:00",
+          "comment": "决赛作品提交截止"
+        },
+        {
+          "deadline": "2025-11-20T00:00:00",
+          "comment": "线下决赛路演及颁奖仪式（拟）"
+        },
+        {
+          "deadline": "2025-11-25T00:00:00",
+          "comment": "获奖名单公示（拟）"
+        }
+      ],
+      "sourceFile": "data/competitions.yml",
+      "locationConflict": false
+    },
+    {
+      "sourceId": "vivo-os-2025",
+      "title": "vivo蓝河操作系统创新赛",
+      "sourceCategory": "competition",
+      "tags": [
+        "操作系统",
+        "Rust",
+        "开放原子"
+      ],
+      "url": "https://competition.atomgit.com/competitionInfo?id=49f0205ecd5c81c96381829456fef6a5",
+      "dateLabel": "2025 年 8 月 5 日 - 12 月 6 日",
+      "location": "线上",
+      "timezone": "Asia/Shanghai",
+      "year": 2025,
+      "timeline": [
+        {
+          "deadline": "2025-08-05T00:00:00",
+          "comment": "报名开始"
+        },
+        {
+          "deadline": "2025-09-01T00:00:00",
+          "comment": "线上培训（拟定）"
+        },
+        {
+          "deadline": "2025-10-20T23:59:59",
+          "comment": "报名及初赛作品提交截止"
+        },
+        {
+          "deadline": "2025-10-27T00:00:00",
+          "comment": "复赛入围名单及赛题公布"
+        },
+        {
+          "deadline": "2025-11-16T23:59:59",
+          "comment": "复赛作品提交截止"
+        },
+        {
+          "deadline": "2025-11-30T23:59:59",
+          "comment": "决赛作品提交截止"
+        },
+        {
+          "deadline": "2025-12-06T00:00:00",
+          "comment": "决赛路演及颁奖仪式（拟定）"
+        }
+      ],
+      "sourceFile": "data/competitions.yml",
+      "locationConflict": false
+    },
+    {
+      "sourceId": "opencamp-2025",
+      "title": "清华大学 OpenCamp 2025 秋冬季开源操作系统训练营",
+      "sourceCategory": "competition",
+      "tags": [
+        "操作系统",
+        "训练营",
+        "Rust"
+      ],
+      "url": "https://mp.weixin.qq.com/s/cErWjE-8RPNLVVr9BechgQ",
+      "dateLabel": "2025 年 9 月 14 日 - 2025 年 12 月 28 日",
+      "location": "线上",
+      "timezone": "Asia/Shanghai",
+      "year": 2025,
+      "timeline": [
+        {
+          "deadline": "2025-09-14T00:00:00",
+          "comment": "训练营开始"
+        },
+        {
+          "deadline": "2025-12-28T23:59:59",
+          "comment": "训练营结束"
+        }
+      ],
+      "sourceFile": "data/competitions.yml",
+      "locationConflict": false
+    },
+    {
+      "sourceId": "cie-riscv-2025",
+      "title": "CIE - 玄铁杯 RISC-V 应用创新比赛",
+      "sourceCategory": "competition",
+      "tags": [
+        "RISC-V",
+        "服务器",
+        "AI",
+        "硬件"
+      ],
+      "url": "https://rv.cie.org.cn/direction?id=3",
+      "dateLabel": "2025 年 7 月 1 日 - 2025 年 10 月 8 日",
+      "location": "线上",
+      "timezone": "Asia/Shanghai",
+      "year": 2025,
+      "timeline": [
+        {
+          "deadline": "2025-07-01T00:00:00",
+          "comment": "比赛发布"
+        },
+        {
+          "deadline": "2025-10-08T23:59:59",
+          "comment": "报名与作品提交截止"
+        }
+      ],
+      "sourceFile": "data/competitions.yml",
+      "locationConflict": false
+    },
+    {
+      "sourceId": "qemu-camp-2025",
+      "title": "QEMU 训练营 2025",
+      "sourceCategory": "competition",
+      "tags": [
+        "QEMU",
+        "训练营"
+      ],
+      "url": "https://mp.weixin.qq.com/s/XKfIv0Qjduq8JeHIiQBtrg",
+      "dateLabel": "2025 年 10 月 12 日 - 2025 年 11 月 23 日",
+      "location": "线上",
+      "timezone": "Asia/Shanghai",
+      "year": 2025,
+      "timeline": [
+        {
+          "deadline": "2025-09-28T00:00:00",
+          "comment": "导学阶段开始"
+        },
+        {
+          "deadline": "2025-10-12T00:00:00",
+          "comment": "训练营开始"
+        },
+        {
+          "deadline": "2025-11-23T23:59:59",
+          "comment": "训练营结束"
+        }
+      ],
+      "sourceFile": "data/competitions.yml",
+      "locationConflict": false
+    },
+    {
+      "sourceId": "rt-thread-software-2025",
+      "title": "RT-Thread 2025 嵌入式软件大赛",
+      "sourceCategory": "competition",
+      "tags": [
+        "RT-Thread",
+        "嵌入式"
+      ],
+      "url": "https://mp.weixin.qq.com/s/uoznPrNJeHX44plQ_liJAg",
+      "dateLabel": "2025 年 8 月 16 日 - 2025 年 12 月 7 日",
+      "location": "线上",
+      "timezone": "Asia/Shanghai",
+      "year": 2025,
+      "timeline": [
+        {
+          "deadline": "2025-08-16T00:00:00",
+          "comment": "报名开始"
+        },
+        {
+          "deadline": "2025-09-30T00:00:00",
+          "comment": "报名结束"
+        },
+        {
+          "deadline": "2025-11-30T00:00:00",
+          "comment": "提交作品"
+        },
+        {
+          "deadline": "2025-12-01T00:00:00",
+          "comment": "评审开始"
+        },
+        {
+          "deadline": "2025-12-07T23:59:59",
+          "comment": "评审结束"
+        }
+      ],
+      "sourceFile": "data/competitions.yml",
+      "locationConflict": false
+    },
+    {
+      "sourceId": "riscv-openharmony-ai-dev-competition-2025",
+      "title": "基于 RISC-V 芯片和开源鸿蒙操作系统的 AI 应用开发赛",
+      "sourceCategory": "competition",
+      "tags": [
+        "RISC-V",
+        "开源鸿蒙",
+        "AI 应用开发"
+      ],
+      "url": "https://competition.atomgit.com/competitionInfo?id=f90bd619dd856d17039720c0fa6cca3e#heading-0-0",
+      "dateLabel": "2025 年 7 月 1 日 - 2025 年 12 月 31 日",
+      "location": "线上",
+      "timezone": "Asia/Shanghai",
+      "year": 2025,
+      "timeline": [
+        {
+          "deadline": "2025-07-01T00:00:00",
+          "comment": "大赛开始"
+        },
+        {
+          "deadline": "2025-12-31T23:59:59",
+          "comment": "大赛结束"
+        }
+      ],
+      "sourceFile": "data/competitions.yml",
+      "locationConflict": false
+    },
+    {
+      "sourceId": "optcup-harmony-innovation-2025",
+      "title": "首届“光谷杯”鸿蒙创新大赛",
+      "sourceCategory": "competition",
+      "tags": [
+        "鸿蒙"
+      ],
+      "url": "https://mp.weixin.qq.com/s/AhGJ464mU1tUXxTxyq6UXw",
+      "dateLabel": "2025 年 9 月 26 日 - 2025 年 11 月 16 日",
+      "location": "中国，武汉",
+      "timezone": "Asia/Shanghai",
+      "year": 2025,
+      "timeline": [
+        {
+          "deadline": "2025-09-26T00:00:00",
+          "comment": "项目征集开始"
+        },
+        {
+          "deadline": "2025-11-16T23:59:59",
+          "comment": "项目征集结束"
+        }
+      ],
+      "sourceFile": "data/competitions.yml",
+      "locationConflict": false
+    },
+    {
+      "sourceId": "open-source-gpu-innovation-2025",
+      "title": "CCF 开源 GPU 创新生态赛常规赛",
+      "sourceCategory": "competition",
+      "tags": [
+        "GPU",
+        "人工智能+",
+        "开源生态"
+      ],
+      "url": "https://mp.weixin.qq.com/s/d-9WsAiF_kGZqcI3sJQVWg",
+      "dateLabel": "2025 年 9 月 15 日 - 2025 年 12 月 30 日",
+      "location": "线上",
+      "timezone": "Asia/Shanghai",
+      "year": 2025,
+      "timeline": [
+        {
+          "deadline": "2025-09-15T00:00:00",
+          "comment": "报名开始"
+        },
+        {
+          "deadline": "2025-12-10T23:59:59",
+          "comment": "报名截止"
+        }
+      ],
+      "sourceFile": "data/competitions.yml",
+      "locationConflict": false
+    },
+    {
+      "sourceId": "open-atom-contest-openloong-2025",
+      "title": "第三届开放原子大赛 OpenLoong 双赛题",
+      "sourceCategory": "competition",
+      "tags": [
+        "仿真控制",
+        "人形机器人"
+      ],
+      "url": "https://mp.weixin.qq.com/s/ZgtLF3PMfI6_yYnvcVuE0g",
+      "dateLabel": "2025 年 9 月 1 日 - 2025 年 11 月 30 日",
+      "location": "线上",
+      "timezone": "Asia/Shanghai",
+      "year": 2025,
+      "timeline": [
+        {
+          "deadline": "2025-09-01T00:00:00",
+          "comment": "报名开始"
+        },
+        {
+          "deadline": "2025-11-15T23:59:59",
+          "comment": "报名结束"
+        }
+      ],
+      "sourceFile": "data/competitions.yml",
+      "locationConflict": false
+    },
+    {
+      "sourceId": "jhun-opensource-agent-dev-2025",
+      "title": "江汉大学开源创新中心智能体开发大赛",
+      "sourceCategory": "competition",
+      "tags": [
+        "智能体",
+        "AI 应用开发",
+        "武汉开源创新联盟"
+      ],
+      "url": "https://mp.weixin.qq.com/s/8DCmKkBGVoUY6eDgkqV03w",
+      "dateLabel": "2025 年 10 月 10 日 - 2025 年 10 月 24 日",
+      "location": "线上",
+      "timezone": "Asia/Shanghai",
+      "year": 2025,
+      "timeline": [
+        {
+          "deadline": "2025-10-10T00:00:00",
+          "comment": "报名启动"
+        },
+        {
+          "deadline": "2025-10-12T00:00:00",
+          "comment": "赛题公布"
+        },
+        {
+          "deadline": "2025-10-21T23:59:59",
+          "comment": "作品提交截止"
+        },
+        {
+          "deadline": "2025-10-24T00:00:00",
+          "comment": "决赛路演"
+        }
+      ],
+      "sourceFile": "data/competitions.yml",
+      "locationConflict": false
+    },
+    {
+      "sourceId": "costrict-campus-innovation-2025",
+      "title": "深信服AI创新技术大赛",
+      "sourceCategory": "competition",
+      "tags": [
+        "AI 应用开发"
+      ],
+      "url": "https://competition.costrict.ai",
+      "dateLabel": "2025 年 11 月 12 日 - 2026 年 1 月 16 日",
+      "location": "线上",
+      "timezone": "Asia/Shanghai",
+      "year": 2025,
+      "timeline": [
+        {
+          "deadline": "2025-11-12T00:00:00",
+          "comment": "报名启动"
+        },
+        {
+          "deadline": "2025-12-20T23:59:59",
+          "comment": "报名结束"
+        },
+        {
+          "deadline": "2025-12-31T23:59:59",
+          "comment": "作品提交截止"
+        },
+        {
+          "deadline": "2026-01-16T00:00:00",
+          "comment": "结果公布"
+        }
+      ],
+      "sourceFile": "data/competitions.yml",
+      "locationConflict": false
+    },
+    {
+      "sourceId": "risc-v-china-summit-2025",
+      "title": "RISC-V 中国峰会",
+      "sourceCategory": "conference",
+      "tags": [
+        "RISC-V",
+        "开源硬件",
+        "生态系统"
+      ],
+      "url": "https://riscv.org/event/risc-v-summit-china/",
+      "dateLabel": "2025年7月16日-7月19日",
+      "location": "中国，上海",
+      "timezone": "Asia/Shanghai",
+      "year": 2025,
+      "timeline": [
+        {
+          "deadline": "2025-06-19T00:00:00",
+          "comment": "报名开始"
+        },
+        {
+          "deadline": "2025-07-16T09:00:00",
+          "comment": "会议开始"
+        },
+        {
+          "deadline": "2025-07-19T09:00:00",
+          "comment": "会议结束"
+        }
+      ],
+      "sourceFile": "data/conferences.yml",
+      "locationConflict": false
+    },
+    {
+      "sourceId": "ccfchinaosc2025",
+      "title": "CCF 中国开源大会",
+      "sourceCategory": "conference",
+      "tags": [
+        "RISC-V",
+        "openEuler"
+      ],
+      "url": "https://chinaosc.ccf.org.cn/",
+      "dateLabel": "2025年8月2日-11月3日",
+      "location": "中国，上海",
+      "timezone": "Asia/Shanghai",
+      "year": 2025,
+      "timeline": [
+        {
+          "deadline": "2025-06-02T00:00:00",
+          "comment": "注册开始"
+        },
+        {
+          "deadline": "2025-08-01T24:00:00",
+          "comment": "注册截止"
+        },
+        {
+          "deadline": "2025-08-02T09:00:00",
+          "comment": "会议开始"
+        }
+      ],
+      "sourceFile": "data/conferences.yml",
+      "locationConflict": false
+    },
+    {
+      "sourceId": "ccfchinaosc2024",
+      "title": "CCF 中国开源大会",
+      "sourceCategory": "conference",
+      "tags": [
+        "RISC-V",
+        "openEuler"
+      ],
+      "url": "https://chinaosc.ccf.org.cn/2024/",
+      "dateLabel": "2024年11月9日-11月10日",
+      "location": "中国，深圳",
+      "timezone": "Asia/Shanghai",
+      "year": 2024,
+      "timeline": [
+        {
+          "deadline": "2024-08-01T00:00:00",
+          "comment": "注册开始"
+        },
+        {
+          "deadline": "2024-11-08T24:00:00",
+          "comment": "注册截止"
+        },
+        {
+          "deadline": "2024-11-09T24:00:00",
+          "comment": "会议开始"
+        }
+      ],
+      "sourceFile": "data/conferences.yml",
+      "locationConflict": false
+    },
+    {
+      "sourceId": "clk2024",
+      "title": "中国 Linux 内核开发者大会",
+      "sourceCategory": "conference",
+      "tags": [
+        "Linux 内核",
+        "开源技术",
+        "开发者大会"
+      ],
+      "url": "http://ckernel.org/",
+      "dateLabel": "2024年10月26日",
+      "location": "中国，武汉",
+      "timezone": "Asia/Shanghai",
+      "year": 2024,
+      "timeline": [
+        {
+          "deadline": "2024-09-10T00:00:00",
+          "comment": "征稿开放"
+        },
+        {
+          "deadline": "2024-09-25T24:00:00",
+          "comment": "征稿截止"
+        },
+        {
+          "deadline": "2024-10-20T24:00:00",
+          "comment": "演讲PPT截止提交"
+        }
+      ],
+      "sourceFile": "data/conferences.yml",
+      "locationConflict": false
+    },
+    {
+      "sourceId": "coc-asia-2025",
+      "title": "Community Over Code Asia",
+      "sourceCategory": "conference",
+      "tags": [
+        "Apache",
+        "开源技术"
+      ],
+      "url": "http://asia.communityovercode.org/",
+      "dateLabel": "2025年7月25日-7月27日",
+      "location": "中国，北京",
+      "timezone": "Asia/Shanghai",
+      "year": 2025,
+      "timeline": [
+        {
+          "deadline": "2025-04-21T23:59:00+08:00",
+          "comment": "议题征集截止"
+        },
+        {
+          "deadline": "2025-07-25T00:00:00+08:00",
+          "comment": "会议开始"
+        },
+        {
+          "deadline": "2025-07-27T23:59:00+08:00",
+          "comment": "会议结束"
+        }
+      ],
+      "sourceFile": "data/conferences.yml",
+      "locationConflict": false
+    },
+    {
+      "sourceId": "ubuconasia2025",
+      "title": "UbuCon Asia",
+      "sourceCategory": "conference",
+      "tags": [
+        "Ubuntu"
+      ],
+      "url": "https://2025.ubucon.asia/",
+      "dateLabel": "August 30th, 2025 - August 31th, 2025",
+      "location": "Kathmandu, Nepal",
+      "timezone": "Asia/Kathmandu",
+      "year": 2025,
+      "timeline": [
+        {
+          "deadline": "2025-03-01T00:00:00",
+          "comment": "Open day for Call for proposals & Travel grant application"
+        },
+        {
+          "deadline": "2025-03-31T00:00:00",
+          "comment": "Deadline for Call for proposals, Travel grant application for those who submitted proposals"
+        },
+        {
+          "deadline": "2025-04-15T00:00:00",
+          "comment": "Extended deadline for Call for proposals"
+        },
+        {
+          "deadline": "2025-04-28T00:00:00",
+          "comment": "Extended deadline for Travel grant application for those who submitted proposals"
+        },
+        {
+          "deadline": "2025-08-29T00:00:00",
+          "comment": "Arrival day"
+        },
+        {
+          "deadline": "2025-08-30T00:00:00",
+          "comment": "Fisrt day of UbuCon Asia 2025"
+        },
+        {
+          "deadline": "2025-08-31T00:00:00",
+          "comment": "Second day of UbuCon Asia 2025"
+        },
+        {
+          "deadline": "2025-09-01T00:00:00",
+          "comment": "Group tour program"
+        },
+        {
+          "deadline": "2025-09-02T00:00:00",
+          "comment": "Departure day"
+        }
+      ],
+      "sourceFile": "data/conferences.yml",
+      "locationConflict": false
+    },
+    {
+      "sourceId": "openatom-open-source-eco-conf-2025",
+      "title": "开放原子开源生态大会",
+      "sourceCategory": "conference",
+      "tags": [
+        "开放原子",
+        "开源生态"
+      ],
+      "url": "https://mp.weixin.qq.com/s/Pxk9sCDt59EmBBDf2u0Lbg",
+      "dateLabel": "2025年7月23日-7月24日",
+      "location": "中国，上海",
+      "timezone": "Asia/Shanghai",
+      "year": 2025,
+      "timeline": [
+        {
+          "deadline": "2025-07-21T00:00:00",
+          "comment": "报名截止"
+        },
+        {
+          "deadline": "2025-07-23T00:00:00",
+          "comment": "会议开始"
+        },
+        {
+          "deadline": "2025-07-24T00:00:00",
+          "comment": "会议结束"
+        }
+      ],
+      "sourceFile": "data/conferences.yml",
+      "locationConflict": false
+    },
+    {
+      "sourceId": "vueconf-2025",
+      "title": "VueConf",
+      "sourceCategory": "conference",
+      "tags": [
+        "Vue.js"
+      ],
+      "url": "https://vueconf.cn/",
+      "dateLabel": "2025年7月12日",
+      "location": "中国，深圳",
+      "timezone": "Asia/Shanghai",
+      "year": 2025,
+      "timeline": [
+        {
+          "deadline": "2025-07-05T22:22:00",
+          "comment": "报名截止"
+        },
+        {
+          "deadline": "2025-07-12T08:00:00",
+          "comment": "签到开始"
+        },
+        {
+          "deadline": "2025-07-12T19:00:00",
+          "comment": "会议结束"
+        }
+      ],
+      "sourceFile": "data/conferences.yml",
+      "locationConflict": false
+    },
+    {
+      "sourceId": "rustchinaconf-2025",
+      "title": "RustChinaConf",
+      "sourceCategory": "conference",
+      "tags": [
+        "Rust"
+      ],
+      "url": "https://rustcc.cn/2025conf/",
+      "dateLabel": "2025年9月13日-9月14日",
+      "location": "中国，杭州",
+      "timezone": "Asia/Shanghai",
+      "year": 2025,
+      "timeline": [
+        {
+          "deadline": "2025-07-15T00:00:00",
+          "comment": "提案截止"
+        },
+        {
+          "deadline": "2025-07-31T00:00:00",
+          "comment": "录用通知"
+        },
+        {
+          "deadline": "2025-08-15T00:00:00",
+          "comment": "最终议程"
+        },
+        {
+          "deadline": "2025-09-13T00:00:00",
+          "comment": "会议开始"
+        },
+        {
+          "deadline": "2025-09-14T00:00:00",
+          "comment": "会议结束"
+        }
+      ],
+      "sourceFile": "data/conferences.yml",
+      "locationConflict": false
+    },
+    {
+      "sourceId": "ysyx2025-summer-press-conference",
+      "title": "“一生一芯” 2025 暑期发布会",
+      "sourceCategory": "conference",
+      "tags": [
+        "一生一芯",
+        "RISC-V",
+        "处理器芯片"
+      ],
+      "url": "https://zhuanlan.zhihu.com/p/1929322131939910259",
+      "dateLabel": "2025 年 7 月 21 日",
+      "location": "中国，深圳",
+      "timezone": "Asia/Shanghai",
+      "year": 2025,
+      "timeline": [
+        {
+          "deadline": "2025-07-19T23:59:00",
+          "comment": "线下报名截止"
+        },
+        {
+          "deadline": "2025-07-21T14:30:00",
+          "comment": "会议开始"
+        }
+      ],
+      "sourceFile": "data/conferences.yml",
+      "locationConflict": false
+    },
+    {
+      "sourceId": "gosim-hangzhou-2025",
+      "title": "GOSIM Conference",
+      "sourceCategory": "conference",
+      "tags": [
+        "AI",
+        "Web"
+      ],
+      "url": "https://hangzhou2025.gosim.org/",
+      "dateLabel": "2025年9月13日-9月14日",
+      "location": "中国，杭州",
+      "timezone": "Asia/Shanghai",
+      "year": 2025,
+      "timeline": [
+        {
+          "deadline": "2025-08-31T00:00:00",
+          "comment": "报名截止"
+        },
+        {
+          "deadline": "2025-09-13T00:00:00",
+          "comment": "会议开始"
+        },
+        {
+          "deadline": "2025-09-14T00:00:00",
+          "comment": "会议结束"
+        }
+      ],
+      "sourceFile": "data/conferences.yml",
+      "locationConflict": false
+    },
+    {
+      "sourceId": "apsara-2025",
+      "title": "云栖大会",
+      "sourceCategory": "conference",
+      "tags": [
+        "AI"
+      ],
+      "url": "https://yunqi.aliyun.com/2025",
+      "dateLabel": "2025年9月24日-9月26日",
+      "location": "中国，杭州",
+      "timezone": "Asia/Shanghai",
+      "year": 2025,
+      "timeline": [
+        {
+          "deadline": "2025-09-24T08:00:00",
+          "comment": "会议开始"
+        },
+        {
+          "deadline": "2025-09-26T17:00:00",
+          "comment": "会议结束"
+        }
+      ],
+      "sourceFile": "data/conferences.yml",
+      "locationConflict": false
+    },
+    {
+      "sourceId": "openkylin-developer-2025",
+      "title": "openKylin 开发者大会",
+      "sourceCategory": "conference",
+      "tags": [
+        "openKylin",
+        "开发者大会"
+      ],
+      "url": "https://www.openatom.org/journalism/detail/I4P5cHBeVfGi",
+      "dateLabel": "2025年8月26日",
+      "location": "中国，北京",
+      "timezone": "Asia/Shanghai",
+      "year": 2025,
+      "timeline": [
+        {
+          "deadline": "2025-08-26T14:00:00",
+          "comment": "会议开始"
+        },
+        {
+          "deadline": "2025-08-26T17:30:00",
+          "comment": "会议结束"
+        }
+      ],
+      "sourceFile": "data/conferences.yml",
+      "locationConflict": false
+    },
+    {
+      "sourceId": "openharmony-tech-conf-2025",
+      "title": "开源鸿蒙技术大会 2025",
+      "sourceCategory": "conference",
+      "tags": [
+        "OpenHarmony"
+      ],
+      "url": "https://mp.weixin.qq.com/s/k5jE6TqRwTnGViwJgbNesA",
+      "dateLabel": "2025年9月27日",
+      "location": "中国，长沙",
+      "timezone": "Asia/Shanghai",
+      "year": 2025,
+      "timeline": [
+        {
+          "deadline": "2025-09-27T08:00:00",
+          "comment": "会议开始"
+        },
+        {
+          "deadline": "2025-09-27T17:30:00",
+          "comment": "会议结束"
+        }
+      ],
+      "sourceFile": "data/conferences.yml",
+      "locationConflict": false
+    },
+    {
+      "sourceId": "flagos-dev-conference-2025",
+      "title": "首届 FlagOS 开放计算开发者大会",
+      "sourceCategory": "conference",
+      "tags": [
+        "FlagOS",
+        "AI",
+        "人工智能+"
+      ],
+      "url": "https://mp.weixin.qq.com/s/pCuhGVccOcibJqNWRbQwAg",
+      "dateLabel": "2025 年 9 月 26 日 - 2025 年 9 月 27 日",
+      "location": "中国，北京",
+      "timezone": "Asia/Shanghai",
+      "year": 2025,
+      "timeline": [
+        {
+          "deadline": "2025-09-25T18:00:00",
+          "comment": "报名截止"
+        },
+        {
+          "deadline": "2025-09-26T00:00:00",
+          "comment": "大会开始"
+        },
+        {
+          "deadline": "2025-09-27T23:59:59",
+          "comment": "大会结束"
+        }
+      ],
+      "sourceFile": "data/conferences.yml",
+      "locationConflict": false
+    },
+    {
+      "sourceId": "pycon-china-2025",
+      "title": "PyCon China 2025",
+      "sourceCategory": "conference",
+      "tags": [
+        "Python",
+        "AI",
+        "黑客松"
+      ],
+      "url": "https://mp.weixin.qq.com/s/o__QnWKYwlKV40OlEjFyaA",
+      "dateLabel": "2025 年 9 月 20 日",
+      "location": "中国，上海",
+      "timezone": "Asia/Shanghai",
+      "year": 2025,
+      "timeline": [
+        {
+          "deadline": "2025-09-20T09:30:00",
+          "comment": "大会开始"
+        },
+        {
+          "deadline": "2025-09-20T18:00:00",
+          "comment": "大会结束"
+        }
+      ],
+      "sourceFile": "data/conferences.yml",
+      "locationConflict": false
+    },
+    {
+      "sourceId": "coscon-2025",
+      "title": "COSCon'25",
+      "sourceCategory": "conference",
+      "tags": [
+        "开源社"
+      ],
+      "url": "https://mp.weixin.qq.com/s/1hgKp-VCRJbVYaVPC_SRKw",
+      "dateLabel": "2025 年 12 月 6 日 - 2025 年 12 月 7 日",
+      "location": "中国，北京",
+      "timezone": "Asia/Shanghai",
+      "year": 2025,
+      "timeline": [
+        {
+          "deadline": "2025-12-06T09:30:00",
+          "comment": "大会开始"
+        },
+        {
+          "deadline": "2025-12-07T18:00:00",
+          "comment": "大会结束"
+        }
+      ],
+      "sourceFile": "data/conferences.yml",
+      "locationConflict": false
+    },
+    {
+      "sourceId": "openvela-gdc-2025",
+      "title": "openvela Global Developer Conference",
+      "sourceCategory": "conference",
+      "tags": [
+        "openvela"
+      ],
+      "url": "https://mp.weixin.qq.com/s/ZFaAI48dO67MnfuzVoOqKg",
+      "dateLabel": "2025 年 10 月 17 日",
+      "location": "哥斯达黎加",
+      "timezone": "America/Costa_Rica",
+      "year": 2025,
+      "timeline": [
+        {
+          "deadline": "2025-10-17T13:00:00",
+          "comment": "大会开始"
+        },
+        {
+          "deadline": "2025-10-17T16:00:00",
+          "comment": "大会结束"
+        }
+      ],
+      "sourceFile": "data/conferences.yml",
+      "locationConflict": false
+    },
+    {
+      "sourceId": "openEuler-summit-2025",
+      "title": "openEuler Summit 2025",
+      "sourceCategory": "conference",
+      "tags": [
+        "openEuler",
+        "开放原子"
+      ],
+      "url": "https://mp.weixin.qq.com/s/pRyVgmOthCgiiHOUS3dy_Q",
+      "dateLabel": "2025 年 11 月 15 日",
+      "location": "中国，北京",
+      "timezone": "Asia/Shanghai",
+      "year": 2025,
+      "timeline": [
+        {
+          "deadline": "2025-10-24T24:00:00",
+          "comment": "Call for Speaker"
+        },
+        {
+          "deadline": "2025-10-24T24:00:00",
+          "comment": "Call for Demo"
+        },
+        {
+          "deadline": "2025-10-30T24:00:00",
+          "comment": "Call for SIG"
+        },
+        {
+          "deadline": "2025-11-07T18:00:00",
+          "comment": "Call for Poster"
+        },
+        {
+          "deadline": "2025-11-15T09:30:00",
+          "comment": "大会开始"
+        }
+      ],
+      "sourceFile": "data/conferences.yml",
+      "locationConflict": false
+    },
+    {
+      "sourceId": "gotc-ai-edu-2025",
+      "title": "GOTC 2025 全球开源技术峰会 AI 教育与人才培养论坛",
+      "sourceCategory": "conference",
+      "tags": [
+        "GOTC",
+        "AI"
+      ],
+      "url": "https://mp.weixin.qq.com/s/R-Bzn68rhebRldaUwdP1Vg",
+      "dateLabel": "2025 年 11 月 2 日",
+      "location": "中国，北京",
+      "timezone": "Asia/Shanghai",
+      "year": 2025,
+      "timeline": [
+        {
+          "deadline": "2025-11-02T13:30:00",
+          "comment": "分论坛开始"
+        },
+        {
+          "deadline": "2025-11-02T16:15:00",
+          "comment": "分论坛结束"
+        }
+      ],
+      "sourceFile": "data/conferences.yml",
+      "locationConflict": false
+    },
+    {
+      "sourceId": "dduc-wuhan-2025",
+      "title": "第十五届深度开发者与用户大会 (DDUC 2025)",
+      "sourceCategory": "conference",
+      "tags": [
+        "deepin"
+      ],
+      "url": "https://mp.weixin.qq.com/s/Fgw-F-bFOdcmBM0xXMWBXQ",
+      "dateLabel": "2025 年 12 月 27 日",
+      "location": "中国，武汉",
+      "timezone": "Asia/Shanghai",
+      "year": 2025,
+      "timeline": [
+        {
+          "deadline": "2025-12-27T13:30:00",
+          "comment": "会议签到开始"
+        },
+        {
+          "deadline": "2025-12-27T14:00:00",
+          "comment": "会议正式开始"
+        },
+        {
+          "deadline": "2025-12-27T18:00:00",
+          "comment": "会议结束"
+        }
+      ],
+      "sourceFile": "data/conferences.yml",
+      "locationConflict": false
+    }
+  ]
+}

@@ -39,3 +39,5 @@ Read a plan only for the task it describes. Product work starts from the current
 [1.6.0 documentation and promotional film](milestone-1.6.md) records this maintenance delivery, including actual validation and the final PR receipt.
 
 - [Conference library rollout](conference-library.md): CCF-labelled snapshot, city mapping and filters; validation/deployment receipt in implementation PR.
+
+- [Community events and reusable interface lessons](community-events.md): 1.19.0 implementation; CI/browser/Pages evidence in the implementation PR.

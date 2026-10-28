@@ -334,6 +334,13 @@
       "purpose": "Provider provenance, full records, city-only mapping, filters, update and failure semantics",
       "language": "zh-CN/en",
       "url": "https://raw.githubusercontent.com/X-lab2017/open-dipper/main/docs/CONFERENCES.md"
+    },
+    {
+      "path": "docs/INTERACTION_PATTERNS.md",
+      "title": "Reusable interaction and delivery patterns",
+      "purpose": "Accepted compact layout, shared tree/card/map filters, paired glyphs, provenance and release evidence",
+      "language": "zh-CN/en",
+      "url": "https://raw.githubusercontent.com/X-lab2017/open-dipper/main/docs/INTERACTION_PATTERNS.md"
     }
   ],
   "tasks": {
@@ -341,7 +348,8 @@
       "read": [
         "docs/ATLAS_WORKSPACE.md",
         "docs/VISUAL_SYSTEM.md",
-        "docs/REVIEW.md"
+        "docs/REVIEW.md",
+        "docs/INTERACTION_PATTERNS.md"
       ],
       "edit": [
         "src/atlas.ts",
@@ -747,7 +755,7 @@
     "implementationCommit": "6544f48ccaab9a43a7c56069c487f620ec83723e"
   },
   "versions": {
-    "application": "1.18.0",
+    "application": "1.19.0",
     "visual": "1.4.1"
   }
 }

@@ -284,6 +284,12 @@
       "title": "Conference library and daily snapshot contract",
       "purpose": "Provider provenance, full records, city-only mapping, filters, update and failure semantics",
       "language": "zh-CN/en"
+    },
+    {
+      "path": "docs/INTERACTION_PATTERNS.md",
+      "title": "Reusable interaction and delivery patterns",
+      "purpose": "Accepted compact layout, shared tree/card/map filters, paired glyphs, provenance and release evidence",
+      "language": "zh-CN/en"
     }
   ],
   "tasks": {
@@ -291,7 +297,8 @@
       "read": [
         "docs/ATLAS_WORKSPACE.md",
         "docs/VISUAL_SYSTEM.md",
-        "docs/REVIEW.md"
+        "docs/REVIEW.md",
+        "docs/INTERACTION_PATTERNS.md"
       ],
       "edit": [
         "src/atlas.ts",

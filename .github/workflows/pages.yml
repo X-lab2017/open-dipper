@@ -55,7 +55,13 @@ jobs:
           fi
       - name: Refresh conference snapshot (daily; retain last good data on failure)
         if: github.event.schedule == '23 1 * * *'
-        run: npm run refresh:conferences
+        run: |
+          npm run refresh:conferences
+          if python3 -m pip install --disable-pip-version-check -r scripts/requirements-community.txt; then
+            npm run refresh:community
+          else
+            echo '::warning::Community parser unavailable; last good snapshot retained.'
+          fi
       - run: npm run typecheck
       - run: npm test
       - run: npm run build
@@ -90,7 +96,7 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add public/data/events.json public/data/snapshot.json public/data/geography.json public/data/countries.geojson data/sources/ccf-conferences.json data/reference/conferences/provenance.json public/data/conferences.json public/data/intelligence-catalog.json
+          git add public/data/events.json public/data/snapshot.json public/data/geography.json public/data/countries.geojson data/sources/ccf-conferences.json data/sources/community-deadlines data/sources/linuxfoundation-events.json data/reference/conferences/provenance.json public/data/conferences.json public/data/intelligence-catalog.json
           if ! git diff --cached --quiet; then
             git commit -m 'data: refresh observatory snapshots'
             git push origin HEAD:main

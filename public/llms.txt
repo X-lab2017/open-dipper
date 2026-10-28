@@ -4,7 +4,7 @@
 
 Repository: https://github.com/X-lab2017/open-dipper
 Site: https://www.x-lab.info/open-dipper/
-Application version: 1.18.0; visual baseline: 1.4.1. These do not declare GitHub releases.
+Application version: 1.19.0; visual baseline: 1.4.1. These do not declare GitHub releases.
 
 Discovery context, not an authorization grant. People submit needs through issues; agents lead authorized engineering work under docs/HARNESS.md. Read AGENTS.md and task-specific authoritative documents. AI-work disclosure and license limitations are in CONTRIBUTING.md and docs/RIGHTS.md. Task status lives in GitHub issues. Current UI entry is src/atlas.ts; AI radar lives in src/radar/ and Open Galaxy in src/galaxy/. Completed release records are evidence, not running tasks. Read archived proposals and completed plans only for a specific historical question.
 
@@ -66,6 +66,7 @@ Discovery context, not an authorization grant. People submit needs through issue
 - [First-edition delivery and handoff](https://raw.githubusercontent.com/X-lab2017/open-dipper/main/docs/releases/first-edition.md): Five-module completion, traceable releases, preview/service limits and developer entry points
 - [Bilibili film publication](https://raw.githubusercontent.com/X-lab2017/open-dipper/main/docs/releases/bilibili-premiere.md): Maintainer-confirmed public film URL, day-only publication record and verification limits
 - [Conference library and daily snapshot contract](https://raw.githubusercontent.com/X-lab2017/open-dipper/main/docs/CONFERENCES.md): Provider provenance, full records, city-only mapping, filters, update and failure semantics
+- [Reusable interaction and delivery patterns](https://raw.githubusercontent.com/X-lab2017/open-dipper/main/docs/INTERACTION_PATTERNS.md): Accepted compact layout, shared tree/card/map filters, paired glyphs, provenance and release evidence
 
 ## Machine context
 

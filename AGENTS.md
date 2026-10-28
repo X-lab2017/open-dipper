@@ -12,7 +12,7 @@ This is the repository entry point for AI coding agents. People provide needs an
 
 ## Product and data invariants
 
-- Keep Map / Globe / Wire. Default to the map and one-screen desktop layout; two-screen presentation is an explicit option. Mobile uses natural flow. Preserve Chinese/English, dark/light, keyboard access and reduced motion.
+- Keep Map / Globe / Wire. Default to the map and one-screen desktop layout; two-screen presentation is an explicit option. Mobile uses natural flow. Preserve Chinese/English, dark/light, keyboard access and reduced motion. Apply the accepted [interaction patterns](docs/INTERACTION_PATTERNS.md) when extending directories, cards or map layers.
 - OpenDigger monthly metrics, independent trailing-year geographic label aggregates, and near-live events have different clocks and scopes. Retrieval time is not an observation period.
 - Observed data and fixed demonstration fixtures stay separate and visibly identified. Never fall back silently to demo data, refresh demo dates to imply freshness, or convert missing observations to zero.
 - Compare one platform, metric and common month. Current samples are not global totals. Accepted change requests are a contribution-volume proxy, not a universal contribution score.

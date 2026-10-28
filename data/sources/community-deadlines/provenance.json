@@ -1,0 +1,11 @@
+{
+  "sourceCommit": "8f30d66ac6fb99d5064aebb7d3a1f4ed3846a3cf",
+  "sourceUpdatedAt": "2026-10-14T11:59:57Z",
+  "capturedAt": "2026-10-28",
+  "gitBlobs": {
+    "LICENSE": "aa4b1925e00d918d2425582a068769c3ce89aa9f",
+    "data/activities.yml": "e806156c92edef162c930033ef10cc08e2fdc374",
+    "data/competitions.yml": "dac576c3bae324340a91a133b5e632497a014099",
+    "data/conferences.yml": "7e07b7771a63f4afa6e83ac451cdb704c36941db"
+  }
+}

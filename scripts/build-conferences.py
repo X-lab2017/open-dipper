@@ -1,6 +1,7 @@
 """Deterministic Conference Partner snapshot adapter; never invent dates or coordinates."""
 import json,re,sys,hashlib
 from pathlib import Path
+from community_sources import build_community,canonical
 ROOT=Path(__file__).resolve().parents[1]
 def read(p):return json.loads((ROOT/p).read_text())
 def validate(raw):
@@ -21,10 +22,16 @@ def topic(name):return next((k for k,p in RULES if re.search(p,name,re.I)),'othe
 def build():
  raw=read('data/sources/ccf-conferences.json');rows=validate(raw);geo=read('data/reference/conferences/locations.json');meta=read('data/reference/conferences/provenance.json');out=[]
  for r in rows:
-  loc=geo['locations'].get(r['location'],{});out.append(dict(id='huiban-'+str(r['id']),short=r['short_name'],name=r['full_name'],rank=r['ccf_rank'],kind='academic',topic=topic(r['full_name']),startsAt=r['conference_date'],submissionDate=r['submission_date'],notificationDate=r['notification_date'],location=r['location'],countryCode=loc.get('countryCode'),point=loc.get('point'),url=r['detail_page'],updatedAt=r.get('updated_at'),extended=r.get('is_extended',False),source='Conference Partner (myhuiban.com)'))
+  loc=geo['locations'].get(r['location'],{});out.append(dict(id='huiban-'+str(r['id']),short=r['short_name'],name=r['full_name'],rank=r['ccf_rank'],kind='academic',topic=topic(r['full_name']),startsAt=r['conference_date'],submissionDate=r['submission_date'],notificationDate=r['notification_date'],location=r['location'],countryCode=loc.get('countryCode'),point=loc.get('point'),url=r['detail_page'],updatedAt=r.get('updated_at'),extended=r.get('is_extended',False),source='Conference Partner (myhuiban.com)',sourceKey='ccf'))
+ community,sources=build_community(ROOT)
  for r in read('public/data/located-entities.json')['layers']['meetings']:
-  out.append(dict(id=r['id'],short=r['entityName'][1],name=r['entityName'][1],rank=None,kind='community',topic='systems',startsAt=r['period'][0][:10],endsAt=r['period'][0][-10:],submissionDate=None,notificationDate=None,location=r['country'],countryCode=r['rawCode'],point=dict(city=r['country'],longitude=r['longitude'],latitude=r['latitude']),url=r['sourceUrls'][0],updatedAt=None,extended=False,source='Organizer / 主办方'))
- return dict(schemaVersion=1,sourceUpdatedAt=raw['generated_at'],capturedAt=meta['capturedAt'],sourceCommit=meta['sourceCommit'],sourceSha256=hashlib.sha256((ROOT/'data/sources/ccf-conferences.json').read_bytes()).hexdigest(),geographySource=geo['source'],rankSource='https://www.ccf.org.cn/Academic_Evaluation/By_category/',rankVerification='Third-party labels; not independently reconciled against the full CCF seventh edition.',topicBasis='Editorial keyword grouping, not official CCF subject taxonomy.',records=out)
+  duplicate=next((e for e in community if canonical(e['url'])==canonical(r['sourceUrls'][0]) and e['startsAt']==r['period'][0][:10]),None)
+  if duplicate:
+   duplicate.setdefault('aliases',[]).append(duplicate['id']);duplicate['id']=r['id'];continue
+  out.append(dict(id=r['id'],short=r['entityName'][1],name=r['entityName'][1],rank=None,kind='community',topic='systems',startsAt=r['period'][0][:10],endsAt=r['period'][0][-10:],submissionDate=None,notificationDate=None,location=r['country'],countryCode=r['rawCode'],point=dict(city=r['country'],longitude=r['longitude'],latitude=r['latitude']),url=r['sourceUrls'][0],updatedAt=None,extended=False,source='Organizer / 主办方',sourceKey='organizer',communityType='conference',mode='in-person',sourcePages=r['sourceUrls'],capturedAt='2026-10-25'))
+ out.extend(community)
+ assert len(out)==len({r['id'] for r in out})
+ return dict(schemaVersion=1,sources=[dict(id='ccf',name='Conference Partner',url='https://www.myhuiban.com/conferences/ccf',sourceUpdatedAt=raw['generated_at'],capturedAt=meta['capturedAt'],count=len(rows)),*sources],sourceUpdatedAt=raw['generated_at'],capturedAt=max([meta['capturedAt']]+[s['capturedAt'] for s in sources]),sourceCommit=meta['sourceCommit'],sourceSha256=hashlib.sha256((ROOT/'data/sources/ccf-conferences.json').read_bytes()).hexdigest(),geographySource=geo['source'],rankSource='https://www.ccf.org.cn/Academic_Evaluation/By_category/',rankVerification='Third-party labels; not independently reconciled against the full CCF seventh edition.',topicBasis='Editorial keyword grouping, not official CCF subject taxonomy.',records=out)
 if __name__=='__main__':
  s=json.dumps(build(),ensure_ascii=False,indent=2)+'\n';p=ROOT/'public/data/conferences.json'
  if '--check' in sys.argv:assert p.read_text()==s,'Run python3 scripts/build-conferences.py'
