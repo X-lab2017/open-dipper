@@ -278,6 +278,12 @@
       "title": "Bilibili film publication",
       "purpose": "Maintainer-confirmed public film URL, day-only publication record and verification limits",
       "language": "zh-CN/en"
+    },
+    {
+      "path": "docs/CONFERENCES.md",
+      "title": "Conference library and daily snapshot contract",
+      "purpose": "Provider provenance, full records, city-only mapping, filters, update and failure semantics",
+      "language": "zh-CN/en"
     }
   ],
   "tasks": {

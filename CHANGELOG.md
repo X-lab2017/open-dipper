@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.17.0 — 2026-10-28
+
+- Add 392 source-recorded academic conferences alongside existing community events, with rank/date/field/year/region filters, city-only map references and complete unlocated catalog.
+- Add explicit deadline/date provenance, bounded daily public-snapshot refresh and a shared intelligence library entry.
+
 This file records repository milestones, not published GitHub releases. Application version (`package.json`: 1.16.1) and visual system (`design/tokens.json`: 1.4.0) are independent. Detailed feedback and commits are in [the history](docs/HISTORY.md).
 
 

@@ -23,3 +23,7 @@
 ## 开源星系来源增补（2026-10-26）
 
 维护者指定使用 `YaoYao-Pig/OG-And-HG-2026` 的图数据。本次固定提交 `7f69f2fbd27860f1f207be197dfe0597216d7b0d`，保留节点身份、坐标、关系和原始快照时间，新增紧凑格式与指纹验证；未复制其应用源码。该提交未发现根 LICENSE，不把公开可访问视作统一再分发授权。原始数据平台、模型和项目各自的权利边界仍适用，扩大再分发前由维护者继续核对。来源、转换与限制见 [数据说明](../public/data/galaxy/README.md)；独立实现和交互契约见 [OPEN_GALAXY](OPEN_GALAXY.md)。
+
+## Conference library · 2026-10-28
+
+Conference Partner 公开快照接入：保留 ID/原日期/来源，CCF 等级为第三方标注；Natural Earth 城市参考点单独匹配，未定位记录不丢弃。署名回链、更新与失败保留规则见 [会议契约](CONFERENCES.md)。

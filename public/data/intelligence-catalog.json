@@ -4,6 +4,43 @@
   "taxonomyVersion": "1",
   "records": [
     {
+      "id": "conference-library",
+      "kind": "conference",
+      "provenance": "snapshot",
+      "date": "2026-10-28",
+      "publishedAt": null,
+      "dateBasis": "captured",
+      "captured": "2026-10-28",
+      "title": [
+        "CCF 会议与社区活动资料库",
+        "CCF conferences and community event library"
+      ],
+      "summary": [
+        "394 条日程记录；全球观测支持按类别、时间、领域与地区查阅。来源等级为第三方标注；批量收录不代表新发生事件。",
+        "394 schedule records; browse by category, time, field and region in the Observatory. Ranks are third-party labels; bulk capture is not new event activity."
+      ],
+      "source": "Conference Partner (myhuiban.com) / organizers",
+      "url": "https://www.myhuiban.com/conferences/ccf",
+      "sourceUrl": "https://github.com/X-lab2017/open-dipper/blob/main/public/data/conferences.json",
+      "objects": [
+        "CCF conference library"
+      ],
+      "entityUrls": [],
+      "entityTypes": [
+        "conference"
+      ],
+      "topics": [
+        "ecosystem"
+      ],
+      "modality": "data",
+      "period": [
+        "2026-10-27T10:54:23+00:00",
+        "2026-10-27T10:54:23+00:00"
+      ],
+      "page": "overview",
+      "verification": "source-metadata"
+    },
+    {
       "id": "curated-d54f21cc3a8100fa641a",
       "kind": "video",
       "provenance": "source",

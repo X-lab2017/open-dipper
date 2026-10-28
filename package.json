@@ -1,17 +1,17 @@
 {
   "name": "open-dipper",
-  "version": "1.16.1",
+  "version": "1.17.0",
   "private": true,
   "type": "module",
   "scripts": {
     "dev": "vite --host 0.0.0.0",
-    "build": "python3 scripts/build-intelligence.py --check && node scripts/build-radar.mjs --check && node scripts/build-evidence.mjs --check && node scripts/build-observation.mjs --check && npm run docs:check && npm run design:check && npm run design:package && tsc --noEmit && vite build",
+    "build": "python3 scripts/build-conferences.py --check && python3 scripts/build-intelligence.py --check && node scripts/build-radar.mjs --check && node scripts/build-evidence.mjs --check && node scripts/build-observation.mjs --check && npm run docs:check && npm run design:check && npm run design:package && tsc --noEmit && vite build",
     "preview": "vite preview --host 0.0.0.0",
     "typecheck": "tsc --noEmit",
     "test:ui": "node tests/ui.mjs",
     "refresh:data": "node scripts/fetch-data.mjs",
     "test:data": "node --test tests/data.test.mjs",
-    "test": "npm run test:data && npm run test:dom && npm run test:geo && npm run test:panorama && npm run test:observatory && npm run design:check && npm run docs:check && npm run evidence:check && npm run observation:check && npm run test:atlas && npm run radar:check && npm run galaxy:check && npm run intelligence:check",
+    "test": "npm run test:data && npm run test:dom && npm run test:geo && npm run test:panorama && npm run test:observatory && npm run design:check && npm run docs:check && npm run evidence:check && npm run observation:check && npm run test:atlas && npm run radar:check && npm run galaxy:check && npm run intelligence:check && npm run conferences:check",
     "test:dom": "node --test tests/dom.test.mjs",
     "test:geo": "node --test tests/geography.test.mjs",
     "test:panorama": "node --test tests/panorama.test.mjs",
@@ -25,7 +25,7 @@
     "design:package": "python3 scripts/package-design.py",
     "docs:build": "node scripts/build-context.mjs",
     "docs:check": "node scripts/build-context.mjs --check && node scripts/check-docs.mjs",
-    "test:portal:ui": "node tests/portal-ui.mjs && node tests/radar-ui.mjs && node tests/galaxy-ui.mjs && node tests/agent-room-ui.mjs && node tests/notebook-ui.mjs && node tests/research-flow-ui.mjs && node tests/community-ui.mjs && node tests/navigation-ui.mjs && node tests/milestones-ui.mjs",
+    "test:portal:ui": "node tests/portal-ui.mjs && node tests/radar-ui.mjs && node tests/galaxy-ui.mjs && node tests/agent-room-ui.mjs && node tests/notebook-ui.mjs && node tests/research-flow-ui.mjs && node tests/community-ui.mjs && node tests/navigation-ui.mjs && node tests/milestones-ui.mjs && node tests/conferences-ui.mjs",
     "evidence:build": "node scripts/build-evidence.mjs",
     "evidence:check": "node scripts/build-evidence.mjs --check && node --test tests/evidence.test.mjs",
     "observation:build": "node scripts/build-observation.mjs",
@@ -36,7 +36,10 @@
     "galaxy:check": "python3 scripts/import-galaxy.py --check && node --test tests/galaxy-data.test.mjs tests/galaxy.test.mjs tests/galaxy-research.test.mjs",
     "intelligence:build": "python3 scripts/build-intelligence.py",
     "intelligence:check": "python3 scripts/build-intelligence.py --check && node --test tests/agent-room.test.mjs tests/research-flow.test.mjs && python3 -m unittest discover -s tests -p test_intelligence_collect.py",
-    "refresh:intelligence": "python3 scripts/collect-intelligence.py && python3 scripts/build-intelligence.py"
+    "refresh:intelligence": "python3 scripts/collect-intelligence.py && python3 scripts/build-intelligence.py",
+    "conferences:build": "python3 scripts/build-conferences.py",
+    "conferences:check": "python3 scripts/build-conferences.py --check && node --test tests/conferences.test.mjs",
+    "refresh:conferences": "python3 scripts/refresh-conferences.py && python3 scripts/build-intelligence.py"
   },
   "devDependencies": {
     "@playwright/test": "^1.52.0",

@@ -1,0 +1,1611 @@
+{
+  "source": "https://github.com/nvkelso/natural-earth-vector/blob/ca96624a56bd078437bca8184e78163e5039ad19/geojson/ne_50m_populated_places_simple.geojson",
+  "license": "Natural Earth public domain",
+  "method": "Exact normalized city name/explicit alias AND country match; only unique matches. No country centroid or nearest-city guessing. Venue location remains third-party metadata.",
+  "locations": {
+    "Abu Dhabi, UAE": {
+      "countryCode": "ARE",
+      "point": {
+        "city": "Abu Dhabi",
+        "longitude": 54.366593,
+        "latitude": 24.466684,
+        "naturalEarthId": 1159150565
+      }
+    },
+    "Alexandria, Virginia, USA": {
+      "countryCode": "USA",
+      "point": null
+    },
+    "Amsterdam, The Netherlands": {
+      "countryCode": "NLD",
+      "point": {
+        "city": "Amsterdam",
+        "longitude": 4.914694,
+        "latitude": 52.351914,
+        "naturalEarthId": 1159151519
+      }
+    },
+    "Amsterdam, the Netherlands": {
+      "countryCode": "NLD",
+      "point": {
+        "city": "Amsterdam",
+        "longitude": 4.914694,
+        "latitude": 52.351914,
+        "naturalEarthId": 1159151519
+      }
+    },
+    "Anaheim, California, USA": {
+      "countryCode": "USA",
+      "point": null
+    },
+    "Angers, France": {
+      "countryCode": "FRA",
+      "point": null
+    },
+    "Arenzano, Italy": {
+      "countryCode": "ITA",
+      "point": null
+    },
+    "Arlington, Virginia, USA": {
+      "countryCode": "USA",
+      "point": null
+    },
+    "Athens, Greece": {
+      "countryCode": "GRC",
+      "point": {
+        "city": "Athens",
+        "longitude": 23.731375,
+        "latitude": 37.985272,
+        "naturalEarthId": 1159151545
+      }
+    },
+    "Atlanta, Georgia, USA": {
+      "countryCode": "USA",
+      "point": {
+        "city": "Atlanta",
+        "longitude": -84.367642,
+        "latitude": 33.739457,
+        "naturalEarthId": 1159151489
+      }
+    },
+    "Augsburg, Germany": {
+      "countryCode": "DEU",
+      "point": null
+    },
+    "Austin, Texas, USA": {
+      "countryCode": "USA",
+      "point": {
+        "city": "Austin",
+        "longitude": -97.744724,
+        "latitude": 30.268895,
+        "naturalEarthId": 1159149261
+      }
+    },
+    "Bali, Indonesia": {
+      "countryCode": "IDN",
+      "point": null
+    },
+    "Baltimore, Maryland, USA": {
+      "countryCode": "USA",
+      "point": {
+        "city": "Baltimore",
+        "longitude": -76.614582,
+        "latitude": 39.281516,
+        "naturalEarthId": 1159149299
+      }
+    },
+    "Bangkok, Thailand": {
+      "countryCode": "THA",
+      "point": {
+        "city": "Bangkok",
+        "longitude": 100.514699,
+        "latitude": 13.751945,
+        "naturalEarthId": 1159151509
+      }
+    },
+    "Barbados": {
+      "countryCode": "BRB",
+      "point": null
+    },
+    "Barcelona, Spain": {
+      "countryCode": "ESP",
+      "point": {
+        "city": "Barcelona",
+        "longitude": 2.181424,
+        "latitude": 41.385245,
+        "naturalEarthId": 1159151261
+      }
+    },
+    "Bari, Italy": {
+      "countryCode": "ITA",
+      "point": {
+        "city": "Bari",
+        "longitude": 16.872758,
+        "latitude": 41.11422,
+        "naturalEarthId": 1159139505
+      }
+    },
+    "Bariloche, Argentina": {
+      "countryCode": "ARG",
+      "point": {
+        "city": "Bariloche",
+        "longitude": -71.3,
+        "latitude": -41.149957,
+        "naturalEarthId": 1159150291
+      }
+    },
+    "Basel, Switzerland": {
+      "countryCode": "CHE",
+      "point": null
+    },
+    "Beijing, China": {
+      "countryCode": "CHN",
+      "point": {
+        "city": "Beijing",
+        "longitude": 116.394201,
+        "latitude": 39.90172,
+        "naturalEarthId": 1159151595
+      }
+    },
+    "Belfast, UK": {
+      "countryCode": "GBR",
+      "point": {
+        "city": "Belfast",
+        "longitude": -5.928178,
+        "latitude": 54.594245,
+        "naturalEarthId": 1159149369
+      }
+    },
+    "Bellevue, Washington, USA": {
+      "countryCode": "USA",
+      "point": null
+    },
+    "Benevento, Italy": {
+      "countryCode": "ITA",
+      "point": null
+    },
+    "Bengaluru, India": {
+      "countryCode": "IND",
+      "point": null
+    },
+    "Beppu, Japan": {
+      "countryCode": "JPN",
+      "point": null
+    },
+    "Berlin, Germany": {
+      "countryCode": "DEU",
+      "point": {
+        "city": "Berlin",
+        "longitude": 13.399603,
+        "latitude": 52.523764,
+        "naturalEarthId": 1159151529
+      }
+    },
+    "Bern, Switzerland": {
+      "countryCode": "CHE",
+      "point": {
+        "city": "Bern",
+        "longitude": 7.466976,
+        "latitude": 46.916683,
+        "naturalEarthId": 1159149737
+      }
+    },
+    "Boca Raton, Florida, USA": {
+      "countryCode": "USA",
+      "point": null
+    },
+    "Bordeaux, France": {
+      "countryCode": "FRA",
+      "point": {
+        "city": "Bordeaux",
+        "longitude": -0.596959,
+        "latitude": 44.851959,
+        "naturalEarthId": 1159150035
+      }
+    },
+    "Boston, Massachusetts, USA": {
+      "countryCode": "USA",
+      "point": {
+        "city": "Boston",
+        "longitude": -71.07196,
+        "latitude": 42.331906,
+        "naturalEarthId": 1159151239
+      }
+    },
+    "Boulder, Colorado, USA": {
+      "countryCode": "USA",
+      "point": null
+    },
+    "Bratislava, Slovakia": {
+      "countryCode": "SVK",
+      "point": {
+        "city": "Bratislava",
+        "longitude": 17.116981,
+        "latitude": 48.150018,
+        "naturalEarthId": 1159149463
+      }
+    },
+    "Bremen, Germany": {
+      "countryCode": "DEU",
+      "point": null
+    },
+    "Brighton, UK": {
+      "countryCode": "GBR",
+      "point": null
+    },
+    "Brisbane, Australia": {
+      "countryCode": "AUS",
+      "point": {
+        "city": "Brisbane",
+        "longitude": 153.033147,
+        "latitude": -27.453085,
+        "naturalEarthId": 1159151169
+      }
+    },
+    "Brisbane, Queensland, Australia": {
+      "countryCode": "AUS",
+      "point": {
+        "city": "Brisbane",
+        "longitude": 153.033147,
+        "latitude": -27.453085,
+        "naturalEarthId": 1159151169
+      }
+    },
+    "Brussels, Belgium": {
+      "countryCode": "BEL",
+      "point": {
+        "city": "Brussels",
+        "longitude": 4.331371,
+        "latitude": 50.835263,
+        "naturalEarthId": 1159151465
+      }
+    },
+    "Budapest, Hungary": {
+      "countryCode": "HUN",
+      "point": {
+        "city": "Budapest",
+        "longitude": 19.081375,
+        "latitude": 47.501952,
+        "naturalEarthId": 1159151257
+      }
+    },
+    "Buenos Aires, Argentina": {
+      "countryCode": "ARG",
+      "point": {
+        "city": "Buenos Aires",
+        "longitude": -58.432513,
+        "latitude": -34.610715,
+        "naturalEarthId": 1159151559
+      }
+    },
+    "Burghausen, Bavaria, Germany": {
+      "countryCode": "DEU",
+      "point": null
+    },
+    "Busan, South Korea": {
+      "countryCode": "KOR",
+      "point": {
+        "city": "Busan",
+        "longitude": 129.008102,
+        "latitude": 35.096999,
+        "naturalEarthId": 1159149599
+      }
+    },
+    "Cairns, Australia": {
+      "countryCode": "AUS",
+      "point": {
+        "city": "Cairns",
+        "longitude": 145.763331,
+        "latitude": -16.88784,
+        "naturalEarthId": 1159150411
+      }
+    },
+    "Cambridge, Massachusetts, USA": {
+      "countryCode": "USA",
+      "point": null
+    },
+    "Cancun, Mexico": {
+      "countryCode": "MEX",
+      "point": {
+        "city": "Cancún",
+        "longitude": -86.830008,
+        "latitude": 21.16996,
+        "naturalEarthId": 1159150767
+      }
+    },
+    "Cape Town, South Africa": {
+      "countryCode": "ZAF",
+      "point": {
+        "city": "Cape Town",
+        "longitude": 18.433042,
+        "latitude": -33.918065,
+        "naturalEarthId": 1159151583
+      }
+    },
+    "Catania, Sicily, Italy": {
+      "countryCode": "ITA",
+      "point": {
+        "city": "Catania",
+        "longitude": 15.079999,
+        "latitude": 37.499971,
+        "naturalEarthId": 1159149755
+      }
+    },
+    "Chania, Greece": {
+      "countryCode": "GRC",
+      "point": null
+    },
+    "Chicago, Illinois, USA": {
+      "countryCode": "USA",
+      "point": {
+        "city": "Chicago",
+        "longitude": -87.635237,
+        "latitude": 41.847961,
+        "naturalEarthId": 1159151491
+      }
+    },
+    "Cleveland, Ohio, USA": {
+      "countryCode": "USA",
+      "point": {
+        "city": "Cleveland",
+        "longitude": -81.696944,
+        "latitude": 41.471933,
+        "naturalEarthId": 1159150515
+      }
+    },
+    "Coimbra, Portugal": {
+      "countryCode": "PRT",
+      "point": null
+    },
+    "Columbia, South Carolina, USA": {
+      "countryCode": "USA",
+      "point": {
+        "city": "Columbia",
+        "longitude": -81.031262,
+        "latitude": 33.996861,
+        "naturalEarthId": 1159149287
+      }
+    },
+    "Copenhagen, Denmark": {
+      "countryCode": "DNK",
+      "point": null
+    },
+    "Dallas, Texas, USA": {
+      "countryCode": "USA",
+      "point": {
+        "city": "Dallas",
+        "longitude": -96.794687,
+        "latitude": 32.771958,
+        "naturalEarthId": 1159151235
+      }
+    },
+    "Dallas-Fort Worth, Texas, USA": {
+      "countryCode": "USA",
+      "point": {
+        "city": "Dallas",
+        "longitude": -96.794687,
+        "latitude": 32.771958,
+        "naturalEarthId": 1159151235
+      }
+    },
+    "Delft, The Netherlands": {
+      "countryCode": "NLD",
+      "point": null
+    },
+    "Denver, Colorado, USA": {
+      "countryCode": "USA",
+      "point": {
+        "city": "Denver",
+        "longitude": -104.985962,
+        "latitude": 39.741134,
+        "naturalEarthId": 1159151483
+      }
+    },
+    "Detroit, Michigan, USA": {
+      "countryCode": "USA",
+      "point": {
+        "city": "Detroit",
+        "longitude": -83.051334,
+        "latitude": 42.333558,
+        "naturalEarthId": 1159151245
+      }
+    },
+    "Dresden, Germany": {
+      "countryCode": "DEU",
+      "point": {
+        "city": "Dresden",
+        "longitude": 13.750003,
+        "latitude": 51.049971,
+        "naturalEarthId": 1159149871
+      }
+    },
+    "Dubai, UAE": {
+      "countryCode": "ARE",
+      "point": {
+        "city": "Dubai",
+        "longitude": 55.286946,
+        "latitude": 25.214912,
+        "naturalEarthId": 1159151497
+      }
+    },
+    "Dublin, Ireland": {
+      "countryCode": "IRL",
+      "point": {
+        "city": "Dublin",
+        "longitude": -6.25698,
+        "latitude": 53.346731,
+        "naturalEarthId": 1159151309
+      }
+    },
+    "Durham, UK": {
+      "countryCode": "GBR",
+      "point": null
+    },
+    "Edinburgh, Scotland": {
+      "countryCode": "GBR",
+      "point": {
+        "city": "Edinburgh",
+        "longitude": -3.219091,
+        "latitude": 55.948328,
+        "naturalEarthId": 1159146365
+      }
+    },
+    "Edinburgh, UK": {
+      "countryCode": "GBR",
+      "point": {
+        "city": "Edinburgh",
+        "longitude": -3.219091,
+        "latitude": 55.948328,
+        "naturalEarthId": 1159146365
+      }
+    },
+    "Egham, England": {
+      "countryCode": "GBR",
+      "point": null
+    },
+    "Egham, UK": {
+      "countryCode": "GBR",
+      "point": null
+    },
+    "Eindhoven, the Netherlands": {
+      "countryCode": "NLD",
+      "point": null
+    },
+    "Exeter, UK": {
+      "countryCode": "GBR",
+      "point": null
+    },
+    "Finger Lakes, New York, USA": {
+      "countryCode": "USA",
+      "point": null
+    },
+    "Florence, Italy": {
+      "countryCode": "ITA",
+      "point": {
+        "city": "Florence",
+        "longitude": 11.25,
+        "latitude": 43.780001,
+        "naturalEarthId": 1159149751
+      }
+    },
+    "Fort Collins, Colorado, USA": {
+      "countryCode": "USA",
+      "point": null
+    },
+    "Foz do Iguaçu, Brazil": {
+      "countryCode": "BRA",
+      "point": null
+    },
+    "Fukui, Japan": {
+      "countryCode": "JPN",
+      "point": null
+    },
+    "Fuzhou, China": {
+      "countryCode": "CHN",
+      "point": {
+        "city": "Fuzhou",
+        "longitude": 119.2981,
+        "latitude": 26.081942,
+        "naturalEarthId": 1159151329
+      }
+    },
+    "Geneva, Switzerland": {
+      "countryCode": "CHE",
+      "point": {
+        "city": "Geneva",
+        "longitude": 6.140028,
+        "latitude": 46.210008,
+        "naturalEarthId": 1159151505
+      }
+    },
+    "Genova, Italy": {
+      "countryCode": "ITA",
+      "point": {
+        "city": "Genoa",
+        "longitude": 8.930039,
+        "latitude": 44.409988,
+        "naturalEarthId": 1159148297
+      }
+    },
+    "Ghent, Belgium": {
+      "countryCode": "BEL",
+      "point": null
+    },
+    "Glasgow, Scotland, UK": {
+      "countryCode": "GBR",
+      "point": {
+        "city": "Glasgow",
+        "longitude": -4.239101,
+        "latitude": 55.86227,
+        "naturalEarthId": 1159150591
+      }
+    },
+    "Goa, India": {
+      "countryCode": "IND",
+      "point": null
+    },
+    "Gold Coast, Australia": {
+      "countryCode": "AUS",
+      "point": {
+        "city": "Gold Coast",
+        "longitude": 153.448246,
+        "latitude": -28.081504,
+        "naturalEarthId": 1159150413
+      }
+    },
+    "Gottingen, Germany": {
+      "countryCode": "DEU",
+      "point": null
+    },
+    "Graz, Austria": {
+      "countryCode": "AUT",
+      "point": null
+    },
+    "Guangzhou, China": {
+      "countryCode": "CHN",
+      "point": {
+        "city": "Guangzhou",
+        "longitude": 113.261785,
+        "latitude": 23.124723,
+        "naturalEarthId": 1159151331
+      }
+    },
+    "Guiyang, China": {
+      "countryCode": "CHN",
+      "point": {
+        "city": "Guiyang",
+        "longitude": 106.718093,
+        "latitude": 26.581989,
+        "naturalEarthId": 1159151325
+      }
+    },
+    "Hamburg, Germany": {
+      "countryCode": "DEU",
+      "point": {
+        "city": "Hamburg",
+        "longitude": 9.998053,
+        "latitude": 53.551971,
+        "naturalEarthId": 1159151353
+      }
+    },
+    "Hangzhou, China": {
+      "countryCode": "CHN",
+      "point": {
+        "city": "Hangzhou",
+        "longitude": 120.168073,
+        "latitude": 30.25192,
+        "naturalEarthId": 1159151387
+      }
+    },
+    "Hannover, Germany": {
+      "countryCode": "DEU",
+      "point": null
+    },
+    "Hanoi, Vietnam": {
+      "countryCode": "VNM",
+      "point": {
+        "city": "Hanoi",
+        "longitude": 105.848068,
+        "latitude": 21.035273,
+        "naturalEarthId": 1159151251
+      }
+    },
+    "Harbin, China": {
+      "countryCode": "CHN",
+      "point": {
+        "city": "Harbin",
+        "longitude": 126.648039,
+        "latitude": 45.75193,
+        "naturalEarthId": 1159151397
+      }
+    },
+    "Hefei, China": {
+      "countryCode": "CHN",
+      "point": {
+        "city": "Hefei",
+        "longitude": 117.278068,
+        "latitude": 31.851977,
+        "naturalEarthId": 1159149793
+      }
+    },
+    "Helsinki, Finland": {
+      "countryCode": "FIN",
+      "point": {
+        "city": "Helsinki",
+        "longitude": 24.932457,
+        "latitude": 60.163804,
+        "naturalEarthId": 1159151419
+      }
+    },
+    "Heraklion, Crete, Greece": {
+      "countryCode": "GRC",
+      "point": null
+    },
+    "Ho Chi Minh City, Vietnam": {
+      "countryCode": "VNM",
+      "point": {
+        "city": "Ho Chi Minh City",
+        "longitude": 106.702985,
+        "latitude": 10.762125,
+        "naturalEarthId": 1159151253
+      }
+    },
+    "Hong Kong, China": {
+      "countryCode": "CHN",
+      "point": null
+    },
+    "Honolulu, Hawaii, USA": {
+      "countryCode": "USA",
+      "point": {
+        "city": "Honolulu",
+        "longitude": -157.858301,
+        "latitude": 21.303429,
+        "naturalEarthId": 1159151221
+      }
+    },
+    "Houston, Texas, USA": {
+      "countryCode": "USA",
+      "point": {
+        "city": "Houston",
+        "longitude": -95.348436,
+        "latitude": 29.741273,
+        "naturalEarthId": 1159151485
+      }
+    },
+    "Hsinchu, Taiwan": {
+      "countryCode": "TWN",
+      "point": null
+    },
+    "Huntington Beach, California, USA": {
+      "countryCode": "USA",
+      "point": null
+    },
+    "Indianapolis, Indiana, USA": {
+      "countryCode": "USA",
+      "point": {
+        "city": "Indianapolis",
+        "longitude": -86.171994,
+        "latitude": 39.751934,
+        "naturalEarthId": 1159149289
+      }
+    },
+    "Irvine, California, USA": {
+      "countryCode": "USA",
+      "point": null
+    },
+    "Istanbul, Turkey": {
+      "countryCode": "TUR",
+      "point": {
+        "city": "Istanbul",
+        "longitude": 28.974277,
+        "latitude": 41.017602,
+        "naturalEarthId": 1159151579
+      }
+    },
+    "Japan": {
+      "countryCode": "JPN",
+      "point": null
+    },
+    "Kanazawa, Japan": {
+      "countryCode": "JPN",
+      "point": null
+    },
+    "Kaohsiung City, Taiwan": {
+      "countryCode": "TWN",
+      "point": {
+        "city": "Kaohsiung",
+        "longitude": 120.266602,
+        "latitude": 22.633307,
+        "naturalEarthId": 1159151213
+      }
+    },
+    "Karlsruhe, Germany": {
+      "countryCode": "DEU",
+      "point": null
+    },
+    "Kingston, Ontario, Canada": {
+      "countryCode": "CAN",
+      "point": null
+    },
+    "Krakow, Poland": {
+      "countryCode": "POL",
+      "point": {
+        "city": "Kraków",
+        "longitude": 19.958066,
+        "latitude": 50.061925,
+        "naturalEarthId": 1159149709
+      }
+    },
+    "Kuala Lumpur, Malaysia": {
+      "countryCode": "MYS",
+      "point": {
+        "city": "Kuala Lumpur",
+        "longitude": 101.688699,
+        "latitude": 3.139797,
+        "naturalEarthId": 1159151317
+      }
+    },
+    "Kumamoto, Japan": {
+      "countryCode": "JPN",
+      "point": null
+    },
+    "Kyoto, Japan": {
+      "countryCode": "JPN",
+      "point": {
+        "city": "Kyoto",
+        "longitude": 135.748052,
+        "latitude": 35.031938,
+        "naturalEarthId": 1159149967
+      }
+    },
+    "Lancaster, UK": {
+      "countryCode": "GBR",
+      "point": null
+    },
+    "Leiden, the Netherlands": {
+      "countryCode": "NLD",
+      "point": null
+    },
+    "Lille, France": {
+      "countryCode": "FRA",
+      "point": {
+        "city": "Lille",
+        "longitude": 3.078062,
+        "latitude": 50.651915,
+        "naturalEarthId": 1159147227
+      }
+    },
+    "Limassol, Cyprus": {
+      "countryCode": "CYP",
+      "point": null
+    },
+    "Linkoping, Sweden": {
+      "countryCode": "SWE",
+      "point": null
+    },
+    "Lisbon, Portugal": {
+      "countryCode": "PRT",
+      "point": {
+        "city": "Lisbon",
+        "longitude": -9.146812,
+        "latitude": 38.724669,
+        "naturalEarthId": 1159151273
+      }
+    },
+    "Liverpool, UK": {
+      "countryCode": "GBR",
+      "point": null
+    },
+    "Lodz, Poland": {
+      "countryCode": "POL",
+      "point": null
+    },
+    "London, UK": {
+      "countryCode": "GBR",
+      "point": {
+        "city": "London",
+        "longitude": -0.118668,
+        "latitude": 51.501941,
+        "naturalEarthId": 1159151577
+      }
+    },
+    "Los Angeles, California, USA": {
+      "countryCode": "USA",
+      "point": {
+        "city": "Los Angeles",
+        "longitude": -118.231986,
+        "latitude": 34.049219,
+        "naturalEarthId": 1159151569
+      }
+    },
+    "Lucca, Italy": {
+      "countryCode": "ITA",
+      "point": null
+    },
+    "Luoyang, China": {
+      "countryCode": "CHN",
+      "point": null
+    },
+    "Lyon, France": {
+      "countryCode": "FRA",
+      "point": {
+        "city": "Lyon",
+        "longitude": 4.828085,
+        "latitude": 45.771954,
+        "naturalEarthId": 1159150845
+      }
+    },
+    "L’Aquila, Italy": {
+      "countryCode": "ITA",
+      "point": {
+        "city": "L'Aquila",
+        "longitude": 13.390025,
+        "latitude": 42.350398,
+        "naturalEarthId": 1159139545
+      }
+    },
+    "Maastricht, the Netherlands": {
+      "countryCode": "NLD",
+      "point": null
+    },
+    "Macau, China": {
+      "countryCode": "CHN",
+      "point": null
+    },
+    "Madrid, Spain": {
+      "countryCode": "ESP",
+      "point": {
+        "city": "Madrid",
+        "longitude": -3.685297,
+        "latitude": 40.401972,
+        "naturalEarthId": 1159151503
+      }
+    },
+    "Malaga, Spain": {
+      "countryCode": "ESP",
+      "point": null
+    },
+    "Malmo, Sweden": {
+      "countryCode": "SWE",
+      "point": {
+        "city": "Malmö",
+        "longitude": 13.02306,
+        "latitude": 55.599424,
+        "naturalEarthId": 1159149739
+      }
+    },
+    "Marrakesh, Morocco": {
+      "countryCode": "MAR",
+      "point": {
+        "city": "Marrakesh",
+        "longitude": -8.001933,
+        "latitude": 31.631939,
+        "naturalEarthId": 1159150675
+      }
+    },
+    "Melbourne, Australia": {
+      "countryCode": "AUS",
+      "point": {
+        "city": "Melbourne",
+        "longitude": 144.97307,
+        "latitude": -37.818086,
+        "naturalEarthId": 1159151565
+      }
+    },
+    "Mexico City, Mexico": {
+      "countryCode": "MEX",
+      "point": {
+        "city": "Mexico City",
+        "longitude": -99.132934,
+        "latitude": 19.444388,
+        "naturalEarthId": 1159151587
+      }
+    },
+    "Milan, Italy": {
+      "countryCode": "ITA",
+      "point": {
+        "city": "Milan",
+        "longitude": 9.203063,
+        "latitude": 45.471921,
+        "naturalEarthId": 1159151315
+      }
+    },
+    "Minneapolis, Minnesota, USA": {
+      "countryCode": "USA",
+      "point": {
+        "city": "Minneapolis",
+        "longitude": -93.253732,
+        "latitude": 44.981925,
+        "naturalEarthId": 1159151219
+      }
+    },
+    "Montreal, Canada": {
+      "countryCode": "CAN",
+      "point": {
+        "city": "Montréal",
+        "longitude": -73.585243,
+        "latitude": 45.501945,
+        "naturalEarthId": 1159151457
+      }
+    },
+    "Montreal, Quebec, Canada": {
+      "countryCode": "CAN",
+      "point": {
+        "city": "Montréal",
+        "longitude": -73.585243,
+        "latitude": 45.501945,
+        "naturalEarthId": 1159151457
+      }
+    },
+    "Munchen, Germany": {
+      "countryCode": "DEU",
+      "point": {
+        "city": "Munich",
+        "longitude": 11.573048,
+        "latitude": 48.131888,
+        "naturalEarthId": 1159151357
+      }
+    },
+    "Munich, Germany": {
+      "countryCode": "DEU",
+      "point": {
+        "city": "Munich",
+        "longitude": 11.573048,
+        "latitude": 48.131888,
+        "naturalEarthId": 1159151357
+      }
+    },
+    "Nanchang, China": {
+      "countryCode": "CHN",
+      "point": {
+        "city": "Nanchang",
+        "longitude": 115.87805,
+        "latitude": 28.681938,
+        "naturalEarthId": 1159151383
+      }
+    },
+    "Nanjing, China": {
+      "countryCode": "CHN",
+      "point": {
+        "city": "Nanjing",
+        "longitude": 118.778029,
+        "latitude": 32.051965,
+        "naturalEarthId": 1159151385
+      }
+    },
+    "Napa, California, USA": {
+      "countryCode": "USA",
+      "point": null
+    },
+    "Naples, Italy": {
+      "countryCode": "ITA",
+      "point": {
+        "city": "Naples",
+        "longitude": 14.243066,
+        "latitude": 40.841971,
+        "naturalEarthId": 1159151313
+      }
+    },
+    "Napoli, Italy": {
+      "countryCode": "ITA",
+      "point": {
+        "city": "Naples",
+        "longitude": 14.243066,
+        "latitude": 40.841971,
+        "naturalEarthId": 1159151313
+      }
+    },
+    "New Delhi, India": {
+      "countryCode": "IND",
+      "point": {
+        "city": "New Delhi",
+        "longitude": 77.19998,
+        "latitude": 28.600023,
+        "naturalEarthId": 1159151541
+      }
+    },
+    "New York City, New York, USA": {
+      "countryCode": "USA",
+      "point": {
+        "city": "New York",
+        "longitude": -73.995718,
+        "latitude": 40.721562,
+        "naturalEarthId": 1159151575
+      }
+    },
+    "Nijmegen, Netherlands": {
+      "countryCode": "NLD",
+      "point": null
+    },
+    "Nijmegen, the Netherlands": {
+      "countryCode": "NLD",
+      "point": null
+    },
+    "Ningbo, China": {
+      "countryCode": "CHN",
+      "point": {
+        "city": "Ningbo",
+        "longitude": 121.548092,
+        "latitude": 29.881917,
+        "naturalEarthId": 1159149925
+      }
+    },
+    "Nottingham, UK": {
+      "countryCode": "GBR",
+      "point": null
+    },
+    "Oakland, California, USA": {
+      "countryCode": "USA",
+      "point": null
+    },
+    "Okinawa, Japan": {
+      "countryCode": "JPN",
+      "point": null
+    },
+    "Online": {
+      "countryCode": null,
+      "point": null
+    },
+    "Osaka, Japan": {
+      "countryCode": "JPN",
+      "point": {
+        "city": "Ōsaka",
+        "longitude": 135.503754,
+        "latitude": 34.691095,
+        "naturalEarthId": 1159151537
+      }
+    },
+    "Ottawa, Ontario, Canada": {
+      "countryCode": "CAN",
+      "point": {
+        "city": "Ottawa",
+        "longitude": -75.701961,
+        "latitude": 45.418643,
+        "naturalEarthId": 1159151059
+      }
+    },
+    "Padua, Italy": {
+      "countryCode": "ITA",
+      "point": null
+    },
+    "Palermo, Sicily, Italy": {
+      "countryCode": "ITA",
+      "point": {
+        "city": "Palermo",
+        "longitude": 13.348081,
+        "latitude": 38.126969,
+        "naturalEarthId": 1159150805
+      }
+    },
+    "Panama City, Panama": {
+      "countryCode": "PAN",
+      "point": {
+        "city": "Panama City",
+        "longitude": -79.534983,
+        "latitude": 8.969963,
+        "naturalEarthId": 1159150667
+      }
+    },
+    "Paris, France": {
+      "countryCode": "FRA",
+      "point": {
+        "city": "Paris",
+        "longitude": 2.352992,
+        "latitude": 48.858092,
+        "naturalEarthId": 1159151613
+      }
+    },
+    "Philadelphia, Pennsylvania, USA": {
+      "countryCode": "USA",
+      "point": {
+        "city": "Philadelphia",
+        "longitude": -75.179841,
+        "latitude": 39.945942,
+        "naturalEarthId": 1159151243
+      }
+    },
+    "Phoenix, Arizona, USA": {
+      "countryCode": "USA",
+      "point": {
+        "city": "Phoenix",
+        "longitude": -112.067365,
+        "latitude": 33.448322,
+        "naturalEarthId": 1159151225
+      }
+    },
+    "Phuket, Thailand": {
+      "countryCode": "THA",
+      "point": null
+    },
+    "Pisa, Italy": {
+      "countryCode": "ITA",
+      "point": null
+    },
+    "Pittsburgh, Pennsylvania, USA": {
+      "countryCode": "USA",
+      "point": {
+        "city": "Pittsburgh",
+        "longitude": -80.001931,
+        "latitude": 40.431945,
+        "naturalEarthId": 1159150531
+      }
+    },
+    "Porto, Portugal": {
+      "countryCode": "PRT",
+      "point": null
+    },
+    "Prague, Czech Republic": {
+      "countryCode": null,
+      "point": null
+    },
+    "Providence, Rhode Island, USA": {
+      "countryCode": "USA",
+      "point": null
+    },
+    "Provo, Utah, USA": {
+      "countryCode": "USA",
+      "point": null
+    },
+    "Rabat, Morocco": {
+      "countryCode": "MAR",
+      "point": {
+        "city": "Rabat",
+        "longitude": -6.836408,
+        "latitude": 34.025307,
+        "naturalEarthId": 1159150673
+      }
+    },
+    "Rende, Italy": {
+      "countryCode": "ITA",
+      "point": null
+    },
+    "Rennes, France": {
+      "countryCode": "FRA",
+      "point": {
+        "city": "Rennes",
+        "longitude": -1.670012,
+        "latitude": 48.100021,
+        "naturalEarthId": 1159147219
+      }
+    },
+    "Renton, Washington, USA": {
+      "countryCode": "USA",
+      "point": null
+    },
+    "Richmond, Virginia, USA": {
+      "countryCode": "USA",
+      "point": {
+        "city": "Richmond",
+        "longitude": -77.451932,
+        "latitude": 37.551965,
+        "naturalEarthId": 1159149295
+      }
+    },
+    "Rio de Janeiro, Brazil": {
+      "countryCode": "BRA",
+      "point": {
+        "city": "Rio de Janeiro",
+        "longitude": -43.212117,
+        "latitude": -22.907308,
+        "naturalEarthId": 1159151619
+      }
+    },
+    "Riverside, California, USA": {
+      "countryCode": "USA",
+      "point": null
+    },
+    "Rome, Italy": {
+      "countryCode": "ITA",
+      "point": {
+        "city": "Rome",
+        "longitude": 12.481313,
+        "latitude": 41.897902,
+        "naturalEarthId": 1159151593
+      }
+    },
+    "Saint-Malo, France": {
+      "countryCode": "FRA",
+      "point": null
+    },
+    "Salt Lake City, Utah, USA": {
+      "countryCode": "USA",
+      "point": {
+        "city": "Salt Lake City",
+        "longitude": -111.931998,
+        "latitude": 40.776962,
+        "naturalEarthId": 1159150489
+      }
+    },
+    "San Antonio, Texas, USA": {
+      "countryCode": "USA",
+      "point": {
+        "city": "San Antonio",
+        "longitude": -98.492693,
+        "latitude": 29.419848,
+        "naturalEarthId": 1159150503
+      }
+    },
+    "San Francisco, California, USA": {
+      "countryCode": "USA",
+      "point": {
+        "city": "San Francisco",
+        "longitude": -122.3996,
+        "latitude": 37.784263,
+        "naturalEarthId": 1159151479
+      }
+    },
+    "San Jose, California, USA": {
+      "countryCode": "USA",
+      "point": {
+        "city": "San Jose",
+        "longitude": -121.888179,
+        "latitude": 37.330943,
+        "naturalEarthId": 1159150479
+      }
+    },
+    "San Sebastian, Spain": {
+      "countryCode": "ESP",
+      "point": null
+    },
+    "Santa Barbara, California, USA": {
+      "countryCode": "USA",
+      "point": {
+        "city": "Santa Barbara",
+        "longitude": -119.716618,
+        "latitude": 34.410799,
+        "naturalEarthId": 1159149223
+      }
+    },
+    "Santa Clara, California, USA": {
+      "countryCode": "USA",
+      "point": null
+    },
+    "Sao Paulo, Brazil": {
+      "countryCode": "BRA",
+      "point": {
+        "city": "São Paulo",
+        "longitude": -46.626966,
+        "latitude": -23.556734,
+        "naturalEarthId": 1159151621
+      }
+    },
+    "Seaside, California, USA": {
+      "countryCode": "USA",
+      "point": null
+    },
+    "Seattle, Washington, USA": {
+      "countryCode": "USA",
+      "point": {
+        "city": "Seattle",
+        "longitude": -122.315322,
+        "latitude": 47.600423,
+        "naturalEarthId": 1159151223
+      }
+    },
+    "Sendai, Japan": {
+      "countryCode": "JPN",
+      "point": {
+        "city": "Sendai",
+        "longitude": 140.869667,
+        "latitude": 38.268441,
+        "naturalEarthId": 1159149971
+      }
+    },
+    "Seoul, South Korea": {
+      "countryCode": "KOR",
+      "point": {
+        "city": "Seoul",
+        "longitude": 126.997785,
+        "latitude": 37.568295,
+        "naturalEarthId": 1159151523
+      }
+    },
+    "Seville, Spain": {
+      "countryCode": "ESP",
+      "point": {
+        "city": "Seville",
+        "longitude": -5.980007,
+        "latitude": 37.405015,
+        "naturalEarthId": 1159150601
+      }
+    },
+    "Shanghai, China": {
+      "countryCode": "CHN",
+      "point": {
+        "city": "Shanghai",
+        "longitude": 121.434559,
+        "latitude": 31.218398,
+        "naturalEarthId": 1159151605
+      }
+    },
+    "Shenyang, China": {
+      "countryCode": "CHN",
+      "point": {
+        "city": "Shenyeng",
+        "longitude": 123.448028,
+        "latitude": 41.806925,
+        "naturalEarthId": 1159151377
+      }
+    },
+    "Shenzhen, China": {
+      "countryCode": "CHN",
+      "point": {
+        "city": "Shenzhen",
+        "longitude": 114.061154,
+        "latitude": 22.548097,
+        "naturalEarthId": 1159151215
+      }
+    },
+    "Siem Reap, Cambodia": {
+      "countryCode": "KHM",
+      "point": {
+        "city": "Siem Reap",
+        "longitude": 103.850033,
+        "latitude": 13.366638,
+        "naturalEarthId": 1159150325
+      }
+    },
+    "Singapore": {
+      "countryCode": "SGP",
+      "point": {
+        "city": "Singapore",
+        "longitude": 103.853875,
+        "latitude": 1.294979,
+        "naturalEarthId": 1159151627
+      }
+    },
+    "Snowbird, Utah, USA": {
+      "countryCode": "USA",
+      "point": null
+    },
+    "Southampton, UK": {
+      "countryCode": "GBR",
+      "point": null
+    },
+    "St Simons Island, Georgia, USA": {
+      "countryCode": "USA",
+      "point": null
+    },
+    "St. John's, Canada": {
+      "countryCode": "CAN",
+      "point": {
+        "city": "St. John's",
+        "longitude": -52.681007,
+        "latitude": 47.584988,
+        "naturalEarthId": 1159151071
+      }
+    },
+    "Stanford, California, USA": {
+      "countryCode": "USA",
+      "point": null
+    },
+    "Stockholm, Sweden": {
+      "countryCode": "SWE",
+      "point": {
+        "city": "Stockholm",
+        "longitude": 18.0663,
+        "latitude": 59.324127,
+        "naturalEarthId": 1159151507
+      }
+    },
+    "Suzhou, China": {
+      "countryCode": "CHN",
+      "point": null
+    },
+    "Sydney, Australia": {
+      "countryCode": "AUS",
+      "point": {
+        "city": "Sydney",
+        "longitude": 151.212548,
+        "latitude": -33.871373,
+        "naturalEarthId": 1159151623
+      }
+    },
+    "Szeged, Hungary": {
+      "countryCode": "HUN",
+      "point": null
+    },
+    "Taipei, Taiwan": {
+      "countryCode": "TWN",
+      "point": {
+        "city": "Taipei",
+        "longitude": 121.568333,
+        "latitude": 25.035833,
+        "naturalEarthId": 1159151567
+      }
+    },
+    "Tallinn, Estonia": {
+      "countryCode": "EST",
+      "point": {
+        "city": "Tallinn",
+        "longitude": 24.728041,
+        "latitude": 59.433877,
+        "naturalEarthId": 1159150877
+      }
+    },
+    "Tampere, Finland": {
+      "countryCode": "FIN",
+      "point": {
+        "city": "Tampere",
+        "longitude": 23.750013,
+        "latitude": 61.500005,
+        "naturalEarthId": 1159150103
+      }
+    },
+    "Tarragona, Spain": {
+      "countryCode": "ESP",
+      "point": null
+    },
+    "Tempe, Arizona, USA": {
+      "countryCode": "USA",
+      "point": null
+    },
+    "The Hague, The Netherlands": {
+      "countryCode": "NLD",
+      "point": {
+        "city": "The Hague",
+        "longitude": 4.269961,
+        "latitude": 52.080037,
+        "naturalEarthId": 1159149457
+      }
+    },
+    "Tokyo, Japan": {
+      "countryCode": "JPN",
+      "point": {
+        "city": "Tokyo",
+        "longitude": 139.749462,
+        "latitude": 35.686963,
+        "naturalEarthId": 1159151609
+      }
+    },
+    "Torino, Italy": {
+      "countryCode": "ITA",
+      "point": {
+        "city": "Turin",
+        "longitude": 7.668015,
+        "latitude": 45.072333,
+        "naturalEarthId": 1159146875
+      }
+    },
+    "Toronto, Ontario, Canada": {
+      "countryCode": "CAN",
+      "point": {
+        "city": "Toronto",
+        "longitude": -79.389459,
+        "latitude": 43.664645,
+        "naturalEarthId": 1159151557
+      }
+    },
+    "Trento, Italy": {
+      "countryCode": "ITA",
+      "point": {
+        "city": "Trento",
+        "longitude": 11.119983,
+        "latitude": 46.080429,
+        "naturalEarthId": 1159139597
+      }
+    },
+    "Turin, Italy": {
+      "countryCode": "ITA",
+      "point": {
+        "city": "Turin",
+        "longitude": 7.668015,
+        "latitude": 45.072333,
+        "naturalEarthId": 1159146875
+      }
+    },
+    "USA": {
+      "countryCode": "USA",
+      "point": null
+    },
+    "Utrecht, The Netherlands": {
+      "countryCode": "NLD",
+      "point": null
+    },
+    "Valparaiso, Chile": {
+      "countryCode": "CHL",
+      "point": {
+        "city": "Valparaíso",
+        "longitude": -71.617026,
+        "latitude": -33.047739,
+        "naturalEarthId": 1159150931
+      }
+    },
+    "Vancouver, British Columbia, Canada": {
+      "countryCode": "CAN",
+      "point": {
+        "city": "Vancouver",
+        "longitude": -123.12359,
+        "latitude": 49.275362,
+        "naturalEarthId": 1159151555
+      }
+    },
+    "Venice, Italy": {
+      "countryCode": "ITA",
+      "point": {
+        "city": "Venice",
+        "longitude": 12.334999,
+        "latitude": 45.438659,
+        "naturalEarthId": 1159150277
+      }
+    },
+    "Victoria, British Columbia, Canada": {
+      "countryCode": "CAN",
+      "point": {
+        "city": "Victoria",
+        "longitude": -123.350001,
+        "latitude": 48.433283,
+        "naturalEarthId": 1159151039
+      }
+    },
+    "Vienna, Austria": {
+      "countryCode": "AUT",
+      "point": {
+        "city": "Vienna",
+        "longitude": 16.364693,
+        "latitude": 48.201961,
+        "naturalEarthId": 1159151563
+      }
+    },
+    "Vilamoura, Algarve, Portugal": {
+      "countryCode": "PRT",
+      "point": null
+    },
+    "Washington DC, USA": {
+      "countryCode": "USA",
+      "point": {
+        "city": "Washington,  D.C.",
+        "longitude": -77.011364,
+        "latitude": 38.901495,
+        "naturalEarthId": 1159151573
+      }
+    },
+    "Wellington, New Zealand": {
+      "countryCode": "NZL",
+      "point": {
+        "city": "Wellington",
+        "longitude": 174.777201,
+        "latitude": -41.292068,
+        "naturalEarthId": 1159151699
+      }
+    },
+    "Winnipeg, Manitoba, Canada": {
+      "countryCode": "CAN",
+      "point": {
+        "city": "Winnipeg",
+        "longitude": -97.165992,
+        "latitude": 49.882987,
+        "naturalEarthId": 1159151025
+      }
+    },
+    "Wuhan, China": {
+      "countryCode": "CHN",
+      "point": {
+        "city": "Wuhan",
+        "longitude": 114.268071,
+        "latitude": 30.581977,
+        "naturalEarthId": 1159151367
+      }
+    },
+    "Xi an, China": {
+      "countryCode": "CHN",
+      "point": null
+    },
+    "Yokohama, Japan": {
+      "countryCode": "JPN",
+      "point": null
+    },
+    "York, UK": {
+      "countryCode": "GBR",
+      "point": null
+    },
+    "Zhuhai, China": {
+      "countryCode": "CHN",
+      "point": null
+    },
+    "to be updated": {
+      "countryCode": null,
+      "point": null
+    }
+  }
+}

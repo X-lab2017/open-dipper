@@ -23,7 +23,7 @@ export const layers:Layer[]=[
  point('energy',['电力与能源设施','Power & energy'],['设施所在地','Facility location'],['WRI 历史库 · 12 座设施样本','WRI historical database · 12 facility records']),
  point('compute',['算力设施','Compute facilities'],['设施所在地','Facility location'],['公开科研算力 · 城市参考点','Public research compute · city references']),
  point('news',['新闻与事件','News & events'],['发生所在地','Occurrence location'],['有地点证据的已发布事件','Published events with location evidence']),
- point('meetings',['会议与活动','Conferences & events'],['举办所在地','Host location'],['主办方公开日程 · 城市参考点','Organizer schedules · city references']),
+ point('meetings',['会议与活动','Conferences & events'],['举办所在地','Host location'],['会议日程快照 · 可定位城市参考点','Conference snapshots · located city references']),
 ];
 export const layerById=Object.fromEntries(layers.map(l=>[l.id,l])) as Record<LayerId,Layer>;
 export const groups:{id:string;name:[string,string];icon:string;children:LayerId[];exclusive?:boolean}[]=[
@@ -43,7 +43,7 @@ export const presets:Record<string,{name:[string,string];layers:LayerId[];primar
  foundation:{name:['基金会 · 维护与孵化','Foundations · stewardship'],layers:['influence','code','foundations','benchmark','emerging'],primary:'influence',inspect:'benchmark',description:['发现重点项目与潜在孵化对象','Identify key projects and incubation candidates']},
 };
 export type Point=Country&{overlayId:LayerId;id?:string;demo?:boolean;entityName?:[string,string];event?:Event;clusterCount?:number;clusterIds?:string[];locationRole?:[string,string];precision?:[string,string];sourceUrls?:string[];metrics?:[string,number|string][];period?:[string,string];note?:[string,string]};
-export type Bundle={evidence:any;observation:any;activeDevelopers:any;report:any;located:any;feed:Feed;features:any[];anchors:any[];repoRanking?:any;snapshot?:any;intelligence?:any};
+export type Bundle={evidence:any;observation:any;activeDevelopers:any;report:any;located:any;feed:Feed;features:any[];anchors:any[];repoRanking?:any;snapshot?:any;intelligence?:any;conferences?:{points:Point[]}};
 export const isArea=(id:LayerId)=>layerById[id].kind==='area';
 export const isBubble=(id:LayerId)=>layerById[id].kind==='bubble';
 export const isRegional=(id:LayerId)=>isArea(id)||isBubble(id);
@@ -56,6 +56,7 @@ export function moveLayer(active:LayerId[],id:LayerId,delta:number){const out=[.
 export function reconcilePrimary(active:LayerId[],primary:LayerId|null){return primary&&active.includes(primary)&&isArea(primary)?primary:active.find(isArea)??null;}
 export function mapSelection(active:LayerId[],primary:LayerId|null,hidden:LayerId[]=[]){return {primary:reconcilePrimary(active,primary),points:active.filter(id=>!isArea(id)&&!hidden.includes(id))};}
 export function pointsFor(id:LayerId,b:Bundle):Point[]{
+ if(id==='meetings'&&b.conferences)return b.conferences.points;
  if(!isRegional(id)){const pts=(b.located.layers[id]??[]).map((p:any)=>({...p,atlasValue:1,overlayId:id}));if(id==='news')pts.push(...b.feed.events.filter(e=>e.provenance!=='demo'&&e.location).map(e=>({id:e.id,country:e.location!.name,countryZh:e.location!.name,rawCode:e.location!.countryCode,longitude:e.location!.lon,latitude:e.location!.lat,atlasValue:1,overlayId:id,event:e})));return pts;}
  const rows=id==='developers'?b.activeDevelopers.rows:b.report.areas[id]?.rows??[];
  return rows.map((r:any)=>({country:r.name,countryZh:r.nameZh,rawCode:r.rawCode??`unmapped:${r.code}`,sourceCode:r.code,longitude:r.longitude,latitude:r.latitude,atlasValue:r.value,overlayId:id}));
@@ -64,4 +65,4 @@ export function regionsFor(b:Bundle):Country[]{return b.anchors.map(a=>{const d=
 export const label=(c:Country,l:Lang)=>countryName(c,l);
 export function layerTotal(id:LayerId,b:Bundle):number|null{if(id==='developers')return b.activeDevelopers.globalActive;if(isRegional(id))return b.report.areas[id]?.total??null;return pointsFor(id,b).length;}
 export function scopedPoints(id:LayerId,b:Bundle,region:string){const points=pointsFor(id,b);return !region?points:points.filter(p=>isRegional(id)?p.rawCode===region:regionMatches(p.rawCode,region));}
-export function sourceText(id:LayerId,l:Lang,b?:Bundle){const i=l==='zh'?0:1;if(b?.report.areas[id])return b.report.areas[id].note[i];if(b?.report.catalogs[id])return b.report.catalogs[id].note[i];if(id==='developers')return ['GOSD 2026，GitHub 活跃开发者数，统计期 2025.07.01—2026.06.30。单位：人；与注册开发者总量分别计量。','GOSD 2026: active GitHub developers, July 1, 2025–June 30, 2026. Separate from registered developer totals.'][i];if(id==='news')return ['仅有地点证据的真实事件进入地图；未定位资讯保留在第二屏快讯中。','Only evidenced event locations appear on the map; unlocated news remains in the second-screen wire.'][i];return ['少量有官方地点证据的真实样本，不是全域普查。城市参考点与原始设施坐标分别注明，统计期和位置核验日期分别保留。','Small real sample with official location evidence, not a global census. City references and original facility coordinates are distinguished; measurement and location-verification dates are separate.'][i];}
+export function sourceText(id:LayerId,l:Lang,b?:Bundle){const i=l==='zh'?0:1;if(id==='meetings')return ['Conference Partner 的 CCF 会议快照与主办方社区活动；等级为第三方标注，非完整性认证。地图只显示城市匹配记录，完整列表保留未定位条目。','CCF conference snapshot from Conference Partner plus organizer events. Ranks are third-party labels, not completeness certification. Only city-matched records are mapped; unlocated records remain in the catalog.'][i];if(b?.report.areas[id])return b.report.areas[id].note[i];if(b?.report.catalogs[id])return b.report.catalogs[id].note[i];if(id==='developers')return ['GOSD 2026，GitHub 活跃开发者数，统计期 2025.07.01—2026.06.30。单位：人；与注册开发者总量分别计量。','GOSD 2026: active GitHub developers, July 1, 2025–June 30, 2026. Separate from registered developer totals.'][i];if(id==='news')return ['仅有地点证据的真实事件进入地图；未定位资讯保留在第二屏快讯中。','Only evidenced event locations appear on the map; unlocated news remains in the second-screen wire.'][i];return ['少量有官方地点证据的真实样本，不是全域普查。城市参考点与原始设施坐标分别注明，统计期和位置核验日期分别保留。','Small real sample with official location evidence, not a global census. City references and original facility coordinates are distinguished; measurement and location-verification dates are separate.'][i];}

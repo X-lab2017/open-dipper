@@ -327,6 +327,13 @@
       "purpose": "Maintainer-confirmed public film URL, day-only publication record and verification limits",
       "language": "zh-CN/en",
       "url": "https://raw.githubusercontent.com/X-lab2017/open-dipper/main/docs/releases/bilibili-premiere.md"
+    },
+    {
+      "path": "docs/CONFERENCES.md",
+      "title": "Conference library and daily snapshot contract",
+      "purpose": "Provider provenance, full records, city-only mapping, filters, update and failure semantics",
+      "language": "zh-CN/en",
+      "url": "https://raw.githubusercontent.com/X-lab2017/open-dipper/main/docs/CONFERENCES.md"
     }
   ],
   "tasks": {
@@ -740,7 +747,7 @@
     "implementationCommit": "6544f48ccaab9a43a7c56069c487f620ec83723e"
   },
   "versions": {
-    "application": "1.16.1",
+    "application": "1.17.0",
     "visual": "1.4.0"
   }
 }

@@ -47,3 +47,7 @@ Additional atlas inputs (`dashboard-overview`, `active-developers`, `report-laye
 ## Intelligence library 1.7.0
 
 The optional `public/data/intelligence-catalog.json` is loaded independently after base startup, validated at runtime, and can fail without replacing facts with demos. Its metadata adapters, taxonomy, canonical entities, evidence links, clock boundaries and source health are specified in [INTELLIGENCE_LIBRARY.md](INTELLIGENCE_LIBRARY.md).
+
+## Conference library · 2026-10-28
+
+Conference Partner 公开快照接入：保留 ID/原日期/来源，CCF 等级为第三方标注；Natural Earth 城市参考点单独匹配，未定位记录不丢弃。署名回链、更新与失败保留规则见 [会议契约](CONFERENCES.md)。
