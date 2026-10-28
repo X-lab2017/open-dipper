@@ -12,7 +12,7 @@
 
 ## 交互与时间语义
 
-默认即将举办；支持全部日程、历史日程、截止日未过，以及搜索、A/B/C/社区、编辑主题、年份、地区。日期比较按用户访问当日的北京时间日历日；“截止日未过”不保证此刻仍可投稿（上游日期不含时分与时区）。详情必须引导核对原来源。
+默认勾选学术会议 A、B 类，并筛选即将举办；支持全部日程、历史日程、截止日未过，以及搜索、A/B/C/社区、编辑主题、年份、地区。日期比较按用户访问当日的北京时间日历日；“截止日未过”不保证此刻仍可投稿（上游日期不含时分与时区）。详情必须引导核对原来源。
 
 不把开始日期推断为结束日期。历史会议保留其原日期，过期快照不改写成今天。地图只绘制当前筛选下已定位记录，同城沿用聚合点；点开实体后可单独定位。城市参考坐标不是会场坐标，也不表示活动主办方已独立复核。
 
@@ -31,3 +31,7 @@
 - Pages workflow runs this refresh daily at 01:23 UTC / 09:23 Asia/Shanghai, rebuilds the intelligence collection entry and archives only validated outputs. It does not promise exact update time. Current implementation compares full public snapshots rather than calling the API's incremental endpoint.
 
 Run `npm run conferences:build`, `npm run conferences:check`, `npm run intelligence:build`, normal checks, and `node tests/conferences-ui.mjs` against the repository-subpath preview. Browser QA covers filters, unlocated detail, source dates, map locate, light/dark, language and mobile. CI and deployment receipts live in the implementation PR; a local build is not a deployment receipt.
+
+## 1.17.1 分类层次
+
+会议与活动 → 学术会议 → A / B / C 类；社区活动与学术会议并列。使用原生多选框，学术会议父项支持全选/取消与部分选中状态。默认仅 A、B 类，C 类和社区活动可随时加入，允许全部取消；“清除筛选，查看全部”仍能恢复完整资料库。分类数量随时间、搜索、主题、年份和地区变化，不受自身类别勾选影响。类别选择在本次页面会话的主题/语言/模块切换中保留，刷新回到 A+B 默认。地图、列表、当前观察计数与最新活动共用筛选结果。

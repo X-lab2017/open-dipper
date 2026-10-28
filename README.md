@@ -37,7 +37,7 @@ This walkthrough needs no API key. It demonstrates evidence-to-report interactio
 | Agent Intelligence Room | Read sources → organize a notebook → prepare research → review and deliver a report | Browser-local work; complete vLLM/SGLang editorial example; DSH adapter code prepared, runtime not connected |
 | Community | Understand the mission, roadmap and how to contribute | Animated project introduction, [milestone timeline](https://www.x-lab.info/open-dipper/#contribute?view=milestones), source/rights disclosure and GitHub participation paths; [contract](docs/COMMUNITY_HUB.md) |
 
-**Application: 1.17.0; visual system: 1.4.0; fixed map/radar baseline: 1.3.2.** The centered observatory opens Active developers and offers a five-stop World tour across companies, projects, models and events. [Implementation and validation](docs/plans/observatory-tour.md). [Current status and limits](docs/STATUS.md) · [Reusable baseline](design/baselines/README.md) · [Data scope](docs/DATA_EVIDENCE.md). Data has independent observation windows; synthetic activity is not live measurement. Public availability does not imply every model or dataset is open source.
+**Application: 1.17.1; visual system: 1.4.0; fixed map/radar baseline: 1.3.2.** The centered observatory opens Active developers and offers a five-stop World tour across companies, projects, models and events. [Implementation and validation](docs/plans/observatory-tour.md). [Current status and limits](docs/STATUS.md) · [Reusable baseline](design/baselines/README.md) · [Data scope](docs/DATA_EVIDENCE.md). Data has independent observation windows; synthetic activity is not live measurement. Public availability does not imply every model or dataset is open source.
 
 ### Global observation — find where to look
 

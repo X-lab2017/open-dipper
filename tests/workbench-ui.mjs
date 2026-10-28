@@ -1,5 +1,5 @@
 import {readFileSync} from 'node:fs';
-const meetingSnapshot=JSON.parse(readFileSync('public/data/conferences.json','utf8'));const locatedSnapshot=JSON.parse(readFileSync('public/data/located-entities.json','utf8'));const todayCST=new Intl.DateTimeFormat('sv-SE',{timeZone:'Asia/Shanghai'}).format(new Date());const expectedLocated=String(locatedSnapshot.layers.companies.length+locatedSnapshot.layers.benchmark.length+meetingSnapshot.records.filter(r=>r.point&&r.startsAt>=todayCST).length);
+const meetingSnapshot=JSON.parse(readFileSync('public/data/conferences.json','utf8'));const locatedSnapshot=JSON.parse(readFileSync('public/data/located-entities.json','utf8'));const todayCST=new Intl.DateTimeFormat('sv-SE',{timeZone:'Asia/Shanghai'}).format(new Date());const expectedLocated=String(locatedSnapshot.layers.companies.length+locatedSnapshot.layers.benchmark.length+meetingSnapshot.records.filter(r=>r.point&&['A','B'].includes(r.rank)&&r.startsAt>=todayCST).length);
 import {chromium, expect} from '@playwright/test';
 import {mkdir} from 'node:fs/promises';
 
