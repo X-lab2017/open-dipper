@@ -82,3 +82,7 @@ AI-assisted implementation and actual validation are recorded in [delivery #14](
 第一版五模块体验与宣传片已获维护者阶段性确认。阅读页收敛为资料库／列表／阅读，研究流程成为情报浏览／知识整理／深度研究；vLLM/SGLang 案例贯穿资料到报告。共建社区改为项目介绍，五模块导航稳定，短片以全深色和总览开场收尾。详细变更、PR、CI 与能力边界集中于 [第一版交付记录](releases/first-edition.md)。
 
 本轮修正 README 与 CHANGELOG 仍停留旧里程碑的问题，精简当前状态里的已替代界面叙述，补齐开发启动、现行源码与机器任务索引；保留历史、数据、兼容路由和真实 DSH 未接通等边界。AI 参与文档整理与核查，验证结果以本次 PR 回执为准。
+
+## 2026-10-28 · 用里程碑开放研发过程
+
+维护者要求在共建愿景区并列展示项目大事件。新增认识北斗／里程碑双视图，17 个公开仓库节点覆盖起步、五模块、社区协作与第一版收尾；动态光轨、日期跳转与纵向事件流连接 PR、Issue、commit 和独立部署记录。使用真实提交／合并／议题时钟，不将计划或演示写成已完成服务。[实施与验证](plans/community-milestones.md) · [PR #55](https://github.com/X-lab2017/open-dipper/pull/55)。
