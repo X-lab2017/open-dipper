@@ -1,10 +1,10 @@
 # 当前状态 / Current status
 
-核对日期：**2026-10-28（北京时间）**。**第一版五模块产品交互与宣传片已完成交付**；当前工作版本为 **1.16.0**（本轮发布结果以 PR / Actions 为准），视觉 tokens **1.4.0**，地图／雷达固定基线 **1.3.2**，品牌 **1.1.0**。第一版收尾是产品里程碑，不新建版本号、tag 或 GitHub Release，也不代表全域数据、真实 Agent 服务或所有 issue 已完成。
+核对日期：**2026-10-28（北京时间）**。**第一版五模块产品交互与宣传片已完成交付**；当前工作版本为 **1.16.1**（本轮发布结果以 PR / Actions 为准），视觉 tokens **1.4.0**，地图／雷达固定基线 **1.3.2**，品牌 **1.1.0**。第一版收尾是产品里程碑，不新建版本号、tag 或 GitHub Release，也不代表全域数据、真实 Agent 服务或所有 issue 已完成。
 
 [第一版交付与过程记录](releases/first-edition.md) · [在线体验](https://www.x-lab.info/open-dipper/) · [体验反馈 #35](https://github.com/X-lab2017/open-dipper/issues/35) · [开发与验证](DEVELOPMENT.md)
 
-最新已核验发布：[PR #53](https://github.com/X-lab2017/open-dipper/pull/53) 合并；[Pages 40596411391](https://github.com/X-lab2017/open-dipper/actions/runs/40596411391) 成功。五模块导航联动由 [PR #51](https://github.com/X-lab2017/open-dipper/pull/51) 交付。后续提交与任务状态以实时 Actions / issue / PR 为准，数据新鲜度看各快照的观察期与采集时间。
+最新已核验发布：[PR #55](https://github.com/X-lab2017/open-dipper/pull/55) 合并；[Pages 40607751585](https://github.com/X-lab2017/open-dipper/actions/runs/40607751585) 成功。五模块导航联动由 [PR #51](https://github.com/X-lab2017/open-dipper/pull/51) 交付。后续提交与任务状态以实时 Actions / issue / PR 为准，数据新鲜度看各快照的观察期与采集时间。
 
 1.16.0 在共建社区加入并列里程碑视图，17 个可回查的仓库事件、动态光轨与日期跳转；原项目介绍保留。[实现与验收计划](plans/community-milestones.md)。
 
@@ -41,6 +41,10 @@
 
 工程优先级和阶段门槛以[路线图](../ROADMAP.zh-CN.md)及 [#8](https://github.com/X-lab2017/open-dipper/issues/8) 为准。Agent 从 [AGENTS.md](../AGENTS.md) 进入，再按 [任务索引](CONTEXT.json) 只读取相关契约；历史提案与完成计划不属于默认上下文。
 
+1.16.1 新增 B 站正式影片入口和发布里程碑（共 18 个事件），光轨增加关键标签与悬停/键盘/触控预览。见 [正式发布记录](releases/bilibili-premiere.md)，本轮部署以 PR / Actions 为准。
+
 ## 五模块宣传片
 
 OpenDipper-Promo v4 基于已发布 1.15.1，58 秒全深色画面，先总览后展开五模块与 vLLM / SGLang 编辑案例。全域数据基础与当前雷达收录量分列，DSH 待接入状态保留。脚本、压缩素材、字幕、来源与验证见 [宣传片说明](../media/promo/README.md)；MP4 与源包作为文件交付，不提交大型视频到 Git。
+
+正式观看：[B 站 BV1J3xL63EPP](https://www.bilibili.com/video/BV1J3xL63EPP/)，维护者于 2026-10-28 确认发布。

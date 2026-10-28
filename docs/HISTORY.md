@@ -86,3 +86,7 @@ AI-assisted implementation and actual validation are recorded in [delivery #14](
 ## 2026-10-28 · 用里程碑开放研发过程
 
 维护者要求在共建愿景区并列展示项目大事件。新增认识北斗／里程碑双视图，17 个公开仓库节点覆盖起步、五模块、社区协作与第一版收尾；动态光轨、日期跳转与纵向事件流连接 PR、Issue、commit 和独立部署记录。使用真实提交／合并／议题时钟，不将计划或演示写成已完成服务。[实施与验证](plans/community-milestones.md) · [PR #55](https://github.com/X-lab2017/open-dipper/pull/55)。
+
+## 2026-10-28 · 影片正式发布与时间线阅读优化
+
+维护者确认宣传片已发布至 B 站。网站与仓库加入 [正式观看入口](https://www.bilibili.com/video/BV1J3xL63EPP/)，时间线记录确认日；平台上传时分与播放量未获取。根据评审给光轨补充关键节点短标签和可操作详情预览，保留明暗、双语、触屏、键盘与减少动态。实现由 Codex 辅助完成；本轮 PR 记录实际 CI、截图与 Pages 结果。

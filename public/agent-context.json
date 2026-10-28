@@ -320,6 +320,13 @@
       "purpose": "Five-module completion, traceable releases, preview/service limits and developer entry points",
       "language": "zh-CN",
       "url": "https://raw.githubusercontent.com/X-lab2017/open-dipper/main/docs/releases/first-edition.md"
+    },
+    {
+      "path": "docs/releases/bilibili-premiere.md",
+      "title": "Bilibili film publication",
+      "purpose": "Maintainer-confirmed public film URL, day-only publication record and verification limits",
+      "language": "zh-CN/en",
+      "url": "https://raw.githubusercontent.com/X-lab2017/open-dipper/main/docs/releases/bilibili-premiere.md"
     }
   ],
   "tasks": {
@@ -733,7 +740,7 @@
     "implementationCommit": "6544f48ccaab9a43a7c56069c487f620ec83723e"
   },
   "versions": {
-    "application": "1.16.0",
+    "application": "1.16.1",
     "visual": "1.4.0"
   }
 }
