@@ -1,7 +1,13 @@
 # Changelog
 
-This file records repository milestones, not published GitHub releases. Application version (`package.json`: 1.15.1) and visual system (`design/tokens.json`: 1.4.0) are independent. Detailed feedback and commits are in [the history](docs/HISTORY.md).
+This file records repository milestones, not published GitHub releases. Application version (`package.json`: 1.16.0) and visual system (`design/tokens.json`: 1.4.0) are independent. Detailed feedback and commits are in [the history](docs/HISTORY.md).
 
+
+## Application 1.16.0 — Community milestones
+
+- Add an About / Milestones switch beneath the shared community hero; retain the original project introduction and contribution paths.
+- Curate 17 source-linked repository events, with explicit commit/merge/issue clocks in Asia/Shanghai, independent deployment links, a luminous sequence navigator and chronological reading.
+- Preserve theme/language/nav geometry; add keyboard jumps, deep-link refresh, pause/reduced-motion and lifecycle cleanup. [Contract](docs/COMMUNITY_HUB.md) · [validation plan](docs/plans/community-milestones.md).
 
 ## First-edition closeout — 2026-10-28
 

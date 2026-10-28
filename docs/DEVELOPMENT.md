@@ -23,7 +23,7 @@ npm run dev
 | --- | --- | --- | --- |
 | 布局、筛选、语言与编辑器 | [视觉规范](VISUAL_SYSTEM.md)、[架构](ARCHITECTURE.md) | `src/atlas.ts`、`atlas.css`、`presentation-v*.css` | `typecheck`、`test:atlas`、`test:observatory`、`test:observatory:ui` |
 | 情报阅读、筛选与收藏 | [当前流程](INTELLIGENCE_WORKFLOW.md)、[情报库](INTELLIGENCE_LIBRARY.md) | `src/intelligence-room/reader.ts`、`reader.css`、`catalog.ts`、`model.ts` | `typecheck`、`test:observatory`、`test:portal:ui` |
-| 共建社区介绍与动态图 | [共建契约](COMMUNITY_HUB.md) | `src/community/view.ts`、`community.css`；路由接入 `src/observatory/portal.ts` | `typecheck`、`test:portal:ui`、`docs:check` |
+| 共建社区介绍、里程碑与动态图 | [共建契约](COMMUNITY_HUB.md) | `src/community/view.ts`、`community.css`、`milestones.ts`、`timeline.ts`、`timeline.css`；路由接入 `src/observatory/portal.ts` | `typecheck`、`test:portal:ui`、`docs:check` |
 | 五模块导航与共用工具栏 | [联动收尾](releases/1.15.1.md) | `src/atlas.ts`、`src/presentation-v7.css`、`tests/navigation-ui.mjs` | `typecheck`、`test:portal:ui`；覆盖中英、明暗和四档宽度 |
 | 知识整理、深度研究与交付 | [当前流程](INTELLIGENCE_WORKFLOW.md)、[知识契约](RESEARCH_SPACE.md)、[DSH 接入](../services/research/README.md) | `src/intelligence-room/notebook*.ts`、`research-*.ts`、对应 CSS、`services/research/` | `typecheck`、`test:observatory`、`test:portal:ui`；适配器替身检查不等于真实 DSH 验证 |
 | AI 雷达候选与交互 | [实现契约](AI_RADAR.md)、[当前基线](../design/baselines/observatory-radar-1.3.2.md) | `src/radar/`、`scripts/build-radar.mjs`、`data/reference/radar/` | `radar:build`、`radar:check`、`typecheck`、`test:portal:ui` |

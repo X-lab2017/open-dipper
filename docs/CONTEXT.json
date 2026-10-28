@@ -578,7 +578,10 @@
         "src/community/view.ts",
         "src/community/community.css",
         "src/observatory/portal.ts",
-        "src/observatory/intelligence.ts"
+        "src/observatory/intelligence.ts",
+        "src/community/milestones.ts",
+        "src/community/timeline.ts",
+        "src/community/timeline.css"
       ],
       "checks": [
         "typecheck",
