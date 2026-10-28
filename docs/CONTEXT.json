@@ -272,6 +272,12 @@
       "title": "First-edition delivery and handoff",
       "purpose": "Five-module completion, traceable releases, preview/service limits and developer entry points",
       "language": "zh-CN"
+    },
+    {
+      "path": "docs/releases/bilibili-premiere.md",
+      "title": "Bilibili film publication",
+      "purpose": "Maintainer-confirmed public film URL, day-only publication record and verification limits",
+      "language": "zh-CN/en"
     }
   ],
   "tasks": {

@@ -1,7 +1,13 @@
 # Changelog
 
-This file records repository milestones, not published GitHub releases. Application version (`package.json`: 1.16.0) and visual system (`design/tokens.json`: 1.4.0) are independent. Detailed feedback and commits are in [the history](docs/HISTORY.md).
+This file records repository milestones, not published GitHub releases. Application version (`package.json`: 1.16.1) and visual system (`design/tokens.json`: 1.4.0) are independent. Detailed feedback and commits are in [the history](docs/HISTORY.md).
 
+
+## Application 1.16.1 — Film premiere and milestone previews
+
+- Link the maintainer-confirmed Bilibili premiere from Community, both README editions and the film source guide; preserve day-only publication precision.
+- Add sparse orbit labels and accessible hover/focus/tap previews with evidence links and explicit timeline navigation. Existing event details, themes, language and reduced motion remain available.
+- [Publication provenance](docs/releases/bilibili-premiere.md) · [interaction contract](docs/COMMUNITY_HUB.md).
 
 ## Application 1.16.0 — Community milestones
 

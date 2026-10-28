@@ -13,7 +13,7 @@
 
 [Open the observatory](https://www.x-lab.info/open-dipper/) · [AI radar](https://www.x-lab.info/open-dipper/#radar) · [Open Galaxy](https://www.x-lab.info/open-dipper/#ecosystem) · [Agent Intelligence Room](https://www.x-lab.info/open-dipper/#briefing) · [Contribute](CONTRIBUTING.md) · [Roadmap](ROADMAP.md)
 
-**First edition delivered (application 1.15.1):** [five-module milestone, verification and remaining boundaries](docs/releases/first-edition.md) · [58-second five-module film, storyboard and reproduction](media/promo/README.md). The film uses global-observatory upstream totals to preview full-domain discovery; the current radar index remains a sourced preview sample.
+**First edition delivered (application 1.15.1):** [five-module milestone, verification and remaining boundaries](docs/releases/first-edition.md) · **[Watch the official film on Bilibili](https://www.bilibili.com/video/BV1J3xL63EPP/)** · [58-second five-module film, storyboard and reproduction](media/promo/README.md). The film uses global-observatory upstream totals to preview full-domain discovery; the current radar index remains a sourced preview sample.
 
 <!-- section:first-exploration -->
 ## Try your first exploration
@@ -37,7 +37,7 @@ This walkthrough needs no API key. It demonstrates evidence-to-report interactio
 | Agent Intelligence Room | Read sources → organize a notebook → prepare research → review and deliver a report | Browser-local work; complete vLLM/SGLang editorial example; DSH adapter code prepared, runtime not connected |
 | Community | Understand the mission, roadmap and how to contribute | Animated project introduction, [milestone timeline](https://www.x-lab.info/open-dipper/#contribute?view=milestones), source/rights disclosure and GitHub participation paths; [contract](docs/COMMUNITY_HUB.md) |
 
-**Application: 1.16.0; visual system: 1.4.0; fixed map/radar baseline: 1.3.2.** The centered observatory opens Active developers and offers a five-stop World tour across companies, projects, models and events. [Implementation and validation](docs/plans/observatory-tour.md). [Current status and limits](docs/STATUS.md) · [Reusable baseline](design/baselines/README.md) · [Data scope](docs/DATA_EVIDENCE.md). Data has independent observation windows; synthetic activity is not live measurement. Public availability does not imply every model or dataset is open source.
+**Application: 1.16.1; visual system: 1.4.0; fixed map/radar baseline: 1.3.2.** The centered observatory opens Active developers and offers a five-stop World tour across companies, projects, models and events. [Implementation and validation](docs/plans/observatory-tour.md). [Current status and limits](docs/STATUS.md) · [Reusable baseline](design/baselines/README.md) · [Data scope](docs/DATA_EVIDENCE.md). Data has independent observation windows; synthetic activity is not live measurement. Public availability does not imply every model or dataset is open source.
 
 ### Global observation — find where to look
 

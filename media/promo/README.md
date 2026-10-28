@@ -4,6 +4,10 @@
 
 The MP4, cover and standalone source ZIP are delivered as files. Large movie exports stay out of Git; renderer, compressed release screenshots, facts, captions and notices remain reproducible here. Delivery does not publish a social post or paid promotion.
 
+## Official publication
+
+**[Watch on Bilibili · BV1J3xL63EPP](https://www.bilibili.com/video/BV1J3xL63EPP/)** — publication confirmed by the maintainer on 2026-10-28 (Asia/Shanghai). The platform upload timestamp and audience metrics were not retrieved. [Publication record](../../docs/releases/bilibili-premiere.md). The website now links to this release; the production source remains v4, with no re-render in this update.
+
 ## Storyboard
 
 | Time | Scene | Visual and meaning |

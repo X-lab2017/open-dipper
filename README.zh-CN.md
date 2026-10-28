@@ -13,7 +13,7 @@
 
 [进入观测站](https://www.x-lab.info/open-dipper/) · [AI 雷达](https://www.x-lab.info/open-dipper/#radar) · [开源星系](https://www.x-lab.info/open-dipper/#ecosystem) · [Agent 情报室](https://www.x-lab.info/open-dipper/#briefing) · [参与贡献](CONTRIBUTING.zh-CN.md) · [路线图](ROADMAP.zh-CN.md)
 
-**第一版已交付（应用 1.15.1）：**[五模块里程碑、验证与待完成边界](docs/releases/first-edition.md) · [58 秒五模块宣传片、分镜与复现](media/promo/README.md)。短片以全球观测上游统计呈现全域发现愿景；当前雷达仍是有来源的预览样本，后续分阶段接入。
+**第一版已交付（应用 1.15.1）：**[五模块里程碑、验证与待完成边界](docs/releases/first-edition.md) · **[B 站观看正式宣传片](https://www.bilibili.com/video/BV1J3xL63EPP/)** · [58 秒五模块宣传片、分镜与复现](media/promo/README.md)。短片以全球观测上游统计呈现全域发现愿景；当前雷达仍是有来源的预览样本，后续分阶段接入。
 
 <!-- section:first-exploration -->
 ## 完成你的第一次探索
@@ -37,7 +37,7 @@
 | Agent 情报室 | 浏览情报 → 整理知识 → 发起研究 → 审阅与交付报告 | 本机工作区；完整 vLLM/SGLang 编辑案例；DSH 适配代码已准备，运行服务未接通 |
 | 共建社区 | 了解愿景、路线与参与方式 | 动态项目介绍、[里程碑时间线](https://www.x-lab.info/open-dipper/#contribute?view=milestones)、来源与权利披露、GitHub 共建入口；[契约](docs/COMMUNITY_HUB.md) |
 
-**应用版本：1.16.0；视觉体系：1.4.0；地图／雷达固定基线：1.3.2。** 全球地图重新居中，默认打开活跃开发者，并以五站“环球巡航”串联企业、项目、模型和活动。[实现与验收](docs/plans/observatory-tour.md)。 [当前状态与限制](docs/STATUS.md) · [可复用基线](design/baselines/README.md) · [数据口径](docs/DATA_EVIDENCE.md)。各数据保留独立观察期，模拟脉动不是实时测量；公开可下载不代表每个模型或数据集都符合开源定义。
+**应用版本：1.16.1；视觉体系：1.4.0；地图／雷达固定基线：1.3.2。** 全球地图重新居中，默认打开活跃开发者，并以五站“环球巡航”串联企业、项目、模型和活动。[实现与验收](docs/plans/observatory-tour.md)。 [当前状态与限制](docs/STATUS.md) · [可复用基线](design/baselines/README.md) · [数据口径](docs/DATA_EVIDENCE.md)。各数据保留独立观察期，模拟脉动不是实时测量；公开可下载不代表每个模型或数据集都符合开源定义。
 
 ### 全球观测——找到观察重点
 
