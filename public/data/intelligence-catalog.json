@@ -16,10 +16,10 @@
         "CCF conferences and community event library"
       ],
       "summary": [
-        "394 条日程记录；全球观测支持按类别、时间、领域与地区查阅。来源等级为第三方标注；批量收录不代表新发生事件。",
-        "394 schedule records; browse by category, time, field and region in the Observatory. Ranks are third-party labels; bulk capture is not new event activity."
+        "571 条日程记录；全球观测支持按类别、时间、来源、形式与地区查阅。来源等级为第三方标注；批量收录不代表新发生事件。",
+        "571 schedule records; browse by category, time, source, format and region in the Observatory. Ranks are third-party labels; bulk capture is not new event activity."
       ],
-      "source": "Conference Partner (myhuiban.com) / organizers",
+      "source": "Conference Partner / Open Source Deadlines / Linux Foundation Events / organizers",
       "url": "https://www.myhuiban.com/conferences/ccf",
       "sourceUrl": "https://github.com/X-lab2017/open-dipper/blob/main/public/data/conferences.json",
       "objects": [
@@ -34,8 +34,8 @@
       ],
       "modality": "data",
       "period": [
-        "2026-10-27T10:54:23+00:00",
-        "2026-10-27T10:54:23+00:00"
+        "2026-10-28",
+        "2026-10-28"
       ],
       "page": "overview",
       "verification": "source-metadata"

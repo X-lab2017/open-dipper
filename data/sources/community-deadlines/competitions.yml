@@ -1,0 +1,590 @@
+- title: 【HACKATHON 预备营】飞桨启航计划集训营（马年新春版）
+  description: 「启航计划（马年新春版）」 是为 寒假与春节假期 特别推出的限时版本。我们希望在年初相对集中的空闲时间里，为对开源感兴趣的开发者提供一个 低门槛、可实践 的参与机会。能让各位在春节假期中真正参与一次开源贡献，了解真实开源项目的协作方式与节奏，在新的一年，迈出属于自己的 第一步开源实践 ——这个冬天，不只是休息与团聚，也可以是你开启开源之旅的起点。
+  category: competition # 会议请使用 "conference"，活动请使用 "activity"
+  tags:
+    - PaddlePaddle
+    - 启航计划
+  events:
+    - year: 2026 # 年份
+      id: PaddlePaddle-Starter-2026spring # 全局唯一的ID
+      link: https://github.com/PaddlePaddle/Paddle/issues/77510 # 链接
+      timeline:
+        - deadline: '2026-01-26T18:00:00' # 关键日期 (ISO 8601 格式)
+          comment: 'PR 提交截止' # 日期说明
+        - deadline: '2026-03-09T24:00:00'
+          comment: '结项提交'
+      timezone: Asia/Shanghai # 所在时区
+      date: 2026 年 1 月 26 日 - 3 月 9 日 # 人类可读的日期范围
+      place: 线上 # 地点
+
+- title: 【Hackathon 10th】开源贡献个人挑战赛 · 春节特别季
+  description: 本次 「春节特别季」 是第十期 PaddlePaddle Hackathon 的前置特别活动，面向全球开发者开放，聚焦 高质量开源贡献，为开发者在春节期间提供一个可持续投入、可明确验收、可获得激励的参与入口。
+  category: competition # 会议请使用 "conference"，活动请使用 "activity"
+  tags:
+    - PaddlePaddle
+    - Hackathon
+  events:
+    - year: 2026 # 年份
+      id: PaddlePaddle-hackathon-10th-spring # 全局唯一的ID
+      link: https://github.com/PaddlePaddle/Paddle/issues/77429 # 链接
+      timeline:
+        - deadline: '2026-01-19T18:00:00' # 关键日期 (ISO 8601 格式)
+          comment: 'PR 提交截止' # 日期说明
+        - deadline: '2026-03-06T24:00:00'
+          comment: '结项提交'
+      timezone: Asia/Shanghai # 所在时区
+      date: 2026 年 1 月 19 日 - 3 月 6 日 # 人类可读的日期范围
+      place: 线上 # 地点
+
+- title: PaddlePaddle 启航计划集训营（第六期）
+  description: 「启航计划」 是 飞桨开源社区 发起的远程集训项目，也是「护航计划」的前置活动。我们以开展线上集训营的形式，鼓励开发者积极参与开源项目，以此提升自己的代码实践能力，与社区共同成长 💪。只要对开源怀有热忱，都欢迎报名参与！
+  category: competition # 会议请使用 "conference"，活动请使用 "activity"
+  tags:
+    - PaddlePaddle
+    - 启航计划
+  events:
+    - year: 2025 # 年份
+      id: PaddlePaddle-Starter-6th # 全局唯一的ID
+      link: https://github.com/PaddlePaddle/Paddle/issues/75250 # 链接
+      timeline:
+        - deadline: '2025-11-24T18:00:00' # 关键日期 (ISO 8601 格式)
+          comment: 'PR 提交截止' # 日期说明
+        - deadline: '2025-12-15T24:00:00'
+          comment: '结项提交'
+      timezone: Asia/Shanghai # 所在时区
+      date: 2025 年 9 月 12 日 - 12 月 15 日 # 人类可读的日期范围
+      place: 线上 # 地点
+
+- title: 第九届 PaddlePaddle 黑客松
+  description: PaddlePaddle Hackathon 正式开始啦 🎉！本次活动是飞桨开源社区面向全球开发者的深度学习领域编程活动，鼓励开发者了解与参与飞桨深度学习开源项目的开发实践。
+  category: competition # 会议请使用 "conference"，活动请使用 "activity"
+  tags:
+    - PaddlePaddle
+    - Hackathon
+  events:
+    - year: 2025 # 年份
+      id: PaddlePaddle-hackathon-9th # 全局唯一的ID
+      link: https://github.com/PaddlePaddle/Paddle/issues/74777 # 链接
+      timeline:
+        - deadline: '2025-11-24T18:00:00' # 关键日期 (ISO 8601 格式)
+          comment: 'PR 提交截止' # 日期说明
+        - deadline: '2025-12-15T24:00:00'
+          comment: '结项提交'
+      timezone: Asia/Shanghai # 所在时区
+      date: 2025 年 8 月 25 日 - 12 月 15 日 # 人类可读的日期范围
+      place: 线上 # 地点
+
+- title: GitLink "确实开源"编程夏令营（GLCC）
+  description: GitLink "确实开源"编程夏令营（GLCC）是在 CCF 中国计算机学会指导下，由 CCF 开源发展委员会（CCF ODC）举办的面向全国高校学生的暑期编程活动。
+  category: competition
+  tags:
+    - 确实开源
+    - 编程夏令营
+  events:
+    - year: 2025
+      id: gitlink-summer-camp-2025
+      link: https://www.gitlink.org.cn/glcc
+      timeline:
+        - deadline: '2025-06-10T23:59:59'
+          comment: '项目报名截至'
+        - deadline: '2025-07-05T23:59:59'
+          comment: '学生报名截止'
+        - deadline: '2025-08-03T00:00:00'
+          comment: '中期考核结果公示'
+        - deadline: '2025-09-26T00:00:00'
+          comment: '结项考核结果公示'
+      timezone: Asia/Shanghai
+      date: 2025 年 4 月 15 日 - 9 月 26 日
+      place: 中国，北京
+
+- title: 开源之夏
+  description: 开源软件供应链点亮计划
+  category: competition
+  tags:
+    - RISC-V
+    - openEuler
+    - Apache
+  events:
+    - year: 2025
+      id: ospp2025
+      link: https://summer-ospp.ac.cn
+      timeline:
+        - deadline: '2025-06-04T18:00:00'
+          comment: '项目申请书提交'
+        - deadline: '2025-09-30T24:00:00'
+          comment: '结项提交'
+      timezone: Asia/Shanghai
+      date: 2025 年 4 月 30 日 - 9 月 30 日
+      place: 线上
+    - year: 2024
+      id: ospp2024
+      link: https://summer-ospp.ac.cn/2024/
+      timeline:
+        - deadline: '2024-06-04T18:00:00'
+          comment: '项目申请书提交'
+        - deadline: '2024-09-30T24:00:00'
+          comment: '结项提交'
+      timezone: Asia/Shanghai
+      date: 2024 年 4 月 30 日 - 9 月 30 日
+      place: 线上
+
+- title: 谷歌编程之夏
+  description: 一项旨在吸引更多开发者参与开源软件开发的全球性项目
+  category: competition
+  tags:
+    - Programming
+    - Mentorship
+    - Open Source
+  events:
+    - year: 2025
+      id: gsoc2025
+      link: https://summerofcode.withgoogle.com/
+      timeline:
+        - deadline: '2025-01-27T18:00:00Z'
+          comment: '导师组织申请开始'
+        - deadline: '2025-02-11T18:00:00Z'
+          comment: '导师组织申请截止'
+        - deadline: '2025-03-24T18:00:00Z'
+          comment: '贡献者申请开始'
+        - deadline: '2025-04-08T18:00:00Z'
+          comment: '贡献者申请截止'
+        - deadline: '2025-05-08T18:00:00Z'
+          comment: '公布贡献者项目'
+        - deadline: '2025-06-02T00:00:00Z'
+          comment: '正式开始编码'
+        - deadline: '2025-07-14T18:00:00Z'
+          comment: '中期评估开始'
+        - deadline: '2025-07-18T18:00:00Z'
+          comment: '中期评估截止'
+        - deadline: '2025-09-01T18:00:00Z'
+          comment: '贡献者提交最终成果和最终导师评估截止'
+        - deadline: '2025-11-10T18:00:00Z'
+          comment: '延长截止日期的贡献者提交最终成果和最终评估截止'
+        - deadline: '2025-11-17T18:00:00Z'
+          comment: '导师针对延长截止日期的贡献者项目提交评估截止'
+      timezone: UTC
+      date: 2025 年 1 月 27 日 - 11 月 17 日
+      place: 线上
+
+- title: 全国大学生计算机系统能力大赛 - CPU 设计赛 (龙芯杯)
+  description: 面向高校大学生举办的全国性大赛，旨在选拔我国计算机系统的设计、分析、优化与应用人才。
+  category: competition
+  tags:
+    - CPU 设计
+    - 龙芯
+    - 计算机系统
+    - 体系结构
+  events:
+    - year: 2025
+      id: nscscc-cpu-2025
+      link: https://www.nscscc.com
+      timeline:
+        - deadline: '2025-06-20T23:59:59'
+          comment: '报名截止'
+        - deadline: '2025-08-05T00:00:00'
+          comment: '初赛作品线上提交截止'
+      timezone: Asia/Shanghai
+      date: 2025 年 3 月 20 日 - 8 月下旬
+      place: 线上初赛 + 线下决赛
+
+- title: 腾讯犀牛鸟
+  description: “犀牛鸟开源人才培养计划”是一项由腾讯发布的，面向高校学生及广大开发者的开源课程和开源实践培养方案，旨在培育开源人才、普及开源文化。
+  category: competition
+  tags:
+    - 腾讯犀牛鸟
+    - 人才培养
+    - 开源技术
+  events:
+    - year: 2025
+      id: trotp2025
+      link: https://opensource.tencent.com/summer-of-code
+      timeline:
+        - deadline: '2025-06-20T00:00:00'
+          comment: '报名开始 & 开源基础课程开启'
+        - deadline: '2025-07-10T00:00:00'
+          comment: '开源 issue 实践开启'
+        - deadline: '2025-07-28T00:00:00'
+          comment: '报名结束'
+        - deadline: '2025-08-01T00:00:00'
+          comment: '开源课题实战开启'
+        - deadline: '2025-09-10T00:00:00'
+          comment: '实战毕业'
+      timezone: Asia/Shanghai
+      date: 2025 年 6 月 20 日 - 9 月 10 日
+      place: 线上
+
+- title: Godot x openKylin 全国开发大赛
+  description: Godot x openKylin 全国开发大赛旨在鼓励开发者使用 Godot 引擎进行跨平台创作，推动开源生态发展。大赛聚焦游戏与软件创新，促进优秀作品在 openKylin 操作系统上的落地应用。
+  category: competition
+  tags:
+    - openKylin
+    - Godot
+    - 开源技术
+  events:
+    - year: 2025
+      id: gondc2025 # Godot x openKylin National Development Competition 首字母缩写
+      link: https://mp.weixin.qq.com/s/pYNHInIts4Rf0TH3joQVsQ
+      timeline:
+        - deadline: '2025-07-05T00:00:00'
+          comment: '报名 & 比赛开始'
+        - deadline: '2025-08-01T00:00:00'
+          comment: '作品提交开始'
+        - deadline: '2025-09-01T00:00:00'
+          comment: '报名截止'
+        - deadline: '2025-09-10T23:59:59'
+          comment: '比赛结束 & 作品提交截止'
+        - deadline: '2025-10-15T23:59:59'
+          comment: '评选结束'
+        - deadline: '2025-10-25T12:00:00'
+          comment: '颁奖结束'
+      timezone: Asia/Shanghai
+      date: 2025 年 7 月 5 日 - 10 月 25 日
+      place: 线上
+
+- title: 中国研究生操作系统开源创新大赛
+  description: 中国研究生操作系统开源创新大赛是面向研究生和本科生的全国性、公益性开源创新赛，由教育部学位管理与研究生教育司指导、中国学位与研究生教育学会和中国科协青少年科技中心主办。
+  category: competition
+  tags:
+    - 操作系统
+    - 开源技术
+  events:
+    - year: 2025
+      id: cpipc2
+      link: https://cpipc.acge.org.cn/cw/hp/2c9080178c7c917b018d1b1a0af61cd6
+      timeline:
+        - deadline: '2025-05-01T00:00:00'
+          comment: '报名开始'
+        - deadline: '2025-05-20T00:00:00'
+          comment: '作品提交开始'
+        - deadline: '2025-07-18T17:00:00'
+          comment: '报名截止'
+        - deadline: '2025-07-20T17:00:00'
+          comment: '作品提交截止'
+        - deadline: '2025-07-25T00:00:00'
+          comment: '初赛评审（具体时间待定）'
+        - deadline: '2025-07-30T00:00:00'
+          comment: '入围公示（具体时间待定）'
+        - deadline: '2025-08-25T00:00:00'
+          comment: '决赛（具体时间待定）'
+      timezone: Asia/Shanghai
+      date: 2025 年 5 月 1 日 - 8 月下旬
+      place: 线上
+
+- title: Community Over Code NA
+  description: Apache 软件基金会的年度会议，汇集开源开发者、用户和贡献者
+  category: conference
+  tags:
+    - Apache
+    - 开源
+    - 北美
+  events:
+    - year: 2025
+      id: coc-na-2025
+      link: https://communityovercode.org/
+      timeline:
+        - deadline: '2025-06-28T23:59:59'
+          comment: '早鸟票截止（US$650）'
+        - deadline: '2025-06-30T23:59:59'
+          comment: '演讲提案提交截止'
+        - deadline: '2025-08-15T23:59:59'
+          comment: '常规票价生效（US$750）'
+        - deadline: '2025-09-11T00:00:00'
+          comment: '会议正式开始'
+      timezone: America/New_York
+      date: 2025 年 9 月 11 日 - 14 日
+      place: 美国，明尼阿波利斯
+
+- title: OpenHarmony竞赛训练营
+  description: OpenHarmony竞赛训练营旨在引导高校学生进行OpenHarmony产学研用，培养更多应用型人才和产业需求有效链接，吸引更多的高校师生参与到OpenHarmony的开发和应用中
+  category: competition
+  tags:
+    - OpenHarmony
+    - AI
+  events:
+    - year: 2025
+      id: oh-competition-2025
+      link: https://mp.weixin.qq.com/s/gENH9zvMGa4qQUZWLOwcog
+      timeline:
+        - deadline: '2025-07-15T00:00:00'
+          comment: '报名开始'
+        - deadline: '2025-09-16T00:00:00'
+          comment: '报名截止'
+        - deadline: '2025-09-17T00:00:00'
+          comment: '初赛作品提交截止'
+        - deadline: '2025-09-30T00:00:00'
+          comment: '入围公示（具体时间待定）'
+        - deadline: '2025-09-30T00:00:00'
+          comment: '决赛（具体时间待定）'
+      timezone: Asia/Shanghai
+      date: 2025 年 7 月 15 日 - 9 月下旬
+      place: 线上
+
+- title: 开源鸿蒙创新应用挑战赛-媒体格式音视频解码专项
+  description: 聚焦格式解封装、音频解码、视频解码三个领域，诚邀开发者深入开源鸿蒙底层多媒体引擎，实现或优化对特定、复杂音视频格式的高效解码支持
+  category: competition
+  tags:
+    - OpenHarmony
+    - 媒体技术
+    - 开放原子
+  events:
+    - year: 2025
+      id: oh-media-2025
+      link: https://competition.atomgit.com/competitionInfo?id=67a2bfabddf910caee6f422ed8760bf0
+      timeline:
+        - deadline: '2025-08-07T00:00:00'
+          comment: '报名开始'
+        - deadline: '2025-10-15T00:00:00'
+          comment: '报名截止'
+        - deadline: '2025-10-17T00:00:00'
+          comment: '作品提交截止'
+        - deadline: '2025-10-25T00:00:00'
+          comment: '公布晋级决赛名单'
+        - deadline: '2025-11-10T00:00:00'
+          comment: '决赛作品提交截止'
+        - deadline: '2025-11-20T00:00:00'
+          comment: '线下决赛路演及颁奖仪式（拟）'
+        - deadline: '2025-11-25T00:00:00'
+          comment: '获奖名单公示（拟）'
+      timezone: Asia/Shanghai
+      date: 2025 年 8 月 7 日 - 11 月 25 日
+      place: 线上
+
+- title: vivo蓝河操作系统创新赛
+  description: 开放原子与vivo携手致力于把蓝河操作系统创新赛打造为行业内具有含金量和影响力的Rust赛事，为Rust生态的建设与人才培养搭建高质量交流平台
+  category: competition
+  tags:
+    - 操作系统
+    - Rust
+    - 开放原子
+  events:
+    - year: 2025
+      id: vivo-os-2025
+      link: https://competition.atomgit.com/competitionInfo?id=49f0205ecd5c81c96381829456fef6a5
+      timeline:
+        - deadline: '2025-08-05T00:00:00'
+          comment: '报名开始'
+        - deadline: '2025-09-01T00:00:00'
+          comment: '线上培训（拟定）'
+        - deadline: '2025-10-20T23:59:59'
+          comment: '报名及初赛作品提交截止'
+        - deadline: '2025-10-27T00:00:00'
+          comment: '复赛入围名单及赛题公布'
+        - deadline: '2025-11-16T23:59:59'
+          comment: '复赛作品提交截止'
+        - deadline: '2025-11-30T23:59:59'
+          comment: '决赛作品提交截止'
+        - deadline: '2025-12-06T00:00:00'
+          comment: '决赛路演及颁奖仪式（拟定）'
+      timezone: Asia/Shanghai
+      date: 2025 年 8 月 5 日 - 12 月 6 日
+      place: 线上
+
+- title: 清华大学 OpenCamp 2025 秋冬季开源操作系统训练营
+  description: 清华大学 OpenCamp 2025 秋冬季开源操作系统训练营现已开启报名与学习通道，面向全国高校学生与一线工程师开放。训练营由清华大学陈渝老师和向勇老师发起，旨在通过使用 Rust 语言编写操作系统的实践，培养学员的操作系统开发技能。
+  category: competition
+  tags:
+    - 操作系统
+    - 训练营
+    - Rust
+  events:
+    - year: 2025
+      id: opencamp-2025
+      link: https://mp.weixin.qq.com/s/cErWjE-8RPNLVVr9BechgQ
+      timeline:
+        - deadline: '2025-09-14T00:00:00'
+          comment: '训练营开始'
+        - deadline: '2025-12-28T23:59:59'
+          comment: '训练营结束'
+      timezone: Asia/Shanghai
+      date: 2025 年 9 月 14 日 - 2025 年 12 月 28 日
+      place: 线上
+
+- title: CIE - 玄铁杯 RISC-V 应用创新比赛
+  description: 为了推动 RISC-V 技术的创新和应用，中国电子学会组织发起了首届 CIE 全国 RISC-V 高水平创新和应用大赛。作为大赛副主席单位，达摩院（上海）科技有限公司与杭州电子科技大学、龙蜥社区联合命题，设立「CIE - 玄铁杯 RISC-V 应用创新比赛」，邀请全球开发者、高校团队及企业，与我们共同探索 RISC-V 的无限可能。
+  category: competition
+  tags:
+    - RISC-V
+    - 服务器
+    - AI
+    - 硬件
+  events:
+    - year: 2025
+      id: cie-riscv-2025
+      link: https://rv.cie.org.cn/direction?id=3
+      timeline:
+        - deadline: '2025-07-01T00:00:00'
+          comment: '比赛发布'
+        - deadline: '2025-10-08T23:59:59'
+          comment: '报名与作品提交截止'
+      timezone: Asia/Shanghai
+      date: 2025 年 7 月 1 日 - 2025 年 10 月 8 日
+      place: 线上
+      
+- title: QEMU 训练营 2025
+  description: QEMU 训练营 2025 由格维开源社区（GTOC）主办， OpenCamp 训练营协办，现已开启报名通道，面向对 QEMU 感兴趣的开发者和学习者。训练营旨在通过系统的课程和实践项目，帮助学员深入理解和掌握 QEMU 的使用与开发，提升虚拟化技术能力。
+  category: competition
+  tags:
+    - QEMU
+    - 训练营
+  events:
+    - year: 2025 # 年份
+      id: qemu-camp-2025 # 全局唯一的ID
+      link: https://mp.weixin.qq.com/s/XKfIv0Qjduq8JeHIiQBtrg # 链接
+      timeline:
+        - deadline: '2025-09-28T00:00:00' # 关键日期 (ISO 8601 格式)
+          comment: '导学阶段开始' # 日期说明     
+        - deadline: '2025-10-12T00:00:00' # 关键日期 (ISO 8601 格式)
+          comment: '训练营开始' # 日期说明
+        - deadline: '2025-11-23T23:59:59'
+          comment: '训练营结束'
+      timezone: Asia/Shanghai # 所在时区
+      date: 2025 年 10 月 12 日 - 2025 年 11 月 23 日 # 人类可读的日期范围
+      place: 线上
+
+- title: RT-Thread 2025 嵌入式软件大赛
+  description: 本赛道为嵌入式软件大赛，聚焦嵌入式软件设计与开发。参赛者需基于 RT-Thread 官方指定的硬件平台，充分利用 RT-Thread 操作系统的核心特性，开发符合该硬件平台赛题方向规定的，高性能、低功耗的嵌入式应用作品，并提交完整的项目设计文档。
+  category: competition
+  tags:
+    - RT-Thread
+    - 嵌入式
+  events:
+    - year: 2025 # 年份
+      id: rt-thread-software-2025 # 全局唯一的ID
+      link: https://mp.weixin.qq.com/s/uoznPrNJeHX44plQ_liJAg # 链接
+      timeline:
+        - deadline: '2025-08-16T00:00:00' 
+          comment: '报名开始' # 日期说明     
+        - deadline: '2025-09-30T00:00:00' 
+          comment: '报名结束' # 日期说明
+        - deadline: '2025-11-30T00:00:00' 
+          comment: '提交作品' # 日期说明
+        - deadline: '2025-12-01T00:00:00' 
+          comment: '评审开始' # 日期说明
+        - deadline: '2025-12-07T23:59:59'
+          comment: '评审结束'
+      timezone: Asia/Shanghai # 所在时区
+      date: 2025 年 8 月 16 日 - 2025 年 12 月 7 日 # 人类可读的日期范围
+      place: 线上
+
+- title: 基于 RISC-V 芯片和开源鸿蒙操作系统的 AI 应用开发赛
+  description: 润开鸿将围绕大赛“软件定义世界 开源共筑未来”主题，强调基于 RISC-V 架构的芯片平台结合开源鸿蒙操作系统的双开源平台，利用 DAYU800A 开发板，开发面向人工智能领域的应用、场景化方案，探索和促进人工智能相关技术在开源鸿蒙操作系统上的发展与应用。
+  category: competition
+  tags:
+    - RISC-V
+    - 开源鸿蒙
+    - AI 应用开发
+  events:
+    - year: 2025 # 年份
+      id: riscv-openharmony-ai-dev-competition-2025 # 全局唯一的ID
+      link: https://competition.atomgit.com/competitionInfo?id=f90bd619dd856d17039720c0fa6cca3e#heading-0-0 # 链接
+      timeline:
+        - deadline: '2025-07-01T00:00:00' # 关键日期 (ISO 8601 格式)
+          comment: '大赛开始' # 日期说明
+        - deadline: '2025-12-31T23:59:59'
+          comment: '大赛结束'      
+      timezone: Asia/Shanghai # 所在时区
+      date: 2025 年 7 月 1 日 - 2025 年 12 月 31 日 # 人类可读的日期范围
+      place: 线上
+
+- title: 首届“光谷杯”鸿蒙创新大赛
+  description: 首届“光谷杯”鸿蒙创新大赛正在报名招募中，旨在推动鸿蒙生态的发展，鼓励创新和应用开发。
+  category: competition
+  tags:
+    - 鸿蒙
+  events:
+    - year: 2025 # 年份
+      id: optcup-harmony-innovation-2025 # 全局唯一的ID
+      link: https://mp.weixin.qq.com/s/AhGJ464mU1tUXxTxyq6UXw # 链接
+      timeline:
+        - deadline: '2025-09-26T00:00:00' # 关键日期 (ISO 8601 格式)
+          comment: '项目征集开始' # 日期说明
+        - deadline: '2025-11-16T23:59:59'
+          comment: '项目征集结束'      
+      timezone: Asia/Shanghai # 所在时区
+      date: 2025 年 9 月 26 日 - 2025 年 11 月 16 日 # 人类可读的日期范围
+      place: 中国，武汉
+
+- title: CCF 开源 GPU 创新生态赛常规赛
+  description: 第八届 CCF 开源创新大赛常规赛之一的开源 GPU 创新生态赛第一期即将开启。该赛事由中国计算机学会（CCF）主办，开源发展技术委员会（ODTC）承办，聚焦 GPU 技术与开源生态的深度融合，旨在推动国产算力创新及人工智能普惠化发展。赛事设置三大子赛题，提供19万+奖金池，吸引全球开发者、高校团队及企业共同探索 GPU 底层优化、算法加速与生态共建。
+  category: competition
+  tags:
+    - GPU
+    - 人工智能+
+    - 开源生态
+  events:
+    - year: 2025 # 年份
+      id: open-source-gpu-innovation-2025 # 全局唯一的ID
+      link: https://mp.weixin.qq.com/s/d-9WsAiF_kGZqcI3sJQVWg # 链接
+      timeline:
+        - deadline: '2025-09-15T00:00:00' # 关键日期 (ISO 8601 格式)
+          comment: '报名开始' # 日期说明
+        - deadline: '2025-12-10T23:59:59'
+          comment: '报名截止'      
+      timezone: Asia/Shanghai # 所在时区
+      date: 2025 年 9 月 15 日 - 2025 年 12 月 30 日 # 人类可读的日期范围
+      place: 线上
+
+- title: 第三届开放原子大赛 OpenLoong 双赛题
+  description: 第三届开放原子大赛由开放原子开源基金会主办，OpenLoong 开源社区承办，正式启动两个赛题：“在仿真环境下控制青龙机器人，实现仿真环境下的基础运动控制”和“用格物平台实现自主 1v1 踢足球挑战赛”。大赛旨在通过开源模式解决产业发展、科研创新过程中遇到的技术难题，推广开源技术、发现开源人才，推动人形机器人研究和应用的发展。
+  category: competition
+  tags:
+    - 仿真控制
+    - 人形机器人
+  events:
+    - year: 2025 # 年份
+      id: open-atom-contest-openloong-2025 # 全局唯一的ID
+      link: https://mp.weixin.qq.com/s/ZgtLF3PMfI6_yYnvcVuE0g # 链接
+      timeline:
+        - deadline: '2025-09-01T00:00:00' # 关键日期 (ISO 8601 格式)
+          comment: '报名开始' # 日期说明
+        - deadline: '2025-11-15T23:59:59'
+          comment: '报名结束'      
+      timezone: Asia/Shanghai # 所在时区
+      date: 2025 年 9 月 1 日 - 2025 年 11 月 30 日 # 人类可读的日期范围
+      place: 线上
+
+- title: 江汉大学开源创新中心智能体开发大赛
+  description: 江汉大学开源创新中心举办的智能体开发大赛正式启动。这是武汉“政产学研用”协同创新生态下的AI盛宴，聚焦医疗、新媒体、市场调研三大武汉重点产业场景真实痛点，邀你用开源技术与AI算法破解难题，展现技术才华，还能与全球开发者接轨！
+  category: competition
+  tags:
+    - 智能体
+    - AI 应用开发
+    - 武汉开源创新联盟
+  events:
+    - year: 2025 # 年份
+      id: jhun-opensource-agent-dev-2025 # 全局唯一的ID
+      link: https://mp.weixin.qq.com/s/8DCmKkBGVoUY6eDgkqV03w # 链接
+      timeline:
+        - deadline: '2025-10-10T00:00:00' # 关键日期 (ISO 8601 格式)
+          comment: '报名启动' # 日期说明
+        - deadline: '2025-10-12T00:00:00' # 关键日期 (ISO 8601 格式)
+          comment: '赛题公布' # 日期说明
+        - deadline: '2025-10-21T23:59:59'
+          comment: '作品提交截止'      
+        - deadline: '2025-10-24T00:00:00' # 关键日期 (ISO 8601 格式)
+          comment: '决赛路演' # 日期说明
+      timezone: Asia/Shanghai # 所在时区
+      date: 2025 年 10 月 10 日 - 2025 年 10 月 24 日 # 人类可读的日期范围
+      place: 线上
+
+- title: 深信服AI创新技术大赛
+  description: 深信服发起的"码上AI·2025深信服 CoStrict 校园挑战赛"活动，旨在打造一个激发创新、实践想法的舞台，邀请你运用AI编程工具 CoStrict，组队开发惊艳应用，用代码解决真实问题。
+  category: competition
+  tags:
+    - AI 应用开发
+  events:
+    - year: 2025 # 年份
+      id: costrict-campus-innovation-2025 # 全局唯一的ID
+      link: https://competition.costrict.ai # 链接
+      timeline:
+        - deadline: '2025-11-12T00:00:00' # 关键日期 (ISO 8601 格式)
+          comment: '报名启动' # 日期说明
+        - deadline: '2025-12-20T23:59:59'
+          comment: '报名结束'  
+        - deadline: '2025-12-31T23:59:59'
+          comment: '作品提交截止'      
+        - deadline: '2026-01-16T00:00:00' # 关键日期 (ISO 8601 格式)
+          comment: '结果公布' # 日期说明
+      timezone: Asia/Shanghai # 所在时区
+      date: 2025 年 11 月 12 日 - 2026 年 1 月 16 日 # 人类可读的日期范围
+      place: 线上 # 地点

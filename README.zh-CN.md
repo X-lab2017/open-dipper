@@ -202,4 +202,6 @@ OpenDipper 独立实现。空间交互参考 [world-monitor.com](https://world-m
 
 **许可决策仍待确认：** 尚未选定应用代码根 LICENSE。源码、数据集、地图与品牌资产各有权利边界，公开可见不代表统一授权。详见[权利说明](docs/RIGHTS.md)与[决策 #6](https://github.com/X-lab2017/open-dipper/issues/6)。敏感报告请遵循 [SECURITY.md](SECURITY.md)。
 
-会议与活动现收录 Conference Partner 的 392 条 CCF 标注会议与 2 场社区活动，支持日程筛选和城市地图；等级为第三方标注，未定位记录保留。见 [数据与更新契约](docs/CONFERENCES.md)。
+会议与活动现收录 392 条 CCF 标注学术会议与去重后 179 条社区活动（Open Source Deadlines、Linux Foundation 列表及主办方历史记录），支持大会/交流/竞赛/培养多层目录、来源/形式/日期筛选和城市地图；等级为第三方标注，未定位记录保留。见 [数据与更新契约](docs/CONFERENCES.md)。
+
+后续界面迭代沿用[交互与交付经验](docs/INTERACTION_PATTERNS.md)：保护紧凑布局，联动目录树/卡片/地图，保留来源日期与不确定性。

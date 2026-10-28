@@ -1,0 +1,835 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "id": "lf",
+    "name": "Linux Foundation Events",
+    "url": "https://events.linuxfoundation.org/",
+    "capturedAt": "2026-10-28",
+    "sourceUpdatedAt": null,
+    "license": "Factual event metadata with source attribution; no blanket license for website content"
+  },
+  "pages": [
+    {
+      "url": "https://events.linuxfoundation.org/about/calendar/",
+      "sha256": "f1765fcef3a2971fdf6aa0f96ee8a675f51c89d59c73dedd806f98e3af76c950",
+      "count": 58
+    },
+    {
+      "url": "https://events.linuxfoundation.org/about/community/",
+      "sha256": "f58fdfde57fe3b20b1e983c5550c26ed5f0de8c97b31a92ee10cd57030fcc49c",
+      "count": 23
+    }
+  ],
+  "records": [
+    {
+      "sourceId": "post-289311",
+      "title": "Open Source in Finance Forum New York",
+      "url": "https://events.linuxfoundation.org/open-source-finance-forum-new-york/",
+      "dateLabel": "Nov 4–5, 2026",
+      "location": "New York, United States",
+      "cfpStatus": "Closed",
+      "sourcePage": "https://events.linuxfoundation.org/about/calendar/",
+      "listing": "calendar"
+    },
+    {
+      "sourceId": "post-325563",
+      "title": "React Conf Ghana 2026",
+      "url": "https://ghana2026.react.foundation/",
+      "dateLabel": "Nov 4–5, 2026",
+      "location": "Accra, Ghana",
+      "cfpStatus": "Closed",
+      "sourcePage": "https://events.linuxfoundation.org/about/calendar/",
+      "listing": "calendar"
+    },
+    {
+      "sourceId": "post-313900",
+      "title": "Voice Agents Forum",
+      "url": "https://luma.com/voiceagentssf",
+      "dateLabel": "Nov 5, 2026",
+      "location": "San Francisco, United States",
+      "cfpStatus": "Closed",
+      "sourcePage": "https://events.linuxfoundation.org/about/calendar/",
+      "listing": "calendar"
+    },
+    {
+      "sourceId": "post-312239",
+      "title": "Maintainer Summit",
+      "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/features-add-ons/maintainer-summit/",
+      "dateLabel": "Nov 8, 2026",
+      "location": "Salt Lake City, United States",
+      "cfpStatus": "Closed",
+      "sourcePage": "https://events.linuxfoundation.org/about/calendar/",
+      "listing": "calendar"
+    },
+    {
+      "sourceId": "post-307083",
+      "title": "Agentics Day: MCP + Agents North America",
+      "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/co-located-events/agentics-day-mcp-agents/",
+      "dateLabel": "Nov 9, 2026",
+      "location": "Salt Lake City, United States",
+      "cfpStatus": "Closed",
+      "sourcePage": "https://events.linuxfoundation.org/about/calendar/",
+      "listing": "calendar"
+    },
+    {
+      "sourceId": "post-307090",
+      "title": "ArgoCon North America",
+      "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/co-located-events/argocon/",
+      "dateLabel": "Nov 9, 2026",
+      "location": "Salt Lake City, United States",
+      "cfpStatus": "Closed",
+      "sourcePage": "https://events.linuxfoundation.org/about/calendar/",
+      "listing": "calendar"
+    },
+    {
+      "sourceId": "post-307094",
+      "title": "BackstageCon North America",
+      "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/co-located-events/backstagecon/",
+      "dateLabel": "Nov 9, 2026",
+      "location": "Salt Lake City, United States",
+      "cfpStatus": "Closed",
+      "sourcePage": "https://events.linuxfoundation.org/about/calendar/",
+      "listing": "calendar"
+    },
+    {
+      "sourceId": "post-307097",
+      "title": "CiliumCon North America",
+      "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/co-located-events/ciliumcon/",
+      "dateLabel": "Nov 9, 2026",
+      "location": "Salt Lake City, United States",
+      "cfpStatus": "Closed",
+      "sourcePage": "https://events.linuxfoundation.org/about/calendar/",
+      "listing": "calendar"
+    },
+    {
+      "sourceId": "post-307103",
+      "title": "Cloud Native AI & Inference Day North America",
+      "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/co-located-events/cloud-native-ai-inference-day/",
+      "dateLabel": "Nov 9, 2026",
+      "location": "Salt Lake City, United States",
+      "cfpStatus": "Closed",
+      "sourcePage": "https://events.linuxfoundation.org/about/calendar/",
+      "listing": "calendar"
+    },
+    {
+      "sourceId": "post-307108",
+      "title": "FluxCon North America",
+      "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/co-located-events/fluxcon/",
+      "dateLabel": "Nov 9, 2026",
+      "location": "Salt Lake City, United States",
+      "cfpStatus": "Closed",
+      "sourcePage": "https://events.linuxfoundation.org/about/calendar/",
+      "listing": "calendar"
+    },
+    {
+      "sourceId": "post-225690",
+      "title": "KubeCon + CloudNativeCon North America",
+      "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/",
+      "dateLabel": "Nov 9–12, 2026",
+      "location": "Salt Lake City, United States",
+      "cfpStatus": "Closed",
+      "sourcePage": "https://events.linuxfoundation.org/about/calendar/",
+      "listing": "calendar"
+    },
+    {
+      "sourceId": "post-307111",
+      "title": "Kubernetes on Edge Day North America",
+      "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/co-located-events/kubernetes-on-edge-day/",
+      "dateLabel": "Nov 9, 2026",
+      "location": "Salt Lake City, United States",
+      "cfpStatus": "Closed",
+      "sourcePage": "https://events.linuxfoundation.org/about/calendar/",
+      "listing": "calendar"
+    },
+    {
+      "sourceId": "post-307113",
+      "title": "Observability Day North America",
+      "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/co-located-events/observability-day/",
+      "dateLabel": "Nov 9, 2026",
+      "location": "Salt Lake City, United States",
+      "cfpStatus": "Closed",
+      "sourcePage": "https://events.linuxfoundation.org/about/calendar/",
+      "listing": "calendar"
+    },
+    {
+      "sourceId": "post-307116",
+      "title": "Open Source SecurityCon North America",
+      "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/co-located-events/open-source-securitycon/",
+      "dateLabel": "Nov 9, 2026",
+      "location": "Salt Lake City, United States",
+      "cfpStatus": "Closed",
+      "sourcePage": "https://events.linuxfoundation.org/about/calendar/",
+      "listing": "calendar"
+    },
+    {
+      "sourceId": "post-311046",
+      "title": "OpenTofu Day North America",
+      "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/co-located-events/opentofu-day/",
+      "dateLabel": "Nov 9, 2026",
+      "location": "Salt Lake City, United States",
+      "cfpStatus": "Closed",
+      "sourcePage": "https://events.linuxfoundation.org/about/calendar/",
+      "listing": "calendar"
+    },
+    {
+      "sourceId": "post-307118",
+      "title": "Platform Engineering Day North America",
+      "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/co-located-events/platform-engineering-day/",
+      "dateLabel": "Nov 9, 2026",
+      "location": "Salt Lake City, United States",
+      "cfpStatus": "Closed",
+      "sourcePage": "https://events.linuxfoundation.org/about/calendar/",
+      "listing": "calendar"
+    },
+    {
+      "sourceId": "post-313155",
+      "title": "gRPConf India",
+      "url": "https://events.linuxfoundation.org/grpconf-india/",
+      "dateLabel": "Nov 18, 2026",
+      "location": "Bengaluru, India",
+      "cfpStatus": "Closed",
+      "sourcePage": "https://events.linuxfoundation.org/about/calendar/",
+      "listing": "calendar"
+    },
+    {
+      "sourceId": "post-301496",
+      "title": "MCP Dev Summit Nairobi",
+      "url": "https://events.linuxfoundation.org/mcp-dev-summit-nairobi/",
+      "dateLabel": "Nov 19–20, 2026",
+      "location": "Nairobi, Kenya",
+      "cfpStatus": "Closed",
+      "sourcePage": "https://events.linuxfoundation.org/about/calendar/",
+      "listing": "calendar"
+    },
+    {
+      "sourceId": "post-291664",
+      "title": "Automotive Linux Summit",
+      "url": "https://events.linuxfoundation.org/automotive-linux-summit/",
+      "dateLabel": "Dec 7–9, 2026",
+      "location": "Tokyo, Japan",
+      "cfpStatus": "Closed",
+      "sourcePage": "https://events.linuxfoundation.org/about/calendar/",
+      "listing": "calendar"
+    },
+    {
+      "sourceId": "post-292114",
+      "title": "Embedded Linux Conference Asia",
+      "url": "https://events.linuxfoundation.org/embedded-linux-conference-asia/",
+      "dateLabel": "Dec 7–9, 2026",
+      "location": "Tokyo, Japan",
+      "cfpStatus": "Closed",
+      "sourcePage": "https://events.linuxfoundation.org/about/calendar/",
+      "listing": "calendar"
+    },
+    {
+      "sourceId": "post-278680",
+      "title": "Open Source Summit Japan",
+      "url": "https://events.linuxfoundation.org/open-source-summit-japan/",
+      "dateLabel": "Dec 7–9, 2026",
+      "location": "Tokyo, Japan",
+      "cfpStatus": "Closed",
+      "sourcePage": "https://events.linuxfoundation.org/about/calendar/",
+      "listing": "calendar"
+    },
+    {
+      "sourceId": "post-296256",
+      "title": "ONE Summit Japan",
+      "url": "https://events.linuxfoundation.org/open-networking-edge-summit-japan/",
+      "dateLabel": "Dec 10–11, 2026",
+      "location": "Tokyo, Japan",
+      "cfpStatus": "Details Coming Soon",
+      "sourcePage": "https://events.linuxfoundation.org/about/calendar/",
+      "listing": "calendar"
+    },
+    {
+      "sourceId": "post-289690",
+      "title": "Open Compliance Summit",
+      "url": "https://events.linuxfoundation.org/open-compliance-summit/",
+      "dateLabel": "Dec 10–11, 2026",
+      "location": "Tokyo, Japan",
+      "cfpStatus": "Closed",
+      "sourcePage": "https://events.linuxfoundation.org/about/calendar/",
+      "listing": "calendar"
+    },
+    {
+      "sourceId": "post-318240",
+      "title": "PyTorch Day Japan",
+      "url": "https://events.linuxfoundation.org/pytorch-day-japan/",
+      "dateLabel": "Dec 10, 2026",
+      "location": "Tokyo, Japan",
+      "cfpStatus": "Closed",
+      "sourcePage": "https://events.linuxfoundation.org/about/calendar/",
+      "listing": "calendar"
+    },
+    {
+      "sourceId": "post-325557",
+      "title": "PyTorch Day China",
+      "url": "https://www.lfopensource.cn/pytorch-day-china/",
+      "dateLabel": "Dec 12, 2026",
+      "location": "Beijing, China",
+      "cfpStatus": "Details Coming Soon",
+      "sourcePage": "https://events.linuxfoundation.org/about/calendar/",
+      "listing": "calendar"
+    },
+    {
+      "sourceId": "post-316919",
+      "title": "Open Source Forum",
+      "url": "https://events.linuxfoundation.org/aswf-open-source-forum/",
+      "dateLabel": "Feb 18, 2027",
+      "location": "Los Angeles, United States",
+      "cfpStatus": "Details Coming Soon",
+      "sourcePage": "https://events.linuxfoundation.org/about/calendar/",
+      "listing": "calendar"
+    },
+    {
+      "sourceId": "post-300255",
+      "title": "The Linux Foundation Member Summit",
+      "url": "https://events.linuxfoundation.org/lf-member-summit/",
+      "dateLabel": "Feb 22–23, 2027",
+      "location": "Half Moon Bay, United States",
+      "cfpStatus": "Details Coming Soon",
+      "sourcePage": "https://events.linuxfoundation.org/about/calendar/",
+      "listing": "calendar"
+    },
+    {
+      "sourceId": "post-321277",
+      "title": "Agentics Day: MCP + Agents Europe",
+      "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/co-located-events/agentics-day-mcp-agents/",
+      "dateLabel": "Mar 15, 2027",
+      "location": "Barcelona, Spain",
+      "cfpStatus": "Closed",
+      "sourcePage": "https://events.linuxfoundation.org/about/calendar/",
+      "listing": "calendar"
+    },
+    {
+      "sourceId": "post-321283",
+      "title": "ArgoCon Europe",
+      "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/co-located-events/argocon/",
+      "dateLabel": "Mar 15, 2027",
+      "location": "Barcelona, Spain",
+      "cfpStatus": "Closed",
+      "sourcePage": "https://events.linuxfoundation.org/about/calendar/",
+      "listing": "calendar"
+    },
+    {
+      "sourceId": "post-321285",
+      "title": "BackstageCon Europe",
+      "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/co-located-events/backstagecon/",
+      "dateLabel": "Mar 15, 2027",
+      "location": "Barcelona, Spain",
+      "cfpStatus": "Closed",
+      "sourcePage": "https://events.linuxfoundation.org/about/calendar/",
+      "listing": "calendar"
+    },
+    {
+      "sourceId": "post-321287",
+      "title": "Buildpacks Summit Europe",
+      "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/co-located-events/buildpacks-summit/",
+      "dateLabel": "Mar 15, 2027",
+      "location": "Barcelona, Spain",
+      "cfpStatus": "Closed",
+      "sourcePage": "https://events.linuxfoundation.org/about/calendar/",
+      "listing": "calendar"
+    },
+    {
+      "sourceId": "post-321296",
+      "title": "CiliumCon Europe",
+      "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/co-located-events/ciliumcon/",
+      "dateLabel": "Mar 15, 2027",
+      "location": "Barcelona, Spain",
+      "cfpStatus": "Closed",
+      "sourcePage": "https://events.linuxfoundation.org/about/calendar/",
+      "listing": "calendar"
+    },
+    {
+      "sourceId": "post-321305",
+      "title": "Cloud Native AI + Inference Day Europe",
+      "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/co-located-events/cloud-native-ai-inference-day-europe/",
+      "dateLabel": "Mar 15, 2027",
+      "location": "Barcelona, Spain",
+      "cfpStatus": "Closed",
+      "sourcePage": "https://events.linuxfoundation.org/about/calendar/",
+      "listing": "calendar"
+    },
+    {
+      "sourceId": "post-321308",
+      "title": "FluxCon Europe",
+      "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/co-located-events/fluxcon/",
+      "dateLabel": "Mar 15, 2027",
+      "location": "Barcelona, Spain",
+      "cfpStatus": "Closed",
+      "sourcePage": "https://events.linuxfoundation.org/about/calendar/",
+      "listing": "calendar"
+    },
+    {
+      "sourceId": "post-321311",
+      "title": "KeyCloakCon Europe",
+      "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/co-located-events/keycloakcon/",
+      "dateLabel": "Mar 15, 2027",
+      "location": "Barcelona, Spain",
+      "cfpStatus": "Closed",
+      "sourcePage": "https://events.linuxfoundation.org/about/calendar/",
+      "listing": "calendar"
+    },
+    {
+      "sourceId": "post-263950",
+      "title": "KubeCon + CloudNativeCon Europe",
+      "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/",
+      "dateLabel": "Mar 15–18, 2027",
+      "location": "Barcelona, Spain",
+      "cfpStatus": "Closed",
+      "sourcePage": "https://events.linuxfoundation.org/about/calendar/",
+      "listing": "calendar"
+    },
+    {
+      "sourceId": "post-321313",
+      "title": "Kubernetes on Edge Day Europe",
+      "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/co-located-events/kubernetes-on-edge-day/",
+      "dateLabel": "Mar 15, 2027",
+      "location": "Barcelona, Spain",
+      "cfpStatus": "Closed",
+      "sourcePage": "https://events.linuxfoundation.org/about/calendar/",
+      "listing": "calendar"
+    },
+    {
+      "sourceId": "post-327184",
+      "title": "NeoCloudCon Europe",
+      "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/co-located-events/neocloudcon/",
+      "dateLabel": "Mar 15, 2027",
+      "location": "Barcelona, Spain",
+      "cfpStatus": "Closes Monday, Nov 30, 2026",
+      "sourcePage": "https://events.linuxfoundation.org/about/calendar/",
+      "listing": "calendar"
+    },
+    {
+      "sourceId": "post-321318",
+      "title": "Observability Day Europe",
+      "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/co-located-events/observability-day/",
+      "dateLabel": "Mar 15, 2027",
+      "location": "Barcelona, Spain",
+      "cfpStatus": "Closed",
+      "sourcePage": "https://events.linuxfoundation.org/about/calendar/",
+      "listing": "calendar"
+    },
+    {
+      "sourceId": "post-322306",
+      "title": "Open Source SecurityCon Europe",
+      "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/co-located-events/open-source-securitycon/",
+      "dateLabel": "Mar 15, 2027",
+      "location": "Barcelona, Spain",
+      "cfpStatus": "Closed",
+      "sourcePage": "https://events.linuxfoundation.org/about/calendar/",
+      "listing": "calendar"
+    },
+    {
+      "sourceId": "post-321320",
+      "title": "Open Sovereign AI + Cloud Day Europe",
+      "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/co-located-events/open-sovereign-ai-cloud-day/",
+      "dateLabel": "Mar 15, 2027",
+      "location": "Barcelona, Spain",
+      "cfpStatus": "Closed",
+      "sourcePage": "https://events.linuxfoundation.org/about/calendar/",
+      "listing": "calendar"
+    },
+    {
+      "sourceId": "post-321322",
+      "title": "OpenTofu Day Europe",
+      "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/co-located-events/opentofu-day/",
+      "dateLabel": "Mar 15, 2027",
+      "location": "Barcelona, Spain",
+      "cfpStatus": "Closed",
+      "sourcePage": "https://events.linuxfoundation.org/about/calendar/",
+      "listing": "calendar"
+    },
+    {
+      "sourceId": "post-321324",
+      "title": "Platform Engineering Day Europe",
+      "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/co-located-events/platform-engineering-day/",
+      "dateLabel": "Mar 15, 2027",
+      "location": "Barcelona, Spain",
+      "cfpStatus": "Closed",
+      "sourcePage": "https://events.linuxfoundation.org/about/calendar/",
+      "listing": "calendar"
+    },
+    {
+      "sourceId": "post-314942",
+      "title": "HPSF Conference",
+      "url": "https://events.linuxfoundation.org/hpsf-conference/",
+      "dateLabel": "Apr 12–16, 2027",
+      "location": "Montreal, Canada",
+      "cfpStatus": "Closes Sunday, Jan 17, 2027",
+      "sourcePage": "https://events.linuxfoundation.org/about/calendar/",
+      "listing": "calendar"
+    },
+    {
+      "sourceId": "post-324930",
+      "title": "Confidential Computing Summit",
+      "url": "https://events.linuxfoundation.org/confidential-computing-summit/",
+      "dateLabel": "Apr 19–20, 2027",
+      "location": "San Francisco, United States",
+      "cfpStatus": "Details Coming Soon",
+      "sourcePage": "https://events.linuxfoundation.org/about/calendar/",
+      "listing": "calendar"
+    },
+    {
+      "sourceId": "post-322032",
+      "title": "Linux Storage, Filesystem, MM & BPF Summit",
+      "url": "https://events.linuxfoundation.org/lsfmmbpf/",
+      "dateLabel": "Apr 27–29, 2027",
+      "location": "Porto, Portugal",
+      "cfpStatus": "No Call for Proposals",
+      "sourcePage": "https://events.linuxfoundation.org/about/calendar/",
+      "listing": "calendar"
+    },
+    {
+      "sourceId": "post-317398",
+      "title": "AGNTCon + MCPCon North America 2027",
+      "url": "https://events.linuxfoundation.org/agntcon-mcpcon-north-america-2027/",
+      "dateLabel": "Apr 28–29, 2027",
+      "location": "San Francisco, United States",
+      "cfpStatus": "Details Coming Soon",
+      "sourcePage": "https://events.linuxfoundation.org/about/calendar/",
+      "listing": "calendar"
+    },
+    {
+      "sourceId": "post-326795",
+      "title": "AGL All Member Meeting Japan",
+      "url": "https://events.linuxfoundation.org/agl-amm/",
+      "dateLabel": "May 11–12, 2027",
+      "location": "Tokyo, Japan",
+      "cfpStatus": "Details Coming Soon",
+      "sourcePage": "https://events.linuxfoundation.org/about/calendar/",
+      "listing": "calendar"
+    },
+    {
+      "sourceId": "post-310203",
+      "title": "Open Source Summit North America",
+      "url": "https://events.linuxfoundation.org/open-source-summit-north-america/",
+      "dateLabel": "May 17–19, 2027",
+      "location": "Vancouver, Canada",
+      "cfpStatus": "Details Coming Soon",
+      "sourcePage": "https://events.linuxfoundation.org/about/calendar/",
+      "listing": "calendar"
+    },
+    {
+      "sourceId": "post-320609",
+      "title": "Overture Member Summit",
+      "url": "https://events.linuxfoundation.org/overture-member-summit/",
+      "dateLabel": "May 18–20, 2027",
+      "location": "San Juan, Puerto Rico",
+      "cfpStatus": "Details Coming Soon",
+      "sourcePage": "https://events.linuxfoundation.org/about/calendar/",
+      "listing": "calendar"
+    },
+    {
+      "sourceId": "post-325913",
+      "title": "KubeCon + CloudNativeCon Japan",
+      "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-japan/",
+      "dateLabel": "Aug 25–26, 2027",
+      "location": "Yokohama, Japan",
+      "cfpStatus": "Details Coming Soon",
+      "sourcePage": "https://events.linuxfoundation.org/about/calendar/",
+      "listing": "calendar"
+    },
+    {
+      "sourceId": "post-317432",
+      "title": "AGNTCon + MCPCon Europe 2027",
+      "url": "https://events.linuxfoundation.org/agntcon-mcpcon-europe-2027/",
+      "dateLabel": "Sep 15–16, 2027",
+      "location": "London, England",
+      "cfpStatus": "Details Coming Soon",
+      "sourcePage": "https://events.linuxfoundation.org/about/calendar/",
+      "listing": "calendar"
+    },
+    {
+      "sourceId": "post-310240",
+      "title": "Open Source Summit Europe 2027",
+      "url": "https://events.linuxfoundation.org/open-source-summit-europe-2027/",
+      "dateLabel": "Sep 20–22, 2027",
+      "location": "Glasgow, Scotland",
+      "cfpStatus": "Details Coming Soon",
+      "sourcePage": "https://events.linuxfoundation.org/about/calendar/",
+      "listing": "calendar"
+    },
+    {
+      "sourceId": "post-322214",
+      "title": "LF Energy Summit Europe 2027",
+      "url": "https://events.linuxfoundation.org/lfenergysummit-europe-2027/",
+      "dateLabel": "Sep 29–30, 2027",
+      "location": "Amsterdam, Netherlands",
+      "cfpStatus": "Details Coming Soon",
+      "sourcePage": "https://events.linuxfoundation.org/about/calendar/",
+      "listing": "calendar"
+    },
+    {
+      "sourceId": "post-281799",
+      "title": "PyTorch Conference 2027",
+      "url": "https://events.linuxfoundation.org/pytorch-conference-2027/",
+      "dateLabel": "Oct 6–7, 2027",
+      "location": "San Jose, United States",
+      "cfpStatus": "Details Coming Soon",
+      "sourcePage": "https://events.linuxfoundation.org/about/calendar/",
+      "listing": "calendar"
+    },
+    {
+      "sourceId": "post-324895",
+      "title": "Open Source Summit Korea",
+      "url": "https://events.linuxfoundation.org/open-source-summit-korea/",
+      "dateLabel": "Oct 14–15, 2027",
+      "location": "Seoul, Korea",
+      "cfpStatus": "Details Coming Soon",
+      "sourcePage": "https://events.linuxfoundation.org/about/calendar/",
+      "listing": "calendar"
+    },
+    {
+      "sourceId": "post-287150",
+      "title": "KubeCon + CloudNativeCon North America 2027",
+      "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america-2027/",
+      "dateLabel": "Nov 8–11, 2027",
+      "location": "New Orleans, United States",
+      "cfpStatus": "Details Coming Soon",
+      "sourcePage": "https://events.linuxfoundation.org/about/calendar/",
+      "listing": "calendar"
+    },
+    {
+      "sourceId": "post-300815",
+      "title": "KubeCon + CloudNativeCon Europe 2028",
+      "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-europe-2028/",
+      "dateLabel": "Apr 24–27, 2028",
+      "location": "Berlin, Germany",
+      "cfpStatus": "Details Coming Soon",
+      "sourcePage": "https://events.linuxfoundation.org/about/calendar/",
+      "listing": "calendar"
+    },
+    {
+      "sourceId": "post-322402",
+      "title": "Silicon Valley Physical AI Workshop and Meetup",
+      "url": "https://link.voxel51.com/26-1027-meetup-linux",
+      "dateLabel": "Oct 27, 2026",
+      "location": "Menlo Park, United States",
+      "cfpStatus": "",
+      "sourcePage": "https://events.linuxfoundation.org/about/community/",
+      "listing": "community"
+    },
+    {
+      "sourceId": "post-326321",
+      "title": "LF Live Webinar: My Life as a Linux Kernel Developer and Maintainer with Mimi Zohar",
+      "url": "https://www.linuxfoundation.org/webinars/my-life-as-a-linux-kernel-developer-and-maintainer-with-mimi-zohar?hsLang=en",
+      "dateLabel": "Oct 28, 2026",
+      "location": "Virtual",
+      "cfpStatus": "",
+      "sourcePage": "https://events.linuxfoundation.org/about/community/",
+      "listing": "community"
+    },
+    {
+      "sourceId": "post-320589",
+      "title": "San Francisco Physical AI Workshop and Meetup",
+      "url": "https://voxel51.com/events/san-francisco-physical-ai-workshop-and-meetup-october-28-2026",
+      "dateLabel": "Oct 28, 2026",
+      "location": "San Francisco, United States",
+      "cfpStatus": "",
+      "sourcePage": "https://events.linuxfoundation.org/about/community/",
+      "listing": "community"
+    },
+    {
+      "sourceId": "post-327283",
+      "title": "KCD Budapest 2026",
+      "url": "https://community2.cncf.io/events/details/cncf-kcd-budapest-presents-kcd-budapest-2026/",
+      "dateLabel": "Oct 30, 2026",
+      "location": "Budapest, Hungary",
+      "cfpStatus": "",
+      "sourcePage": "https://events.linuxfoundation.org/about/community/",
+      "listing": "community"
+    },
+    {
+      "sourceId": "post-315988",
+      "title": "ALASCA Summit 2026",
+      "url": "https://alasca.cloud/alasca-summit-2026/",
+      "dateLabel": "Nov 3–4, 2026",
+      "location": "Dresden, Germany",
+      "cfpStatus": "",
+      "sourcePage": "https://events.linuxfoundation.org/about/community/",
+      "listing": "community"
+    },
+    {
+      "sourceId": "post-326303",
+      "title": "LF Live Webinar: My Life as a Linux Kernel Developer and Maintainer with Mike Rapoport",
+      "url": "https://www.linuxfoundation.org/webinars/my-life-as-a-linux-kernel-developer-and-maintainer-with-mike-rapoport?hsLang=en",
+      "dateLabel": "Nov 3, 2026",
+      "location": "Virtual",
+      "cfpStatus": "",
+      "sourcePage": "https://events.linuxfoundation.org/about/community/",
+      "listing": "community"
+    },
+    {
+      "sourceId": "post-322411",
+      "title": "Buffalo Physical AI Workshop and Meetup",
+      "url": "https://link.voxel51.com/26-1109-buffalo-linux",
+      "dateLabel": "Nov 9, 2026",
+      "location": "Buffalo, United States",
+      "cfpStatus": "",
+      "sourcePage": "https://events.linuxfoundation.org/about/community/",
+      "listing": "community"
+    },
+    {
+      "sourceId": "post-325215",
+      "title": "Hands-On Kargo Workshop, Salt Lake City",
+      "url": "https://landing.akuity.io/kargo-workshop-salt-lake-city",
+      "dateLabel": "Nov 9, 2026",
+      "location": "Salt Lake City, United States",
+      "cfpStatus": "",
+      "sourcePage": "https://events.linuxfoundation.org/about/community/",
+      "listing": "community"
+    },
+    {
+      "sourceId": "post-322409",
+      "title": "Toronto Physical AI Workshop and Meetup",
+      "url": "https://link.voxel51.com/26-1111-toronto-linux",
+      "dateLabel": "Nov 11, 2026",
+      "location": "Toronto, Canada",
+      "cfpStatus": "",
+      "sourcePage": "https://events.linuxfoundation.org/about/community/",
+      "listing": "community"
+    },
+    {
+      "sourceId": "post-322398",
+      "title": "Boston Physical AI Workshop and Meetup",
+      "url": "https://link.voxel51.com/26-1112-boston-linux",
+      "dateLabel": "Nov 12, 2026",
+      "location": "Boston, United States",
+      "cfpStatus": "",
+      "sourcePage": "https://events.linuxfoundation.org/about/community/",
+      "listing": "community"
+    },
+    {
+      "sourceId": "post-322396",
+      "title": "NYC Physical AI, ML, and Computer Vision Meetup",
+      "url": "https://link.voxel51.com/26-1113-nyc-linux",
+      "dateLabel": "Nov 13, 2026",
+      "location": "Brooklyn, United States",
+      "cfpStatus": "",
+      "sourcePage": "https://events.linuxfoundation.org/about/community/",
+      "listing": "community"
+    },
+    {
+      "sourceId": "post-322407",
+      "title": "NYC Physical AI Workshop and Meetup",
+      "url": "https://link.voxel51.com/26-1114-nyc-linux",
+      "dateLabel": "Nov 14, 2026",
+      "location": "New York, United States",
+      "cfpStatus": "",
+      "sourcePage": "https://events.linuxfoundation.org/about/community/",
+      "listing": "community"
+    },
+    {
+      "sourceId": "post-327299",
+      "title": "LF Live Webinar: My Life as a Linux Kernel Developer and Maintainer with Kristen Accardi",
+      "url": "https://www.linuxfoundation.org/webinars/my-life-as-a-linux-kernel-developer-and-maintainer-with-kristen-accardi?hsLang=en",
+      "dateLabel": "Nov 17, 2026",
+      "location": "Virtual",
+      "cfpStatus": "",
+      "sourcePage": "https://events.linuxfoundation.org/about/community/",
+      "listing": "community"
+    },
+    {
+      "sourceId": "post-327287",
+      "title": "KCD Porto 2026 | Collab with DevOps Days Portugal",
+      "url": "https://community2.cncf.io/events/details/cncf-kcd-porto-presents-kcd-porto-2026-collab-with-devops-days-portugal/",
+      "dateLabel": "Nov 19–20, 2026",
+      "location": "Porto, Portugal",
+      "cfpStatus": "",
+      "sourcePage": "https://events.linuxfoundation.org/about/community/",
+      "listing": "community"
+    },
+    {
+      "sourceId": "post-327284",
+      "title": "KCD Suisse Romande 2026",
+      "url": "https://community2.cncf.io/events/details/cncf-kcd-suisse-romande-presents-kcd-suisse-romande-2026/",
+      "dateLabel": "Dec 9–10, 2026",
+      "location": "Meyrin, Switzerland",
+      "cfpStatus": "",
+      "sourcePage": "https://events.linuxfoundation.org/about/community/",
+      "listing": "community"
+    },
+    {
+      "sourceId": "post-327285",
+      "title": "KCD Provence 2026",
+      "url": "https://community2.cncf.io/events/details/cncf-kcd-provence-presents-kcd-provence-2026/",
+      "dateLabel": "Dec 10, 2026",
+      "location": "Aix-en-Provence, France",
+      "cfpStatus": "",
+      "sourcePage": "https://events.linuxfoundation.org/about/community/",
+      "listing": "community"
+    },
+    {
+      "sourceId": "post-327282",
+      "title": "KCD Florida 2026 – Miami",
+      "url": "https://community2.cncf.io/events/details/cncf-kcd-florida-presents-kcd-florida-2026-miami/",
+      "dateLabel": "Dec 11, 2026",
+      "location": "Miami, United States",
+      "cfpStatus": "",
+      "sourcePage": "https://events.linuxfoundation.org/about/community/",
+      "listing": "community"
+    },
+    {
+      "sourceId": "post-327288",
+      "title": "KCD Panama",
+      "url": "https://community2.cncf.io/events/details/cncf-kcd-panama-presents-kcd-panama/",
+      "dateLabel": "Jan 22, 2027",
+      "location": "Panamá, Panama",
+      "cfpStatus": "",
+      "sourcePage": "https://events.linuxfoundation.org/about/community/",
+      "listing": "community"
+    },
+    {
+      "sourceId": "post-321777",
+      "title": "AI Software Factory Summit",
+      "url": "https://moderne.ai/ai-software-factory/",
+      "dateLabel": "Feb 22–24, 2027",
+      "location": "Miami, United States",
+      "cfpStatus": "",
+      "sourcePage": "https://events.linuxfoundation.org/about/community/",
+      "listing": "community"
+    },
+    {
+      "sourceId": "post-314761",
+      "title": "FOSS-LÄND x OpenChain",
+      "url": "https://openchainproject.org/foss-land-x-openchain-2027",
+      "dateLabel": "Mar 22–24, 2027",
+      "location": "Stuttgart, Germany",
+      "cfpStatus": "",
+      "sourcePage": "https://events.linuxfoundation.org/about/community/",
+      "listing": "community"
+    },
+    {
+      "sourceId": "post-327286",
+      "title": "KCD Washington DC",
+      "url": "https://community2.cncf.io/events/details/cncf-kcd-washington-dc-presents-kcd-washington-dc-1/",
+      "dateLabel": "Apr 13, 2027",
+      "location": "Washington DC, United States",
+      "cfpStatus": "",
+      "sourcePage": "https://events.linuxfoundation.org/about/community/",
+      "listing": "community"
+    },
+    {
+      "sourceId": "post-310721",
+      "title": "2nd Euro-Global Women’s Forum 2027",
+      "url": "https://womens-forum.novelticsconferences.com/",
+      "dateLabel": "May 17–18, 2027",
+      "location": "Berlin, Germany",
+      "cfpStatus": "",
+      "sourcePage": "https://events.linuxfoundation.org/about/community/",
+      "listing": "community"
+    },
+    {
+      "sourceId": "post-320208",
+      "title": "3rd International Conference on Gravitation, Astrophysics and Cosmology",
+      "url": "https://astrophysics2027.conplusmeetings.com/",
+      "dateLabel": "May 26–27, 2027",
+      "location": "Berlin, Germany",
+      "cfpStatus": "",
+      "sourcePage": "https://events.linuxfoundation.org/about/community/",
+      "listing": "community"
+    }
+  ]
+}

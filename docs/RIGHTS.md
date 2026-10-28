@@ -27,3 +27,7 @@
 ## Conference library · 2026-10-28
 
 Conference Partner 公开快照接入：保留 ID/原日期/来源，CCF 等级为第三方标注；Natural Earth 城市参考点单独匹配，未定位记录不丢弃。署名回链、更新与失败保留规则见 [会议契约](CONFERENCES.md)。
+
+## Community event sources · 2026-10-28
+
+Open Source Deadlines 三份 YAML 取自固定提交，保留华中科技大学开放原子开源俱乐部的 [MIT 原通知](../data/sources/community-deadlines/LICENSE.txt)，同文随发布包提供于 `public/THIRD_PARTY_NOTICES.txt`。归一化、编辑分类与城市匹配由本项目添加，许可不覆盖链接网站内容。LF 两个公开列表仅摘录事实名称、日程、地点、链接、CFP 状态与来源哈希；不复制文章、页面、商标或宣传材料，不推定存在统一数据许可或主办背书。应用根许可状态未变。

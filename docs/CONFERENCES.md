@@ -47,3 +47,29 @@ Run `npm run conferences:build`, `npm run conferences:check`, `npm run intellige
 - 原生按钮/复选框支持键盘，重绘恢复具有稳定 ID 的树控件焦点。手机在“图层”中展开，点击分类或会议后切至“概览”；不存在坐标时不提供地图定位。
 
 实现入口：`src/conferences/tree.ts`、`tree.css`；类别增删通过 `model.ts` 的共享函数，两种界面不维护各自独立的勾选逻辑。来源、CCF 第三方标注限制和每日刷新机制不变。
+
+## 1.19.0 社区活动扩充
+
+2026-10-28 首次接入两组维护者指定来源，学术 392 条 + 去重后社区 179 条 = **571 条**。这一数字是此次快照，不是全球活动总量；未来更新以页面来源和数量为准。
+
+| 来源 | 本次范围 | 时间与处理 |
+| --- | --- | --- |
+| [Open Source Deadlines](https://github.com/hust-open-atom-club/open-source-deadlines) / [浏览入口](https://oseddl.openatom.club/) | activities / competitions / conferences 三个 YAML，97 个活动届次 | 固定提交 `8f30d66ac6fb99d5064aebb7d3a1f4ed3846a3cf`（2026-10-14 更新），采集 2026-10-28；主要为 2024–2025 历史档案，少量 2026 项目，不修改年份 |
+| [LF Calendar](https://events.linuxfoundation.org/about/calendar/) | 本次公开页 58 条 | 采集 2026-10-28；页面未提供统一更新时间，保留未知 |
+| [LF Community](https://events.linuxfoundation.org/about/community/) | 本次公开页 23 条 | 包含第三方社区活动，不等同全部为 LF 主办或背书 |
+| 原有主办方日程 | 2 条 | 一条 KubeCon North America 与 LF 同届同链接合并，保留已有 ID 与别名 |
+
+社区子目录为 **社区大会 69 / 交流与沙龙 79 / 竞赛与黑客松 17 / 培养与招募 14**，均为 OpenDipper 编辑分类；保留原始 `sourceCategory` 和标签。左树和信息卡同步四类选择，学术 A/B 默认不变。高级筛选补充来源和参与形式。社区 135 条有城市参考点、32 条线上、12 条其他未定位（含混合形式/冲突/未覆盖城市）；未定位仍在完整列表中。地图位置补充使用同版 Natural Earth 的 17 个城市参考条目，绝不把城市点当精确会场。
+
+详情展示原始日期、地点、时区、征稿状态及报名/征稿/开始/结束等节点。没有结束日时保留 null，不推断长期开放；日期冲突提示核对原文。`24:00` 等原文时间保留，不进行暗中时区转换。截止筛选仅使用明确标为截止的节点，按源日期与北京时间当前日比较，不能保证此刻仍能报名或投稿。“历史日程”仅指开始日在过去，不推断活动已经结束。线上活动不落地图，混合地点不足以定位时也保留未知。
+
+### 可复现数据链路 / Reproduction
+
+- `data/sources/community-deadlines/` 保存原始三份 YAML、MIT 原通知、提交/Git blob/SHA-256 与归一化输入。许可不延伸至链接网站的材料。
+- `data/sources/linuxfoundation-events.json` 保存事实元数据、两个列表 URL/响应哈希和逐条来源。未复制宣传描述、网页 HTML、商标或视频；没有统一数据许可声明。
+- `scripts/community_sources.py` 执行有限字段适配、日期解析、分类、唯一城市匹配、同 URL+日期去重。`build-conferences.py` 与原 CCF 数据合并；输出中每条社区记录保留来源页和采集时间。OSD 的 Git blob 指向固定提交，LF 的来源列表会持续变化，不能把它当永久归档原页。
+- `scripts/refresh-community.py` 最多 7 次公开请求（OSD 分支、许可和三份 YAML，LF 两个列表），30 秒超时/响应大小上限，不追随每个活动详情页。解析、身份和哈希校验失败则回滚整个新快照；OSD 许可变化要求维护者复核。LF 旧届次保留为历史，更新按 sourceId+年份区分；没有自动创建事件新闻或批准标签。
+- 日常 UI 开发只用快照与 Python 标准库；授权主动刷新时先 `python3 -m pip install -r scripts/requirements-community.txt`，再 `npm run refresh:community`。PyYAML 固定版本只用于读取上游 YAML。Pages 每日 01:23 UTC 在 CCF 刷新后执行社区刷新，来源无实质变化不推进采集时间。
+- 情报室仍只用一条资料库摘要关联会议目录，各来源时钟独立；179 条活动未被伪装成179条新发生的动态。
+
+复用交互与工程经验见 [INTERACTION_PATTERNS](INTERACTION_PATTERNS.md)。本次由 AI 辅助采集、分类、实现与自动验证；没有声称人工逐项确认活动仍有效或每个会址正确。CI、截图审阅和部署回执记录在实现 PR。

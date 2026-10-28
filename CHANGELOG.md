@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.19.0 — 2026-10-28
+
+- Add pinned Open Source Deadlines and LF public-list metadata: 179 deduplicated community editions, 571 schedules including academic records.
+- Expand community into conferences, meetups, competitions and learning programs; synchronize source/format filters, original timeline details, uncertainty and virtual-location handling.
+- Preserve source licenses, independent clocks and bounded daily updates with failure rollback. Document accepted interaction/engineering patterns for future contributors.
+- AI-assisted collection, editorial classification and implementation; CI/browser/Pages evidence in the associated PR, without individual human verification claims.
+
 ## 1.18.0 — 2026-10-28
 
 - Expand conferences in the left layer directory: academic → A/B/C → individual records, alongside community events; retain right-side cards and default A+B/upcoming.
@@ -16,7 +23,7 @@
 - Add 392 source-recorded academic conferences alongside existing community events, with rank/date/field/year/region filters, city-only map references and complete unlocated catalog.
 - Add explicit deadline/date provenance, bounded daily public-snapshot refresh and a shared intelligence library entry.
 
-This file records repository milestones, not published GitHub releases. Application version (`package.json`: 1.16.1) and visual system (`design/tokens.json`: 1.4.0) are independent. Detailed feedback and commits are in [the history](docs/HISTORY.md).
+This file records repository milestones, not published GitHub releases. Application version (`package.json`) and visual system (`design/tokens.json`) are independent. Detailed feedback and commits are in [the history](docs/HISTORY.md).
 
 
 ## Application 1.16.1 — Film premiere and milestone previews

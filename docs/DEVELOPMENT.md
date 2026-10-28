@@ -17,6 +17,8 @@ npm run dev
 
 纯文档改动先运行 `npm run docs:build` 与 `npm run docs:check`；命令、索引或构建入口变动再运行 `npm run build`。完整 CI 仍是合入证据，不为小改动新建重复测试。
 
+界面扩展先沿用[已验证的交互与交付经验](INTERACTION_PATTERNS.md)，会议数据从[会议与活动契约](CONFERENCES.md)进入。
+
 ## 按任务读取与修改
 
 | 任务 | 先读 | 主要修改位置 | 有针对性的检查 |

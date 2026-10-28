@@ -202,4 +202,6 @@ OpenDipper is independently implemented. Spatial interaction references [world-m
 
 **License decision remains open:** a root application LICENSE has not been selected. Application code, datasets, maps and brand assets have separate rights; public visibility is not a blanket license. See [rights](docs/RIGHTS.md) and [decision #6](https://github.com/X-lab2017/open-dipper/issues/6). For sensitive reports, follow [SECURITY.md](SECURITY.md).
 
-Conferences & events now includes 392 CCF-labelled Conference Partner records plus 2 community events, with schedule filters and city-reference mapping. Ranks are third-party metadata; unlocated records remain searchable. See the [data and refresh contract](docs/CONFERENCES.md).
+Conferences & events now includes 392 CCF-labelled academic records plus 179 deduplicated community events from Open Source Deadlines, Linux Foundation listings and organizer history, with nested conference/meetup/competition/program categories, source/format/date filters and city-reference mapping. Ranks are third-party metadata; unlocated records remain searchable. See the [data and refresh contract](docs/CONFERENCES.md).
+
+Future interface work follows our [reusable interaction patterns](docs/INTERACTION_PATTERNS.md): preserve the compact layout, synchronize tree/cards/map, and retain source dates and uncertainty.
