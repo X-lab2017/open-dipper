@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.17.1 — 2026-10-28
+
+- Organize conferences into Academic → CCF A/B/C and Community, with optional multi-selection, mixed parent state and default A+B. Keep map/list/counts aligned and full catalog accessible.
+
 ## 1.17.0 — 2026-10-28
 
 - Add 392 source-recorded academic conferences alongside existing community events, with rank/date/field/year/region filters, city-only map references and complete unlocated catalog.

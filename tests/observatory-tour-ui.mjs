@@ -1,5 +1,5 @@
 import {readFileSync} from 'node:fs';
-const meetingSnapshot=JSON.parse(readFileSync('public/data/conferences.json','utf8'));const locatedSnapshot=JSON.parse(readFileSync('public/data/located-entities.json','utf8'));const todayCST=new Intl.DateTimeFormat('sv-SE',{timeZone:'Asia/Shanghai'}).format(new Date());const expectedLocated=String(locatedSnapshot.layers.companies.length+locatedSnapshot.layers.benchmark.length+meetingSnapshot.records.filter(r=>r.point&&r.startsAt>=todayCST).length);
+const meetingSnapshot=JSON.parse(readFileSync('public/data/conferences.json','utf8'));const locatedSnapshot=JSON.parse(readFileSync('public/data/located-entities.json','utf8'));const todayCST=new Intl.DateTimeFormat('sv-SE',{timeZone:'Asia/Shanghai'}).format(new Date());const expectedLocated=String(locatedSnapshot.layers.companies.length+locatedSnapshot.layers.benchmark.length+meetingSnapshot.records.filter(r=>r.point&&['A','B'].includes(r.rank)&&r.startsAt>=todayCST).length);
 import {chromium,expect} from '@playwright/test';
 import {mkdir} from 'node:fs/promises';
 const browser=await chromium.launch({headless:true});
@@ -21,7 +21,7 @@ try{
   await expect(page.locator('#earth')).toHaveAttribute('data-view',views[i]);
   await expect(page.locator('.scope-panel h2')).toHaveText('全球');
   await expect(page.locator('.coverage-metric')).toHaveCount(5);await expect(page.locator('.pulse-metric')).toHaveCount(4);
-  if(i===4){await expect(page.locator('.tour-status')).toContainText('巡航完成');await expect(page.locator('#observation-panel')).toContainText('2026-11-09');await expect(page.locator('#tour-next')).toBeDisabled();}
+  if(i===4){await expect(page.locator('.tour-status')).toContainText('巡航完成');await expect(page.locator('[data-conf-category="A"]')).toBeChecked();await expect(page.locator('[data-conf-category="B"]')).toBeChecked();await expect(page.locator('#tour-next')).toBeDisabled();}
   else await page.locator('#tour-next').click();
  }
  await page.locator('#map-fullscreen-button').click();await expect(page.locator('.shell')).toHaveClass(/focus-mode/);
