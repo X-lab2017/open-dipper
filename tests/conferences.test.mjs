@@ -9,3 +9,12 @@ test('malformed input fails closed',()=>{for(const mutate of [x=>x.records.push(
 test('all dates prioritizes future editions, archive sorts latest first',()=>{const rows=m.selectConferences(d.records,{...m.defaults(),rank:'all',time:'all'},'2026-10-28');const firstPast=rows.findIndex(r=>r.startsAt<'2026-10-28');assert.ok(firstPast>0);assert.ok(rows.slice(firstPast).every(r=>r.startsAt<'2026-10-28'));const past=m.selectConferences(d.records,{...m.defaults(),time:'past'},'2026-10-28');assert.ok(past.every((r,i)=>!i||r.startsAt<=past[i-1].startsAt));});
 
 test('default A+B selection and academic/community hierarchy preserve optional categories',()=>{const rows=m.selectConferences(d.records,m.defaults(),'2026-10-28');assert.ok(rows.length);assert.ok(rows.every(r=>r.kind==='academic'&&['A','B'].includes(r.rank)&&r.startsAt>='2026-10-28'));assert.equal(m.selectConferences(d.records,{...m.defaults(),rank:''}).length,0);assert.equal(m.selectConferences(d.records,{...m.defaults(),rank:'community',time:'all'}).length,2);assert.equal(m.selectConferences(d.records,{...m.defaults(),rank:'A,B,C',time:'all'}).length,raw.count);});
+
+
+test('shared category selection supports parent mixed-state transitions without losing siblings',()=>{
+ assert.deepEqual(m.selectedCategories('all'),['A','B','C','community']);
+ assert.equal(m.setCategory('A,B','academic',false),'');
+ assert.equal(m.setCategory('A,community','academic',true),'A,B,C,community');
+ assert.equal(m.setCategory('A,B,C,community','academic',false),'community');
+ assert.equal(m.setCategory('A,B','C',true),'A,B,C');
+});

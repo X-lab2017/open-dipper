@@ -1,3 +1,4 @@
+import {entityGlyphs} from './entity-icon';
 import {metricFill} from '../design/scales';
 import type {MapPulse} from '../pulse';
 import {bubbleRadius} from '../layers';
@@ -5,6 +6,7 @@ import {canvasPalette,chartColor} from '../design/palette';
 import {geoOrthographic,geoMercator,geoEquirectangular,geoPath,geoGraticule10,geoDistance,geoContains} from 'd3-geo';
 import {countryName,regionGroup,compact,type Country,type Event,type Lang} from './model';
 import {clamp,angleDelta,unitVector,tweenCamera,mercatorY,mercatorLatitude,zoomMapAt,MAP_HOME,GLOBE_HOME,mapBaseScale,type Camera} from './globe-math';
+const entityPaths=new Map<string,Path2D>();
 export type Overlay={id:string;name:string;color:string;shape:'circle'|'diamond'|'square'|'hex'|'cross';opacity:number;encoding?:'bubble'|'entity';unit?:string;maxValue?:number;points:(Country&{overlayId:string;demo?:boolean;entityName?:[string,string];clusterCount?:number})[]};
 export type SceneData={onInteract?:()=>void;mode:'map'|'globe';countries:Country[];metric:string;colorMetric?:string;fillLabel?:string;events:Event[];features:any[];grid:boolean;heat:boolean;markers:boolean;eventMarkers:boolean;lang:Lang;selected:string;selectedEvent?:string;demo:boolean;light:boolean;texture?:'surface'|'points';overlays?:Overlay[];simulatedPulses?:MapPulse[]};
 type Hit={x:number;y:number;r:number;country?:Country;events?:Event[]};
@@ -89,19 +91,26 @@ export class Scene {
   const pos=(lon:number,lat:number)=>globe&&geoDistance([lon,lat],[-this.lon,this.lat])>Math.PI/2-.035?null:proj([lon,lat]);
   if(d.markers)for(const c of d.countries){if(c.longitude==null||c.latitude==null||metric(c)==null)continue;const pp=pos(c.longitude,c.latitude);if(!pp||pp[0]<0||pp[0]>w||pp[1]<0||pp[1]>h)continue;const rr=1.6+Math.sqrt((metric(c)??0)/max)*8;ctx.beginPath();ctx.arc(pp[0],pp[1],rr,0,Math.PI*2);ctx.fillStyle=metricColor+'18';ctx.fill();ctx.strokeStyle=metricColor+'55';ctx.lineWidth=.65;ctx.stroke();ctx.beginPath();ctx.arc(pp[0],pp[1],1.5,0,Math.PI*2);ctx.fillStyle=metricColor+'bb';ctx.fill();this.hits.push({x:pp[0],y:pp[1],r:rr,country:c});}
   let drawn=0,drawnBubbles=0;
+  const anchorLayers=new Map<string,string[]>();
+  const anchorKey=(c:Country)=>`${c.longitude},${c.latitude}`;
+  for(const layer of d.overlays??[])if(layer.encoding!=='bubble')for(const c of layer.points){const key=anchorKey(c),ids=anchorLayers.get(key)??[];if(!ids.includes(layer.id))ids.push(layer.id);anchorLayers.set(key,ids);}
   for(const layer of [...(d.overlays??[])].sort((a,b)=>Number(b.encoding==='bubble')-Number(a.encoding==='bubble'))){
-   const ringById:Record<string,number>={companies:6,research:9,foundations:12,energy:7,compute:10,news:5,meetings:8,benchmark:8,emerging:11,llm:13};
    for(const c of [...layer.points].sort((a,b)=>layer.encoding==='bubble'?(b.atlasValue??0)-(a.atlasValue??0):0)){if(c.longitude==null||c.latitude==null)continue;const anchor=pos(c.longitude,c.latitude);if(!anchor||anchor[0]<0||anchor[0]>w||anchor[1]<0||anchor[1]>h)continue;
-    const [x,y]=anchor;
+    let [x,y]=anchor;
     if(layer.encoding==='bubble'){const rr=bubbleRadius(c.atlasValue??0,layer.maxValue??0);if(!rr)continue;ctx.save();ctx.globalAlpha=layer.opacity;ctx.beginPath();ctx.arc(x,y,rr,0,Math.PI*2);ctx.fillStyle=layer.color+(d.light?'22':'1a');ctx.fill();ctx.lineWidth=3.5;ctx.strokeStyle=p['map-marker-backdrop']+'b8';ctx.stroke();ctx.lineWidth=1.35;ctx.strokeStyle=layer.color;ctx.stroke();if(d.selected===c.rawCode){ctx.beginPath();ctx.arc(x,y,rr+3,0,Math.PI*2);ctx.strokeStyle=p['map-selection'];ctx.lineWidth=1;ctx.stroke();}ctx.restore();this.hits.push({x,y,r:Math.max(rr,3),country:c});drawnBubbles++;drawn++;continue;}
-    const rr=c.clusterCount?Math.max(10,ringById[layer.id]??7):ringById[layer.id]??7;
-    ctx.save();ctx.globalAlpha=layer.opacity;ctx.strokeStyle=layer.color;ctx.fillStyle=layer.color;
-    const halo=ctx.createRadialGradient(x,y,1,x,y,rr+8);halo.addColorStop(0,layer.color+(d.light?'20':'38'));halo.addColorStop(1,layer.color+'00');ctx.fillStyle=halo;ctx.beginPath();ctx.arc(x,y,rr+8,0,Math.PI*2);ctx.fill();
-    ctx.lineWidth=1.2;ctx.beginPath();ctx.arc(x,y,rr,0,Math.PI*2);ctx.fillStyle=layer.color+(d.light?'15':'10');ctx.fill();if(layer.id==='foundations'||layer.id==='meetings')ctx.setLineDash([2,3]);ctx.strokeStyle=p['map-marker-backdrop']+'d0';ctx.lineWidth=3.4;ctx.stroke();ctx.strokeStyle=layer.color;ctx.lineWidth=1.25;ctx.stroke();ctx.setLineDash([]);
-    ctx.beginPath();ctx.arc(x,y,2.2,0,Math.PI*2);ctx.fillStyle=layer.color;ctx.shadowColor=layer.color;ctx.shadowBlur=d.light?0:4;ctx.fill();ctx.shadowBlur=0;
-    if(layer.id==='energy'||layer.id==='compute'){ctx.globalAlpha=layer.opacity*.45;ctx.beginPath();ctx.arc(x,y,rr+3,0,Math.PI*2);ctx.lineWidth=.7;ctx.stroke();}
-    if(d.selected&&regionGroup(c.rawCode)===regionGroup(d.selected)){ctx.globalAlpha=layer.opacity;ctx.strokeStyle=p['map-selection'];ctx.beginPath();ctx.arc(x,y,rr+4,0,Math.PI*2);ctx.lineWidth=.8;ctx.stroke();}
-    if(c.clusterCount){ctx.fillStyle=layer.color;ctx.beginPath();ctx.arc(x,y,rr-2,0,Math.PI*2);ctx.fill();ctx.fillStyle=d.light?'#ffffff':'#07101d';ctx.font='bold 9px monospace';ctx.textAlign='center';ctx.fillText(String(c.clusterCount),x,y+3);ctx.textAlign='left';}ctx.restore();this.hits.push({x,y,r:rr+3,country:c});drawn++;
+    // Equal-sized circular badges identify entities, not magnitude. Bubbles alone encode quantity.
+    // Display-only collision fan; leader lines retain the exact source anchor.
+    const siblings=anchorLayers.get(anchorKey(c))??[];
+    if(siblings.length>1){const angle=-Math.PI/2+siblings.indexOf(layer.id)*Math.PI*2/siblings.length,offset=Math.max(12,siblings.length*22/(Math.PI*2));x+=Math.cos(angle)*offset;y+=Math.sin(angle)*offset;ctx.save();ctx.globalAlpha=layer.opacity*.65;ctx.beginPath();ctx.moveTo(anchor[0],anchor[1]);ctx.lineTo(x,y);ctx.strokeStyle=p['map-marker-backdrop'];ctx.lineWidth=2.5;ctx.stroke();ctx.strokeStyle=layer.color;ctx.lineWidth=.8;ctx.stroke();ctx.restore();}
+    const rr=c.clusterCount?10:8;
+    ctx.save();ctx.globalAlpha=layer.opacity;
+    ctx.beginPath();ctx.arc(x,y,rr,0,Math.PI*2);ctx.fillStyle=p['map-marker-backdrop'];ctx.fill();
+    ctx.lineWidth=3.5;ctx.strokeStyle=p['map-marker-backdrop'];ctx.stroke();
+    ctx.lineWidth=1.4;ctx.strokeStyle=layer.color;ctx.stroke();
+    if(c.clusterCount){ctx.fillStyle=layer.color;ctx.beginPath();ctx.arc(x,y,rr-1.5,0,Math.PI*2);ctx.fill();ctx.fillStyle=p['map-marker-backdrop'];ctx.font='bold 9px monospace';ctx.textAlign='center';ctx.fillText(String(c.clusterCount),x,y+3);ctx.textAlign='left';}
+    else{let glyph=entityPaths.get(layer.id);if(!glyph){glyph=new Path2D(entityGlyphs[layer.id]??entityGlyphs.meetings);entityPaths.set(layer.id,glyph);}ctx.save();ctx.translate(x-6,y-6);ctx.scale(.75,.75);ctx.strokeStyle=layer.color;ctx.lineWidth=1.6;ctx.lineCap='round';ctx.lineJoin='round';ctx.stroke(glyph);ctx.restore();}
+    if(d.selected&&regionGroup(c.rawCode)===regionGroup(d.selected)){ctx.strokeStyle=p['map-selection'];ctx.beginPath();ctx.arc(x,y,rr+4,0,Math.PI*2);ctx.lineWidth=1;ctx.stroke();}
+    ctx.restore();this.hits.push({x,y,r:rr+3,country:c});drawn++;
    }
   }
   this.canvas.dataset.bubbleCount=String(drawnBubbles);this.canvas.dataset.bubbleLayer=(d.overlays??[]).find(l=>l.encoding==='bubble')?.id??'';this.canvas.dataset.overlayCount=String((d.overlays??[]).length);this.canvas.dataset.drawnPoints=String(drawn);this.canvas.dataset.fillActive=String(d.heat);this.canvas.dataset.fillMetric=d.colorMetric??d.metric;

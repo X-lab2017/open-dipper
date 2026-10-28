@@ -1,5 +1,6 @@
 import {chromium,expect} from '@playwright/test';
-import {mkdir} from 'node:fs/promises';
+import {mkdir,readFile} from 'node:fs/promises';
+const visualVersion=JSON.parse(await readFile('design/tokens.json','utf8')).version;
 await mkdir('screenshots',{recursive:true});
 const browser=await chromium.launch({headless:true});
 try{
@@ -21,6 +22,6 @@ try{
  await page.locator('#language-toggle').click();await expect(page.locator('.product-nav')).toContainText('AI radar');await page.reload();await expect(page.locator('.product-nav')).toContainText('AI radar');await expect(page.locator('html')).toHaveAttribute('data-theme','dark');
  await page.setViewportSize({width:390,height:844});await expect.poll(()=>page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);await expect(earth).toBeVisible();await page.screenshot({path:'screenshots/atlas-mobile.png',fullPage:true});
  await page.locator('#map-fullscreen-button').click();await expect(page.locator('.shell')).toHaveClass(/focus-mode/);await expect(page.locator('.map-return')).toBeVisible();await expect.poll(()=>page.evaluate(()=>!!document.fullscreenElement)).toBe(true);await page.keyboard.press('Escape');await expect.poll(()=>page.evaluate(()=>!!document.fullscreenElement)).toBe(false);await expect(page.locator('.shell')).not.toHaveClass(/focus-mode/);
- await page.goto(new URL('design-system.html',page.url()).href);await expect(page.locator('h1')).toContainText('一致的视觉');await expect(page.locator('.ds-header')).toContainText('1.4.0');const download=page.waitForEvent('download');await page.getByRole('link',{name:'↓ 下载视觉基线',exact:true}).click();expect(await(await download).failure()).toBeNull();
+ await page.goto(new URL('design-system.html',page.url()).href);await expect(page.locator('h1')).toContainText('一致的视觉');await expect(page.locator('.ds-header')).toContainText(visualVersion);const download=page.waitForEvent('download');await page.getByRole('link',{name:'↓ 下载视觉基线',exact:true}).click();expect(await(await download).failure()).toBeNull();
  expect(errors).toEqual([]);console.log('Atlas framing, resize, themes, globe, navigation, fullscreen return, legacy design download and responsive checks passed');
 }finally{await browser.close();}

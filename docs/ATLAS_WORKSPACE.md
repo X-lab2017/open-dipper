@@ -47,3 +47,10 @@ The accepted three-column composition keeps five summary values, scope counters,
 The pulse retains four counters, seven platforms, its event stream and five controls, with explicit simulation labels. Source snapshots, dates and observation periods are unchanged. A hidden-map resize guard preserves a finite camera during mobile tab switches. Navigation now calls the ecosystem module **开源星系 / Open Galaxy**; its `#ecosystem` route and content remain intact.
 
 Historical accepted baseline fingerprints are unchanged. See [execution and validation](plans/observatory-tour.md); the paired visual system introduced by [PR #37](https://github.com/X-lab2017/open-dipper/pull/37) is retained.
+
+
+## Entity symbols and conference directory (1.18.0)
+
+Located entities use equal-sized circular badges with original category glyphs shared by SVG labels and Canvas (`src/observatory/entity-icon.ts`). Cluster badges show the co-located record count; regional bubbles alone encode quantity by area. Layer colors remain paired tokens, now 1.4.1. Tree, stack, legend and inspector use the same glyph/color. Co-located categories use a small screen-space fan with leader lines to the unchanged source coordinate; this is a collision layout, not inferred geography or a relationship edge. This changes identification, not geography, data scope or ranking.
+
+The conferences layer expands into academic → A/B/C → records, alongside community events. Disclosures preserve selection; checkboxes share card filters; category-name actions isolate that category; record-name actions open the entity card. See [conference contract](CONFERENCES.md) for filtering, counts, keyboard and mobile behavior.

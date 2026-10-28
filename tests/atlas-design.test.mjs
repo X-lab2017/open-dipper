@@ -23,7 +23,7 @@ test('area ramps are monotonic in luminance and shared exactly by map and legend
 });
 test('every layer has paired text and marker colors for both themes',()=>{
  assert.equal(Object.keys(tokens.layerTones).length,18);
- for(const [layer,tones] of Object.entries(tokens.layerTones))for(const mode of ['dark','light'])assert.ok(contrast(tones[mode],tokens.themes[mode]['surface-panel'])>=4.5,`${mode} ${layer}`);
+ for(const [layer,tones] of Object.entries(tokens.layerTones))for(const mode of ['dark','light'])for(const surface of ['surface-panel','map-marker-backdrop'])assert.ok(contrast(tones[mode],tokens.themes[mode][surface])>=4.5,`${mode} ${layer} on ${surface}`);
 });
 
 test('radar categories and numbered targets retain text contrast in both themes',()=>{
