@@ -14,6 +14,8 @@ files = {
     'scales.ts': 'src/design/scales.ts',
     'theme.css': 'src/design/theme.css',
     'icons.ts': 'src/design/icons.ts',
+    'entity-icon.ts': 'src/observatory/entity-icon.ts',
+    'geometry-icon.ts': 'src/observatory/geometry-icon.ts',
     'brand.ts': 'src/design/brand.ts',
     'BASELINE.md': 'design/baselines/observatory-radar-1.3.2.md',
     'BASELINE.json': 'design/baselines/observatory-radar-1.3.2.json',

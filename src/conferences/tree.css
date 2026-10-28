@@ -1,0 +1,27 @@
+/* A compact extension of the existing layer tree; only branches the user opens occupy space. */
+.tree-group .conference-tree-root { min-width:0; }
+.conference-layer-row.layer-row { grid-template-columns:13px 16px minmax(0,1fr) 16px; gap:5px; }
+.conference-layer-row > input { grid-column:1; grid-row:1; }
+.conference-layer-row > .symbol { grid-column:2; grid-row:1; }
+.conference-layer-row .conf-root-name { grid-column:3; grid-row:1; padding:0; text-align:left; font-size:var(--wb-control); white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+.conference-layer-row.layer-row .layer-info { grid-column:4; grid-row:1; }
+.conference-layer-row > .conf-disclosure { position:absolute; left:-20px; z-index:1; background:var(--panel); }
+.conf-disclosure { width:16px; height:26px; padding:0; color:var(--sub); font-size:14px; line-height:1; flex-shrink:0; }
+.conf-disclosure[aria-expanded=true] { color:var(--accent); }
+.tree-group .conference-directory,.tree-group .conference-directory ul { margin:2px 0 3px 6px; padding:0 0 0 8px; list-style:none; border-left:1px solid var(--line); }
+.conf-node-row { display:grid; grid-template-columns:12px 13px 16px minmax(0,1fr) auto; align-items:center; gap:4px; min-height:28px; border-radius:3px; position:relative; }
+.conf-node-row::before { content:''; position:absolute; width:7px; left:-9px; top:14px; border-top:1px solid var(--line); }
+.conf-node-row input { width:13px; height:13px; margin:0; }
+.conf-node-row .conf-node-name { text-align:left; padding:5px 0; font-size:11px; line-height:1.3; min-width:0; overflow-wrap:anywhere; color:var(--sub); }
+.conf-node-row.selected .conf-node-name { color:var(--text); }
+.conf-node-row > small { font:9px var(--od-font-mono); color:var(--muted); padding-right:3px; }
+.conf-rank-symbol { display:grid; place-items:center; width:16px; height:16px; border:1px solid color-mix(in srgb,var(--od-layer-meetings) 65%,transparent); border-radius:4px; color:var(--od-layer-meetings); background:color-mix(in srgb,var(--od-layer-meetings) 8%,transparent); font:600 9px var(--od-font-mono); }
+.conf-node-row:hover,.conf-record:hover { background:var(--raised); }
+.conf-record { width:100%; display:flex; align-items:center; gap:5px; padding:6px 4px; text-align:left; border-radius:3px; }
+.conf-record > span { flex:1; min-width:0; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; font-size:11px; }
+.conf-record > small { flex-shrink:0; font:9px var(--od-font-mono); color:var(--muted); }
+.conf-record.active { background:var(--soft); box-shadow:inset 2px 0 var(--accent); }
+.conf-tree-more { font-size:10px; color:var(--accent); padding:7px 4px; }
+.conf-tree-empty { padding:6px 4px; font-size:10px; line-height:1.6; color:var(--muted); }
+.conference-directory :is(button,input):focus-visible { outline:2px solid var(--od-focus); outline-offset:1px; }
+.conference-badge { color:var(--od-layer-meetings); background:color-mix(in srgb,var(--od-layer-meetings) 10%,var(--panel)); border:1px solid color-mix(in srgb,var(--od-layer-meetings) 25%,transparent); }

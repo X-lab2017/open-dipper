@@ -5,6 +5,13 @@ export const topics:Record<string,[string,string]>={ai:['AI 与智能','AI & int
 export const today=()=>new Intl.DateTimeFormat('sv-SE',{timeZone:'Asia/Shanghai'}).format(new Date());
 export type Filters={query:string;rank:string;time:string;topic:string;year:string;region:string};
 export const defaults=():Filters=>({query:'',rank:'A,B',time:'upcoming',topic:'all',year:'all',region:''});
+export const categoryKeys=['A','B','C','community'];
+export const selectedCategories=(rank:string)=>rank==='all'?[...categoryKeys]:rank.split(',').filter(k=>categoryKeys.includes(k));
+export function setCategory(rank:string,key:string,checked:boolean){
+ const selected=new Set(selectedCategories(rank));
+ for(const k of key==='academic'?categoryKeys.slice(0,3):[key]){if(checked)selected.add(k);else selected.delete(k);}
+ return categoryKeys.filter(k=>selected.has(k)).join(',');
+}
 export function selectConferences(rows:Conference[],f:Filters,day=today()){
  const q=f.query.trim().toLowerCase();return rows.filter(r=>(!q||`${r.short} ${r.name} ${r.location} ${r.countryCode}`.toLowerCase().includes(q))&&(f.rank==='all'||f.rank.split(',').includes(r.kind==='community'?'community':r.rank??''))&&(f.topic==='all'||r.topic===f.topic)&&(f.year==='all'||r.startsAt?.startsWith(f.year))&&(!f.region||r.countryCode===f.region||(f.region==='CHN'&&['HKG','MAC','TWN'].includes(r.countryCode??'')))&&(f.time==='all'||f.time==='upcoming'&&!!r.startsAt&&r.startsAt>=day||f.time==='deadline'&&!!r.submissionDate&&r.submissionDate>=day||f.time==='past'&&!!r.startsAt&&r.startsAt<day)).sort((a,b)=>{const date=(r:Conference)=>f.time==='deadline'?r.submissionDate:r.startsAt;const x=date(a)??'9999',y=date(b)??'9999';if(f.time==='all'){const pastA=x<day,pastB=y<day;if(pastA!==pastB)return Number(pastA)-Number(pastB);return (pastA?y.localeCompare(x):x.localeCompare(y))||a.name.localeCompare(b.name);}return (f.time==='past'?y.localeCompare(x):x.localeCompare(y))||a.name.localeCompare(b.name);});
 }

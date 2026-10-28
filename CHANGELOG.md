@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.18.0 — 2026-10-28
+
+- Expand conferences in the left layer directory: academic → A/B/C → individual records, alongside community events; retain right-side cards and default A+B/upcoming.
+- Synchronize directory, cards, map, scope counts and latest events; preserve independent expansion, category multi-select, keyboard focus and mobile access.
+- Share original entity glyphs between SVG and Canvas with paired 1.4.1 layer colors; preserve area/bubble/point semantics, data and compact five-module layout.
+- AI-assisted implementation; validation and deployment evidence are recorded in the associated PR. No human-device verification claimed.
+
 ## 1.17.1 — 2026-10-28
 
 - Organize conferences into Academic → CCF A/B/C and Community, with optional multi-selection, mixed parent state and default A+B. Keep map/list/counts aligned and full catalog accessible.
