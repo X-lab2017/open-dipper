@@ -1,3 +1,5 @@
+import {readFileSync} from 'node:fs';
+const meetingSnapshot=JSON.parse(readFileSync('public/data/conferences.json','utf8'));const locatedSnapshot=JSON.parse(readFileSync('public/data/located-entities.json','utf8'));const todayCST=new Intl.DateTimeFormat('sv-SE',{timeZone:'Asia/Shanghai'}).format(new Date());const expectedLocated=String(locatedSnapshot.layers.companies.length+locatedSnapshot.layers.benchmark.length+meetingSnapshot.records.filter(r=>r.point&&r.startsAt>=todayCST).length);
 import {chromium, expect} from '@playwright/test';
 import {mkdir} from 'node:fs/promises';
 
@@ -14,7 +16,7 @@ try {
   await expect(page.locator('.inspector-tabs [role=tab]')).toHaveText(['活跃开发者','企业','标杆项目','模型资产','会议与活动']);
   await expect(earth).toHaveAttribute('data-bubble-layer','models');
   await expect(page.locator('#observation-panel')).toContainText('活跃开发者');
-  await expect(page.locator('.scope-stats b')).toHaveText(['5','3','11']);
+  await expect(page.locator('.scope-stats b')).toHaveText(['5','3',expectedLocated]);
   await expect(page.locator('#legend-content')).toBeHidden();
   await expect(page.locator('#clear-layers')).toBeVisible();
   await expect(page.locator('.pulse-panel')).toHaveAttribute('data-paused','true');

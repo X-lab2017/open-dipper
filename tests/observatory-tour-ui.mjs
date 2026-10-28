@@ -1,3 +1,5 @@
+import {readFileSync} from 'node:fs';
+const meetingSnapshot=JSON.parse(readFileSync('public/data/conferences.json','utf8'));const locatedSnapshot=JSON.parse(readFileSync('public/data/located-entities.json','utf8'));const todayCST=new Intl.DateTimeFormat('sv-SE',{timeZone:'Asia/Shanghai'}).format(new Date());const expectedLocated=String(locatedSnapshot.layers.companies.length+locatedSnapshot.layers.benchmark.length+meetingSnapshot.records.filter(r=>r.point&&r.startsAt>=todayCST).length);
 import {chromium,expect} from '@playwright/test';
 import {mkdir} from 'node:fs/promises';
 const browser=await chromium.launch({headless:true});
@@ -26,7 +28,7 @@ try{
  await page.keyboard.press('Escape');await expect(page.locator('.shell')).not.toHaveClass(/focus-mode/);await expect.poll(()=>page.evaluate(()=>!!document.fullscreenElement)).toBe(false);await expect(page.locator('#tour-start')).toBeFocused();
  await expect(page.locator('#earth')).toHaveAttribute('data-camera',before);
  await expect(page.locator('#earth')).toHaveAttribute('data-bubble-layer','models');
- await expect(page.locator('.scope-stats b')).toHaveText(['5','3','11']);
+ await expect(page.locator('.scope-stats b')).toHaveText(['5','3',expectedLocated]);
 
  // All geometry marks reserve the same slot; text baselines and type columns align.
  const alignment=await page.locator('.layer-row').evaluateAll(rows=>rows.map(row=>{
