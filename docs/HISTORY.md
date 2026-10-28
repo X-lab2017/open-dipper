@@ -90,3 +90,7 @@ AI-assisted implementation and actual validation are recorded in [delivery #14](
 ## 2026-10-28 · 影片正式发布与时间线阅读优化
 
 维护者确认宣传片已发布至 B 站。网站与仓库加入 [正式观看入口](https://www.bilibili.com/video/BV1J3xL63EPP/)，时间线记录确认日；平台上传时分与播放量未获取。根据评审给光轨补充关键节点短标签和可操作详情预览，保留明暗、双语、触屏、键盘与减少动态。实现由 Codex 辅助完成；本轮 PR 记录实际 CI、截图与 Pages 结果。
+
+## Conference library · 2026-10-28
+
+Conference Partner 公开快照接入：保留 ID/原日期/来源，CCF 等级为第三方标注；Natural Earth 城市参考点单独匹配，未定位记录不丢弃。署名回链、更新与失败保留规则见 [会议契约](CONFERENCES.md)。

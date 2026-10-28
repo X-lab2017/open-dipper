@@ -36,3 +36,7 @@ Do not merge cross-platform rankings, sum scores across platforms, or interpret 
 ## Rights caveat
 
 OpenDigger's code license does not establish the license for all underlying platform data or exported results. Independent data redistribution/commercial-use terms remain to be verified. This small public-source review snapshot includes provenance; it is not a grant of rights or a declaration of legal clearance. No repository LICENSE is selected by this data layer.
+
+## Conference library · 2026-10-28
+
+Conference Partner 公开快照接入：保留 ID/原日期/来源，CCF 等级为第三方标注；Natural Earth 城市参考点单独匹配，未定位记录不丢弃。署名回链、更新与失败保留规则见 [会议契约](../../docs/CONFERENCES.md)。

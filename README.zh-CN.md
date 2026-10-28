@@ -37,7 +37,7 @@
 | Agent 情报室 | 浏览情报 → 整理知识 → 发起研究 → 审阅与交付报告 | 本机工作区；完整 vLLM/SGLang 编辑案例；DSH 适配代码已准备，运行服务未接通 |
 | 共建社区 | 了解愿景、路线与参与方式 | 动态项目介绍、[里程碑时间线](https://www.x-lab.info/open-dipper/#contribute?view=milestones)、来源与权利披露、GitHub 共建入口；[契约](docs/COMMUNITY_HUB.md) |
 
-**应用版本：1.16.1；视觉体系：1.4.0；地图／雷达固定基线：1.3.2。** 全球地图重新居中，默认打开活跃开发者，并以五站“环球巡航”串联企业、项目、模型和活动。[实现与验收](docs/plans/observatory-tour.md)。 [当前状态与限制](docs/STATUS.md) · [可复用基线](design/baselines/README.md) · [数据口径](docs/DATA_EVIDENCE.md)。各数据保留独立观察期，模拟脉动不是实时测量；公开可下载不代表每个模型或数据集都符合开源定义。
+**应用版本：1.17.0；视觉体系：1.4.0；地图／雷达固定基线：1.3.2。** 全球地图重新居中，默认打开活跃开发者，并以五站“环球巡航”串联企业、项目、模型和活动。[实现与验收](docs/plans/observatory-tour.md)。 [当前状态与限制](docs/STATUS.md) · [可复用基线](design/baselines/README.md) · [数据口径](docs/DATA_EVIDENCE.md)。各数据保留独立观察期，模拟脉动不是实时测量；公开可下载不代表每个模型或数据集都符合开源定义。
 
 ### 全球观测——找到观察重点
 
@@ -201,3 +201,5 @@ AI Agent 参与了实现、视觉迭代和仓库维护。贡献应披露参与�
 OpenDipper 独立实现。空间交互参考 [world-monitor.com](https://world-monitor.com/)，工程参考包括另一个独立项目 [koala73/worldmonitor](https://github.com/koala73/worldmonitor)。仓库保留来源与品牌声明。
 
 **许可决策仍待确认：** 尚未选定应用代码根 LICENSE。源码、数据集、地图与品牌资产各有权利边界，公开可见不代表统一授权。详见[权利说明](docs/RIGHTS.md)与[决策 #6](https://github.com/X-lab2017/open-dipper/issues/6)。敏感报告请遵循 [SECURITY.md](SECURITY.md)。
+
+会议与活动现收录 Conference Partner 的 392 条 CCF 标注会议与 2 场社区活动，支持日程筛选和城市地图；等级为第三方标注，未定位记录保留。见 [数据与更新契约](docs/CONFERENCES.md)。
