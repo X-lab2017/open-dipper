@@ -7,17 +7,17 @@
       "id": "conference-library",
       "kind": "conference",
       "provenance": "snapshot",
-      "date": "2026-10-28",
+      "date": "2026-10-30",
       "publishedAt": null,
       "dateBasis": "captured",
-      "captured": "2026-10-28",
+      "captured": "2026-10-30",
       "title": [
         "CCF 会议与社区活动资料库",
         "CCF conferences and community event library"
       ],
       "summary": [
-        "571 条日程记录；全球观测支持按类别、时间、来源、形式与地区查阅。来源等级为第三方标注；批量收录不代表新发生事件。",
-        "571 schedule records; browse by category, time, source, format and region in the Observatory. Ranks are third-party labels; bulk capture is not new event activity."
+        "573 条日程记录；全球观测支持按类别、时间、来源、形式与地区查阅。来源等级为第三方标注；批量收录不代表新发生事件。",
+        "573 schedule records; browse by category, time, source, format and region in the Observatory. Ranks are third-party labels; bulk capture is not new event activity."
       ],
       "source": "Conference Partner / Open Source Deadlines / Linux Foundation Events / organizers",
       "url": "https://www.myhuiban.com/conferences/ccf",
@@ -34,8 +34,8 @@
       ],
       "modality": "data",
       "period": [
-        "2026-10-28",
-        "2026-10-28"
+        "2026-10-30",
+        "2026-10-30"
       ],
       "page": "overview",
       "verification": "source-metadata"

@@ -5,8 +5,8 @@
       "id": "ccf",
       "name": "Conference Partner",
       "url": "https://www.myhuiban.com/conferences/ccf",
-      "sourceUpdatedAt": "2026-10-27T10:54:23+00:00",
-      "capturedAt": "2026-10-28",
+      "sourceUpdatedAt": "2026-10-29T11:42:41+00:00",
+      "capturedAt": "2026-10-30",
       "count": 392
     },
     {
@@ -24,16 +24,16 @@
       "id": "lf",
       "name": "Linux Foundation Events",
       "url": "https://events.linuxfoundation.org/",
-      "capturedAt": "2026-10-28",
+      "capturedAt": "2026-10-30",
       "sourceUpdatedAt": null,
       "license": "Factual event metadata with source attribution; no blanket license for website content",
-      "count": 81
+      "count": 90
     }
   ],
-  "sourceUpdatedAt": "2026-10-27T10:54:23+00:00",
-  "capturedAt": "2026-10-28",
-  "sourceCommit": "616a680ed180bec099d652c64eeae844a512a25f",
-  "sourceSha256": "0579ae6e4eeaa461a0335bb0448d392703dc70cf2adce3d1e1526593e01d9cd2",
+  "sourceUpdatedAt": "2026-10-29T11:42:41+00:00",
+  "capturedAt": "2026-10-30",
+  "sourceCommit": "a719282a6500caa117a30f39b99343d26c8e8338",
+  "sourceSha256": "e46378fffbd93fc27ef11a084b9dc15377212831fee98d44e9a6b332355b5963",
   "geographySource": "https://github.com/nvkelso/natural-earth-vector/blob/ca96624a56bd078437bca8184e78163e5039ad19/geojson/ne_50m_populated_places_simple.geojson",
   "rankSource": "https://www.ccf.org.cn/Academic_Evaluation/By_category/",
   "rankVerification": "Third-party labels; not independently reconciled against the full CCF seventh edition.",
@@ -15901,15 +15901,23 @@
       "sourceKey": "lf",
       "sourceId": "post-316919",
       "sourceCategory": "calendar",
-      "capturedAt": "2026-10-28",
+      "capturedAt": "2026-10-30",
       "sourceUpdatedAt": null,
       "dateLabel": "Feb 18, 2027",
       "timezone": null,
-      "milestones": [],
+      "milestones": [
+        {
+          "label": "Call for proposals",
+          "at": "2026-12-06",
+          "date": "2026-12-06",
+          "kind": "deadline",
+          "timezone": null
+        }
+      ],
       "mode": "in-person",
       "tags": [],
       "warnings": [],
-      "cfpStatus": "Details Coming Soon",
+      "cfpStatus": "Closes Sunday, Dec 6, 2026",
       "sourcePages": [
         "https://events.linuxfoundation.org/about/calendar/"
       ]
@@ -17217,7 +17225,7 @@
       "sourceKey": "lf",
       "sourceId": "post-322402",
       "sourceCategory": "community",
-      "capturedAt": "2026-10-28",
+      "capturedAt": "2026-10-30",
       "sourceUpdatedAt": null,
       "dateLabel": "Oct 27, 2026",
       "timezone": null,
@@ -17252,7 +17260,7 @@
       "sourceKey": "lf",
       "sourceId": "post-326321",
       "sourceCategory": "community",
-      "capturedAt": "2026-10-28",
+      "capturedAt": "2026-10-30",
       "sourceUpdatedAt": null,
       "dateLabel": "Oct 28, 2026",
       "timezone": null,
@@ -17292,7 +17300,7 @@
       "sourceKey": "lf",
       "sourceId": "post-320589",
       "sourceCategory": "community",
-      "capturedAt": "2026-10-28",
+      "capturedAt": "2026-10-30",
       "sourceUpdatedAt": null,
       "dateLabel": "Oct 28, 2026",
       "timezone": null,
@@ -17332,7 +17340,7 @@
       "sourceKey": "lf",
       "sourceId": "post-327283",
       "sourceCategory": "community",
-      "capturedAt": "2026-10-28",
+      "capturedAt": "2026-10-30",
       "sourceUpdatedAt": null,
       "dateLabel": "Oct 30, 2026",
       "timezone": null,
@@ -17343,6 +17351,9 @@
       "cfpStatus": "",
       "sourcePages": [
         "https://events.linuxfoundation.org/about/community/"
+      ],
+      "aliases": [
+        "lf-post-327785-2026"
       ]
     },
     {
@@ -17712,7 +17723,7 @@
       "sourceKey": "lf",
       "sourceId": "post-327287",
       "sourceCategory": "community",
-      "capturedAt": "2026-10-28",
+      "capturedAt": "2026-10-30",
       "sourceUpdatedAt": null,
       "dateLabel": "Nov 19–20, 2026",
       "timezone": null,
@@ -17723,6 +17734,9 @@
       "cfpStatus": "",
       "sourcePages": [
         "https://events.linuxfoundation.org/about/community/"
+      ],
+      "aliases": [
+        "lf-post-327789-2026"
       ]
     },
     {
@@ -17747,7 +17761,7 @@
       "sourceKey": "lf",
       "sourceId": "post-327284",
       "sourceCategory": "community",
-      "capturedAt": "2026-10-28",
+      "capturedAt": "2026-10-30",
       "sourceUpdatedAt": null,
       "dateLabel": "Dec 9–10, 2026",
       "timezone": null,
@@ -17758,6 +17772,9 @@
       "cfpStatus": "",
       "sourcePages": [
         "https://events.linuxfoundation.org/about/community/"
+      ],
+      "aliases": [
+        "lf-post-327786-2026"
       ]
     },
     {
@@ -17782,7 +17799,7 @@
       "sourceKey": "lf",
       "sourceId": "post-327285",
       "sourceCategory": "community",
-      "capturedAt": "2026-10-28",
+      "capturedAt": "2026-10-30",
       "sourceUpdatedAt": null,
       "dateLabel": "Dec 10, 2026",
       "timezone": null,
@@ -17793,6 +17810,9 @@
       "cfpStatus": "",
       "sourcePages": [
         "https://events.linuxfoundation.org/about/community/"
+      ],
+      "aliases": [
+        "lf-post-327787-2026"
       ]
     },
     {
@@ -17822,7 +17842,7 @@
       "sourceKey": "lf",
       "sourceId": "post-327282",
       "sourceCategory": "community",
-      "capturedAt": "2026-10-28",
+      "capturedAt": "2026-10-30",
       "sourceUpdatedAt": null,
       "dateLabel": "Dec 11, 2026",
       "timezone": null,
@@ -17833,6 +17853,9 @@
       "cfpStatus": "",
       "sourcePages": [
         "https://events.linuxfoundation.org/about/community/"
+      ],
+      "aliases": [
+        "lf-post-327784-2026"
       ]
     },
     {
@@ -17862,7 +17885,7 @@
       "sourceKey": "lf",
       "sourceId": "post-327288",
       "sourceCategory": "community",
-      "capturedAt": "2026-10-28",
+      "capturedAt": "2026-10-30",
       "sourceUpdatedAt": null,
       "dateLabel": "Jan 22, 2027",
       "timezone": null,
@@ -17873,6 +17896,9 @@
       "cfpStatus": "",
       "sourcePages": [
         "https://events.linuxfoundation.org/about/community/"
+      ],
+      "aliases": [
+        "lf-post-327790-2027"
       ]
     },
     {
@@ -17977,7 +18003,7 @@
       "sourceKey": "lf",
       "sourceId": "post-327286",
       "sourceCategory": "community",
-      "capturedAt": "2026-10-28",
+      "capturedAt": "2026-10-30",
       "sourceUpdatedAt": null,
       "dateLabel": "Apr 13, 2027",
       "timezone": null,
@@ -17988,6 +18014,9 @@
       "cfpStatus": "",
       "sourcePages": [
         "https://events.linuxfoundation.org/about/community/"
+      ],
+      "aliases": [
+        "lf-post-327788-2027"
       ]
     },
     {
@@ -18063,6 +18092,76 @@
       "timezone": null,
       "milestones": [],
       "mode": "in-person",
+      "tags": [],
+      "warnings": [],
+      "cfpStatus": "",
+      "sourcePages": [
+        "https://events.linuxfoundation.org/about/community/"
+      ]
+    },
+    {
+      "id": "lf-post-326883-2027",
+      "short": "RISC-V at embedded world",
+      "name": "RISC-V at embedded world",
+      "rank": null,
+      "kind": "community",
+      "communityType": "meetup",
+      "topic": "systems",
+      "startsAt": "2027-03-16",
+      "endsAt": "2027-03-18",
+      "submissionDate": null,
+      "notificationDate": null,
+      "location": "Nuremberg, Germany",
+      "countryCode": "DEU",
+      "point": null,
+      "url": "https://events.linuxfoundation.org/riscv-at-embedded-world/",
+      "updatedAt": null,
+      "extended": false,
+      "source": "Linux Foundation Events",
+      "sourceKey": "lf",
+      "sourceId": "post-326883",
+      "sourceCategory": "calendar",
+      "capturedAt": "2026-10-30",
+      "sourceUpdatedAt": null,
+      "dateLabel": "Mar 16–18, 2027",
+      "timezone": null,
+      "milestones": [],
+      "mode": "in-person",
+      "tags": [],
+      "warnings": [],
+      "cfpStatus": "No Call for Proposals",
+      "sourcePages": [
+        "https://events.linuxfoundation.org/about/calendar/"
+      ]
+    },
+    {
+      "id": "lf-post-324017-2026",
+      "short": "LF Live Webinar: Beyond the Context Window: Memory, Forgetting, and ‘Dreaming’ Between Agent Sessions",
+      "name": "LF Live Webinar: Beyond the Context Window: Memory, Forgetting, and ‘Dreaming’ Between Agent Sessions",
+      "rank": null,
+      "kind": "community",
+      "communityType": "meetup",
+      "topic": "ai",
+      "startsAt": "2026-12-02",
+      "endsAt": "2026-12-02",
+      "submissionDate": null,
+      "notificationDate": null,
+      "location": "Virtual",
+      "countryCode": null,
+      "point": null,
+      "url": "https://www.linuxfoundation.org/webinars/beyond-the-context-window-memory-forgetting-and-dreaming-between-agent-sessions?hsLang=en",
+      "updatedAt": null,
+      "extended": false,
+      "source": "Linux Foundation Events",
+      "sourceKey": "lf",
+      "sourceId": "post-324017",
+      "sourceCategory": "community",
+      "capturedAt": "2026-10-30",
+      "sourceUpdatedAt": null,
+      "dateLabel": "Dec 2, 2026",
+      "timezone": null,
+      "milestones": [],
+      "mode": "online",
       "tags": [],
       "warnings": [],
       "cfpStatus": "",
