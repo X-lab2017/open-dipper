@@ -1,8 +1,46 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-30T16:42:28.225552Z",
+  "generatedAt": "2026-10-30T21:04:33.727355Z",
   "retentionDays": 90,
   "events": [
+    {
+      "id": "76f9d703f6f00074242f",
+      "title": "OpenSSF Newsletter – October 2026",
+      "summary": "October brought four new members and fresh CRA resources from Prague, a practical guide to finding and fixing vulnerabilities with AI, and a new Sandbox project. Next stop: Salt Lake City for Open Source SecurityCon on November 9.",
+      "category": "security",
+      "severity": "info",
+      "occurredAt": "2026-10-30T19:52:38Z",
+      "collectedAt": "2026-10-30T21:04:32.830031Z",
+      "source": "OpenSSF",
+      "sourceId": "openssf",
+      "sourceUrl": "https://openssf.org/newsletter/2026/10/30/openssf-newsletter-october-2026/",
+      "repository": null,
+      "provenance": "automatic",
+      "location": null,
+      "reviewStatus": "source-published",
+      "tags": [
+        "OpenSSF"
+      ]
+    },
+    {
+      "id": "5003bed5f691d06f3971",
+      "title": "New LF Research Survey Shows Generative AI Cuts Open Source Coding Time in Half, but 25% of Incoming Pull Requests are Considered AI Slop",
+      "summary": "While Generative AI boosts developer productivity and lowers barriers to entry, a new Linux Foundation Research report reveals it also increases maintainer workloads. With 25% of incoming pull requests now considered \"AI slop,\" the findings highlight an urgent need for stronger open source project governance.",
+      "category": "security",
+      "severity": "info",
+      "occurredAt": "2026-10-30T18:48:15Z",
+      "collectedAt": "2026-10-30T21:04:32.830107Z",
+      "source": "OpenSSF",
+      "sourceId": "openssf",
+      "sourceUrl": "https://openssf.org/press-release/2026/10/30/new-lf-research-survey-shows-generative-ai-cuts-open-source-coding-time-in-half-but-25-of-incoming-pull-requests-are-considered-ai-slop/",
+      "repository": null,
+      "provenance": "automatic",
+      "location": null,
+      "reviewStatus": "source-published",
+      "tags": [
+        "OpenSSF"
+      ]
+    },
     {
       "id": "40e2a7d649f40ab33876",
       "title": "KubeCon + CloudNativeCon NA 2026: End User TAB recommendations and tips",
@@ -1226,8 +1264,8 @@
       "name": "Kubernetes",
       "url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-10-30T16:42:20.828569Z",
-      "lastSuccess": "2026-10-30T16:42:21.426797Z",
+      "lastAttempt": "2026-10-30T21:04:28.209440Z",
+      "lastSuccess": "2026-10-30T21:04:28.565003Z",
       "count": 7,
       "status": "ok"
     },
@@ -1236,8 +1274,8 @@
       "name": "PyTorch",
       "url": "https://api.github.com/repos/pytorch/pytorch/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-10-30T16:42:21.576940Z",
-      "lastSuccess": "2026-10-30T16:42:22.513953Z",
+      "lastAttempt": "2026-10-30T21:04:28.715181Z",
+      "lastSuccess": "2026-10-30T21:04:29.389198Z",
       "count": 10,
       "status": "ok"
     },
@@ -1246,8 +1284,8 @@
       "name": "vLLM",
       "url": "https://api.github.com/repos/vllm-project/vllm/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-10-30T16:42:22.664086Z",
-      "lastSuccess": "2026-10-30T16:42:23.452616Z",
+      "lastAttempt": "2026-10-30T21:04:29.539346Z",
+      "lastSuccess": "2026-10-30T21:04:30.084449Z",
       "count": 10,
       "status": "ok"
     },
@@ -1256,8 +1294,8 @@
       "name": "VS Code",
       "url": "https://api.github.com/repos/microsoft/vscode/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-10-30T16:42:23.602765Z",
-      "lastSuccess": "2026-10-30T16:42:24.193302Z",
+      "lastAttempt": "2026-10-30T21:04:30.234623Z",
+      "lastSuccess": "2026-10-30T21:04:30.601632Z",
       "count": 10,
       "status": "ok"
     },
@@ -1266,8 +1304,8 @@
       "name": "Rust",
       "url": "https://api.github.com/repos/rust-lang/rust/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-10-30T16:42:24.343433Z",
-      "lastSuccess": "2026-10-30T16:42:24.969193Z",
+      "lastAttempt": "2026-10-30T21:04:30.751781Z",
+      "lastSuccess": "2026-10-30T21:04:31.127668Z",
       "count": 10,
       "status": "ok"
     },
@@ -1276,8 +1314,8 @@
       "name": "DuckDB",
       "url": "https://api.github.com/repos/duckdb/duckdb/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-10-30T16:42:25.119350Z",
-      "lastSuccess": "2026-10-30T16:42:26.050876Z",
+      "lastAttempt": "2026-10-30T21:04:31.277827Z",
+      "lastSuccess": "2026-10-30T21:04:31.832877Z",
       "count": 10,
       "status": "ok"
     },
@@ -1286,8 +1324,8 @@
       "name": "OpenSSF",
       "url": "https://openssf.org/feed/",
       "kind": "rss",
-      "lastAttempt": "2026-10-30T16:42:26.201042Z",
-      "lastSuccess": "2026-10-30T16:42:26.982554Z",
+      "lastAttempt": "2026-10-30T21:04:31.983042Z",
+      "lastSuccess": "2026-10-30T21:04:32.830498Z",
       "count": 10,
       "status": "ok"
     },
@@ -1296,8 +1334,8 @@
       "name": "CNCF",
       "url": "https://www.cncf.io/feed/",
       "kind": "rss",
-      "lastAttempt": "2026-10-30T16:42:27.132661Z",
-      "lastSuccess": "2026-10-30T16:42:27.469654Z",
+      "lastAttempt": "2026-10-30T21:04:32.980652Z",
+      "lastSuccess": "2026-10-30T21:04:33.155336Z",
       "count": 10,
       "status": "ok"
     },
@@ -1306,8 +1344,8 @@
       "name": "OpenDipper 编辑录入",
       "url": "https://api.github.com/repos/X-lab2017/open-dipper/issues?labels=event-approved&state=open&per_page=100",
       "kind": "github-issues",
-      "lastAttempt": "2026-10-30T16:42:27.619814Z",
-      "lastSuccess": "2026-10-30T16:42:28.075034Z",
+      "lastAttempt": "2026-10-30T21:04:33.305489Z",
+      "lastSuccess": "2026-10-30T21:04:33.576661Z",
       "count": 0,
       "status": "ok"
     }
