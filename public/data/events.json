@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-30T21:04:33.727355Z",
+  "generatedAt": "2026-10-31T00:48:28.548303Z",
   "retentionDays": 90,
   "events": [
     {
@@ -232,6 +232,25 @@
       ]
     },
     {
+      "id": "f365b73d89a8de051d3e",
+      "title": "OpenTelemetry-powered distributed tracing and Kubernetes events in OpenChoreo",
+      "summary": "Getting code from a developer’s editor into production means building it, testing it, deploying it, and then understanding how it behaves once it’s running. Internal Developer Platforms (IDPs) promise a “golden path” through all of that,...",
+      "category": "research",
+      "severity": "info",
+      "occurredAt": "2026-10-27T11:00:00Z",
+      "collectedAt": "2026-10-31T00:48:28.030383Z",
+      "source": "CNCF",
+      "sourceId": "cncf",
+      "sourceUrl": "https://www.cncf.io/blog/2026/10/27/opentelemetry-powered-distributed-tracing-and-kubernetes-events-in-openchoreo/",
+      "repository": null,
+      "provenance": "automatic",
+      "location": null,
+      "reviewStatus": "source-published",
+      "tags": [
+        "CNCF"
+      ]
+    },
+    {
       "id": "cb74fa42d60bd41c74aa",
       "title": "Isolation. Security. Scale.",
       "summary": "Without these three things, Agents cannot be properly implemented in a controlled environment, they will not have policy enforcement to ensure they do what they’re supposed to do, and there’s zero way of ensuring that the...",
@@ -394,6 +413,25 @@
       "source": "CNCF",
       "sourceId": "cncf",
       "sourceUrl": "https://www.cncf.io/blog/2026/10/21/before-you-evaluate-an-ai-sre-give-your-existing-agent-context/",
+      "repository": null,
+      "provenance": "automatic",
+      "location": null,
+      "reviewStatus": "source-published",
+      "tags": [
+        "CNCF"
+      ]
+    },
+    {
+      "id": "0dd0750c7a5f30107138",
+      "title": "Distributed tracing for CI pipelines without touching a single workflow file",
+      "summary": "You’ve probably felt this one: GitHub Actions usage creeps up across your org, and your actual visibility into it doesn’t keep pace. Which workflows are slow? Which are flaky? How long are jobs sitting queued for...",
+      "category": "research",
+      "severity": "info",
+      "occurredAt": "2026-10-21T11:00:00Z",
+      "collectedAt": "2026-10-31T00:48:28.030481Z",
+      "source": "CNCF",
+      "sourceId": "cncf",
+      "sourceUrl": "https://www.cncf.io/blog/2026/10/21/distributed-tracing-for-ci-pipelines-without-touching-a-single-workflow-file-2/",
       "repository": null,
       "provenance": "automatic",
       "location": null,
@@ -1264,8 +1302,8 @@
       "name": "Kubernetes",
       "url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-10-30T21:04:28.209440Z",
-      "lastSuccess": "2026-10-30T21:04:28.565003Z",
+      "lastAttempt": "2026-10-31T00:48:23.702218Z",
+      "lastSuccess": "2026-10-31T00:48:24.019216Z",
       "count": 7,
       "status": "ok"
     },
@@ -1274,8 +1312,8 @@
       "name": "PyTorch",
       "url": "https://api.github.com/repos/pytorch/pytorch/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-10-30T21:04:28.715181Z",
-      "lastSuccess": "2026-10-30T21:04:29.389198Z",
+      "lastAttempt": "2026-10-31T00:48:24.169370Z",
+      "lastSuccess": "2026-10-31T00:48:24.632912Z",
       "count": 10,
       "status": "ok"
     },
@@ -1284,8 +1322,8 @@
       "name": "vLLM",
       "url": "https://api.github.com/repos/vllm-project/vllm/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-10-30T21:04:29.539346Z",
-      "lastSuccess": "2026-10-30T21:04:30.084449Z",
+      "lastAttempt": "2026-10-31T00:48:24.783065Z",
+      "lastSuccess": "2026-10-31T00:48:25.159916Z",
       "count": 10,
       "status": "ok"
     },
@@ -1294,8 +1332,8 @@
       "name": "VS Code",
       "url": "https://api.github.com/repos/microsoft/vscode/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-10-30T21:04:30.234623Z",
-      "lastSuccess": "2026-10-30T21:04:30.601632Z",
+      "lastAttempt": "2026-10-31T00:48:25.310050Z",
+      "lastSuccess": "2026-10-31T00:48:25.604948Z",
       "count": 10,
       "status": "ok"
     },
@@ -1304,8 +1342,8 @@
       "name": "Rust",
       "url": "https://api.github.com/repos/rust-lang/rust/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-10-30T21:04:30.751781Z",
-      "lastSuccess": "2026-10-30T21:04:31.127668Z",
+      "lastAttempt": "2026-10-31T00:48:25.755100Z",
+      "lastSuccess": "2026-10-31T00:48:26.056375Z",
       "count": 10,
       "status": "ok"
     },
@@ -1314,8 +1352,8 @@
       "name": "DuckDB",
       "url": "https://api.github.com/repos/duckdb/duckdb/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-10-30T21:04:31.277827Z",
-      "lastSuccess": "2026-10-30T21:04:31.832877Z",
+      "lastAttempt": "2026-10-31T00:48:26.206516Z",
+      "lastSuccess": "2026-10-31T00:48:26.783993Z",
       "count": 10,
       "status": "ok"
     },
@@ -1324,8 +1362,8 @@
       "name": "OpenSSF",
       "url": "https://openssf.org/feed/",
       "kind": "rss",
-      "lastAttempt": "2026-10-30T21:04:31.983042Z",
-      "lastSuccess": "2026-10-30T21:04:32.830498Z",
+      "lastAttempt": "2026-10-31T00:48:26.934133Z",
+      "lastSuccess": "2026-10-31T00:48:27.743799Z",
       "count": 10,
       "status": "ok"
     },
@@ -1334,8 +1372,8 @@
       "name": "CNCF",
       "url": "https://www.cncf.io/feed/",
       "kind": "rss",
-      "lastAttempt": "2026-10-30T21:04:32.980652Z",
-      "lastSuccess": "2026-10-30T21:04:33.155336Z",
+      "lastAttempt": "2026-10-31T00:48:27.893958Z",
+      "lastSuccess": "2026-10-31T00:48:28.030549Z",
       "count": 10,
       "status": "ok"
     },
@@ -1344,8 +1382,8 @@
       "name": "OpenDipper 编辑录入",
       "url": "https://api.github.com/repos/X-lab2017/open-dipper/issues?labels=event-approved&state=open&per_page=100",
       "kind": "github-issues",
-      "lastAttempt": "2026-10-30T21:04:33.305489Z",
-      "lastSuccess": "2026-10-30T21:04:33.576661Z",
+      "lastAttempt": "2026-10-31T00:48:28.180679Z",
+      "lastSuccess": "2026-10-31T00:48:28.397804Z",
       "count": 0,
       "status": "ok"
     }
