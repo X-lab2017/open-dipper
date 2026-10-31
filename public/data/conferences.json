@@ -5,8 +5,8 @@
       "id": "ccf",
       "name": "Conference Partner",
       "url": "https://www.myhuiban.com/conferences/ccf",
-      "sourceUpdatedAt": "2026-10-29T11:42:41+00:00",
-      "capturedAt": "2026-10-30",
+      "sourceUpdatedAt": "2026-10-30T11:34:44+00:00",
+      "capturedAt": "2026-10-31",
       "count": 392
     },
     {
@@ -24,16 +24,16 @@
       "id": "lf",
       "name": "Linux Foundation Events",
       "url": "https://events.linuxfoundation.org/",
-      "capturedAt": "2026-10-30",
+      "capturedAt": "2026-10-31",
       "sourceUpdatedAt": null,
       "license": "Factual event metadata with source attribution; no blanket license for website content",
-      "count": 90
+      "count": 97
     }
   ],
-  "sourceUpdatedAt": "2026-10-29T11:42:41+00:00",
-  "capturedAt": "2026-10-30",
-  "sourceCommit": "a719282a6500caa117a30f39b99343d26c8e8338",
-  "sourceSha256": "e46378fffbd93fc27ef11a084b9dc15377212831fee98d44e9a6b332355b5963",
+  "sourceUpdatedAt": "2026-10-30T11:34:44+00:00",
+  "capturedAt": "2026-10-31",
+  "sourceCommit": "134a66db57e8d76d031141dda3789a55b3a0e768",
+  "sourceSha256": "980c4d98762e041ae933faa3567b606def3768137021d86ae48c90daeb72834b",
   "geographySource": "https://github.com/nvkelso/natural-earth-vector/blob/ca96624a56bd078437bca8184e78163e5039ad19/geojson/ne_50m_populated_places_simple.geojson",
   "rankSource": "https://www.ccf.org.cn/Academic_Evaluation/By_category/",
   "rankVerification": "Third-party labels; not independently reconciled against the full CCF seventh edition.",
@@ -8611,14 +8611,19 @@
       "rank": "C",
       "kind": "academic",
       "topic": "systems",
-      "startsAt": "2026-06-26",
-      "submissionDate": "2026-04-10",
-      "notificationDate": "2026-05-24",
-      "location": "Xi an, China",
+      "startsAt": "2027-06-05",
+      "submissionDate": "2027-01-30",
+      "notificationDate": "2027-03-31",
+      "location": "Shenyang, China",
       "countryCode": "CHN",
-      "point": null,
+      "point": {
+        "city": "Shenyeng",
+        "longitude": 123.448028,
+        "latitude": 41.806925,
+        "naturalEarthId": 1159151377
+      },
       "url": "https://www.myhuiban.com/conference/1695",
-      "updatedAt": "2025-11-28",
+      "updatedAt": "2026-10-30",
       "extended": false,
       "source": "Conference Partner (myhuiban.com)",
       "sourceKey": "ccf"
@@ -17225,7 +17230,7 @@
       "sourceKey": "lf",
       "sourceId": "post-322402",
       "sourceCategory": "community",
-      "capturedAt": "2026-10-30",
+      "capturedAt": "2026-10-31",
       "sourceUpdatedAt": null,
       "dateLabel": "Oct 27, 2026",
       "timezone": null,
@@ -17260,7 +17265,7 @@
       "sourceKey": "lf",
       "sourceId": "post-326321",
       "sourceCategory": "community",
-      "capturedAt": "2026-10-30",
+      "capturedAt": "2026-10-31",
       "sourceUpdatedAt": null,
       "dateLabel": "Oct 28, 2026",
       "timezone": null,
@@ -17300,7 +17305,7 @@
       "sourceKey": "lf",
       "sourceId": "post-320589",
       "sourceCategory": "community",
-      "capturedAt": "2026-10-30",
+      "capturedAt": "2026-10-31",
       "sourceUpdatedAt": null,
       "dateLabel": "Oct 28, 2026",
       "timezone": null,
@@ -17340,7 +17345,7 @@
       "sourceKey": "lf",
       "sourceId": "post-327283",
       "sourceCategory": "community",
-      "capturedAt": "2026-10-30",
+      "capturedAt": "2026-10-31",
       "sourceUpdatedAt": null,
       "dateLabel": "Oct 30, 2026",
       "timezone": null,
@@ -17723,7 +17728,7 @@
       "sourceKey": "lf",
       "sourceId": "post-327287",
       "sourceCategory": "community",
-      "capturedAt": "2026-10-30",
+      "capturedAt": "2026-10-31",
       "sourceUpdatedAt": null,
       "dateLabel": "Nov 19–20, 2026",
       "timezone": null,
@@ -17736,7 +17741,8 @@
         "https://events.linuxfoundation.org/about/community/"
       ],
       "aliases": [
-        "lf-post-327789-2026"
+        "lf-post-327789-2026",
+        "lf-post-327867-2026"
       ]
     },
     {
@@ -17761,7 +17767,7 @@
       "sourceKey": "lf",
       "sourceId": "post-327284",
       "sourceCategory": "community",
-      "capturedAt": "2026-10-30",
+      "capturedAt": "2026-10-31",
       "sourceUpdatedAt": null,
       "dateLabel": "Dec 9–10, 2026",
       "timezone": null,
@@ -17774,7 +17780,8 @@
         "https://events.linuxfoundation.org/about/community/"
       ],
       "aliases": [
-        "lf-post-327786-2026"
+        "lf-post-327786-2026",
+        "lf-post-327864-2026"
       ]
     },
     {
@@ -17799,7 +17806,7 @@
       "sourceKey": "lf",
       "sourceId": "post-327285",
       "sourceCategory": "community",
-      "capturedAt": "2026-10-30",
+      "capturedAt": "2026-10-31",
       "sourceUpdatedAt": null,
       "dateLabel": "Dec 10, 2026",
       "timezone": null,
@@ -17812,7 +17819,8 @@
         "https://events.linuxfoundation.org/about/community/"
       ],
       "aliases": [
-        "lf-post-327787-2026"
+        "lf-post-327787-2026",
+        "lf-post-327865-2026"
       ]
     },
     {
@@ -17842,7 +17850,7 @@
       "sourceKey": "lf",
       "sourceId": "post-327282",
       "sourceCategory": "community",
-      "capturedAt": "2026-10-30",
+      "capturedAt": "2026-10-31",
       "sourceUpdatedAt": null,
       "dateLabel": "Dec 11, 2026",
       "timezone": null,
@@ -17855,7 +17863,8 @@
         "https://events.linuxfoundation.org/about/community/"
       ],
       "aliases": [
-        "lf-post-327784-2026"
+        "lf-post-327784-2026",
+        "lf-post-327861-2026"
       ]
     },
     {
@@ -17885,7 +17894,7 @@
       "sourceKey": "lf",
       "sourceId": "post-327288",
       "sourceCategory": "community",
-      "capturedAt": "2026-10-30",
+      "capturedAt": "2026-10-31",
       "sourceUpdatedAt": null,
       "dateLabel": "Jan 22, 2027",
       "timezone": null,
@@ -17898,7 +17907,8 @@
         "https://events.linuxfoundation.org/about/community/"
       ],
       "aliases": [
-        "lf-post-327790-2027"
+        "lf-post-327790-2027",
+        "lf-post-327868-2027"
       ]
     },
     {
@@ -18003,7 +18013,7 @@
       "sourceKey": "lf",
       "sourceId": "post-327286",
       "sourceCategory": "community",
-      "capturedAt": "2026-10-30",
+      "capturedAt": "2026-10-31",
       "sourceUpdatedAt": null,
       "dateLabel": "Apr 13, 2027",
       "timezone": null,
@@ -18016,7 +18026,8 @@
         "https://events.linuxfoundation.org/about/community/"
       ],
       "aliases": [
-        "lf-post-327788-2027"
+        "lf-post-327788-2027",
+        "lf-post-327866-2027"
       ]
     },
     {
@@ -18162,6 +18173,46 @@
       "timezone": null,
       "milestones": [],
       "mode": "online",
+      "tags": [],
+      "warnings": [],
+      "cfpStatus": "",
+      "sourcePages": [
+        "https://events.linuxfoundation.org/about/community/"
+      ]
+    },
+    {
+      "id": "lf-post-327863-2026",
+      "short": "KCD Hangzhou 2026",
+      "name": "KCD Hangzhou 2026",
+      "rank": null,
+      "kind": "community",
+      "communityType": "meetup",
+      "topic": "other",
+      "startsAt": "2026-11-28",
+      "endsAt": "2026-11-28",
+      "submissionDate": null,
+      "notificationDate": null,
+      "location": "杭州, China",
+      "countryCode": "CHN",
+      "point": {
+        "city": "Hangzhou",
+        "latitude": 30.25192,
+        "longitude": 120.168073,
+        "naturalEarthId": 1159151387
+      },
+      "url": "https://community2.cncf.io/events/details/cncf-kcd-hangzhou-presents-kcd-hangzhou-2026/",
+      "updatedAt": null,
+      "extended": false,
+      "source": "Linux Foundation Events",
+      "sourceKey": "lf",
+      "sourceId": "post-327863",
+      "sourceCategory": "community",
+      "capturedAt": "2026-10-31",
+      "sourceUpdatedAt": null,
+      "dateLabel": "Nov 28, 2026",
+      "timezone": null,
+      "milestones": [],
+      "mode": "in-person",
       "tags": [],
       "warnings": [],
       "cfpStatus": "",
