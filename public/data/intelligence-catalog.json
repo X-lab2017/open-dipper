@@ -7,10 +7,10 @@
       "id": "conference-library",
       "kind": "conference",
       "provenance": "snapshot",
-      "date": "2026-11-01",
+      "date": "2026-11-02",
       "publishedAt": null,
       "dateBasis": "captured",
-      "captured": "2026-11-01",
+      "captured": "2026-11-02",
       "title": [
         "CCF 会议与社区活动资料库",
         "CCF conferences and community event library"
@@ -34,8 +34,8 @@
       ],
       "modality": "data",
       "period": [
-        "2026-11-01",
-        "2026-11-01"
+        "2026-11-02",
+        "2026-11-02"
       ],
       "page": "overview",
       "verification": "source-metadata"
