@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-02T20:22:43.090671Z",
+  "generatedAt": "2026-11-03T02:39:51.822182Z",
   "retentionDays": 90,
   "events": [
     {
       "id": "51177c2e7f4d8057561d",
-      "title": "The Linkerd Story: The people Behind The Service Mesh — A new documentary premieres at KubeCon + CloudNativeCon North America 2026",
+      "title": "The Linkerd Story: The People Behind The Service Mesh — A new documentary premieres at KubeCon + CloudNativeCon North America 2026",
       "summary": "Join CNCF and Buoyant on November 9 in Salt Lake City for the premiere of a new documentary celebrating a decade of Linkerd, the evolution of service mesh technology, and the people who helped make it...",
       "category": "research",
       "severity": "info",
@@ -1340,8 +1340,8 @@
       "name": "Kubernetes",
       "url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-11-02T20:22:36.729069Z",
-      "lastSuccess": "2026-11-02T20:22:37.176538Z",
+      "lastAttempt": "2026-11-03T02:39:44.140215Z",
+      "lastSuccess": "2026-11-03T02:39:44.570763Z",
       "count": 7,
       "status": "ok"
     },
@@ -1350,8 +1350,8 @@
       "name": "PyTorch",
       "url": "https://api.github.com/repos/pytorch/pytorch/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-11-02T20:22:37.326676Z",
-      "lastSuccess": "2026-11-02T20:22:38.157504Z",
+      "lastAttempt": "2026-11-03T02:39:44.720899Z",
+      "lastSuccess": "2026-11-03T02:39:45.467825Z",
       "count": 10,
       "status": "ok"
     },
@@ -1360,8 +1360,8 @@
       "name": "vLLM",
       "url": "https://api.github.com/repos/vllm-project/vllm/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-11-02T20:22:38.307623Z",
-      "lastSuccess": "2026-11-02T20:22:38.938332Z",
+      "lastAttempt": "2026-11-03T02:39:45.617919Z",
+      "lastSuccess": "2026-11-03T02:39:46.350051Z",
       "count": 10,
       "status": "ok"
     },
@@ -1370,8 +1370,8 @@
       "name": "VS Code",
       "url": "https://api.github.com/repos/microsoft/vscode/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-11-02T20:22:39.088444Z",
-      "lastSuccess": "2026-11-02T20:22:39.553852Z",
+      "lastAttempt": "2026-11-03T02:39:46.500186Z",
+      "lastSuccess": "2026-11-03T02:39:46.956921Z",
       "count": 10,
       "status": "ok"
     },
@@ -1380,8 +1380,8 @@
       "name": "Rust",
       "url": "https://api.github.com/repos/rust-lang/rust/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-11-02T20:22:39.703967Z",
-      "lastSuccess": "2026-11-02T20:22:40.210386Z",
+      "lastAttempt": "2026-11-03T02:39:47.107019Z",
+      "lastSuccess": "2026-11-03T02:39:47.557528Z",
       "count": 10,
       "status": "ok"
     },
@@ -1390,8 +1390,8 @@
       "name": "DuckDB",
       "url": "https://api.github.com/repos/duckdb/duckdb/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-11-02T20:22:40.360513Z",
-      "lastSuccess": "2026-11-02T20:22:41.158431Z",
+      "lastAttempt": "2026-11-03T02:39:47.707649Z",
+      "lastSuccess": "2026-11-03T02:39:48.353667Z",
       "count": 10,
       "status": "ok"
     },
@@ -1400,8 +1400,8 @@
       "name": "OpenSSF",
       "url": "https://openssf.org/feed/",
       "kind": "rss",
-      "lastAttempt": "2026-11-02T20:22:41.308584Z",
-      "lastSuccess": "2026-11-02T20:22:42.062987Z",
+      "lastAttempt": "2026-11-03T02:39:48.503802Z",
+      "lastSuccess": "2026-11-03T02:39:50.669499Z",
       "count": 10,
       "status": "ok"
     },
@@ -1410,8 +1410,8 @@
       "name": "CNCF",
       "url": "https://www.cncf.io/feed/",
       "kind": "rss",
-      "lastAttempt": "2026-11-02T20:22:42.213115Z",
-      "lastSuccess": "2026-11-02T20:22:42.460904Z",
+      "lastAttempt": "2026-11-03T02:39:50.819633Z",
+      "lastSuccess": "2026-11-03T02:39:51.192119Z",
       "count": 10,
       "status": "ok"
     },
@@ -1420,8 +1420,8 @@
       "name": "OpenDipper 编辑录入",
       "url": "https://api.github.com/repos/X-lab2017/open-dipper/issues?labels=event-approved&state=open&per_page=100",
       "kind": "github-issues",
-      "lastAttempt": "2026-11-02T20:22:42.611012Z",
-      "lastSuccess": "2026-11-02T20:22:42.940232Z",
+      "lastAttempt": "2026-11-03T02:39:51.342248Z",
+      "lastSuccess": "2026-11-03T02:39:51.671544Z",
       "count": 0,
       "status": "ok"
     }
