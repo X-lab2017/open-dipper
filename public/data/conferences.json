@@ -5,8 +5,8 @@
       "id": "ccf",
       "name": "Conference Partner",
       "url": "https://www.myhuiban.com/conferences/ccf",
-      "sourceUpdatedAt": "2026-11-01T11:59:37+00:00",
-      "capturedAt": "2026-11-02",
+      "sourceUpdatedAt": "2026-11-02T13:48:02+00:00",
+      "capturedAt": "2026-11-03",
       "count": 392
     },
     {
@@ -24,16 +24,16 @@
       "id": "lf",
       "name": "Linux Foundation Events",
       "url": "https://events.linuxfoundation.org/",
-      "capturedAt": "2026-11-02",
+      "capturedAt": "2026-11-03",
       "sourceUpdatedAt": null,
       "license": "Factual event metadata with source attribution; no blanket license for website content",
-      "count": 111
+      "count": 119
     }
   ],
-  "sourceUpdatedAt": "2026-11-01T11:59:37+00:00",
-  "capturedAt": "2026-11-02",
-  "sourceCommit": "15aaf9df2ced7cd68cda9f88383fb5bf507c4204",
-  "sourceSha256": "3e8c3406d08e070484cd5dde6598b5a1ed34b99948ca75d22bf79e2e40d8a091",
+  "sourceUpdatedAt": "2026-11-02T13:48:02+00:00",
+  "capturedAt": "2026-11-03",
+  "sourceCommit": "5e2516cb9337d69cd2cdfde808b5513e5d08150f",
+  "sourceSha256": "843ee066860eb246959d3d7bedbaf338c45e708343609648468d3f3b9c57a5ca",
   "geographySource": "https://github.com/nvkelso/natural-earth-vector/blob/ca96624a56bd078437bca8184e78163e5039ad19/geojson/ne_50m_populated_places_simple.geojson",
   "rankSource": "https://www.ccf.org.cn/Academic_Evaluation/By_category/",
   "rankVerification": "Third-party labels; not independently reconciled against the full CCF seventh edition.",
@@ -3177,9 +3177,9 @@
       "rank": "B",
       "kind": "academic",
       "topic": "other",
-      "startsAt": "2026-10-11",
-      "submissionDate": "2026-03-20",
-      "notificationDate": "2026-06-19",
+      "startsAt": "2027-10-10",
+      "submissionDate": "2027-03-05",
+      "notificationDate": "2027-06-01",
       "location": "San Antonio, Texas, USA",
       "countryCode": "USA",
       "point": {
@@ -3189,7 +3189,7 @@
         "naturalEarthId": 1159150503
       },
       "url": "https://www.myhuiban.com/conference/1488",
-      "updatedAt": "2025-12-29",
+      "updatedAt": "2026-11-02",
       "extended": false,
       "source": "Conference Partner (myhuiban.com)",
       "sourceKey": "ccf"
@@ -16735,8 +16735,8 @@
     },
     {
       "id": "lf-post-317398-2027",
-      "short": "AGNTCon + MCPCon North America 2027",
-      "name": "AGNTCon + MCPCon North America 2027",
+      "short": "AGNTCon + MCPCon North America",
+      "name": "AGNTCon + MCPCon North America",
       "rank": null,
       "kind": "community",
       "communityType": "conference",
@@ -16753,22 +16753,30 @@
         "longitude": -122.3996,
         "naturalEarthId": 1159151479
       },
-      "url": "https://events.linuxfoundation.org/agntcon-mcpcon-north-america-2027/",
+      "url": "https://events.linuxfoundation.org/agntcon-mcpcon-north-america/",
       "updatedAt": null,
       "extended": false,
       "source": "Linux Foundation Events",
       "sourceKey": "lf",
       "sourceId": "post-317398",
       "sourceCategory": "calendar",
-      "capturedAt": "2026-10-28",
+      "capturedAt": "2026-11-03",
       "sourceUpdatedAt": null,
       "dateLabel": "Apr 28–29, 2027",
       "timezone": null,
-      "milestones": [],
+      "milestones": [
+        {
+          "label": "Call for proposals",
+          "at": "2027-01-18",
+          "date": "2027-01-18",
+          "kind": "deadline",
+          "timezone": null
+        }
+      ],
       "mode": "in-person",
       "tags": [],
       "warnings": [],
-      "cfpStatus": "Details Coming Soon",
+      "cfpStatus": "Closes Monday, Jan 18, 2027",
       "sourcePages": [
         "https://events.linuxfoundation.org/about/calendar/"
       ]
@@ -17230,7 +17238,7 @@
       "sourceKey": "lf",
       "sourceId": "post-322402",
       "sourceCategory": "community",
-      "capturedAt": "2026-11-02",
+      "capturedAt": "2026-11-03",
       "sourceUpdatedAt": null,
       "dateLabel": "Oct 27, 2026",
       "timezone": null,
@@ -17265,7 +17273,7 @@
       "sourceKey": "lf",
       "sourceId": "post-326321",
       "sourceCategory": "community",
-      "capturedAt": "2026-11-02",
+      "capturedAt": "2026-11-03",
       "sourceUpdatedAt": null,
       "dateLabel": "Oct 28, 2026",
       "timezone": null,
@@ -17305,7 +17313,7 @@
       "sourceKey": "lf",
       "sourceId": "post-320589",
       "sourceCategory": "community",
-      "capturedAt": "2026-11-02",
+      "capturedAt": "2026-11-03",
       "sourceUpdatedAt": null,
       "dateLabel": "Oct 28, 2026",
       "timezone": null,
@@ -17345,7 +17353,7 @@
       "sourceKey": "lf",
       "sourceId": "post-327283",
       "sourceCategory": "community",
-      "capturedAt": "2026-11-02",
+      "capturedAt": "2026-11-03",
       "sourceUpdatedAt": null,
       "dateLabel": "Oct 30, 2026",
       "timezone": null,
@@ -17728,7 +17736,7 @@
       "sourceKey": "lf",
       "sourceId": "post-327287",
       "sourceCategory": "community",
-      "capturedAt": "2026-11-02",
+      "capturedAt": "2026-11-03",
       "sourceUpdatedAt": null,
       "dateLabel": "Nov 19–20, 2026",
       "timezone": null,
@@ -17744,7 +17752,8 @@
         "lf-post-327789-2026",
         "lf-post-327867-2026",
         "lf-post-328027-2026",
-        "lf-post-328086-2026"
+        "lf-post-328086-2026",
+        "lf-post-328155-2026"
       ]
     },
     {
@@ -17769,7 +17778,7 @@
       "sourceKey": "lf",
       "sourceId": "post-327284",
       "sourceCategory": "community",
-      "capturedAt": "2026-11-02",
+      "capturedAt": "2026-11-03",
       "sourceUpdatedAt": null,
       "dateLabel": "Dec 9–10, 2026",
       "timezone": null,
@@ -17785,7 +17794,8 @@
         "lf-post-327786-2026",
         "lf-post-327864-2026",
         "lf-post-328024-2026",
-        "lf-post-328083-2026"
+        "lf-post-328083-2026",
+        "lf-post-328152-2026"
       ]
     },
     {
@@ -17810,7 +17820,7 @@
       "sourceKey": "lf",
       "sourceId": "post-327285",
       "sourceCategory": "community",
-      "capturedAt": "2026-11-02",
+      "capturedAt": "2026-11-03",
       "sourceUpdatedAt": null,
       "dateLabel": "Dec 10, 2026",
       "timezone": null,
@@ -17826,7 +17836,8 @@
         "lf-post-327787-2026",
         "lf-post-327865-2026",
         "lf-post-328025-2026",
-        "lf-post-328084-2026"
+        "lf-post-328084-2026",
+        "lf-post-328153-2026"
       ]
     },
     {
@@ -17856,7 +17867,7 @@
       "sourceKey": "lf",
       "sourceId": "post-327282",
       "sourceCategory": "community",
-      "capturedAt": "2026-11-02",
+      "capturedAt": "2026-11-03",
       "sourceUpdatedAt": null,
       "dateLabel": "Dec 11, 2026",
       "timezone": null,
@@ -17872,7 +17883,8 @@
         "lf-post-327784-2026",
         "lf-post-327861-2026",
         "lf-post-328021-2026",
-        "lf-post-328081-2026"
+        "lf-post-328081-2026",
+        "lf-post-328150-2026"
       ]
     },
     {
@@ -17902,7 +17914,7 @@
       "sourceKey": "lf",
       "sourceId": "post-327288",
       "sourceCategory": "community",
-      "capturedAt": "2026-11-02",
+      "capturedAt": "2026-11-03",
       "sourceUpdatedAt": null,
       "dateLabel": "Jan 22, 2027",
       "timezone": null,
@@ -17918,7 +17930,8 @@
         "lf-post-327790-2027",
         "lf-post-327868-2027",
         "lf-post-328028-2027",
-        "lf-post-328087-2027"
+        "lf-post-328087-2027",
+        "lf-post-328156-2027"
       ]
     },
     {
@@ -18023,7 +18036,7 @@
       "sourceKey": "lf",
       "sourceId": "post-327286",
       "sourceCategory": "community",
-      "capturedAt": "2026-11-02",
+      "capturedAt": "2026-11-03",
       "sourceUpdatedAt": null,
       "dateLabel": "Apr 13, 2027",
       "timezone": null,
@@ -18039,7 +18052,8 @@
         "lf-post-327788-2027",
         "lf-post-327866-2027",
         "lf-post-328026-2027",
-        "lf-post-328085-2027"
+        "lf-post-328085-2027",
+        "lf-post-328154-2027"
       ]
     },
     {
@@ -18233,7 +18247,43 @@
       ],
       "aliases": [
         "lf-post-328023-2026",
-        "lf-post-328082-2026"
+        "lf-post-328082-2026",
+        "lf-post-328151-2026"
+      ]
+    },
+    {
+      "id": "lf-post-328167-2026",
+      "short": "LF Live Webinar: Beyond Cold Starts: Making Kata Containers Faster and More Efficient",
+      "name": "LF Live Webinar: Beyond Cold Starts: Making Kata Containers Faster and More Efficient",
+      "rank": null,
+      "kind": "community",
+      "communityType": "meetup",
+      "topic": "other",
+      "startsAt": "2026-12-01",
+      "endsAt": "2026-12-01",
+      "submissionDate": null,
+      "notificationDate": null,
+      "location": "Virtual",
+      "countryCode": null,
+      "point": null,
+      "url": "https://www.linuxfoundation.org/webinars/beyond-cold-starts-making-kata-containers-faster-and-more-efficient?hsLang=en",
+      "updatedAt": null,
+      "extended": false,
+      "source": "Linux Foundation Events",
+      "sourceKey": "lf",
+      "sourceId": "post-328167",
+      "sourceCategory": "community",
+      "capturedAt": "2026-11-03",
+      "sourceUpdatedAt": null,
+      "dateLabel": "Dec 1, 2026",
+      "timezone": null,
+      "milestones": [],
+      "mode": "online",
+      "tags": [],
+      "warnings": [],
+      "cfpStatus": "",
+      "sourcePages": [
+        "https://events.linuxfoundation.org/about/community/"
       ]
     }
   ]
