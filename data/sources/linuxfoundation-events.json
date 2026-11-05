@@ -4,20 +4,20 @@
     "id": "lf",
     "name": "Linux Foundation Events",
     "url": "https://events.linuxfoundation.org/",
-    "capturedAt": "2026-11-04",
+    "capturedAt": "2026-11-05",
     "sourceUpdatedAt": null,
     "license": "Factual event metadata with source attribution; no blanket license for website content"
   },
   "pages": [
     {
       "url": "https://events.linuxfoundation.org/about/calendar/",
-      "sha256": "ba80989bdf7f4f6f9683522de51072917de3a5280302021ee43abccc72db4144",
+      "sha256": "500bb07629d41a9311603aa4dc87b0aa9efe683d89c3a0c668f2b4eed205c66e",
       "count": 60
     },
     {
       "url": "https://events.linuxfoundation.org/about/community/",
-      "sha256": "fb46b7ac78449c0e1b2bf5b07459a0ed3c39c7d9c3b18775a45ab90008aa0418",
-      "count": 22
+      "sha256": "55a827c7212f0b9ab9ee497bc76d76817c7f4baf3eb7761c7200bbfddd8d01af",
+      "count": 20
     }
   ],
   "records": [
@@ -1418,6 +1418,83 @@
       "sourcePage": "https://events.linuxfoundation.org/about/community/",
       "listing": "community",
       "capturedAt": "2026-11-04"
+    },
+    {
+      "sourceId": "post-328497",
+      "title": "KCD Porto 2026 | Collab with DevOps Days Portugal",
+      "url": "https://community2.cncf.io/events/details/cncf-kcd-porto-presents-kcd-porto-2026-collab-with-devops-days-portugal/",
+      "dateLabel": "Nov 19–20, 2026",
+      "location": "Porto, Portugal",
+      "cfpStatus": "",
+      "sourcePage": "https://events.linuxfoundation.org/about/community/",
+      "listing": "community",
+      "capturedAt": "2026-11-05"
+    },
+    {
+      "sourceId": "post-328493",
+      "title": "KCD Hangzhou 2026",
+      "url": "https://community2.cncf.io/events/details/cncf-kcd-hangzhou-presents-kcd-hangzhou-2026/",
+      "dateLabel": "Nov 28, 2026",
+      "location": "杭州, China",
+      "cfpStatus": "",
+      "sourcePage": "https://events.linuxfoundation.org/about/community/",
+      "listing": "community",
+      "capturedAt": "2026-11-05"
+    },
+    {
+      "sourceId": "post-328494",
+      "title": "KCD Suisse Romande 2026",
+      "url": "https://community2.cncf.io/events/details/cncf-kcd-suisse-romande-presents-kcd-suisse-romande-2026/",
+      "dateLabel": "Dec 9–10, 2026",
+      "location": "Meyrin, Switzerland",
+      "cfpStatus": "",
+      "sourcePage": "https://events.linuxfoundation.org/about/community/",
+      "listing": "community",
+      "capturedAt": "2026-11-05"
+    },
+    {
+      "sourceId": "post-328495",
+      "title": "KCD Provence 2026",
+      "url": "https://community2.cncf.io/events/details/cncf-kcd-provence-presents-kcd-provence-2026/",
+      "dateLabel": "Dec 10, 2026",
+      "location": "Aix-en-Provence, France",
+      "cfpStatus": "",
+      "sourcePage": "https://events.linuxfoundation.org/about/community/",
+      "listing": "community",
+      "capturedAt": "2026-11-05"
+    },
+    {
+      "sourceId": "post-328492",
+      "title": "KCD Florida 2026 – Miami",
+      "url": "https://community2.cncf.io/events/details/cncf-kcd-florida-presents-kcd-florida-2026-miami/",
+      "dateLabel": "Dec 11, 2026",
+      "location": "Miami, United States",
+      "cfpStatus": "",
+      "sourcePage": "https://events.linuxfoundation.org/about/community/",
+      "listing": "community",
+      "capturedAt": "2026-11-05"
+    },
+    {
+      "sourceId": "post-328498",
+      "title": "KCD Panama",
+      "url": "https://community2.cncf.io/events/details/cncf-kcd-panama-presents-kcd-panama/",
+      "dateLabel": "Jan 22, 2027",
+      "location": "Panamá, Panama",
+      "cfpStatus": "",
+      "sourcePage": "https://events.linuxfoundation.org/about/community/",
+      "listing": "community",
+      "capturedAt": "2026-11-05"
+    },
+    {
+      "sourceId": "post-328496",
+      "title": "KCD Washington DC",
+      "url": "https://community2.cncf.io/events/details/cncf-kcd-washington-dc-presents-kcd-washington-dc-1/",
+      "dateLabel": "Apr 13, 2027",
+      "location": "Washington DC, United States",
+      "cfpStatus": "",
+      "sourcePage": "https://events.linuxfoundation.org/about/community/",
+      "listing": "community",
+      "capturedAt": "2026-11-05"
     }
   ]
 }
