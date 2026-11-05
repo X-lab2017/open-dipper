@@ -1,8 +1,27 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-05T15:49:35.022649Z",
+  "generatedAt": "2026-11-05T21:59:46.639964Z",
   "retentionDays": 90,
   "events": [
+    {
+      "id": "02874ad78ffc627599e7",
+      "title": "Case Study: Kubescape Completes All Six Security Slam Badges with OpenSSF",
+      "summary": "Kubescape completed all six project-level badges in the Fall 2026 Security Slam, bringing maintainers and community contributors together to strengthen security across its open source Kubernetes platform. Learn how 150+ hours of community contribution helped achieve OSPS Baseline Level Two status and harden 12+ repositories.",
+      "category": "security",
+      "severity": "info",
+      "occurredAt": "2026-11-05T19:02:30Z",
+      "collectedAt": "2026-11-05T21:59:45.752456Z",
+      "source": "OpenSSF",
+      "sourceId": "openssf",
+      "sourceUrl": "https://openssf.org/blog/2026/11/05/case-study-kubescape-completes-all-six-security-slam-badges-with-openssf/",
+      "repository": null,
+      "provenance": "automatic",
+      "location": null,
+      "reviewStatus": "source-published",
+      "tags": [
+        "OpenSSF"
+      ]
+    },
     {
       "id": "759b54904cc2961c4945",
       "title": "kpt v1.0.0 is released",
@@ -1454,8 +1473,8 @@
       "name": "Kubernetes",
       "url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-11-05T15:49:29.191166Z",
-      "lastSuccess": "2026-11-05T15:49:29.612176Z",
+      "lastAttempt": "2026-11-05T21:59:41.573284Z",
+      "lastSuccess": "2026-11-05T21:59:41.889300Z",
       "count": 7,
       "status": "ok"
     },
@@ -1464,8 +1483,8 @@
       "name": "PyTorch",
       "url": "https://api.github.com/repos/pytorch/pytorch/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-11-05T15:49:29.762296Z",
-      "lastSuccess": "2026-11-05T15:49:30.487335Z",
+      "lastAttempt": "2026-11-05T21:59:42.039413Z",
+      "lastSuccess": "2026-11-05T21:59:42.598535Z",
       "count": 10,
       "status": "ok"
     },
@@ -1474,8 +1493,8 @@
       "name": "vLLM",
       "url": "https://api.github.com/repos/vllm-project/vllm/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-11-05T15:49:30.637485Z",
-      "lastSuccess": "2026-11-05T15:49:31.259238Z",
+      "lastAttempt": "2026-11-05T21:59:42.748675Z",
+      "lastSuccess": "2026-11-05T21:59:43.165455Z",
       "count": 10,
       "status": "ok"
     },
@@ -1484,8 +1503,8 @@
       "name": "VS Code",
       "url": "https://api.github.com/repos/microsoft/vscode/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-11-05T15:49:31.409442Z",
-      "lastSuccess": "2026-11-05T15:49:31.840333Z",
+      "lastAttempt": "2026-11-05T21:59:43.315577Z",
+      "lastSuccess": "2026-11-05T21:59:43.643310Z",
       "count": 10,
       "status": "ok"
     },
@@ -1494,8 +1513,8 @@
       "name": "Rust",
       "url": "https://api.github.com/repos/rust-lang/rust/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-11-05T15:49:31.990502Z",
-      "lastSuccess": "2026-11-05T15:49:32.443967Z",
+      "lastAttempt": "2026-11-05T21:59:43.793445Z",
+      "lastSuccess": "2026-11-05T21:59:44.126424Z",
       "count": 10,
       "status": "ok"
     },
@@ -1504,8 +1523,8 @@
       "name": "DuckDB",
       "url": "https://api.github.com/repos/duckdb/duckdb/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-11-05T15:49:32.594121Z",
-      "lastSuccess": "2026-11-05T15:49:33.296811Z",
+      "lastAttempt": "2026-11-05T21:59:44.276556Z",
+      "lastSuccess": "2026-11-05T21:59:44.855002Z",
       "count": 10,
       "status": "ok"
     },
@@ -1514,8 +1533,8 @@
       "name": "OpenSSF",
       "url": "https://openssf.org/feed/",
       "kind": "rss",
-      "lastAttempt": "2026-11-05T15:49:33.446955Z",
-      "lastSuccess": "2026-11-05T15:49:34.098161Z",
+      "lastAttempt": "2026-11-05T21:59:45.005131Z",
+      "lastSuccess": "2026-11-05T21:59:45.752901Z",
       "count": 10,
       "status": "ok"
     },
@@ -1524,8 +1543,8 @@
       "name": "CNCF",
       "url": "https://www.cncf.io/feed/",
       "kind": "rss",
-      "lastAttempt": "2026-11-05T15:49:34.248327Z",
-      "lastSuccess": "2026-11-05T15:49:34.393732Z",
+      "lastAttempt": "2026-11-05T21:59:45.902984Z",
+      "lastSuccess": "2026-11-05T21:59:46.123596Z",
       "count": 10,
       "status": "ok"
     },
@@ -1534,8 +1553,8 @@
       "name": "OpenDipper 编辑录入",
       "url": "https://api.github.com/repos/X-lab2017/open-dipper/issues?labels=event-approved&state=open&per_page=100",
       "kind": "github-issues",
-      "lastAttempt": "2026-11-05T15:49:34.543884Z",
-      "lastSuccess": "2026-11-05T15:49:34.872049Z",
+      "lastAttempt": "2026-11-05T21:59:46.273728Z",
+      "lastSuccess": "2026-11-05T21:59:46.489272Z",
       "count": 0,
       "status": "ok"
     }
