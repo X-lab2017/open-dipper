@@ -5,8 +5,8 @@
       "id": "ccf",
       "name": "Conference Partner",
       "url": "https://www.myhuiban.com/conferences/ccf",
-      "sourceUpdatedAt": "2026-11-04T13:13:56+00:00",
-      "capturedAt": "2026-11-05",
+      "sourceUpdatedAt": "2026-11-05T13:27:24+00:00",
+      "capturedAt": "2026-11-06",
       "count": 392
     },
     {
@@ -24,16 +24,16 @@
       "id": "lf",
       "name": "Linux Foundation Events",
       "url": "https://events.linuxfoundation.org/",
-      "capturedAt": "2026-11-05",
+      "capturedAt": "2026-11-06",
       "sourceUpdatedAt": null,
       "license": "Factual event metadata with source attribution; no blanket license for website content",
-      "count": 135
+      "count": 144
     }
   ],
-  "sourceUpdatedAt": "2026-11-04T13:13:56+00:00",
-  "capturedAt": "2026-11-05",
-  "sourceCommit": "699351062589d24f9097821d043e4f776309cba7",
-  "sourceSha256": "7b51167647b7f059668af22d83f9c04afc05f23dd4f5c41cae3e9e7ac3922b86",
+  "sourceUpdatedAt": "2026-11-05T13:27:24+00:00",
+  "capturedAt": "2026-11-06",
+  "sourceCommit": "dcdc23b5ef0c340a66fc795ed4243b91ccf3cc3b",
+  "sourceSha256": "e2cbb8f8855cbc0284148e46a74baf7d05e2f45c15e47302a556cff5c6a33f19",
   "geographySource": "https://github.com/nvkelso/natural-earth-vector/blob/ca96624a56bd078437bca8184e78163e5039ad19/geojson/ne_50m_populated_places_simple.geojson",
   "rankSource": "https://www.ccf.org.cn/Academic_Evaluation/By_category/",
   "rankVerification": "Third-party labels; not independently reconciled against the full CCF seventh edition.",
@@ -1986,14 +1986,19 @@
       "rank": "B",
       "kind": "academic",
       "topic": "ai",
-      "startsAt": "2026-08-15",
-      "submissionDate": "2026-01-12",
-      "notificationDate": "2026-04-29",
-      "location": "Bremen, Germany",
-      "countryCode": "DEU",
-      "point": null,
+      "startsAt": "2027-10-02",
+      "submissionDate": "2027-04-14",
+      "notificationDate": "2027-07-15",
+      "location": "Athens, Greece",
+      "countryCode": "GRC",
+      "point": {
+        "city": "Athens",
+        "longitude": 23.731375,
+        "latitude": 37.985272,
+        "naturalEarthId": 1159151545
+      },
       "url": "https://www.myhuiban.com/conference/414",
-      "updatedAt": "2026-07-29",
+      "updatedAt": "2026-11-05",
       "extended": false,
       "source": "Conference Partner (myhuiban.com)",
       "sourceKey": "ccf"
@@ -2723,24 +2728,19 @@
     {
       "id": "huiban-278",
       "short": "ICME",
-      "name": "International Conference on Multimedia and Expo",
+      "name": "IEEE International Conference on Multimedia & Expo",
       "rank": "B",
       "kind": "academic",
       "topic": "interaction",
-      "startsAt": "2026-07-05",
-      "submissionDate": "2025-12-31",
-      "notificationDate": "2026-03-13",
-      "location": "Bangkok, Thailand",
-      "countryCode": "THA",
-      "point": {
-        "city": "Bangkok",
-        "longitude": 100.514699,
-        "latitude": 13.751945,
-        "naturalEarthId": 1159151509
-      },
+      "startsAt": "2027-07-13",
+      "submissionDate": "2026-12-30",
+      "notificationDate": "2027-03-24",
+      "location": "Xiamen, China",
+      "countryCode": null,
+      "point": null,
       "url": "https://www.myhuiban.com/conference/278",
-      "updatedAt": "2025-12-18",
-      "extended": true,
+      "updatedAt": "2026-11-05",
+      "extended": false,
       "source": "Conference Partner (myhuiban.com)",
       "sourceKey": "ccf"
     },
@@ -2751,14 +2751,19 @@
       "rank": "B",
       "kind": "academic",
       "topic": "interaction",
-      "startsAt": "2024-06-10",
-      "submissionDate": "2024-02-01",
-      "notificationDate": "2024-03-31",
-      "location": "Phuket, Thailand",
-      "countryCode": "THA",
-      "point": null,
+      "startsAt": "2027-06-07",
+      "submissionDate": "2027-01-31",
+      "notificationDate": "2027-04-01",
+      "location": "Singapore",
+      "countryCode": "SGP",
+      "point": {
+        "city": "Singapore",
+        "longitude": 103.853875,
+        "latitude": 1.294979,
+        "naturalEarthId": 1159151627
+      },
       "url": "https://www.myhuiban.com/conference/616",
-      "updatedAt": "2023-10-05",
+      "updatedAt": "2026-11-05",
       "extended": false,
       "source": "Conference Partner (myhuiban.com)",
       "sourceKey": "ccf"
@@ -5047,20 +5052,20 @@
       "rank": "C",
       "kind": "academic",
       "topic": "other",
-      "startsAt": "2026-05-19",
-      "submissionDate": "2026-01-26",
-      "notificationDate": "2026-03-09",
-      "location": "Catania, Sicily, Italy",
+      "startsAt": "2027-05-25",
+      "submissionDate": "2027-01-18",
+      "notificationDate": "2027-03-15",
+      "location": "Trento, Italy",
       "countryCode": "ITA",
       "point": {
-        "city": "Catania",
-        "longitude": 15.079999,
-        "latitude": 37.499971,
-        "naturalEarthId": 1159149755
+        "city": "Trento",
+        "longitude": 11.119983,
+        "latitude": 46.080429,
+        "naturalEarthId": 1159139597
       },
       "url": "https://www.myhuiban.com/conference/1170",
-      "updatedAt": "2026-01-18",
-      "extended": true,
+      "updatedAt": "2026-11-05",
+      "extended": false,
       "source": "Conference Partner (myhuiban.com)",
       "sourceKey": "ccf"
     },
@@ -6453,20 +6458,15 @@
       "rank": "C",
       "kind": "academic",
       "topic": "ai",
-      "startsAt": "2026-08-17",
-      "submissionDate": "2026-01-10",
-      "notificationDate": "2026-03-31",
-      "location": "Lyon, France",
-      "countryCode": "FRA",
-      "point": {
-        "city": "Lyon",
-        "longitude": 4.828085,
-        "latitude": 45.771954,
-        "naturalEarthId": 1159150845
-      },
+      "startsAt": "2027-10-04",
+      "submissionDate": "2027-03-01",
+      "notificationDate": "2027-05-31",
+      "location": "Online",
+      "countryCode": null,
+      "point": null,
       "url": "https://www.myhuiban.com/conference/441",
-      "updatedAt": "2025-12-24",
-      "extended": true,
+      "updatedAt": "2026-11-05",
+      "extended": false,
       "source": "Conference Partner (myhuiban.com)",
       "sourceKey": "ccf"
     },
@@ -8076,19 +8076,19 @@
       "rank": "C",
       "kind": "academic",
       "topic": "security",
-      "startsAt": "2026-08-24",
-      "submissionDate": "2026-05-11",
-      "notificationDate": "2026-06-25",
-      "location": "Ottawa, Ontario, Canada",
+      "startsAt": "2027-08-23",
+      "submissionDate": "2027-05-17",
+      "notificationDate": "2027-06-30",
+      "location": "Victoria, British Columbia, Canada",
       "countryCode": "CAN",
       "point": {
-        "city": "Ottawa",
-        "longitude": -75.701961,
-        "latitude": 45.418643,
-        "naturalEarthId": 1159151059
+        "city": "Victoria",
+        "longitude": -123.350001,
+        "latitude": 48.433283,
+        "naturalEarthId": 1159151039
       },
       "url": "https://www.myhuiban.com/conference/645",
-      "updatedAt": "2026-04-24",
+      "updatedAt": "2026-11-05",
       "extended": false,
       "source": "Conference Partner (myhuiban.com)",
       "sourceKey": "ccf"
@@ -8348,19 +8348,14 @@
       "rank": "C",
       "kind": "academic",
       "topic": "software",
-      "startsAt": "2026-04-15",
-      "submissionDate": "2026-01-15",
-      "notificationDate": "2026-03-05",
-      "location": "Torino, Italy",
-      "countryCode": "ITA",
-      "point": {
-        "city": "Turin",
-        "longitude": 7.668015,
-        "latitude": 45.072333,
-        "naturalEarthId": 1159146875
-      },
+      "startsAt": "2027-04-14",
+      "submissionDate": "2027-01-21",
+      "notificationDate": null,
+      "location": "Copenhagen, Denmark",
+      "countryCode": "DNK",
+      "point": null,
       "url": "https://www.myhuiban.com/conference/267",
-      "updatedAt": "2026-01-08",
+      "updatedAt": "2026-11-05",
       "extended": false,
       "source": "Conference Partner (myhuiban.com)",
       "sourceKey": "ccf"
@@ -17238,7 +17233,7 @@
       "sourceKey": "lf",
       "sourceId": "post-322402",
       "sourceCategory": "community",
-      "capturedAt": "2026-11-05",
+      "capturedAt": "2026-11-06",
       "sourceUpdatedAt": null,
       "dateLabel": "Oct 27, 2026",
       "timezone": null,
@@ -17273,7 +17268,7 @@
       "sourceKey": "lf",
       "sourceId": "post-326321",
       "sourceCategory": "community",
-      "capturedAt": "2026-11-05",
+      "capturedAt": "2026-11-06",
       "sourceUpdatedAt": null,
       "dateLabel": "Oct 28, 2026",
       "timezone": null,
@@ -17313,7 +17308,7 @@
       "sourceKey": "lf",
       "sourceId": "post-320589",
       "sourceCategory": "community",
-      "capturedAt": "2026-11-05",
+      "capturedAt": "2026-11-06",
       "sourceUpdatedAt": null,
       "dateLabel": "Oct 28, 2026",
       "timezone": null,
@@ -17353,7 +17348,7 @@
       "sourceKey": "lf",
       "sourceId": "post-327283",
       "sourceCategory": "community",
-      "capturedAt": "2026-11-05",
+      "capturedAt": "2026-11-06",
       "sourceUpdatedAt": null,
       "dateLabel": "Oct 30, 2026",
       "timezone": null,
@@ -17736,7 +17731,7 @@
       "sourceKey": "lf",
       "sourceId": "post-327287",
       "sourceCategory": "community",
-      "capturedAt": "2026-11-05",
+      "capturedAt": "2026-11-06",
       "sourceUpdatedAt": null,
       "dateLabel": "Nov 19–20, 2026",
       "timezone": null,
@@ -17755,7 +17750,8 @@
         "lf-post-328086-2026",
         "lf-post-328155-2026",
         "lf-post-328418-2026",
-        "lf-post-328497-2026"
+        "lf-post-328497-2026",
+        "lf-post-328603-2026"
       ]
     },
     {
@@ -17780,7 +17776,7 @@
       "sourceKey": "lf",
       "sourceId": "post-327284",
       "sourceCategory": "community",
-      "capturedAt": "2026-11-05",
+      "capturedAt": "2026-11-06",
       "sourceUpdatedAt": null,
       "dateLabel": "Dec 9–10, 2026",
       "timezone": null,
@@ -17799,7 +17795,8 @@
         "lf-post-328083-2026",
         "lf-post-328152-2026",
         "lf-post-328415-2026",
-        "lf-post-328494-2026"
+        "lf-post-328494-2026",
+        "lf-post-328600-2026"
       ]
     },
     {
@@ -17824,7 +17821,7 @@
       "sourceKey": "lf",
       "sourceId": "post-327285",
       "sourceCategory": "community",
-      "capturedAt": "2026-11-05",
+      "capturedAt": "2026-11-06",
       "sourceUpdatedAt": null,
       "dateLabel": "Dec 10, 2026",
       "timezone": null,
@@ -17843,7 +17840,8 @@
         "lf-post-328084-2026",
         "lf-post-328153-2026",
         "lf-post-328416-2026",
-        "lf-post-328495-2026"
+        "lf-post-328495-2026",
+        "lf-post-328601-2026"
       ]
     },
     {
@@ -17873,7 +17871,7 @@
       "sourceKey": "lf",
       "sourceId": "post-327282",
       "sourceCategory": "community",
-      "capturedAt": "2026-11-05",
+      "capturedAt": "2026-11-06",
       "sourceUpdatedAt": null,
       "dateLabel": "Dec 11, 2026",
       "timezone": null,
@@ -17892,7 +17890,8 @@
         "lf-post-328081-2026",
         "lf-post-328150-2026",
         "lf-post-328413-2026",
-        "lf-post-328492-2026"
+        "lf-post-328492-2026",
+        "lf-post-328598-2026"
       ]
     },
     {
@@ -17922,7 +17921,7 @@
       "sourceKey": "lf",
       "sourceId": "post-327288",
       "sourceCategory": "community",
-      "capturedAt": "2026-11-05",
+      "capturedAt": "2026-11-06",
       "sourceUpdatedAt": null,
       "dateLabel": "Jan 22, 2027",
       "timezone": null,
@@ -17941,7 +17940,8 @@
         "lf-post-328087-2027",
         "lf-post-328156-2027",
         "lf-post-328419-2027",
-        "lf-post-328498-2027"
+        "lf-post-328498-2027",
+        "lf-post-328604-2027"
       ]
     },
     {
@@ -18046,7 +18046,7 @@
       "sourceKey": "lf",
       "sourceId": "post-327286",
       "sourceCategory": "community",
-      "capturedAt": "2026-11-05",
+      "capturedAt": "2026-11-06",
       "sourceUpdatedAt": null,
       "dateLabel": "Apr 13, 2027",
       "timezone": null,
@@ -18065,7 +18065,8 @@
         "lf-post-328085-2027",
         "lf-post-328154-2027",
         "lf-post-328417-2027",
-        "lf-post-328496-2027"
+        "lf-post-328496-2027",
+        "lf-post-328602-2027"
       ]
     },
     {
@@ -18262,7 +18263,8 @@
         "lf-post-328082-2026",
         "lf-post-328151-2026",
         "lf-post-328414-2026",
-        "lf-post-328493-2026"
+        "lf-post-328493-2026",
+        "lf-post-328599-2026"
       ]
     },
     {
@@ -18366,6 +18368,81 @@
       "tags": [],
       "warnings": [],
       "cfpStatus": "No Call for Proposals",
+      "sourcePages": [
+        "https://events.linuxfoundation.org/about/calendar/"
+      ]
+    },
+    {
+      "id": "lf-post-328329-2027",
+      "short": "AGNTSummit Sydney",
+      "name": "AGNTSummit Sydney",
+      "rank": null,
+      "kind": "community",
+      "communityType": "conference",
+      "topic": "other",
+      "startsAt": "2027-06-16",
+      "endsAt": "2027-06-17",
+      "submissionDate": null,
+      "notificationDate": null,
+      "location": "Sydney, Australia",
+      "countryCode": null,
+      "point": null,
+      "url": "https://events.linuxfoundation.org/agntsummit-sydney/",
+      "updatedAt": null,
+      "extended": false,
+      "source": "Linux Foundation Events",
+      "sourceKey": "lf",
+      "sourceId": "post-328329",
+      "sourceCategory": "calendar",
+      "capturedAt": "2026-11-06",
+      "sourceUpdatedAt": null,
+      "dateLabel": "Jun 16–17, 2027",
+      "timezone": null,
+      "milestones": [],
+      "mode": "in-person",
+      "tags": [],
+      "warnings": [],
+      "cfpStatus": "Details Coming Soon",
+      "sourcePages": [
+        "https://events.linuxfoundation.org/about/calendar/"
+      ]
+    },
+    {
+      "id": "lf-post-328297-2027",
+      "short": "AGNTSummit New York City",
+      "name": "AGNTSummit New York City",
+      "rank": null,
+      "kind": "community",
+      "communityType": "conference",
+      "topic": "other",
+      "startsAt": "2027-11-01",
+      "endsAt": "2027-11-02",
+      "submissionDate": null,
+      "notificationDate": null,
+      "location": "New York, United States",
+      "countryCode": "USA",
+      "point": {
+        "city": "New York",
+        "latitude": 40.721562,
+        "longitude": -73.995718,
+        "naturalEarthId": 1159151575
+      },
+      "url": "https://events.linuxfoundation.org/agntsummit-new-york-city/",
+      "updatedAt": null,
+      "extended": false,
+      "source": "Linux Foundation Events",
+      "sourceKey": "lf",
+      "sourceId": "post-328297",
+      "sourceCategory": "calendar",
+      "capturedAt": "2026-11-06",
+      "sourceUpdatedAt": null,
+      "dateLabel": "Nov 1–2, 2027",
+      "timezone": null,
+      "milestones": [],
+      "mode": "in-person",
+      "tags": [],
+      "warnings": [],
+      "cfpStatus": "Details Coming Soon",
       "sourcePages": [
         "https://events.linuxfoundation.org/about/calendar/"
       ]
