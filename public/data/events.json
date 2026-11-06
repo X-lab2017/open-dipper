@@ -1,8 +1,65 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-06T09:55:10.185841Z",
+  "generatedAt": "2026-11-06T17:30:33.974645Z",
   "retentionDays": 90,
   "events": [
+    {
+      "id": "d1676f7808d03a43a22a",
+      "title": "From Sigstore to CRA readiness: Sylva’s journey with OpenSSF",
+      "summary": "Sylva’s security work relies heavily on the OpenSSF ecosystem. From supply chain tooling with Sigstore and SLSA to adopting OpenSSF Scorecard and Best Practices badges, learn how Sylva is approaching EU Cyber Resilience Act (CRA) readiness and building verifiable trust for downstream operators.",
+      "category": "security",
+      "severity": "info",
+      "occurredAt": "2026-11-06T14:44:01Z",
+      "collectedAt": "2026-11-06T17:30:32.994005Z",
+      "source": "OpenSSF",
+      "sourceId": "openssf",
+      "sourceUrl": "https://openssf.org/blog/2026/11/06/from-sigstore-to-cra-readiness-sylvas-journey-with-openssf/",
+      "repository": null,
+      "provenance": "automatic",
+      "location": null,
+      "reviewStatus": "source-published",
+      "tags": [
+        "OpenSSF"
+      ]
+    },
+    {
+      "id": "2e5715cffbf7188a5298",
+      "title": "Faster LLM inference startup: What you need to know",
+      "summary": "Adding an inference replica creates capacity only after the new instance can serve requests. Between starting a process and generating a response, an LLM server may need to load weights, initialize GPU resources, compile kernels, capture...",
+      "category": "research",
+      "severity": "info",
+      "occurredAt": "2026-11-06T12:00:00Z",
+      "collectedAt": "2026-11-06T17:30:33.389563Z",
+      "source": "CNCF",
+      "sourceId": "cncf",
+      "sourceUrl": "https://www.cncf.io/blog/2026/11/06/faster-llm-inference-startup-what-you-need-to-know/",
+      "repository": null,
+      "provenance": "automatic",
+      "location": null,
+      "reviewStatus": "source-published",
+      "tags": [
+        "CNCF"
+      ]
+    },
+    {
+      "id": "a76c24326316a39d11a4",
+      "title": "VS Code · 1.145.2",
+      "summary": "https://code.visualstudio.com/updates/v1_145",
+      "category": "release",
+      "severity": "info",
+      "occurredAt": "2026-11-06T10:21:07Z",
+      "collectedAt": "2026-11-06T17:30:30.827371Z",
+      "source": "VS Code",
+      "sourceId": "release-vscode",
+      "sourceUrl": "https://github.com/microsoft/vscode/releases/tag/1.145.2",
+      "repository": "microsoft/vscode",
+      "provenance": "automatic",
+      "location": null,
+      "reviewStatus": "source-published",
+      "tags": [
+        "VS Code"
+      ]
+    },
     {
       "id": "a7196f7530f2b901a53e",
       "title": "VS Code · 1.145.1",
@@ -1492,8 +1549,8 @@
       "name": "Kubernetes",
       "url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-11-06T09:55:05.924511Z",
-      "lastSuccess": "2026-11-06T09:55:06.272507Z",
+      "lastAttempt": "2026-11-06T17:30:28.037469Z",
+      "lastSuccess": "2026-11-06T17:30:28.442082Z",
       "count": 6,
       "status": "ok"
     },
@@ -1502,8 +1559,8 @@
       "name": "PyTorch",
       "url": "https://api.github.com/repos/pytorch/pytorch/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-11-06T09:55:06.422637Z",
-      "lastSuccess": "2026-11-06T09:55:06.880524Z",
+      "lastAttempt": "2026-11-06T17:30:28.592226Z",
+      "lastSuccess": "2026-11-06T17:30:29.202307Z",
       "count": 10,
       "status": "ok"
     },
@@ -1512,8 +1569,8 @@
       "name": "vLLM",
       "url": "https://api.github.com/repos/vllm-project/vllm/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-11-06T09:55:07.030633Z",
-      "lastSuccess": "2026-11-06T09:55:07.426977Z",
+      "lastAttempt": "2026-11-06T17:30:29.352456Z",
+      "lastSuccess": "2026-11-06T17:30:30.247747Z",
       "count": 10,
       "status": "ok"
     },
@@ -1522,8 +1579,8 @@
       "name": "VS Code",
       "url": "https://api.github.com/repos/microsoft/vscode/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-11-06T09:55:07.577093Z",
-      "lastSuccess": "2026-11-06T09:55:07.938763Z",
+      "lastAttempt": "2026-11-06T17:30:30.397886Z",
+      "lastSuccess": "2026-11-06T17:30:30.827540Z",
       "count": 10,
       "status": "ok"
     },
@@ -1532,8 +1589,8 @@
       "name": "Rust",
       "url": "https://api.github.com/repos/rust-lang/rust/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-11-06T09:55:08.088886Z",
-      "lastSuccess": "2026-11-06T09:55:08.487565Z",
+      "lastAttempt": "2026-11-06T17:30:30.977678Z",
+      "lastSuccess": "2026-11-06T17:30:31.417712Z",
       "count": 10,
       "status": "ok"
     },
@@ -1542,8 +1599,8 @@
       "name": "DuckDB",
       "url": "https://api.github.com/repos/duckdb/duckdb/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-11-06T09:55:08.637686Z",
-      "lastSuccess": "2026-11-06T09:55:09.102078Z",
+      "lastAttempt": "2026-11-06T17:30:31.567865Z",
+      "lastSuccess": "2026-11-06T17:30:32.233089Z",
       "count": 10,
       "status": "ok"
     },
@@ -1552,8 +1609,8 @@
       "name": "OpenSSF",
       "url": "https://openssf.org/feed/",
       "kind": "rss",
-      "lastAttempt": "2026-11-06T09:55:09.252200Z",
-      "lastSuccess": "2026-11-06T09:55:09.367979Z",
+      "lastAttempt": "2026-11-06T17:30:32.383202Z",
+      "lastSuccess": "2026-11-06T17:30:32.994390Z",
       "count": 10,
       "status": "ok"
     },
@@ -1562,8 +1619,8 @@
       "name": "CNCF",
       "url": "https://www.cncf.io/feed/",
       "kind": "rss",
-      "lastAttempt": "2026-11-06T09:55:09.518101Z",
-      "lastSuccess": "2026-11-06T09:55:09.627721Z",
+      "lastAttempt": "2026-11-06T17:30:33.144531Z",
+      "lastSuccess": "2026-11-06T17:30:33.389932Z",
       "count": 10,
       "status": "ok"
     },
@@ -1572,8 +1629,8 @@
       "name": "OpenDipper 编辑录入",
       "url": "https://api.github.com/repos/X-lab2017/open-dipper/issues?labels=event-approved&state=open&per_page=100",
       "kind": "github-issues",
-      "lastAttempt": "2026-11-06T09:55:09.777838Z",
-      "lastSuccess": "2026-11-06T09:55:10.035203Z",
+      "lastAttempt": "2026-11-06T17:30:33.540074Z",
+      "lastSuccess": "2026-11-06T17:30:33.824050Z",
       "count": 0,
       "status": "ok"
     }
