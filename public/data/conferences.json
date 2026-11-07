@@ -5,8 +5,8 @@
       "id": "ccf",
       "name": "Conference Partner",
       "url": "https://www.myhuiban.com/conferences/ccf",
-      "sourceUpdatedAt": "2026-11-05T13:27:24+00:00",
-      "capturedAt": "2026-11-06",
+      "sourceUpdatedAt": "2026-11-06T13:11:33+00:00",
+      "capturedAt": "2026-11-07",
       "count": 392
     },
     {
@@ -24,16 +24,16 @@
       "id": "lf",
       "name": "Linux Foundation Events",
       "url": "https://events.linuxfoundation.org/",
-      "capturedAt": "2026-11-06",
+      "capturedAt": "2026-11-07",
       "sourceUpdatedAt": null,
       "license": "Factual event metadata with source attribution; no blanket license for website content",
-      "count": 144
+      "count": 152
     }
   ],
-  "sourceUpdatedAt": "2026-11-05T13:27:24+00:00",
-  "capturedAt": "2026-11-06",
-  "sourceCommit": "dcdc23b5ef0c340a66fc795ed4243b91ccf3cc3b",
-  "sourceSha256": "e2cbb8f8855cbc0284148e46a74baf7d05e2f45c15e47302a556cff5c6a33f19",
+  "sourceUpdatedAt": "2026-11-06T13:11:33+00:00",
+  "capturedAt": "2026-11-07",
+  "sourceCommit": "32a5275d77005a9352b7070912230d89392c3518",
+  "sourceSha256": "7dd02912d5a4e91c1f4c8f1291eb74458e5b1241a3f76abf8158c85509648fe8",
   "geographySource": "https://github.com/nvkelso/natural-earth-vector/blob/ca96624a56bd078437bca8184e78163e5039ad19/geojson/ne_50m_populated_places_simple.geojson",
   "rankSource": "https://www.ccf.org.cn/Academic_Evaluation/By_category/",
   "rankVerification": "Third-party labels; not independently reconciled against the full CCF seventh edition.",
@@ -17233,7 +17233,7 @@
       "sourceKey": "lf",
       "sourceId": "post-322402",
       "sourceCategory": "community",
-      "capturedAt": "2026-11-06",
+      "capturedAt": "2026-11-07",
       "sourceUpdatedAt": null,
       "dateLabel": "Oct 27, 2026",
       "timezone": null,
@@ -17268,7 +17268,7 @@
       "sourceKey": "lf",
       "sourceId": "post-326321",
       "sourceCategory": "community",
-      "capturedAt": "2026-11-06",
+      "capturedAt": "2026-11-07",
       "sourceUpdatedAt": null,
       "dateLabel": "Oct 28, 2026",
       "timezone": null,
@@ -17308,7 +17308,7 @@
       "sourceKey": "lf",
       "sourceId": "post-320589",
       "sourceCategory": "community",
-      "capturedAt": "2026-11-06",
+      "capturedAt": "2026-11-07",
       "sourceUpdatedAt": null,
       "dateLabel": "Oct 28, 2026",
       "timezone": null,
@@ -17348,7 +17348,7 @@
       "sourceKey": "lf",
       "sourceId": "post-327283",
       "sourceCategory": "community",
-      "capturedAt": "2026-11-06",
+      "capturedAt": "2026-11-07",
       "sourceUpdatedAt": null,
       "dateLabel": "Oct 30, 2026",
       "timezone": null,
@@ -17731,7 +17731,7 @@
       "sourceKey": "lf",
       "sourceId": "post-327287",
       "sourceCategory": "community",
-      "capturedAt": "2026-11-06",
+      "capturedAt": "2026-11-07",
       "sourceUpdatedAt": null,
       "dateLabel": "Nov 19–20, 2026",
       "timezone": null,
@@ -17751,7 +17751,8 @@
         "lf-post-328155-2026",
         "lf-post-328418-2026",
         "lf-post-328497-2026",
-        "lf-post-328603-2026"
+        "lf-post-328603-2026",
+        "lf-post-328685-2026"
       ]
     },
     {
@@ -17776,7 +17777,7 @@
       "sourceKey": "lf",
       "sourceId": "post-327284",
       "sourceCategory": "community",
-      "capturedAt": "2026-11-06",
+      "capturedAt": "2026-11-07",
       "sourceUpdatedAt": null,
       "dateLabel": "Dec 9–10, 2026",
       "timezone": null,
@@ -17796,7 +17797,8 @@
         "lf-post-328152-2026",
         "lf-post-328415-2026",
         "lf-post-328494-2026",
-        "lf-post-328600-2026"
+        "lf-post-328600-2026",
+        "lf-post-328682-2026"
       ]
     },
     {
@@ -17821,7 +17823,7 @@
       "sourceKey": "lf",
       "sourceId": "post-327285",
       "sourceCategory": "community",
-      "capturedAt": "2026-11-06",
+      "capturedAt": "2026-11-07",
       "sourceUpdatedAt": null,
       "dateLabel": "Dec 10, 2026",
       "timezone": null,
@@ -17841,7 +17843,8 @@
         "lf-post-328153-2026",
         "lf-post-328416-2026",
         "lf-post-328495-2026",
-        "lf-post-328601-2026"
+        "lf-post-328601-2026",
+        "lf-post-328683-2026"
       ]
     },
     {
@@ -17871,7 +17874,7 @@
       "sourceKey": "lf",
       "sourceId": "post-327282",
       "sourceCategory": "community",
-      "capturedAt": "2026-11-06",
+      "capturedAt": "2026-11-07",
       "sourceUpdatedAt": null,
       "dateLabel": "Dec 11, 2026",
       "timezone": null,
@@ -17891,7 +17894,8 @@
         "lf-post-328150-2026",
         "lf-post-328413-2026",
         "lf-post-328492-2026",
-        "lf-post-328598-2026"
+        "lf-post-328598-2026",
+        "lf-post-328680-2026"
       ]
     },
     {
@@ -17921,7 +17925,7 @@
       "sourceKey": "lf",
       "sourceId": "post-327288",
       "sourceCategory": "community",
-      "capturedAt": "2026-11-06",
+      "capturedAt": "2026-11-07",
       "sourceUpdatedAt": null,
       "dateLabel": "Jan 22, 2027",
       "timezone": null,
@@ -17941,7 +17945,8 @@
         "lf-post-328156-2027",
         "lf-post-328419-2027",
         "lf-post-328498-2027",
-        "lf-post-328604-2027"
+        "lf-post-328604-2027",
+        "lf-post-328686-2027"
       ]
     },
     {
@@ -18046,7 +18051,7 @@
       "sourceKey": "lf",
       "sourceId": "post-327286",
       "sourceCategory": "community",
-      "capturedAt": "2026-11-06",
+      "capturedAt": "2026-11-07",
       "sourceUpdatedAt": null,
       "dateLabel": "Apr 13, 2027",
       "timezone": null,
@@ -18066,7 +18071,8 @@
         "lf-post-328154-2027",
         "lf-post-328417-2027",
         "lf-post-328496-2027",
-        "lf-post-328602-2027"
+        "lf-post-328602-2027",
+        "lf-post-328684-2027"
       ]
     },
     {
@@ -18264,7 +18270,8 @@
         "lf-post-328151-2026",
         "lf-post-328414-2026",
         "lf-post-328493-2026",
-        "lf-post-328599-2026"
+        "lf-post-328599-2026",
+        "lf-post-328681-2026"
       ]
     },
     {
@@ -18443,6 +18450,41 @@
       "tags": [],
       "warnings": [],
       "cfpStatus": "Details Coming Soon",
+      "sourcePages": [
+        "https://events.linuxfoundation.org/about/calendar/"
+      ]
+    },
+    {
+      "id": "lf-post-328430-2027",
+      "short": "AGL at embedded world",
+      "name": "AGL at embedded world",
+      "rank": null,
+      "kind": "community",
+      "communityType": "meetup",
+      "topic": "other",
+      "startsAt": "2027-03-16",
+      "endsAt": "2027-03-18",
+      "submissionDate": null,
+      "notificationDate": null,
+      "location": "Nuremberg, Germany",
+      "countryCode": "DEU",
+      "point": null,
+      "url": "https://events.linuxfoundation.org/agl-at-embedded-world/",
+      "updatedAt": null,
+      "extended": false,
+      "source": "Linux Foundation Events",
+      "sourceKey": "lf",
+      "sourceId": "post-328430",
+      "sourceCategory": "calendar",
+      "capturedAt": "2026-11-07",
+      "sourceUpdatedAt": null,
+      "dateLabel": "Mar 16–18, 2027",
+      "timezone": null,
+      "milestones": [],
+      "mode": "in-person",
+      "tags": [],
+      "warnings": [],
+      "cfpStatus": "No Call for Proposals",
       "sourcePages": [
         "https://events.linuxfoundation.org/about/calendar/"
       ]
