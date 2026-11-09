@@ -1,8 +1,84 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-09T08:07:38.693665Z",
+  "generatedAt": "2026-11-09T16:53:03.038604Z",
   "retentionDays": 90,
   "events": [
+    {
+      "id": "623e2f1d5532676c0404",
+      "title": "OpenSSF Welcomes New Members and Expands AI Security Resources",
+      "summary": "The OpenSSF announced expanded membership at Open Source SecurityCon North America and broadened its AI security resources, including a new guide to finding and fixing vulnerabilities using AI.",
+      "category": "security",
+      "severity": "info",
+      "occurredAt": "2026-11-09T15:00:08Z",
+      "collectedAt": "2026-11-09T16:53:01.758165Z",
+      "source": "OpenSSF",
+      "sourceId": "openssf",
+      "sourceUrl": "https://openssf.org/press-release/2026/11/09/openssf-welcomes-new-members-and-expands-ai-security-resources/",
+      "repository": null,
+      "provenance": "automatic",
+      "location": null,
+      "reviewStatus": "source-published",
+      "tags": [
+        "OpenSSF"
+      ]
+    },
+    {
+      "id": "58f20537deba7b1d7636",
+      "title": "Announcing Zarf 1.0: Security and Stability for Airgap Software Delivery",
+      "summary": "Zarf 1.0 is here, bringing the v1beta1 schema, stronger package signing, and improved stability for air-gapped and constrained software delivery environments.",
+      "category": "security",
+      "severity": "info",
+      "occurredAt": "2026-11-09T14:01:14Z",
+      "collectedAt": "2026-11-09T16:53:01.758222Z",
+      "source": "OpenSSF",
+      "sourceId": "openssf",
+      "sourceUrl": "https://openssf.org/blog/2026/11/09/announcing-zarf-1-0-security-and-stability-for-airgap-software-delivery/",
+      "repository": null,
+      "provenance": "automatic",
+      "location": null,
+      "reviewStatus": "source-published",
+      "tags": [
+        "OpenSSF"
+      ]
+    },
+    {
+      "id": "6c99941632df2598ae12",
+      "title": "New research: Virtual machines remain central to cloud native infrastructure as AI workloads evolve",
+      "summary": "A Linux Foundation Research study, sponsored by CNCF and Broadcom, explores how organizations are using virtual machines alongside containers, and the growing importance of workload isolation for AI. Cloud native infrastructure continues to evolve as organizations...",
+      "category": "research",
+      "severity": "info",
+      "occurredAt": "2026-11-09T14:00:00Z",
+      "collectedAt": "2026-11-09T16:53:02.361705Z",
+      "source": "CNCF",
+      "sourceId": "cncf",
+      "sourceUrl": "https://www.cncf.io/blog/2026/11/09/new-research-virtual-machines-remain-central-to-cloud-native-infrastructure-as-ai-workloads-evolve/",
+      "repository": null,
+      "provenance": "automatic",
+      "location": null,
+      "reviewStatus": "source-published",
+      "tags": [
+        "CNCF"
+      ]
+    },
+    {
+      "id": "062b4898c5810ae656ed",
+      "title": "Run Linux applications in hypervisor-isolated micro-VMs with Hyperlight",
+      "summary": "More and more cloud native systems run code nobody on the team wrote: the Python an AI agent generated a second ago, or a plugin a customer just uploaded. Each of them needs a boundary between...",
+      "category": "research",
+      "severity": "info",
+      "occurredAt": "2026-11-09T12:00:00Z",
+      "collectedAt": "2026-11-09T16:53:02.361765Z",
+      "source": "CNCF",
+      "sourceId": "cncf",
+      "sourceUrl": "https://www.cncf.io/blog/2026/11/09/run-linux-applications-in-hypervisor-isolated-micro-vms-with-hyperlight/",
+      "repository": null,
+      "provenance": "automatic",
+      "location": null,
+      "reviewStatus": "source-published",
+      "tags": [
+        "CNCF"
+      ]
+    },
     {
       "id": "e1578dde9f018a907f23",
       "title": "Lima v2.3: Native on Windows, VMnet on Linux, and menu TUI",
@@ -1560,25 +1636,6 @@
       "tags": [
         "Kubernetes"
       ]
-    },
-    {
-      "id": "79fa413a464f8b759667",
-      "title": "vLLM · v0.27.1",
-      "summary": "This is a patch release on top of v0.27.0. - Support quantized DSpark Markov heads (#50424)",
-      "category": "release",
-      "severity": "info",
-      "occurredAt": "2026-08-11T10:47:49Z",
-      "collectedAt": "2026-10-24T23:49:18.586518Z",
-      "source": "vLLM",
-      "sourceId": "release-vllm",
-      "sourceUrl": "https://github.com/vllm-project/vllm/releases/tag/v0.27.1",
-      "repository": "vllm-project/vllm",
-      "provenance": "automatic",
-      "location": null,
-      "reviewStatus": "source-published",
-      "tags": [
-        "vLLM"
-      ]
     }
   ],
   "sources": [
@@ -1587,8 +1644,8 @@
       "name": "Kubernetes",
       "url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-11-09T08:07:33.404781Z",
-      "lastSuccess": "2026-11-09T08:07:33.746483Z",
+      "lastAttempt": "2026-11-09T16:52:56.977351Z",
+      "lastSuccess": "2026-11-09T16:52:57.333200Z",
       "count": 6,
       "status": "ok"
     },
@@ -1597,8 +1654,8 @@
       "name": "PyTorch",
       "url": "https://api.github.com/repos/pytorch/pytorch/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-11-09T08:07:33.896604Z",
-      "lastSuccess": "2026-11-09T08:07:34.478318Z",
+      "lastAttempt": "2026-11-09T16:52:57.483374Z",
+      "lastSuccess": "2026-11-09T16:52:58.061420Z",
       "count": 10,
       "status": "ok"
     },
@@ -1607,8 +1664,8 @@
       "name": "vLLM",
       "url": "https://api.github.com/repos/vllm-project/vllm/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-11-09T08:07:34.628434Z",
-      "lastSuccess": "2026-11-09T08:07:35.144508Z",
+      "lastAttempt": "2026-11-09T16:52:58.211588Z",
+      "lastSuccess": "2026-11-09T16:52:58.856666Z",
       "count": 10,
       "status": "ok"
     },
@@ -1617,8 +1674,8 @@
       "name": "VS Code",
       "url": "https://api.github.com/repos/microsoft/vscode/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-11-09T08:07:35.294611Z",
-      "lastSuccess": "2026-11-09T08:07:35.664932Z",
+      "lastAttempt": "2026-11-09T16:52:59.006819Z",
+      "lastSuccess": "2026-11-09T16:52:59.388278Z",
       "count": 10,
       "status": "ok"
     },
@@ -1627,8 +1684,8 @@
       "name": "Rust",
       "url": "https://api.github.com/repos/rust-lang/rust/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-11-09T08:07:35.815076Z",
-      "lastSuccess": "2026-11-09T08:07:36.191945Z",
+      "lastAttempt": "2026-11-09T16:52:59.538434Z",
+      "lastSuccess": "2026-11-09T16:52:59.936507Z",
       "count": 10,
       "status": "ok"
     },
@@ -1637,8 +1694,8 @@
       "name": "DuckDB",
       "url": "https://api.github.com/repos/duckdb/duckdb/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-11-09T08:07:36.342073Z",
-      "lastSuccess": "2026-11-09T08:07:36.929149Z",
+      "lastAttempt": "2026-11-09T16:53:00.086730Z",
+      "lastSuccess": "2026-11-09T16:53:00.791296Z",
       "count": 10,
       "status": "ok"
     },
@@ -1647,8 +1704,8 @@
       "name": "OpenSSF",
       "url": "https://openssf.org/feed/",
       "kind": "rss",
-      "lastAttempt": "2026-11-09T08:07:37.079310Z",
-      "lastSuccess": "2026-11-09T08:07:37.763005Z",
+      "lastAttempt": "2026-11-09T16:53:00.941406Z",
+      "lastSuccess": "2026-11-09T16:53:01.758601Z",
       "count": 10,
       "status": "ok"
     },
@@ -1657,8 +1714,8 @@
       "name": "CNCF",
       "url": "https://www.cncf.io/feed/",
       "kind": "rss",
-      "lastAttempt": "2026-11-09T08:07:37.913133Z",
-      "lastSuccess": "2026-11-09T08:07:38.098140Z",
+      "lastAttempt": "2026-11-09T16:53:01.908735Z",
+      "lastSuccess": "2026-11-09T16:53:02.362152Z",
       "count": 10,
       "status": "ok"
     },
@@ -1667,8 +1724,8 @@
       "name": "OpenDipper 编辑录入",
       "url": "https://api.github.com/repos/X-lab2017/open-dipper/issues?labels=event-approved&state=open&per_page=100",
       "kind": "github-issues",
-      "lastAttempt": "2026-11-09T08:07:38.248315Z",
-      "lastSuccess": "2026-11-09T08:07:38.542926Z",
+      "lastAttempt": "2026-11-09T16:53:02.512301Z",
+      "lastSuccess": "2026-11-09T16:53:02.887780Z",
       "count": 0,
       "status": "ok"
     }
