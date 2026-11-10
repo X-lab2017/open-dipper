@@ -4,20 +4,20 @@
     "id": "lf",
     "name": "Linux Foundation Events",
     "url": "https://events.linuxfoundation.org/",
-    "capturedAt": "2026-11-09",
+    "capturedAt": "2026-11-10",
     "sourceUpdatedAt": null,
     "license": "Factual event metadata with source attribution; no blanket license for website content"
   },
   "pages": [
     {
       "url": "https://events.linuxfoundation.org/about/calendar/",
-      "sha256": "40026615b425db138fa39d3b0462d3fd550e3400a13dbc0d1f6bee9172a6918d",
-      "count": 60
+      "sha256": "a35f11fa2f3069b2d55c080b428858282b3ede666ce4deb909aa5cfb73904c9f",
+      "count": 52
     },
     {
       "url": "https://events.linuxfoundation.org/about/community/",
-      "sha256": "38efeeeeef0fc8f4ad40fec656ec49698d57b94b9f4df66dbeb1cc3334e305f7",
-      "count": 20
+      "sha256": "1d4cdb5544f15dd0bbdfc2b3d9fcc8cd1f72ca3254d4a3064613552c5ead8573",
+      "count": 46
     }
   ],
   "records": [
@@ -1836,6 +1836,424 @@
       "sourcePage": "https://events.linuxfoundation.org/about/community/",
       "listing": "community",
       "capturedAt": "2026-11-09"
+    },
+    {
+      "sourceId": "post-328830",
+      "title": "Open Nexus China Featuring: AGNTSummit + KubeCon + CloudNativeCon + PyTorch Conference",
+      "url": "https://www.lfopensource.cn/open-nexus-china/",
+      "dateLabel": "May 12–13, 2027",
+      "location": "Shanghai, China",
+      "cfpStatus": "Details Coming Soon",
+      "sourcePage": "https://events.linuxfoundation.org/about/calendar/",
+      "listing": "calendar",
+      "capturedAt": "2026-11-10"
+    },
+    {
+      "sourceId": "post-327384",
+      "title": "Open Nexus India Featuring: AGNTSummit + KubeCon + CloudNativeCon + Open Source Summit + PyTorch Conference",
+      "url": "https://events.linuxfoundation.org/open-nexus-india/",
+      "dateLabel": "Sep 9–10, 2027",
+      "location": "Bengaluru, India",
+      "cfpStatus": "Details Coming Soon",
+      "sourcePage": "https://events.linuxfoundation.org/about/calendar/",
+      "listing": "calendar",
+      "capturedAt": "2026-11-10"
+    },
+    {
+      "sourceId": "post-326891",
+      "title": "KubeCon + CloudNativeCon North America 2028",
+      "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america-2028/",
+      "dateLabel": "Dec 11–14, 2028",
+      "location": "Denver, United States",
+      "cfpStatus": "Details Coming Soon",
+      "sourcePage": "https://events.linuxfoundation.org/about/calendar/",
+      "listing": "calendar",
+      "capturedAt": "2026-11-10"
+    },
+    {
+      "sourceId": "post-328960",
+      "title": "AI, ML and Computer Vision Meetup",
+      "url": "https://link.voxel51.com/26-1111-meetup-linux",
+      "dateLabel": "Nov 11, 2026",
+      "location": "Virtual",
+      "cfpStatus": "",
+      "sourcePage": "https://events.linuxfoundation.org/about/community/",
+      "listing": "community",
+      "capturedAt": "2026-11-10"
+    },
+    {
+      "sourceId": "post-328810",
+      "title": "KCD Porto 2026 | Collab with DevOps Days Portugal",
+      "url": "https://community2.cncf.io/events/details/cncf-kcd-porto-presents-kcd-porto-2026-collab-with-devops-days-portugal/",
+      "dateLabel": "Nov 19–20, 2026",
+      "location": "Porto, Portugal",
+      "cfpStatus": "",
+      "sourcePage": "https://events.linuxfoundation.org/about/community/",
+      "listing": "community",
+      "capturedAt": "2026-11-10"
+    },
+    {
+      "sourceId": "post-328958",
+      "title": "Visualizing and Debugging Robot Learning Data with Voxel51 and Hugging Face’s LeRobot",
+      "url": "https://link.voxel51.com/26-1119-meetup-linux",
+      "dateLabel": "Nov 19, 2026",
+      "location": "Virtual",
+      "cfpStatus": "",
+      "sourcePage": "https://events.linuxfoundation.org/about/community/",
+      "listing": "community",
+      "capturedAt": "2026-11-10"
+    },
+    {
+      "sourceId": "post-328806",
+      "title": "KCD Hangzhou 2026",
+      "url": "https://community2.cncf.io/events/details/cncf-kcd-hangzhou-presents-kcd-hangzhou-2026/",
+      "dateLabel": "Nov 28, 2026",
+      "location": "杭州, China",
+      "cfpStatus": "",
+      "sourcePage": "https://events.linuxfoundation.org/about/community/",
+      "listing": "community",
+      "capturedAt": "2026-11-10"
+    },
+    {
+      "sourceId": "post-328963",
+      "title": "How to Let Long-tail Guide Your 3D Annotation",
+      "url": "https://link.voxel51.com/26-1209-meetup-linux",
+      "dateLabel": "Dec 9, 2026",
+      "location": "Virtual",
+      "cfpStatus": "",
+      "sourcePage": "https://events.linuxfoundation.org/about/community/",
+      "listing": "community",
+      "capturedAt": "2026-11-10"
+    },
+    {
+      "sourceId": "post-328807",
+      "title": "KCD Suisse Romande 2026",
+      "url": "https://community2.cncf.io/events/details/cncf-kcd-suisse-romande-presents-kcd-suisse-romande-2026/",
+      "dateLabel": "Dec 9–10, 2026",
+      "location": "Meyrin, Switzerland",
+      "cfpStatus": "",
+      "sourcePage": "https://events.linuxfoundation.org/about/community/",
+      "listing": "community",
+      "capturedAt": "2026-11-10"
+    },
+    {
+      "sourceId": "post-328956",
+      "title": "AI, ML and Computer Vision Meetup",
+      "url": "https://link.voxel51.com/26-1210-meetup-linux",
+      "dateLabel": "Dec 10, 2026",
+      "location": "Virtual",
+      "cfpStatus": "",
+      "sourcePage": "https://events.linuxfoundation.org/about/community/",
+      "listing": "community",
+      "capturedAt": "2026-11-10"
+    },
+    {
+      "sourceId": "post-328808",
+      "title": "KCD Provence 2026",
+      "url": "https://community2.cncf.io/events/details/cncf-kcd-provence-presents-kcd-provence-2026/",
+      "dateLabel": "Dec 10, 2026",
+      "location": "Aix-en-Provence, France",
+      "cfpStatus": "",
+      "sourcePage": "https://events.linuxfoundation.org/about/community/",
+      "listing": "community",
+      "capturedAt": "2026-11-10"
+    },
+    {
+      "sourceId": "post-328805",
+      "title": "KCD Florida 2026 – Miami",
+      "url": "https://community2.cncf.io/events/details/cncf-kcd-florida-presents-kcd-florida-2026-miami/",
+      "dateLabel": "Dec 11, 2026",
+      "location": "Miami, United States",
+      "cfpStatus": "",
+      "sourcePage": "https://events.linuxfoundation.org/about/community/",
+      "listing": "community",
+      "capturedAt": "2026-11-10"
+    },
+    {
+      "sourceId": "post-329003",
+      "title": "Building Composable Vision Workflows in Voxel51",
+      "url": "https://link.voxel51.com/26-1216-meetup-linux",
+      "dateLabel": "Dec 16, 2026",
+      "location": "Virtual",
+      "cfpStatus": "",
+      "sourcePage": "https://events.linuxfoundation.org/about/community/",
+      "listing": "community",
+      "capturedAt": "2026-11-10"
+    },
+    {
+      "sourceId": "post-329005",
+      "title": "Physical AI, ML and Computer Vision Meetup: General Purpose Robots",
+      "url": "https://link.voxel51.com/27-0113-meetup-linux",
+      "dateLabel": "Jan 13, 2027",
+      "location": "Virtual",
+      "cfpStatus": "",
+      "sourcePage": "https://events.linuxfoundation.org/about/community/",
+      "listing": "community",
+      "capturedAt": "2026-11-10"
+    },
+    {
+      "sourceId": "post-329001",
+      "title": "MCP/Agents/Skills Meetup",
+      "url": "https://link.voxel51.com/27-0114-meetup-linux",
+      "dateLabel": "Jan 14, 2027",
+      "location": "Virtual",
+      "cfpStatus": "",
+      "sourcePage": "https://events.linuxfoundation.org/about/community/",
+      "listing": "community",
+      "capturedAt": "2026-11-10"
+    },
+    {
+      "sourceId": "post-328811",
+      "title": "KCD Panama",
+      "url": "https://community2.cncf.io/events/details/cncf-kcd-panama-presents-kcd-panama/",
+      "dateLabel": "Jan 22, 2027",
+      "location": "Panamá, Panama",
+      "cfpStatus": "",
+      "sourcePage": "https://events.linuxfoundation.org/about/community/",
+      "listing": "community",
+      "capturedAt": "2026-11-10"
+    },
+    {
+      "sourceId": "post-328999",
+      "title": "Physical AI, ML and Computer Vision Meetup: Purpose-Built Robots",
+      "url": "https://link.voxel51.com/27-0127-meetup-linux",
+      "dateLabel": "Jan 27, 2027",
+      "location": "Virtual",
+      "cfpStatus": "",
+      "sourcePage": "https://events.linuxfoundation.org/about/community/",
+      "listing": "community",
+      "capturedAt": "2026-11-10"
+    },
+    {
+      "sourceId": "post-328997",
+      "title": "UC San Diego Physical AI Workshop and Meetup",
+      "url": "https://link.voxel51.com/27-0128-sandiego-linux",
+      "dateLabel": "Jan 28, 2027",
+      "location": "La Jolla, United States",
+      "cfpStatus": "",
+      "sourcePage": "https://events.linuxfoundation.org/about/community/",
+      "listing": "community",
+      "capturedAt": "2026-11-10"
+    },
+    {
+      "sourceId": "post-328995",
+      "title": "Arizona State University Video to Embodied AI Hackathon",
+      "url": "https://link.voxel51.com/27-0130-asu-linux",
+      "dateLabel": "Jan 30, 2027",
+      "location": "Tempe, United States",
+      "cfpStatus": "",
+      "sourcePage": "https://events.linuxfoundation.org/about/community/",
+      "listing": "community",
+      "capturedAt": "2026-11-10"
+    },
+    {
+      "sourceId": "post-328993",
+      "title": "Phoenix Physical AI Workshop",
+      "url": "https://link.voxel51.com/27-0202-phoenix-linux",
+      "dateLabel": "Feb 2, 2027",
+      "location": "Phoenix, United States",
+      "cfpStatus": "",
+      "sourcePage": "https://events.linuxfoundation.org/about/community/",
+      "listing": "community",
+      "capturedAt": "2026-11-10"
+    },
+    {
+      "sourceId": "post-328876",
+      "title": "Silicon Valley Physical AI Workshop and Meetup",
+      "url": "https://link.voxel51.com/27-0204-svai-linux",
+      "dateLabel": "Feb 4, 2027",
+      "location": "Menlo Park, United States",
+      "cfpStatus": "",
+      "sourcePage": "https://events.linuxfoundation.org/about/community/",
+      "listing": "community",
+      "capturedAt": "2026-11-10"
+    },
+    {
+      "sourceId": "post-328991",
+      "title": "Physical AI, ML and Computer Vision Meetup: Robot Brains and Models",
+      "url": "https://link.voxel51.com/27-0210-meetup-linux",
+      "dateLabel": "Feb 10, 2027",
+      "location": "Virtual",
+      "cfpStatus": "",
+      "sourcePage": "https://events.linuxfoundation.org/about/community/",
+      "listing": "community",
+      "capturedAt": "2026-11-10"
+    },
+    {
+      "sourceId": "post-328988",
+      "title": "Chicago AI, ML, and Computer Vision Meetup",
+      "url": "https://link.voxel51.com/27-0218-chicago-linux",
+      "dateLabel": "Feb 18, 2027",
+      "location": "Chicago, United States",
+      "cfpStatus": "",
+      "sourcePage": "https://events.linuxfoundation.org/about/community/",
+      "listing": "community",
+      "capturedAt": "2026-11-10"
+    },
+    {
+      "sourceId": "post-328984",
+      "title": "Physical AI, ML and Computer Vision Meetup: Robotic Data Collection",
+      "url": "https://link.voxel51.com/27-0224-meetup-linux",
+      "dateLabel": "Feb 24, 2027",
+      "location": "Virtual",
+      "cfpStatus": "",
+      "sourcePage": "https://events.linuxfoundation.org/about/community/",
+      "listing": "community",
+      "capturedAt": "2026-11-10"
+    },
+    {
+      "sourceId": "post-328965",
+      "title": "San Francisco Physical AI Workshop and Meetup",
+      "url": "https://link.voxel51.com/27-0303-sf-linux",
+      "dateLabel": "Mar 3, 2027",
+      "location": "San Francisco, United States",
+      "cfpStatus": "",
+      "sourcePage": "https://events.linuxfoundation.org/about/community/",
+      "listing": "community",
+      "capturedAt": "2026-11-10"
+    },
+    {
+      "sourceId": "post-328947",
+      "title": "Physical AI, ML and Computer Vision Meetup: Robotic Data Quality and Evaluation",
+      "url": "https://link.voxel51.com/27-0310-meetup-linux",
+      "dateLabel": "Mar 10, 2027",
+      "location": "Virtual",
+      "cfpStatus": "",
+      "sourcePage": "https://events.linuxfoundation.org/about/community/",
+      "listing": "community",
+      "capturedAt": "2026-11-10"
+    },
+    {
+      "sourceId": "post-328970",
+      "title": "MCP/Agents/Skills Meetup",
+      "url": "https://link.voxel51.com/27-0311-meetup-linux",
+      "dateLabel": "Mar 11, 2027",
+      "location": "Virtual",
+      "cfpStatus": "",
+      "sourcePage": "https://events.linuxfoundation.org/about/community/",
+      "listing": "community",
+      "capturedAt": "2026-11-10"
+    },
+    {
+      "sourceId": "post-328945",
+      "title": "Physical AI, ML and Computer Vision Meetup: Robotic Simulation, Infrastructure and Development Tools",
+      "url": "https://link.voxel51.com/27-0324-meetup-linux",
+      "dateLabel": "Mar 24, 2027",
+      "location": "Virtual",
+      "cfpStatus": "",
+      "sourcePage": "https://events.linuxfoundation.org/about/community/",
+      "listing": "community",
+      "capturedAt": "2026-11-10"
+    },
+    {
+      "sourceId": "post-328943",
+      "title": "Physical AI, ML and Computer Vision Meetup: Robotic Hardware and Sensors",
+      "url": "https://link.voxel51.com/27-0407-meetup-linux",
+      "dateLabel": "Apr 7, 2027",
+      "location": "Virtual",
+      "cfpStatus": "",
+      "sourcePage": "https://events.linuxfoundation.org/about/community/",
+      "listing": "community",
+      "capturedAt": "2026-11-10"
+    },
+    {
+      "sourceId": "post-328809",
+      "title": "KCD Washington DC",
+      "url": "https://community2.cncf.io/events/details/cncf-kcd-washington-dc-presents-kcd-washington-dc-1/",
+      "dateLabel": "Apr 13, 2027",
+      "location": "Washington DC, United States",
+      "cfpStatus": "",
+      "sourcePage": "https://events.linuxfoundation.org/about/community/",
+      "listing": "community",
+      "capturedAt": "2026-11-10"
+    },
+    {
+      "sourceId": "post-328968",
+      "title": "Physical AI, ML and Computer Vision Meetup: Robotic Retrofitting",
+      "url": "https://link.voxel51.com/27-0421-meetup-linux",
+      "dateLabel": "Apr 21, 2027",
+      "location": "Virtual",
+      "cfpStatus": "",
+      "sourcePage": "https://events.linuxfoundation.org/about/community/",
+      "listing": "community",
+      "capturedAt": "2026-11-10"
+    },
+    {
+      "sourceId": "post-328982",
+      "title": "Physical AI, ML and Computer Vision Meetup: Robots for Manufacturing and Maintenance",
+      "url": "https://link.voxel51.com/27-0505-meetup-linux",
+      "dateLabel": "May 5, 2027",
+      "location": "Virtual",
+      "cfpStatus": "",
+      "sourcePage": "https://events.linuxfoundation.org/about/community/",
+      "listing": "community",
+      "capturedAt": "2026-11-10"
+    },
+    {
+      "sourceId": "post-328972",
+      "title": "San Francisco Physical AI, ML, and Computer Vision Meetup",
+      "url": "https://link.voxel51.com/27-0505-sf-linux",
+      "dateLabel": "May 5, 2027",
+      "location": "San Francisco, United States",
+      "cfpStatus": "",
+      "sourcePage": "https://events.linuxfoundation.org/about/community/",
+      "listing": "community",
+      "capturedAt": "2026-11-10"
+    },
+    {
+      "sourceId": "post-328979",
+      "title": "Silicon Valley Physical AI Workshop and Meetup",
+      "url": "https://link.voxel51.com/27-0513-svai-linux",
+      "dateLabel": "May 13, 2027",
+      "location": "Menlo Park, United States",
+      "cfpStatus": "",
+      "sourcePage": "https://events.linuxfoundation.org/about/community/",
+      "listing": "community",
+      "capturedAt": "2026-11-10"
+    },
+    {
+      "sourceId": "post-328986",
+      "title": "San Francisco Physical AI Workshop and Meetup",
+      "url": "https://link.voxel51.com/27-0707-sf-linux",
+      "dateLabel": "Jul 7, 2027",
+      "location": "San Francisco, United States",
+      "cfpStatus": "",
+      "sourcePage": "https://events.linuxfoundation.org/about/community/",
+      "listing": "community",
+      "capturedAt": "2026-11-10"
+    },
+    {
+      "sourceId": "post-328950",
+      "title": "Silicon Valley Physical AI Workshop and Meetup",
+      "url": "https://link.voxel51.com/27-0805-svai-linux",
+      "dateLabel": "Aug 5, 2027",
+      "location": "Menlo Park, United States",
+      "cfpStatus": "",
+      "sourcePage": "https://events.linuxfoundation.org/about/community/",
+      "listing": "community",
+      "capturedAt": "2026-11-10"
+    },
+    {
+      "sourceId": "post-328952",
+      "title": "San Francisco Physical AI, ML, and Computer Vision Meetup",
+      "url": "https://link.voxel51.com/27-0901-sf-linux",
+      "dateLabel": "Sep 1, 2027",
+      "location": "San Francisco, United States",
+      "cfpStatus": "",
+      "sourcePage": "https://events.linuxfoundation.org/about/community/",
+      "listing": "community",
+      "capturedAt": "2026-11-10"
+    },
+    {
+      "sourceId": "post-328954",
+      "title": "Silicon Valley Physical AI Workshop and Meetup",
+      "url": "https://link.voxel51.com/27-1028-svai-linux",
+      "dateLabel": "Oct 28, 2027",
+      "location": "Menlo Park, United States",
+      "cfpStatus": "",
+      "sourcePage": "https://events.linuxfoundation.org/about/community/",
+      "listing": "community",
+      "capturedAt": "2026-11-10"
     }
   ]
 }
