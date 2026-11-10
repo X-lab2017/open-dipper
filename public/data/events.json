@@ -1,8 +1,217 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-10T15:49:19.718396Z",
+  "generatedAt": "2026-11-10T21:49:09.473544Z",
   "retentionDays": 90,
   "events": [
+    {
+      "id": "79e3d50eb075ae8a9e55",
+      "title": "VS Code · 1.145.3",
+      "summary": "https://code.visualstudio.com/updates/v1_145",
+      "category": "release",
+      "severity": "info",
+      "occurredAt": "2026-11-10T18:53:52Z",
+      "collectedAt": "2026-11-10T21:49:05.869468Z",
+      "source": "VS Code",
+      "sourceId": "release-vscode",
+      "sourceUrl": "https://github.com/microsoft/vscode/releases/tag/1.145.3",
+      "repository": "microsoft/vscode",
+      "provenance": "automatic",
+      "location": null,
+      "reviewStatus": "source-published",
+      "tags": [
+        "VS Code"
+      ]
+    },
+    {
+      "id": "e8b74160d95d09f69cdc",
+      "title": "CNCF Welcomes Twelve New Members as Organizations Look to Run AI Agents on Open, Sovereign Infrastructure",
+      "summary": "Organizations join the cloud native community to strengthen security, visibility, and control for production AI Key Highlights KUBECON + CLOUDNATIVECON NORTH AMERICA, SALT LAKE CITY – November 10, 2026 – The Cloud Native Computing Foundation® (CNCF®),...",
+      "category": "research",
+      "severity": "info",
+      "occurredAt": "2026-11-10T16:00:00Z",
+      "collectedAt": "2026-11-10T21:49:08.768070Z",
+      "source": "CNCF",
+      "sourceId": "cncf",
+      "sourceUrl": "https://www.cncf.io/announcements/2026/11/10/cncf-welcomes-twelve-new-members-as-organizations-look-to-run-ai-agents-on-open-sovereign-infrastructure/",
+      "repository": null,
+      "provenance": "automatic",
+      "location": null,
+      "reviewStatus": "source-published",
+      "tags": [
+        "CNCF"
+      ]
+    },
+    {
+      "id": "cdcd9040a72865d7c124",
+      "title": "CNCF Welcomes CoreWeave as a Platinum Member to Further Open Source AI Infrastructure",
+      "summary": "Investment underscores CoreWeave’s continued push to build open, cloud native infrastructure for production AI at scale Key Highlights SAN FRANCISCO — November 10, 2026 — The Cloud Native Computing Foundation® (CNCF®), which builds sustainable ecosystems for...",
+      "category": "research",
+      "severity": "info",
+      "occurredAt": "2026-11-10T16:00:00Z",
+      "collectedAt": "2026-11-10T21:49:08.768150Z",
+      "source": "CNCF",
+      "sourceId": "cncf",
+      "sourceUrl": "https://www.cncf.io/announcements/2026/11/10/cncf-welcomes-coreweave-as-a-platinum-member-to-further-open-source-ai-infrastructure/",
+      "repository": null,
+      "provenance": "automatic",
+      "location": null,
+      "reviewStatus": "source-published",
+      "tags": [
+        "CNCF"
+      ]
+    },
+    {
+      "id": "1d9c8988845ec91bcd0c",
+      "title": "Open Cluster Management (OCM) becomes a CNCF Incubating Project",
+      "summary": "The CNCF Technical Oversight Committee (TOC) voted to accept Open Cluster Management as a CNCF incubating project. Open Cluster Management is an open source project that simplifies the management of Kubernetes clusters across cloud, on-premises, and...",
+      "category": "research",
+      "severity": "info",
+      "occurredAt": "2026-11-10T16:00:00Z",
+      "collectedAt": "2026-11-10T21:49:08.768195Z",
+      "source": "CNCF",
+      "sourceId": "cncf",
+      "sourceUrl": "https://www.cncf.io/blog/2026/11/10/open-cluster-management-ocm-becomes-a-cncf-incubating-project/",
+      "repository": null,
+      "provenance": "automatic",
+      "location": null,
+      "reviewStatus": "source-published",
+      "tags": [
+        "CNCF"
+      ]
+    },
+    {
+      "id": "39cea1de293b88da86b0",
+      "title": "CNCF Welcomes Vultr as a Platinum Member to Advance Open and Sovereign Cloud Infrastructure for AI",
+      "summary": "Upgrade extends Vultr’s 5-year history with CNCF and expands its voice in shaping open interoperability for AI factory infrastructure at global scale Key Highlights KUBECON + CLOUDNATIVECON NORTH AMERICA, SALT LAKE CITY – November 10, 2026–...",
+      "category": "research",
+      "severity": "info",
+      "occurredAt": "2026-11-10T16:00:00Z",
+      "collectedAt": "2026-11-10T21:49:08.768239Z",
+      "source": "CNCF",
+      "sourceId": "cncf",
+      "sourceUrl": "https://www.cncf.io/announcements/2026/11/10/cncf-welcomes-vultr-as-a-platinum-member-to-advance-open-and-sovereign-cloud-infrastructure-for-ai/",
+      "repository": null,
+      "provenance": "automatic",
+      "location": null,
+      "reviewStatus": "source-published",
+      "tags": [
+        "CNCF"
+      ]
+    },
+    {
+      "id": "9b94450f1bed519b2568",
+      "title": "CNCF and SlashData Report Finds Cloud Native Developers Are More AI-Ready, Global Population Surpasses 21 Million",
+      "summary": "New research released finds 75% of cloud native developers use AI coding tools, compared to 55% of non-cloud native developer peers Key Highlights: SALT LAKE CITY – KubeCon + CloudNativeCon North America – Nov. 10, 2026...",
+      "category": "research",
+      "severity": "info",
+      "occurredAt": "2026-11-10T16:00:00Z",
+      "collectedAt": "2026-11-10T21:49:08.768299Z",
+      "source": "CNCF",
+      "sourceId": "cncf",
+      "sourceUrl": "https://www.cncf.io/announcements/2026/11/10/cncf-and-slashdata-report-finds-cloud-native-developers-are-more-ai-ready-global-population-surpasses-21-million/",
+      "repository": null,
+      "provenance": "automatic",
+      "location": null,
+      "reviewStatus": "source-published",
+      "tags": [
+        "CNCF"
+      ]
+    },
+    {
+      "id": "a7a97a13955b8bcc5dbb",
+      "title": "CNCF Welcomes Qualcomm Upgrade to Gold Membership to Advance AI Infrastructure Across the Edge-to-Cloud Continuum",
+      "summary": "Key Highlights KubeCon + CloudNativeCon North America, SALT LAKE CITY, UT – November 10, 2026 – The Cloud Native Computing Foundation® (CNCF®), which builds sustainable ecosystems for cloud native software, today announced that Qualcomm Technologies has...",
+      "category": "research",
+      "severity": "info",
+      "occurredAt": "2026-11-10T16:00:00Z",
+      "collectedAt": "2026-11-10T21:49:08.768346Z",
+      "source": "CNCF",
+      "sourceId": "cncf",
+      "sourceUrl": "https://www.cncf.io/announcements/2026/11/10/cncf-welcomes-qualcomm-upgrade-to-gold-membership-to-advance-ai-infrastructure-across-the-edge-to-cloud-continuum/",
+      "repository": null,
+      "provenance": "automatic",
+      "location": null,
+      "reviewStatus": "source-published",
+      "tags": [
+        "CNCF"
+      ]
+    },
+    {
+      "id": "16f8b59b84903687af99",
+      "title": "Donating KubeRay to CNCF",
+      "summary": "The PARK stack (PyTorch, AI models, Ray, and Kubernetes) is emerging as the de facto open source standard for production AI. Within that stack, KubeRay has become the bridge connecting scalable AI applications built on Ray...",
+      "category": "research",
+      "severity": "info",
+      "occurredAt": "2026-11-10T16:00:00Z",
+      "collectedAt": "2026-11-10T21:49:08.768381Z",
+      "source": "CNCF",
+      "sourceId": "cncf",
+      "sourceUrl": "https://www.cncf.io/blog/2026/11/10/donating-kuberay-to-cncf/",
+      "repository": null,
+      "provenance": "automatic",
+      "location": null,
+      "reviewStatus": "source-published",
+      "tags": [
+        "CNCF"
+      ]
+    },
+    {
+      "id": "144c26b16cd1e891dcab",
+      "title": "CNCF and SlashData Report Finds Platform Engineering Strategies Are Shaping AI Infrastructure Adoption",
+      "summary": "Latest research finds 54% of developers with independently managed tooling use hybrid approaches for AI workflows, compared to just 5% at organizations building custom internal platforms Key Highlights: SALT LAKE CITY – KubeCon + CloudNativeCon North...",
+      "category": "research",
+      "severity": "info",
+      "occurredAt": "2026-11-10T16:00:00Z",
+      "collectedAt": "2026-11-10T21:49:08.768423Z",
+      "source": "CNCF",
+      "sourceId": "cncf",
+      "sourceUrl": "https://www.cncf.io/announcements/2026/11/10/cncf-and-slashdata-report-finds-platform-engineering-strategies-are-shaping-ai-infrastructure-adoption/",
+      "repository": null,
+      "provenance": "automatic",
+      "location": null,
+      "reviewStatus": "source-published",
+      "tags": [
+        "CNCF"
+      ]
+    },
+    {
+      "id": "9cbf6443f0a57c5905d3",
+      "title": "CNCF Hits Major Milestones with Global Community Growth, Record Industry Investment and a New Generation of Projects to Build AI Systems in Production",
+      "summary": "New Sandbox projects, including Agent Substrate and OpenShell, expand CNCF’s portfolio to 231 projects as the community adds over 5.5 million cloud native developers in 12 months, welcomes eight Platinum memberships and brings together 82,000 attendees...",
+      "category": "research",
+      "severity": "info",
+      "occurredAt": "2026-11-10T16:00:00Z",
+      "collectedAt": "2026-11-10T21:49:08.768467Z",
+      "source": "CNCF",
+      "sourceId": "cncf",
+      "sourceUrl": "https://www.cncf.io/announcements/2026/11/10/cncf-hits-major-milestones-with-global-community-growth-record-industry-investment-and-a-new-generation-of-projects-to-build-ai-systems-in-production/",
+      "repository": null,
+      "provenance": "automatic",
+      "location": null,
+      "reviewStatus": "source-published",
+      "tags": [
+        "CNCF"
+      ]
+    },
+    {
+      "id": "fdeea527d80c437d8099",
+      "title": "CNCF Launches Certified Kubernetes Network Engineer Certification (CKNE) to Advance Production Ready Networking Skills for AI Era",
+      "summary": "New certification validates specialized expertise in Kubernetes networking, security and troubleshooting as demand for cloud native skills grows Key Highlights SALT LAKE CITY – KubeCon + CloudNativeCon North America – November 10, 2026 – The Cloud...",
+      "category": "research",
+      "severity": "info",
+      "occurredAt": "2026-11-10T16:00:00Z",
+      "collectedAt": "2026-11-10T21:49:08.768512Z",
+      "source": "CNCF",
+      "sourceId": "cncf",
+      "sourceUrl": "https://www.cncf.io/announcements/2026/11/10/cncf-launches-certified-kubernetes-network-engineer-certification-ckne-to-advance-production-ready-networking-skills-for-ai-era/",
+      "repository": null,
+      "provenance": "automatic",
+      "location": null,
+      "reviewStatus": "source-published",
+      "tags": [
+        "CNCF"
+      ]
+    },
     {
       "id": "08afc6ecaf316ec068f5",
       "title": "One flag, many guardrails: Making a platform safe enough to delegate",
@@ -1682,8 +1891,8 @@
       "name": "Kubernetes",
       "url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-11-10T15:49:12.352537Z",
-      "lastSuccess": "2026-11-10T15:49:12.894934Z",
+      "lastAttempt": "2026-11-10T21:49:03.377422Z",
+      "lastSuccess": "2026-11-10T21:49:03.761093Z",
       "count": 6,
       "status": "ok"
     },
@@ -1692,8 +1901,8 @@
       "name": "PyTorch",
       "url": "https://api.github.com/repos/pytorch/pytorch/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-11-10T15:49:13.045080Z",
-      "lastSuccess": "2026-11-10T15:49:14.000253Z",
+      "lastAttempt": "2026-11-10T21:49:03.911348Z",
+      "lastSuccess": "2026-11-10T21:49:04.656647Z",
       "count": 10,
       "status": "ok"
     },
@@ -1702,8 +1911,8 @@
       "name": "vLLM",
       "url": "https://api.github.com/repos/vllm-project/vllm/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-11-10T15:49:14.150400Z",
-      "lastSuccess": "2026-11-10T15:49:14.962774Z",
+      "lastAttempt": "2026-11-10T21:49:04.806763Z",
+      "lastSuccess": "2026-11-10T21:49:05.363755Z",
       "count": 10,
       "status": "ok"
     },
@@ -1712,8 +1921,8 @@
       "name": "VS Code",
       "url": "https://api.github.com/repos/microsoft/vscode/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-11-10T15:49:15.112922Z",
-      "lastSuccess": "2026-11-10T15:49:15.724675Z",
+      "lastAttempt": "2026-11-10T21:49:05.513999Z",
+      "lastSuccess": "2026-11-10T21:49:05.869659Z",
       "count": 10,
       "status": "ok"
     },
@@ -1722,8 +1931,8 @@
       "name": "Rust",
       "url": "https://api.github.com/repos/rust-lang/rust/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-11-10T15:49:15.874838Z",
-      "lastSuccess": "2026-11-10T15:49:16.468420Z",
+      "lastAttempt": "2026-11-10T21:49:06.019827Z",
+      "lastSuccess": "2026-11-10T21:49:06.426084Z",
       "count": 10,
       "status": "ok"
     },
@@ -1732,8 +1941,8 @@
       "name": "DuckDB",
       "url": "https://api.github.com/repos/duckdb/duckdb/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-11-10T15:49:16.618583Z",
-      "lastSuccess": "2026-11-10T15:49:17.618400Z",
+      "lastAttempt": "2026-11-10T21:49:06.576200Z",
+      "lastSuccess": "2026-11-10T21:49:07.209069Z",
       "count": 10,
       "status": "ok"
     },
@@ -1742,8 +1951,8 @@
       "name": "OpenSSF",
       "url": "https://openssf.org/feed/",
       "kind": "rss",
-      "lastAttempt": "2026-11-10T15:49:17.768515Z",
-      "lastSuccess": "2026-11-10T15:49:18.534798Z",
+      "lastAttempt": "2026-11-10T21:49:07.359329Z",
+      "lastSuccess": "2026-11-10T21:49:08.418034Z",
       "count": 10,
       "status": "ok"
     },
@@ -1752,8 +1961,8 @@
       "name": "CNCF",
       "url": "https://www.cncf.io/feed/",
       "kind": "rss",
-      "lastAttempt": "2026-11-10T15:49:18.684917Z",
-      "lastSuccess": "2026-11-10T15:49:18.970199Z",
+      "lastAttempt": "2026-11-10T21:49:08.568228Z",
+      "lastSuccess": "2026-11-10T21:49:08.768550Z",
       "count": 10,
       "status": "ok"
     },
@@ -1762,8 +1971,8 @@
       "name": "OpenDipper 编辑录入",
       "url": "https://api.github.com/repos/X-lab2017/open-dipper/issues?labels=event-approved&state=open&per_page=100",
       "kind": "github-issues",
-      "lastAttempt": "2026-11-10T15:49:19.120345Z",
-      "lastSuccess": "2026-11-10T15:49:19.567723Z",
+      "lastAttempt": "2026-11-10T21:49:08.918927Z",
+      "lastSuccess": "2026-11-10T21:49:09.322724Z",
       "count": 0,
       "status": "ok"
     }
