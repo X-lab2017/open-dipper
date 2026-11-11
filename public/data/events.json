@@ -1,8 +1,122 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-11T09:27:27.276992Z",
+  "generatedAt": "2026-11-11T17:28:20.958511Z",
   "retentionDays": 90,
   "events": [
+    {
+      "id": "fd65c4e7d36c9e9b7607",
+      "title": "Introducing CNCF User Groups: Long-lived homes for End User collaboration",
+      "summary": "The CNCF End User Community is launching its User Group Program at KubeCon + CloudNativeCon North America. These are long-lived groups, each built around an industry vertical or problem domain, that serves the common need of...",
+      "category": "research",
+      "severity": "info",
+      "occurredAt": "2026-11-11T16:41:17Z",
+      "collectedAt": "2026-11-11T17:28:20.349793Z",
+      "source": "CNCF",
+      "sourceId": "cncf",
+      "sourceUrl": "https://www.cncf.io/blog/2026/11/11/introducing-cncf-user-groups-long-lived-homes-for-end-user-collaboration/",
+      "repository": null,
+      "provenance": "automatic",
+      "location": null,
+      "reviewStatus": "source-published",
+      "tags": [
+        "CNCF"
+      ]
+    },
+    {
+      "id": "1d4a1a2426fbedcf1537",
+      "title": "Meta Wins CNCF End User Case Study Contest for Accelerating AI Infrastructure Deployments From Hours to Minutes",
+      "summary": "Using Argo CD and Kargo, Meta is building a GitOps platform to streamline application delivery across 100 Kubernetes clusters supporting AI research and inference Key Highlights SALT LAKE CITY – KubeCon + CloudNativeCon North America 2026...",
+      "category": "research",
+      "severity": "info",
+      "occurredAt": "2026-11-11T16:00:00Z",
+      "collectedAt": "2026-11-11T17:28:20.349843Z",
+      "source": "CNCF",
+      "sourceId": "cncf",
+      "sourceUrl": "https://www.cncf.io/announcements/2026/11/11/meta-wins-cncf-end-user-case-study-contest-for-accelerating-ai-infrastructure-deployments-from-hours-to-minutes/",
+      "repository": null,
+      "provenance": "automatic",
+      "location": null,
+      "reviewStatus": "source-published",
+      "tags": [
+        "CNCF"
+      ]
+    },
+    {
+      "id": "e7e3833f8c83031393b5",
+      "title": "CNCF Welcomes Adyen as Platinum End User Member to Advance Open Source Financial Infrastructure",
+      "summary": "Operating over 100 Kubernetes clusters across €1.39T in volume, Adyen brings production-scale fintech expertise to CNCF governance and open source projects Key Highlights KUBECON + CLOUDNATIVECON NORTH AMERICA, SALT LAKE CITY – November 11, 2026 –...",
+      "category": "research",
+      "severity": "info",
+      "occurredAt": "2026-11-11T16:00:00Z",
+      "collectedAt": "2026-11-11T17:28:20.349874Z",
+      "source": "CNCF",
+      "sourceId": "cncf",
+      "sourceUrl": "https://www.cncf.io/announcements/2026/11/11/cncf-welcomes-adyen-as-platinum-end-user-member-to-advance-open-source-financial-infrastructure/",
+      "repository": null,
+      "provenance": "automatic",
+      "location": null,
+      "reviewStatus": "source-published",
+      "tags": [
+        "CNCF"
+      ]
+    },
+    {
+      "id": "518e3b625fe5e02c4462",
+      "title": "OpenShell on Kubernetes: A guide for platform engineers",
+      "summary": "What OpenShell is AI agents do more than call APIs. They run shells, install packages, read files, and open network connections. Often they act on text they pulled from the internet a minute earlier. So every...",
+      "category": "research",
+      "severity": "info",
+      "occurredAt": "2026-11-11T15:50:30Z",
+      "collectedAt": "2026-11-11T17:28:20.349897Z",
+      "source": "CNCF",
+      "sourceId": "cncf",
+      "sourceUrl": "https://www.cncf.io/blog/2026/11/11/openshell-on-kubernetes-a-guide-for-platform-engineers/",
+      "repository": null,
+      "provenance": "automatic",
+      "location": null,
+      "reviewStatus": "source-published",
+      "tags": [
+        "CNCF"
+      ]
+    },
+    {
+      "id": "c6da24e82ec35c850af2",
+      "title": "Platform engineering needs to become more human…and less",
+      "summary": "Even my family thinks I’m a little robotic. Logical, linear, sequential, methodical. But hey, I’m an engineer, and that’s part of what makes me good at my job. If I were operating on the same volatile...",
+      "category": "research",
+      "severity": "info",
+      "occurredAt": "2026-11-11T12:00:00Z",
+      "collectedAt": "2026-11-11T17:28:20.349921Z",
+      "source": "CNCF",
+      "sourceId": "cncf",
+      "sourceUrl": "https://www.cncf.io/blog/2026/11/11/platform-engineering-needs-to-become-more-humanand-less/",
+      "repository": null,
+      "provenance": "automatic",
+      "location": null,
+      "reviewStatus": "source-published",
+      "tags": [
+        "CNCF"
+      ]
+    },
+    {
+      "id": "3b85c0b37d61001115f0",
+      "title": "VS Code · 1.146.0",
+      "summary": "https://code.visualstudio.com/updates/v1_146",
+      "category": "release",
+      "severity": "info",
+      "occurredAt": "2026-11-11T10:07:14Z",
+      "collectedAt": "2026-11-11T17:28:17.420465Z",
+      "source": "VS Code",
+      "sourceId": "release-vscode",
+      "sourceUrl": "https://github.com/microsoft/vscode/releases/tag/1.146.0",
+      "repository": "microsoft/vscode",
+      "provenance": "automatic",
+      "location": null,
+      "reviewStatus": "source-published",
+      "tags": [
+        "VS Code"
+      ]
+    },
     {
       "id": "79e3d50eb075ae8a9e55",
       "title": "VS Code · 1.145.3",
@@ -1891,8 +2005,8 @@
       "name": "Kubernetes",
       "url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-11-11T09:27:21.059012Z",
-      "lastSuccess": "2026-11-11T09:27:21.512045Z",
+      "lastAttempt": "2026-11-11T17:28:14.782256Z",
+      "lastSuccess": "2026-11-11T17:28:15.196602Z",
       "count": 6,
       "status": "ok"
     },
@@ -1901,8 +2015,8 @@
       "name": "PyTorch",
       "url": "https://api.github.com/repos/pytorch/pytorch/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-11-11T09:27:21.662189Z",
-      "lastSuccess": "2026-11-11T09:27:22.366950Z",
+      "lastAttempt": "2026-11-11T17:28:15.346716Z",
+      "lastSuccess": "2026-11-11T17:28:15.992401Z",
       "count": 10,
       "status": "ok"
     },
@@ -1911,8 +2025,8 @@
       "name": "vLLM",
       "url": "https://api.github.com/repos/vllm-project/vllm/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-11-11T09:27:22.517092Z",
-      "lastSuccess": "2026-11-11T09:27:23.163855Z",
+      "lastAttempt": "2026-11-11T17:28:16.142530Z",
+      "lastSuccess": "2026-11-11T17:28:16.830691Z",
       "count": 10,
       "status": "ok"
     },
@@ -1921,8 +2035,8 @@
       "name": "VS Code",
       "url": "https://api.github.com/repos/microsoft/vscode/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-11-11T09:27:23.314002Z",
-      "lastSuccess": "2026-11-11T09:27:23.792504Z",
+      "lastAttempt": "2026-11-11T17:28:16.980840Z",
+      "lastSuccess": "2026-11-11T17:28:17.420602Z",
       "count": 10,
       "status": "ok"
     },
@@ -1931,8 +2045,8 @@
       "name": "Rust",
       "url": "https://api.github.com/repos/rust-lang/rust/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-11-11T09:27:23.942633Z",
-      "lastSuccess": "2026-11-11T09:27:24.440070Z",
+      "lastAttempt": "2026-11-11T17:28:17.570751Z",
+      "lastSuccess": "2026-11-11T17:28:17.996647Z",
       "count": 10,
       "status": "ok"
     },
@@ -1941,8 +2055,8 @@
       "name": "DuckDB",
       "url": "https://api.github.com/repos/duckdb/duckdb/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-11-11T09:27:24.590239Z",
-      "lastSuccess": "2026-11-11T09:27:25.237898Z",
+      "lastAttempt": "2026-11-11T17:28:18.146809Z",
+      "lastSuccess": "2026-11-11T17:28:18.820869Z",
       "count": 10,
       "status": "ok"
     },
@@ -1951,8 +2065,8 @@
       "name": "OpenSSF",
       "url": "https://openssf.org/feed/",
       "kind": "rss",
-      "lastAttempt": "2026-11-11T09:27:25.388037Z",
-      "lastSuccess": "2026-11-11T09:27:26.304460Z",
+      "lastAttempt": "2026-11-11T17:28:18.971009Z",
+      "lastSuccess": "2026-11-11T17:28:19.815200Z",
       "count": 10,
       "status": "ok"
     },
@@ -1961,8 +2075,8 @@
       "name": "CNCF",
       "url": "https://www.cncf.io/feed/",
       "kind": "rss",
-      "lastAttempt": "2026-11-11T09:27:26.454633Z",
-      "lastSuccess": "2026-11-11T09:27:26.642061Z",
+      "lastAttempt": "2026-11-11T17:28:19.965331Z",
+      "lastSuccess": "2026-11-11T17:28:20.350074Z",
       "count": 10,
       "status": "ok"
     },
@@ -1971,8 +2085,8 @@
       "name": "OpenDipper 编辑录入",
       "url": "https://api.github.com/repos/X-lab2017/open-dipper/issues?labels=event-approved&state=open&per_page=100",
       "kind": "github-issues",
-      "lastAttempt": "2026-11-11T09:27:26.792241Z",
-      "lastSuccess": "2026-11-11T09:27:27.126179Z",
+      "lastAttempt": "2026-11-11T17:28:20.500206Z",
+      "lastSuccess": "2026-11-11T17:28:20.807853Z",
       "count": 0,
       "status": "ok"
     }
