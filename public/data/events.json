@@ -1,8 +1,46 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-12T13:19:18.156254Z",
+  "generatedAt": "2026-11-12T21:07:41.232389Z",
   "retentionDays": 90,
   "events": [
+    {
+      "id": "199b6ae7d429339ab813",
+      "title": "Rust · Rust 1.100.0",
+      "summary": "## Language - [Stabilize never type](https://github.com/rust-lang/rust/pull/155499) - [Lint against repeated `#[repr(..)]` attributes](https://github.com/rust-lang/rust/pull/157036) - [Stabilize `extern \"custom\"`](https://github.com/rust-lang/rust/pull/158504) - [Extend `dropping_references`, `dropping_copy_types` and `undropped_manually_drops` lints to `drop_in_place`](https://github.com/rust-lang/rust/pull/160229) - [`unfulfilled_lint_expectati",
+      "category": "release",
+      "severity": "info",
+      "occurredAt": "2026-11-12T18:19:42Z",
+      "collectedAt": "2026-11-12T21:07:38.468357Z",
+      "source": "Rust",
+      "sourceId": "release-rust",
+      "sourceUrl": "https://github.com/rust-lang/rust/releases/tag/1.100.0",
+      "repository": "rust-lang/rust",
+      "provenance": "automatic",
+      "location": null,
+      "reviewStatus": "source-published",
+      "tags": [
+        "Rust"
+      ]
+    },
+    {
+      "id": "eb7fada9f1117c4ef019",
+      "title": "CNCF Recognizes Cloud Native Champions in 2026 Community Awards",
+      "summary": "Annual awards honor leaders, maintainers, and documentarians building open source infrastructure Key Highlights KUBECON + CLOUDNATIVECON NORTH AMERICA, SALT LAKE CITY – November 12, 2026 – The Cloud Native Computing Foundation® (CNCF®), which builds sustainable ecosystems...",
+      "category": "research",
+      "severity": "info",
+      "occurredAt": "2026-11-12T16:00:00Z",
+      "collectedAt": "2026-11-12T21:07:40.619386Z",
+      "source": "CNCF",
+      "sourceId": "cncf",
+      "sourceUrl": "https://www.cncf.io/announcements/2026/11/12/cncf-recognizes-cloud-native-champions-in-2026-community-awards/",
+      "repository": null,
+      "provenance": "automatic",
+      "location": null,
+      "reviewStatus": "source-published",
+      "tags": [
+        "CNCF"
+      ]
+    },
     {
       "id": "9bdc664a4e5e6d63afc4",
       "title": "Gang scheduling and topology-aware placement for AI training in Kubernetes",
@@ -2024,8 +2062,8 @@
       "name": "Kubernetes",
       "url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-11-12T13:19:12.483514Z",
-      "lastSuccess": "2026-11-12T13:19:12.863151Z",
+      "lastAttempt": "2026-11-12T21:07:35.240428Z",
+      "lastSuccess": "2026-11-12T21:07:35.620984Z",
       "count": 6,
       "status": "ok"
     },
@@ -2034,8 +2072,8 @@
       "name": "PyTorch",
       "url": "https://api.github.com/repos/pytorch/pytorch/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-11-12T13:19:13.013314Z",
-      "lastSuccess": "2026-11-12T13:19:13.679169Z",
+      "lastAttempt": "2026-11-12T21:07:35.771100Z",
+      "lastSuccess": "2026-11-12T21:07:36.486234Z",
       "count": 10,
       "status": "ok"
     },
@@ -2044,8 +2082,8 @@
       "name": "vLLM",
       "url": "https://api.github.com/repos/vllm-project/vllm/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-11-12T13:19:13.829333Z",
-      "lastSuccess": "2026-11-12T13:19:14.397296Z",
+      "lastAttempt": "2026-11-12T21:07:36.636357Z",
+      "lastSuccess": "2026-11-12T21:07:37.213906Z",
       "count": 10,
       "status": "ok"
     },
@@ -2054,8 +2092,8 @@
       "name": "VS Code",
       "url": "https://api.github.com/repos/microsoft/vscode/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-11-12T13:19:14.547431Z",
-      "lastSuccess": "2026-11-12T13:19:14.916742Z",
+      "lastAttempt": "2026-11-12T21:07:37.364022Z",
+      "lastSuccess": "2026-11-12T21:07:37.810761Z",
       "count": 10,
       "status": "ok"
     },
@@ -2064,8 +2102,8 @@
       "name": "Rust",
       "url": "https://api.github.com/repos/rust-lang/rust/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-11-12T13:19:15.066887Z",
-      "lastSuccess": "2026-11-12T13:19:15.660452Z",
+      "lastAttempt": "2026-11-12T21:07:37.960868Z",
+      "lastSuccess": "2026-11-12T21:07:38.469314Z",
       "count": 10,
       "status": "ok"
     },
@@ -2074,8 +2112,8 @@
       "name": "DuckDB",
       "url": "https://api.github.com/repos/duckdb/duckdb/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-11-12T13:19:15.810604Z",
-      "lastSuccess": "2026-11-12T13:19:16.503337Z",
+      "lastAttempt": "2026-11-12T21:07:38.619557Z",
+      "lastSuccess": "2026-11-12T21:07:39.380767Z",
       "count": 10,
       "status": "ok"
     },
@@ -2084,8 +2122,8 @@
       "name": "OpenSSF",
       "url": "https://openssf.org/feed/",
       "kind": "rss",
-      "lastAttempt": "2026-11-12T13:19:16.653473Z",
-      "lastSuccess": "2026-11-12T13:19:17.245072Z",
+      "lastAttempt": "2026-11-12T21:07:39.530905Z",
+      "lastSuccess": "2026-11-12T21:07:40.254494Z",
       "count": 10,
       "status": "ok"
     },
@@ -2094,8 +2132,8 @@
       "name": "CNCF",
       "url": "https://www.cncf.io/feed/",
       "kind": "rss",
-      "lastAttempt": "2026-11-12T13:19:17.395223Z",
-      "lastSuccess": "2026-11-12T13:19:17.545731Z",
+      "lastAttempt": "2026-11-12T21:07:40.404657Z",
+      "lastSuccess": "2026-11-12T21:07:40.619690Z",
       "count": 10,
       "status": "ok"
     },
@@ -2104,8 +2142,8 @@
       "name": "OpenDipper 编辑录入",
       "url": "https://api.github.com/repos/X-lab2017/open-dipper/issues?labels=event-approved&state=open&per_page=100",
       "kind": "github-issues",
-      "lastAttempt": "2026-11-12T13:19:17.695853Z",
-      "lastSuccess": "2026-11-12T13:19:18.005628Z",
+      "lastAttempt": "2026-11-12T21:07:40.769808Z",
+      "lastSuccess": "2026-11-12T21:07:41.081721Z",
       "count": 0,
       "status": "ok"
     }
