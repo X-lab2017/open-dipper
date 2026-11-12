@@ -4,20 +4,20 @@
     "id": "lf",
     "name": "Linux Foundation Events",
     "url": "https://events.linuxfoundation.org/",
-    "capturedAt": "2026-11-11",
+    "capturedAt": "2026-11-12",
     "sourceUpdatedAt": null,
     "license": "Factual event metadata with source attribution; no blanket license for website content"
   },
   "pages": [
     {
       "url": "https://events.linuxfoundation.org/about/calendar/",
-      "sha256": "e97a20a3feaaf0b11c655d8668a8da1bf7e1a14cffd2987a67076abea588c584",
-      "count": 52
+      "sha256": "584ba37e1efc6069656a6ff4925d650085a748676440a204a38c390a43efcd37",
+      "count": 54
     },
     {
       "url": "https://events.linuxfoundation.org/about/community/",
-      "sha256": "58cc8ff632396b1f9f2ebb68646cb79e136333f49bec7be173ce746542061171",
-      "count": 46
+      "sha256": "dc9aba6ab9452dd05bad76131fb5e587c43454928bdf117990854834af3c595c",
+      "count": 44
     }
   ],
   "records": [
@@ -2331,6 +2331,105 @@
       "sourcePage": "https://events.linuxfoundation.org/about/community/",
       "listing": "community",
       "capturedAt": "2026-11-11"
+    },
+    {
+      "sourceId": "post-328185",
+      "title": "AGNTSummit Tokyo",
+      "url": "https://events.linuxfoundation.org/agntsummit-tokyo/",
+      "dateLabel": "Nov 9–10, 2027",
+      "location": "Tokyo, Japan",
+      "cfpStatus": "Details Coming Soon",
+      "sourcePage": "https://events.linuxfoundation.org/about/calendar/",
+      "listing": "calendar",
+      "capturedAt": "2026-11-12"
+    },
+    {
+      "sourceId": "post-328263",
+      "title": "AGNTSummit Nairobi",
+      "url": "https://events.linuxfoundation.org/agntsummit-nairobi/",
+      "dateLabel": "Nov 17–18, 2027",
+      "location": "Nairobi, Kenya",
+      "cfpStatus": "Details Coming Soon",
+      "sourcePage": "https://events.linuxfoundation.org/about/calendar/",
+      "listing": "calendar",
+      "capturedAt": "2026-11-12"
+    },
+    {
+      "sourceId": "post-329183",
+      "title": "KCD Porto 2026 | Collab with DevOps Days Portugal",
+      "url": "https://community2.cncf.io/events/details/cncf-kcd-porto-presents-kcd-porto-2026-collab-with-devops-days-portugal/",
+      "dateLabel": "Nov 19–20, 2026",
+      "location": "Porto, Portugal",
+      "cfpStatus": "",
+      "sourcePage": "https://events.linuxfoundation.org/about/community/",
+      "listing": "community",
+      "capturedAt": "2026-11-12"
+    },
+    {
+      "sourceId": "post-329179",
+      "title": "KCD Hangzhou 2026",
+      "url": "https://community2.cncf.io/events/details/cncf-kcd-hangzhou-presents-kcd-hangzhou-2026/",
+      "dateLabel": "Nov 28, 2026",
+      "location": "杭州, China",
+      "cfpStatus": "",
+      "sourcePage": "https://events.linuxfoundation.org/about/community/",
+      "listing": "community",
+      "capturedAt": "2026-11-12"
+    },
+    {
+      "sourceId": "post-329180",
+      "title": "KCD Suisse Romande 2026",
+      "url": "https://community2.cncf.io/events/details/cncf-kcd-suisse-romande-presents-kcd-suisse-romande-2026/",
+      "dateLabel": "Dec 9–10, 2026",
+      "location": "Meyrin, Switzerland",
+      "cfpStatus": "",
+      "sourcePage": "https://events.linuxfoundation.org/about/community/",
+      "listing": "community",
+      "capturedAt": "2026-11-12"
+    },
+    {
+      "sourceId": "post-329181",
+      "title": "KCD Provence 2026",
+      "url": "https://community2.cncf.io/events/details/cncf-kcd-provence-presents-kcd-provence-2026/",
+      "dateLabel": "Dec 10, 2026",
+      "location": "Aix-en-Provence, France",
+      "cfpStatus": "",
+      "sourcePage": "https://events.linuxfoundation.org/about/community/",
+      "listing": "community",
+      "capturedAt": "2026-11-12"
+    },
+    {
+      "sourceId": "post-329178",
+      "title": "KCD Florida 2026 – Miami",
+      "url": "https://community2.cncf.io/events/details/cncf-kcd-florida-presents-kcd-florida-2026-miami/",
+      "dateLabel": "Dec 11, 2026",
+      "location": "Miami, United States",
+      "cfpStatus": "",
+      "sourcePage": "https://events.linuxfoundation.org/about/community/",
+      "listing": "community",
+      "capturedAt": "2026-11-12"
+    },
+    {
+      "sourceId": "post-329184",
+      "title": "KCD Panama",
+      "url": "https://community2.cncf.io/events/details/cncf-kcd-panama-presents-kcd-panama/",
+      "dateLabel": "Jan 22, 2027",
+      "location": "Panamá, Panama",
+      "cfpStatus": "",
+      "sourcePage": "https://events.linuxfoundation.org/about/community/",
+      "listing": "community",
+      "capturedAt": "2026-11-12"
+    },
+    {
+      "sourceId": "post-329182",
+      "title": "KCD Washington DC",
+      "url": "https://community2.cncf.io/events/details/cncf-kcd-washington-dc-presents-kcd-washington-dc-1/",
+      "dateLabel": "Apr 13, 2027",
+      "location": "Washington DC, United States",
+      "cfpStatus": "",
+      "sourcePage": "https://events.linuxfoundation.org/about/community/",
+      "listing": "community",
+      "capturedAt": "2026-11-12"
     }
   ]
 }

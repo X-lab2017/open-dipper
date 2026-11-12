@@ -5,8 +5,8 @@
       "id": "ccf",
       "name": "Conference Partner",
       "url": "https://www.myhuiban.com/conferences/ccf",
-      "sourceUpdatedAt": "2026-11-10T13:43:48+00:00",
-      "capturedAt": "2026-11-11",
+      "sourceUpdatedAt": "2026-11-11T12:55:17+00:00",
+      "capturedAt": "2026-11-12",
       "count": 392
     },
     {
@@ -24,16 +24,16 @@
       "id": "lf",
       "name": "Linux Foundation Events",
       "url": "https://events.linuxfoundation.org/",
-      "capturedAt": "2026-11-11",
+      "capturedAt": "2026-11-12",
       "sourceUpdatedAt": null,
       "license": "Factual event metadata with source attribution; no blanket license for website content",
-      "count": 211
+      "count": 220
     }
   ],
-  "sourceUpdatedAt": "2026-11-10T13:43:48+00:00",
-  "capturedAt": "2026-11-11",
-  "sourceCommit": "099792edbe9d932f74bba4b045665f5664a5a925",
-  "sourceSha256": "4dfafad74867e9f67b36f951a4d3a618b23b70b8f877aba45f748acd2c2af8ed",
+  "sourceUpdatedAt": "2026-11-11T12:55:17+00:00",
+  "capturedAt": "2026-11-12",
+  "sourceCommit": "2a909c4eb80d4cef382a0a35e907170290fc4688",
+  "sourceSha256": "df8c3035ae43dc540913605187f2b0ba2afc11c378a5edc3a2c67e6e67b11449",
   "geographySource": "https://github.com/nvkelso/natural-earth-vector/blob/ca96624a56bd078437bca8184e78163e5039ad19/geojson/ne_50m_populated_places_simple.geojson",
   "rankSource": "https://www.ccf.org.cn/Academic_Evaluation/By_category/",
   "rankVerification": "Third-party labels; not independently reconciled against the full CCF seventh edition.",
@@ -1488,14 +1488,14 @@
       "rank": "B",
       "kind": "academic",
       "topic": "other",
-      "startsAt": "2027-08-22",
-      "submissionDate": null,
-      "notificationDate": null,
+      "startsAt": "2027-08-21",
+      "submissionDate": "2027-02-15",
+      "notificationDate": "2027-05-17",
       "location": "Nijmegen, the Netherlands",
       "countryCode": "NLD",
       "point": null,
       "url": "https://www.myhuiban.com/conference/458",
-      "updatedAt": "2026-09-08",
+      "updatedAt": "2026-11-11",
       "extended": false,
       "source": "Conference Partner (myhuiban.com)",
       "sourceKey": "ccf"
@@ -5798,14 +5798,14 @@
       "rank": "C",
       "kind": "academic",
       "topic": "other",
-      "startsAt": "2027-08-22",
-      "submissionDate": null,
-      "notificationDate": null,
+      "startsAt": "2027-08-21",
+      "submissionDate": "2027-04-19",
+      "notificationDate": "2027-06-28",
       "location": "Nijmegen, the Netherlands",
       "countryCode": "NLD",
       "point": null,
       "url": "https://www.myhuiban.com/conference/1835",
-      "updatedAt": "2026-09-08",
+      "updatedAt": "2026-11-11",
       "extended": false,
       "source": "Conference Partner (myhuiban.com)",
       "sourceKey": "ccf"
@@ -5842,8 +5842,8 @@
       "kind": "academic",
       "topic": "other",
       "startsAt": "2027-07-12",
-      "submissionDate": null,
-      "notificationDate": null,
+      "submissionDate": "2027-01-18",
+      "notificationDate": "2027-03-19",
       "location": "Krakow, Poland",
       "countryCode": "POL",
       "point": {
@@ -5853,7 +5853,7 @@
         "naturalEarthId": 1159149709
       },
       "url": "https://www.myhuiban.com/conference/433",
-      "updatedAt": "2026-07-18",
+      "updatedAt": "2026-11-11",
       "extended": false,
       "source": "Conference Partner (myhuiban.com)",
       "sourceKey": "ccf"
@@ -5866,8 +5866,8 @@
       "kind": "academic",
       "topic": "interaction",
       "startsAt": "2027-06-15",
-      "submissionDate": null,
-      "notificationDate": null,
+      "submissionDate": "2027-02-05",
+      "notificationDate": "2027-04-30",
       "location": "Winnipeg, Manitoba, Canada",
       "countryCode": "CAN",
       "point": {
@@ -5877,7 +5877,7 @@
         "naturalEarthId": 1159151025
       },
       "url": "https://www.myhuiban.com/conference/284",
-      "updatedAt": "2026-08-18",
+      "updatedAt": "2026-11-11",
       "extended": false,
       "source": "Conference Partner (myhuiban.com)",
       "sourceKey": "ccf"
@@ -17238,7 +17238,7 @@
       "sourceKey": "lf",
       "sourceId": "post-322402",
       "sourceCategory": "community",
-      "capturedAt": "2026-11-11",
+      "capturedAt": "2026-11-12",
       "sourceUpdatedAt": null,
       "dateLabel": "Oct 27, 2026",
       "timezone": null,
@@ -17273,7 +17273,7 @@
       "sourceKey": "lf",
       "sourceId": "post-326321",
       "sourceCategory": "community",
-      "capturedAt": "2026-11-11",
+      "capturedAt": "2026-11-12",
       "sourceUpdatedAt": null,
       "dateLabel": "Oct 28, 2026",
       "timezone": null,
@@ -17313,7 +17313,7 @@
       "sourceKey": "lf",
       "sourceId": "post-320589",
       "sourceCategory": "community",
-      "capturedAt": "2026-11-11",
+      "capturedAt": "2026-11-12",
       "sourceUpdatedAt": null,
       "dateLabel": "Oct 28, 2026",
       "timezone": null,
@@ -17353,7 +17353,7 @@
       "sourceKey": "lf",
       "sourceId": "post-327283",
       "sourceCategory": "community",
-      "capturedAt": "2026-11-11",
+      "capturedAt": "2026-11-12",
       "sourceUpdatedAt": null,
       "dateLabel": "Oct 30, 2026",
       "timezone": null,
@@ -17736,7 +17736,7 @@
       "sourceKey": "lf",
       "sourceId": "post-327287",
       "sourceCategory": "community",
-      "capturedAt": "2026-11-11",
+      "capturedAt": "2026-11-12",
       "sourceUpdatedAt": null,
       "dateLabel": "Nov 19–20, 2026",
       "timezone": null,
@@ -17761,7 +17761,8 @@
         "lf-post-328776-2026",
         "lf-post-328793-2026",
         "lf-post-328810-2026",
-        "lf-post-329017-2026"
+        "lf-post-329017-2026",
+        "lf-post-329183-2026"
       ]
     },
     {
@@ -17786,7 +17787,7 @@
       "sourceKey": "lf",
       "sourceId": "post-327284",
       "sourceCategory": "community",
-      "capturedAt": "2026-11-11",
+      "capturedAt": "2026-11-12",
       "sourceUpdatedAt": null,
       "dateLabel": "Dec 9–10, 2026",
       "timezone": null,
@@ -17811,7 +17812,8 @@
         "lf-post-328773-2026",
         "lf-post-328790-2026",
         "lf-post-328807-2026",
-        "lf-post-329014-2026"
+        "lf-post-329014-2026",
+        "lf-post-329180-2026"
       ]
     },
     {
@@ -17836,7 +17838,7 @@
       "sourceKey": "lf",
       "sourceId": "post-327285",
       "sourceCategory": "community",
-      "capturedAt": "2026-11-11",
+      "capturedAt": "2026-11-12",
       "sourceUpdatedAt": null,
       "dateLabel": "Dec 10, 2026",
       "timezone": null,
@@ -17861,7 +17863,8 @@
         "lf-post-328774-2026",
         "lf-post-328791-2026",
         "lf-post-328808-2026",
-        "lf-post-329015-2026"
+        "lf-post-329015-2026",
+        "lf-post-329181-2026"
       ]
     },
     {
@@ -17891,7 +17894,7 @@
       "sourceKey": "lf",
       "sourceId": "post-327282",
       "sourceCategory": "community",
-      "capturedAt": "2026-11-11",
+      "capturedAt": "2026-11-12",
       "sourceUpdatedAt": null,
       "dateLabel": "Dec 11, 2026",
       "timezone": null,
@@ -17916,7 +17919,8 @@
         "lf-post-328771-2026",
         "lf-post-328788-2026",
         "lf-post-328805-2026",
-        "lf-post-329012-2026"
+        "lf-post-329012-2026",
+        "lf-post-329178-2026"
       ]
     },
     {
@@ -17946,7 +17950,7 @@
       "sourceKey": "lf",
       "sourceId": "post-327288",
       "sourceCategory": "community",
-      "capturedAt": "2026-11-11",
+      "capturedAt": "2026-11-12",
       "sourceUpdatedAt": null,
       "dateLabel": "Jan 22, 2027",
       "timezone": null,
@@ -17971,7 +17975,8 @@
         "lf-post-328777-2027",
         "lf-post-328794-2027",
         "lf-post-328811-2027",
-        "lf-post-329018-2027"
+        "lf-post-329018-2027",
+        "lf-post-329184-2027"
       ]
     },
     {
@@ -18076,7 +18081,7 @@
       "sourceKey": "lf",
       "sourceId": "post-327286",
       "sourceCategory": "community",
-      "capturedAt": "2026-11-11",
+      "capturedAt": "2026-11-12",
       "sourceUpdatedAt": null,
       "dateLabel": "Apr 13, 2027",
       "timezone": null,
@@ -18101,7 +18106,8 @@
         "lf-post-328775-2027",
         "lf-post-328792-2027",
         "lf-post-328809-2027",
-        "lf-post-329016-2027"
+        "lf-post-329016-2027",
+        "lf-post-329182-2027"
       ]
     },
     {
@@ -18304,7 +18310,8 @@
         "lf-post-328772-2026",
         "lf-post-328789-2026",
         "lf-post-328806-2026",
-        "lf-post-329013-2026"
+        "lf-post-329013-2026",
+        "lf-post-329179-2026"
       ]
     },
     {
@@ -19650,6 +19657,86 @@
       "cfpStatus": "",
       "sourcePages": [
         "https://events.linuxfoundation.org/about/community/"
+      ]
+    },
+    {
+      "id": "lf-post-328185-2027",
+      "short": "AGNTSummit Tokyo",
+      "name": "AGNTSummit Tokyo",
+      "rank": null,
+      "kind": "community",
+      "communityType": "conference",
+      "topic": "other",
+      "startsAt": "2027-11-09",
+      "endsAt": "2027-11-10",
+      "submissionDate": null,
+      "notificationDate": null,
+      "location": "Tokyo, Japan",
+      "countryCode": "JPN",
+      "point": {
+        "city": "Tokyo",
+        "latitude": 35.686963,
+        "longitude": 139.749462,
+        "naturalEarthId": 1159151609
+      },
+      "url": "https://events.linuxfoundation.org/agntsummit-tokyo/",
+      "updatedAt": null,
+      "extended": false,
+      "source": "Linux Foundation Events",
+      "sourceKey": "lf",
+      "sourceId": "post-328185",
+      "sourceCategory": "calendar",
+      "capturedAt": "2026-11-12",
+      "sourceUpdatedAt": null,
+      "dateLabel": "Nov 9–10, 2027",
+      "timezone": null,
+      "milestones": [],
+      "mode": "in-person",
+      "tags": [],
+      "warnings": [],
+      "cfpStatus": "Details Coming Soon",
+      "sourcePages": [
+        "https://events.linuxfoundation.org/about/calendar/"
+      ]
+    },
+    {
+      "id": "lf-post-328263-2027",
+      "short": "AGNTSummit Nairobi",
+      "name": "AGNTSummit Nairobi",
+      "rank": null,
+      "kind": "community",
+      "communityType": "conference",
+      "topic": "other",
+      "startsAt": "2027-11-17",
+      "endsAt": "2027-11-18",
+      "submissionDate": null,
+      "notificationDate": null,
+      "location": "Nairobi, Kenya",
+      "countryCode": "KEN",
+      "point": {
+        "city": "Nairobi",
+        "latitude": -1.281401,
+        "longitude": 36.814711,
+        "naturalEarthId": 1159151597
+      },
+      "url": "https://events.linuxfoundation.org/agntsummit-nairobi/",
+      "updatedAt": null,
+      "extended": false,
+      "source": "Linux Foundation Events",
+      "sourceKey": "lf",
+      "sourceId": "post-328263",
+      "sourceCategory": "calendar",
+      "capturedAt": "2026-11-12",
+      "sourceUpdatedAt": null,
+      "dateLabel": "Nov 17–18, 2027",
+      "timezone": null,
+      "milestones": [],
+      "mode": "in-person",
+      "tags": [],
+      "warnings": [],
+      "cfpStatus": "Details Coming Soon",
+      "sourcePages": [
+        "https://events.linuxfoundation.org/about/calendar/"
       ]
     }
   ]
