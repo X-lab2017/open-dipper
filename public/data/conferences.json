@@ -5,8 +5,8 @@
       "id": "ccf",
       "name": "Conference Partner",
       "url": "https://www.myhuiban.com/conferences/ccf",
-      "sourceUpdatedAt": "2026-11-12T13:57:15+00:00",
-      "capturedAt": "2026-11-13",
+      "sourceUpdatedAt": "2026-11-13T13:23:26+00:00",
+      "capturedAt": "2026-11-14",
       "count": 392
     },
     {
@@ -24,16 +24,16 @@
       "id": "lf",
       "name": "Linux Foundation Events",
       "url": "https://events.linuxfoundation.org/",
-      "capturedAt": "2026-11-13",
+      "capturedAt": "2026-11-14",
       "sourceUpdatedAt": null,
       "license": "Factual event metadata with source attribution; no blanket license for website content",
-      "count": 228
+      "count": 235
     }
   ],
-  "sourceUpdatedAt": "2026-11-12T13:57:15+00:00",
-  "capturedAt": "2026-11-13",
-  "sourceCommit": "825bcb90679994e7eac616252ef76c69df67ec18",
-  "sourceSha256": "78eb900d6b8a901a88d6d073a8b26b7d0683a4ef4c6fac58f4a0b69a4f9775bb",
+  "sourceUpdatedAt": "2026-11-13T13:23:26+00:00",
+  "capturedAt": "2026-11-14",
+  "sourceCommit": "1071076123be8bd331ac7df4bac92e3e4a9d21b6",
+  "sourceSha256": "10f67a1814bc9fc7c2ab279bdfb8eeb9ad2085d420ae928d84c7270093968778",
   "geographySource": "https://github.com/nvkelso/natural-earth-vector/blob/ca96624a56bd078437bca8184e78163e5039ad19/geojson/ne_50m_populated_places_simple.geojson",
   "rankSource": "https://www.ccf.org.cn/Academic_Evaluation/By_category/",
   "rankVerification": "Third-party labels; not independently reconciled against the full CCF seventh edition.",
@@ -17233,7 +17233,7 @@
       "sourceKey": "lf",
       "sourceId": "post-322402",
       "sourceCategory": "community",
-      "capturedAt": "2026-11-13",
+      "capturedAt": "2026-11-14",
       "sourceUpdatedAt": null,
       "dateLabel": "Oct 27, 2026",
       "timezone": null,
@@ -17268,7 +17268,7 @@
       "sourceKey": "lf",
       "sourceId": "post-326321",
       "sourceCategory": "community",
-      "capturedAt": "2026-11-13",
+      "capturedAt": "2026-11-14",
       "sourceUpdatedAt": null,
       "dateLabel": "Oct 28, 2026",
       "timezone": null,
@@ -17308,7 +17308,7 @@
       "sourceKey": "lf",
       "sourceId": "post-320589",
       "sourceCategory": "community",
-      "capturedAt": "2026-11-13",
+      "capturedAt": "2026-11-14",
       "sourceUpdatedAt": null,
       "dateLabel": "Oct 28, 2026",
       "timezone": null,
@@ -17348,7 +17348,7 @@
       "sourceKey": "lf",
       "sourceId": "post-327283",
       "sourceCategory": "community",
-      "capturedAt": "2026-11-13",
+      "capturedAt": "2026-11-14",
       "sourceUpdatedAt": null,
       "dateLabel": "Oct 30, 2026",
       "timezone": null,
@@ -17731,7 +17731,7 @@
       "sourceKey": "lf",
       "sourceId": "post-327287",
       "sourceCategory": "community",
-      "capturedAt": "2026-11-13",
+      "capturedAt": "2026-11-14",
       "sourceUpdatedAt": null,
       "dateLabel": "Nov 19–20, 2026",
       "timezone": null,
@@ -17758,7 +17758,8 @@
         "lf-post-328810-2026",
         "lf-post-329017-2026",
         "lf-post-329183-2026",
-        "lf-post-329268-2026"
+        "lf-post-329268-2026",
+        "lf-post-329334-2026"
       ]
     },
     {
@@ -17783,7 +17784,7 @@
       "sourceKey": "lf",
       "sourceId": "post-327284",
       "sourceCategory": "community",
-      "capturedAt": "2026-11-13",
+      "capturedAt": "2026-11-14",
       "sourceUpdatedAt": null,
       "dateLabel": "Dec 9–10, 2026",
       "timezone": null,
@@ -17810,7 +17811,8 @@
         "lf-post-328807-2026",
         "lf-post-329014-2026",
         "lf-post-329180-2026",
-        "lf-post-329265-2026"
+        "lf-post-329265-2026",
+        "lf-post-329331-2026"
       ]
     },
     {
@@ -17835,7 +17837,7 @@
       "sourceKey": "lf",
       "sourceId": "post-327285",
       "sourceCategory": "community",
-      "capturedAt": "2026-11-13",
+      "capturedAt": "2026-11-14",
       "sourceUpdatedAt": null,
       "dateLabel": "Dec 10, 2026",
       "timezone": null,
@@ -17862,7 +17864,8 @@
         "lf-post-328808-2026",
         "lf-post-329015-2026",
         "lf-post-329181-2026",
-        "lf-post-329266-2026"
+        "lf-post-329266-2026",
+        "lf-post-329332-2026"
       ]
     },
     {
@@ -17892,7 +17895,7 @@
       "sourceKey": "lf",
       "sourceId": "post-327282",
       "sourceCategory": "community",
-      "capturedAt": "2026-11-13",
+      "capturedAt": "2026-11-14",
       "sourceUpdatedAt": null,
       "dateLabel": "Dec 11, 2026",
       "timezone": null,
@@ -17919,7 +17922,8 @@
         "lf-post-328805-2026",
         "lf-post-329012-2026",
         "lf-post-329178-2026",
-        "lf-post-329263-2026"
+        "lf-post-329263-2026",
+        "lf-post-329329-2026"
       ]
     },
     {
@@ -17949,7 +17953,7 @@
       "sourceKey": "lf",
       "sourceId": "post-327288",
       "sourceCategory": "community",
-      "capturedAt": "2026-11-13",
+      "capturedAt": "2026-11-14",
       "sourceUpdatedAt": null,
       "dateLabel": "Jan 22, 2027",
       "timezone": null,
@@ -17976,7 +17980,8 @@
         "lf-post-328811-2027",
         "lf-post-329018-2027",
         "lf-post-329184-2027",
-        "lf-post-329269-2027"
+        "lf-post-329269-2027",
+        "lf-post-329335-2027"
       ]
     },
     {
@@ -18081,7 +18086,7 @@
       "sourceKey": "lf",
       "sourceId": "post-327286",
       "sourceCategory": "community",
-      "capturedAt": "2026-11-13",
+      "capturedAt": "2026-11-14",
       "sourceUpdatedAt": null,
       "dateLabel": "Apr 13, 2027",
       "timezone": null,
@@ -18108,7 +18113,8 @@
         "lf-post-328809-2027",
         "lf-post-329016-2027",
         "lf-post-329182-2027",
-        "lf-post-329267-2027"
+        "lf-post-329267-2027",
+        "lf-post-329333-2027"
       ]
     },
     {
@@ -18313,7 +18319,8 @@
         "lf-post-328806-2026",
         "lf-post-329013-2026",
         "lf-post-329179-2026",
-        "lf-post-329264-2026"
+        "lf-post-329264-2026",
+        "lf-post-329330-2026"
       ]
     },
     {
