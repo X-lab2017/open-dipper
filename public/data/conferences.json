@@ -5,8 +5,8 @@
       "id": "ccf",
       "name": "Conference Partner",
       "url": "https://www.myhuiban.com/conferences/ccf",
-      "sourceUpdatedAt": "2026-11-13T13:23:26+00:00",
-      "capturedAt": "2026-11-14",
+      "sourceUpdatedAt": "2026-11-14T12:27:57+00:00",
+      "capturedAt": "2026-11-15",
       "count": 392
     },
     {
@@ -24,16 +24,16 @@
       "id": "lf",
       "name": "Linux Foundation Events",
       "url": "https://events.linuxfoundation.org/",
-      "capturedAt": "2026-11-14",
+      "capturedAt": "2026-11-15",
       "sourceUpdatedAt": null,
       "license": "Factual event metadata with source attribution; no blanket license for website content",
-      "count": 235
+      "count": 242
     }
   ],
-  "sourceUpdatedAt": "2026-11-13T13:23:26+00:00",
-  "capturedAt": "2026-11-14",
-  "sourceCommit": "1071076123be8bd331ac7df4bac92e3e4a9d21b6",
-  "sourceSha256": "10f67a1814bc9fc7c2ab279bdfb8eeb9ad2085d420ae928d84c7270093968778",
+  "sourceUpdatedAt": "2026-11-14T12:27:57+00:00",
+  "capturedAt": "2026-11-15",
+  "sourceCommit": "e9f3194aebda98a506f6c4ac2c5eb45df387ca02",
+  "sourceSha256": "34a478ca0913c810994b5fdfee06e1c45844cdf6d0311ca0796c8a6d50205a20",
   "geographySource": "https://github.com/nvkelso/natural-earth-vector/blob/ca96624a56bd078437bca8184e78163e5039ad19/geojson/ne_50m_populated_places_simple.geojson",
   "rankSource": "https://www.ccf.org.cn/Academic_Evaluation/By_category/",
   "rankVerification": "Third-party labels; not independently reconciled against the full CCF seventh edition.",
@@ -2862,23 +2862,23 @@
     {
       "id": "huiban-348",
       "short": "ICS",
-      "name": "International Conference on Supercomputing",
+      "name": "ACM International Conference on Supercomputing",
       "rank": "B",
       "kind": "academic",
       "topic": "other",
-      "startsAt": "2026-07-06",
-      "submissionDate": "2026-02-02",
-      "notificationDate": "2026-04-06",
-      "location": "Belfast, UK",
-      "countryCode": "GBR",
+      "startsAt": "2027-06-05",
+      "submissionDate": "2026-12-01",
+      "notificationDate": "2027-03-12",
+      "location": "Atlanta, Georgia, USA",
+      "countryCode": "USA",
       "point": {
-        "city": "Belfast",
-        "longitude": -5.928178,
-        "latitude": 54.594245,
-        "naturalEarthId": 1159149369
+        "city": "Atlanta",
+        "longitude": -84.367642,
+        "latitude": 33.739457,
+        "naturalEarthId": 1159151489
       },
       "url": "https://www.myhuiban.com/conference/348",
-      "updatedAt": "2025-10-02",
+      "updatedAt": "2026-11-14",
       "extended": false,
       "source": "Conference Partner (myhuiban.com)",
       "sourceKey": "ccf"
@@ -4121,18 +4121,18 @@
     {
       "id": "huiban-382",
       "short": "SoCG",
-      "name": "ACM Symposium on Computational Geometry",
+      "name": "International Symposium on Computational Geometry",
       "rank": "B",
       "kind": "academic",
       "topic": "other",
-      "startsAt": "2025-06-23",
-      "submissionDate": "2024-11-26",
-      "notificationDate": "2025-02-06",
-      "location": "Kanazawa, Japan",
-      "countryCode": "JPN",
+      "startsAt": "2027-06-21",
+      "submissionDate": "2026-11-25",
+      "notificationDate": "2027-02-05",
+      "location": "Bengaluru, India",
+      "countryCode": "IND",
       "point": null,
       "url": "https://www.myhuiban.com/conference/382",
-      "updatedAt": "2024-10-01",
+      "updatedAt": "2026-11-14",
       "extended": false,
       "source": "Conference Partner (myhuiban.com)",
       "sourceKey": "ccf"
@@ -6363,23 +6363,23 @@
     {
       "id": "huiban-614",
       "short": "ICIP",
-      "name": "International Conference on Image Processing",
+      "name": "IEEE International Conference on Image Processing",
       "rank": "C",
       "kind": "academic",
       "topic": "other",
-      "startsAt": "2026-09-13",
-      "submissionDate": "2026-01-21",
-      "notificationDate": "2026-04-22",
-      "location": "Tampere, Finland",
-      "countryCode": "FIN",
+      "startsAt": "2027-11-29",
+      "submissionDate": "2027-03-31",
+      "notificationDate": "2027-08-06",
+      "location": "Singapore",
+      "countryCode": "SGP",
       "point": {
-        "city": "Tampere",
-        "longitude": 23.750013,
-        "latitude": 61.500005,
-        "naturalEarthId": 1159150103
+        "city": "Singapore",
+        "longitude": 103.853875,
+        "latitude": 1.294979,
+        "naturalEarthId": 1159151627
       },
       "url": "https://www.myhuiban.com/conference/614",
-      "updatedAt": "2025-11-24",
+      "updatedAt": "2026-11-14",
       "extended": false,
       "source": "Conference Partner (myhuiban.com)",
       "sourceKey": "ccf"
@@ -8631,7 +8631,7 @@
       "kind": "academic",
       "topic": "systems",
       "startsAt": "2027-04-05",
-      "submissionDate": "2026-09-15",
+      "submissionDate": "2026-11-09",
       "notificationDate": "2027-01-15",
       "location": "Panama City, Panama",
       "countryCode": "PAN",
@@ -8642,8 +8642,8 @@
         "naturalEarthId": 1159150667
       },
       "url": "https://www.myhuiban.com/conference/316",
-      "updatedAt": "2026-09-08",
-      "extended": false,
+      "updatedAt": "2026-11-14",
+      "extended": true,
       "source": "Conference Partner (myhuiban.com)",
       "sourceKey": "ccf"
     },
@@ -17233,7 +17233,7 @@
       "sourceKey": "lf",
       "sourceId": "post-322402",
       "sourceCategory": "community",
-      "capturedAt": "2026-11-14",
+      "capturedAt": "2026-11-15",
       "sourceUpdatedAt": null,
       "dateLabel": "Oct 27, 2026",
       "timezone": null,
@@ -17268,7 +17268,7 @@
       "sourceKey": "lf",
       "sourceId": "post-326321",
       "sourceCategory": "community",
-      "capturedAt": "2026-11-14",
+      "capturedAt": "2026-11-15",
       "sourceUpdatedAt": null,
       "dateLabel": "Oct 28, 2026",
       "timezone": null,
@@ -17308,7 +17308,7 @@
       "sourceKey": "lf",
       "sourceId": "post-320589",
       "sourceCategory": "community",
-      "capturedAt": "2026-11-14",
+      "capturedAt": "2026-11-15",
       "sourceUpdatedAt": null,
       "dateLabel": "Oct 28, 2026",
       "timezone": null,
@@ -17348,7 +17348,7 @@
       "sourceKey": "lf",
       "sourceId": "post-327283",
       "sourceCategory": "community",
-      "capturedAt": "2026-11-14",
+      "capturedAt": "2026-11-15",
       "sourceUpdatedAt": null,
       "dateLabel": "Oct 30, 2026",
       "timezone": null,
@@ -17731,7 +17731,7 @@
       "sourceKey": "lf",
       "sourceId": "post-327287",
       "sourceCategory": "community",
-      "capturedAt": "2026-11-14",
+      "capturedAt": "2026-11-15",
       "sourceUpdatedAt": null,
       "dateLabel": "Nov 19–20, 2026",
       "timezone": null,
@@ -17759,7 +17759,8 @@
         "lf-post-329017-2026",
         "lf-post-329183-2026",
         "lf-post-329268-2026",
-        "lf-post-329334-2026"
+        "lf-post-329334-2026",
+        "lf-post-329409-2026"
       ]
     },
     {
@@ -17784,7 +17785,7 @@
       "sourceKey": "lf",
       "sourceId": "post-327284",
       "sourceCategory": "community",
-      "capturedAt": "2026-11-14",
+      "capturedAt": "2026-11-15",
       "sourceUpdatedAt": null,
       "dateLabel": "Dec 9–10, 2026",
       "timezone": null,
@@ -17812,7 +17813,8 @@
         "lf-post-329014-2026",
         "lf-post-329180-2026",
         "lf-post-329265-2026",
-        "lf-post-329331-2026"
+        "lf-post-329331-2026",
+        "lf-post-329406-2026"
       ]
     },
     {
@@ -17837,7 +17839,7 @@
       "sourceKey": "lf",
       "sourceId": "post-327285",
       "sourceCategory": "community",
-      "capturedAt": "2026-11-14",
+      "capturedAt": "2026-11-15",
       "sourceUpdatedAt": null,
       "dateLabel": "Dec 10, 2026",
       "timezone": null,
@@ -17865,7 +17867,8 @@
         "lf-post-329015-2026",
         "lf-post-329181-2026",
         "lf-post-329266-2026",
-        "lf-post-329332-2026"
+        "lf-post-329332-2026",
+        "lf-post-329407-2026"
       ]
     },
     {
@@ -17895,7 +17898,7 @@
       "sourceKey": "lf",
       "sourceId": "post-327282",
       "sourceCategory": "community",
-      "capturedAt": "2026-11-14",
+      "capturedAt": "2026-11-15",
       "sourceUpdatedAt": null,
       "dateLabel": "Dec 11, 2026",
       "timezone": null,
@@ -17923,7 +17926,8 @@
         "lf-post-329012-2026",
         "lf-post-329178-2026",
         "lf-post-329263-2026",
-        "lf-post-329329-2026"
+        "lf-post-329329-2026",
+        "lf-post-329404-2026"
       ]
     },
     {
@@ -17953,7 +17957,7 @@
       "sourceKey": "lf",
       "sourceId": "post-327288",
       "sourceCategory": "community",
-      "capturedAt": "2026-11-14",
+      "capturedAt": "2026-11-15",
       "sourceUpdatedAt": null,
       "dateLabel": "Jan 22, 2027",
       "timezone": null,
@@ -17981,7 +17985,8 @@
         "lf-post-329018-2027",
         "lf-post-329184-2027",
         "lf-post-329269-2027",
-        "lf-post-329335-2027"
+        "lf-post-329335-2027",
+        "lf-post-329410-2027"
       ]
     },
     {
@@ -18086,7 +18091,7 @@
       "sourceKey": "lf",
       "sourceId": "post-327286",
       "sourceCategory": "community",
-      "capturedAt": "2026-11-14",
+      "capturedAt": "2026-11-15",
       "sourceUpdatedAt": null,
       "dateLabel": "Apr 13, 2027",
       "timezone": null,
@@ -18114,7 +18119,8 @@
         "lf-post-329016-2027",
         "lf-post-329182-2027",
         "lf-post-329267-2027",
-        "lf-post-329333-2027"
+        "lf-post-329333-2027",
+        "lf-post-329408-2027"
       ]
     },
     {
@@ -18320,7 +18326,8 @@
         "lf-post-329013-2026",
         "lf-post-329179-2026",
         "lf-post-329264-2026",
-        "lf-post-329330-2026"
+        "lf-post-329330-2026",
+        "lf-post-329405-2026"
       ]
     },
     {
