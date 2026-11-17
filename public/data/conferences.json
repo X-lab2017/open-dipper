@@ -5,8 +5,8 @@
       "id": "ccf",
       "name": "Conference Partner",
       "url": "https://www.myhuiban.com/conferences/ccf",
-      "sourceUpdatedAt": "2026-11-15T12:55:38+00:00",
-      "capturedAt": "2026-11-16",
+      "sourceUpdatedAt": "2026-11-16T13:57:08+00:00",
+      "capturedAt": "2026-11-17",
       "count": 392
     },
     {
@@ -24,16 +24,16 @@
       "id": "lf",
       "name": "Linux Foundation Events",
       "url": "https://events.linuxfoundation.org/",
-      "capturedAt": "2026-11-16",
+      "capturedAt": "2026-11-17",
       "sourceUpdatedAt": null,
       "license": "Factual event metadata with source attribution; no blanket license for website content",
-      "count": 249
+      "count": 257
     }
   ],
-  "sourceUpdatedAt": "2026-11-15T12:55:38+00:00",
-  "capturedAt": "2026-11-16",
-  "sourceCommit": "a7b753f2252757010c7b4bb7d6b3b1e1e519475e",
-  "sourceSha256": "1448a86470efc63833d23f31985ad8ca0b6fb4f52d58ec19488415ac27b9e65a",
+  "sourceUpdatedAt": "2026-11-16T13:57:08+00:00",
+  "capturedAt": "2026-11-17",
+  "sourceCommit": "839a8d070ce6eb57cf51455fc0ff31ff3d478130",
+  "sourceSha256": "958deb5c778ee585a54d69d9c15093b4d7b57c8f063fb4d25219523f13cface0",
   "geographySource": "https://github.com/nvkelso/natural-earth-vector/blob/ca96624a56bd078437bca8184e78163e5039ad19/geojson/ne_50m_populated_places_simple.geojson",
   "rankSource": "https://www.ccf.org.cn/Academic_Evaluation/By_category/",
   "rankVerification": "Third-party labels; not independently reconciled against the full CCF seventh edition.",
@@ -468,23 +468,23 @@
     {
       "id": "huiban-332",
       "short": "HPDC",
-      "name": "International ACM Symposium on High-Performance Parallel and Distributed Computing",
+      "name": "ACM International Symposium on High-Performance Parallel and Distributed Computing",
       "rank": "A",
       "kind": "academic",
       "topic": "systems",
-      "startsAt": "2026-07-13",
-      "submissionDate": "2026-01-29",
-      "notificationDate": "2026-03-31",
-      "location": "Cleveland, Ohio, USA",
+      "startsAt": "2027-06-07",
+      "submissionDate": "2027-01-11",
+      "notificationDate": "2027-03-30",
+      "location": "Atlanta, Georgia, USA",
       "countryCode": "USA",
       "point": {
-        "city": "Cleveland",
-        "longitude": -81.696944,
-        "latitude": 41.471933,
-        "naturalEarthId": 1159150515
+        "city": "Atlanta",
+        "longitude": -84.367642,
+        "latitude": 33.739457,
+        "naturalEarthId": 1159151489
       },
       "url": "https://www.myhuiban.com/conference/332",
-      "updatedAt": "2025-11-21",
+      "updatedAt": "2026-11-16",
       "extended": false,
       "source": "Conference Partner (myhuiban.com)",
       "sourceKey": "ccf"
@@ -1531,19 +1531,19 @@
       "rank": "B",
       "kind": "academic",
       "topic": "software",
-      "startsAt": "2026-01-31",
-      "submissionDate": "2025-11-10",
-      "notificationDate": "2025-12-10",
-      "location": "Sydney, Australia",
-      "countryCode": "AUS",
+      "startsAt": "2027-03-20",
+      "submissionDate": "2026-12-01",
+      "notificationDate": "2027-01-15",
+      "location": "Salt Lake City, Utah, USA",
+      "countryCode": "USA",
       "point": {
-        "city": "Sydney",
-        "longitude": 151.212548,
-        "latitude": -33.871373,
-        "naturalEarthId": 1159151623
+        "city": "Salt Lake City",
+        "longitude": -111.931998,
+        "latitude": 40.776962,
+        "naturalEarthId": 1159150489
       },
       "url": "https://www.myhuiban.com/conference/259",
-      "updatedAt": "2025-11-06",
+      "updatedAt": "2026-11-16",
       "extended": false,
       "source": "Conference Partner (myhuiban.com)",
       "sourceKey": "ccf"
@@ -16730,12 +16730,12 @@
     },
     {
       "id": "lf-post-317398-2027",
-      "short": "AGNTCon + MCPCon North America",
-      "name": "AGNTCon + MCPCon North America",
+      "short": "AGNTCon + MCPCon North America: The AI Agents Conference",
+      "name": "AGNTCon + MCPCon North America: The AI Agents Conference",
       "rank": null,
       "kind": "community",
       "communityType": "conference",
-      "topic": "other",
+      "topic": "ai",
       "startsAt": "2027-04-28",
       "endsAt": "2027-04-29",
       "submissionDate": null,
@@ -16755,7 +16755,7 @@
       "sourceKey": "lf",
       "sourceId": "post-317398",
       "sourceCategory": "calendar",
-      "capturedAt": "2026-11-03",
+      "capturedAt": "2026-11-17",
       "sourceUpdatedAt": null,
       "dateLabel": "Apr 28–29, 2027",
       "timezone": null,
@@ -17233,7 +17233,7 @@
       "sourceKey": "lf",
       "sourceId": "post-322402",
       "sourceCategory": "community",
-      "capturedAt": "2026-11-16",
+      "capturedAt": "2026-11-17",
       "sourceUpdatedAt": null,
       "dateLabel": "Oct 27, 2026",
       "timezone": null,
@@ -17268,7 +17268,7 @@
       "sourceKey": "lf",
       "sourceId": "post-326321",
       "sourceCategory": "community",
-      "capturedAt": "2026-11-16",
+      "capturedAt": "2026-11-17",
       "sourceUpdatedAt": null,
       "dateLabel": "Oct 28, 2026",
       "timezone": null,
@@ -17308,7 +17308,7 @@
       "sourceKey": "lf",
       "sourceId": "post-320589",
       "sourceCategory": "community",
-      "capturedAt": "2026-11-16",
+      "capturedAt": "2026-11-17",
       "sourceUpdatedAt": null,
       "dateLabel": "Oct 28, 2026",
       "timezone": null,
@@ -17348,7 +17348,7 @@
       "sourceKey": "lf",
       "sourceId": "post-327283",
       "sourceCategory": "community",
-      "capturedAt": "2026-11-16",
+      "capturedAt": "2026-11-17",
       "sourceUpdatedAt": null,
       "dateLabel": "Oct 30, 2026",
       "timezone": null,
@@ -17731,7 +17731,7 @@
       "sourceKey": "lf",
       "sourceId": "post-327287",
       "sourceCategory": "community",
-      "capturedAt": "2026-11-16",
+      "capturedAt": "2026-11-17",
       "sourceUpdatedAt": null,
       "dateLabel": "Nov 19–20, 2026",
       "timezone": null,
@@ -17761,7 +17761,8 @@
         "lf-post-329268-2026",
         "lf-post-329334-2026",
         "lf-post-329409-2026",
-        "lf-post-329416-2026"
+        "lf-post-329416-2026",
+        "lf-post-329427-2026"
       ]
     },
     {
@@ -17786,7 +17787,7 @@
       "sourceKey": "lf",
       "sourceId": "post-327284",
       "sourceCategory": "community",
-      "capturedAt": "2026-11-16",
+      "capturedAt": "2026-11-17",
       "sourceUpdatedAt": null,
       "dateLabel": "Dec 9–10, 2026",
       "timezone": null,
@@ -17816,7 +17817,8 @@
         "lf-post-329265-2026",
         "lf-post-329331-2026",
         "lf-post-329406-2026",
-        "lf-post-329413-2026"
+        "lf-post-329413-2026",
+        "lf-post-329424-2026"
       ]
     },
     {
@@ -17841,7 +17843,7 @@
       "sourceKey": "lf",
       "sourceId": "post-327285",
       "sourceCategory": "community",
-      "capturedAt": "2026-11-16",
+      "capturedAt": "2026-11-17",
       "sourceUpdatedAt": null,
       "dateLabel": "Dec 10, 2026",
       "timezone": null,
@@ -17871,7 +17873,8 @@
         "lf-post-329266-2026",
         "lf-post-329332-2026",
         "lf-post-329407-2026",
-        "lf-post-329414-2026"
+        "lf-post-329414-2026",
+        "lf-post-329425-2026"
       ]
     },
     {
@@ -17901,7 +17904,7 @@
       "sourceKey": "lf",
       "sourceId": "post-327282",
       "sourceCategory": "community",
-      "capturedAt": "2026-11-16",
+      "capturedAt": "2026-11-17",
       "sourceUpdatedAt": null,
       "dateLabel": "Dec 11, 2026",
       "timezone": null,
@@ -17931,7 +17934,8 @@
         "lf-post-329263-2026",
         "lf-post-329329-2026",
         "lf-post-329404-2026",
-        "lf-post-329411-2026"
+        "lf-post-329411-2026",
+        "lf-post-329422-2026"
       ]
     },
     {
@@ -17961,7 +17965,7 @@
       "sourceKey": "lf",
       "sourceId": "post-327288",
       "sourceCategory": "community",
-      "capturedAt": "2026-11-16",
+      "capturedAt": "2026-11-17",
       "sourceUpdatedAt": null,
       "dateLabel": "Jan 22, 2027",
       "timezone": null,
@@ -17991,7 +17995,8 @@
         "lf-post-329269-2027",
         "lf-post-329335-2027",
         "lf-post-329410-2027",
-        "lf-post-329417-2027"
+        "lf-post-329417-2027",
+        "lf-post-329428-2027"
       ]
     },
     {
@@ -18096,7 +18101,7 @@
       "sourceKey": "lf",
       "sourceId": "post-327286",
       "sourceCategory": "community",
-      "capturedAt": "2026-11-16",
+      "capturedAt": "2026-11-17",
       "sourceUpdatedAt": null,
       "dateLabel": "Apr 13, 2027",
       "timezone": null,
@@ -18126,7 +18131,8 @@
         "lf-post-329267-2027",
         "lf-post-329333-2027",
         "lf-post-329408-2027",
-        "lf-post-329415-2027"
+        "lf-post-329415-2027",
+        "lf-post-329426-2027"
       ]
     },
     {
@@ -18334,7 +18340,8 @@
         "lf-post-329264-2026",
         "lf-post-329330-2026",
         "lf-post-329405-2026",
-        "lf-post-329412-2026"
+        "lf-post-329412-2026",
+        "lf-post-329423-2026"
       ]
     },
     {
@@ -19795,6 +19802,41 @@
       "cfpStatus": "Details Coming Soon",
       "sourcePages": [
         "https://events.linuxfoundation.org/about/calendar/"
+      ]
+    },
+    {
+      "id": "lf-post-329434-2027",
+      "short": "3rd International Conference on Artificial Intelligence and Data Science",
+      "name": "3rd International Conference on Artificial Intelligence and Data Science",
+      "rank": null,
+      "kind": "community",
+      "communityType": "conference",
+      "topic": "data",
+      "startsAt": "2027-04-08",
+      "endsAt": "2027-04-10",
+      "submissionDate": null,
+      "notificationDate": null,
+      "location": "Singapore",
+      "countryCode": null,
+      "point": null,
+      "url": "https://datascience.averconferences.com/",
+      "updatedAt": null,
+      "extended": false,
+      "source": "Linux Foundation Events",
+      "sourceKey": "lf",
+      "sourceId": "post-329434",
+      "sourceCategory": "community",
+      "capturedAt": "2026-11-17",
+      "sourceUpdatedAt": null,
+      "dateLabel": "Apr 8–10, 2027",
+      "timezone": null,
+      "milestones": [],
+      "mode": "in-person",
+      "tags": [],
+      "warnings": [],
+      "cfpStatus": "",
+      "sourcePages": [
+        "https://events.linuxfoundation.org/about/community/"
       ]
     }
   ]
