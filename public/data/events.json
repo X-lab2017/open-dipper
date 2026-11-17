@@ -1,8 +1,46 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-16T18:34:18.306051Z",
+  "generatedAt": "2026-11-17T02:06:37.097472Z",
   "retentionDays": 90,
   "events": [
+    {
+      "id": "c876496118766282bf93",
+      "title": "vLLM · v0.34.0",
+      "summary": "# v0.34.0 **1,061 commits from 412 contributors (120 new).** Thank you! ## TL;DR - **10 new models** (Mistral Large 4, MiniMax-M3.1-Flash, Nemotron-3.5-Transcribe, and more!) - **Extensible KV cache is on by default:** vLLM sizes the KV cache from memory actually free after warmup, so most models get a bigger cache and more throughput. - **Model Runner V1 is gone.** Model Runner V2 is now the only GPU runner. - **Big speedups** on Blackwell and M",
+      "category": "release",
+      "severity": "info",
+      "occurredAt": "2026-11-16T23:22:00Z",
+      "collectedAt": "2026-11-17T02:06:33.471009Z",
+      "source": "vLLM",
+      "sourceId": "release-vllm",
+      "sourceUrl": "https://github.com/vllm-project/vllm/releases/tag/v0.34.0",
+      "repository": "vllm-project/vllm",
+      "provenance": "automatic",
+      "location": null,
+      "reviewStatus": "source-published",
+      "tags": [
+        "vLLM"
+      ]
+    },
+    {
+      "id": "3d09d6db4bc7caafa9f7",
+      "title": "Bridges of Prague: Open Source Summit Europe 2026 Recap",
+      "summary": "Open Source Summit and its co-located events are always a great time to build bridges in the open source community, and OSS Europe 2026 and OpenSSF Community Day Europe were no exceptions.",
+      "category": "security",
+      "severity": "info",
+      "occurredAt": "2026-11-16T19:52:21Z",
+      "collectedAt": "2026-11-17T02:06:36.147960Z",
+      "source": "OpenSSF",
+      "sourceId": "openssf",
+      "sourceUrl": "https://openssf.org/blog/2026/11/16/bridges-of-prague-open-source-summit-europe-2026-recap/",
+      "repository": null,
+      "provenance": "automatic",
+      "location": null,
+      "reviewStatus": "source-published",
+      "tags": [
+        "OpenSSF"
+      ]
+    },
     {
       "id": "199b6ae7d429339ab813",
       "title": "Rust · Rust 1.100.0",
@@ -2062,8 +2100,8 @@
       "name": "Kubernetes",
       "url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-11-16T18:34:11.554021Z",
-      "lastSuccess": "2026-11-16T18:34:12.071833Z",
+      "lastAttempt": "2026-11-17T02:06:31.791076Z",
+      "lastSuccess": "2026-11-17T02:06:32.211342Z",
       "count": 6,
       "status": "ok"
     },
@@ -2072,8 +2110,8 @@
       "name": "PyTorch",
       "url": "https://api.github.com/repos/pytorch/pytorch/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-11-16T18:34:12.221990Z",
-      "lastSuccess": "2026-11-16T18:34:13.062815Z",
+      "lastAttempt": "2026-11-17T02:06:32.361426Z",
+      "lastSuccess": "2026-11-17T02:06:32.873970Z",
       "count": 10,
       "status": "ok"
     },
@@ -2082,8 +2120,8 @@
       "name": "vLLM",
       "url": "https://api.github.com/repos/vllm-project/vllm/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-11-16T18:34:13.212938Z",
-      "lastSuccess": "2026-11-16T18:34:13.968060Z",
+      "lastAttempt": "2026-11-17T02:06:33.024085Z",
+      "lastSuccess": "2026-11-17T02:06:33.474907Z",
       "count": 10,
       "status": "ok"
     },
@@ -2092,8 +2130,8 @@
       "name": "VS Code",
       "url": "https://api.github.com/repos/microsoft/vscode/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-11-16T18:34:14.118181Z",
-      "lastSuccess": "2026-11-16T18:34:14.695996Z",
+      "lastAttempt": "2026-11-17T02:06:33.625026Z",
+      "lastSuccess": "2026-11-17T02:06:33.975746Z",
       "count": 10,
       "status": "ok"
     },
@@ -2102,8 +2140,8 @@
       "name": "Rust",
       "url": "https://api.github.com/repos/rust-lang/rust/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-11-16T18:34:14.846110Z",
-      "lastSuccess": "2026-11-16T18:34:15.474478Z",
+      "lastAttempt": "2026-11-17T02:06:34.125847Z",
+      "lastSuccess": "2026-11-17T02:06:34.470114Z",
       "count": 10,
       "status": "ok"
     },
@@ -2112,8 +2150,8 @@
       "name": "DuckDB",
       "url": "https://api.github.com/repos/duckdb/duckdb/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-11-16T18:34:15.624644Z",
-      "lastSuccess": "2026-11-16T18:34:16.502287Z",
+      "lastAttempt": "2026-11-17T02:06:34.620210Z",
+      "lastSuccess": "2026-11-17T02:06:35.191380Z",
       "count": 10,
       "status": "ok"
     },
@@ -2122,8 +2160,8 @@
       "name": "OpenSSF",
       "url": "https://openssf.org/feed/",
       "kind": "rss",
-      "lastAttempt": "2026-11-16T18:34:16.652421Z",
-      "lastSuccess": "2026-11-16T18:34:17.261949Z",
+      "lastAttempt": "2026-11-17T02:06:35.341460Z",
+      "lastSuccess": "2026-11-17T02:06:36.148180Z",
       "count": 10,
       "status": "ok"
     },
@@ -2132,8 +2170,8 @@
       "name": "CNCF",
       "url": "https://www.cncf.io/feed/",
       "kind": "rss",
-      "lastAttempt": "2026-11-16T18:34:17.412057Z",
-      "lastSuccess": "2026-11-16T18:34:17.596009Z",
+      "lastAttempt": "2026-11-17T02:06:36.298298Z",
+      "lastSuccess": "2026-11-17T02:06:36.568153Z",
       "count": 10,
       "status": "ok"
     },
@@ -2142,8 +2180,8 @@
       "name": "OpenDipper 编辑录入",
       "url": "https://api.github.com/repos/X-lab2017/open-dipper/issues?labels=event-approved&state=open&per_page=100",
       "kind": "github-issues",
-      "lastAttempt": "2026-11-16T18:34:17.746135Z",
-      "lastSuccess": "2026-11-16T18:34:18.155475Z",
+      "lastAttempt": "2026-11-17T02:06:36.718248Z",
+      "lastSuccess": "2026-11-17T02:06:36.946970Z",
       "count": 0,
       "status": "ok"
     }
