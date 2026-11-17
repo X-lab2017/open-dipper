@@ -1,8 +1,46 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-17T10:44:45.855953Z",
+  "generatedAt": "2026-11-17T19:25:55.607227Z",
   "retentionDays": 90,
   "events": [
+    {
+      "id": "f36232ffbcffea854f94",
+      "title": "Clearer Security Signals: Making Attestations Comprehensible for PyPI Users",
+      "summary": "To help developers and package consumers better understand software supply-chain security, the OpenSSF Securing Software Repositories Working Group created an Attestations Style Guide—and its recommendations are now live on PyPI with redesigned project pages and a dedicated security tab.",
+      "category": "security",
+      "severity": "info",
+      "occurredAt": "2026-11-17T19:12:02Z",
+      "collectedAt": "2026-11-17T19:25:54.586052Z",
+      "source": "OpenSSF",
+      "sourceId": "openssf",
+      "sourceUrl": "https://openssf.org/blog/2026/11/17/clearer-security-signals-making-attestations-comprehensible-for-pypi-users/",
+      "repository": null,
+      "provenance": "automatic",
+      "location": null,
+      "reviewStatus": "source-published",
+      "tags": [
+        "OpenSSF"
+      ]
+    },
+    {
+      "id": "1aba3c38b28223da12c2",
+      "title": "Is your OpenTelemetry pipeline becoming a performance bottleneck?",
+      "summary": "At Cloud Native Days Austria 2026, I presented a talk called How to Defeat OTel’s Silent Killer: The Performance Overhead, exploring a problem that is easy to overlook when building observability pipelines: the cost of collecting...",
+      "category": "research",
+      "severity": "info",
+      "occurredAt": "2026-11-17T12:21:00Z",
+      "collectedAt": "2026-11-17T19:25:54.991997Z",
+      "source": "CNCF",
+      "sourceId": "cncf",
+      "sourceUrl": "https://www.cncf.io/blog/2026/11/17/is-your-opentelemetry-pipeline-becoming-a-performance-bottleneck/",
+      "repository": null,
+      "provenance": "automatic",
+      "location": null,
+      "reviewStatus": "source-published",
+      "tags": [
+        "CNCF"
+      ]
+    },
     {
       "id": "c876496118766282bf93",
       "title": "vLLM · v0.34.0",
@@ -2100,8 +2138,8 @@
       "name": "Kubernetes",
       "url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-11-17T10:44:39.412335Z",
-      "lastSuccess": "2026-11-17T10:44:39.950397Z",
+      "lastAttempt": "2026-11-17T19:25:49.451209Z",
+      "lastSuccess": "2026-11-17T19:25:49.915896Z",
       "count": 6,
       "status": "ok"
     },
@@ -2110,8 +2148,8 @@
       "name": "PyTorch",
       "url": "https://api.github.com/repos/pytorch/pytorch/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-11-17T10:44:40.100511Z",
-      "lastSuccess": "2026-11-17T10:44:41.101051Z",
+      "lastAttempt": "2026-11-17T19:25:50.066014Z",
+      "lastSuccess": "2026-11-17T19:25:50.792668Z",
       "count": 10,
       "status": "ok"
     },
@@ -2120,8 +2158,8 @@
       "name": "vLLM",
       "url": "https://api.github.com/repos/vllm-project/vllm/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-11-17T10:44:41.251172Z",
-      "lastSuccess": "2026-11-17T10:44:42.037184Z",
+      "lastAttempt": "2026-11-17T19:25:50.942791Z",
+      "lastSuccess": "2026-11-17T19:25:51.554266Z",
       "count": 10,
       "status": "ok"
     },
@@ -2130,8 +2168,8 @@
       "name": "VS Code",
       "url": "https://api.github.com/repos/microsoft/vscode/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-11-17T10:44:42.187318Z",
-      "lastSuccess": "2026-11-17T10:44:42.764352Z",
+      "lastAttempt": "2026-11-17T19:25:51.704395Z",
+      "lastSuccess": "2026-11-17T19:25:52.094528Z",
       "count": 10,
       "status": "ok"
     },
@@ -2140,8 +2178,8 @@
       "name": "Rust",
       "url": "https://api.github.com/repos/rust-lang/rust/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-11-17T10:44:42.914485Z",
-      "lastSuccess": "2026-11-17T10:44:43.500979Z",
+      "lastAttempt": "2026-11-17T19:25:52.244647Z",
+      "lastSuccess": "2026-11-17T19:25:52.691601Z",
       "count": 10,
       "status": "ok"
     },
@@ -2150,8 +2188,8 @@
       "name": "DuckDB",
       "url": "https://api.github.com/repos/duckdb/duckdb/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-11-17T10:44:43.651119Z",
-      "lastSuccess": "2026-11-17T10:44:44.499113Z",
+      "lastAttempt": "2026-11-17T19:25:52.841721Z",
+      "lastSuccess": "2026-11-17T19:25:53.521703Z",
       "count": 10,
       "status": "ok"
     },
@@ -2160,8 +2198,8 @@
       "name": "OpenSSF",
       "url": "https://openssf.org/feed/",
       "kind": "rss",
-      "lastAttempt": "2026-11-17T10:44:44.649250Z",
-      "lastSuccess": "2026-11-17T10:44:44.836303Z",
+      "lastAttempt": "2026-11-17T19:25:53.671881Z",
+      "lastSuccess": "2026-11-17T19:25:54.586275Z",
       "count": 10,
       "status": "ok"
     },
@@ -2170,8 +2208,8 @@
       "name": "CNCF",
       "url": "https://www.cncf.io/feed/",
       "kind": "rss",
-      "lastAttempt": "2026-11-17T10:44:44.986427Z",
-      "lastSuccess": "2026-11-17T10:44:45.173551Z",
+      "lastAttempt": "2026-11-17T19:25:54.736417Z",
+      "lastSuccess": "2026-11-17T19:25:54.992225Z",
       "count": 10,
       "status": "ok"
     },
@@ -2180,8 +2218,8 @@
       "name": "OpenDipper 编辑录入",
       "url": "https://api.github.com/repos/X-lab2017/open-dipper/issues?labels=event-approved&state=open&per_page=100",
       "kind": "github-issues",
-      "lastAttempt": "2026-11-17T10:44:45.323685Z",
-      "lastSuccess": "2026-11-17T10:44:45.705220Z",
+      "lastAttempt": "2026-11-17T19:25:55.142377Z",
+      "lastSuccess": "2026-11-17T19:25:55.456622Z",
       "count": 0,
       "status": "ok"
     }
