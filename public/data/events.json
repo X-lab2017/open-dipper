@@ -1,8 +1,27 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-18T08:38:40.652369Z",
+  "generatedAt": "2026-11-18T10:11:52.543264Z",
   "retentionDays": 90,
   "events": [
+    {
+      "id": "682bac824c5a7c057973",
+      "title": "VS Code · 1.147.0",
+      "summary": "https://code.visualstudio.com/updates/v1_147",
+      "category": "release",
+      "severity": "info",
+      "occurredAt": "2026-11-18T09:45:23Z",
+      "collectedAt": "2026-11-18T10:11:49.514023Z",
+      "source": "VS Code",
+      "sourceId": "release-vscode",
+      "sourceUrl": "https://github.com/microsoft/vscode/releases/tag/1.147.0",
+      "repository": "microsoft/vscode",
+      "provenance": "automatic",
+      "location": null,
+      "reviewStatus": "source-published",
+      "tags": [
+        "VS Code"
+      ]
+    },
     {
       "id": "f36232ffbcffea854f94",
       "title": "Clearer Security Signals: Making Attestations Comprehensible for PyPI Users",
@@ -2138,8 +2157,8 @@
       "name": "Kubernetes",
       "url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-11-18T08:38:34.180240Z",
-      "lastSuccess": "2026-11-18T08:38:34.719792Z",
+      "lastAttempt": "2026-11-18T10:11:47.201252Z",
+      "lastSuccess": "2026-11-18T10:11:47.605946Z",
       "count": 6,
       "status": "ok"
     },
@@ -2148,8 +2167,8 @@
       "name": "PyTorch",
       "url": "https://api.github.com/repos/pytorch/pytorch/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-11-18T08:38:34.869957Z",
-      "lastSuccess": "2026-11-18T08:38:35.720035Z",
+      "lastAttempt": "2026-11-18T10:11:47.756069Z",
+      "lastSuccess": "2026-11-18T10:11:48.331227Z",
       "count": 10,
       "status": "ok"
     },
@@ -2158,8 +2177,8 @@
       "name": "vLLM",
       "url": "https://api.github.com/repos/vllm-project/vllm/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-11-18T08:38:35.870180Z",
-      "lastSuccess": "2026-11-18T08:38:36.649455Z",
+      "lastAttempt": "2026-11-18T10:11:48.481358Z",
+      "lastSuccess": "2026-11-18T10:11:49.037411Z",
       "count": 10,
       "status": "ok"
     },
@@ -2168,8 +2187,8 @@
       "name": "VS Code",
       "url": "https://api.github.com/repos/microsoft/vscode/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-11-18T08:38:36.799583Z",
-      "lastSuccess": "2026-11-18T08:38:37.305371Z",
+      "lastAttempt": "2026-11-18T10:11:49.187524Z",
+      "lastSuccess": "2026-11-18T10:11:49.514154Z",
       "count": 10,
       "status": "ok"
     },
@@ -2178,8 +2197,8 @@
       "name": "Rust",
       "url": "https://api.github.com/repos/rust-lang/rust/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-11-18T08:38:37.455511Z",
-      "lastSuccess": "2026-11-18T08:38:38.014680Z",
+      "lastAttempt": "2026-11-18T10:11:49.664263Z",
+      "lastSuccess": "2026-11-18T10:11:50.035722Z",
       "count": 10,
       "status": "ok"
     },
@@ -2188,8 +2207,8 @@
       "name": "DuckDB",
       "url": "https://api.github.com/repos/duckdb/duckdb/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-11-18T08:38:38.164835Z",
-      "lastSuccess": "2026-11-18T08:38:39.209880Z",
+      "lastAttempt": "2026-11-18T10:11:50.185855Z",
+      "lastSuccess": "2026-11-18T10:11:50.760206Z",
       "count": 10,
       "status": "ok"
     },
@@ -2198,8 +2217,8 @@
       "name": "OpenSSF",
       "url": "https://openssf.org/feed/",
       "kind": "rss",
-      "lastAttempt": "2026-11-18T08:38:39.360028Z",
-      "lastSuccess": "2026-11-18T08:38:39.558982Z",
+      "lastAttempt": "2026-11-18T10:11:50.910339Z",
+      "lastSuccess": "2026-11-18T10:11:51.664862Z",
       "count": 10,
       "status": "ok"
     },
@@ -2208,8 +2227,8 @@
       "name": "CNCF",
       "url": "https://www.cncf.io/feed/",
       "kind": "rss",
-      "lastAttempt": "2026-11-18T08:38:39.709112Z",
-      "lastSuccess": "2026-11-18T08:38:39.927216Z",
+      "lastAttempt": "2026-11-18T10:11:51.814988Z",
+      "lastSuccess": "2026-11-18T10:11:52.000567Z",
       "count": 10,
       "status": "ok"
     },
@@ -2218,8 +2237,8 @@
       "name": "OpenDipper 编辑录入",
       "url": "https://api.github.com/repos/X-lab2017/open-dipper/issues?labels=event-approved&state=open&per_page=100",
       "kind": "github-issues",
-      "lastAttempt": "2026-11-18T08:38:40.077344Z",
-      "lastSuccess": "2026-11-18T08:38:40.501748Z",
+      "lastAttempt": "2026-11-18T10:11:52.150699Z",
+      "lastSuccess": "2026-11-18T10:11:52.392609Z",
       "count": 0,
       "status": "ok"
     }
