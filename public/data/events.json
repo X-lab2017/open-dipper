@@ -1,8 +1,27 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-18T10:11:52.543264Z",
+  "generatedAt": "2026-11-18T18:51:33.300920Z",
   "retentionDays": 90,
   "events": [
+    {
+      "id": "bb0921ea75d17ca3614c",
+      "title": "Optimizing Kubernetes admission control: Where Kyverno’s CEL admission cost actually goes",
+      "summary": "Kyverno’s CEL (Common Expression Language)-based engines exist to evaluate policy expressions. So when we profiled the admission path, we expected to find the bulk of the cost in CEL evaluation. It was not there. About 86%...",
+      "category": "research",
+      "severity": "info",
+      "occurredAt": "2026-11-18T12:30:00Z",
+      "collectedAt": "2026-11-18T18:51:32.614586Z",
+      "source": "CNCF",
+      "sourceId": "cncf",
+      "sourceUrl": "https://www.cncf.io/blog/2026/11/18/optimizing-kubernetes-admission-control-where-kyvernos-cel-admission-cost-actually-goes/",
+      "repository": null,
+      "provenance": "automatic",
+      "location": null,
+      "reviewStatus": "source-published",
+      "tags": [
+        "CNCF"
+      ]
+    },
     {
       "id": "682bac824c5a7c057973",
       "title": "VS Code · 1.147.0",
@@ -2092,63 +2111,6 @@
       "tags": [
         "Kubernetes"
       ]
-    },
-    {
-      "id": "40e7666ffa3f14ecb333",
-      "title": "Kubernetes · v1.34.11",
-      "summary": "See [kubernetes-announce@](https://groups.google.com/forum/#!forum/kubernetes-announce). Additional binary downloads are linked in the [CHANGELOG](https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.34.md). See the [CHANGELOG](https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.34.md) for more details.",
-      "category": "release",
-      "severity": "info",
-      "occurredAt": "2026-08-20T18:45:38Z",
-      "collectedAt": "2026-10-24T23:49:06.358563Z",
-      "source": "Kubernetes",
-      "sourceId": "release-kubernetes",
-      "sourceUrl": "https://github.com/kubernetes/kubernetes/releases/tag/v1.34.11",
-      "repository": "kubernetes/kubernetes",
-      "provenance": "automatic",
-      "location": null,
-      "reviewStatus": "source-published",
-      "tags": [
-        "Kubernetes"
-      ]
-    },
-    {
-      "id": "714dec12c50a061fc565",
-      "title": "Rust · Rust 1.98.0",
-      "summary": "## Language - [Allow shortening lifetime of `&mut` when unsize-coercing, even in an invariant position.](https://github.com/rust-lang/rust/pull/149219) For example, you can now coerce a `Cell ` to a `Cell `. Such shortenings were already previously allowed when coercing a `&mut` to a `&`, or coercing a `&` to a `&`. - [Add deny-by-default `invalid_runtime_symbol_definitions` lint and warn-by-default `suspicious_runtime_symbol_definitions` lint](h",
-      "category": "release",
-      "severity": "info",
-      "occurredAt": "2026-08-20T18:05:33Z",
-      "collectedAt": "2026-10-24T23:49:30.564775Z",
-      "source": "Rust",
-      "sourceId": "release-rust",
-      "sourceUrl": "https://github.com/rust-lang/rust/releases/tag/1.98.0",
-      "repository": "rust-lang/rust",
-      "provenance": "automatic",
-      "location": null,
-      "reviewStatus": "source-published",
-      "tags": [
-        "Rust"
-      ]
-    },
-    {
-      "id": "a09bfd2b533d257586b3",
-      "title": "Kubernetes · v1.36.4",
-      "summary": "See [kubernetes-announce@](https://groups.google.com/forum/#!forum/kubernetes-announce). Additional binary downloads are linked in the [CHANGELOG](https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.36.md). See the [CHANGELOG](https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.36.md) for more details.",
-      "category": "release",
-      "severity": "info",
-      "occurredAt": "2026-08-20T11:48:16Z",
-      "collectedAt": "2026-10-24T23:49:06.358520Z",
-      "source": "Kubernetes",
-      "sourceId": "release-kubernetes",
-      "sourceUrl": "https://github.com/kubernetes/kubernetes/releases/tag/v1.36.4",
-      "repository": "kubernetes/kubernetes",
-      "provenance": "automatic",
-      "location": null,
-      "reviewStatus": "source-published",
-      "tags": [
-        "Kubernetes"
-      ]
     }
   ],
   "sources": [
@@ -2157,8 +2119,8 @@
       "name": "Kubernetes",
       "url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-11-18T10:11:47.201252Z",
-      "lastSuccess": "2026-11-18T10:11:47.605946Z",
+      "lastAttempt": "2026-11-18T18:51:26.670600Z",
+      "lastSuccess": "2026-11-18T18:51:27.191285Z",
       "count": 6,
       "status": "ok"
     },
@@ -2167,8 +2129,8 @@
       "name": "PyTorch",
       "url": "https://api.github.com/repos/pytorch/pytorch/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-11-18T10:11:47.756069Z",
-      "lastSuccess": "2026-11-18T10:11:48.331227Z",
+      "lastAttempt": "2026-11-18T18:51:27.341395Z",
+      "lastSuccess": "2026-11-18T18:51:28.302152Z",
       "count": 10,
       "status": "ok"
     },
@@ -2177,8 +2139,8 @@
       "name": "vLLM",
       "url": "https://api.github.com/repos/vllm-project/vllm/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-11-18T10:11:48.481358Z",
-      "lastSuccess": "2026-11-18T10:11:49.037411Z",
+      "lastAttempt": "2026-11-18T18:51:28.452287Z",
+      "lastSuccess": "2026-11-18T18:51:29.246257Z",
       "count": 10,
       "status": "ok"
     },
@@ -2187,8 +2149,8 @@
       "name": "VS Code",
       "url": "https://api.github.com/repos/microsoft/vscode/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-11-18T10:11:49.187524Z",
-      "lastSuccess": "2026-11-18T10:11:49.514154Z",
+      "lastAttempt": "2026-11-18T18:51:29.396399Z",
+      "lastSuccess": "2026-11-18T18:51:29.885177Z",
       "count": 10,
       "status": "ok"
     },
@@ -2197,8 +2159,8 @@
       "name": "Rust",
       "url": "https://api.github.com/repos/rust-lang/rust/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-11-18T10:11:49.664263Z",
-      "lastSuccess": "2026-11-18T10:11:50.035722Z",
+      "lastAttempt": "2026-11-18T18:51:30.035315Z",
+      "lastSuccess": "2026-11-18T18:51:30.605548Z",
       "count": 10,
       "status": "ok"
     },
@@ -2207,8 +2169,8 @@
       "name": "DuckDB",
       "url": "https://api.github.com/repos/duckdb/duckdb/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-11-18T10:11:50.185855Z",
-      "lastSuccess": "2026-11-18T10:11:50.760206Z",
+      "lastAttempt": "2026-11-18T18:51:30.755682Z",
+      "lastSuccess": "2026-11-18T18:51:31.581311Z",
       "count": 10,
       "status": "ok"
     },
@@ -2217,8 +2179,8 @@
       "name": "OpenSSF",
       "url": "https://openssf.org/feed/",
       "kind": "rss",
-      "lastAttempt": "2026-11-18T10:11:50.910339Z",
-      "lastSuccess": "2026-11-18T10:11:51.664862Z",
+      "lastAttempt": "2026-11-18T18:51:31.731458Z",
+      "lastSuccess": "2026-11-18T18:51:32.282100Z",
       "count": 10,
       "status": "ok"
     },
@@ -2227,8 +2189,8 @@
       "name": "CNCF",
       "url": "https://www.cncf.io/feed/",
       "kind": "rss",
-      "lastAttempt": "2026-11-18T10:11:51.814988Z",
-      "lastSuccess": "2026-11-18T10:11:52.000567Z",
+      "lastAttempt": "2026-11-18T18:51:32.432247Z",
+      "lastSuccess": "2026-11-18T18:51:32.615044Z",
       "count": 10,
       "status": "ok"
     },
@@ -2237,8 +2199,8 @@
       "name": "OpenDipper 编辑录入",
       "url": "https://api.github.com/repos/X-lab2017/open-dipper/issues?labels=event-approved&state=open&per_page=100",
       "kind": "github-issues",
-      "lastAttempt": "2026-11-18T10:11:52.150699Z",
-      "lastSuccess": "2026-11-18T10:11:52.392609Z",
+      "lastAttempt": "2026-11-18T18:51:32.765180Z",
+      "lastSuccess": "2026-11-18T18:51:33.149996Z",
       "count": 0,
       "status": "ok"
     }
