@@ -1,8 +1,27 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-18T18:51:33.300920Z",
+  "generatedAt": "2026-11-19T01:13:51.165180Z",
   "retentionDays": 90,
   "events": [
+    {
+      "id": "26bb1a5c4026efd9e1d2",
+      "title": "What’s in the SOSS? Podcast #78 – S3E30 From Signal Processing to Open Source Security: Sal Kimmich on Linux Kernel Defense",
+      "summary": "Discover kernel-level defense strategies, nono.sh sandboxing, and AI data security with security architect Sal Kimmich on What's in the SOSS? Podcast #78.",
+      "category": "security",
+      "severity": "info",
+      "occurredAt": "2026-11-18T19:17:12Z",
+      "collectedAt": "2026-11-19T01:13:50.271485Z",
+      "source": "OpenSSF",
+      "sourceId": "openssf",
+      "sourceUrl": "https://openssf.org/podcast/2026/11/18/whats-in-the-soss-podcast-78-s3e30-from-signal-processing-to-open-source-security-sal-kimmich-on-linux-kernel-defense/",
+      "repository": null,
+      "provenance": "automatic",
+      "location": null,
+      "reviewStatus": "source-published",
+      "tags": [
+        "OpenSSF"
+      ]
+    },
     {
       "id": "bb0921ea75d17ca3614c",
       "title": "Optimizing Kubernetes admission control: Where Kyverno’s CEL admission cost actually goes",
@@ -82,7 +101,7 @@
     {
       "id": "c876496118766282bf93",
       "title": "vLLM · v0.34.0",
-      "summary": "# v0.34.0 **1,061 commits from 412 contributors (120 new).** Thank you! ## TL;DR - **10 new models** (Mistral Large 4, MiniMax-M3.1-Flash, Nemotron-3.5-Transcribe, and more!) - **Extensible KV cache is on by default:** vLLM sizes the KV cache from memory actually free after warmup, so most models get a bigger cache and more throughput. - **Model Runner V1 is gone.** Model Runner V2 is now the only GPU runner. - **Big speedups** on Blackwell and M",
+      "summary": "# v0.34.0 **1,061 commits from 412 contributors (120 new).** Thank you! ## TL;DR - **10 new models** (Mistral Large 4, MiniMax-M3.1-Flash, Nemotron-3.5-Transcribe, and more!) - **Extensible KV cache is on by default:** vLLM sizes the KV cache from memory actually free after warmup, so most models get a bigger cache and more throughput - in most cases you should now **remove `gpu_memory_utilization`** from your configs. - **Model Runner V1 is gone",
       "category": "release",
       "severity": "info",
       "occurredAt": "2026-11-16T23:22:00Z",
@@ -2092,25 +2111,6 @@
       "tags": [
         "vLLM"
       ]
-    },
-    {
-      "id": "cd9331288233ad1b570a",
-      "title": "Kubernetes · v1.35.8",
-      "summary": "See [kubernetes-announce@](https://groups.google.com/forum/#!forum/kubernetes-announce). Additional binary downloads are linked in the [CHANGELOG](https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.35.md). See the [CHANGELOG](https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.35.md) for more details.",
-      "category": "release",
-      "severity": "info",
-      "occurredAt": "2026-08-20T18:59:55Z",
-      "collectedAt": "2026-10-24T23:49:06.358536Z",
-      "source": "Kubernetes",
-      "sourceId": "release-kubernetes",
-      "sourceUrl": "https://github.com/kubernetes/kubernetes/releases/tag/v1.35.8",
-      "repository": "kubernetes/kubernetes",
-      "provenance": "automatic",
-      "location": null,
-      "reviewStatus": "source-published",
-      "tags": [
-        "Kubernetes"
-      ]
     }
   ],
   "sources": [
@@ -2119,8 +2119,8 @@
       "name": "Kubernetes",
       "url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-11-18T18:51:26.670600Z",
-      "lastSuccess": "2026-11-18T18:51:27.191285Z",
+      "lastAttempt": "2026-11-19T01:13:45.818011Z",
+      "lastSuccess": "2026-11-19T01:13:46.186865Z",
       "count": 6,
       "status": "ok"
     },
@@ -2129,8 +2129,8 @@
       "name": "PyTorch",
       "url": "https://api.github.com/repos/pytorch/pytorch/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-11-18T18:51:27.341395Z",
-      "lastSuccess": "2026-11-18T18:51:28.302152Z",
+      "lastAttempt": "2026-11-19T01:13:46.337021Z",
+      "lastSuccess": "2026-11-19T01:13:46.890160Z",
       "count": 10,
       "status": "ok"
     },
@@ -2139,8 +2139,8 @@
       "name": "vLLM",
       "url": "https://api.github.com/repos/vllm-project/vllm/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-11-18T18:51:28.452287Z",
-      "lastSuccess": "2026-11-18T18:51:29.246257Z",
+      "lastAttempt": "2026-11-19T01:13:47.040268Z",
+      "lastSuccess": "2026-11-19T01:13:47.531536Z",
       "count": 10,
       "status": "ok"
     },
@@ -2149,8 +2149,8 @@
       "name": "VS Code",
       "url": "https://api.github.com/repos/microsoft/vscode/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-11-18T18:51:29.396399Z",
-      "lastSuccess": "2026-11-18T18:51:29.885177Z",
+      "lastAttempt": "2026-11-19T01:13:47.681676Z",
+      "lastSuccess": "2026-11-19T01:13:48.168722Z",
       "count": 10,
       "status": "ok"
     },
@@ -2159,8 +2159,8 @@
       "name": "Rust",
       "url": "https://api.github.com/repos/rust-lang/rust/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-11-18T18:51:30.035315Z",
-      "lastSuccess": "2026-11-18T18:51:30.605548Z",
+      "lastAttempt": "2026-11-19T01:13:48.318897Z",
+      "lastSuccess": "2026-11-19T01:13:48.704299Z",
       "count": 10,
       "status": "ok"
     },
@@ -2169,8 +2169,8 @@
       "name": "DuckDB",
       "url": "https://api.github.com/repos/duckdb/duckdb/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-11-18T18:51:30.755682Z",
-      "lastSuccess": "2026-11-18T18:51:31.581311Z",
+      "lastAttempt": "2026-11-19T01:13:48.854484Z",
+      "lastSuccess": "2026-11-19T01:13:49.452696Z",
       "count": 10,
       "status": "ok"
     },
@@ -2179,8 +2179,8 @@
       "name": "OpenSSF",
       "url": "https://openssf.org/feed/",
       "kind": "rss",
-      "lastAttempt": "2026-11-18T18:51:31.731458Z",
-      "lastSuccess": "2026-11-18T18:51:32.282100Z",
+      "lastAttempt": "2026-11-19T01:13:49.602863Z",
+      "lastSuccess": "2026-11-19T01:13:50.271873Z",
       "count": 10,
       "status": "ok"
     },
@@ -2189,8 +2189,8 @@
       "name": "CNCF",
       "url": "https://www.cncf.io/feed/",
       "kind": "rss",
-      "lastAttempt": "2026-11-18T18:51:32.432247Z",
-      "lastSuccess": "2026-11-18T18:51:32.615044Z",
+      "lastAttempt": "2026-11-19T01:13:50.422024Z",
+      "lastSuccess": "2026-11-19T01:13:50.615071Z",
       "count": 10,
       "status": "ok"
     },
@@ -2199,8 +2199,8 @@
       "name": "OpenDipper 编辑录入",
       "url": "https://api.github.com/repos/X-lab2017/open-dipper/issues?labels=event-approved&state=open&per_page=100",
       "kind": "github-issues",
-      "lastAttempt": "2026-11-18T18:51:32.765180Z",
-      "lastSuccess": "2026-11-18T18:51:33.149996Z",
+      "lastAttempt": "2026-11-19T01:13:50.765218Z",
+      "lastSuccess": "2026-11-19T01:13:51.014297Z",
       "count": 0,
       "status": "ok"
     }
