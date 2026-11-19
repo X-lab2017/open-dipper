@@ -5,8 +5,8 @@
       "id": "ccf",
       "name": "Conference Partner",
       "url": "https://www.myhuiban.com/conferences/ccf",
-      "sourceUpdatedAt": "2026-11-17T14:50:37+00:00",
-      "capturedAt": "2026-11-18",
+      "sourceUpdatedAt": "2026-11-18T14:30:02+00:00",
+      "capturedAt": "2026-11-19",
       "count": 392
     },
     {
@@ -30,10 +30,10 @@
       "count": 264
     }
   ],
-  "sourceUpdatedAt": "2026-11-17T14:50:37+00:00",
-  "capturedAt": "2026-11-18",
-  "sourceCommit": "c21aaa6ae119112da9b4b14a5334f5a9d653c2d5",
-  "sourceSha256": "96429fe8a94fe1a970531fe866db87e31059d971cef5c5385ec043da24b0e3b7",
+  "sourceUpdatedAt": "2026-11-18T14:30:02+00:00",
+  "capturedAt": "2026-11-19",
+  "sourceCommit": "dd0f3c10b978d4e39eafc5b892b49d64bbd4bfcb",
+  "sourceSha256": "dae06cae7ed0700bd6c738a30f3f6872023d8785a07ecdd6b86cfa6bc8c3bfd5",
   "geographySource": "https://github.com/nvkelso/natural-earth-vector/blob/ca96624a56bd078437bca8184e78163e5039ad19/geojson/ne_50m_populated_places_simple.geojson",
   "rankSource": "https://www.ccf.org.cn/Academic_Evaluation/By_category/",
   "rankVerification": "Third-party labels; not independently reconciled against the full CCF seventh edition.",
