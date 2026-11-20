@@ -1,8 +1,46 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-20T08:40:39.238057Z",
+  "generatedAt": "2026-11-20T17:19:13.088977Z",
   "retentionDays": 90,
   "events": [
+    {
+      "id": "f823ce0012598399029b",
+      "title": "DuckDB · DuckDB v2.0.1 Bugfix Release",
+      "summary": "This is a bug fix release for various issues discovered after we released v2.0.0. Please also refer to the announcement blog post: https://duckdb.org/2026/11/20/announcing-duckdb-201.html ## What's Changed * Merge Rust extension CI groups by @smvv in https://github.com/duckdb/duckdb/pull/27600 * Print the profiler's trailing blank line through the renderer's print sink by @h4nsmuller in https://github.com/duckdb/duckdb/pull/27604 * Fix StagedUplo",
+      "category": "release",
+      "severity": "info",
+      "occurredAt": "2026-11-20T13:34:16Z",
+      "collectedAt": "2026-11-20T17:19:11.295012Z",
+      "source": "DuckDB",
+      "sourceId": "release-duckdb",
+      "sourceUrl": "https://github.com/duckdb/duckdb/releases/tag/v2.0.1",
+      "repository": "duckdb/duckdb",
+      "provenance": "automatic",
+      "location": null,
+      "reviewStatus": "source-published",
+      "tags": [
+        "DuckDB"
+      ]
+    },
+    {
+      "id": "c7e67df5c52b7cd31732",
+      "title": "When a sync window closes: How Argo CD self-heal skipped the migration hook",
+      "summary": "The uncomfortable question A few days ago, a customer asked me a question that sounded simple: “Argo CD said the sync succeeded, so why didn’t our migration run?” They had pushed a release while a deny...",
+      "category": "research",
+      "severity": "info",
+      "occurredAt": "2026-11-20T12:30:00Z",
+      "collectedAt": "2026-11-20T17:19:12.472150Z",
+      "source": "CNCF",
+      "sourceId": "cncf",
+      "sourceUrl": "https://www.cncf.io/blog/2026/11/20/when-a-sync-window-closes-how-argo-cd-self-heal-skipped-the-migration-hook/",
+      "repository": null,
+      "provenance": "automatic",
+      "location": null,
+      "reviewStatus": "source-published",
+      "tags": [
+        "CNCF"
+      ]
+    },
     {
       "id": "77e1d50631eb8f5e48d4",
       "title": "What Did The OpenSSF Global Cyber Policy Working Group Learn in Prague at Open Source Summit Europe?",
@@ -2138,8 +2176,8 @@
       "name": "Kubernetes",
       "url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-11-20T08:40:33.914184Z",
-      "lastSuccess": "2026-11-20T08:40:34.337867Z",
+      "lastAttempt": "2026-11-20T17:19:07.814074Z",
+      "lastSuccess": "2026-11-20T17:19:08.204549Z",
       "count": 6,
       "status": "ok"
     },
@@ -2148,8 +2186,8 @@
       "name": "PyTorch",
       "url": "https://api.github.com/repos/pytorch/pytorch/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-11-20T08:40:34.488049Z",
-      "lastSuccess": "2026-11-20T08:40:35.175417Z",
+      "lastAttempt": "2026-11-20T17:19:08.354678Z",
+      "lastSuccess": "2026-11-20T17:19:08.991873Z",
       "count": 10,
       "status": "ok"
     },
@@ -2158,8 +2196,8 @@
       "name": "vLLM",
       "url": "https://api.github.com/repos/vllm-project/vllm/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-11-20T08:40:35.325573Z",
-      "lastSuccess": "2026-11-20T08:40:35.951635Z",
+      "lastAttempt": "2026-11-20T17:19:09.142115Z",
+      "lastSuccess": "2026-11-20T17:19:09.600126Z",
       "count": 10,
       "status": "ok"
     },
@@ -2168,8 +2206,8 @@
       "name": "VS Code",
       "url": "https://api.github.com/repos/microsoft/vscode/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-11-20T08:40:36.101762Z",
-      "lastSuccess": "2026-11-20T08:40:36.527573Z",
+      "lastAttempt": "2026-11-20T17:19:09.750243Z",
+      "lastSuccess": "2026-11-20T17:19:10.114618Z",
       "count": 10,
       "status": "ok"
     },
@@ -2178,8 +2216,8 @@
       "name": "Rust",
       "url": "https://api.github.com/repos/rust-lang/rust/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-11-20T08:40:36.677978Z",
-      "lastSuccess": "2026-11-20T08:40:37.152792Z",
+      "lastAttempt": "2026-11-20T17:19:10.264736Z",
+      "lastSuccess": "2026-11-20T17:19:10.653805Z",
       "count": 10,
       "status": "ok"
     },
@@ -2188,8 +2226,8 @@
       "name": "DuckDB",
       "url": "https://api.github.com/repos/duckdb/duckdb/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-11-20T08:40:37.302969Z",
-      "lastSuccess": "2026-11-20T08:40:37.883749Z",
+      "lastAttempt": "2026-11-20T17:19:10.803918Z",
+      "lastSuccess": "2026-11-20T17:19:11.301571Z",
       "count": 10,
       "status": "ok"
     },
@@ -2198,8 +2236,8 @@
       "name": "OpenSSF",
       "url": "https://openssf.org/feed/",
       "kind": "rss",
-      "lastAttempt": "2026-11-20T08:40:38.033924Z",
-      "lastSuccess": "2026-11-20T08:40:38.247389Z",
+      "lastAttempt": "2026-11-20T17:19:11.451708Z",
+      "lastSuccess": "2026-11-20T17:19:12.123017Z",
       "count": 10,
       "status": "ok"
     },
@@ -2208,8 +2246,8 @@
       "name": "CNCF",
       "url": "https://www.cncf.io/feed/",
       "kind": "rss",
-      "lastAttempt": "2026-11-20T08:40:38.397555Z",
-      "lastSuccess": "2026-11-20T08:40:38.621682Z",
+      "lastAttempt": "2026-11-20T17:19:12.273150Z",
+      "lastSuccess": "2026-11-20T17:19:12.472502Z",
       "count": 10,
       "status": "ok"
     },
@@ -2218,8 +2256,8 @@
       "name": "OpenDipper 编辑录入",
       "url": "https://api.github.com/repos/X-lab2017/open-dipper/issues?labels=event-approved&state=open&per_page=100",
       "kind": "github-issues",
-      "lastAttempt": "2026-11-20T08:40:38.771841Z",
-      "lastSuccess": "2026-11-20T08:40:39.087494Z",
+      "lastAttempt": "2026-11-20T17:19:12.622628Z",
+      "lastSuccess": "2026-11-20T17:19:12.938260Z",
       "count": 0,
       "status": "ok"
     }
