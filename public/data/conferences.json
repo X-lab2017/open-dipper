@@ -5,8 +5,8 @@
       "id": "ccf",
       "name": "Conference Partner",
       "url": "https://www.myhuiban.com/conferences/ccf",
-      "sourceUpdatedAt": "2026-11-18T14:30:02+00:00",
-      "capturedAt": "2026-11-19",
+      "sourceUpdatedAt": "2026-11-19T14:39:21+00:00",
+      "capturedAt": "2026-11-20",
       "count": 392
     },
     {
@@ -30,10 +30,10 @@
       "count": 264
     }
   ],
-  "sourceUpdatedAt": "2026-11-18T14:30:02+00:00",
-  "capturedAt": "2026-11-19",
-  "sourceCommit": "dd0f3c10b978d4e39eafc5b892b49d64bbd4bfcb",
-  "sourceSha256": "dae06cae7ed0700bd6c738a30f3f6872023d8785a07ecdd6b86cfa6bc8c3bfd5",
+  "sourceUpdatedAt": "2026-11-19T14:39:21+00:00",
+  "capturedAt": "2026-11-20",
+  "sourceCommit": "f80bbc5ec603565b8376778a69c066a69123d8ef",
+  "sourceSha256": "50c056f183c0ba6c065ace28a73f15ad4fbc7d9bb42e04319572edcaebf98124",
   "geographySource": "https://github.com/nvkelso/natural-earth-vector/blob/ca96624a56bd078437bca8184e78163e5039ad19/geojson/ne_50m_populated_places_simple.geojson",
   "rankSource": "https://www.ccf.org.cn/Academic_Evaluation/By_category/",
   "rankVerification": "Third-party labels; not independently reconciled against the full CCF seventh edition.",
@@ -89,14 +89,19 @@
       "rank": "A",
       "kind": "academic",
       "topic": "other",
-      "startsAt": "2026-11-15",
-      "submissionDate": "2026-06-10",
-      "notificationDate": "2026-09-18",
-      "location": "Hong Kong, China",
-      "countryCode": "CHN",
-      "point": null,
+      "startsAt": "2027-06-28",
+      "submissionDate": "2027-01-19",
+      "notificationDate": "2027-04-27",
+      "location": "Rennes, France",
+      "countryCode": "FRA",
+      "point": {
+        "city": "Rennes",
+        "longitude": -1.670012,
+        "latitude": 48.100021,
+        "naturalEarthId": 1159147219
+      },
       "url": "https://www.myhuiban.com/conference/5446",
-      "updatedAt": "2026-03-01",
+      "updatedAt": "2026-11-19",
       "extended": false,
       "source": "Conference Partner (myhuiban.com)",
       "sourceKey": "ccf"
