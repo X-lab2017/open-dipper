@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-20T17:19:13.088977Z",
+  "generatedAt": "2026-11-20T23:22:26.738102Z",
   "retentionDays": 90,
   "events": [
     {
@@ -147,6 +147,25 @@
       "source": "CNCF",
       "sourceId": "cncf",
       "sourceUrl": "https://www.cncf.io/blog/2026/11/17/is-your-opentelemetry-pipeline-becoming-a-performance-bottleneck/",
+      "repository": null,
+      "provenance": "automatic",
+      "location": null,
+      "reviewStatus": "source-published",
+      "tags": [
+        "CNCF"
+      ]
+    },
+    {
+      "id": "b61e5fc2e8a46ff48936",
+      "title": "Your runtime security tool is not your baseline: Silos dressed as autonomy in cloud native teams",
+      "summary": "A deadline creates pressure, and a team decides to solve its part of the problem directly. I once saw this play out in a Kubernetes security initiative. The team had capable engineers, a clear objective and...",
+      "category": "research",
+      "severity": "info",
+      "occurredAt": "2026-11-17T00:00:00Z",
+      "collectedAt": "2026-11-20T23:22:26.032094Z",
+      "source": "CNCF",
+      "sourceId": "cncf",
+      "sourceUrl": "https://www.cncf.io/blog/2026/11/16/your-runtime-security-tool-is-not-your-baseline-silos-dressed-as-autonomy-in-cloud-native-teams/",
       "repository": null,
       "provenance": "automatic",
       "location": null,
@@ -2176,8 +2195,8 @@
       "name": "Kubernetes",
       "url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-11-20T17:19:07.814074Z",
-      "lastSuccess": "2026-11-20T17:19:08.204549Z",
+      "lastAttempt": "2026-11-20T23:22:19.919925Z",
+      "lastSuccess": "2026-11-20T23:22:20.455451Z",
       "count": 6,
       "status": "ok"
     },
@@ -2186,8 +2205,8 @@
       "name": "PyTorch",
       "url": "https://api.github.com/repos/pytorch/pytorch/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-11-20T17:19:08.354678Z",
-      "lastSuccess": "2026-11-20T17:19:08.991873Z",
+      "lastAttempt": "2026-11-20T23:22:20.605590Z",
+      "lastSuccess": "2026-11-20T23:22:21.482164Z",
       "count": 10,
       "status": "ok"
     },
@@ -2196,8 +2215,8 @@
       "name": "vLLM",
       "url": "https://api.github.com/repos/vllm-project/vllm/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-11-20T17:19:09.142115Z",
-      "lastSuccess": "2026-11-20T17:19:09.600126Z",
+      "lastAttempt": "2026-11-20T23:22:21.632312Z",
+      "lastSuccess": "2026-11-20T23:22:22.453833Z",
       "count": 10,
       "status": "ok"
     },
@@ -2206,8 +2225,8 @@
       "name": "VS Code",
       "url": "https://api.github.com/repos/microsoft/vscode/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-11-20T17:19:09.750243Z",
-      "lastSuccess": "2026-11-20T17:19:10.114618Z",
+      "lastAttempt": "2026-11-20T23:22:22.603985Z",
+      "lastSuccess": "2026-11-20T23:22:23.102227Z",
       "count": 10,
       "status": "ok"
     },
@@ -2216,8 +2235,8 @@
       "name": "Rust",
       "url": "https://api.github.com/repos/rust-lang/rust/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-11-20T17:19:10.264736Z",
-      "lastSuccess": "2026-11-20T17:19:10.653805Z",
+      "lastAttempt": "2026-11-20T23:22:23.252401Z",
+      "lastSuccess": "2026-11-20T23:22:23.884273Z",
       "count": 10,
       "status": "ok"
     },
@@ -2226,8 +2245,8 @@
       "name": "DuckDB",
       "url": "https://api.github.com/repos/duckdb/duckdb/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-11-20T17:19:10.803918Z",
-      "lastSuccess": "2026-11-20T17:19:11.301571Z",
+      "lastAttempt": "2026-11-20T23:22:24.034431Z",
+      "lastSuccess": "2026-11-20T23:22:24.927106Z",
       "count": 10,
       "status": "ok"
     },
@@ -2236,8 +2255,8 @@
       "name": "OpenSSF",
       "url": "https://openssf.org/feed/",
       "kind": "rss",
-      "lastAttempt": "2026-11-20T17:19:11.451708Z",
-      "lastSuccess": "2026-11-20T17:19:12.123017Z",
+      "lastAttempt": "2026-11-20T23:22:25.077259Z",
+      "lastSuccess": "2026-11-20T23:22:25.711922Z",
       "count": 10,
       "status": "ok"
     },
@@ -2246,8 +2265,8 @@
       "name": "CNCF",
       "url": "https://www.cncf.io/feed/",
       "kind": "rss",
-      "lastAttempt": "2026-11-20T17:19:12.273150Z",
-      "lastSuccess": "2026-11-20T17:19:12.472502Z",
+      "lastAttempt": "2026-11-20T23:22:25.862067Z",
+      "lastSuccess": "2026-11-20T23:22:26.032345Z",
       "count": 10,
       "status": "ok"
     },
@@ -2256,8 +2275,8 @@
       "name": "OpenDipper 编辑录入",
       "url": "https://api.github.com/repos/X-lab2017/open-dipper/issues?labels=event-approved&state=open&per_page=100",
       "kind": "github-issues",
-      "lastAttempt": "2026-11-20T17:19:12.622628Z",
-      "lastSuccess": "2026-11-20T17:19:12.938260Z",
+      "lastAttempt": "2026-11-20T23:22:26.182510Z",
+      "lastSuccess": "2026-11-20T23:22:26.587277Z",
       "count": 0,
       "status": "ok"
     }
