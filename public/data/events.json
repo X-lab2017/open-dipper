@@ -1,8 +1,27 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-24T11:07:52.581883Z",
+  "generatedAt": "2026-11-24T18:21:42.355009Z",
   "retentionDays": 90,
   "events": [
+    {
+      "id": "37ba1478704d5b694f39",
+      "title": "Just Launched: Finding and Fixing Vulnerabilities Using AI (LFD126)",
+      "summary": "Linux Foundation Education and OpenSSF have launched LFD126, a free, self-paced course teaching developers and security researchers how to prepare code, validate and deduplicate findings, fix vulnerabilities with AI, and build repeatable, long-term defense workflows.",
+      "category": "security",
+      "severity": "info",
+      "occurredAt": "2026-11-24T16:30:54Z",
+      "collectedAt": "2026-11-24T18:21:41.543848Z",
+      "source": "OpenSSF",
+      "sourceId": "openssf",
+      "sourceUrl": "https://openssf.org/blog/2026/11/24/just-launched-finding-and-fixing-vulnerabilities-using-ai-lfd126/",
+      "repository": null,
+      "provenance": "automatic",
+      "location": null,
+      "reviewStatus": "source-published",
+      "tags": [
+        "OpenSSF"
+      ]
+    },
     {
       "id": "f823ce0012598399029b",
       "title": "DuckDB · DuckDB v2.0.1 Bugfix Release",
@@ -2168,25 +2187,6 @@
       "tags": [
         "PyTorch"
       ]
-    },
-    {
-      "id": "4e23143d1b9354333dcb",
-      "title": "Kubernetes · v1.37.0",
-      "summary": "See [kubernetes-announce@](https://groups.google.com/forum/#!forum/kubernetes-announce). Additional binary downloads are linked in the [CHANGELOG](https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.37.md). See the [CHANGELOG](https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.37.md) for more details.",
-      "category": "release",
-      "severity": "info",
-      "occurredAt": "2026-08-26T16:29:12Z",
-      "collectedAt": "2026-10-24T23:49:06.358504Z",
-      "source": "Kubernetes",
-      "sourceId": "release-kubernetes",
-      "sourceUrl": "https://github.com/kubernetes/kubernetes/releases/tag/v1.37.0",
-      "repository": "kubernetes/kubernetes",
-      "provenance": "automatic",
-      "location": null,
-      "reviewStatus": "source-published",
-      "tags": [
-        "Kubernetes"
-      ]
     }
   ],
   "sources": [
@@ -2195,8 +2195,8 @@
       "name": "Kubernetes",
       "url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-11-24T11:07:45.881952Z",
-      "lastSuccess": "2026-11-24T11:07:46.223713Z",
+      "lastAttempt": "2026-11-24T18:21:36.686703Z",
+      "lastSuccess": "2026-11-24T18:21:37.119612Z",
       "count": 6,
       "status": "ok"
     },
@@ -2205,8 +2205,8 @@
       "name": "PyTorch",
       "url": "https://api.github.com/repos/pytorch/pytorch/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-11-24T11:07:46.373850Z",
-      "lastSuccess": "2026-11-24T11:07:48.066279Z",
+      "lastAttempt": "2026-11-24T18:21:37.269784Z",
+      "lastSuccess": "2026-11-24T18:21:37.969064Z",
       "count": 10,
       "status": "ok"
     },
@@ -2215,8 +2215,8 @@
       "name": "vLLM",
       "url": "https://api.github.com/repos/vllm-project/vllm/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-11-24T11:07:48.216418Z",
-      "lastSuccess": "2026-11-24T11:07:48.804656Z",
+      "lastAttempt": "2026-11-24T18:21:38.119225Z",
+      "lastSuccess": "2026-11-24T18:21:38.677589Z",
       "count": 10,
       "status": "ok"
     },
@@ -2225,8 +2225,8 @@
       "name": "VS Code",
       "url": "https://api.github.com/repos/microsoft/vscode/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-11-24T11:07:48.954871Z",
-      "lastSuccess": "2026-11-24T11:07:49.381486Z",
+      "lastAttempt": "2026-11-24T18:21:38.827766Z",
+      "lastSuccess": "2026-11-24T18:21:39.170460Z",
       "count": 10,
       "status": "ok"
     },
@@ -2235,8 +2235,8 @@
       "name": "Rust",
       "url": "https://api.github.com/repos/rust-lang/rust/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-11-24T11:07:49.531603Z",
-      "lastSuccess": "2026-11-24T11:07:49.878606Z",
+      "lastAttempt": "2026-11-24T18:21:39.320628Z",
+      "lastSuccess": "2026-11-24T18:21:39.777022Z",
       "count": 10,
       "status": "ok"
     },
@@ -2245,8 +2245,8 @@
       "name": "DuckDB",
       "url": "https://api.github.com/repos/duckdb/duckdb/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-11-24T11:07:50.028738Z",
-      "lastSuccess": "2026-11-24T11:07:50.902422Z",
+      "lastAttempt": "2026-11-24T18:21:39.927165Z",
+      "lastSuccess": "2026-11-24T18:21:40.562481Z",
       "count": 10,
       "status": "ok"
     },
@@ -2255,8 +2255,8 @@
       "name": "OpenSSF",
       "url": "https://openssf.org/feed/",
       "kind": "rss",
-      "lastAttempt": "2026-11-24T11:07:51.052556Z",
-      "lastSuccess": "2026-11-24T11:07:51.750257Z",
+      "lastAttempt": "2026-11-24T18:21:40.712629Z",
+      "lastSuccess": "2026-11-24T18:21:41.544127Z",
       "count": 10,
       "status": "ok"
     },
@@ -2265,8 +2265,8 @@
       "name": "CNCF",
       "url": "https://www.cncf.io/feed/",
       "kind": "rss",
-      "lastAttempt": "2026-11-24T11:07:51.900393Z",
-      "lastSuccess": "2026-11-24T11:07:52.007304Z",
+      "lastAttempt": "2026-11-24T18:21:41.694263Z",
+      "lastSuccess": "2026-11-24T18:21:41.799132Z",
       "count": 10,
       "status": "ok"
     },
@@ -2275,8 +2275,8 @@
       "name": "OpenDipper 编辑录入",
       "url": "https://api.github.com/repos/X-lab2017/open-dipper/issues?labels=event-approved&state=open&per_page=100",
       "kind": "github-issues",
-      "lastAttempt": "2026-11-24T11:07:52.157438Z",
-      "lastSuccess": "2026-11-24T11:07:52.431312Z",
+      "lastAttempt": "2026-11-24T18:21:41.949267Z",
+      "lastSuccess": "2026-11-24T18:21:42.204414Z",
       "count": 0,
       "status": "ok"
     }
