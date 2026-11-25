@@ -1,8 +1,65 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-25T12:57:54.413832Z",
+  "generatedAt": "2026-11-25T22:33:56.250424Z",
   "retentionDays": 90,
   "events": [
+    {
+      "id": "02fc05a13e550e3a4a43",
+      "title": "Kubernetes · v1.35.11",
+      "summary": "See [kubernetes-announce@](https://groups.google.com/forum/#!forum/kubernetes-announce). Additional binary downloads are linked in the [CHANGELOG](https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.35.md). See the [CHANGELOG](https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.35.md) for more details.",
+      "category": "release",
+      "severity": "info",
+      "occurredAt": "2026-11-25T14:57:49Z",
+      "collectedAt": "2026-11-25T22:33:51.398612Z",
+      "source": "Kubernetes",
+      "sourceId": "release-kubernetes",
+      "sourceUrl": "https://github.com/kubernetes/kubernetes/releases/tag/v1.35.11",
+      "repository": "kubernetes/kubernetes",
+      "provenance": "automatic",
+      "location": null,
+      "reviewStatus": "source-published",
+      "tags": [
+        "Kubernetes"
+      ]
+    },
+    {
+      "id": "4dc14315379e83ebc2e0",
+      "title": "Kubernetes · v1.36.7",
+      "summary": "See [kubernetes-announce@](https://groups.google.com/forum/#!forum/kubernetes-announce). Additional binary downloads are linked in the [CHANGELOG](https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.36.md). See the [CHANGELOG](https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.36.md) for more details.",
+      "category": "release",
+      "severity": "info",
+      "occurredAt": "2026-11-25T14:57:06Z",
+      "collectedAt": "2026-11-25T22:33:51.398579Z",
+      "source": "Kubernetes",
+      "sourceId": "release-kubernetes",
+      "sourceUrl": "https://github.com/kubernetes/kubernetes/releases/tag/v1.36.7",
+      "repository": "kubernetes/kubernetes",
+      "provenance": "automatic",
+      "location": null,
+      "reviewStatus": "source-published",
+      "tags": [
+        "Kubernetes"
+      ]
+    },
+    {
+      "id": "6a22f2e18ce210873f06",
+      "title": "Kubernetes · v1.37.3",
+      "summary": "See [kubernetes-announce@](https://groups.google.com/forum/#!forum/kubernetes-announce). Additional binary downloads are linked in the [CHANGELOG](https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.37.md). See the [CHANGELOG](https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.37.md) for more details.",
+      "category": "release",
+      "severity": "info",
+      "occurredAt": "2026-11-25T14:55:41Z",
+      "collectedAt": "2026-11-25T22:33:51.398527Z",
+      "source": "Kubernetes",
+      "sourceId": "release-kubernetes",
+      "sourceUrl": "https://github.com/kubernetes/kubernetes/releases/tag/v1.37.3",
+      "repository": "kubernetes/kubernetes",
+      "provenance": "automatic",
+      "location": null,
+      "reviewStatus": "source-published",
+      "tags": [
+        "Kubernetes"
+      ]
+    },
     {
       "id": "47d81b03cfcf66d4917a",
       "title": "🚀 The story behind “Drone 2”: My KubeCon + CloudNativeCon North America 2026 keynote",
@@ -43,7 +100,7 @@
     },
     {
       "id": "c1880bf52a31ba2ae241",
-      "title": "Establishing the OpenSSF Japan Working Group: Connecting Japan with the Global Community 和訳日本とグローバルをつなぐOpenSSF Japan Working Groupの設立",
+      "title": "Establishing the OpenSSF Japan Working Group: Connecting Japan with the Global Community",
       "summary": "We are pleased to announce the establishment of the OpenSSF Japan Working Group (Japan WG), which will serve as a two-way bridge between stakeholders in Japan and the global OpenSSF community.",
       "category": "security",
       "severity": "info",
@@ -2252,9 +2309,9 @@
       "name": "Kubernetes",
       "url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-11-25T12:57:49.742583Z",
-      "lastSuccess": "2026-11-25T12:57:50.083547Z",
-      "count": 6,
+      "lastAttempt": "2026-11-25T22:33:51.096379Z",
+      "lastSuccess": "2026-11-25T22:33:51.398759Z",
+      "count": 7,
       "status": "ok"
     },
     {
@@ -2262,8 +2319,8 @@
       "name": "PyTorch",
       "url": "https://api.github.com/repos/pytorch/pytorch/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-11-25T12:57:50.233667Z",
-      "lastSuccess": "2026-11-25T12:57:50.712907Z",
+      "lastAttempt": "2026-11-25T22:33:51.548856Z",
+      "lastSuccess": "2026-11-25T22:33:52.016970Z",
       "count": 10,
       "status": "ok"
     },
@@ -2272,8 +2329,8 @@
       "name": "vLLM",
       "url": "https://api.github.com/repos/vllm-project/vllm/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-11-25T12:57:50.863064Z",
-      "lastSuccess": "2026-11-25T12:57:51.281608Z",
+      "lastAttempt": "2026-11-25T22:33:52.167099Z",
+      "lastSuccess": "2026-11-25T22:33:52.687070Z",
       "count": 10,
       "status": "ok"
     },
@@ -2282,8 +2339,8 @@
       "name": "VS Code",
       "url": "https://api.github.com/repos/microsoft/vscode/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-11-25T12:57:51.431771Z",
-      "lastSuccess": "2026-11-25T12:57:51.757130Z",
+      "lastAttempt": "2026-11-25T22:33:52.837183Z",
+      "lastSuccess": "2026-11-25T22:33:53.142666Z",
       "count": 10,
       "status": "ok"
     },
@@ -2292,8 +2349,8 @@
       "name": "Rust",
       "url": "https://api.github.com/repos/rust-lang/rust/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-11-25T12:57:51.907333Z",
-      "lastSuccess": "2026-11-25T12:57:52.262800Z",
+      "lastAttempt": "2026-11-25T22:33:53.292793Z",
+      "lastSuccess": "2026-11-25T22:33:53.636032Z",
       "count": 10,
       "status": "ok"
     },
@@ -2302,8 +2359,8 @@
       "name": "DuckDB",
       "url": "https://api.github.com/repos/duckdb/duckdb/releases?per_page=10",
       "kind": "github-releases",
-      "lastAttempt": "2026-11-25T12:57:52.412980Z",
-      "lastSuccess": "2026-11-25T12:57:52.842868Z",
+      "lastAttempt": "2026-11-25T22:33:53.786149Z",
+      "lastSuccess": "2026-11-25T22:33:54.306116Z",
       "count": 10,
       "status": "ok"
     },
@@ -2312,8 +2369,8 @@
       "name": "OpenSSF",
       "url": "https://openssf.org/feed/",
       "kind": "rss",
-      "lastAttempt": "2026-11-25T12:57:52.993010Z",
-      "lastSuccess": "2026-11-25T12:57:53.663258Z",
+      "lastAttempt": "2026-11-25T22:33:54.456248Z",
+      "lastSuccess": "2026-11-25T22:33:55.048454Z",
       "count": 10,
       "status": "ok"
     },
@@ -2322,8 +2379,8 @@
       "name": "CNCF",
       "url": "https://www.cncf.io/feed/",
       "kind": "rss",
-      "lastAttempt": "2026-11-25T12:57:53.813408Z",
-      "lastSuccess": "2026-11-25T12:57:53.892649Z",
+      "lastAttempt": "2026-11-25T22:33:55.198594Z",
+      "lastSuccess": "2026-11-25T22:33:55.714904Z",
       "count": 10,
       "status": "ok"
     },
@@ -2332,8 +2389,8 @@
       "name": "OpenDipper 编辑录入",
       "url": "https://api.github.com/repos/X-lab2017/open-dipper/issues?labels=event-approved&state=open&per_page=100",
       "kind": "github-issues",
-      "lastAttempt": "2026-11-25T12:57:54.042778Z",
-      "lastSuccess": "2026-11-25T12:57:54.263213Z",
+      "lastAttempt": "2026-11-25T22:33:55.865026Z",
+      "lastSuccess": "2026-11-25T22:33:56.099392Z",
       "count": 0,
       "status": "ok"
     }
