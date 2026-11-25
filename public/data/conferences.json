@@ -5,8 +5,8 @@
       "id": "ccf",
       "name": "Conference Partner",
       "url": "https://www.myhuiban.com/conferences/ccf",
-      "sourceUpdatedAt": "2026-11-22T13:33:55+00:00",
-      "capturedAt": "2026-11-23",
+      "sourceUpdatedAt": "2026-11-24T16:18:48+00:00",
+      "capturedAt": "2026-11-25",
       "count": 392
     },
     {
@@ -30,10 +30,10 @@
       "count": 264
     }
   ],
-  "sourceUpdatedAt": "2026-11-22T13:33:55+00:00",
-  "capturedAt": "2026-11-23",
-  "sourceCommit": "296ef6d59a780794d6c22ee1d0e7d19152de9e4d",
-  "sourceSha256": "106441ea0a4cf69325f31309153c701a9361bae2062350a09a7eb97754b941bd",
+  "sourceUpdatedAt": "2026-11-24T16:18:48+00:00",
+  "capturedAt": "2026-11-25",
+  "sourceCommit": "8111cebc0536fb9681d570da29b8175cf1327195",
+  "sourceSha256": "b3d1528612a5bbdda1ed4fa055c615b0991b1e125727bedae01ed14e5b5f36fc",
   "geographySource": "https://github.com/nvkelso/natural-earth-vector/blob/ca96624a56bd078437bca8184e78163e5039ad19/geojson/ne_50m_populated_places_simple.geojson",
   "rankSource": "https://www.ccf.org.cn/Academic_Evaluation/By_category/",
   "rankVerification": "Third-party labels; not independently reconciled against the full CCF seventh edition.",
@@ -5546,8 +5546,8 @@
       "kind": "academic",
       "topic": "security",
       "startsAt": "2027-10-15",
-      "submissionDate": "2027-03-01",
-      "notificationDate": "2027-05-01",
+      "submissionDate": "2027-04-15",
+      "notificationDate": "2027-06-01",
       "location": "Hefei, China",
       "countryCode": "CHN",
       "point": {
@@ -5557,7 +5557,7 @@
         "naturalEarthId": 1159149793
       },
       "url": "https://www.myhuiban.com/conference/368",
-      "updatedAt": "2026-09-04",
+      "updatedAt": "2026-11-23",
       "extended": false,
       "source": "Conference Partner (myhuiban.com)",
       "sourceKey": "ccf"
@@ -6802,6 +6802,25 @@
       "sourceKey": "ccf"
     },
     {
+      "id": "huiban-3496",
+      "short": "IEEE JCC",
+      "name": "IEEE International Conference on JointCloud Computing",
+      "rank": "C",
+      "kind": "academic",
+      "topic": "systems",
+      "startsAt": "2027-06-08",
+      "submissionDate": "2027-01-25",
+      "notificationDate": "2027-04-15",
+      "location": "Oxford, UK",
+      "countryCode": null,
+      "point": null,
+      "url": "https://www.myhuiban.com/conference/3496",
+      "updatedAt": "2026-11-23",
+      "extended": false,
+      "source": "Conference Partner (myhuiban.com)",
+      "sourceKey": "ccf"
+    },
+    {
       "id": "huiban-4767",
       "short": "IEEE SSE",
       "name": "IEEE International Conference on Software Services Engineering",
@@ -7338,30 +7357,6 @@
       },
       "url": "https://www.myhuiban.com/conference/1337",
       "updatedAt": "2026-07-08",
-      "extended": false,
-      "source": "Conference Partner (myhuiban.com)",
-      "sourceKey": "ccf"
-    },
-    {
-      "id": "huiban-3496",
-      "short": "JCC",
-      "name": "IEEE International Conference on JointCloud Computing",
-      "rank": "C",
-      "kind": "academic",
-      "topic": "systems",
-      "startsAt": "2026-07-27",
-      "submissionDate": "2026-04-10",
-      "notificationDate": "2026-05-15",
-      "location": "Tokyo, Japan",
-      "countryCode": "JPN",
-      "point": {
-        "city": "Tokyo",
-        "longitude": 139.749462,
-        "latitude": 35.686963,
-        "naturalEarthId": 1159151609
-      },
-      "url": "https://www.myhuiban.com/conference/3496",
-      "updatedAt": "2026-03-11",
       "extended": false,
       "source": "Conference Partner (myhuiban.com)",
       "sourceKey": "ccf"
@@ -8731,14 +8726,19 @@
       "rank": "C",
       "kind": "academic",
       "topic": "security",
-      "startsAt": "2025-06-30",
-      "submissionDate": "2025-03-12",
-      "notificationDate": "2025-04-23",
-      "location": "Arlington, Virginia, USA",
-      "countryCode": "USA",
-      "point": null,
+      "startsAt": "2027-06-29",
+      "submissionDate": "2027-02-15",
+      "notificationDate": "2027-04-12",
+      "location": "Singapore",
+      "countryCode": "SGP",
+      "point": {
+        "city": "Singapore",
+        "longitude": 103.853875,
+        "latitude": 1.294979,
+        "naturalEarthId": 1159151627
+      },
       "url": "https://www.myhuiban.com/conference/586",
-      "updatedAt": "2024-11-24",
+      "updatedAt": "2026-11-23",
       "extended": false,
       "source": "Conference Partner (myhuiban.com)",
       "sourceKey": "ccf"
